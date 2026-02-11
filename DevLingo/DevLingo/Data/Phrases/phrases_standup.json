@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "standup_001",
+    "english": "I'm working on the login feature today.",
+    "context": "Sharing your current task during daily standup",
+    "translations": {
+      "pt-BR": "Estou trabalhando na funcionalidade de login hoje.",
+      "es": "Estoy trabajando en la función de login hoy.",
+      "fr": "Je travaille sur la fonctionnalité de connexion aujourd'hui.",
+      "de": "Ich arbeite heute an der Login-Funktion.",
+      "it": "Sto lavorando sulla funzionalità di login oggi.",
+      "ja": "今日はログイン機能に取り組んでいます。",
+      "ko": "오늘은 로그인 기능을 작업하고 있습니다.",
+      "zh-Hans": "我今天在做登录功能。",
+      "hi": "मैं आज लॉगिन फीचर पर काम कर रहा हूं।",
+      "tr": "Bugün giriş özelliği üzerinde çalışıyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_002",
+    "english": "Yesterday I finished the API integration.",
+    "context": "Reporting what you completed the previous day",
+    "translations": {
+      "pt-BR": "Ontem eu terminei a integração da API.",
+      "es": "Ayer terminé la integración de la API.",
+      "fr": "Hier j'ai terminé l'intégration de l'API.",
+      "de": "Gestern habe ich die API-Integration abgeschlossen.",
+      "it": "Ieri ho finito l'integrazione dell'API.",
+      "ja": "昨日APIの統合を完了しました。",
+      "ko": "어제 API 통합을 완료했습니다.",
+      "zh-Hans": "昨天我完成了API集成。",
+      "hi": "कल मैंने API इंटीग्रेशन पूरा किया।",
+      "tr": "Dün API entegrasyonunu tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_003",
+    "english": "No blockers on my end.",
+    "context": "Confirming you have no impediments",
+    "translations": {
+      "pt-BR": "Sem bloqueios do meu lado.",
+      "es": "Sin bloqueos de mi parte.",
+      "fr": "Pas de blocages de mon côté.",
+      "de": "Keine Blocker auf meiner Seite.",
+      "it": "Nessun blocco da parte mia.",
+      "ja": "私の方にブロッカーはありません。",
+      "ko": "제 쪽에는 블로커가 없습니다.",
+      "zh-Hans": "我这边没有阻碍。",
+      "hi": "मेरी तरफ से कोई ब्लॉकर नहीं है।",
+      "tr": "Benim tarafımda engel yok."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_004",
+    "english": "I'll continue with the same task.",
+    "context": "Indicating you're still working on the same item",
+    "translations": {
+      "pt-BR": "Vou continuar com a mesma tarefa.",
+      "es": "Continuaré con la misma tarea.",
+      "fr": "Je vais continuer avec la même tâche.",
+      "de": "Ich mache mit der gleichen Aufgabe weiter.",
+      "it": "Continuerò con lo stesso compito.",
+      "ja": "同じタスクを続けます。",
+      "ko": "같은 작업을 계속하겠습니다.",
+      "zh-Hans": "我会继续做同一个任务。",
+      "hi": "मैं उसी टास्क पर काम जारी रखूंगा।",
+      "tr": "Aynı görevle devam edeceğim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_005",
+    "english": "I'm almost done with my ticket.",
+    "context": "Letting the team know you're close to finishing",
+    "translations": {
+      "pt-BR": "Estou quase terminando meu ticket.",
+      "es": "Estoy casi terminando mi ticket.",
+      "fr": "J'ai presque fini mon ticket.",
+      "de": "Ich bin fast fertig mit meinem Ticket.",
+      "it": "Ho quasi finito il mio ticket.",
+      "ja": "チケットはほぼ完了です。",
+      "ko": "티켓이 거의 완료됐습니다.",
+      "zh-Hans": "我的工单快做完了。",
+      "hi": "मैं अपने टिकट को लगभग पूरा कर चुका हूं।",
+      "tr": "Ticket'ımı neredeyse bitirdim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_006",
+    "english": "I'll pick that up after lunch.",
+    "context": "Committing to start a task later",
+    "translations": {
+      "pt-BR": "Vou pegar isso depois do almoço.",
+      "es": "Lo tomaré después del almuerzo.",
+      "fr": "Je m'en occuperai après le déjeuner.",
+      "de": "Das nehme ich nach dem Mittagessen.",
+      "it": "Lo prenderò dopo pranzo.",
+      "ja": "昼食後にそれに取り掛かります。",
+      "ko": "점심 후에 그걸 시작하겠습니다.",
+      "zh-Hans": "我午饭后开始做那个。",
+      "hi": "मैं लंच के बाद वो शुरू करूंगा।",
+      "tr": "Öğle yemeğinden sonra ona başlayacağım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_007",
+    "english": "I pushed my changes yesterday.",
+    "context": "Telling the team you committed code",
+    "translations": {
+      "pt-BR": "Eu fiz push das minhas alterações ontem.",
+      "es": "Hice push de mis cambios ayer.",
+      "fr": "J'ai poussé mes modifications hier.",
+      "de": "Ich habe meine Änderungen gestern gepusht.",
+      "it": "Ho pushato le mie modifiche ieri.",
+      "ja": "昨日変更をプッシュしました。",
+      "ko": "어제 변경사항을 푸시했습니다.",
+      "zh-Hans": "我昨天推送了我的更改。",
+      "hi": "मैंने कल अपने बदलाव पुश किए।",
+      "tr": "Dün değişikliklerimi push ettim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_008",
+    "english": "The tests are passing now.",
+    "context": "Confirming your tests are green",
+    "translations": {
+      "pt-BR": "Os testes estão passando agora.",
+      "es": "Las pruebas están pasando ahora.",
+      "fr": "Les tests passent maintenant.",
+      "de": "Die Tests laufen jetzt durch.",
+      "it": "I test passano ora.",
+      "ja": "テストは通っています。",
+      "ko": "테스트가 통과하고 있습니다.",
+      "zh-Hans": "测试现在通过了。",
+      "hi": "टेस्ट अब पास हो रहे हैं।",
+      "tr": "Testler artık geçiyor."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_009",
+    "english": "I need to update the documentation.",
+    "context": "Mentioning a documentation task",
+    "translations": {
+      "pt-BR": "Preciso atualizar a documentação.",
+      "es": "Necesito actualizar la documentación.",
+      "fr": "Je dois mettre à jour la documentation.",
+      "de": "Ich muss die Dokumentation aktualisieren.",
+      "it": "Devo aggiornare la documentazione.",
+      "ja": "ドキュメントを更新する必要があります。",
+      "ko": "문서를 업데이트해야 합니다.",
+      "zh-Hans": "我需要更新文档。",
+      "hi": "मुझे डॉक्यूमेंटेशन अपडेट करना है।",
+      "tr": "Dokümantasyonu güncellemem gerekiyor."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_010",
+    "english": "I'm reviewing the pull request.",
+    "context": "Telling the team you're doing code review",
+    "translations": {
+      "pt-BR": "Estou revisando o pull request.",
+      "es": "Estoy revisando el pull request.",
+      "fr": "Je suis en train de revoir la pull request.",
+      "de": "Ich überprüfe den Pull Request.",
+      "it": "Sto revisionando la pull request.",
+      "ja": "プルリクエストをレビューしています。",
+      "ko": "풀 리퀘스트를 리뷰하고 있습니다.",
+      "zh-Hans": "我在审查拉取请求。",
+      "hi": "मैं पुल रिक्वेस्ट रिव्यू कर रहा हूं।",
+      "tr": "Pull request'i inceliyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_011",
+    "english": "I'll start the new sprint item today.",
+    "context": "Planning to begin a new task",
+    "translations": {
+      "pt-BR": "Vou começar o novo item do sprint hoje.",
+      "es": "Comenzaré el nuevo ítem del sprint hoy.",
+      "fr": "Je vais commencer le nouvel item du sprint aujourd'hui.",
+      "de": "Ich beginne heute mit dem neuen Sprint-Item.",
+      "it": "Inizierò il nuovo item dello sprint oggi.",
+      "ja": "今日新しいスプリントアイテムを始めます。",
+      "ko": "오늘 새 스프린트 항목을 시작하겠습니다.",
+      "zh-Hans": "我今天开始新的迭代任务。",
+      "hi": "मैं आज नया स्प्रिंट आइटम शुरू करूंगा।",
+      "tr": "Bugün yeni sprint öğesine başlayacağım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_012",
+    "english": "Everything is on track.",
+    "context": "Confirming progress is going well",
+    "translations": {
+      "pt-BR": "Tudo está no caminho certo.",
+      "es": "Todo va por buen camino.",
+      "fr": "Tout est en bonne voie.",
+      "de": "Alles ist auf Kurs.",
+      "it": "Tutto procede bene.",
+      "ja": "すべて順調です。",
+      "ko": "모든 게 순조롭습니다.",
+      "zh-Hans": "一切都在正轨上。",
+      "hi": "सब कुछ ठीक चल रहा है।",
+      "tr": "Her şey yolunda."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_013",
+    "english": "I fixed the bug in the checkout flow.",
+    "context": "Reporting a bug fix",
+    "translations": {
+      "pt-BR": "Corrigi o bug no fluxo de checkout.",
+      "es": "Arreglé el bug en el flujo de checkout.",
+      "fr": "J'ai corrigé le bug dans le flux de paiement.",
+      "de": "Ich habe den Bug im Checkout-Flow behoben.",
+      "it": "Ho corretto il bug nel flusso di checkout.",
+      "ja": "チェックアウトフローのバグを修正しました。",
+      "ko": "결제 흐름의 버그를 수정했습니다.",
+      "zh-Hans": "我修复了结账流程的bug。",
+      "hi": "मैंने चेकआउट फ्लो का बग ठीक किया।",
+      "tr": "Ödeme akışındaki hatayı düzelttim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_014",
+    "english": "I'll be working on the database migration.",
+    "context": "Announcing your planned task",
+    "translations": {
+      "pt-BR": "Vou trabalhar na migração do banco de dados.",
+      "es": "Trabajaré en la migración de la base de datos.",
+      "fr": "Je vais travailler sur la migration de la base de données.",
+      "de": "Ich werde an der Datenbankmigration arbeiten.",
+      "it": "Lavorerò sulla migrazione del database.",
+      "ja": "データベースの移行作業をします。",
+      "ko": "데이터베이스 마이그레이션 작업을 하겠습니다.",
+      "zh-Hans": "我会做数据库迁移。",
+      "hi": "मैं डेटाबेस माइग्रेशन पर काम करूंगा।",
+      "tr": "Veritabanı migrasyonu üzerinde çalışacağım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_015",
+    "english": "I created a new branch for the feature.",
+    "context": "Telling the team about your branch",
+    "translations": {
+      "pt-BR": "Criei uma nova branch para a feature.",
+      "es": "Creé una nueva rama para la funcionalidad.",
+      "fr": "J'ai créé une nouvelle branche pour la fonctionnalité.",
+      "de": "Ich habe einen neuen Branch für das Feature erstellt.",
+      "it": "Ho creato un nuovo branch per la funzionalità.",
+      "ja": "機能用の新しいブランチを作成しました。",
+      "ko": "기능을 위한 새 브랜치를 만들었습니다.",
+      "zh-Hans": "我为这个功能创建了一个新分支。",
+      "hi": "मैंने फीचर के लिए नई ब्रांच बनाई।",
+      "tr": "Özellik için yeni bir dal oluşturdum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_016",
+    "english": "I'm waiting for the design to be finalized.",
+    "context": "Explaining a dependency on design team",
+    "translations": {
+      "pt-BR": "Estou esperando o design ser finalizado.",
+      "es": "Estoy esperando que el diseño sea finalizado.",
+      "fr": "J'attends que le design soit finalisé.",
+      "de": "Ich warte darauf, dass das Design fertiggestellt wird.",
+      "it": "Sto aspettando che il design venga finalizzato.",
+      "ja": "デザインの確定を待っています。",
+      "ko": "디자인이 확정되기를 기다리고 있습니다.",
+      "zh-Hans": "我在等设计定稿。",
+      "hi": "मैं डिज़ाइन फाइनल होने का इंतज़ार कर रहा हूं।",
+      "tr": "Tasarımın tamamlanmasını bekliyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_017",
+    "english": "I'll move this ticket to done.",
+    "context": "Closing a completed task",
+    "translations": {
+      "pt-BR": "Vou mover esse ticket para concluído.",
+      "es": "Moveré este ticket a completado.",
+      "fr": "Je vais déplacer ce ticket en terminé.",
+      "de": "Ich verschiebe dieses Ticket auf erledigt.",
+      "it": "Sposterò questo ticket a completato.",
+      "ja": "このチケットを完了に移します。",
+      "ko": "이 티켓을 완료로 옮기겠습니다.",
+      "zh-Hans": "我把这个工单移到已完成。",
+      "hi": "मैं इस टिकट को डन में मूव करूंगा।",
+      "tr": "Bu ticket'ı tamamlandı'ya taşıyacağım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_018",
+    "english": "I need to write more tests.",
+    "context": "Mentioning testing work needed",
+    "translations": {
+      "pt-BR": "Preciso escrever mais testes.",
+      "es": "Necesito escribir más pruebas.",
+      "fr": "Je dois écrire plus de tests.",
+      "de": "Ich muss mehr Tests schreiben.",
+      "it": "Devo scrivere più test.",
+      "ja": "もっとテストを書く必要があります。",
+      "ko": "테스트를 더 작성해야 합니다.",
+      "zh-Hans": "我需要写更多测试。",
+      "hi": "मुझे और टेस्ट लिखने हैं।",
+      "tr": "Daha fazla test yazmam gerekiyor."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_019",
+    "english": "The deployment went smoothly.",
+    "context": "Reporting a successful deployment",
+    "translations": {
+      "pt-BR": "O deploy foi tranquilo.",
+      "es": "El despliegue fue bien.",
+      "fr": "Le déploiement s'est bien passé.",
+      "de": "Das Deployment lief reibungslos.",
+      "it": "Il deployment è andato liscio.",
+      "ja": "デプロイは順調でした。",
+      "ko": "배포가 순조롭게 진행됐습니다.",
+      "zh-Hans": "部署很顺利。",
+      "hi": "डिप्लॉयमेंट सुचारू रूप से हुआ।",
+      "tr": "Dağıtım sorunsuz geçti."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_020",
+    "english": "I'm pairing with Alex on this.",
+    "context": "Telling the team about collaboration",
+    "translations": {
+      "pt-BR": "Estou pareando com Alex nisso.",
+      "es": "Estoy haciendo pair con Alex en esto.",
+      "fr": "Je fais du pair programming avec Alex là-dessus.",
+      "de": "Ich arbeite mit Alex zusammen daran.",
+      "it": "Sto facendo pair programming con Alex su questo.",
+      "ja": "これについてAlexとペアプログラミングしています。",
+      "ko": "이것에 대해 Alex와 페어링하고 있습니다.",
+      "zh-Hans": "我在和Alex一起结对编程。",
+      "hi": "मैं इस पर Alex के साथ पेयरिंग कर रहा हूं।",
+      "tr": "Bu konuda Alex ile eşleşiyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_021",
+    "english": "I updated the Jira board.",
+    "context": "Confirming project board is current",
+    "translations": {
+      "pt-BR": "Atualizei o quadro do Jira.",
+      "es": "Actualicé el tablero de Jira.",
+      "fr": "J'ai mis à jour le tableau Jira.",
+      "de": "Ich habe das Jira-Board aktualisiert.",
+      "it": "Ho aggiornato la board di Jira.",
+      "ja": "Jiraボードを更新しました。",
+      "ko": "지라 보드를 업데이트했습니다.",
+      "zh-Hans": "我更新了Jira看板。",
+      "hi": "मैंने जीरा बोर्ड अपडेट किया।",
+      "tr": "Jira panosunu güncelledim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_022",
+    "english": "Good morning, everyone.",
+    "context": "Greeting the team at standup",
+    "translations": {
+      "pt-BR": "Bom dia, pessoal.",
+      "es": "Buenos días a todos.",
+      "fr": "Bonjour à tous.",
+      "de": "Guten Morgen, alle zusammen.",
+      "it": "Buongiorno a tutti.",
+      "ja": "おはようございます、皆さん。",
+      "ko": "안녕하세요, 여러분.",
+      "zh-Hans": "大家早上好。",
+      "hi": "सबको सुप्रभात।",
+      "tr": "Günaydın, herkese."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_023",
+    "english": "That's all from me.",
+    "context": "Signaling you're done with your update",
+    "translations": {
+      "pt-BR": "É isso da minha parte.",
+      "es": "Eso es todo de mi parte.",
+      "fr": "C'est tout de mon côté.",
+      "de": "Das ist alles von mir.",
+      "it": "Questo è tutto da parte mia.",
+      "ja": "私からは以上です。",
+      "ko": "제 쪽에서는 이상입니다.",
+      "zh-Hans": "我这边就这些。",
+      "hi": "मेरी तरफ से बस इतना।",
+      "tr": "Benden bu kadar."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_024",
+    "english": "I'm on track to finish by Friday.",
+    "context": "Giving a timeline estimate",
+    "translations": {
+      "pt-BR": "Estou no caminho para terminar até sexta.",
+      "es": "Estoy en camino de terminar para el viernes.",
+      "fr": "Je suis en bonne voie pour finir vendredi.",
+      "de": "Ich bin auf Kurs, bis Freitag fertig zu sein.",
+      "it": "Sono in linea per finire entro venerdì.",
+      "ja": "金曜日までに終わる見込みです。",
+      "ko": "금요일까지 끝낼 수 있을 것 같습니다.",
+      "zh-Hans": "我预计周五前能完成。",
+      "hi": "मैं शुक्रवार तक पूरा करने की राह पर हूं।",
+      "tr": "Cuma'ya kadar bitirmeye gidiyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_025",
+    "english": "I refactored the service layer.",
+    "context": "Reporting code improvement work",
+    "translations": {
+      "pt-BR": "Refatorei a camada de serviço.",
+      "es": "Refactoricé la capa de servicio.",
+      "fr": "J'ai refactorisé la couche de service.",
+      "de": "Ich habe die Service-Schicht refaktoriert.",
+      "it": "Ho refactorizzato il livello di servizio.",
+      "ja": "サービス層をリファクタリングしました。",
+      "ko": "서비스 레이어를 리팩토링했습니다.",
+      "zh-Hans": "我重构了服务层。",
+      "hi": "मैंने सर्विस लेयर को रिफैक्टर किया।",
+      "tr": "Servis katmanını yeniden düzenledim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_026",
+    "english": "I need access to the staging server.",
+    "context": "Requesting permissions",
+    "translations": {
+      "pt-BR": "Preciso de acesso ao servidor de staging.",
+      "es": "Necesito acceso al servidor de staging.",
+      "fr": "J'ai besoin d'accès au serveur de staging.",
+      "de": "Ich brauche Zugang zum Staging-Server.",
+      "it": "Ho bisogno dell'accesso al server di staging.",
+      "ja": "ステージングサーバーへのアクセスが必要です。",
+      "ko": "스테이징 서버에 대한 접근이 필요합니다.",
+      "zh-Hans": "我需要访问暂存服务器。",
+      "hi": "मुझे स्टेजिंग सर्वर का एक्सेस चाहिए।",
+      "tr": "Staging sunucusuna erişime ihtiyacım var."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_027",
+    "english": "I'll add error handling to that endpoint.",
+    "context": "Planning to improve code robustness",
+    "translations": {
+      "pt-BR": "Vou adicionar tratamento de erro nesse endpoint.",
+      "es": "Agregaré manejo de errores a ese endpoint.",
+      "fr": "Je vais ajouter la gestion d'erreurs à cet endpoint.",
+      "de": "Ich werde Fehlerbehandlung zu diesem Endpunkt hinzufügen.",
+      "it": "Aggiungerò la gestione degli errori a quell'endpoint.",
+      "ja": "そのエンドポイントにエラーハンドリングを追加します。",
+      "ko": "그 엔드포인트에 에러 처리를 추가하겠습니다.",
+      "zh-Hans": "我会给那个接口加上错误处理。",
+      "hi": "मैं उस एंडपॉइंट में एरर हैंडलिंग जोड़ूंगा。",
+      "tr": "O endpoint'e hata yönetimi ekleyeceğim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_028",
+    "english": "Can someone review my PR?",
+    "context": "Asking for a code review",
+    "translations": {
+      "pt-BR": "Alguém pode revisar meu PR?",
+      "es": "¿Alguien puede revisar mi PR?",
+      "fr": "Quelqu'un peut revoir ma PR ?",
+      "de": "Kann jemand meinen PR reviewen?",
+      "it": "Qualcuno può revisionare la mia PR?",
+      "ja": "誰か私のPRをレビューしてもらえますか？",
+      "ko": "누가 제 PR을 리뷰해주실 수 있나요?",
+      "zh-Hans": "有人能审查我的PR吗？",
+      "hi": "क्या कोई मेरा PR रिव्यू कर सकता है?",
+      "tr": "PR'ımı biri inceleyebilir mi?"
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_029",
+    "english": "I'll sync up with the backend team.",
+    "context": "Planning cross-team coordination",
+    "translations": {
+      "pt-BR": "Vou alinhar com o time de backend.",
+      "es": "Me coordinaré con el equipo de backend.",
+      "fr": "Je vais me synchroniser avec l'équipe backend.",
+      "de": "Ich werde mich mit dem Backend-Team abstimmen.",
+      "it": "Mi sincronizzerò con il team backend.",
+      "ja": "バックエンドチームと連携します。",
+      "ko": "백엔드 팀과 싱크하겠습니다.",
+      "zh-Hans": "我会和后端团队同步。",
+      "hi": "मैं बैकएंड टीम के साथ सिंक करूंगा।",
+      "tr": "Backend ekibiyle senkronize olacağım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_030",
+    "english": "I merged my branch into develop.",
+    "context": "Reporting a merge",
+    "translations": {
+      "pt-BR": "Fiz merge da minha branch na develop.",
+      "es": "Hice merge de mi rama en develop.",
+      "fr": "J'ai fusionné ma branche dans develop.",
+      "de": "Ich habe meinen Branch in develop gemergt.",
+      "it": "Ho fatto il merge del mio branch in develop.",
+      "ja": "ブランチをdevelopにマージしました。",
+      "ko": "제 브랜치를 develop에 머지했습니다.",
+      "zh-Hans": "我把分支合并到了develop。",
+      "hi": "मैंने अपनी ब्रांच develop में मर्ज की।",
+      "tr": "Branch'imi develop'a merge ettim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_031",
+    "english": "I resolved the merge conflict.",
+    "context": "Reporting conflict resolution",
+    "translations": {
+      "pt-BR": "Resolvi o conflito de merge.",
+      "es": "Resolví el conflicto de merge.",
+      "fr": "J'ai résolu le conflit de fusion.",
+      "de": "Ich habe den Merge-Konflikt gelöst.",
+      "it": "Ho risolto il conflitto di merge.",
+      "ja": "マージの競合を解決しました。",
+      "ko": "머지 충돌을 해결했습니다.",
+      "zh-Hans": "我解决了合并冲突。",
+      "hi": "मैंने मर्ज कॉन्फ्लिक्ट हल किया।",
+      "tr": "Merge çakışmasını çözdüm."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_032",
+    "english": "I'm setting up the dev environment.",
+    "context": "Working on environment configuration",
+    "translations": {
+      "pt-BR": "Estou configurando o ambiente de desenvolvimento.",
+      "es": "Estoy configurando el entorno de desarrollo.",
+      "fr": "Je configure l'environnement de développement.",
+      "de": "Ich richte die Entwicklungsumgebung ein.",
+      "it": "Sto configurando l'ambiente di sviluppo.",
+      "ja": "開発環境をセットアップしています。",
+      "ko": "개발 환경을 설정하고 있습니다.",
+      "zh-Hans": "我在搭建开发环境。",
+      "hi": "मैं डेव एनवायरनमेंट सेट अप कर रहा हूं।",
+      "tr": "Geliştirme ortamını kuruyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_033",
+    "english": "I updated the dependencies.",
+    "context": "Reporting package updates",
+    "translations": {
+      "pt-BR": "Atualizei as dependências.",
+      "es": "Actualicé las dependencias.",
+      "fr": "J'ai mis à jour les dépendances.",
+      "de": "Ich habe die Abhängigkeiten aktualisiert.",
+      "it": "Ho aggiornato le dipendenze.",
+      "ja": "依存関係を更新しました。",
+      "ko": "의존성을 업데이트했습니다.",
+      "zh-Hans": "我更新了依赖。",
+      "hi": "मैंने डिपेंडेंसीज़ अपडेट कीं।",
+      "tr": "Bağımlılıkları güncelledim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_034",
+    "english": "I optimized the database query.",
+    "context": "Reporting performance improvement",
+    "translations": {
+      "pt-BR": "Otimizei a consulta do banco de dados.",
+      "es": "Optimicé la consulta de la base de datos.",
+      "fr": "J'ai optimisé la requête de la base de données.",
+      "de": "Ich habe die Datenbankabfrage optimiert.",
+      "it": "Ho ottimizzato la query del database.",
+      "ja": "データベースクエリを最適化しました。",
+      "ko": "데이터베이스 쿼리를 최적화했습니다.",
+      "zh-Hans": "我优化了数据库查询。",
+      "hi": "मैंने डेटाबेस क्वेरी ऑप्टिमाइज़ की।",
+      "tr": "Veritabanı sorgusunu optimize ettim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_035",
+    "english": "I'm looking into the performance issue.",
+    "context": "Investigating a problem",
+    "translations": {
+      "pt-BR": "Estou investigando o problema de performance.",
+      "es": "Estoy investigando el problema de rendimiento.",
+      "fr": "J'examine le problème de performance.",
+      "de": "Ich untersuche das Performance-Problem.",
+      "it": "Sto esaminando il problema di prestazioni.",
+      "ja": "パフォーマンスの問題を調査しています。",
+      "ko": "성능 문제를 조사하고 있습니다.",
+      "zh-Hans": "我在调查性能问题。",
+      "hi": "मैं परफॉर्मेंस इश्यू देख रहा हूं।",
+      "tr": "Performans sorununu araştırıyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_036",
+    "english": "I added unit tests for the new feature.",
+    "context": "Reporting test additions",
+    "translations": {
+      "pt-BR": "Adicionei testes unitários para a nova feature.",
+      "es": "Agregué pruebas unitarias para la nueva funcionalidad.",
+      "fr": "J'ai ajouté des tests unitaires pour la nouvelle fonctionnalité.",
+      "de": "Ich habe Unit-Tests für das neue Feature hinzugefügt.",
+      "it": "Ho aggiunto test unitari per la nuova funzionalità.",
+      "ja": "新機能のユニットテストを追加しました。",
+      "ko": "새 기능에 대한 단위 테스트를 추가했습니다.",
+      "zh-Hans": "我为新功能添加了单元测试。",
+      "hi": "मैंने नई फीचर के लिए यूनिट टेस्ट जोड़े।",
+      "tr": "Yeni özellik için birim testleri ekledim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_037",
+    "english": "The CI pipeline is green.",
+    "context": "Confirming continuous integration success",
+    "translations": {
+      "pt-BR": "O pipeline de CI está verde.",
+      "es": "El pipeline de CI está en verde.",
+      "fr": "Le pipeline CI est vert.",
+      "de": "Die CI-Pipeline ist grün.",
+      "it": "La pipeline CI è verde.",
+      "ja": "CIパイプラインはグリーンです。",
+      "ko": "CI 파이프라인이 그린입니다.",
+      "zh-Hans": "CI流水线是绿色的。",
+      "hi": "CI पाइपलाइन ग्रीन है।",
+      "tr": "CI pipeline'ı yeşil."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_038",
+    "english": "I'm debugging an edge case.",
+    "context": "Working on a tricky bug",
+    "translations": {
+      "pt-BR": "Estou debugando um caso extremo.",
+      "es": "Estoy depurando un caso límite.",
+      "fr": "Je débogue un cas limite.",
+      "de": "Ich debugge einen Grenzfall.",
+      "it": "Sto debuggando un caso limite.",
+      "ja": "エッジケースをデバッグしています。",
+      "ko": "엣지 케이스를 디버깅하고 있습니다.",
+      "zh-Hans": "我在调试一个边界情况。",
+      "hi": "मैं एक एज केस डीबग कर रहा हूं।",
+      "tr": "Bir uç durumu debug ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_039",
+    "english": "I'll work on the responsive layout.",
+    "context": "Planning UI work",
+    "translations": {
+      "pt-BR": "Vou trabalhar no layout responsivo.",
+      "es": "Trabajaré en el diseño responsivo.",
+      "fr": "Je vais travailler sur la mise en page responsive.",
+      "de": "Ich werde am responsiven Layout arbeiten.",
+      "it": "Lavorerò sul layout responsivo.",
+      "ja": "レスポンシブレイアウトに取り組みます。",
+      "ko": "반응형 레이아웃 작업을 하겠습니다.",
+      "zh-Hans": "我会做响应式布局。",
+      "hi": "मैं रेस्पॉन्सिव लेआउट पर काम करूंगा।",
+      "tr": "Duyarlı düzen üzerinde çalışacağım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_040",
+    "english": "I'm implementing the search functionality.",
+    "context": "Working on search feature",
+    "translations": {
+      "pt-BR": "Estou implementando a funcionalidade de busca.",
+      "es": "Estoy implementando la funcionalidad de búsqueda.",
+      "fr": "J'implémente la fonctionnalité de recherche.",
+      "de": "Ich implementiere die Suchfunktion.",
+      "it": "Sto implementando la funzionalità di ricerca.",
+      "ja": "検索機能を実装しています。",
+      "ko": "검색 기능을 구현하고 있습니다.",
+      "zh-Hans": "我在实现搜索功能。",
+      "hi": "मैं सर्च फंक्शनैलिटी इम्प्लीमेंट कर रहा हूं।",
+      "tr": "Arama işlevini uyguluyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_041",
+    "english": "I'm working on the payment module.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando o módulo de pagamento.",
+      "es": "Estoy trabajando en el módulo de pago.",
+      "fr": "Je travaille sur le module de paiement.",
+      "de": "Ich arbeite an das Zahlungsmodul.",
+      "it": "Sto lavorando su il modulo di pagamento.",
+      "ja": "決済モジュール に取り組んでいます。",
+      "ko": "결제 모듈을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做支付模块。",
+      "hi": "मैं पेमेंट मॉड्यूल पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: ödeme modülü."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_042",
+    "english": "I finished the payment module yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei o módulo de pagamento ontem.",
+      "es": "Terminé el módulo de pago ayer.",
+      "fr": "J'ai terminé le module de paiement hier.",
+      "de": "Ich habe das Zahlungsmodul gestern abgeschlossen.",
+      "it": "Ho finito il modulo di pagamento ieri.",
+      "ja": "昨日 決済モジュール を完了しました。",
+      "ko": "어제 결제 모듈을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了支付模块。",
+      "hi": "मैंने कल पेमेंट मॉड्यूल पूरा किया।",
+      "tr": "Dün ödeme modülü tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_043",
+    "english": "I'm working on the notification system.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando o sistema de notificações.",
+      "es": "Estoy trabajando en el sistema de notificaciones.",
+      "fr": "Je travaille sur le système de notifications.",
+      "de": "Ich arbeite an das Benachrichtigungssystem.",
+      "it": "Sto lavorando su il sistema di notifiche.",
+      "ja": "通知システム に取り組んでいます。",
+      "ko": "알림 시스템을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做通知系统。",
+      "hi": "मैं नोटिफिकेशन सिस्टम पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: bildirim sistemi."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_044",
+    "english": "I finished the notification system yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei o sistema de notificações ontem.",
+      "es": "Terminé el sistema de notificaciones ayer.",
+      "fr": "J'ai terminé le système de notifications hier.",
+      "de": "Ich habe das Benachrichtigungssystem gestern abgeschlossen.",
+      "it": "Ho finito il sistema di notifiche ieri.",
+      "ja": "昨日 通知システム を完了しました。",
+      "ko": "어제 알림 시스템을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了通知系统。",
+      "hi": "मैंने कल नोटिफिकेशन सिस्टम पूरा किया।",
+      "tr": "Dün bildirim sistemi tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_045",
+    "english": "I'm working on the user profile page.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando a página de perfil do usuário.",
+      "es": "Estoy trabajando en la página de perfil del usuario.",
+      "fr": "Je travaille sur la page de profil utilisateur.",
+      "de": "Ich arbeite an die Benutzerprofilseite.",
+      "it": "Sto lavorando su la pagina del profilo utente.",
+      "ja": "ユーザープロフィールページ に取り組んでいます。",
+      "ko": "사용자 프로필 페이지을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做用户个人资料页面。",
+      "hi": "मैं यूज़र प्रोफाइल पेज पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: kullanıcı profil sayfası."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_046",
+    "english": "I finished the user profile page yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei a página de perfil do usuário ontem.",
+      "es": "Terminé la página de perfil del usuario ayer.",
+      "fr": "J'ai terminé la page de profil utilisateur hier.",
+      "de": "Ich habe die Benutzerprofilseite gestern abgeschlossen.",
+      "it": "Ho finito la pagina del profilo utente ieri.",
+      "ja": "昨日 ユーザープロフィールページ を完了しました。",
+      "ko": "어제 사용자 프로필 페이지을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了用户个人资料页面。",
+      "hi": "मैंने कल यूज़र प्रोफाइल पेज पूरा किया।",
+      "tr": "Dün kullanıcı profil sayfası tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_047",
+    "english": "I'm working on the settings screen.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando a tela de configurações.",
+      "es": "Estoy trabajando en la pantalla de ajustes.",
+      "fr": "Je travaille sur l'écran des paramètres.",
+      "de": "Ich arbeite an den Einstellungsbildschirm.",
+      "it": "Sto lavorando su la schermata delle impostazioni.",
+      "ja": "設定画面 に取り組んでいます。",
+      "ko": "설정 화면을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做设置页面。",
+      "hi": "मैं सेटिंग्स स्क्रीन पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: ayarlar ekranı."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_048",
+    "english": "I finished the settings screen yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei a tela de configurações ontem.",
+      "es": "Terminé la pantalla de ajustes ayer.",
+      "fr": "J'ai terminé l'écran des paramètres hier.",
+      "de": "Ich habe den Einstellungsbildschirm gestern abgeschlossen.",
+      "it": "Ho finito la schermata delle impostazioni ieri.",
+      "ja": "昨日 設定画面 を完了しました。",
+      "ko": "어제 설정 화면을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了设置页面。",
+      "hi": "मैंने कल सेटिंग्स स्क्रीन पूरा किया।",
+      "tr": "Dün ayarlar ekranı tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_049",
+    "english": "I'm working on the onboarding flow.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando o fluxo de onboarding.",
+      "es": "Estoy trabajando en el flujo de onboarding.",
+      "fr": "Je travaille sur le flux d'onboarding.",
+      "de": "Ich arbeite an den Onboarding-Flow.",
+      "it": "Sto lavorando su il flusso di onboarding.",
+      "ja": "オンボーディングフロー に取り組んでいます。",
+      "ko": "온보딩 플로우을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做新手引导流程。",
+      "hi": "मैं ऑनबोर्डिंग फ्लो पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: karşılama akışı."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_050",
+    "english": "I finished the onboarding flow yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei o fluxo de onboarding ontem.",
+      "es": "Terminé el flujo de onboarding ayer.",
+      "fr": "J'ai terminé le flux d'onboarding hier.",
+      "de": "Ich habe den Onboarding-Flow gestern abgeschlossen.",
+      "it": "Ho finito il flusso di onboarding ieri.",
+      "ja": "昨日 オンボーディングフロー を完了しました。",
+      "ko": "어제 온보딩 플로우을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了新手引导流程。",
+      "hi": "मैंने कल ऑनबोर्डिंग फ्लो पूरा किया।",
+      "tr": "Dün karşılama akışı tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_051",
+    "english": "I'm working on the dark mode implementation.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando a implementação do modo escuro.",
+      "es": "Estoy trabajando en la implementación del modo oscuro.",
+      "fr": "Je travaille sur l'implémentation du mode sombre.",
+      "de": "Ich arbeite an die Dark-Mode-Implementierung.",
+      "it": "Sto lavorando su l'implementazione della modalità scura.",
+      "ja": "ダークモードの実装 に取り組んでいます。",
+      "ko": "다크 모드 구현을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做深色模式实现。",
+      "hi": "मैं डार्क मोड इम्प्लीमेंटेशन पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: karanlık mod uygulaması."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_052",
+    "english": "I finished the dark mode implementation yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei a implementação do modo escuro ontem.",
+      "es": "Terminé la implementación del modo oscuro ayer.",
+      "fr": "J'ai terminé l'implémentation du mode sombre hier.",
+      "de": "Ich habe die Dark-Mode-Implementierung gestern abgeschlossen.",
+      "it": "Ho finito l'implementazione della modalità scura ieri.",
+      "ja": "昨日 ダークモードの実装 を完了しました。",
+      "ko": "어제 다크 모드 구현을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了深色模式实现。",
+      "hi": "मैंने कल डार्क मोड इम्प्लीमेंटेशन पूरा किया।",
+      "tr": "Dün karanlık mod uygulaması tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_053",
+    "english": "I'm working on the caching layer.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando a camada de cache.",
+      "es": "Estoy trabajando en la capa de caché.",
+      "fr": "Je travaille sur la couche de cache.",
+      "de": "Ich arbeite an die Cache-Schicht.",
+      "it": "Sto lavorando su il livello di cache.",
+      "ja": "キャッシュ層 に取り組んでいます。",
+      "ko": "캐싱 레이어을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做缓存层。",
+      "hi": "मैं कैशिंग लेयर पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: önbellek katmanı."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_054",
+    "english": "I finished the caching layer yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei a camada de cache ontem.",
+      "es": "Terminé la capa de caché ayer.",
+      "fr": "J'ai terminé la couche de cache hier.",
+      "de": "Ich habe die Cache-Schicht gestern abgeschlossen.",
+      "it": "Ho finito il livello di cache ieri.",
+      "ja": "昨日 キャッシュ層 を完了しました。",
+      "ko": "어제 캐싱 레이어을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了缓存层。",
+      "hi": "मैंने कल कैशिंग लेयर पूरा किया।",
+      "tr": "Dün önbellek katmanı tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_055",
+    "english": "I'm working on the authentication flow.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando o fluxo de autenticação.",
+      "es": "Estoy trabajando en el flujo de autenticación.",
+      "fr": "Je travaille sur le flux d'authentification.",
+      "de": "Ich arbeite an den Authentifizierungsablauf.",
+      "it": "Sto lavorando su il flusso di autenticazione.",
+      "ja": "認証フロー に取り組んでいます。",
+      "ko": "인증 플로우을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做认证流程。",
+      "hi": "मैं ऑथेंटिकेशन फ्लो पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: kimlik doğrulama akışı."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_056",
+    "english": "I finished the authentication flow yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei o fluxo de autenticação ontem.",
+      "es": "Terminé el flujo de autenticación ayer.",
+      "fr": "J'ai terminé le flux d'authentification hier.",
+      "de": "Ich habe den Authentifizierungsablauf gestern abgeschlossen.",
+      "it": "Ho finito il flusso di autenticazione ieri.",
+      "ja": "昨日 認証フロー を完了しました。",
+      "ko": "어제 인증 플로우을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了认证流程。",
+      "hi": "मैंने कल ऑथेंटिकेशन फ्लो पूरा किया।",
+      "tr": "Dün kimlik doğrulama akışı tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_057",
+    "english": "I'm working on the error handling.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando o tratamento de erros.",
+      "es": "Estoy trabajando en el manejo de errores.",
+      "fr": "Je travaille sur la gestion des erreurs.",
+      "de": "Ich arbeite an die Fehlerbehandlung.",
+      "it": "Sto lavorando su la gestione degli errori.",
+      "ja": "エラーハンドリング に取り組んでいます。",
+      "ko": "에러 처리을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做错误处理。",
+      "hi": "मैं एरर हैंडलिंग पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: hata yönetimi."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_058",
+    "english": "I finished the error handling yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei o tratamento de erros ontem.",
+      "es": "Terminé el manejo de errores ayer.",
+      "fr": "J'ai terminé la gestion des erreurs hier.",
+      "de": "Ich habe die Fehlerbehandlung gestern abgeschlossen.",
+      "it": "Ho finito la gestione degli errori ieri.",
+      "ja": "昨日 エラーハンドリング を完了しました。",
+      "ko": "어제 에러 처리을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了错误处理。",
+      "hi": "मैंने कल एरर हैंडलिंग पूरा किया।",
+      "tr": "Dün hata yönetimi tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_059",
+    "english": "I'm working on the analytics integration.",
+    "context": "Updating your team about what you're doing",
+    "translations": {
+      "pt-BR": "Estou trabalhando a integração de analytics.",
+      "es": "Estoy trabajando en la integración de analíticas.",
+      "fr": "Je travaille sur l'intégration des analytics.",
+      "de": "Ich arbeite an die Analytics-Integration.",
+      "it": "Sto lavorando su l'integrazione degli analytics.",
+      "ja": "アナリティクスの統合 に取り組んでいます。",
+      "ko": "애널리틱스 통합을(를) 작업하고 있습니다.",
+      "zh-Hans": "我在做分析集成。",
+      "hi": "मैं एनालिटिक्स इंटीग्रेशन पर काम कर रहा हूं।",
+      "tr": "Üzerinde çalışıyorum: analitik entegrasyonu."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_060",
+    "english": "I finished the analytics integration yesterday.",
+    "context": "Reporting what you completed",
+    "translations": {
+      "pt-BR": "Terminei a integração de analytics ontem.",
+      "es": "Terminé la integración de analíticas ayer.",
+      "fr": "J'ai terminé l'intégration des analytics hier.",
+      "de": "Ich habe die Analytics-Integration gestern abgeschlossen.",
+      "it": "Ho finito l'integrazione degli analytics ieri.",
+      "ja": "昨日 アナリティクスの統合 を完了しました。",
+      "ko": "어제 애널리틱스 통합을(를) 완료했습니다.",
+      "zh-Hans": "我昨天完成了分析集成。",
+      "hi": "मैंने कल एनालिटिक्स इंटीग्रेशन पूरा किया।",
+      "tr": "Dün analitik entegrasyonu tamamladım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_061",
+    "english": "I'll handle that.",
+    "context": "Volunteering for a task",
+    "translations": {
+      "pt-BR": "Eu cuido disso.",
+      "es": "Yo me encargo de eso.",
+      "fr": "Je m'en occupe.",
+      "de": "Das übernehme ich.",
+      "it": "Me ne occupo io.",
+      "ja": "それは私がやります。",
+      "ko": "제가 처리하겠습니다.",
+      "zh-Hans": "我来处理。",
+      "hi": "मैं संभाल लूंगा।",
+      "tr": "Ben hallederim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_062",
+    "english": "Let me check on that.",
+    "context": "Offering to investigate something",
+    "translations": {
+      "pt-BR": "Deixa eu verificar isso.",
+      "es": "Déjame revisar eso.",
+      "fr": "Laisse-moi vérifier ça.",
+      "de": "Lass mich das prüfen.",
+      "it": "Fammi controllare.",
+      "ja": "確認させてください。",
+      "ko": "제가 확인해보겠습니다.",
+      "zh-Hans": "让我查查。",
+      "hi": "मैं चेक करता हूं।",
+      "tr": "Kontrol edeyim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_063",
+    "english": "I'll have it ready by tomorrow.",
+    "context": "Committing to a timeline",
+    "translations": {
+      "pt-BR": "Vou ter pronto até amanhã.",
+      "es": "Lo tendré listo para mañana.",
+      "fr": "Ce sera prêt demain.",
+      "de": "Ich werde es bis morgen fertig haben.",
+      "it": "Lo avrò pronto per domani.",
+      "ja": "明日までに準備します。",
+      "ko": "내일까지 준비하겠습니다.",
+      "zh-Hans": "我明天之前准备好。",
+      "hi": "कल तक तैयार होगा।",
+      "tr": "Yarına hazır olacak."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_064",
+    "english": "Nothing new to report.",
+    "context": "When you have no significant updates",
+    "translations": {
+      "pt-BR": "Nada novo para reportar.",
+      "es": "Nada nuevo que reportar.",
+      "fr": "Rien de nouveau à signaler.",
+      "de": "Nichts Neues zu berichten.",
+      "it": "Niente di nuovo da segnalare.",
+      "ja": "報告することは特にありません。",
+      "ko": "보고할 새로운 것은 없습니다.",
+      "zh-Hans": "没什么新的要汇报。",
+      "hi": "कोई नई अपडेट नहीं है।",
+      "tr": "Yeni bir şey yok."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_065",
+    "english": "I ran the full test suite.",
+    "context": "Confirming comprehensive testing",
+    "translations": {
+      "pt-BR": "Rodei a suíte completa de testes.",
+      "es": "Ejecuté la suite completa de pruebas.",
+      "fr": "J'ai exécuté la suite de tests complète.",
+      "de": "Ich habe die komplette Testsuite ausgeführt.",
+      "it": "Ho eseguito la suite di test completa.",
+      "ja": "テストスイートをフル実行しました。",
+      "ko": "전체 테스트 스위트를 실행했습니다.",
+      "zh-Hans": "我跑了完整的测试套件。",
+      "hi": "मैंने पूरा टेस्ट सूट चलाया।",
+      "tr": "Tüm test paketini çalıştırdım."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_066",
+    "english": "I sent the PR for review.",
+    "context": "Requesting code review",
+    "translations": {
+      "pt-BR": "Enviei o PR para revisão.",
+      "es": "Envié el PR para revisión.",
+      "fr": "J'ai envoyé la PR pour revue.",
+      "de": "Ich habe den PR zur Review geschickt.",
+      "it": "Ho inviato la PR per la revisione.",
+      "ja": "PRをレビューに出しました。",
+      "ko": "PR을 리뷰에 보냈습니다.",
+      "zh-Hans": "我提交了PR等待审查。",
+      "hi": "मैंने PR रिव्यू के लिए भेजा।",
+      "tr": "PR'ı incelemeye gönderdim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_067",
+    "english": "The feature is code complete.",
+    "context": "Reporting feature completion",
+    "translations": {
+      "pt-BR": "A feature está com código completo.",
+      "es": "La funcionalidad está completa en código.",
+      "fr": "La fonctionnalité est code complete.",
+      "de": "Das Feature ist code complete.",
+      "it": "La funzionalità è code complete.",
+      "ja": "機能のコーディングは完了です。",
+      "ko": "기능의 코드가 완성됐습니다.",
+      "zh-Hans": "功能代码已完成。",
+      "hi": "फीचर कोड कम्पलीट है।",
+      "tr": "Özellik kod olarak tamamlandı."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_068",
+    "english": "I'm updating the API documentation.",
+    "context": "Working on API docs",
+    "translations": {
+      "pt-BR": "Estou atualizando a documentação da API.",
+      "es": "Estoy actualizando la documentación de la API.",
+      "fr": "Je mets à jour la documentation de l'API.",
+      "de": "Ich aktualisiere die API-Dokumentation.",
+      "it": "Sto aggiornando la documentazione dell'API.",
+      "ja": "APIドキュメントを更新しています。",
+      "ko": "API 문서를 업데이트하고 있습니다.",
+      "zh-Hans": "我在更新API文档。",
+      "hi": "मैं API डॉक्यूमेंटेशन अपडेट कर रहा हूं।",
+      "tr": "API dokümantasyonunu güncelliyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_069",
+    "english": "I need to refactor this component.",
+    "context": "Planning code improvement",
+    "translations": {
+      "pt-BR": "Preciso refatorar esse componente.",
+      "es": "Necesito refactorizar este componente.",
+      "fr": "Je dois refactoriser ce composant.",
+      "de": "Ich muss diese Komponente refaktorieren.",
+      "it": "Devo refactorizzare questo componente.",
+      "ja": "このコンポーネントをリファクタリングする必要があります。",
+      "ko": "이 컴포넌트를 리팩토링해야 합니다.",
+      "zh-Hans": "我需要重构这个组件。",
+      "hi": "मुझे इस कॉम्पोनेंट को रिफैक्टर करना है。",
+      "tr": "Bu bileşeni yeniden düzenlemem gerekiyor."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_070",
+    "english": "I'll clean up the code before merging.",
+    "context": "Planning pre-merge cleanup",
+    "translations": {
+      "pt-BR": "Vou limpar o código antes de fazer merge.",
+      "es": "Limpiaré el código antes de hacer merge.",
+      "fr": "Je vais nettoyer le code avant de fusionner.",
+      "de": "Ich werde den Code vor dem Merge aufräumen.",
+      "it": "Pulirò il codice prima del merge.",
+      "ja": "マージ前にコードを整理します。",
+      "ko": "머지 전에 코드를 정리하겠습니다.",
+      "zh-Hans": "我会在合并前清理代码。",
+      "hi": "मैं मर्ज से पहले कोड क्लीन करूंगा।",
+      "tr": "Merge'den önce kodu temizleyeceğim."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_071",
+    "english": "I'm blocked on the payment integration because the third-party API is returning 500 errors.",
+    "context": "Explaining a blocker with specific technical details",
+    "translations": {
+      "pt-BR": "Estou bloqueado na integração de pagamento porque a API de terceiros está retornando erros 500.",
+      "es": "Estoy bloqueado en la integración de pagos porque la API de terceros está devolviendo errores 500.",
+      "fr": "Je suis bloqué sur l'intégration de paiement car l'API tierce renvoie des erreurs 500.",
+      "de": "Ich bin bei der Zahlungsintegration blockiert, weil die Drittanbieter-API 500-Fehler zurückgibt.",
+      "it": "Sono bloccato sull'integrazione dei pagamenti perché l'API di terze parti restituisce errori 500.",
+      "ja": "サードパーティAPIが500エラーを返すため、決済統合でブロックされています。",
+      "ko": "서드파티 API가 500 에러를 반환해서 결제 연동이 막혔습니다.",
+      "zh-Hans": "第三方API返回500错误，支付集成被阻塞了。",
+      "hi": "थर्ड-पार्टी API 500 एरर दे रहा है इसलिए पेमेंट इंटीग्रेशन में ब्लॉक हूं।",
+      "tr": "Üçüncü parti API 500 hatası döndürdüğü için ödeme entegrasyonunda takıldım."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_072",
+    "english": "I had to revert my last commit because it broke the build.",
+    "context": "Explaining a rollback situation",
+    "translations": {
+      "pt-BR": "Tive que reverter meu último commit porque quebrou o build.",
+      "es": "Tuve que revertir mi último commit porque rompió el build.",
+      "fr": "J'ai dû reverter mon dernier commit car il a cassé le build.",
+      "de": "Ich musste meinen letzten Commit rückgängig machen, weil er den Build gebrochen hat.",
+      "it": "Ho dovuto revertire il mio ultimo commit perché ha rotto la build.",
+      "ja": "ビルドが壊れたので、最後のコミットをリバートしました。",
+      "ko": "빌드를 깨뜨려서 마지막 커밋을 되돌려야 했습니다.",
+      "zh-Hans": "我不得不回滚最后一次提交因为它破坏了构建。",
+      "hi": "मुझे अपना आखिरी कमिट रिवर्ट करना पड़ा क्योंकि बिल्ड टूट गया।",
+      "tr": "Son commit'imi geri almak zorunda kaldım çünkü build'i bozdu."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_073",
+    "english": "I've been investigating a memory leak in the service worker.",
+    "context": "Reporting deep debugging work",
+    "translations": {
+      "pt-BR": "Estive investigando um vazamento de memória no service worker.",
+      "es": "He estado investigando una fuga de memoria en el service worker.",
+      "fr": "J'ai enquêté sur une fuite de mémoire dans le service worker.",
+      "de": "Ich habe ein Speicherleck im Service Worker untersucht.",
+      "it": "Ho investigato un memory leak nel service worker.",
+      "ja": "サービスワーカーのメモリリークを調査していました。",
+      "ko": "서비스 워커의 메모리 누수를 조사하고 있었습니다.",
+      "zh-Hans": "我一直在调查service worker的内存泄漏。",
+      "hi": "मैं सर्विस वर्कर में मेमोरी लीक की जांच कर रहा था।",
+      "tr": "Service worker'daki bellek sızıntısını araştırıyordum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_074",
+    "english": "Could someone from the backend team help me with the GraphQL schema?",
+    "context": "Requesting cross-team help",
+    "translations": {
+      "pt-BR": "Alguém do time de backend pode me ajudar com o schema GraphQL?",
+      "es": "¿Alguien del equipo de backend puede ayudarme con el esquema GraphQL?",
+      "fr": "Est-ce que quelqu'un de l'équipe backend peut m'aider avec le schéma GraphQL ?",
+      "de": "Kann mir jemand aus dem Backend-Team beim GraphQL-Schema helfen?",
+      "it": "Qualcuno del team backend può aiutarmi con lo schema GraphQL?",
+      "ja": "バックエンドチームの誰かGraphQLスキーマを手伝ってもらえますか？",
+      "ko": "백엔드 팀에서 GraphQL 스키마 도와주실 분 계신가요?",
+      "zh-Hans": "后端团队有人能帮我看看GraphQL schema吗？",
+      "hi": "क्या बैकएंड टीम से कोई GraphQL स्कीमा में मदद कर सकता है?",
+      "tr": "Backend ekibinden biri GraphQL şemasında bana yardımcı olabilir mi?"
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_075",
+    "english": "I'm going to split this into smaller PRs to make it easier to review.",
+    "context": "Explaining PR strategy",
+    "translations": {
+      "pt-BR": "Vou dividir isso em PRs menores para facilitar a revisão.",
+      "es": "Voy a dividir esto en PRs más pequeños para facilitar la revisión.",
+      "fr": "Je vais diviser ça en petites PRs pour faciliter la revue.",
+      "de": "Ich werde das in kleinere PRs aufteilen, um die Review zu erleichtern.",
+      "it": "Dividerò questo in PR più piccole per facilitare la revisione.",
+      "ja": "レビューしやすいように小さなPRに分割します。",
+      "ko": "리뷰하기 쉽도록 작은 PR들로 나누겠습니다.",
+      "zh-Hans": "我会把这个拆分成小的PR方便审查。",
+      "hi": "मैं इसे छोटे PR में बांटूंगा ताकि रिव्यू आसान हो।",
+      "tr": "İncelemeyi kolaylaştırmak için bunu daha küçük PR'lara böleceğim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_076",
+    "english": "I've been working on improving the test coverage for the authentication module.",
+    "context": "Reporting testing efforts on a specific area",
+    "translations": {
+      "pt-BR": "Estive trabalhando na melhoria da cobertura de testes do módulo de authentication.",
+      "es": "He estado mejorando la cobertura de tests del módulo de authentication.",
+      "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module authentication.",
+      "de": "Ich habe an der Verbesserung der Testabdeckung des authentication-Moduls gearbeitet.",
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo authentication.",
+      "ja": "authenticationモジュールのテストカバレッジを改善しています。",
+      "ko": "authentication모듈의 테스트 커버리지를 개선하고 있었습니다.",
+      "zh-Hans": "我在提高authentication模块的测试覆盖率。",
+      "hi": "मैं authentication मॉड्यूल की टेस्ट कवरेज सुधारने पर काम कर रहा था।",
+      "tr": "authentication modülünün test kapsamını iyileştiriyordum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_077",
+    "english": "I've been working on improving the test coverage for the payment module.",
+    "context": "Reporting testing efforts on a specific area",
+    "translations": {
+      "pt-BR": "Estive trabalhando na melhoria da cobertura de testes do módulo de payment.",
+      "es": "He estado mejorando la cobertura de tests del módulo de payment.",
+      "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module payment.",
+      "de": "Ich habe an der Verbesserung der Testabdeckung des payment-Moduls gearbeitet.",
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo payment.",
+      "ja": "paymentモジュールのテストカバレッジを改善しています。",
+      "ko": "payment모듈의 테스트 커버리지를 개선하고 있었습니다.",
+      "zh-Hans": "我在提高payment模块的测试覆盖率。",
+      "hi": "मैं payment मॉड्यूल की टेस्ट कवरेज सुधारने पर काम कर रहा था।",
+      "tr": "payment modülünün test kapsamını iyileştiriyordum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_078",
+    "english": "I've been working on improving the test coverage for the notification module.",
+    "context": "Reporting testing efforts on a specific area",
+    "translations": {
+      "pt-BR": "Estive trabalhando na melhoria da cobertura de testes do módulo de notification.",
+      "es": "He estado mejorando la cobertura de tests del módulo de notification.",
+      "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module notification.",
+      "de": "Ich habe an der Verbesserung der Testabdeckung des notification-Moduls gearbeitet.",
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo notification.",
+      "ja": "notificationモジュールのテストカバレッジを改善しています。",
+      "ko": "notification모듈의 테스트 커버리지를 개선하고 있었습니다.",
+      "zh-Hans": "我在提高notification模块的测试覆盖率。",
+      "hi": "मैं notification मॉड्यूल की टेस्ट कवरेज सुधारने पर काम कर रहा था।",
+      "tr": "notification modülünün test kapsamını iyileştiriyordum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_079",
+    "english": "I've been working on improving the test coverage for the search module.",
+    "context": "Reporting testing efforts on a specific area",
+    "translations": {
+      "pt-BR": "Estive trabalhando na melhoria da cobertura de testes do módulo de search.",
+      "es": "He estado mejorando la cobertura de tests del módulo de search.",
+      "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module search.",
+      "de": "Ich habe an der Verbesserung der Testabdeckung des search-Moduls gearbeitet.",
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo search.",
+      "ja": "searchモジュールのテストカバレッジを改善しています。",
+      "ko": "search모듈의 테스트 커버리지를 개선하고 있었습니다.",
+      "zh-Hans": "我在提高search模块的测试覆盖率。",
+      "hi": "मैं search मॉड्यूल की टेस्ट कवरेज सुधारने पर काम कर रहा था।",
+      "tr": "search modülünün test kapsamını iyileştiriyordum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_080",
+    "english": "I've been working on improving the test coverage for the analytics module.",
+    "context": "Reporting testing efforts on a specific area",
+    "translations": {
+      "pt-BR": "Estive trabalhando na melhoria da cobertura de testes do módulo de analytics.",
+      "es": "He estado mejorando la cobertura de tests del módulo de analytics.",
+      "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module analytics.",
+      "de": "Ich habe an der Verbesserung der Testabdeckung des analytics-Moduls gearbeitet.",
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo analytics.",
+      "ja": "analyticsモジュールのテストカバレッジを改善しています。",
+      "ko": "analytics모듈의 테스트 커버리지를 개선하고 있었습니다.",
+      "zh-Hans": "我在提高analytics模块的测试覆盖率。",
+      "hi": "मैं analytics मॉड्यूल की टेस्ट कवरेज सुधारने पर काम कर रहा था।",
+      "tr": "analytics modülünün test kapsamını iyileştiriyordum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_081",
+    "english": "I need to coordinate with the QA team before we can release this feature.",
+    "context": "Explaining a dependency on QA",
+    "translations": {
+      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
+      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
+      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
+      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
+      "ja": "この機能をリリースする前にQAチームと調整が必要です。",
+      "ko": "이 기능을 릴리스하기 전에 QA 팀과 조율해야 합니다.",
+      "zh-Hans": "发布这个功能前我需要和QA团队协调。",
+      "hi": "इस फीचर को रिलीज़ करने से पहले QA टीम के साथ कोऑर्डिनेट करना होगा।",
+      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_082",
+    "english": "I need to coordinate with the QA team before we can release this feature.",
+    "context": "Explaining a dependency on QA",
+    "translations": {
+      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
+      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
+      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
+      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
+      "ja": "この機能をリリースする前にQAチームと調整が必要です。",
+      "ko": "이 기능을 릴리스하기 전에 QA 팀과 조율해야 합니다.",
+      "zh-Hans": "发布这个功能前我需要和QA团队协调。",
+      "hi": "इस फीचर को रिलीज़ करने से पहले QA टीम के साथ कोऑर्डिनेट करना होगा।",
+      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_083",
+    "english": "I need to coordinate with the QA team before we can release this feature.",
+    "context": "Explaining a dependency on QA",
+    "translations": {
+      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
+      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
+      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
+      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
+      "ja": "この機能をリリースする前にQAチームと調整が必要です。",
+      "ko": "이 기능을 릴리스하기 전에 QA 팀과 조율해야 합니다.",
+      "zh-Hans": "发布这个功能前我需要和QA团队协调。",
+      "hi": "इस फीचर को रिलीज़ करने से पहले QA टीम के साथ कोऑर्डिनेट करना होगा।",
+      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_084",
+    "english": "I need to coordinate with the QA team before we can release this feature.",
+    "context": "Explaining a dependency on QA",
+    "translations": {
+      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
+      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
+      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
+      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
+      "ja": "この機能をリリースする前にQAチームと調整が必要です。",
+      "ko": "이 기능을 릴리스하기 전에 QA 팀과 조율해야 합니다.",
+      "zh-Hans": "发布这个功能前我需要和QA团队协调。",
+      "hi": "इस फीचर को रिलीज़ करने से पहले QA टीम के साथ कोऑर्डिनेट करना होगा।",
+      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_085",
+    "english": "I need to coordinate with the QA team before we can release this feature.",
+    "context": "Explaining a dependency on QA",
+    "translations": {
+      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
+      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
+      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
+      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
+      "ja": "この機能をリリースする前にQAチームと調整が必要です。",
+      "ko": "이 기능을 릴리스하기 전에 QA 팀과 조율해야 합니다.",
+      "zh-Hans": "发布这个功能前我需要和QA团队协调。",
+      "hi": "इस फीचर को रिलीज़ करने से पहले QA टीम के साथ कोऑर्डिनेट करना होगा।",
+      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_086",
+    "english": "I discovered that the issue is related to a race condition in the async handler.",
+    "context": "Sharing a debugging discovery",
+    "translations": {
+      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
+      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
+      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
+      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
+      "ja": "非同期ハンドラーのレースコンディションが原因だとわかりました。",
+      "ko": "비동기 핸들러의 레이스 컨디션과 관련된 문제라는 걸 발견했습니다.",
+      "zh-Hans": "我发现问题和异步处理器中的竞态条件有关。",
+      "hi": "मैंने पाया कि यह async handler में race condition से संबंधित है।",
+      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_087",
+    "english": "I discovered that the issue is related to a race condition in the async handler.",
+    "context": "Sharing a debugging discovery",
+    "translations": {
+      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
+      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
+      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
+      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
+      "ja": "非同期ハンドラーのレースコンディションが原因だとわかりました。",
+      "ko": "비동기 핸들러의 레이스 컨디션과 관련된 문제라는 걸 발견했습니다.",
+      "zh-Hans": "我发现问题和异步处理器中的竞态条件有关。",
+      "hi": "मैंने पाया कि यह async handler में race condition से संबंधित है।",
+      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_088",
+    "english": "I discovered that the issue is related to a race condition in the async handler.",
+    "context": "Sharing a debugging discovery",
+    "translations": {
+      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
+      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
+      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
+      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
+      "ja": "非同期ハンドラーのレースコンディションが原因だとわかりました。",
+      "ko": "비동기 핸들러의 레이스 컨디션과 관련된 문제라는 걸 발견했습니다.",
+      "zh-Hans": "我发现问题和异步处理器中的竞态条件有关。",
+      "hi": "मैंने पाया कि यह async handler में race condition से संबंधित है।",
+      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_089",
+    "english": "I discovered that the issue is related to a race condition in the async handler.",
+    "context": "Sharing a debugging discovery",
+    "translations": {
+      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
+      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
+      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
+      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
+      "ja": "非同期ハンドラーのレースコンディションが原因だとわかりました。",
+      "ko": "비동기 핸들러의 레이스 컨디션과 관련된 문제라는 걸 발견했습니다.",
+      "zh-Hans": "我发现问题和异步处理器中的竞态条件有关。",
+      "hi": "मैंने पाया कि यह async handler में race condition से संबंधित है।",
+      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_090",
+    "english": "I discovered that the issue is related to a race condition in the async handler.",
+    "context": "Sharing a debugging discovery",
+    "translations": {
+      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
+      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
+      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
+      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
+      "ja": "非同期ハンドラーのレースコンディションが原因だとわかりました。",
+      "ko": "비동기 핸들러의 레이스 컨디션과 관련된 문제라는 걸 발견했습니다.",
+      "zh-Hans": "我发现问题和异步处理器中的竞态条件有关。",
+      "hi": "मैंने पाया कि यह async handler में race condition से संबंधित है।",
+      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_091",
+    "english": "I noticed the staging environment is behaving differently from production.",
+    "context": "Flagging an environment discrepancy",
+    "translations": {
+      "pt-BR": "Notei que o ambiente de staging está se comportando diferente de produção.",
+      "es": "Noté que el entorno de staging se comporta diferente a producción.",
+      "fr": "J'ai remarqué que l'environnement de staging se comporte différemment de la production.",
+      "de": "Mir ist aufgefallen, dass die Staging-Umgebung sich anders verhält als die Produktion.",
+      "it": "Ho notato che l'ambiente di staging si comporta diversamente dalla produzione.",
+      "ja": "ステージング環境が本番と異なる動作をしていることに気づきました。",
+      "ko": "스테이징 환경이 프로덕션과 다르게 동작하는 것을 발견했습니다.",
+      "zh-Hans": "我注意到暂存环境的表现和生产环境不一样。",
+      "hi": "मैंने नोटिस किया कि स्टेजिंग एनवायरनमेंट प्रोडक्शन से अलग behave कर रहा है।",
+      "tr": "Staging ortamının üretimden farklı davrandığını fark ettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_092",
+    "english": "I'll need to pair with someone on the infrastructure changes.",
+    "context": "Requesting collaboration",
+    "translations": {
+      "pt-BR": "Vou precisar parear com alguém nas mudanças de infraestrutura.",
+      "es": "Necesitaré hacer pair con alguien en los cambios de infraestructura.",
+      "fr": "J'aurai besoin de faire du pair sur les changements d'infrastructure.",
+      "de": "Ich werde mit jemandem an den Infrastrukturänderungen zusammenarbeiten müssen.",
+      "it": "Avrò bisogno di fare pair su i cambiamenti dell'infrastruttura.",
+      "ja": "インフラの変更について誰かとペアする必要があります。",
+      "ko": "인프라 변경사항에 대해 누군가와 페어링해야 합니다.",
+      "zh-Hans": "我需要和谁一起做基础设施的改动。",
+      "hi": "मुझे इंफ्रास्ट्रक्चर बदलावों के लिए किसी के साथ पेयर करना होगा।",
+      "tr": "Altyapı değişiklikleri için biriyle eşleşmem gerekecek."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_093",
+    "english": "The feature flag is ready, so we can do a gradual rollout.",
+    "context": "Explaining release strategy",
+    "translations": {
+      "pt-BR": "A feature flag está pronta, então podemos fazer um rollout gradual.",
+      "es": "El feature flag está listo, así que podemos hacer un despliegue gradual.",
+      "fr": "Le feature flag est prêt, donc on peut faire un déploiement progressif.",
+      "de": "Das Feature Flag ist fertig, also können wir einen schrittweisen Rollout machen.",
+      "it": "Il feature flag è pronto, quindi possiamo fare un rollout graduale.",
+      "ja": "フィーチャーフラグが準備できたので、段階的にロールアウトできます。",
+      "ko": "피처 플래그가 준비되어서 점진적 롤아웃이 가능합니다.",
+      "zh-Hans": "Feature flag准备好了，我们可以逐步发布。",
+      "hi": "फीचर फ्लैग तैयार है, तो हम ग्रैजुअल रोलआउट कर सकते हैं।",
+      "tr": "Feature flag hazır, kademeli yayınlama yapabiliriz."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_094",
+    "english": "I'm going to add some logging to help us debug this issue in production.",
+    "context": "Adding observability",
+    "translations": {
+      "pt-BR": "Vou adicionar alguns logs para nos ajudar a debugar esse problema em produção.",
+      "es": "Voy a agregar algunos logs para ayudarnos a depurar este problema en producción.",
+      "fr": "Je vais ajouter des logs pour nous aider à déboguer ce problème en production.",
+      "de": "Ich werde Logging hinzufügen, um dieses Problem in der Produktion zu debuggen.",
+      "it": "Aggiungerò del logging per aiutarci a debuggare questo problema in produzione.",
+      "ja": "本番でこの問題をデバッグするためにロギングを追加します。",
+      "ko": "프로덕션에서 이 문제를 디버깅하기 위해 로깅을 추가하겠습니다.",
+      "zh-Hans": "我要加一些日志来帮助我们在生产环境调试这个问题。",
+      "hi": "मैं प्रोडक्शन में इस इश्यू को डीबग करने के लिए कुछ लॉगिंग जोड़ूंगा।",
+      "tr": "Bu sorunu üretimde debug etmemize yardımcı olacak bazı loglar ekleyeceğim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_095",
+    "english": "I realized we need to handle the edge case where the user has no internet connection.",
+    "context": "Identifying a missing scenario",
+    "translations": {
+      "pt-BR": "Percebi que precisamos tratar o caso onde o usuário não tem conexão com a internet.",
+      "es": "Me di cuenta de que necesitamos manejar el caso donde el usuario no tiene conexión a internet.",
+      "fr": "J'ai réalisé qu'on doit gérer le cas où l'utilisateur n'a pas de connexion internet.",
+      "de": "Mir ist aufgefallen, dass wir den Fall behandeln müssen, wenn der Benutzer keine Internetverbindung hat.",
+      "it": "Mi sono reso conto che dobbiamo gestire il caso in cui l'utente non ha connessione internet.",
+      "ja": "ユーザーがインターネット接続がない場合のエッジケースを処理する必要があることに気づきました。",
+      "ko": "사용자가 인터넷 연결이 없는 경우의 엣지 케이스를 처리해야 한다는 걸 깨달았습니다.",
+      "zh-Hans": "我意识到我们需要处理用户没有网络连接的边界情况。",
+      "hi": "मुझे लगा कि हमें उस केस को हैंडल करना होगा जब यूज़र के पास इंटरनेट न हो।",
+      "tr": "Kullanıcının internet bağlantısı olmadığı durumu ele almamız gerektiğini fark ettim."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_096",
+    "english": "I've been going down a rabbit hole trying to figure out why the WebSocket connection drops intermittently.",
+    "context": "Describing a complex debugging situation",
+    "translations": {
+      "pt-BR": "Estive entrando numa toca de coelho tentando descobrir por que a conexão WebSocket cai intermitentemente.",
+      "es": "He estado metiéndome en un agujero de conejo tratando de descifrar por qué la conexión WebSocket se cae intermitentemente.",
+      "fr": "Je suis tombé dans un rabbit hole en essayant de comprendre pourquoi la connexion WebSocket se déconnecte par intermittence.",
+      "de": "Ich bin in ein Rabbit Hole geraten beim Versuch herauszufinden, warum die WebSocket-Verbindung intermittierend abbricht.",
+      "it": "Sono finito in un rabbit hole cercando di capire perché la connessione WebSocket cade in modo intermittente.",
+      "ja": "WebSocket接続が断続的に切れる原因を調べるのにかなりハマっています。",
+      "ko": "WebSocket 연결이 간헐적으로 끊기는 이유를 파악하느라 깊이 빠져있었습니다.",
+      "zh-Hans": "我一直在深挖WebSocket连接为什么会间歇性断开。",
+      "hi": "मैं WebSocket कनेक्शन इंटरमिटेंटली क्यों ड्रॉप होता है ये समझने में गहरे जा रहा था।",
+      "tr": "WebSocket bağlantısının neden aralıklı olarak düştüğünü anlamaya çalışırken derinlere daldım."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_097",
+    "english": "I think we should consider breaking this monolith into microservices, but that's a bigger conversation.",
+    "context": "Suggesting architectural change carefully",
+    "translations": {
+      "pt-BR": "Acho que devemos considerar quebrar esse monolito em microsserviços, mas essa é uma conversa maior.",
+      "es": "Creo que deberíamos considerar dividir este monolito en microservicios, pero esa es una conversación más grande.",
+      "fr": "Je pense qu'on devrait envisager de découper ce monolithe en microservices, mais c'est une plus grande conversation.",
+      "de": "Ich denke, wir sollten in Betracht ziehen, diesen Monolithen in Microservices aufzuteilen, aber das ist ein größeres Gespräch.",
+      "it": "Penso che dovremmo considerare di spezzare questo monolite in microservizi, ma è una conversazione più ampia.",
+      "ja": "このモノリスをマイクロサービスに分割することを検討すべきだと思いますが、それはもっと大きな議論です。",
+      "ko": "이 모놀리스를 마이크로서비스로 분리하는 것을 고려해야 할 것 같은데, 더 큰 논의가 필요합니다.",
+      "zh-Hans": "我觉得我们应该考虑把这个单体架构拆分成微服务，但这需要更深入的讨论。",
+      "hi": "मुझे लगता है हमें इस monolith को microservices में तोड़ने पर विचार करना चाहिए, लेकिन ये एक बड़ी बातचीत है।",
+      "tr": "Bu monoliti mikroservislere ayırmayı düşünmeliyiz diye düşünüyorum, ama bu daha büyük bir konu."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_098",
+    "english": "The tech debt is starting to snowball — we might want to allocate a sprint for cleanup.",
+    "context": "Advocating for tech debt time",
+    "translations": {
+      "pt-BR": "A dívida técnica está começando a virar uma bola de neve — talvez devêssemos alocar um sprint para limpeza.",
+      "es": "La deuda técnica está empezando a acumularse — deberíamos considerar dedicar un sprint a limpieza.",
+      "fr": "La dette technique commence à faire boule de neige — on devrait peut-être allouer un sprint pour le nettoyage.",
+      "de": "Die technische Schuld fängt an, sich aufzustauen — wir sollten vielleicht einen Sprint für Aufräumarbeiten einplanen.",
+      "it": "Il debito tecnico sta iniziando a crescere a valanga — potremmo voler dedicare uno sprint alla pulizia.",
+      "ja": "技術的負債が雪だるま式に増えています。クリーンアップ用にスプリントを割り当てた方がいいかもしれません。",
+      "ko": "기술 부채가 눈덩이처럼 커지고 있어서 정리를 위한 스프린트를 배정하면 좋겠습니다.",
+      "zh-Hans": "技术债务在滚雪球——我们可能需要安排一个冲刺来清理。",
+      "hi": "टेक डेट स्नोबॉल हो रहा है — शायद हमें क्लीनअप के लिए एक स्प्रिंट allocate करना चाहिए।",
+      "tr": "Teknik borç kartopu gibi büyüyor — temizlik için bir sprint ayırmamız iyi olabilir."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_099",
+    "english": "I'm leaning towards using a pub/sub pattern for this, but I'd like to get a second opinion before committing to the architecture.",
+    "context": "Seeking consensus on a technical decision",
+    "translations": {
+      "pt-BR": "Estou inclinado a usar um padrão pub/sub para isso, mas gostaria de uma segunda opinião antes de definir a arquitetura.",
+      "es": "Me inclino por usar un patrón pub/sub para esto, pero me gustaría una segunda opinión antes de comprometerme con la arquitectura.",
+      "fr": "Je penche pour un pattern pub/sub pour ça, mais j'aimerais un deuxième avis avant de m'engager sur l'architecture.",
+      "de": "Ich tendiere zu einem Pub/Sub-Pattern dafür, aber ich hätte gerne eine zweite Meinung, bevor ich mich auf die Architektur festlege.",
+      "it": "Propendo per un pattern pub/sub per questo, ma vorrei un secondo parere prima di impegnarmi nell'architettura.",
+      "ja": "これにはpub/subパターンを使おうと考えていますが、アーキテクチャを決定する前にセカンドオピニオンが欲しいです。",
+      "ko": "pub/sub 패턴을 사용하려고 하는데, 아키텍처를 확정하기 전에 다른 의견을 듣고 싶습니다.",
+      "zh-Hans": "我倾向于用pub/sub模式，但在确定架构之前想听听其他意见。",
+      "hi": "मैं इसके लिए pub/sub पैटर्न की ओर झुक रहा हूं, लेकिन architecture तय करने से पहले second opinion चाहिए।",
+      "tr": "Bunun için pub/sub kalıbı kullanmaya meyilliyim, ama mimariye karar vermeden önce ikinci bir görüş almak istiyorum."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_100",
+    "english": "We might want to add a circuit breaker around this external service call to prevent cascading failures.",
+    "context": "Suggesting a resilience pattern",
+    "translations": {
+      "pt-BR": "Talvez devêssemos adicionar um circuit breaker nessa chamada de serviço externo para prevenir falhas em cascata.",
+      "es": "Deberíamos considerar agregar un circuit breaker en esta llamada de servicio externo para prevenir fallos en cascada.",
+      "fr": "On devrait peut-être ajouter un circuit breaker autour de cet appel de service externe pour éviter les défaillances en cascade.",
+      "de": "Wir sollten vielleicht einen Circuit Breaker um diesen externen Service-Aufruf hinzufügen, um kaskadierende Fehler zu vermeiden.",
+      "it": "Potremmo voler aggiungere un circuit breaker attorno a questa chiamata di servizio esterno per prevenire guasti a cascata.",
+      "ja": "カスケード障害を防ぐために、この外部サービス呼び出しにサーキットブレーカーを追加した方がいいかもしれません。",
+      "ko": "연쇄 장애를 방지하기 위해 이 외부 서비스 호출에 서킷 브레이커를 추가하는 게 좋겠습니다.",
+      "zh-Hans": "我们可能需要在这个外部服务调用周围加一个断路器来防止级联故障。",
+      "hi": "कैस्केडिंग फेलर्स रोकने के लिए इस external service call के आसपास circuit breaker जोड़ना चाहिए।",
+      "tr": "Basamaklı arızaları önlemek için bu harici servis çağrısının etrafına bir devre kesici eklememiz iyi olabilir."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_101",
+    "english": "I'm cleaning up the technical debt in the legacy code.",
+    "context": "Reporting cleanup work on old code",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_102",
+    "english": "I'll review the architecture document today.",
+    "context": "Planning documentation review",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_103",
+    "english": "The sprint goal looks achievable.",
+    "context": "Assessing sprint progress",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_104",
+    "english": "I need to discuss the requirements with the product team.",
+    "context": "Flagging requirement gaps",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_105",
+    "english": "I'm running into some issues with the Docker configuration.",
+    "context": "Reporting infrastructure problems",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_106",
+    "english": "I backfilled the missing data in the database.",
+    "context": "Reporting data fix",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_107",
+    "english": "I added monitoring alerts for the new service.",
+    "context": "Setting up observability",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_108",
+    "english": "I'll be out of office tomorrow, so I'm wrapping up my tasks.",
+    "context": "Communicating upcoming absence",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_109",
+    "english": "The migration script is ready for testing.",
+    "context": "Reporting script completion",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_110",
+    "english": "I synced with the design team on the new mockups.",
+    "context": "Reporting cross-team alignment",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_111",
+    "english": "I updated the README with the new setup instructions.",
+    "context": "Documentation update",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_112",
+    "english": "I'm prototyping the new recommendation algorithm.",
+    "context": "Working on experimental feature",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_113",
+    "english": "I had to roll back the last deployment due to a regression.",
+    "context": "Reporting a rollback",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_114",
+    "english": "I'm setting up the A/B testing framework.",
+    "context": "Working on experimentation infrastructure",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_115",
+    "english": "I created a hotfix branch for the critical bug.",
+    "context": "Urgent bug response",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_116",
+    "english": "I need to benchmark the new caching strategy before we ship it.",
+    "context": "Planning performance testing",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_117",
+    "english": "I'll present the technical proposal in the architecture meeting.",
+    "context": "Planning a presentation",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_118",
+    "english": "The load test results look promising.",
+    "context": "Sharing test results",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_119",
+    "english": "I'm integrating the third-party analytics SDK.",
+    "context": "Working on integration",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_120",
+    "english": "I automated the manual deployment steps.",
+    "context": "Improving CI/CD",
+    "translations": {
+      "pt-BR": "Continuando o trabalho conforme planejado.",
+      "es": "Continuando el trabajo según lo planeado.",
+      "fr": "Je continue le travail comme prévu.",
+      "de": "Ich fahre mit der geplanten Arbeit fort.",
+      "it": "Continuo il lavoro come pianificato.",
+      "ja": "計画通り作業を続けています。",
+      "ko": "계획대로 작업을 계속하고 있습니다.",
+      "zh-Hans": "按计划继续工作。",
+      "hi": "योजना के अनुसार काम जारी है।",
+      "tr": "Plana göre çalışmaya devam ediyorum."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  }
+]

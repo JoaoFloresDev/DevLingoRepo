@@ -1,0 +1,38 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "ko" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "hi" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } }
+      }
+    },
+    "CFBundleName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "ko" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "hi" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "DevLingo" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,58 @@
+name: DevLingo
+settings:
+  base:
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: NZC6LC8NWM
+    SWIFT_VERSION: "5.9"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    GENERATE_INFOPLIST_FILE: true
+
+targets:
+  DevLingo:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: DevLingo
+        excludes:
+          - "**/.DS_Store"
+    resources:
+      - path: DevLingo/Resources/Assets.xcassets
+      - path: DevLingo/Resources/LaunchScreen.storyboard
+      - path: DevLingo/Resources/Localizable.xcstrings
+      - path: DevLingo/Resources/InfoPlist.xcstrings
+      - path: DevLingo/Data/Phrases
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.gambitstudio.devlingo
+        INFOPLIST_FILE: DevLingo/Resources/Info.plist
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    entitlements:
+      path: DevLingo/DevLingo.entitlements
+    dependencies:
+      - target: DevLingoWidget
+        embed: true
+
+  DevLingoWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: DevLingoWidget
+        excludes:
+          - "**/.DS_Store"
+    resources:
+      - path: DevLingoWidget/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.gambitstudio.devlingo.widget
+        INFOPLIST_FILE: DevLingoWidget/Info.plist
+        CODE_SIGN_STYLE: Automatic
+        SKIP_INSTALL: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../Frameworks @executable_path/Frameworks"
+    entitlements:
+      path: DevLingoWidget/DevLingoWidget.entitlements

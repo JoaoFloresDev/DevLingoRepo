@@ -1,0 +1,117 @@
+========================================
+DevLingo - ASO Metadata
+Locale: en-US
+Bundle: com.gambitstudio.devlingo
+========================================
+
+--------------------------------------------------
+App Name (30 chars max)
+--------------------------------------------------
+DevLingo: English for Devs
+
+--------------------------------------------------
+Subtitle (30 chars max)
+--------------------------------------------------
+Phrases for Remote Developers
+
+--------------------------------------------------
+Keywords (100 chars max, comma separated)
+--------------------------------------------------
+english,developer,remote,programming,tech,phrases,standup,code review,slack,meeting,learn,work,daily
+
+--------------------------------------------------
+Description (4000 chars max)
+--------------------------------------------------
+You work remotely for a US company, but English still feels like a barrier in your daily communication. DevLingo was built specifically for developers like you.
+
+Unlike generic language apps, DevLingo teaches the exact phrases and expressions you use every day in remote tech work. No fluff, no tourist vocabulary, no restaurant dialogues. Just the English that actually matters for your career.
+
+
+WHY DEVLINGO?
+
+You already know how to code. You already have the technical skills. What's missing is the confidence to communicate clearly in English at work. DevLingo fills that gap with content that is 100% focused on the developer world.
+
+
+WHAT YOU WILL LEARN
+
+Over 3,600 phrases organized into 12 practical categories from your professional routine:
+
+- Daily Standup: Communicate your progress, blockers, and plans with clarity.
+- Code Review: Give and receive technical feedback professionally.
+- Slack & Messaging: Master async communication that is informal yet clear.
+- Professional Email: Write emails that are polite, clear, and to the point.
+- Meetings: Actively participate in calls, planning, and retrospectives.
+- Technical Discussions: Argue about architecture, trade-offs, and decisions.
+- Pull Requests: Describe, comment on, and approve PRs with the right vocabulary.
+- Bug Reports: Report and discuss bugs with technical precision.
+- Pair Programming: Collaborate in real time with fluency.
+- Interviews: Prepare for technical interviews in English with confidence.
+- Casual Chat: Join your team's water cooler conversations naturally.
+- Documentation: Write docs, READMEs, and specs like a native speaker.
+
+
+HOW IT WORKS
+
+10 new phrases per day. Simple, consistent, and never overwhelming. Each phrase comes with real-world context, pronunciation guidance, and practical examples. In just a few minutes a day, you build a solid and functional vocabulary.
+
+
+HOME SCREEN WIDGET
+
+Add the DevLingo widget to your iPhone home screen and see the phrase of the day without even opening the app. A lightweight, constant way to keep learning during your workday.
+
+
+STREAK SYSTEM
+
+Maintain your streak of consecutive days and track your progress over time. Think of it like your GitHub contribution graph: consistency builds results. Don't break the chain.
+
+
+10 SOURCE LANGUAGES
+
+DevLingo is available for speakers of Portuguese, Spanish, Mandarin, Hindi, Japanese, Korean, French, German, Italian, and Polish. No matter where you are from — if you work in tech, DevLingo is for you.
+
+
+WHO IS DEVLINGO FOR
+
+- Developers working remotely for US-based companies.
+- Programmers who want to improve their English communication at work.
+- Tech professionals preparing for international job interviews.
+- Devs with intermediate English who want to level up in a professional context.
+- Anyone in tech who wants to communicate with more confidence in global teams.
+
+
+Stop freezing during standups. Stop rewriting that PR comment three times. Stop staying silent in meetings because you couldn't find the right words.
+
+Download DevLingo and start communicating like the professional you already are — now in English.
+
+--------------------------------------------------
+Promotional Text (170 chars max)
+--------------------------------------------------
+New: phrase of the day widget! Learn English for remote dev work. 10 phrases/day, 12 categories, 3600+ phrases. Built by developers, for developers.
+
+--------------------------------------------------
+Screenshot Descriptions
+--------------------------------------------------
+
+Screenshot 1:
+Title: "English built for developers"
+Subtitle: "3,600+ phrases from your real workday"
+
+Screenshot 2:
+Title: "12 real-world categories"
+Subtitle: "Standup, Code Review, Slack, Meetings & more"
+
+Screenshot 3:
+Title: "10 phrases per day"
+Subtitle: "Learn at your pace, never overwhelming"
+
+Screenshot 4:
+Title: "Home screen widget"
+Subtitle: "Phrase of the day right on your screen"
+
+Screenshot 5:
+Title: "Keep the streak alive"
+Subtitle: "Consistency that transforms your communication"
+
+Screenshot 6:
+Title: "Built for remote work"
+Subtitle: "From daily standup to technical interview"

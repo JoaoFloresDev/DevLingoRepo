@@ -1,0 +1,117 @@
+========================================
+DevLingo - ASO Metadata
+Locale: es-ES
+Bundle: com.gambitstudio.devlingo
+========================================
+
+--------------------------------------------------
+App Name (30 chars max)
+--------------------------------------------------
+DevLingo: Inglés para Devs
+
+--------------------------------------------------
+Subtitle (30 chars max)
+--------------------------------------------------
+Frases para trabajo remoto
+
+--------------------------------------------------
+Keywords (100 chars max, comma separated)
+--------------------------------------------------
+inglés,desarrollador,remoto,programación,tech,frases,daily,code review,slack,reunión,trabajo,dev,TI
+
+--------------------------------------------------
+Description (4000 chars max)
+--------------------------------------------------
+Trabajas de forma remota con empresas estadounidenses y sientes que tu inglés se bloquea a la hora de comunicarte? DevLingo fue creado específicamente para desarrolladores como tú.
+
+A diferencia de las apps genéricas de idiomas, DevLingo enseña exactamente las frases y expresiones que usas en tu día a día en el trabajo remoto en tecnología. Sin relleno, sin frases de turismo o restaurantes. Solo el inglés que realmente importa para tu carrera.
+
+
+POR QUÉ DEVLINGO?
+
+Ya sabes programar. Ya tienes las habilidades técnicas. Lo que falta es comunicarte con confianza en inglés en el entorno laboral. DevLingo llena ese vacío con contenido 100% enfocado en el mundo dev.
+
+
+QUÉ VAS A APRENDER
+
+Más de 3.600 frases organizadas en 12 categorías prácticas de tu rutina profesional:
+
+- Daily Standup: Comunica tu progreso, bloqueos y planes con claridad.
+- Code Review: Da y recibe feedback técnico de forma profesional.
+- Slack y Mensajes: Domina la comunicación asíncrona informal y directa.
+- Email Profesional: Escribe correos claros, educados y al punto.
+- Reuniones: Participa activamente en calls, planning y retrospectivas.
+- Discusiones Técnicas: Argumenta sobre arquitectura, trade-offs y decisiones.
+- Pull Requests: Describe, comenta y aprueba PRs con el vocabulario adecuado.
+- Bug Reports: Reporta y discute bugs con precisión técnica.
+- Pair Programming: Colabora en tiempo real con fluidez.
+- Entrevistas: Prepárate para entrevistas técnicas en inglés con confianza.
+- Conversaciones Informales: Participa en el chat del equipo con naturalidad.
+- Documentación: Escribe docs, READMEs y specs de forma profesional.
+
+
+CÓMO FUNCIONA
+
+10 frases nuevas por día. Simple, consistente y sin sobrecarga. Cada frase incluye contexto real de uso, pronunciación y ejemplos prácticos. En solo unos minutos al día, construyes un vocabulario sólido y funcional.
+
+
+WIDGET EN LA PANTALLA DE INICIO
+
+Añade el widget de DevLingo a la pantalla de inicio de tu iPhone y mira la frase del día sin abrir la app. Una forma ligera y constante de mantener el aprendizaje activo durante tu jornada laboral.
+
+
+SISTEMA DE RACHA
+
+Mantén tu racha de días consecutivos y sigue tu evolución a lo largo del tiempo. El sistema de racha funciona como tu gráfico de contribuciones en GitHub: la consistencia genera resultados. No rompas la cadena.
+
+
+10 IDIOMAS DE ORIGEN
+
+DevLingo está disponible para hablantes de Portugués, Español, Mandarín, Hindi, Japonés, Coreano, Francés, Alemán, Italiano y Polaco. No importa de dónde seas — si trabajas en tech, DevLingo es para ti.
+
+
+PARA QUIÉN ES DEVLINGO
+
+- Desarrolladores que trabajan de forma remota para empresas de EE.UU.
+- Programadores que quieren mejorar su comunicación en inglés en el trabajo.
+- Profesionales de tecnología preparándose para entrevistas internacionales.
+- Devs con inglés intermedio que quieren avanzar en el contexto profesional.
+- Cualquier persona en TI que quiera comunicarse con más seguridad en equipos globales.
+
+
+Basta de quedarte en blanco en la daily. Basta de revisar tres veces ese comentario en el PR. Basta de quedarte en silencio en la reunión porque no encontraste las palabras correctas.
+
+Descarga DevLingo y empieza a comunicarte como el profesional que ya eres — ahora en inglés.
+
+--------------------------------------------------
+Promotional Text (170 chars max)
+--------------------------------------------------
+Nuevo: widget con la frase del día! Aprende inglés técnico para el trabajo remoto. 10 frases/día, 12 categorías, 3600+ frases. Hecho por devs, para devs.
+
+--------------------------------------------------
+Screenshot Descriptions
+--------------------------------------------------
+
+Screenshot 1:
+Título: "Inglés hecho para devs"
+Subtítulo: "3.600+ frases de tu día a día en el trabajo remoto"
+
+Screenshot 2:
+Título: "12 categorías reales"
+Subtítulo: "Daily, Code Review, Slack, Reuniones y mucho más"
+
+Screenshot 3:
+Título: "10 frases por día"
+Subtítulo: "Aprende a tu ritmo, sin sobrecarga"
+
+Screenshot 4:
+Título: "Widget en tu pantalla"
+Subtítulo: "La frase del día directo en tu inicio"
+
+Screenshot 5:
+Título: "Mantén la racha"
+Subtítulo: "Consistencia que transforma tu comunicación"
+
+Screenshot 6:
+Título: "Hecho para el trabajo remoto"
+Subtítulo: "De la daily standup a la entrevista técnica"
