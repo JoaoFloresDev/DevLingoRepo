@@ -35,9 +35,11 @@ final class ReviewService {
         }
 
         // Request review
-        if let scene = UIApplication.shared.connectedScenes
-            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
-            AppStore.requestReview(in: scene)
+        Task { @MainActor in
+            if let scene = UIApplication.shared.connectedScenes
+                .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                AppStore.requestReview(in: scene)
+            }
         }
 
         storage.setBool(true, forKey: StorageKeys.hasRequestedReview)

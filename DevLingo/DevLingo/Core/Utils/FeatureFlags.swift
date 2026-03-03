@@ -3,7 +3,7 @@ import Foundation
 /// Centralized feature flags.
 enum FeatureFlags {
     /// Show mock data for App Store screenshots.
-    static let isMockedData = false
+    static let isMockedData = true
 
     /// Enable premium/paywall features (v2).
     static let premiumEnabled = false

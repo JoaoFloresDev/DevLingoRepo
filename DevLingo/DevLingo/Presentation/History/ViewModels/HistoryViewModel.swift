@@ -56,6 +56,9 @@ final class HistoryViewModel: ObservableObject {
     func phrasesForSelectedDate() -> [Phrase] {
         guard let date = selectedDate,
               let set = dailySet(for: date) else { return [] }
+        if FeatureFlags.isMockedData {
+            return MockDataProvider.todayPhrases
+        }
         return phraseService.phrases(by: set.phraseIDs)
     }
 
@@ -77,7 +80,11 @@ final class HistoryViewModel: ObservableObject {
     }
 
     private func fetchHistory() {
-        history = dailyService.getHistory()
+        if FeatureFlags.isMockedData {
+            history = MockDataProvider.mockHistory
+        } else {
+            history = dailyService.getHistory()
+        }
     }
 
     // MARK: - Navigation

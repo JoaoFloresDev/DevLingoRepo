@@ -115,6 +115,38 @@ enum MockDataProvider {
         ]
     )
 
+    // MARK: - Mock History
+
+    static var mockHistory: [DailyPhraseSet] {
+        let calendar = Calendar.current
+        let today = Date()
+        let phraseIDs = todayPhrases.map { $0.id }
+        var sets: [DailyPhraseSet] = []
+
+        let completionPatterns: [(daysAgo: Int, completed: Int)] = [
+            (0, 7), (1, 10), (2, 10), (3, 8), (4, 5),
+            (5, 10), (6, 9), (7, 10), (9, 6),
+            (10, 10), (11, 10), (12, 3), (14, 10),
+            (15, 8), (16, 10), (17, 7), (19, 10), (21, 5),
+            (23, 10), (25, 9), (27, 4)
+        ]
+
+        for pattern in completionPatterns {
+            guard let date = calendar.date(byAdding: .day, value: -pattern.daysAgo, to: today) else { continue }
+            let completedCount = min(pattern.completed, phraseIDs.count)
+            let completed = Set(phraseIDs.prefix(completedCount))
+            let set = DailyPhraseSet(
+                id: date.dayString,
+                date: date,
+                phraseIDs: phraseIDs,
+                completedIDs: completed
+            )
+            sets.append(set)
+        }
+
+        return sets
+    }
+
     // MARK: - Helpers
 
     private static func mockTranslations(_ ptBR: String) -> [String: String] {
