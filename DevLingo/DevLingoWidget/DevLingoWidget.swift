@@ -33,30 +33,13 @@ struct DevLingoTimelineProvider: TimelineProvider {
     }
 
     func getSnapshot(in context: Context, completion: @escaping (PhraseEntry) -> Void) {
-        completion(getEntry())
-    }
-
-    func getTimeline(in context: Context, completion: @escaping (Timeline<PhraseEntry>) -> Void) {
-        let entry = getEntry()
-        let refreshDate = Calendar.current.date(byAdding: .hour, value: 2, to: .now) ?? .now
-        let timeline = Timeline(entries: [entry], policy: .after(refreshDate))
-        completion(timeline)
-    }
-
-    private func getEntry() -> PhraseEntry {
-        // Read shared data from App Group
-        guard let data = storage?.data(forKey: "widgetPhrases"),
-              let phrases = try? JSONDecoder().decode([WidgetPhrase].self, from: data),
-              !phrases.isEmpty else {
-            return .placeholder
+        let phrases = loadPhrases()
+        guard !phrases.isEmpty else {
+            completion(.placeholder)
+            return
         }
-
-        // Rotate through phrases based on time
-        let hour = Calendar.current.component(.hour, from: .now)
-        let index = hour % phrases.count
-        let phrase = phrases[index]
-
-        return PhraseEntry(
+        let phrase = phrases[0]
+        completion(PhraseEntry(
             date: .now,
             english: phrase.english,
             context: phrase.context,
@@ -64,7 +47,51 @@ struct DevLingoTimelineProvider: TimelineProvider {
             category: phrase.category,
             categoryIcon: phrase.categoryIcon,
             difficulty: phrase.difficulty
-        )
+        ))
+    }
+
+    func getTimeline(in context: Context, completion: @escaping (Timeline<PhraseEntry>) -> Void) {
+        let phrases = loadPhrases()
+
+        guard !phrases.isEmpty else {
+            let entry = PhraseEntry.placeholder
+            let refreshDate = Calendar.current.date(byAdding: .hour, value: 1, to: .now) ?? .now
+            completion(Timeline(entries: [entry], policy: .after(refreshDate)))
+            return
+        }
+
+        // Create one entry per phrase, rotating every 2 hours throughout the day
+        var entries: [PhraseEntry] = []
+        let calendar = Calendar.current
+        let now = Date()
+
+        for i in 0..<phrases.count {
+            let entryDate = calendar.date(byAdding: .hour, value: i * 2, to: now) ?? now
+            let phrase = phrases[i % phrases.count]
+
+            entries.append(PhraseEntry(
+                date: entryDate,
+                english: phrase.english,
+                context: phrase.context,
+                translation: phrase.translation,
+                category: phrase.category,
+                categoryIcon: phrase.categoryIcon,
+                difficulty: phrase.difficulty
+            ))
+        }
+
+        // Refresh tomorrow morning
+        let refreshDate = calendar.date(byAdding: .hour, value: phrases.count * 2, to: now) ?? now
+        completion(Timeline(entries: entries, policy: .after(refreshDate)))
+    }
+
+    private func loadPhrases() -> [WidgetPhrase] {
+        guard let data = storage?.data(forKey: "widgetPhrases"),
+              let phrases = try? JSONDecoder().decode([WidgetPhrase].self, from: data),
+              !phrases.isEmpty else {
+            return []
+        }
+        return phrases
     }
 }
 

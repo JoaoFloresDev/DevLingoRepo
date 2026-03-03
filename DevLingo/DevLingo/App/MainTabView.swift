@@ -16,11 +16,13 @@ struct MainTabView: View {
                 }
                 .tag(0)
 
-            CategoriesView()
-                .tabItem {
-                    Label(String(localized: "tab.categories"), systemImage: "square.grid.2x2.fill")
-                }
-                .tag(1)
+            NavigationStack {
+                CategoriesView()
+            }
+            .tabItem {
+                Label(String(localized: "tab.categories"), systemImage: "square.grid.2x2.fill")
+            }
+            .tag(1)
 
             HistoryView()
                 .tabItem {

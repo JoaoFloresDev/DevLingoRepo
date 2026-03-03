@@ -1,10 +1,13 @@
 import SwiftUI
+import StoreKit
 
 /// Profile screen showing user stats and settings.
 struct ProfileView: View {
     // MARK: - Properties
 
     @StateObject private var viewModel = ProfileViewModel()
+    @State private var showLanguagePicker = false
+    @State private var showNotificationSettings = false
 
     // MARK: - Body
 
@@ -18,15 +21,26 @@ struct ProfileView: View {
                     levelCard
                     statsSection
                     settingsSection
+                    appInfoFooter
                 }
                 .padding(.horizontal, AppSpacing.screenPadding)
                 .padding(.bottom, AppSpacing.xxl)
             }
         }
         .onAppear { viewModel.loadData() }
+        .sheet(isPresented: $showLanguagePicker) {
+            LanguagePickerSheet()
+                .presentationDetents([.medium])
+                .presentationDragIndicator(.visible)
+        }
+        .sheet(isPresented: $showNotificationSettings) {
+            NotificationSettingsSheet()
+                .presentationDetents([.medium])
+                .presentationDragIndicator(.visible)
+        }
     }
 
-    // MARK: - Subviews
+    // MARK: - Header
 
     private var headerSection: some View {
         HStack {
@@ -44,11 +58,13 @@ struct ProfileView: View {
         .padding(.top, AppSpacing.md)
     }
 
+    // MARK: - Level Card
+
     private var levelCard: some View {
         VStack(spacing: AppSpacing.md) {
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(String(localized: "profile.level %lld", defaultValue: "Level \(viewModel.progress.level)"))
+                    Text(String(localized: "profile.level \(viewModel.progress.level)"))
                         .font(.system(size: 22, weight: .bold))
                         .foregroundStyle(AppColors.textPrimary)
 
@@ -78,7 +94,7 @@ struct ProfileView: View {
             ProgressView(value: viewModel.progress.levelProgress)
                 .tint(AppColors.primary)
 
-            Text(String(localized: "profile.phrases_to_next %lld", defaultValue: "\(viewModel.progress.phrasesToNextLevel) phrases to next level"))
+            Text(String(localized: "profile.phrases_to_next \(viewModel.progress.phrasesToNextLevel)"))
                 .font(.system(size: 13))
                 .foregroundStyle(AppColors.textTertiary)
 
@@ -102,7 +118,7 @@ struct ProfileView: View {
         }
         .padding(AppSpacing.lg)
         .background(AppColors.surface)
-        .cornerRadius(16)
+        .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
     }
 
     private func statItem(icon: String, color: Color, value: String, label: String) -> some View {
@@ -123,6 +139,8 @@ struct ProfileView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
     }
+
+    // MARK: - Stats
 
     private var statsSection: some View {
         VStack(spacing: 0) {
@@ -152,7 +170,7 @@ struct ProfileView: View {
             )
         }
         .background(AppColors.surface)
-        .cornerRadius(16)
+        .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
     }
 
     private func statsRow(icon: String, color: Color, title: String, value: String) -> some View {
@@ -171,32 +189,47 @@ struct ProfileView: View {
             Text(value)
                 .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(AppColors.textSecondary)
-
-            Image(systemName: "chevron.right")
-                .font(.system(size: 13))
-                .foregroundStyle(AppColors.textTertiary)
         }
         .padding(.horizontal, AppSpacing.lg)
         .padding(.vertical, 14)
     }
 
+    // MARK: - Settings
+
     private var settingsSection: some View {
         VStack(spacing: 0) {
-            settingsRow(icon: "globe", title: String(localized: "profile.language"))
+            Button { showLanguagePicker = true } label: {
+                settingsRow(icon: "globe", title: String(localized: "profile.language"),
+                            detail: viewModel.currentLanguageName)
+            }
+
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
-            settingsRow(icon: "bell.fill", title: String(localized: "profile.notifications"))
+
+            Button { showNotificationSettings = true } label: {
+                settingsRow(icon: "bell.fill", title: String(localized: "profile.notifications"))
+            }
+
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
-            settingsRow(icon: "star.fill", title: String(localized: "profile.rate_app"))
+
+            Button { rateApp() } label: {
+                settingsRow(icon: "star.fill", title: String(localized: "profile.rate_app"))
+            }
+
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
-            settingsRow(icon: "square.and.arrow.up", title: String(localized: "profile.share_app"))
-            Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
-            settingsRow(icon: "info.circle", title: String(localized: "profile.about"))
+
+            ShareLink(
+                item: URL(string: "https://apps.apple.com/app/devlingo/id0000000000")!,
+                subject: Text("DevLingo"),
+                message: Text(String(localized: "profile.share_message"))
+            ) {
+                settingsRow(icon: "square.and.arrow.up", title: String(localized: "profile.share_app"))
+            }
         }
         .background(AppColors.surface)
-        .cornerRadius(16)
+        .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
     }
 
-    private func settingsRow(icon: String, title: String) -> some View {
+    private func settingsRow(icon: String, title: String, detail: String? = nil) -> some View {
         HStack {
             Image(systemName: icon)
                 .font(.system(size: 18))
@@ -209,11 +242,51 @@ struct ProfileView: View {
 
             Spacer()
 
+            if let detail {
+                Text(detail)
+                    .font(.system(size: 14))
+                    .foregroundStyle(AppColors.textTertiary)
+            }
+
             Image(systemName: "chevron.right")
                 .font(.system(size: 13))
                 .foregroundStyle(AppColors.textTertiary)
         }
         .padding(.horizontal, AppSpacing.lg)
         .padding(.vertical, 14)
+    }
+
+    // MARK: - App Info
+
+    private var appInfoFooter: some View {
+        VStack(spacing: AppSpacing.xs) {
+            Text("DevLingo")
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundStyle(AppColors.textSecondary)
+
+            Text(String(localized: "profile.version \(appVersion)"))
+                .font(.system(size: 12))
+                .foregroundStyle(AppColors.textTertiary)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.top, AppSpacing.md)
+    }
+
+    // MARK: - Helpers
+
+    private var appVersion: String {
+        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
+    }
+
+    private func rateApp() {
+        if let scene = UIApplication.shared.connectedScenes
+            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+            if #available(iOS 18.0, *) {
+                AppStore.requestReview(in: scene)
+            } else {
+                SKStoreReviewController.requestReview(in: scene)
+            }
+        }
+        HapticManager.success()
     }
 }

@@ -1,0 +1,63 @@
+APP NAME (30 chars):
+DevLingo - Dev English Daily
+
+SUBTITLE (30 chars):
+Learn Tech English Phrases
+
+KEYWORDS (100 chars):
+developer english,tech vocabulary,programming phrases,code review,standup,remote work,daily learning
+
+DESCRIPTION (4000 chars):
+DevLingo is the essential English learning companion designed specifically for software developers who work with international teams.
+
+Every day, DevLingo delivers 10 carefully curated English phrases that real developers use in their daily work — from standup meetings and code reviews to Slack conversations and technical discussions.
+
+WHY DEVLINGO?
+
+Working remotely for US or international companies requires more than just knowing how to code. You need to communicate effectively in English during standups, write clear PR descriptions, participate in meetings, and chat naturally with your teammates.
+
+DevLingo bridges that gap by teaching you the exact phrases and expressions used in real tech workplaces.
+
+HOW IT WORKS
+
+- Receive 10 new phrases every day, balanced across difficulty levels
+- Phrases come from 12 real workplace categories: Standups, Code Reviews, Slack, Email, Meetings, Technical Discussions, Pull Requests, Bug Reports, Pair Programming, Interviews, Casual Chat, and Documentation
+- Listen to native pronunciation with text-to-speech
+- Toggle translations in your native language
+- Track your progress with streaks and levels
+- Review your history on a beautiful calendar view
+
+3,600 UNIQUE PHRASES
+
+Our comprehensive library covers everything from simple greetings to complex technical discussions. With 300 phrases per category and balanced difficulty distribution, you will always have fresh content to learn.
+
+DESIGNED FOR YOUR WORKFLOW
+
+- Quick daily sessions that fit into your schedule
+- Widget support to see phrases throughout the day
+- Customizable notification reminders
+- Dark mode interface that looks great
+- Available in 10 languages
+
+Whether you are preparing for your first remote job interview or looking to sound more natural in your daily standups, DevLingo has you covered.
+
+Download DevLingo today and start speaking like a native developer.
+
+PROMOTIONAL TEXT (170 chars):
+Master the English phrases real developers use daily. 10 new phrases every day from standups, code reviews, Slack, and more. Start speaking like a native dev!
+
+WHAT'S NEW:
+- Initial release
+- 3,600 developer workplace phrases
+- 12 categories covering all aspects of tech communication
+- 10 source languages supported
+- Daily phrase delivery with smart difficulty balancing
+- Widget support for learning throughout the day
+
+SCREENSHOT DESCRIPTIONS:
+1. Learn 10 new developer phrases every day
+2. 12 real workplace categories to master
+3. Track your streak and level up daily
+4. Browse phrases by category and difficulty
+5. Review your learning history on calendar
+6. Customize your learning experience

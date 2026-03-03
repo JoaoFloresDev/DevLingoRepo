@@ -113,47 +113,49 @@ struct PhraseCardView: View {
     // MARK: - Bottom Row
 
     private var bottomRow: some View {
-        HStack(spacing: AppSpacing.lg) {
-            // Listen
-            Button(action: onSpeak) {
-                HStack(spacing: AppSpacing.xs) {
-                    Image(systemName: "speaker.wave.2.fill")
-                        .font(.system(size: 13))
-                    Text(String(localized: "phrase.listen"))
-                        .font(AppFonts.caption)
-                }
-                .foregroundStyle(AppColors.primary)
-            }
-            .pressAnimation()
-
-            // Show/hide translation
-            if !showTranslation {
-                Button {
-                    withAnimation { showLocalTranslation.toggle() }
-                } label: {
+        VStack(spacing: AppSpacing.md) {
+            HStack(spacing: AppSpacing.lg) {
+                // Listen
+                Button(action: onSpeak) {
                     HStack(spacing: AppSpacing.xs) {
-                        Image(systemName: showLocalTranslation ? "eye.slash.fill" : "eye.fill")
+                        Image(systemName: "speaker.wave.2.fill")
                             .font(.system(size: 13))
-                        Text(showLocalTranslation
-                             ? String(localized: "phrase.hide_translation")
-                             : String(localized: "phrase.show_translation"))
+                        Text(String(localized: "phrase.listen"))
                             .font(AppFonts.caption)
                     }
-                    .foregroundStyle(AppColors.textSecondary)
+                    .foregroundStyle(AppColors.primary)
                 }
+                .pressAnimation()
+
+                // Show/hide translation
+                if !showTranslation {
+                    Button {
+                        withAnimation { showLocalTranslation.toggle() }
+                    } label: {
+                        HStack(spacing: AppSpacing.xs) {
+                            Image(systemName: showLocalTranslation ? "eye.slash.fill" : "eye.fill")
+                                .font(.system(size: 13))
+                            Text(showLocalTranslation
+                                 ? String(localized: "phrase.hide_translation")
+                                 : String(localized: "phrase.show_translation"))
+                                .font(AppFonts.caption)
+                        }
+                        .foregroundStyle(AppColors.textSecondary)
+                    }
+                }
+
+                Spacer()
+
+                // Save
+                Button(action: onSave) {
+                    Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
+                        .font(.system(size: 15))
+                        .foregroundStyle(isSaved ? AppColors.accent : AppColors.textTertiary)
+                }
+                .pressAnimation()
             }
 
-            Spacer()
-
-            // Save
-            Button(action: onSave) {
-                Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
-                    .font(.system(size: 15))
-                    .foregroundStyle(isSaved ? AppColors.accent : AppColors.textTertiary)
-            }
-            .pressAnimation()
-
-            // Complete
+            // Complete — separate line
             if !isCompleted {
                 Button(action: onComplete) {
                     HStack(spacing: AppSpacing.xs) {
@@ -163,7 +165,7 @@ struct PhraseCardView: View {
                             .font(AppFonts.caption)
                     }
                     .foregroundStyle(AppColors.secondary)
-                    .padding(.horizontal, AppSpacing.md)
+                    .frame(maxWidth: .infinity)
                     .padding(.vertical, AppSpacing.sm)
                     .background(AppColors.secondary.opacity(0.15))
                     .clipShape(Capsule())

@@ -13,6 +13,16 @@ final class ProfileViewModel: ObservableObject {
 
     private let storage = StorageService.shared
 
+    // MARK: - Computed Properties
+
+    var currentLanguageName: String {
+        guard let code = storage.getString(forKey: StorageKeys.selectedLanguage),
+              let lang = UserLanguage(rawValue: code) else {
+            return UserLanguage.ptBR.nativeName
+        }
+        return lang.nativeName
+    }
+
     // MARK: - Public Methods
 
     func loadData() {

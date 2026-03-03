@@ -62,6 +62,19 @@ final class HomeViewModel: ObservableObject {
         savedIDs = storage.getStringSet(forKey: StorageKeys.savedPhraseIDs)
         progressService.updateStreak()
         dailyService.saveTodayToHistory()
+
+        // Schedule phrase notifications with today's phrases
+        let notifCount = max(1, storage.getInt(forKey: StorageKeys.phraseNotificationsCount))
+        if storage.getBool(forKey: StorageKeys.notificationsEnabled) {
+            NotificationService.shared.schedulePhraseNotifications(
+                phrases: todayPhrases,
+                language: userLanguage,
+                count: notifCount
+            )
+        }
+
+        // Update widget with today's phrases
+        WidgetService.shared.updateWidget(phrases: todayPhrases, language: userLanguage)
     }
 
     // MARK: - Actions
