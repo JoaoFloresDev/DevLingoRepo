@@ -124,6 +124,7 @@ struct PhraseCardView: View {
                 }
                 .foregroundStyle(AppColors.primary)
             }
+            .pressAnimation()
 
             // Show/hide translation
             if !showTranslation {
@@ -150,6 +151,7 @@ struct PhraseCardView: View {
                     .font(.system(size: 15))
                     .foregroundStyle(isSaved ? AppColors.accent : AppColors.textTertiary)
             }
+            .pressAnimation()
 
             // Complete
             if !isCompleted {
@@ -166,6 +168,7 @@ struct PhraseCardView: View {
                     .background(AppColors.secondary.opacity(0.15))
                     .clipShape(Capsule())
                 }
+                .pressAnimation()
             }
         }
     }

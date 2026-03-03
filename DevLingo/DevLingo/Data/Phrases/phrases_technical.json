@@ -1,0 +1,572 @@
+[
+  {
+    "id": "technical_001",
+    "english": "We should refactor this into a microservices architecture.",
+    "context": "Proposing an architectural change to break a monolith into smaller services",
+    "translations": {
+      "pt-BR": "Deveríamos refatorar isso para uma arquitetura de microsserviços.",
+      "es": "Deberíamos refactorizar esto a una arquitectura de microservicios.",
+      "fr": "Nous devrions refactoriser cela en une architecture de microservices.",
+      "de": "Wir sollten das in eine Microservices-Architektur umbauen.",
+      "it": "Dovremmo rifattorizzare questo in un'architettura a microservizi.",
+      "ja": "これをマイクロサービスアーキテクチャにリファクタリングすべきです。",
+      "ko": "이것을 마이크로서비스 아키텍처로 리팩토링해야 합니다.",
+      "zh-Hans": "我们应该将其重构为微服务架构。",
+      "hi": "हमें इसे माइक्रोसर्विसेज आर्किटेक्चर में रिफैक्टर करना चाहिए।",
+      "tr": "Bunu bir mikroservis mimarisine yeniden yapılandırmalıyız."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_002",
+    "english": "Can you check the logs for any errors?",
+    "context": "Asking a teammate to investigate application logs during debugging",
+    "translations": {
+      "pt-BR": "Você pode verificar os logs para ver se há erros?",
+      "es": "¿Puedes revisar los logs en busca de errores?",
+      "fr": "Peux-tu vérifier les logs pour détecter des erreurs ?",
+      "de": "Kannst du die Logs auf Fehler überprüfen?",
+      "it": "Puoi controllare i log per eventuali errori?",
+      "ja": "ログにエラーがないか確認してもらえますか？",
+      "ko": "로그에 오류가 있는지 확인해 주시겠어요?",
+      "zh-Hans": "你能检查一下日志里有没有错误吗？",
+      "hi": "क्या आप लॉग में कोई त्रुटि है या नहीं जांच सकते हैं?",
+      "tr": "Loglarda hata olup olmadığını kontrol edebilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_003",
+    "english": "The database query is taking too long to execute.",
+    "context": "Reporting a performance issue with a slow database query",
+    "translations": {
+      "pt-BR": "A consulta ao banco de dados está demorando muito para executar.",
+      "es": "La consulta a la base de datos está tardando demasiado en ejecutarse.",
+      "fr": "La requête de base de données prend trop de temps à s'exécuter.",
+      "de": "Die Datenbankabfrage braucht zu lange zur Ausführung.",
+      "it": "La query del database impiega troppo tempo per l'esecuzione.",
+      "ja": "データベースクエリの実行に時間がかかりすぎています。",
+      "ko": "데이터베이스 쿼리 실행 시간이 너무 오래 걸립니다.",
+      "zh-Hans": "数据库查询执行时间太长了。",
+      "hi": "डेटाबेस क्वेरी को निष्पादित होने में बहुत अधिक समय लग रहा है।",
+      "tr": "Veritabanı sorgusu çalışması çok uzun sürüyor."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_004",
+    "english": "Let's add an index to optimize this query.",
+    "context": "Suggesting a database optimization by adding an index",
+    "translations": {
+      "pt-BR": "Vamos adicionar um índice para otimizar essa consulta.",
+      "es": "Agreguemos un índice para optimizar esta consulta.",
+      "fr": "Ajoutons un index pour optimiser cette requête.",
+      "de": "Lasst uns einen Index hinzufügen, um diese Abfrage zu optimieren.",
+      "it": "Aggiungiamo un indice per ottimizzare questa query.",
+      "ja": "このクエリを最適化するためにインデックスを追加しましょう。",
+      "ko": "이 쿼리를 최적화하기 위해 인덱스를 추가합시다.",
+      "zh-Hans": "让我们添加一个索引来优化这个查询。",
+      "hi": "इस क्वेरी को ऑप्टिमाइज़ करने के लिए एक इंडेक्स जोड़ते हैं।",
+      "tr": "Bu sorguyu optimize etmek için bir indeks ekleyelim."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_005",
+    "english": "We need to set up a caching layer to reduce latency.",
+    "context": "Proposing a caching strategy to improve response times",
+    "translations": {
+      "pt-BR": "Precisamos configurar uma camada de cache para reduzir a latência.",
+      "es": "Necesitamos configurar una capa de caché para reducir la latencia.",
+      "fr": "Nous devons mettre en place une couche de cache pour réduire la latence.",
+      "de": "Wir müssen eine Caching-Schicht einrichten, um die Latenz zu reduzieren.",
+      "it": "Dobbiamo configurare un livello di caching per ridurre la latenza.",
+      "ja": "レイテンシを削減するためにキャッシュレイヤーを設定する必要があります。",
+      "ko": "지연 시간을 줄이기 위해 캐싱 레이어를 설정해야 합니다.",
+      "zh-Hans": "我们需要设置一个缓存层来减少延迟。",
+      "hi": "लेटेंसी कम करने के लिए हमें एक कैशिंग लेयर सेटअप करनी होगी।",
+      "tr": "Gecikmeyi azaltmak için bir önbellekleme katmanı kurmamız gerekiyor."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_006",
+    "english": "The deployment pipeline failed at the testing stage.",
+    "context": "Reporting a CI/CD pipeline failure during the test phase",
+    "translations": {
+      "pt-BR": "O pipeline de deploy falhou na etapa de testes.",
+      "es": "El pipeline de despliegue falló en la etapa de pruebas.",
+      "fr": "Le pipeline de déploiement a échoué à l'étape de test.",
+      "de": "Die Deployment-Pipeline ist in der Testphase fehlgeschlagen.",
+      "it": "La pipeline di deployment è fallita nella fase di test.",
+      "ja": "デプロイパイプラインがテスト段階で失敗しました。",
+      "ko": "배포 파이프라인이 테스트 단계에서 실패했습니다.",
+      "zh-Hans": "部署管道在测试阶段失败了。",
+      "hi": "डिप्लॉयमेंट पाइपलाइन टेस्टिंग स्टेज पर फेल हो गई।",
+      "tr": "Dağıtım hattı test aşamasında başarısız oldu."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_007",
+    "english": "I'll set a breakpoint here and step through the code.",
+    "context": "Describing a debugging approach using breakpoints",
+    "translations": {
+      "pt-BR": "Vou colocar um breakpoint aqui e percorrer o código passo a passo.",
+      "es": "Voy a poner un breakpoint aquí y recorrer el código paso a paso.",
+      "fr": "Je vais mettre un point d'arrêt ici et parcourir le code pas à pas.",
+      "de": "Ich setze hier einen Breakpoint und gehe den Code Schritt für Schritt durch.",
+      "it": "Metterò un breakpoint qui e percorrerò il codice passo dopo passo.",
+      "ja": "ここにブレークポイントを設定してコードをステップ実行します。",
+      "ko": "여기에 브레이크포인트를 설정하고 코드를 단계별로 실행하겠습니다.",
+      "zh-Hans": "我在这里设一个断点，然后逐步执行代码。",
+      "hi": "मैं यहां एक ब्रेकपॉइंट लगाऊंगा और कोड को स्टेप बाय स्टेप चलाऊंगा।",
+      "tr": "Buraya bir kesme noktası koyup kodu adım adım izleyeceğim."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_008",
+    "english": "This endpoint should follow RESTful conventions.",
+    "context": "Discussing API design standards for a new endpoint",
+    "translations": {
+      "pt-BR": "Este endpoint deveria seguir as convenções RESTful.",
+      "es": "Este endpoint debería seguir las convenciones RESTful.",
+      "fr": "Ce point de terminaison devrait suivre les conventions RESTful.",
+      "de": "Dieser Endpoint sollte den RESTful-Konventionen folgen.",
+      "it": "Questo endpoint dovrebbe seguire le convenzioni RESTful.",
+      "ja": "このエンドポイントはRESTfulの規約に従うべきです。",
+      "ko": "이 엔드포인트는 RESTful 규칙을 따라야 합니다.",
+      "zh-Hans": "这个端点应该遵循RESTful规范。",
+      "hi": "इस एंडपॉइंट को RESTful कन्वेंशन्स का पालन करना चाहिए।",
+      "tr": "Bu uç nokta RESTful kurallarına uymalıdır."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_009",
+    "english": "We should implement rate limiting on the API.",
+    "context": "Suggesting adding rate limiting to protect API from abuse",
+    "translations": {
+      "pt-BR": "Deveríamos implementar limitação de taxa na API.",
+      "es": "Deberíamos implementar limitación de tasa en la API.",
+      "fr": "Nous devrions implémenter une limitation de débit sur l'API.",
+      "de": "Wir sollten eine Ratenbegrenzung für die API implementieren.",
+      "it": "Dovremmo implementare il rate limiting sull'API.",
+      "ja": "APIにレート制限を実装すべきです。",
+      "ko": "API에 속도 제한을 구현해야 합니다.",
+      "zh-Hans": "我们应该在API上实现速率限制。",
+      "hi": "हमें API पर रेट लिमिटिंग लागू करनी चाहिए।",
+      "tr": "API üzerinde hız sınırlaması uygulamalıyız."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_010",
+    "english": "The memory leak is caused by a retain cycle.",
+    "context": "Identifying the root cause of a memory leak in the application",
+    "translations": {
+      "pt-BR": "O vazamento de memória é causado por um ciclo de retenção.",
+      "es": "La fuga de memoria es causada por un ciclo de retención.",
+      "fr": "La fuite de mémoire est causée par un cycle de rétention.",
+      "de": "Der Speicherleck wird durch einen Retain-Zyklus verursacht.",
+      "it": "La perdita di memoria è causata da un ciclo di ritenzione.",
+      "ja": "メモリリークは循環参照が原因です。",
+      "ko": "메모리 누수는 순환 참조로 인해 발생합니다.",
+      "zh-Hans": "内存泄漏是由循环引用引起的。",
+      "hi": "मेमोरी लीक एक रिटेन साइकल के कारण हो रही है।",
+      "tr": "Bellek sızıntısı bir tutma döngüsünden kaynaklanıyor."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_011",
+    "english": "Let's roll back the deployment to the previous version.",
+    "context": "Deciding to revert a deployment after discovering issues in production",
+    "translations": {
+      "pt-BR": "Vamos reverter o deploy para a versão anterior.",
+      "es": "Vamos a revertir el despliegue a la versión anterior.",
+      "fr": "Revenons au déploiement de la version précédente.",
+      "de": "Lasst uns das Deployment auf die vorherige Version zurückrollen.",
+      "it": "Facciamo il rollback del deployment alla versione precedente.",
+      "ja": "デプロイを前のバージョンにロールバックしましょう。",
+      "ko": "배포를 이전 버전으로 롤백합시다.",
+      "zh-Hans": "让我们把部署回滚到之前的版本。",
+      "hi": "चलो डिप्लॉयमेंट को पिछले वर्शन पर रोलबैक करते हैं।",
+      "tr": "Dağıtımı önceki sürüme geri alalım."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_012",
+    "english": "We need to write unit tests before merging this.",
+    "context": "Reminding the team about testing requirements before code integration",
+    "translations": {
+      "pt-BR": "Precisamos escrever testes unitários antes de fazer o merge.",
+      "es": "Necesitamos escribir pruebas unitarias antes de hacer merge.",
+      "fr": "Nous devons écrire des tests unitaires avant de fusionner ceci.",
+      "de": "Wir müssen Unit-Tests schreiben, bevor wir das mergen.",
+      "it": "Dobbiamo scrivere test unitari prima di fare il merge.",
+      "ja": "マージする前にユニットテストを書く必要があります。",
+      "ko": "이것을 머지하기 전에 단위 테스트를 작성해야 합니다.",
+      "zh-Hans": "在合并之前我们需要编写单元测试。",
+      "hi": "इसे मर्ज करने से पहले हमें यूनिट टेस्ट लिखने होंगे।",
+      "tr": "Bunu birleştirmeden önce birim testleri yazmamız gerekiyor."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_013",
+    "english": "The load balancer is distributing traffic unevenly across the instances.",
+    "context": "Diagnosing a load balancing issue affecting server performance",
+    "translations": {
+      "pt-BR": "O balanceador de carga está distribuindo o tráfego de forma desigual entre as instâncias.",
+      "es": "El balanceador de carga está distribuyendo el tráfico de forma desigual entre las instancias.",
+      "fr": "Le répartiteur de charge distribue le trafic de manière inégale entre les instances.",
+      "de": "Der Load Balancer verteilt den Traffic ungleichmäßig über die Instanzen.",
+      "it": "Il bilanciatore di carico sta distribuendo il traffico in modo non uniforme tra le istanze.",
+      "ja": "ロードバランサーがインスタンス間でトラフィックを不均等に分散しています。",
+      "ko": "로드 밸런서가 인스턴스 간에 트래픽을 불균등하게 분배하고 있습니다.",
+      "zh-Hans": "负载均衡器在实例之间分配流量不均匀。",
+      "hi": "लोड बैलेंसर इंस्टेंसों के बीच ट्रैफ़िक को असमान रूप से वितरित कर रहा है।",
+      "tr": "Yük dengeleyici trafiği örnekler arasında eşit olmayan şekilde dağıtıyor."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_014",
+    "english": "I think we should use a message queue for this.",
+    "context": "Suggesting asynchronous processing with a message queue system",
+    "translations": {
+      "pt-BR": "Acho que deveríamos usar uma fila de mensagens para isso.",
+      "es": "Creo que deberíamos usar una cola de mensajes para esto.",
+      "fr": "Je pense que nous devrions utiliser une file de messages pour cela.",
+      "de": "Ich denke, wir sollten dafür eine Nachrichtenwarteschlange verwenden.",
+      "it": "Penso che dovremmo usare una coda di messaggi per questo.",
+      "ja": "これにはメッセージキューを使うべきだと思います。",
+      "ko": "이것에는 메시지 큐를 사용해야 한다고 생각합니다.",
+      "zh-Hans": "我觉得我们应该为此使用消息队列。",
+      "hi": "मुझे लगता है इसके लिए हमें एक मैसेज क्यू का इस्तेमाल करना चाहिए।",
+      "tr": "Bunun için bir mesaj kuyruğu kullanmamız gerektiğini düşünüyorum."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_015",
+    "english": "The CI pipeline runs linting, tests, and builds automatically.",
+    "context": "Explaining what the continuous integration pipeline does",
+    "translations": {
+      "pt-BR": "O pipeline de CI executa linting, testes e builds automaticamente.",
+      "es": "El pipeline de CI ejecuta linting, pruebas y compilaciones automáticamente.",
+      "fr": "Le pipeline CI exécute automatiquement le linting, les tests et les builds.",
+      "de": "Die CI-Pipeline führt Linting, Tests und Builds automatisch aus.",
+      "it": "La pipeline CI esegue automaticamente linting, test e build.",
+      "ja": "CIパイプラインはリンティング、テスト、ビルドを自動的に実行します。",
+      "ko": "CI 파이프라인은 린팅, 테스트 및 빌드를 자동으로 실행합니다.",
+      "zh-Hans": "CI管道自动运行代码检查、测试和构建。",
+      "hi": "CI पाइपलाइन लिंटिंग, टेस्ट और बिल्ड को स्वचालित रूप से चलाती है।",
+      "tr": "CI hattı linting, testler ve derlemeleri otomatik olarak çalıştırır."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_016",
+    "english": "We should invalidate the cache after every write operation.",
+    "context": "Discussing cache invalidation strategy to ensure data consistency",
+    "translations": {
+      "pt-BR": "Deveríamos invalidar o cache após cada operação de escrita.",
+      "es": "Deberíamos invalidar la caché después de cada operación de escritura.",
+      "fr": "Nous devrions invalider le cache après chaque opération d'écriture.",
+      "de": "Wir sollten den Cache nach jeder Schreiboperation invalidieren.",
+      "it": "Dovremmo invalidare la cache dopo ogni operazione di scrittura.",
+      "ja": "書き込み操作のたびにキャッシュを無効化すべきです。",
+      "ko": "모든 쓰기 작업 후에 캐시를 무효화해야 합니다.",
+      "zh-Hans": "我们应该在每次写操作后使缓存失效。",
+      "hi": "हमें हर राइट ऑपरेशन के बाद कैश को इन्वैलिडेट करना चाहिए।",
+      "tr": "Her yazma işleminden sonra önbelleği geçersiz kılmalıyız."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_017",
+    "english": "This function has too many responsibilities. Let's split it up.",
+    "context": "Suggesting refactoring a function that violates the single responsibility principle",
+    "translations": {
+      "pt-BR": "Essa função tem responsabilidades demais. Vamos dividi-la.",
+      "es": "Esta función tiene demasiadas responsabilidades. Vamos a dividirla.",
+      "fr": "Cette fonction a trop de responsabilités. Divisons-la.",
+      "de": "Diese Funktion hat zu viele Verantwortlichkeiten. Lasst uns sie aufteilen.",
+      "it": "Questa funzione ha troppe responsabilità. Dividiamola.",
+      "ja": "この関数は責務が多すぎます。分割しましょう。",
+      "ko": "이 함수는 책임이 너무 많습니다. 분리합시다.",
+      "zh-Hans": "这个函数的职责太多了。让我们把它拆分开。",
+      "hi": "इस फंक्शन की बहुत ज़्यादा जिम्मेदारियां हैं। चलो इसे अलग करते हैं।",
+      "tr": "Bu fonksiyonun çok fazla sorumluluğu var. Bölelim."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_018",
+    "english": "We should implement circuit breakers for external service calls.",
+    "context": "Proposing a resilience pattern to handle failures in external dependencies",
+    "translations": {
+      "pt-BR": "Deveríamos implementar circuit breakers para chamadas a serviços externos.",
+      "es": "Deberíamos implementar circuit breakers para las llamadas a servicios externos.",
+      "fr": "Nous devrions implémenter des disjoncteurs pour les appels aux services externes.",
+      "de": "Wir sollten Circuit Breaker für externe Serviceaufrufe implementieren.",
+      "it": "Dovremmo implementare i circuit breaker per le chiamate ai servizi esterni.",
+      "ja": "外部サービス呼び出しにサーキットブレーカーを実装すべきです。",
+      "ko": "외부 서비스 호출에 서킷 브레이커를 구현해야 합니다.",
+      "zh-Hans": "我们应该为外部服务调用实现熔断器。",
+      "hi": "हमें बाहरी सर्विस कॉल्स के लिए सर्किट ब्रेकर लागू करने चाहिए।",
+      "tr": "Harici servis çağrıları için devre kesiciler uygulamalıyız."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_019",
+    "english": "The API response time is within acceptable limits.",
+    "context": "Confirming that performance metrics are meeting requirements",
+    "translations": {
+      "pt-BR": "O tempo de resposta da API está dentro dos limites aceitáveis.",
+      "es": "El tiempo de respuesta de la API está dentro de los límites aceptables.",
+      "fr": "Le temps de réponse de l'API est dans les limites acceptables.",
+      "de": "Die API-Antwortzeit liegt innerhalb akzeptabler Grenzen.",
+      "it": "Il tempo di risposta dell'API è entro i limiti accettabili.",
+      "ja": "APIのレスポンスタイムは許容範囲内です。",
+      "ko": "API 응답 시간이 허용 범위 내에 있습니다.",
+      "zh-Hans": "API响应时间在可接受的范围内。",
+      "hi": "API रिस्पॉन्स टाइम स्वीकार्य सीमा के भीतर है।",
+      "tr": "API yanıt süresi kabul edilebilir sınırlar içinde."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_020",
+    "english": "We need to normalize the database schema to reduce redundancy.",
+    "context": "Discussing database design improvements to eliminate duplicate data",
+    "translations": {
+      "pt-BR": "Precisamos normalizar o esquema do banco de dados para reduzir redundância.",
+      "es": "Necesitamos normalizar el esquema de la base de datos para reducir la redundancia.",
+      "fr": "Nous devons normaliser le schéma de la base de données pour réduire la redondance.",
+      "de": "Wir müssen das Datenbankschema normalisieren, um Redundanz zu reduzieren.",
+      "it": "Dobbiamo normalizzare lo schema del database per ridurre la ridondanza.",
+      "ja": "冗長性を減らすためにデータベーススキーマを正規化する必要があります。",
+      "ko": "중복을 줄이기 위해 데이터베이스 스키마를 정규화해야 합니다.",
+      "zh-Hans": "我们需要规范化数据库模式以减少冗余。",
+      "hi": "रिडंडेंसी कम करने के लिए हमें डेटाबेस स्कीमा को नॉर्मलाइज़ करना होगा।",
+      "tr": "Fazlalığı azaltmak için veritabanı şemasını normalleştirmemiz gerekiyor."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_021",
+    "english": "I'm seeing a null pointer exception in production.",
+    "context": "Reporting a runtime error found in the production environment",
+    "translations": {
+      "pt-BR": "Estou vendo uma exceção de ponteiro nulo em produção.",
+      "es": "Estoy viendo una excepción de puntero nulo en producción.",
+      "fr": "Je vois une exception de pointeur nul en production.",
+      "de": "Ich sehe eine Null-Pointer-Exception in der Produktion.",
+      "it": "Sto vedendo un'eccezione di puntatore nullo in produzione.",
+      "ja": "本番環境でヌルポインタ例外が発生しています。",
+      "ko": "프로덕션에서 널 포인터 예외가 발생하고 있습니다.",
+      "zh-Hans": "我在生产环境中看到了空指针异常。",
+      "hi": "मुझे प्रोडक्शन में नल पॉइंटर एक्सेप्शन दिख रही है।",
+      "tr": "Üretim ortamında bir null pointer istisnası görüyorum."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_022",
+    "english": "Let's use a blue-green deployment strategy to minimize downtime.",
+    "context": "Proposing a deployment strategy that allows zero-downtime releases",
+    "translations": {
+      "pt-BR": "Vamos usar uma estratégia de deploy blue-green para minimizar o tempo de inatividade.",
+      "es": "Usemos una estrategia de despliegue blue-green para minimizar el tiempo de inactividad.",
+      "fr": "Utilisons une stratégie de déploiement blue-green pour minimiser les temps d'arrêt.",
+      "de": "Lasst uns eine Blue-Green-Deployment-Strategie verwenden, um Ausfallzeiten zu minimieren.",
+      "it": "Usiamo una strategia di deployment blue-green per minimizzare i tempi di inattività.",
+      "ja": "ダウンタイムを最小限にするためにブルーグリーンデプロイ戦略を使いましょう。",
+      "ko": "다운타임을 최소화하기 위해 블루-그린 배포 전략을 사용합시다.",
+      "zh-Hans": "让我们使用蓝绿部署策略来最小化停机时间。",
+      "hi": "डाउनटाइम को कम करने के लिए ब्लू-ग्रीन डिप्लॉयमेंट स्ट्रैटेजी का उपयोग करते हैं।",
+      "tr": "Kesinti süresini en aza indirmek için mavi-yeşil dağıtım stratejisi kullanalım."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_023",
+    "english": "Can you reproduce the bug in the staging environment?",
+    "context": "Asking if a reported bug can be replicated in a non-production environment",
+    "translations": {
+      "pt-BR": "Você consegue reproduzir o bug no ambiente de staging?",
+      "es": "¿Puedes reproducir el bug en el entorno de staging?",
+      "fr": "Peux-tu reproduire le bug dans l'environnement de staging ?",
+      "de": "Kannst du den Bug in der Staging-Umgebung reproduzieren?",
+      "it": "Riesci a riprodurre il bug nell'ambiente di staging?",
+      "ja": "ステージング環境でそのバグを再現できますか？",
+      "ko": "스테이징 환경에서 그 버그를 재현할 수 있나요?",
+      "zh-Hans": "你能在预发布环境中重现这个bug吗？",
+      "hi": "क्या आप स्टेजिंग एनवायरनमेंट में इस बग को रिप्रोड्यूस कर सकते हैं?",
+      "tr": "Hatayı hazırlık ortamında yeniden oluşturabilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_024",
+    "english": "The test coverage for this module is below the minimum threshold.",
+    "context": "Pointing out insufficient test coverage in a code module",
+    "translations": {
+      "pt-BR": "A cobertura de testes deste módulo está abaixo do limite mínimo.",
+      "es": "La cobertura de pruebas de este módulo está por debajo del umbral mínimo.",
+      "fr": "La couverture de tests de ce module est en dessous du seuil minimum.",
+      "de": "Die Testabdeckung für dieses Modul liegt unter dem Mindestschwellenwert.",
+      "it": "La copertura dei test per questo modulo è al di sotto della soglia minima.",
+      "ja": "このモジュールのテストカバレッジが最低閾値を下回っています。",
+      "ko": "이 모듈의 테스트 커버리지가 최소 임계값 미만입니다.",
+      "zh-Hans": "这个模块的测试覆盖率低于最低阈值。",
+      "hi": "इस मॉड्यूल का टेस्ट कवरेज न्यूनतम सीमा से नीचे है।",
+      "tr": "Bu modülün test kapsamı minimum eşiğin altında."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_025",
+    "english": "We should paginate this API response to handle large datasets.",
+    "context": "Suggesting pagination to improve API performance with large result sets",
+    "translations": {
+      "pt-BR": "Deveríamos paginar essa resposta da API para lidar com grandes volumes de dados.",
+      "es": "Deberíamos paginar esta respuesta de la API para manejar grandes conjuntos de datos.",
+      "fr": "Nous devrions paginer cette réponse d'API pour gérer les grands ensembles de données.",
+      "de": "Wir sollten diese API-Antwort paginieren, um große Datenmengen zu verarbeiten.",
+      "it": "Dovremmo paginare questa risposta API per gestire grandi set di dati.",
+      "ja": "大量のデータセットに対応するためにこのAPIレスポンスをページネーションすべきです。",
+      "ko": "대용량 데이터셋을 처리하기 위해 이 API 응답에 페이지네이션을 적용해야 합니다.",
+      "zh-Hans": "我们应该对这个API响应做分页处理以应对大数据集。",
+      "hi": "बड़े डेटासेट को संभालने के लिए हमें इस API रिस्पॉन्स को पेजिनेट करना चाहिए।",
+      "tr": "Büyük veri kümelerini yönetmek için bu API yanıtını sayfalandırmalıyız."
+    },
+    "difficulty": "medium",
+    "category": "technical"
+  },
+  {
+    "id": "technical_026",
+    "english": "The container keeps crashing due to an out-of-memory error.",
+    "context": "Reporting a container failure caused by excessive memory consumption",
+    "translations": {
+      "pt-BR": "O container continua quebrando devido a um erro de falta de memória.",
+      "es": "El contenedor sigue fallando debido a un error de falta de memoria.",
+      "fr": "Le conteneur continue de planter à cause d'une erreur de mémoire insuffisante.",
+      "de": "Der Container stürzt wegen eines Speichermangelfehlers wiederholt ab.",
+      "it": "Il container continua a bloccarsi a causa di un errore di memoria esaurita.",
+      "ja": "コンテナがメモリ不足エラーでクラッシュし続けています。",
+      "ko": "메모리 부족 오류로 인해 컨테이너가 계속 충돌합니다.",
+      "zh-Hans": "容器因内存不足错误不断崩溃。",
+      "hi": "आउट-ऑफ-मेमोरी एरर के कारण कंटेनर बार-बार क्रैश हो रहा है।",
+      "tr": "Konteyner yetersiz bellek hatası nedeniyle sürekli çöküyor."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_027",
+    "english": "Let's add integration tests for the payment flow.",
+    "context": "Suggesting comprehensive testing for a critical business feature",
+    "translations": {
+      "pt-BR": "Vamos adicionar testes de integração para o fluxo de pagamento.",
+      "es": "Agreguemos pruebas de integración para el flujo de pago.",
+      "fr": "Ajoutons des tests d'intégration pour le flux de paiement.",
+      "de": "Lasst uns Integrationstests für den Zahlungsablauf hinzufügen.",
+      "it": "Aggiungiamo test di integrazione per il flusso di pagamento.",
+      "ja": "決済フローのインテグレーションテストを追加しましょう。",
+      "ko": "결제 흐름에 대한 통합 테스트를 추가합시다.",
+      "zh-Hans": "让我们为支付流程添加集成测试。",
+      "hi": "पेमेंट फ्लो के लिए इंटीग्रेशन टेस्ट जोड़ते हैं।",
+      "tr": "Ödeme akışı için entegrasyon testleri ekleyelim."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": "technical_028",
+    "english": "The event-driven architecture decouples our services effectively.",
+    "context": "Explaining the benefits of the current system design approach",
+    "translations": {
+      "pt-BR": "A arquitetura orientada a eventos desacopla nossos serviços de forma eficaz.",
+      "es": "La arquitectura basada en eventos desacopla nuestros servicios de manera efectiva.",
+      "fr": "L'architecture événementielle découple efficacement nos services.",
+      "de": "Die ereignisgesteuerte Architektur entkoppelt unsere Services effektiv.",
+      "it": "L'architettura event-driven disaccoppia efficacemente i nostri servizi.",
+      "ja": "イベント駆動アーキテクチャがサービスを効果的に疎結合にしています。",
+      "ko": "이벤트 기반 아키텍처가 서비스를 효과적으로 분리합니다.",
+      "zh-Hans": "事件驱动架构有效地解耦了我们的服务。",
+      "hi": "इवेंट-ड्रिवन आर्किटेक्चर हमारी सर्विसेज को प्रभावी ढंग से डीकपल करता है।",
+      "tr": "Olay güdümlü mimari servislerimizi etkili bir şekilde ayırıyor."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_029",
+    "english": "I optimized the algorithm from O(n²) to O(n log n).",
+    "context": "Reporting a performance improvement through algorithmic optimization",
+    "translations": {
+      "pt-BR": "Eu otimizei o algoritmo de O(n²) para O(n log n).",
+      "es": "Optimicé el algoritmo de O(n²) a O(n log n).",
+      "fr": "J'ai optimisé l'algorithme de O(n²) à O(n log n).",
+      "de": "Ich habe den Algorithmus von O(n²) auf O(n log n) optimiert.",
+      "it": "Ho ottimizzato l'algoritmo da O(n²) a O(n log n).",
+      "ja": "アルゴリズムをO(n²)からO(n log n)に最適化しました。",
+      "ko": "알고리즘을 O(n²)에서 O(n log n)으로 최적화했습니다.",
+      "zh-Hans": "我把算法从O(n²)优化到了O(n log n)。",
+      "hi": "मैंने एल्गोरिदम को O(n²) से O(n log n) में ऑप्टिमाइज़ किया।",
+      "tr": "Algoritmayı O(n²)'den O(n log n)'e optimize ettim."
+    },
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": "technical_030",
+    "english": "Make sure to handle the edge cases in the input validation.",
+    "context": "Reminding a teammate to account for unusual inputs during validation",
+    "translations": {
+      "pt-BR": "Certifique-se de tratar os casos extremos na validação de entrada.",
+      "es": "Asegúrate de manejar los casos extremos en la validación de entrada.",
+      "fr": "Assure-toi de gérer les cas limites dans la validation des entrées.",
+      "de": "Stelle sicher, dass du die Randfälle bei der Eingabevalidierung behandelst.",
+      "it": "Assicurati di gestire i casi limite nella validazione dell'input.",
+      "ja": "入力バリデーションでエッジケースを処理するようにしてください。",
+      "ko": "입력 유효성 검사에서 엣지 케이스를 처리하도록 하세요.",
+      "zh-Hans": "确保在输入验证中处理边界情况。",
+      "hi": "इनपुट वैलिडेशन में एज केसेस को हैंडल करना सुनिश्चित करें।",
+      "tr": "Giriş doğrulamasında uç durumları ele almayı unutma."
+    },
+    "difficulty": "easy",
+    "category": "technical"
+  }
+]

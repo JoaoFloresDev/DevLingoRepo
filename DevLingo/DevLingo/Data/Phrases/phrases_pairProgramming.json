@@ -1,0 +1,572 @@
+[
+  {
+    "id": "pairProgramming_001",
+    "english": "Do you want to drive or navigate?",
+    "context": "Deciding roles at the start of a pair programming session",
+    "translations": {
+      "pt-BR": "Você quer dirigir ou navegar?",
+      "es": "¿Quieres conducir o navegar?",
+      "fr": "Tu veux conduire ou naviguer ?",
+      "de": "Willst du fahren oder navigieren?",
+      "it": "Vuoi guidare o navigare?",
+      "ja": "ドライバーとナビゲーター、どちらをやりたいですか？",
+      "ko": "드라이버를 할래요, 내비게이터를 할래요?",
+      "zh-Hans": "你想当驾驶员还是领航员？",
+      "hi": "आप ड्राइव करना चाहते हैं या नेविगेट?",
+      "tr": "Sürmek mi yoksa yönlendirmek mi istersin?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_002",
+    "english": "I'll drive first, and we can switch in 20 minutes.",
+    "context": "Setting up a rotation schedule for pair programming roles",
+    "translations": {
+      "pt-BR": "Eu dirijo primeiro, e podemos trocar em 20 minutos.",
+      "es": "Yo conduzco primero y podemos cambiar en 20 minutos.",
+      "fr": "Je conduis d'abord, et on peut échanger dans 20 minutes.",
+      "de": "Ich fahre zuerst, und wir können in 20 Minuten wechseln.",
+      "it": "Guido io prima, e possiamo scambiarci tra 20 minuti.",
+      "ja": "最初は私がドライバーをします。20分後に交代しましょう。",
+      "ko": "제가 먼저 드라이버를 할게요, 20분 후에 교대해요.",
+      "zh-Hans": "我先来写代码，20分钟后我们换。",
+      "hi": "पहले मैं ड्राइव करता हूं, और हम 20 मिनट में बदल सकते हैं।",
+      "tr": "Önce ben sürerim, 20 dakika sonra değişiriz."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_003",
+    "english": "Can you share your screen?",
+    "context": "Asking your pair to share their screen for a remote session",
+    "translations": {
+      "pt-BR": "Você pode compartilhar sua tela?",
+      "es": "¿Puedes compartir tu pantalla?",
+      "fr": "Tu peux partager ton écran ?",
+      "de": "Kannst du deinen Bildschirm teilen?",
+      "it": "Puoi condividere il tuo schermo?",
+      "ja": "画面を共有してもらえますか？",
+      "ko": "화면 공유해 주실 수 있나요?",
+      "zh-Hans": "你能共享一下屏幕吗？",
+      "hi": "क्या आप अपनी स्क्रीन शेयर कर सकते हैं?",
+      "tr": "Ekranını paylaşabilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_004",
+    "english": "Let me think out loud for a second.",
+    "context": "Pausing to verbalize your thought process to your pair",
+    "translations": {
+      "pt-BR": "Deixa eu pensar em voz alta por um momento.",
+      "es": "Déjame pensar en voz alta un momento.",
+      "fr": "Laisse-moi réfléchir à voix haute un instant.",
+      "de": "Lass mich kurz laut denken.",
+      "it": "Lasciami pensare ad alta voce per un momento.",
+      "ja": "少し声に出して考えさせてください。",
+      "ko": "잠깐 소리 내어 생각해 볼게요.",
+      "zh-Hans": "让我大声想一下。",
+      "hi": "मुझे एक पल के लिए जोर से सोचने दो।",
+      "tr": "Bir saniye sesli düşüneyim."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_005",
+    "english": "What do you think about this approach?",
+    "context": "Asking your pair for feedback on a proposed solution",
+    "translations": {
+      "pt-BR": "O que você acha dessa abordagem?",
+      "es": "¿Qué opinas de este enfoque?",
+      "fr": "Qu'est-ce que tu penses de cette approche ?",
+      "de": "Was hältst du von diesem Ansatz?",
+      "it": "Cosa pensi di questo approccio?",
+      "ja": "このアプローチについてどう思いますか？",
+      "ko": "이 접근 방식에 대해 어떻게 생각하세요?",
+      "zh-Hans": "你觉得这个方法怎么样？",
+      "hi": "इस तरीके के बारे में आप क्या सोचते हैं?",
+      "tr": "Bu yaklaşım hakkında ne düşünüyorsun?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_006",
+    "english": "Can you explain what this function does?",
+    "context": "Asking your pair to walk you through unfamiliar code",
+    "translations": {
+      "pt-BR": "Você pode explicar o que essa função faz?",
+      "es": "¿Puedes explicar qué hace esta función?",
+      "fr": "Tu peux expliquer ce que fait cette fonction ?",
+      "de": "Kannst du erklären, was diese Funktion macht?",
+      "it": "Puoi spiegare cosa fa questa funzione?",
+      "ja": "この関数が何をするか説明してもらえますか？",
+      "ko": "이 함수가 무엇을 하는지 설명해 주실 수 있나요?",
+      "zh-Hans": "你能解释一下这个函数是做什么的吗？",
+      "hi": "क्या आप बता सकते हैं कि यह फंक्शन क्या करता है?",
+      "tr": "Bu fonksiyonun ne yaptığını açıklayabilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_007",
+    "english": "Let's take a step back and look at the bigger picture.",
+    "context": "Suggesting to zoom out and consider the overall design during pairing",
+    "translations": {
+      "pt-BR": "Vamos dar um passo atrás e olhar o panorama geral.",
+      "es": "Demos un paso atrás y veamos el panorama general.",
+      "fr": "Prenons du recul et regardons la vue d'ensemble.",
+      "de": "Lass uns einen Schritt zurücktreten und das große Ganze betrachten.",
+      "it": "Facciamo un passo indietro e guardiamo il quadro generale.",
+      "ja": "一歩引いて全体像を見てみましょう。",
+      "ko": "한 발 물러서서 큰 그림을 봅시다.",
+      "zh-Hans": "让我们退一步看看全局。",
+      "hi": "चलो एक कदम पीछे हटकर बड़ी तस्वीर देखते हैं।",
+      "tr": "Bir adım geri çekilip büyük resme bakalım."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_008",
+    "english": "Should we switch roles now? I'd like to try driving.",
+    "context": "Requesting a role swap during a pair programming session",
+    "translations": {
+      "pt-BR": "Devemos trocar de papel agora? Eu gostaria de tentar dirigir.",
+      "es": "¿Cambiamos de rol ahora? Me gustaría intentar conducir.",
+      "fr": "On échange les rôles maintenant ? J'aimerais essayer de conduire.",
+      "de": "Sollen wir jetzt die Rollen tauschen? Ich würde gerne fahren.",
+      "it": "Scambiamoci i ruoli adesso? Mi piacerebbe provare a guidare.",
+      "ja": "そろそろ役割を交代しませんか？ドライバーをやってみたいです。",
+      "ko": "이제 역할을 바꿀까요? 드라이버를 해보고 싶어요.",
+      "zh-Hans": "我们现在换角色吧？我想试试写代码。",
+      "hi": "क्या अब हम भूमिका बदलें? मैं ड्राइव करना चाहूंगा।",
+      "tr": "Şimdi rol değiştirelim mi? Sürmeyi denemek isterim."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_009",
+    "english": "I see a potential bug there. Can you scroll up?",
+    "context": "Spotting an issue while navigating and asking the driver to scroll",
+    "translations": {
+      "pt-BR": "Vejo um possível bug ali. Pode rolar para cima?",
+      "es": "Veo un posible error ahí. ¿Puedes desplazarte hacia arriba?",
+      "fr": "Je vois un bug potentiel là. Tu peux remonter ?",
+      "de": "Ich sehe dort einen möglichen Bug. Kannst du nach oben scrollen?",
+      "it": "Vedo un potenziale bug lì. Puoi scorrere verso l'alto?",
+      "ja": "そこにバグがありそうです。上にスクロールしてもらえますか？",
+      "ko": "거기에 잠재적인 버그가 보여요. 위로 스크롤해 주실래요?",
+      "zh-Hans": "我看到那里可能有个bug。你能往上滚吗？",
+      "hi": "मुझे वहां एक संभावित बग दिख रहा है। क्या आप ऊपर स्क्रॉल कर सकते हैं?",
+      "tr": "Orada potansiyel bir hata görüyorum. Yukarı kaydırabilir misin?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_010",
+    "english": "Let's write a test for this before we move on.",
+    "context": "Suggesting to add a test while pairing before proceeding",
+    "translations": {
+      "pt-BR": "Vamos escrever um teste para isso antes de continuar.",
+      "es": "Escribamos un test para esto antes de continuar.",
+      "fr": "Écrivons un test pour ça avant de continuer.",
+      "de": "Lass uns dafür einen Test schreiben, bevor wir weitermachen.",
+      "it": "Scriviamo un test per questo prima di andare avanti.",
+      "ja": "先に進む前に、これのテストを書きましょう。",
+      "ko": "넘어가기 전에 이것에 대한 테스트를 작성합시다.",
+      "zh-Hans": "在继续之前，让我们先为这个写个测试。",
+      "hi": "आगे बढ़ने से पहले इसके लिए एक टेस्ट लिखते हैं।",
+      "tr": "Devam etmeden önce bunun için bir test yazalım."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_011",
+    "english": "I think we should refactor this while we're here.",
+    "context": "Suggesting an improvement to the code during a pairing session",
+    "translations": {
+      "pt-BR": "Acho que devemos refatorar isso enquanto estamos aqui.",
+      "es": "Creo que deberíamos refactorizar esto ya que estamos aquí.",
+      "fr": "Je pense qu'on devrait refactoriser ça pendant qu'on y est.",
+      "de": "Ich denke, wir sollten das refactoren, solange wir hier sind.",
+      "it": "Penso che dovremmo fare il refactoring di questo ora che siamo qui.",
+      "ja": "ここにいるうちに、これをリファクタリングすべきだと思います。",
+      "ko": "여기 있는 김에 이걸 리팩토링해야 할 것 같아요.",
+      "zh-Hans": "我觉得既然我们在这里，应该重构一下这个。",
+      "hi": "मुझे लगता है जब हम यहां हैं तो इसे रिफैक्टर कर लें।",
+      "tr": "Buradayken bunu yeniden düzenlememiz gerektiğini düşünüyorum."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_012",
+    "english": "Let's put a breakpoint there and debug it together.",
+    "context": "Proposing to debug an issue collaboratively during pairing",
+    "translations": {
+      "pt-BR": "Vamos colocar um breakpoint ali e depurar juntos.",
+      "es": "Pongamos un breakpoint ahí y depurémoslo juntos.",
+      "fr": "Mettons un point d'arrêt là et déboguons ensemble.",
+      "de": "Lass uns dort einen Breakpoint setzen und gemeinsam debuggen.",
+      "it": "Mettiamo un breakpoint lì e facciamo il debug insieme.",
+      "ja": "そこにブレークポイントを置いて一緒にデバッグしましょう。",
+      "ko": "거기에 브레이크포인트를 걸고 함께 디버깅합시다.",
+      "zh-Hans": "让我们在那里设个断点，一起调试。",
+      "hi": "चलो वहां ब्रेकपॉइंट लगाते हैं और साथ में डिबग करते हैं।",
+      "tr": "Oraya bir kesme noktası koyup birlikte hata ayıklayalım."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_013",
+    "english": "I'm not sure I follow. Can you walk me through your reasoning?",
+    "context": "Asking the navigator or driver to explain their thought process",
+    "translations": {
+      "pt-BR": "Não tenho certeza se estou acompanhando. Pode me explicar seu raciocínio?",
+      "es": "No estoy seguro de entender. ¿Puedes explicarme tu razonamiento?",
+      "fr": "Je ne suis pas sûr de suivre. Tu peux m'expliquer ton raisonnement ?",
+      "de": "Ich bin mir nicht sicher, ob ich folge. Kannst du mir deine Überlegung erklären?",
+      "it": "Non sono sicuro di seguire. Puoi spiegarmi il tuo ragionamento?",
+      "ja": "ちょっとついていけていません。考え方を説明してもらえますか？",
+      "ko": "잘 이해가 안 돼요. 생각을 설명해 주실 수 있나요?",
+      "zh-Hans": "我不太确定我跟上了。你能解释一下你的思路吗？",
+      "hi": "मुझे पूरी तरह समझ नहीं आया। क्या आप अपनी सोच समझा सकते हैं?",
+      "tr": "Takip edebildiğimden emin değilim. Mantığını anlatabilir misin?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_014",
+    "english": "Good catch! I wouldn't have noticed that.",
+    "context": "Acknowledging when your pair spots a mistake or improvement",
+    "translations": {
+      "pt-BR": "Boa observação! Eu não teria percebido isso.",
+      "es": "¡Buena observación! No lo habría notado.",
+      "fr": "Bien vu ! Je n'aurais pas remarqué ça.",
+      "de": "Gut erkannt! Das hätte ich nicht bemerkt.",
+      "it": "Bella osservazione! Non l'avrei notato.",
+      "ja": "いい指摘ですね！気づかなかったです。",
+      "ko": "좋은 발견이에요! 저는 못 봤을 거예요.",
+      "zh-Hans": "好眼力！我不会注意到那个的。",
+      "hi": "अच्छी पकड़! मैंने यह नोटिस नहीं किया होता।",
+      "tr": "İyi yakaladın! Ben fark etmezdim."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_015",
+    "english": "Let's try a different approach. What if we use a strategy pattern here?",
+    "context": "Suggesting an alternative design pattern during collaborative coding",
+    "translations": {
+      "pt-BR": "Vamos tentar uma abordagem diferente. E se usarmos um padrão strategy aqui?",
+      "es": "Intentemos un enfoque diferente. ¿Y si usamos un patrón strategy aquí?",
+      "fr": "Essayons une approche différente. Et si on utilisait un pattern strategy ici ?",
+      "de": "Lass uns einen anderen Ansatz versuchen. Was, wenn wir hier ein Strategy-Pattern verwenden?",
+      "it": "Proviamo un approccio diverso. E se usassimo un pattern strategy qui?",
+      "ja": "別のアプローチを試しましょう。ここでストラテジーパターンを使うのはどうですか？",
+      "ko": "다른 접근 방식을 시도해 봅시다. 여기서 전략 패턴을 사용하면 어떨까요?",
+      "zh-Hans": "让我们试试不同的方法。如果在这里使用策略模式怎么样？",
+      "hi": "चलो एक अलग तरीका आज़माते हैं। अगर हम यहां स्ट्रैटेजी पैटर्न इस्तेमाल करें तो?",
+      "tr": "Farklı bir yaklaşım deneyelim. Burada bir strateji deseni kullansak nasıl olur?"
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_016",
+    "english": "I'm going to type this out, and you tell me if you see any issues.",
+    "context": "Driver asking the navigator to actively review code as it's written",
+    "translations": {
+      "pt-BR": "Vou digitar isso, e você me diz se vir algum problema.",
+      "es": "Voy a escribir esto, y me dices si ves algún problema.",
+      "fr": "Je vais taper ça, et tu me dis si tu vois des problèmes.",
+      "de": "Ich tippe das jetzt, und du sagst mir, wenn du Probleme siehst.",
+      "it": "Scrivo questo, e tu dimmi se vedi qualche problema.",
+      "ja": "これを入力するので、問題があったら教えてください。",
+      "ko": "제가 이걸 타이핑할 테니 문제가 보이면 말해 주세요.",
+      "zh-Hans": "我来打这段代码，你看看有没有什么问题。",
+      "hi": "मैं यह टाइप करता हूं, और आप बताइए अगर कोई समस्या दिखे।",
+      "tr": "Bunu yazacağım, bir sorun görürsen söyle."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_017",
+    "english": "We should probably extract this into its own method for readability.",
+    "context": "Suggesting a refactoring to improve code readability during pairing",
+    "translations": {
+      "pt-BR": "Provavelmente devemos extrair isso para um método separado para melhorar a legibilidade.",
+      "es": "Probablemente deberíamos extraer esto en su propio método para mejorar la legibilidad.",
+      "fr": "On devrait probablement extraire ça dans sa propre méthode pour la lisibilité.",
+      "de": "Wir sollten das wahrscheinlich in eine eigene Methode extrahieren, für bessere Lesbarkeit.",
+      "it": "Dovremmo probabilmente estrarre questo in un metodo separato per la leggibilità.",
+      "ja": "可読性のために、これを独自のメソッドに抽出した方がいいと思います。",
+      "ko": "가독성을 위해 이걸 별도의 메서드로 추출해야 할 것 같아요.",
+      "zh-Hans": "为了可读性，我们可能应该把这个提取成一个独立的方法。",
+      "hi": "पठनीयता के लिए हमें शायद इसे अलग मेथड में निकालना चाहिए।",
+      "tr": "Okunabilirlik için bunu kendi metoduna çıkarmalıyız."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_018",
+    "english": "Wait, I think there's a race condition here. Let's look at this more carefully.",
+    "context": "Catching a concurrency issue during collaborative debugging",
+    "translations": {
+      "pt-BR": "Espera, acho que tem uma condição de corrida aqui. Vamos olhar isso com mais cuidado.",
+      "es": "Espera, creo que hay una condición de carrera aquí. Veámoslo con más cuidado.",
+      "fr": "Attends, je pense qu'il y a une condition de concurrence ici. Regardons ça plus attentivement.",
+      "de": "Warte, ich glaube hier gibt es eine Race Condition. Lass uns das genauer ansehen.",
+      "it": "Aspetta, penso ci sia una race condition qui. Guardiamolo con più attenzione.",
+      "ja": "待ってください、ここに競合状態があると思います。もっと注意深く見ましょう。",
+      "ko": "잠깐, 여기 경쟁 조건이 있는 것 같아요. 더 자세히 살펴봅시다.",
+      "zh-Hans": "等一下，我觉得这里有竞态条件。让我们仔细看看。",
+      "hi": "रुको, मुझे लगता है यहां रेस कंडीशन है। इसे ध्यान से देखते हैं।",
+      "tr": "Dur, burada bir yarış durumu olduğunu düşünüyorum. Bunu daha dikkatli inceleyelim."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_019",
+    "english": "Let's commit what we have and continue from here after a break.",
+    "context": "Suggesting to save progress and take a break during a long pairing session",
+    "translations": {
+      "pt-BR": "Vamos fazer commit do que temos e continuar daqui depois de uma pausa.",
+      "es": "Hagamos commit de lo que tenemos y continuemos después de un descanso.",
+      "fr": "Committons ce qu'on a et continuons après une pause.",
+      "de": "Lass uns committen, was wir haben, und nach einer Pause weitermachen.",
+      "it": "Facciamo il commit di quello che abbiamo e continuiamo dopo una pausa.",
+      "ja": "今あるものをコミットして、休憩後に続きをやりましょう。",
+      "ko": "지금 있는 것을 커밋하고 쉬었다가 계속합시다.",
+      "zh-Hans": "让我们先提交现有的代码，休息一下再继续。",
+      "hi": "जो है उसे कमिट कर लेते हैं और ब्रेक के बाद यहां से जारी रखते हैं।",
+      "tr": "Elimizdekileri commit edelim ve bir aradan sonra devam edelim."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_020",
+    "english": "Can you zoom in? I can't read the code from here.",
+    "context": "Asking to increase font size during a remote or in-person pairing session",
+    "translations": {
+      "pt-BR": "Pode aumentar o zoom? Não consigo ler o código daqui.",
+      "es": "¿Puedes hacer zoom? No puedo leer el código desde aquí.",
+      "fr": "Tu peux zoomer ? Je n'arrive pas à lire le code d'ici.",
+      "de": "Kannst du reinzoomen? Ich kann den Code von hier nicht lesen.",
+      "it": "Puoi ingrandire? Non riesco a leggere il codice da qui.",
+      "ja": "ズームインしてもらえますか？ここからコードが読めません。",
+      "ko": "확대해 주실 수 있나요? 여기서 코드가 잘 안 보여요.",
+      "zh-Hans": "你能放大一下吗？我从这里看不清代码。",
+      "hi": "क्या आप ज़ूम इन कर सकते हैं? मुझे यहां से कोड नहीं दिख रहा।",
+      "tr": "Yakınlaştırabilir misin? Kodu buradan okuyamıyorum."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_021",
+    "english": "I have an idea, but I'm not sure it'll work. Let me try it out quickly.",
+    "context": "Proposing to experiment with an uncertain solution during pairing",
+    "translations": {
+      "pt-BR": "Tenho uma ideia, mas não tenho certeza se vai funcionar. Deixa eu testar rapidinho.",
+      "es": "Tengo una idea, pero no estoy seguro de que funcione. Déjame probarla rápidamente.",
+      "fr": "J'ai une idée, mais je ne suis pas sûr que ça marchera. Laisse-moi essayer vite fait.",
+      "de": "Ich habe eine Idee, bin aber nicht sicher, ob es funktioniert. Lass mich es schnell ausprobieren.",
+      "it": "Ho un'idea, ma non sono sicuro che funzioni. Fammi provare velocemente.",
+      "ja": "アイデアがあるのですが、うまくいくかわかりません。ちょっと試させてください。",
+      "ko": "아이디어가 있는데 될지 모르겠어요. 빨리 한번 해볼게요.",
+      "zh-Hans": "我有个想法，但不确定能不能行。让我快速试一下。",
+      "hi": "मेरे पास एक आइडिया है, लेकिन पक्का नहीं कि काम करेगा। मुझे जल्दी से आज़माने दो।",
+      "tr": "Bir fikrim var ama işe yarayacağından emin değilim. Hızlıca deneyeyim."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_022",
+    "english": "The variable naming here is a bit confusing. How about we rename it to something more descriptive?",
+    "context": "Suggesting better naming conventions during a pairing session",
+    "translations": {
+      "pt-BR": "O nome da variável aqui está um pouco confuso. Que tal renomear para algo mais descritivo?",
+      "es": "El nombre de la variable aquí es un poco confuso. ¿Qué tal si la renombramos a algo más descriptivo?",
+      "fr": "Le nom de la variable ici est un peu déroutant. Et si on la renommait en quelque chose de plus descriptif ?",
+      "de": "Die Variablenbenennung hier ist etwas verwirrend. Wie wäre es, wenn wir sie aussagekräftiger benennen?",
+      "it": "Il nome della variabile qui è un po' confuso. Che ne dici di rinominarla con qualcosa di più descrittivo?",
+      "ja": "ここの変数名は少しわかりにくいですね。もっと説明的な名前に変えませんか？",
+      "ko": "여기 변수명이 좀 헷갈려요. 더 설명적인 이름으로 바꾸면 어떨까요?",
+      "zh-Hans": "这里的变量命名有点让人困惑。我们改个更有描述性的名字怎么样？",
+      "hi": "यहां वेरिएबल का नाम थोड़ा भ्रमित करने वाला है। इसे कुछ और वर्णनात्मक नाम दें तो?",
+      "tr": "Buradaki değişken adı biraz kafa karıştırıcı. Daha açıklayıcı bir şeyle değiştirsek nasıl olur?"
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_023",
+    "english": "Let's trace through this code step by step to find the issue.",
+    "context": "Suggesting a methodical debugging approach during pair programming",
+    "translations": {
+      "pt-BR": "Vamos percorrer esse código passo a passo para encontrar o problema.",
+      "es": "Recorramos este código paso a paso para encontrar el problema.",
+      "fr": "Parcourons ce code étape par étape pour trouver le problème.",
+      "de": "Lass uns den Code Schritt für Schritt durchgehen, um das Problem zu finden.",
+      "it": "Percorriamo questo codice passo passo per trovare il problema.",
+      "ja": "問題を見つけるために、このコードをステップバイステップで追いましょう。",
+      "ko": "문제를 찾기 위해 이 코드를 단계별로 추적해 봅시다.",
+      "zh-Hans": "让我们逐步跟踪这段代码来找到问题。",
+      "hi": "समस्या खोजने के लिए इस कोड को स्टेप बाय स्टेप ट्रेस करते हैं।",
+      "tr": "Sorunu bulmak için bu kodu adım adım takip edelim."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_024",
+    "english": "We could try mob programming on this. Let's invite the rest of the team.",
+    "context": "Suggesting to expand the pairing session into a mob programming session",
+    "translations": {
+      "pt-BR": "Podemos tentar mob programming nisso. Vamos convidar o restante do time.",
+      "es": "Podríamos probar mob programming en esto. Invitemos al resto del equipo.",
+      "fr": "On pourrait essayer le mob programming sur ça. Invitons le reste de l'équipe.",
+      "de": "Wir könnten Mob Programming dafür versuchen. Lass uns den Rest des Teams einladen.",
+      "it": "Potremmo provare il mob programming su questo. Invitiamo il resto del team.",
+      "ja": "これはモブプログラミングを試してみましょう。チームの残りのメンバーを招待しましょう。",
+      "ko": "이건 몹 프로그래밍으로 해볼까요. 나머지 팀원들을 초대합시다.",
+      "zh-Hans": "我们可以试试群体编程。让我们邀请团队其他成员加入。",
+      "hi": "हम इस पर मॉब प्रोग्रामिंग करके देख सकते हैं। बाकी टीम को बुलाते हैं।",
+      "tr": "Bunda mob programlama deneyebiliriz. Ekibin geri kalanını davet edelim."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_025",
+    "english": "This edge case is tricky. Let's write down all the scenarios before coding.",
+    "context": "Suggesting to plan edge cases before implementing during pairing",
+    "translations": {
+      "pt-BR": "Esse caso extremo é complicado. Vamos listar todos os cenários antes de codificar.",
+      "es": "Este caso extremo es complicado. Anotemos todos los escenarios antes de codificar.",
+      "fr": "Ce cas limite est délicat. Notons tous les scénarios avant de coder.",
+      "de": "Dieser Grenzfall ist knifflig. Lass uns alle Szenarien aufschreiben, bevor wir coden.",
+      "it": "Questo caso limite è complicato. Annotiamo tutti gli scenari prima di codificare.",
+      "ja": "このエッジケースは厄介ですね。コーディングの前に全てのシナリオを書き出しましょう。",
+      "ko": "이 엣지 케이스가 까다롭네요. 코딩하기 전에 모든 시나리오를 적어 봅시다.",
+      "zh-Hans": "这个边界情况很棘手。让我们在编码之前列出所有场景。",
+      "hi": "यह एज केस मुश्किल है। कोड करने से पहले सभी परिदृश्य लिख लेते हैं।",
+      "tr": "Bu uç durum zor. Kodlamadan önce tüm senaryoları yazalım."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_026",
+    "english": "I agree with the logic, but I think we should add some error handling here.",
+    "context": "Suggesting improvements while agreeing with the overall approach",
+    "translations": {
+      "pt-BR": "Concordo com a lógica, mas acho que devemos adicionar tratamento de erro aqui.",
+      "es": "Estoy de acuerdo con la lógica, pero creo que deberíamos agregar manejo de errores aquí.",
+      "fr": "Je suis d'accord avec la logique, mais je pense qu'on devrait ajouter de la gestion d'erreurs ici.",
+      "de": "Ich stimme der Logik zu, aber ich denke, wir sollten hier Fehlerbehandlung hinzufügen.",
+      "it": "Sono d'accordo con la logica, ma penso che dovremmo aggiungere la gestione degli errori qui.",
+      "ja": "ロジックには同意しますが、ここにエラーハンドリングを追加すべきだと思います。",
+      "ko": "로직에는 동의하지만, 여기에 에러 처리를 추가해야 할 것 같아요.",
+      "zh-Hans": "我同意这个逻辑，但我觉得我们应该在这里加一些错误处理。",
+      "hi": "मैं लॉजिक से सहमत हूं, लेकिन मुझे लगता है हमें यहां एरर हैंडलिंग जोड़नी चाहिए।",
+      "tr": "Mantığa katılıyorum ama burada hata yönetimi eklememiz gerektiğini düşünüyorum."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_027",
+    "english": "Nice, that's much cleaner now. Let's run the tests to make sure we didn't break anything.",
+    "context": "Approving a refactoring and suggesting verification after changes",
+    "translations": {
+      "pt-BR": "Legal, ficou muito mais limpo agora. Vamos rodar os testes para garantir que não quebramos nada.",
+      "es": "Genial, ahora está mucho más limpio. Ejecutemos los tests para asegurar que no rompimos nada.",
+      "fr": "Super, c'est beaucoup plus propre maintenant. Lançons les tests pour s'assurer qu'on n'a rien cassé.",
+      "de": "Schön, das ist jetzt viel sauberer. Lass uns die Tests laufen lassen, um sicherzustellen, dass wir nichts kaputt gemacht haben.",
+      "it": "Bene, ora è molto più pulito. Eseguiamo i test per assicurarci di non aver rotto nulla.",
+      "ja": "いいですね、すっきりしました。何も壊していないか確認するためにテストを実行しましょう。",
+      "ko": "좋아요, 훨씬 깔끔해졌네요. 아무것도 안 깨졌는지 테스트를 돌려 봅시다.",
+      "zh-Hans": "不错，现在干净多了。让我们运行测试确保没有破坏什么。",
+      "hi": "बढ़िया, अब बहुत साफ है। टेस्ट चलाकर देखते हैं कि कुछ टूटा तो नहीं।",
+      "tr": "Güzel, şimdi çok daha temiz. Hiçbir şeyi bozmadığımızdan emin olmak için testleri çalıştıralım."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_028",
+    "english": "Hold on, let me check the documentation before we go down that path.",
+    "context": "Pausing to verify an assumption by checking docs during pairing",
+    "translations": {
+      "pt-BR": "Espera, deixa eu verificar a documentação antes de seguirmos por esse caminho.",
+      "es": "Espera, déjame revisar la documentación antes de seguir por ese camino.",
+      "fr": "Attends, laisse-moi vérifier la documentation avant qu'on prenne cette direction.",
+      "de": "Moment, lass mich die Dokumentation prüfen, bevor wir diesen Weg einschlagen.",
+      "it": "Aspetta, fammi controllare la documentazione prima di procedere in quella direzione.",
+      "ja": "ちょっと待ってください、その方向に進む前にドキュメントを確認させてください。",
+      "ko": "잠깐요, 그 방향으로 가기 전에 문서를 확인해 볼게요.",
+      "zh-Hans": "等一下，在我们走那条路之前让我查一下文档。",
+      "hi": "रुको, उस रास्ते पर जाने से पहले मुझे डॉक्यूमेंटेशन चेक करने दो।",
+      "tr": "Dur, o yola girmeden önce dokümantasyonu kontrol edeyim."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_029",
+    "english": "You're going too fast. Can you slow down a bit so I can follow along?",
+    "context": "Asking your pair to reduce their pace during collaborative coding",
+    "translations": {
+      "pt-BR": "Você está indo muito rápido. Pode ir um pouco mais devagar para eu acompanhar?",
+      "es": "Vas demasiado rápido. ¿Puedes ir un poco más lento para que pueda seguirte?",
+      "fr": "Tu vas trop vite. Tu peux ralentir un peu pour que je puisse suivre ?",
+      "de": "Du gehst zu schnell vor. Kannst du etwas langsamer machen, damit ich folgen kann?",
+      "it": "Stai andando troppo veloce. Puoi rallentare un po' così riesco a seguire?",
+      "ja": "少し速すぎます。ついていけるようにペースを落としてもらえますか？",
+      "ko": "너무 빨라요. 제가 따라갈 수 있게 좀 천천히 해주실 수 있나요?",
+      "zh-Hans": "你太快了。能慢一点让我跟上吗？",
+      "hi": "आप बहुत तेज़ जा रहे हैं। क्या आप थोड़ा धीमे कर सकते हैं ताकि मैं साथ चल सकूं?",
+      "tr": "Çok hızlı gidiyorsun. Takip edebilmem için biraz yavaşlayabilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_030",
+    "english": "That was a productive session. Let's summarize what we accomplished and create tickets for the remaining work.",
+    "context": "Wrapping up a pair programming session and documenting outcomes",
+    "translations": {
+      "pt-BR": "Foi uma sessão produtiva. Vamos resumir o que realizamos e criar tickets para o trabalho restante.",
+      "es": "Fue una sesión productiva. Resumamos lo que logramos y creemos tickets para el trabajo restante.",
+      "fr": "C'était une session productive. Résumons ce qu'on a accompli et créons des tickets pour le travail restant.",
+      "de": "Das war eine produktive Session. Lass uns zusammenfassen, was wir geschafft haben, und Tickets für die verbleibende Arbeit erstellen.",
+      "it": "È stata una sessione produttiva. Riassumiamo cosa abbiamo realizzato e creiamo dei ticket per il lavoro rimanente.",
+      "ja": "生産的なセッションでしたね。達成したことをまとめて、残りの作業のチケットを作りましょう。",
+      "ko": "생산적인 세션이었어요. 달성한 것을 정리하고 남은 작업에 대한 티켓을 만듭시다.",
+      "zh-Hans": "这是一次高效的会议。让我们总结一下完成的工作，为剩余的工作创建工单。",
+      "hi": "यह एक उत्पादक सत्र था। चलो जो हमने किया उसका सारांश बनाते हैं और बाकी काम के लिए टिकट बनाते हैं।",
+      "tr": "Verimli bir oturum oldu. Başardıklarımızı özetleyip kalan iş için bilet oluşturalım."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  }
+]

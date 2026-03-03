@@ -1,0 +1,572 @@
+[
+  {
+    "id": "slack_001",
+    "english": "Hey, are you available for a quick sync?",
+    "context": "Asking a colleague for a brief chat on Slack",
+    "translations": {
+      "pt-BR": "Ei, você está disponível para um sync rápido?",
+      "es": "Oye, ¿estás disponible para una sincronización rápida?",
+      "fr": "Hey, tu es disponible pour un sync rapide ?",
+      "de": "Hey, bist du für ein kurzes Sync verfügbar?",
+      "it": "Ehi, sei disponibile per un sync veloce?",
+      "ja": "ちょっと同期できますか？",
+      "ko": "잠깐 싱크할 수 있나요?",
+      "zh-Hans": "嘿，你有空快速同步一下吗？",
+      "hi": "हे, क्या आप एक त्वरित सिंक के लिए उपलब्ध हैं?",
+      "tr": "Hey, hızlı bir senkronizasyon için müsait misin?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_002",
+    "english": "Just pushed my changes to the feature branch.",
+    "context": "Letting the team know you pushed code",
+    "translations": {
+      "pt-BR": "Acabei de enviar minhas alterações para a branch de feature.",
+      "es": "Acabo de subir mis cambios a la rama de feature.",
+      "fr": "Je viens de pousser mes changements sur la branche de feature.",
+      "de": "Ich habe gerade meine Änderungen in den Feature-Branch gepusht.",
+      "it": "Ho appena pushato le mie modifiche sul branch della feature.",
+      "ja": "フィーチャーブランチに変更をプッシュしました。",
+      "ko": "피처 브랜치에 변경 사항을 푸시했습니다.",
+      "zh-Hans": "刚把我的更改推送到功能分支了。",
+      "hi": "मैंने अभी फीचर ब्रांच में अपने बदलाव पुश किए हैं।",
+      "tr": "Değişikliklerimi feature branch'e push ettim."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_003",
+    "english": "Can you take a look at my PR when you get a chance?",
+    "context": "Politely asking someone to review your pull request",
+    "translations": {
+      "pt-BR": "Você pode dar uma olhada no meu PR quando tiver um tempo?",
+      "es": "¿Puedes revisar mi PR cuando tengas un momento?",
+      "fr": "Tu peux jeter un œil à ma PR quand tu as un moment ?",
+      "de": "Kannst du dir meinen PR ansehen, wenn du Zeit hast?",
+      "it": "Puoi dare un'occhiata alla mia PR quando hai un momento?",
+      "ja": "時間があるときに私のPRを見てもらえますか？",
+      "ko": "시간 되실 때 제 PR 한번 봐주실 수 있나요?",
+      "zh-Hans": "你有空的时候能看一下我的PR吗？",
+      "hi": "जब आपको मौका मिले तो क्या आप मेरा PR देख सकते हैं?",
+      "tr": "Fırsat bulduğunda PR'ıma bir bakabilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_004",
+    "english": "Thanks for the quick fix!",
+    "context": "Thanking a teammate for resolving an issue fast",
+    "translations": {
+      "pt-BR": "Obrigado pela correção rápida!",
+      "es": "¡Gracias por la corrección rápida!",
+      "fr": "Merci pour la correction rapide !",
+      "de": "Danke für den schnellen Fix!",
+      "it": "Grazie per la correzione rapida!",
+      "ja": "迅速な修正ありがとうございます！",
+      "ko": "빠른 수정 감사합니다!",
+      "zh-Hans": "感谢快速修复！",
+      "hi": "त्वरित फिक्स के लिए धन्यवाद!",
+      "tr": "Hızlı düzeltme için teşekkürler!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_005",
+    "english": "I'll be AFK for about 30 minutes.",
+    "context": "Letting the team know you will be away from keyboard",
+    "translations": {
+      "pt-BR": "Vou ficar ausente por cerca de 30 minutos.",
+      "es": "Estaré ausente unos 30 minutos.",
+      "fr": "Je serai AFK pendant environ 30 minutes.",
+      "de": "Ich bin etwa 30 Minuten AFK.",
+      "it": "Sarò AFK per circa 30 minuti.",
+      "ja": "30分ほど離席します。",
+      "ko": "30분 정도 자리를 비울게요.",
+      "zh-Hans": "我大约离开30分钟。",
+      "hi": "मैं लगभग 30 मिनट के लिए AFK रहूंगा।",
+      "tr": "Yaklaşık 30 dakika AFK olacağım."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_006",
+    "english": "Heads up, I'm deploying to staging in 10 minutes.",
+    "context": "Warning the team about an upcoming deployment",
+    "translations": {
+      "pt-BR": "Aviso, vou fazer deploy para staging em 10 minutos.",
+      "es": "Aviso, voy a desplegar en staging en 10 minutos.",
+      "fr": "Attention, je déploie en staging dans 10 minutes.",
+      "de": "Achtung, ich deploye in 10 Minuten auf Staging.",
+      "it": "Avviso, faccio il deploy su staging tra 10 minuti.",
+      "ja": "お知らせ、10分後にステージングにデプロイします。",
+      "ko": "알림, 10분 후에 스테이징에 배포합니다.",
+      "zh-Hans": "提醒一下，我10分钟后部署到预发布环境。",
+      "hi": "सूचना, मैं 10 मिनट में स्टेजिंग पर डिप्लॉय कर रहा हूं।",
+      "tr": "Bilgi, 10 dakika içinde staging'e deploy edeceğim."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_007",
+    "english": "Got it, I'll pick up that ticket.",
+    "context": "Confirming you will work on a task someone mentioned",
+    "translations": {
+      "pt-BR": "Entendi, vou pegar esse ticket.",
+      "es": "Entendido, me encargo de ese ticket.",
+      "fr": "Compris, je prends ce ticket.",
+      "de": "Verstanden, ich nehme das Ticket.",
+      "it": "Capito, prendo io quel ticket.",
+      "ja": "了解、そのチケットを担当します。",
+      "ko": "알겠습니다, 그 티켓 제가 할게요.",
+      "zh-Hans": "收到，我来处理那个工单。",
+      "hi": "समझ गया, मैं वो टिकट उठा लेता हूं।",
+      "tr": "Anlaşıldı, o ticket'ı ben alıyorum."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_008",
+    "english": "Is anyone else seeing this error in production?",
+    "context": "Asking the team if a production error is widespread",
+    "translations": {
+      "pt-BR": "Mais alguém está vendo esse erro em produção?",
+      "es": "¿Alguien más está viendo este error en producción?",
+      "fr": "Quelqu'un d'autre voit cette erreur en production ?",
+      "de": "Sieht jemand anders diesen Fehler in der Produktion?",
+      "it": "Qualcun altro vede questo errore in produzione?",
+      "ja": "本番環境でこのエラーが出ている人は他にいますか？",
+      "ko": "프로덕션에서 이 에러 보시는 분 있나요?",
+      "zh-Hans": "还有人在生产环境看到这个错误吗？",
+      "hi": "क्या प्रोडक्शन में यह एरर किसी और को भी दिख रहा है?",
+      "tr": "Bu hatayı production'da başka gören var mı?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_009",
+    "english": "Let me check and get back to you.",
+    "context": "Telling someone you need time to investigate before answering",
+    "translations": {
+      "pt-BR": "Deixa eu verificar e te retorno.",
+      "es": "Déjame revisar y te respondo.",
+      "fr": "Laisse-moi vérifier et je te reviens.",
+      "de": "Lass mich das prüfen, ich melde mich bei dir.",
+      "it": "Fammi controllare e ti faccio sapere.",
+      "ja": "確認して折り返します。",
+      "ko": "확인하고 다시 알려드릴게요.",
+      "zh-Hans": "我查一下再回复你。",
+      "hi": "मुझे चेक करने दो, मैं वापस बताता हूं।",
+      "tr": "Kontrol edip sana döneyim."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_010",
+    "english": "Could you share the link to that document?",
+    "context": "Requesting a colleague to share a resource link",
+    "translations": {
+      "pt-BR": "Você poderia compartilhar o link daquele documento?",
+      "es": "¿Podrías compartir el enlace de ese documento?",
+      "fr": "Tu pourrais partager le lien de ce document ?",
+      "de": "Könntest du den Link zu dem Dokument teilen?",
+      "it": "Potresti condividere il link di quel documento?",
+      "ja": "そのドキュメントのリンクを共有してもらえますか？",
+      "ko": "그 문서 링크 공유해주실 수 있나요?",
+      "zh-Hans": "你能分享一下那个文档的链接吗？",
+      "hi": "क्या आप उस डॉक्यूमेंट का लिंक शेयर कर सकते हैं?",
+      "tr": "O dokümanın linkini paylaşabilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_011",
+    "english": "I noticed the CI pipeline is failing on the main branch. Can someone investigate?",
+    "context": "Alerting the team about a broken CI build",
+    "translations": {
+      "pt-BR": "Percebi que o pipeline de CI está falhando na branch main. Alguém pode investigar?",
+      "es": "Noté que el pipeline de CI está fallando en la rama main. ¿Alguien puede investigar?",
+      "fr": "J'ai remarqué que le pipeline CI échoue sur la branche main. Quelqu'un peut investiguer ?",
+      "de": "Mir ist aufgefallen, dass die CI-Pipeline auf dem Main-Branch fehlschlägt. Kann jemand nachschauen?",
+      "it": "Ho notato che la pipeline CI sta fallendo sul branch main. Qualcuno può investigare?",
+      "ja": "メインブランチでCIパイプラインが失敗しています。誰か調査できますか？",
+      "ko": "메인 브랜치에서 CI 파이프라인이 실패하고 있어요. 누가 확인해주실 수 있나요?",
+      "zh-Hans": "我注意到主分支的CI流水线失败了。有人能调查一下吗？",
+      "hi": "मैंने देखा कि मेन ब्रांच पर CI पाइपलाइन फेल हो रही है। क्या कोई जांच कर सकता है?",
+      "tr": "Main branch'te CI pipeline'ının başarısız olduğunu fark ettim. Biri inceleyebilir mi?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_012",
+    "english": "I'm going to refactor the authentication module this sprint. I'll keep you posted on the progress.",
+    "context": "Informing the team about planned refactoring work",
+    "translations": {
+      "pt-BR": "Vou refatorar o módulo de autenticação nesta sprint. Mantenho vocês atualizados sobre o progresso.",
+      "es": "Voy a refactorizar el módulo de autenticación en este sprint. Les mantendré informados del progreso.",
+      "fr": "Je vais refactoriser le module d'authentification ce sprint. Je vous tiendrai au courant de l'avancement.",
+      "de": "Ich werde das Authentifizierungsmodul diesen Sprint refactoren. Ich halte euch über den Fortschritt auf dem Laufenden.",
+      "it": "Farò il refactoring del modulo di autenticazione in questo sprint. Vi terrò aggiornati sui progressi.",
+      "ja": "今スプリントで認証モジュールをリファクタリングします。進捗は随時共有します。",
+      "ko": "이번 스프린트에서 인증 모듈을 리팩토링할 예정입니다. 진행 상황을 계속 알려드릴게요.",
+      "zh-Hans": "我这个迭代要重构认证模块。进展情况会随时更新给大家。",
+      "hi": "मैं इस स्प्रिंट में ऑथेंटिकेशन मॉड्यूल को रिफैक्टर करने वाला हूं। प्रगति के बारे में अपडेट देता रहूंगा।",
+      "tr": "Bu sprint'te authentication modülünü refactor edeceğim. İlerleme hakkında sizi bilgilendireceğim."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_013",
+    "english": "The endpoint is returning a 500 error. I've attached the logs in the thread.",
+    "context": "Reporting a server error and sharing debugging info in a thread",
+    "translations": {
+      "pt-BR": "O endpoint está retornando erro 500. Anexei os logs na thread.",
+      "es": "El endpoint está devolviendo un error 500. Adjunté los logs en el hilo.",
+      "fr": "L'endpoint renvoie une erreur 500. J'ai joint les logs dans le fil de discussion.",
+      "de": "Der Endpoint gibt einen 500-Fehler zurück. Ich habe die Logs im Thread angehängt.",
+      "it": "L'endpoint sta restituendo un errore 500. Ho allegato i log nel thread.",
+      "ja": "エンドポイントが500エラーを返しています。スレッドにログを添付しました。",
+      "ko": "엔드포인트에서 500 에러가 발생하고 있어요. 스레드에 로그를 첨부했습니다.",
+      "zh-Hans": "接口返回了500错误。我在帖子里附上了日志。",
+      "hi": "एंडपॉइंट 500 एरर दे रहा है। मैंने थ्रेड में लॉग्स अटैच कर दिए हैं।",
+      "tr": "Endpoint 500 hatası dönüyor. Log'ları thread'e ekledim."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_014",
+    "english": "Sorry for the late reply, I was in back-to-back meetings.",
+    "context": "Apologizing for delayed response due to meetings",
+    "translations": {
+      "pt-BR": "Desculpa pela resposta tardia, estava em reuniões seguidas.",
+      "es": "Perdón por la respuesta tardía, estuve en reuniones seguidas.",
+      "fr": "Désolé pour la réponse tardive, j'étais en réunions enchaînées.",
+      "de": "Entschuldigung für die späte Antwort, ich war in aufeinanderfolgenden Meetings.",
+      "it": "Scusa per la risposta in ritardo, ero in riunioni consecutive.",
+      "ja": "返信が遅くなってすみません、会議が連続していました。",
+      "ko": "답장이 늦어서 죄송합니다, 연속 회의가 있었어요.",
+      "zh-Hans": "抱歉回复晚了，我一直在连续开会。",
+      "hi": "देर से जवाब देने के लिए माफी, मैं लगातार मीटिंग्स में था।",
+      "tr": "Geç cevap için özür dilerim, art arda toplantılarım vardı."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_015",
+    "english": "I've created a new channel for the migration project. Please join #project-migration.",
+    "context": "Announcing a new Slack channel for a specific project",
+    "translations": {
+      "pt-BR": "Criei um novo canal para o projeto de migração. Por favor, entrem no #project-migration.",
+      "es": "He creado un nuevo canal para el proyecto de migración. Por favor únanse a #project-migration.",
+      "fr": "J'ai créé un nouveau canal pour le projet de migration. Veuillez rejoindre #project-migration.",
+      "de": "Ich habe einen neuen Channel für das Migrationsprojekt erstellt. Bitte tretet #project-migration bei.",
+      "it": "Ho creato un nuovo canale per il progetto di migrazione. Per favore unitevi a #project-migration.",
+      "ja": "マイグレーションプロジェクト用の新しいチャンネルを作りました。#project-migrationに参加してください。",
+      "ko": "마이그레이션 프로젝트를 위한 새 채널을 만들었습니다. #project-migration에 참여해주세요.",
+      "zh-Hans": "我为迁移项目创建了一个新频道。请加入 #project-migration。",
+      "hi": "मैंने माइग्रेशन प्रोजेक्ट के लिए एक नया चैनल बनाया है। कृपया #project-migration में शामिल हों।",
+      "tr": "Migrasyon projesi için yeni bir kanal oluşturdum. Lütfen #project-migration'a katılın."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_016",
+    "english": "Can we move this discussion to a thread? The channel is getting noisy.",
+    "context": "Asking to keep the channel organized by using threads",
+    "translations": {
+      "pt-BR": "Podemos mover essa discussão para uma thread? O canal está ficando bagunçado.",
+      "es": "¿Podemos mover esta discusión a un hilo? El canal se está llenando mucho.",
+      "fr": "On peut déplacer cette discussion dans un fil ? Le canal devient bruyant.",
+      "de": "Können wir diese Diskussion in einen Thread verschieben? Der Channel wird unübersichtlich.",
+      "it": "Possiamo spostare questa discussione in un thread? Il canale sta diventando caotico.",
+      "ja": "この議論をスレッドに移せますか？チャンネルが騒がしくなっています。",
+      "ko": "이 대화를 스레드로 옮길 수 있을까요? 채널이 너무 시끄러워지고 있어요.",
+      "zh-Hans": "我们能把这个讨论移到帖子里吗？频道变得很嘈杂了。",
+      "hi": "क्या हम इस चर्चा को थ्रेड में ले जा सकते हैं? चैनल बहुत भरा जा रहा है।",
+      "tr": "Bu tartışmayı thread'e taşıyabilir miyiz? Kanal çok kalabalıklaşıyor."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_017",
+    "english": "FYI, I've updated the environment variables in the staging server. You might need to restart your containers.",
+    "context": "Notifying the team about configuration changes that may affect them",
+    "translations": {
+      "pt-BR": "Para informação, atualizei as variáveis de ambiente no servidor de staging. Vocês podem precisar reiniciar seus containers.",
+      "es": "Para su información, actualicé las variables de entorno en el servidor de staging. Puede que necesiten reiniciar sus contenedores.",
+      "fr": "Pour info, j'ai mis à jour les variables d'environnement sur le serveur de staging. Vous devrez peut-être redémarrer vos conteneurs.",
+      "de": "Zur Info, ich habe die Umgebungsvariablen auf dem Staging-Server aktualisiert. Ihr müsst möglicherweise eure Container neustarten.",
+      "it": "Per vostra informazione, ho aggiornato le variabili d'ambiente nel server di staging. Potrebbe essere necessario riavviare i vostri container.",
+      "ja": "参考まで、ステージングサーバーの環境変数を更新しました。コンテナの再起動が必要かもしれません。",
+      "ko": "참고로 스테이징 서버의 환경 변수를 업데이트했습니다. 컨테이너를 재시작해야 할 수도 있어요.",
+      "zh-Hans": "通知一下，我更新了预发布服务器的环境变量。你们可能需要重启容器。",
+      "hi": "जानकारी के लिए, मैंने स्टेजिंग सर्वर में एनवायरनमेंट वेरिएबल्स अपडेट कर दिए हैं। आपको अपने कंटेनर्स रीस्टार्ट करने पड़ सकते हैं।",
+      "tr": "Bilgi olarak, staging sunucusundaki ortam değişkenlerini güncelledim. Container'larınızı yeniden başlatmanız gerekebilir."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_018",
+    "english": "I'm stuck on this caching issue. Has anyone dealt with Redis invalidation patterns before?",
+    "context": "Asking for help with a specific technical challenge",
+    "translations": {
+      "pt-BR": "Estou travado nesse problema de cache. Alguém já lidou com padrões de invalidação do Redis antes?",
+      "es": "Estoy atascado con este problema de caché. ¿Alguien ha tratado con patrones de invalidación de Redis antes?",
+      "fr": "Je suis bloqué sur ce problème de cache. Quelqu'un a déjà géré des patterns d'invalidation Redis ?",
+      "de": "Ich stecke bei diesem Caching-Problem fest. Hat jemand Erfahrung mit Redis-Invalidierungsmustern?",
+      "it": "Sono bloccato su questo problema di caching. Qualcuno ha già avuto a che fare con pattern di invalidazione Redis?",
+      "ja": "このキャッシュの問題で詰まっています。Redisの無効化パターンに対応したことがある人はいますか？",
+      "ko": "캐싱 문제에서 막혀있습니다. Redis 무효화 패턴을 다뤄보신 분 있나요?",
+      "zh-Hans": "我在这个缓存问题上卡住了。有人处理过Redis失效模式吗？",
+      "hi": "मैं इस कैशिंग समस्या में फंसा हुआ हूं। क्या किसी ने पहले Redis इनवैलिडेशन पैटर्न से डील किया है?",
+      "tr": "Bu caching sorununda takıldım. Daha önce Redis invalidation pattern'leri ile uğraşan oldu mu?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_019",
+    "english": "The design team shared the updated mockups. I've pinned them in the channel.",
+    "context": "Sharing design updates and pinning important resources",
+    "translations": {
+      "pt-BR": "O time de design compartilhou os mockups atualizados. Fixei eles no canal.",
+      "es": "El equipo de diseño compartió los mockups actualizados. Los he fijado en el canal.",
+      "fr": "L'équipe design a partagé les maquettes mises à jour. Je les ai épinglées dans le canal.",
+      "de": "Das Design-Team hat die aktualisierten Mockups geteilt. Ich habe sie im Channel angepinnt.",
+      "it": "Il team di design ha condiviso i mockup aggiornati. Li ho pinnati nel canale.",
+      "ja": "デザインチームが更新されたモックアップを共有しました。チャンネルにピン留めしています。",
+      "ko": "디자인팀이 업데이트된 목업을 공유했습니다. 채널에 고정해놨어요.",
+      "zh-Hans": "设计团队分享了更新后的原型图。我已经在频道里置顶了。",
+      "hi": "डिज़ाइन टीम ने अपडेटेड मॉकअप शेयर किए हैं। मैंने उन्हें चैनल में पिन कर दिया है।",
+      "tr": "Tasarım ekibi güncellenmiş mockup'ları paylaştı. Kanalda sabitledim."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_020",
+    "english": "Reminder: code freeze starts tomorrow at 5 PM. Please merge all pending PRs before then.",
+    "context": "Sending a deadline reminder about code freeze",
+    "translations": {
+      "pt-BR": "Lembrete: o code freeze começa amanhã às 17h. Por favor, façam merge de todos os PRs pendentes antes disso.",
+      "es": "Recordatorio: el code freeze comienza mañana a las 5 PM. Por favor, hagan merge de todos los PRs pendientes antes.",
+      "fr": "Rappel : le code freeze commence demain à 17h. Veuillez fusionner toutes les PR en attente avant.",
+      "de": "Erinnerung: Code Freeze beginnt morgen um 17 Uhr. Bitte merged alle offenen PRs vorher.",
+      "it": "Promemoria: il code freeze inizia domani alle 17. Per favore, fate merge di tutte le PR in sospeso prima di allora.",
+      "ja": "リマインダー：明日午後5時からコードフリーズです。それまでに保留中のPRをすべてマージしてください。",
+      "ko": "리마인더: 내일 오후 5시에 코드 프리즈가 시작됩니다. 그전에 대기 중인 PR을 모두 머지해주세요.",
+      "zh-Hans": "提醒：明天下午5点开始代码冻结。请在那之前合并所有待处理的PR。",
+      "hi": "रिमाइंडर: कोड फ्रीज़ कल शाम 5 बजे शुरू होगा। कृपया उससे पहले सभी पेंडिंग PR मर्ज कर लें।",
+      "tr": "Hatırlatma: code freeze yarın saat 17:00'de başlıyor. Lütfen tüm bekleyen PR'ları o zamandan önce merge edin."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_021",
+    "english": "I've been investigating the memory leak we discussed yesterday and it seems to be caused by a circular reference in the event listener module. I'll submit a fix by end of day.",
+    "context": "Providing a detailed status update on a bug investigation",
+    "translations": {
+      "pt-BR": "Estive investigando o vazamento de memória que discutimos ontem e parece ser causado por uma referência circular no módulo de event listener. Vou submeter uma correção até o final do dia.",
+      "es": "He estado investigando la fuga de memoria que discutimos ayer y parece ser causada por una referencia circular en el módulo de event listener. Enviaré una corrección antes del final del día.",
+      "fr": "J'ai enquêté sur la fuite mémoire dont on a discuté hier et elle semble être causée par une référence circulaire dans le module d'event listener. Je soumettrai un correctif d'ici la fin de la journée.",
+      "de": "Ich habe das Memory Leak untersucht, das wir gestern besprochen haben, und es scheint durch eine zirkuläre Referenz im Event-Listener-Modul verursacht zu werden. Ich reiche bis Ende des Tages einen Fix ein.",
+      "it": "Ho indagato sul memory leak di cui abbiamo discusso ieri e sembra essere causato da un riferimento circolare nel modulo dell'event listener. Invierò una correzione entro fine giornata.",
+      "ja": "昨日話し合ったメモリリークを調査していましたが、イベントリスナーモジュールの循環参照が原因のようです。本日中に修正を提出します。",
+      "ko": "어제 논의한 메모리 누수를 조사했는데, 이벤트 리스너 모듈의 순환 참조가 원인인 것 같습니다. 오늘 중으로 수정을 제출하겠습니다.",
+      "zh-Hans": "我一直在调查昨天讨论的内存泄漏问题，似乎是事件监听模块中的循环引用导致的。我会在今天结束前提交修复。",
+      "hi": "मैं कल चर्चा किए गए मेमोरी लीक की जांच कर रहा था और ऐसा लगता है कि यह इवेंट लिसनर मॉड्यूल में सर्कुलर रेफरेंस के कारण है। दिन के अंत तक फिक्स सबमिट कर दूंगा।",
+      "tr": "Dün tartıştığımız bellek sızıntısını araştırıyordum ve event listener modülündeki döngüsel bir referanstan kaynaklanıyor gibi görünüyor. Gün sonuna kadar bir düzeltme göndereceğim."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_022",
+    "english": "Just a heads up, the third-party payment API will undergo scheduled maintenance this weekend. We should add a fallback mechanism and display a user-friendly error message.",
+    "context": "Warning about scheduled downtime and suggesting proactive solutions",
+    "translations": {
+      "pt-BR": "Só um aviso, a API de pagamento de terceiros passará por manutenção programada neste fim de semana. Devemos adicionar um mecanismo de fallback e exibir uma mensagem de erro amigável para o usuário.",
+      "es": "Solo un aviso, la API de pago de terceros tendrá mantenimiento programado este fin de semana. Deberíamos agregar un mecanismo de respaldo y mostrar un mensaje de error amigable para el usuario.",
+      "fr": "Juste un avertissement, l'API de paiement tierce aura une maintenance planifiée ce week-end. Nous devrions ajouter un mécanisme de fallback et afficher un message d'erreur convivial.",
+      "de": "Nur zur Info, die Zahlungs-API des Drittanbieters wird dieses Wochenende planmäßig gewartet. Wir sollten einen Fallback-Mechanismus hinzufügen und eine benutzerfreundliche Fehlermeldung anzeigen.",
+      "it": "Solo un avviso, l'API di pagamento di terze parti avrà una manutenzione programmata questo fine settimana. Dovremmo aggiungere un meccanismo di fallback e mostrare un messaggio di errore user-friendly.",
+      "ja": "お知らせですが、サードパーティの決済APIが今週末に定期メンテナンスを行います。フォールバックメカニズムを追加し、ユーザーフレンドリーなエラーメッセージを表示するべきです。",
+      "ko": "참고로 서드파티 결제 API가 이번 주말에 정기 점검에 들어갑니다. 폴백 메커니즘을 추가하고 사용자 친화적인 에러 메시지를 표시해야 합니다.",
+      "zh-Hans": "提醒一下，第三方支付API本周末将进行计划维护。我们应该添加降级机制并显示友好的错误提示。",
+      "hi": "बस एक सूचना, थर्ड-पार्टी पेमेंट API इस वीकेंड शेड्यूल्ड मेंटेनेंस से गुज़रेगी। हमें एक फॉलबैक मैकेनिज्म जोड़ना चाहिए और यूज़र-फ्रेंडली एरर मैसेज दिखाना चाहिए।",
+      "tr": "Bilgilendirme, üçüncü parti ödeme API'si bu hafta sonu planlı bakıma girecek. Bir fallback mekanizması eklemeli ve kullanıcı dostu bir hata mesajı göstermeliyiz."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_023",
+    "english": "I've set up a webhook integration between our Slack workspace and the GitHub repo so we get automatic notifications for new PRs and failed builds.",
+    "context": "Announcing a new automation integration to the team",
+    "translations": {
+      "pt-BR": "Configurei uma integração de webhook entre nosso workspace do Slack e o repositório GitHub para recebermos notificações automáticas de novos PRs e builds com falha.",
+      "es": "He configurado una integración de webhook entre nuestro workspace de Slack y el repositorio de GitHub para que recibamos notificaciones automáticas de nuevos PRs y builds fallidos.",
+      "fr": "J'ai mis en place une intégration webhook entre notre workspace Slack et le dépôt GitHub pour recevoir des notifications automatiques pour les nouvelles PR et les builds échoués.",
+      "de": "Ich habe eine Webhook-Integration zwischen unserem Slack-Workspace und dem GitHub-Repo eingerichtet, damit wir automatische Benachrichtigungen für neue PRs und fehlgeschlagene Builds erhalten.",
+      "it": "Ho configurato un'integrazione webhook tra il nostro workspace Slack e il repo GitHub così riceviamo notifiche automatiche per nuove PR e build fallite.",
+      "ja": "SlackワークスペースとGitHubリポジトリ間のWebhook連携を設定しました。新しいPRやビルド失敗の自動通知が届くようになります。",
+      "ko": "Slack 워크스페이스와 GitHub 저장소 간에 웹훅 연동을 설정했습니다. 새 PR과 빌드 실패에 대한 자동 알림을 받을 수 있습니다.",
+      "zh-Hans": "我已经在Slack工作区和GitHub仓库之间设置了webhook集成，这样我们可以自动收到新PR和构建失败的通知。",
+      "hi": "मैंने हमारे Slack वर्कस्पेस और GitHub रिपो के बीच एक webhook इंटीग्रेशन सेट अप किया है ताकि हमें नए PRs और फेल्ड बिल्ड्स के लिए ऑटोमैटिक नोटिफिकेशन मिलें।",
+      "tr": "Slack workspace'imiz ile GitHub reposu arasında bir webhook entegrasyonu kurdum, böylece yeni PR'lar ve başarısız build'ler için otomatik bildirim alacağız."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_024",
+    "english": "Could you walk me through the architecture decision for using microservices instead of a monolith? I want to make sure I understand the trade-offs before I start implementing.",
+    "context": "Asking for clarification on an architectural decision before starting work",
+    "translations": {
+      "pt-BR": "Você poderia me explicar a decisão de arquitetura de usar microsserviços em vez de monolito? Quero ter certeza de que entendo os trade-offs antes de começar a implementar.",
+      "es": "¿Podrías explicarme la decisión de arquitectura de usar microservicios en lugar de un monolito? Quiero asegurarme de entender los compromisos antes de empezar a implementar.",
+      "fr": "Pourrais-tu m'expliquer la décision architecturale d'utiliser des microservices plutôt qu'un monolithe ? Je veux m'assurer de bien comprendre les compromis avant de commencer l'implémentation.",
+      "de": "Könntest du mir die Architekturentscheidung erklären, Microservices statt eines Monolithen zu verwenden? Ich möchte sicherstellen, dass ich die Trade-offs verstehe, bevor ich mit der Implementierung beginne.",
+      "it": "Potresti spiegarmi la decisione architetturale di usare microservizi invece di un monolite? Voglio assicurarmi di capire i compromessi prima di iniziare a implementare.",
+      "ja": "モノリスではなくマイクロサービスを使用するアーキテクチャの決定について説明してもらえますか？実装を始める前にトレードオフを理解しておきたいです。",
+      "ko": "모놀리스 대신 마이크로서비스를 사용하기로 한 아키텍처 결정에 대해 설명해주실 수 있나요? 구현을 시작하기 전에 트레이드오프를 확실히 이해하고 싶습니다.",
+      "zh-Hans": "你能给我讲讲使用微服务而不是单体架构的决策吗？我想在开始实现之前确保理解其中的权衡取舍。",
+      "hi": "क्या आप मुझे माइक्रोसर्विसेज बनाम मोनोलिथ के आर्किटेक्चर डिसीजन के बारे में समझा सकते हैं? मैं इम्प्लीमेंटेशन शुरू करने से पहले ट्रेड-ऑफ्स को अच्छी तरह समझना चाहता हूं।",
+      "tr": "Monolith yerine microservices kullanma konusundaki mimari kararı bana anlatabilir misin? Uygulamaya başlamadan önce ödünleşimleri anladığımdan emin olmak istiyorum."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_025",
+    "english": "I ran the load tests and the API can handle around 2,000 requests per second before response times start degrading. Should we look into horizontal scaling or optimize the database queries first?",
+    "context": "Sharing performance test results and asking for guidance on next steps",
+    "translations": {
+      "pt-BR": "Rodei os testes de carga e a API aguenta cerca de 2.000 requisições por segundo antes dos tempos de resposta começarem a degradar. Devemos considerar escalar horizontalmente ou otimizar as queries do banco primeiro?",
+      "es": "Ejecuté las pruebas de carga y la API puede manejar alrededor de 2.000 solicitudes por segundo antes de que los tiempos de respuesta comiencen a degradarse. ¿Deberíamos considerar escalamiento horizontal u optimizar las consultas de la base de datos primero?",
+      "fr": "J'ai lancé les tests de charge et l'API peut gérer environ 2 000 requêtes par seconde avant que les temps de réponse ne se dégradent. Devrions-nous envisager le scaling horizontal ou optimiser les requêtes de base de données d'abord ?",
+      "de": "Ich habe die Lasttests durchgeführt und die API schafft etwa 2.000 Anfragen pro Sekunde, bevor die Antwortzeiten sich verschlechtern. Sollten wir horizontale Skalierung in Betracht ziehen oder zuerst die Datenbankabfragen optimieren?",
+      "it": "Ho eseguito i test di carico e l'API può gestire circa 2.000 richieste al secondo prima che i tempi di risposta inizino a degradarsi. Dovremmo valutare lo scaling orizzontale o ottimizzare prima le query del database?",
+      "ja": "負荷テストを実行したところ、APIはレスポンスタイムが悪化し始める前に約2,000リクエスト/秒を処理できます。水平スケーリングを検討すべきか、先にデータベースクエリを最適化すべきでしょうか？",
+      "ko": "부하 테스트를 실행했는데 API가 응답 시간이 저하되기 전에 초당 약 2,000 요청을 처리할 수 있습니다. 수평 확장을 고려해야 할까요, 아니면 먼저 데이터베이스 쿼리를 최적화해야 할까요?",
+      "zh-Hans": "我运行了负载测试，API在响应时间开始下降之前可以处理大约每秒2000个请求。我们应该考虑水平扩展还是先优化数据库查询？",
+      "hi": "मैंने लोड टेस्ट चलाए और API रिस्पॉन्स टाइम खराब होने से पहले लगभग 2,000 रिक्वेस्ट प्रति सेकंड हैंडल कर सकती है। क्या हमें हॉरिज़ॉन्टल स्केलिंग देखनी चाहिए या पहले डेटाबेस क्वेरीज़ ऑप्टिमाइज़ करनी चाहिए?",
+      "tr": "Yük testlerini çalıştırdım ve API, yanıt süreleri kötüleşmeye başlamadan önce saniyede yaklaşık 2.000 isteği karşılayabiliyor. Yatay ölçeklendirmeye mi bakmalıyız yoksa önce veritabanı sorgularını mı optimize etmeliyiz?"
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_026",
+    "english": "The feature flag for the new onboarding flow is now enabled in the staging environment. Please test it and report any issues in this thread.",
+    "context": "Announcing a feature flag change and requesting testing feedback",
+    "translations": {
+      "pt-BR": "A feature flag para o novo fluxo de onboarding agora está habilitada no ambiente de staging. Por favor, testem e reportem qualquer problema nesta thread.",
+      "es": "La feature flag para el nuevo flujo de onboarding ahora está habilitada en el entorno de staging. Por favor, pruébenla y reporten cualquier problema en este hilo.",
+      "fr": "Le feature flag pour le nouveau flux d'onboarding est maintenant activé dans l'environnement de staging. Veuillez le tester et signaler tout problème dans ce fil.",
+      "de": "Das Feature Flag für den neuen Onboarding-Flow ist jetzt in der Staging-Umgebung aktiviert. Bitte testet es und meldet Probleme in diesem Thread.",
+      "it": "La feature flag per il nuovo flusso di onboarding è ora abilitata nell'ambiente di staging. Per favore, testatelo e segnalate eventuali problemi in questo thread.",
+      "ja": "新しいオンボーディングフローのフィーチャーフラグがステージング環境で有効になりました。テストして問題があればこのスレッドで報告してください。",
+      "ko": "새 온보딩 플로우의 피처 플래그가 스테이징 환경에서 활성화되었습니다. 테스트하고 문제가 있으면 이 스레드에 보고해주세요.",
+      "zh-Hans": "新引导流程的功能标志现已在预发布环境中启用。请测试并在此帖子中报告任何问题。",
+      "hi": "नए ऑनबोर्डिंग फ्लो का फीचर फ्लैग अब स्टेजिंग एनवायरनमेंट में इनेबल है। कृपया टेस्ट करें और इस थ्रेड में किसी भी समस्या की रिपोर्ट करें।",
+      "tr": "Yeni onboarding akışı için feature flag artık staging ortamında etkinleştirildi. Lütfen test edin ve sorunları bu thread'de bildirin."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_027",
+    "english": "I've noticed we're duplicating a lot of validation logic across services. I'd like to propose creating a shared validation library. Thoughts?",
+    "context": "Proposing a technical improvement to reduce code duplication",
+    "translations": {
+      "pt-BR": "Percebi que estamos duplicando muita lógica de validação entre os serviços. Gostaria de propor a criação de uma biblioteca de validação compartilhada. O que acham?",
+      "es": "He notado que estamos duplicando mucha lógica de validación entre servicios. Me gustaría proponer la creación de una biblioteca de validación compartida. ¿Qué opinan?",
+      "fr": "J'ai remarqué qu'on duplique beaucoup de logique de validation entre les services. Je voudrais proposer la création d'une bibliothèque de validation partagée. Des avis ?",
+      "de": "Mir ist aufgefallen, dass wir viel Validierungslogik über die Services hinweg duplizieren. Ich möchte vorschlagen, eine gemeinsame Validierungsbibliothek zu erstellen. Meinungen?",
+      "it": "Ho notato che stiamo duplicando molta logica di validazione tra i servizi. Vorrei proporre la creazione di una libreria di validazione condivisa. Che ne pensate?",
+      "ja": "サービス間でバリデーションロジックの重複が多いことに気づきました。共有バリデーションライブラリの作成を提案したいです。どう思いますか？",
+      "ko": "서비스 간에 검증 로직이 많이 중복되고 있는 것을 발견했습니다. 공유 검증 라이브러리를 만드는 것을 제안하고 싶은데, 어떻게 생각하시나요?",
+      "zh-Hans": "我注意到我们在各个服务之间重复了很多验证逻辑。我想提议创建一个共享验证库。大家怎么看？",
+      "hi": "मैंने देखा कि हम सर्विसेज़ में बहुत सारी वैलिडेशन लॉजिक डुप्लिकेट कर रहे हैं। मैं एक शेयर्ड वैलिडेशन लाइब्रेरी बनाने का प्रस्ताव देना चाहता हूं। क्या विचार हैं?",
+      "tr": "Servisler arasında çok fazla doğrulama mantığını tekrarladığımızı fark ettim. Paylaşımlı bir doğrulama kütüphanesi oluşturmayı önermek istiyorum. Ne düşünüyorsunuz?"
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_028",
+    "english": "After reviewing the incident post-mortem, I think we should implement circuit breakers for all external API calls and add better retry logic with exponential backoff.",
+    "context": "Suggesting improvements based on a post-mortem analysis",
+    "translations": {
+      "pt-BR": "Após revisar o post-mortem do incidente, acho que devemos implementar circuit breakers para todas as chamadas de API externas e adicionar uma lógica de retry melhor com backoff exponencial.",
+      "es": "Después de revisar el post-mortem del incidente, creo que deberíamos implementar circuit breakers para todas las llamadas a APIs externas y agregar mejor lógica de reintentos con backoff exponencial.",
+      "fr": "Après avoir examiné le post-mortem de l'incident, je pense qu'on devrait implémenter des circuit breakers pour tous les appels API externes et ajouter une meilleure logique de retry avec backoff exponentiel.",
+      "de": "Nach der Durchsicht des Incident-Post-Mortems denke ich, wir sollten Circuit Breaker für alle externen API-Aufrufe implementieren und eine bessere Retry-Logik mit exponentiellem Backoff hinzufügen.",
+      "it": "Dopo aver esaminato il post-mortem dell'incidente, penso che dovremmo implementare circuit breaker per tutte le chiamate API esterne e aggiungere una migliore logica di retry con backoff esponenziale.",
+      "ja": "インシデントのポストモーテムをレビューした結果、すべての外部APIコールにサーキットブレーカーを実装し、指数バックオフ付きのより良いリトライロジックを追加すべきだと思います。",
+      "ko": "인시던트 포스트모템을 검토한 후, 모든 외부 API 호출에 서킷 브레이커를 구현하고 지수 백오프를 사용한 더 나은 재시도 로직을 추가해야 한다고 생각합니다.",
+      "zh-Hans": "在审查了事故复盘之后，我认为我们应该为所有外部API调用实现熔断器，并添加更好的指数退避重试逻辑。",
+      "hi": "इंसिडेंट पोस्ट-मॉर्टम की समीक्षा के बाद, मुझे लगता है कि हमें सभी एक्सटर्नल API कॉल्स के लिए सर्किट ब्रेकर्स लागू करने चाहिए और एक्सपोनेंशियल बैकऑफ के साथ बेहतर रीट्राई लॉजिक जोड़नी चाहिए।",
+      "tr": "Olay sonrası incelemeyi gözden geçirdikten sonra, tüm harici API çağrıları için circuit breaker'lar uygulamalı ve üstel geri çekilme ile daha iyi yeniden deneme mantığı eklemeliyiz diye düşünüyorum."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_029",
+    "english": "Quick question: does anyone know if we have rate limiting configured on the GraphQL endpoint? I'm seeing some suspicious traffic patterns in the monitoring dashboard.",
+    "context": "Asking about infrastructure configuration while flagging a potential security concern",
+    "translations": {
+      "pt-BR": "Pergunta rápida: alguém sabe se temos rate limiting configurado no endpoint GraphQL? Estou vendo alguns padrões de tráfego suspeitos no painel de monitoramento.",
+      "es": "Pregunta rápida: ¿alguien sabe si tenemos rate limiting configurado en el endpoint de GraphQL? Estoy viendo patrones de tráfico sospechosos en el panel de monitoreo.",
+      "fr": "Question rapide : quelqu'un sait si on a du rate limiting configuré sur l'endpoint GraphQL ? Je vois des patterns de trafic suspects dans le tableau de bord de monitoring.",
+      "de": "Kurze Frage: Weiß jemand, ob wir Rate Limiting auf dem GraphQL-Endpoint konfiguriert haben? Ich sehe verdächtige Traffic-Muster im Monitoring-Dashboard.",
+      "it": "Domanda veloce: qualcuno sa se abbiamo il rate limiting configurato sull'endpoint GraphQL? Sto vedendo pattern di traffico sospetti nella dashboard di monitoraggio.",
+      "ja": "簡単な質問：GraphQLエンドポイントにレートリミットが設定されているか知っている人はいますか？モニタリングダッシュボードで怪しいトラフィックパターンが見えています。",
+      "ko": "빠른 질문: GraphQL 엔드포인트에 레이트 리미팅이 설정되어 있는지 아시는 분 있나요? 모니터링 대시보드에서 의심스러운 트래픽 패턴이 보입니다.",
+      "zh-Hans": "快速问一下：有人知道GraphQL端点是否配置了速率限制吗？我在监控面板上看到一些可疑的流量模式。",
+      "hi": "क्विक सवाल: क्या किसी को पता है कि GraphQL एंडपॉइंट पर रेट लिमिटिंग कॉन्फ़िगर है? मुझे मॉनिटरिंग डैशबोर्ड में कुछ संदिग्ध ट्रैफ़िक पैटर्न दिख रहे हैं।",
+      "tr": "Hızlı bir soru: GraphQL endpoint'inde rate limiting yapılandırılmış mı bilen var mı? İzleme panelinde bazı şüpheli trafik kalıpları görüyorum."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_030",
+    "english": "I've documented the new API endpoints in Confluence and updated the Postman collection. The link is in the channel description. Let me know if anything is unclear.",
+    "context": "Sharing documentation updates and making them easy to find",
+    "translations": {
+      "pt-BR": "Documentei os novos endpoints da API no Confluence e atualizei a coleção do Postman. O link está na descrição do canal. Me avisem se algo não estiver claro.",
+      "es": "He documentado los nuevos endpoints de la API en Confluence y actualicé la colección de Postman. El enlace está en la descripción del canal. Avísenme si algo no está claro.",
+      "fr": "J'ai documenté les nouveaux endpoints de l'API dans Confluence et mis à jour la collection Postman. Le lien est dans la description du canal. Dites-moi si quelque chose n'est pas clair.",
+      "de": "Ich habe die neuen API-Endpoints in Confluence dokumentiert und die Postman-Collection aktualisiert. Der Link ist in der Channel-Beschreibung. Sagt Bescheid, wenn etwas unklar ist.",
+      "it": "Ho documentato i nuovi endpoint dell'API in Confluence e aggiornato la collezione Postman. Il link è nella descrizione del canale. Fatemi sapere se qualcosa non è chiaro.",
+      "ja": "新しいAPIエンドポイントをConfluenceにドキュメント化し、Postmanコレクションを更新しました。リンクはチャンネルの説明にあります。不明な点があれば教えてください。",
+      "ko": "새 API 엔드포인트를 Confluence에 문서화하고 Postman 컬렉션을 업데이트했습니다. 링크는 채널 설명에 있습니다. 불명확한 부분이 있으면 알려주세요.",
+      "zh-Hans": "我已经在Confluence中记录了新的API端点并更新了Postman集合。链接在频道描述里。如果有不清楚的地方请告诉我。",
+      "hi": "मैंने Confluence में नए API एंडपॉइंट्स का डॉक्यूमेंटेशन किया है और Postman कलेक्शन अपडेट कर दिया है। लिंक चैनल डिस्क्रिप्शन में है। अगर कुछ स्पष्ट नहीं है तो मुझे बताएं।",
+      "tr": "Yeni API endpoint'lerini Confluence'da belgeledim ve Postman koleksiyonunu güncelledim. Link kanal açıklamasında. Anlaşılmayan bir şey olursa bana bildirin."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  }
+]

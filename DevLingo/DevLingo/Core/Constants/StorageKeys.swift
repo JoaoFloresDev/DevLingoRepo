@@ -34,6 +34,18 @@ enum StorageKeys {
     static let lastReviewRequestDate = "lastReviewRequestDate"
     static let hasRequestedReview = "hasRequestedReview"
 
+    // MARK: - Preferences
+    static let showTranslations = "showTranslations"
+    static let phraseNotificationsCount = "phraseNotificationsCount"
+    static let hardPhraseIDs = "hardPhraseIDs"
+
+    // MARK: - History
+    static let phraseHistory = "phraseHistory"
+    static let userProgress = "userProgress"
+
+    // MARK: - Widget
+    static let widgetPhrases = "widgetPhrases"
+
     // MARK: - Appearance
     static let preferredColorScheme = "preferredColorScheme"
 }

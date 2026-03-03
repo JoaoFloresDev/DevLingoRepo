@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// ViewModel for Categories screen.
+@MainActor
 final class CategoriesViewModel: ObservableObject {
     // MARK: - Published
 

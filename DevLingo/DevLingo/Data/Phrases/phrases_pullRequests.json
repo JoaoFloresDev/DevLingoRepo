@@ -1,0 +1,572 @@
+[
+  {
+    "id": "pullRequests_001",
+    "english": "I opened a pull request for the new feature.",
+    "context": "Informing the team that you submitted a PR",
+    "translations": {
+      "pt-BR": "Eu abri um pull request para a nova funcionalidade.",
+      "es": "Abrí un pull request para la nueva funcionalidad.",
+      "fr": "J'ai ouvert une pull request pour la nouvelle fonctionnalité.",
+      "de": "Ich habe einen Pull Request für das neue Feature eröffnet.",
+      "it": "Ho aperto una pull request per la nuova funzionalità.",
+      "ja": "新機能のプルリクエストを作成しました。",
+      "ko": "새 기능에 대한 풀 리퀘스트를 열었습니다.",
+      "zh-Hans": "我为新功能提交了一个拉取请求。",
+      "hi": "मैंने नई सुविधा के लिए एक पुल रिक्वेस्ट खोला।",
+      "tr": "Yeni özellik için bir pull request açtım."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_002",
+    "english": "Can you review my pull request when you get a chance?",
+    "context": "Politely asking a colleague to review your PR",
+    "translations": {
+      "pt-BR": "Você pode revisar meu pull request quando tiver um momento?",
+      "es": "¿Puedes revisar mi pull request cuando tengas un momento?",
+      "fr": "Peux-tu revoir ma pull request quand tu auras un moment ?",
+      "de": "Kannst du meinen Pull Request überprüfen, wenn du Zeit hast?",
+      "it": "Puoi rivedere la mia pull request quando hai un momento?",
+      "ja": "お時間のあるときにプルリクエストをレビューしていただけますか？",
+      "ko": "시간 되실 때 제 풀 리퀘스트를 리뷰해 주실 수 있나요?",
+      "zh-Hans": "你有空的时候可以审查一下我的拉取请求吗？",
+      "hi": "जब आपको समय मिले तो क्या आप मेरा पुल रिक्वेस्ट रिव्यू कर सकते हैं?",
+      "tr": "Fırsat bulduğunda pull request'imi inceleyebilir misin?"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_003",
+    "english": "I approved your pull request.",
+    "context": "Letting someone know their PR has been approved",
+    "translations": {
+      "pt-BR": "Eu aprovei seu pull request.",
+      "es": "Aprobé tu pull request.",
+      "fr": "J'ai approuvé ta pull request.",
+      "de": "Ich habe deinen Pull Request genehmigt.",
+      "it": "Ho approvato la tua pull request.",
+      "ja": "あなたのプルリクエストを承認しました。",
+      "ko": "당신의 풀 리퀘스트를 승인했습니다.",
+      "zh-Hans": "我批准了你的拉取请求。",
+      "hi": "मैंने आपका पुल रिक्वेस्ट स्वीकृत कर दिया।",
+      "tr": "Pull request'ini onayladım."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_004",
+    "english": "This PR is ready to merge.",
+    "context": "Indicating that a pull request has all approvals and can be merged",
+    "translations": {
+      "pt-BR": "Este PR está pronto para ser mergeado.",
+      "es": "Este PR está listo para hacer merge.",
+      "fr": "Cette PR est prête à être fusionnée.",
+      "de": "Dieser PR ist bereit zum Mergen.",
+      "it": "Questa PR è pronta per il merge.",
+      "ja": "このPRはマージする準備ができています。",
+      "ko": "이 PR은 머지할 준비가 되었습니다.",
+      "zh-Hans": "这个PR可以合并了。",
+      "hi": "यह PR मर्ज करने के लिए तैयार है।",
+      "tr": "Bu PR birleştirmeye hazır."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_005",
+    "english": "I left a few comments on your PR.",
+    "context": "Notifying someone that you provided review feedback",
+    "translations": {
+      "pt-BR": "Eu deixei alguns comentários no seu PR.",
+      "es": "Dejé algunos comentarios en tu PR.",
+      "fr": "J'ai laissé quelques commentaires sur ta PR.",
+      "de": "Ich habe ein paar Kommentare zu deinem PR hinterlassen.",
+      "it": "Ho lasciato alcuni commenti sulla tua PR.",
+      "ja": "あなたのPRにいくつかコメントを残しました。",
+      "ko": "당신의 PR에 몇 가지 코멘트를 남겼습니다.",
+      "zh-Hans": "我在你的PR上留了一些评论。",
+      "hi": "मैंने आपकी PR पर कुछ टिप्पणियाँ छोड़ी हैं।",
+      "tr": "PR'ına birkaç yorum bıraktım."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_006",
+    "english": "Please add a description to the pull request.",
+    "context": "Asking someone to provide context in their PR description",
+    "translations": {
+      "pt-BR": "Por favor, adicione uma descrição ao pull request.",
+      "es": "Por favor, agrega una descripción al pull request.",
+      "fr": "S'il te plaît, ajoute une description à la pull request.",
+      "de": "Bitte füge eine Beschreibung zum Pull Request hinzu.",
+      "it": "Per favore, aggiungi una descrizione alla pull request.",
+      "ja": "プルリクエストに説明を追加してください。",
+      "ko": "풀 리퀘스트에 설명을 추가해 주세요.",
+      "zh-Hans": "请在拉取请求中添加描述。",
+      "hi": "कृपया पुल रिक्वेस्ट में विवरण जोड़ें।",
+      "tr": "Lütfen pull request'e bir açıklama ekle."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_007",
+    "english": "I'll merge this after the CI pipeline passes.",
+    "context": "Waiting for automated tests to finish before merging",
+    "translations": {
+      "pt-BR": "Vou mergear isso depois que o pipeline de CI passar.",
+      "es": "Haré merge después de que pase el pipeline de CI.",
+      "fr": "Je fusionnerai ça après que le pipeline CI soit passé.",
+      "de": "Ich werde das mergen, nachdem die CI-Pipeline durchgelaufen ist.",
+      "it": "Farò il merge dopo che la pipeline CI sarà passata.",
+      "ja": "CIパイプラインが通った後にマージします。",
+      "ko": "CI 파이프라인이 통과한 후에 머지하겠습니다.",
+      "zh-Hans": "等CI流水线通过后我会合并。",
+      "hi": "CI पाइपलाइन पास होने के बाद मैं इसे मर्ज करूंगा।",
+      "tr": "CI pipeline geçtikten sonra bunu birleştireceğim."
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_008",
+    "english": "There are merge conflicts that need to be resolved.",
+    "context": "Pointing out that a PR has conflicts with the target branch",
+    "translations": {
+      "pt-BR": "Existem conflitos de merge que precisam ser resolvidos.",
+      "es": "Hay conflictos de merge que necesitan ser resueltos.",
+      "fr": "Il y a des conflits de fusion qui doivent être résolus.",
+      "de": "Es gibt Merge-Konflikte, die gelöst werden müssen.",
+      "it": "Ci sono conflitti di merge che devono essere risolti.",
+      "ja": "解決が必要なマージコンフリクトがあります。",
+      "ko": "해결해야 할 머지 충돌이 있습니다.",
+      "zh-Hans": "有需要解决的合并冲突。",
+      "hi": "मर्ज कॉन्फ्लिक्ट हैं जिन्हें हल करने की जरूरत है।",
+      "tr": "Çözülmesi gereken birleştirme çakışmaları var."
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_009",
+    "english": "Could you squash the commits before merging?",
+    "context": "Requesting that multiple commits be combined into one before merge",
+    "translations": {
+      "pt-BR": "Você poderia fazer squash dos commits antes de mergear?",
+      "es": "¿Podrías hacer squash de los commits antes de hacer merge?",
+      "fr": "Pourrais-tu squasher les commits avant de fusionner ?",
+      "de": "Könntest du die Commits squashen, bevor du mergst?",
+      "it": "Potresti fare squash dei commit prima di fare il merge?",
+      "ja": "マージする前にコミットをスカッシュしていただけますか？",
+      "ko": "머지하기 전에 커밋을 스쿼시해 주시겠어요?",
+      "zh-Hans": "合并之前可以压缩一下提交吗？",
+      "hi": "मर्ज करने से पहले क्या आप कमिट्स को स्क्वैश कर सकते हैं?",
+      "tr": "Birleştirmeden önce commitleri squash yapabilir misin?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_010",
+    "english": "I created a draft pull request for early feedback.",
+    "context": "Opening a work-in-progress PR to get initial input from the team",
+    "translations": {
+      "pt-BR": "Criei um pull request em rascunho para feedback antecipado.",
+      "es": "Creé un pull request en borrador para recibir feedback temprano.",
+      "fr": "J'ai créé une pull request en brouillon pour avoir un retour anticipé.",
+      "de": "Ich habe einen Draft-Pull-Request für frühes Feedback erstellt.",
+      "it": "Ho creato una pull request in bozza per un feedback anticipato.",
+      "ja": "早期フィードバックのためにドラフトのプルリクエストを作成しました。",
+      "ko": "초기 피드백을 위해 드래프트 풀 리퀘스트를 만들었습니다.",
+      "zh-Hans": "我创建了一个草稿拉取请求以获取早期反馈。",
+      "hi": "मैंने शुरुआती फीडबैक के लिए एक ड्राफ्ट पुल रिक्वेस्ट बनाया।",
+      "tr": "Erken geri bildirim almak için bir taslak pull request oluşturdum."
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_011",
+    "english": "Can you rebase your branch on top of main?",
+    "context": "Asking someone to update their branch with the latest changes from main",
+    "translations": {
+      "pt-BR": "Você pode fazer rebase da sua branch em cima da main?",
+      "es": "¿Puedes hacer rebase de tu rama sobre main?",
+      "fr": "Peux-tu rebaser ta branche sur main ?",
+      "de": "Kannst du deinen Branch auf main rebasen?",
+      "it": "Puoi fare il rebase del tuo branch su main?",
+      "ja": "mainの上にブランチをリベースしていただけますか？",
+      "ko": "메인 위에 브랜치를 리베이스해 주실 수 있나요?",
+      "zh-Hans": "你可以把你的分支变基到main上吗？",
+      "hi": "क्या आप अपनी ब्रांच को main के ऊपर रिबेस कर सकते हैं?",
+      "tr": "Dalını main üzerine rebase yapabilir misin?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_012",
+    "english": "The build is failing on this pull request.",
+    "context": "Reporting that CI checks are not passing for a PR",
+    "translations": {
+      "pt-BR": "O build está falhando neste pull request.",
+      "es": "El build está fallando en este pull request.",
+      "fr": "Le build échoue sur cette pull request.",
+      "de": "Der Build schlägt bei diesem Pull Request fehl.",
+      "it": "La build sta fallendo su questa pull request.",
+      "ja": "このプルリクエストでビルドが失敗しています。",
+      "ko": "이 풀 리퀘스트에서 빌드가 실패하고 있습니다.",
+      "zh-Hans": "这个拉取请求的构建失败了。",
+      "hi": "इस पुल रिक्वेस्ट पर बिल्ड फेल हो रहा है।",
+      "tr": "Bu pull request'te build başarısız oluyor."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_013",
+    "english": "I addressed all the review comments and pushed the changes.",
+    "context": "Letting reviewers know you have incorporated their feedback",
+    "translations": {
+      "pt-BR": "Eu tratei todos os comentários da revisão e enviei as alterações.",
+      "es": "Atendí todos los comentarios de la revisión y subí los cambios.",
+      "fr": "J'ai traité tous les commentaires de la revue et poussé les modifications.",
+      "de": "Ich habe alle Review-Kommentare bearbeitet und die Änderungen gepusht.",
+      "it": "Ho affrontato tutti i commenti della revisione e pushato le modifiche.",
+      "ja": "レビューコメントをすべて対応し、変更をプッシュしました。",
+      "ko": "리뷰 코멘트를 모두 반영하고 변경 사항을 푸시했습니다.",
+      "zh-Hans": "我已处理了所有审查评论并推送了更改。",
+      "hi": "मैंने सभी रिव्यू कमेंट्स को संबोधित किया और बदलाव पुश कर दिए।",
+      "tr": "Tüm inceleme yorumlarını ele aldım ve değişiklikleri gönderdim."
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_014",
+    "english": "This change looks good to me. LGTM!",
+    "context": "Approving a PR with the common shorthand LGTM (Looks Good To Me)",
+    "translations": {
+      "pt-BR": "Essa mudança está boa pra mim. LGTM!",
+      "es": "Este cambio me parece bien. ¡LGTM!",
+      "fr": "Ce changement me semble bon. LGTM !",
+      "de": "Diese Änderung sieht gut aus für mich. LGTM!",
+      "it": "Questa modifica mi sembra buona. LGTM!",
+      "ja": "この変更は問題ないと思います。LGTM！",
+      "ko": "이 변경 사항은 괜찮아 보입니다. LGTM!",
+      "zh-Hans": "这个更改看起来没问题。LGTM！",
+      "hi": "यह बदलाव मुझे ठीक लग रहा है। LGTM!",
+      "tr": "Bu değişiklik bana iyi görünüyor. LGTM!"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_015",
+    "english": "I requested changes on the pull request.",
+    "context": "Informing someone you left feedback requiring modifications",
+    "translations": {
+      "pt-BR": "Eu solicitei alterações no pull request.",
+      "es": "Solicité cambios en el pull request.",
+      "fr": "J'ai demandé des modifications sur la pull request.",
+      "de": "Ich habe Änderungen am Pull Request angefordert.",
+      "it": "Ho richiesto modifiche sulla pull request.",
+      "ja": "プルリクエストに変更を要請しました。",
+      "ko": "풀 리퀘스트에 변경을 요청했습니다.",
+      "zh-Hans": "我在拉取请求上请求了更改。",
+      "hi": "मैंने पुल रिक्वेस्ट पर बदलाव का अनुरोध किया।",
+      "tr": "Pull request'te değişiklik talep ettim."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_016",
+    "english": "Let's split this PR into smaller, more focused changes.",
+    "context": "Suggesting that a large PR be broken down for easier review",
+    "translations": {
+      "pt-BR": "Vamos dividir esse PR em mudanças menores e mais focadas.",
+      "es": "Dividamos este PR en cambios más pequeños y enfocados.",
+      "fr": "Découpons cette PR en changements plus petits et plus ciblés.",
+      "de": "Lass uns diesen PR in kleinere, fokussiertere Änderungen aufteilen.",
+      "it": "Dividiamo questa PR in modifiche più piccole e mirate.",
+      "ja": "このPRをより小さく焦点を絞った変更に分割しましょう。",
+      "ko": "이 PR을 더 작고 집중된 변경 사항으로 나누겠습니다.",
+      "zh-Hans": "让我们把这个PR拆分成更小、更集中的更改。",
+      "hi": "चलिए इस PR को छोटे और अधिक केंद्रित बदलावों में विभाजित करते हैं।",
+      "tr": "Bu PR'ı daha küçük ve odaklı değişikliklere bölelim."
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_017",
+    "english": "I think we should add unit tests to cover this change.",
+    "context": "Suggesting that test coverage is needed for the PR changes",
+    "translations": {
+      "pt-BR": "Acho que devemos adicionar testes unitários para cobrir essa mudança.",
+      "es": "Creo que deberíamos agregar pruebas unitarias para cubrir este cambio.",
+      "fr": "Je pense qu'on devrait ajouter des tests unitaires pour couvrir ce changement.",
+      "de": "Ich denke, wir sollten Unit-Tests hinzufügen, um diese Änderung abzudecken.",
+      "it": "Penso che dovremmo aggiungere test unitari per coprire questa modifica.",
+      "ja": "この変更をカバーするためにユニットテストを追加すべきだと思います。",
+      "ko": "이 변경 사항을 커버하기 위해 단위 테스트를 추가해야 한다고 생각합니다.",
+      "zh-Hans": "我认为我们应该添加单元测试来覆盖这个更改。",
+      "hi": "मुझे लगता है कि इस बदलाव को कवर करने के लिए हमें यूनिट टेस्ट जोड़ने चाहिए।",
+      "tr": "Bu değişikliği kapsamak için birim testleri eklememiz gerektiğini düşünüyorum."
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_018",
+    "english": "The PR description should explain the motivation behind the change.",
+    "context": "Asking for better context in a PR to help reviewers understand why the change was made",
+    "translations": {
+      "pt-BR": "A descrição do PR deveria explicar a motivação por trás da mudança.",
+      "es": "La descripción del PR debería explicar la motivación detrás del cambio.",
+      "fr": "La description de la PR devrait expliquer la motivation derrière le changement.",
+      "de": "Die PR-Beschreibung sollte die Motivation hinter der Änderung erklären.",
+      "it": "La descrizione della PR dovrebbe spiegare la motivazione dietro la modifica.",
+      "ja": "PRの説明には変更の背景にある動機を記載すべきです。",
+      "ko": "PR 설명에 변경의 동기를 설명해야 합니다.",
+      "zh-Hans": "PR描述应该解释更改背后的动机。",
+      "hi": "PR विवरण में बदलाव के पीछे की प्रेरणा की व्याख्या होनी चाहिए।",
+      "tr": "PR açıklaması değişikliğin arkasındaki motivasyonu açıklamalı."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_019",
+    "english": "I'll resolve the conflicts and force-push the updated branch.",
+    "context": "Stating your plan to fix merge conflicts and update the remote branch",
+    "translations": {
+      "pt-BR": "Vou resolver os conflitos e fazer force-push na branch atualizada.",
+      "es": "Resolveré los conflictos y haré force-push de la rama actualizada.",
+      "fr": "Je vais résoudre les conflits et forcer le push de la branche mise à jour.",
+      "de": "Ich werde die Konflikte lösen und den aktualisierten Branch force-pushen.",
+      "it": "Risolverò i conflitti e farò force-push del branch aggiornato.",
+      "ja": "コンフリクトを解決して、更新したブランチをフォースプッシュします。",
+      "ko": "충돌을 해결하고 업데이트된 브랜치를 강제 푸시하겠습니다.",
+      "zh-Hans": "我会解决冲突并强制推送更新的分支。",
+      "hi": "मैं कॉन्फ्लिक्ट्स हल करके अपडेटेड ब्रांच को फोर्स-पुश करूंगा।",
+      "tr": "Çakışmaları çözüp güncellenmiş dalı zorla göndereceğim."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_020",
+    "english": "Can we get one more approval before merging this?",
+    "context": "Requesting an additional review approval for safety",
+    "translations": {
+      "pt-BR": "Podemos ter mais uma aprovação antes de mergear isso?",
+      "es": "¿Podemos obtener una aprobación más antes de hacer merge?",
+      "fr": "Peut-on obtenir une approbation de plus avant de fusionner ?",
+      "de": "Können wir noch eine Genehmigung einholen, bevor wir mergen?",
+      "it": "Possiamo ottenere un'altra approvazione prima di fare il merge?",
+      "ja": "マージする前にもう一つ承認をもらえますか？",
+      "ko": "머지하기 전에 승인을 하나 더 받을 수 있을까요?",
+      "zh-Hans": "合并之前我们能再获得一个批准吗？",
+      "hi": "इसे मर्ज करने से पहले क्या हम एक और अप्रूवल ले सकते हैं?",
+      "tr": "Bunu birleştirmeden önce bir onay daha alabilir miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_021",
+    "english": "I noticed a potential performance issue in this diff.",
+    "context": "Pointing out a performance concern during code review",
+    "translations": {
+      "pt-BR": "Notei um possível problema de performance nesse diff.",
+      "es": "Noté un posible problema de rendimiento en este diff.",
+      "fr": "J'ai remarqué un potentiel problème de performance dans ce diff.",
+      "de": "Mir ist ein mögliches Performance-Problem in diesem Diff aufgefallen.",
+      "it": "Ho notato un potenziale problema di prestazioni in questo diff.",
+      "ja": "このdiffでパフォーマンスの問題の可能性に気づきました。",
+      "ko": "이 diff에서 잠재적인 성능 문제를 발견했습니다.",
+      "zh-Hans": "我在这个diff中注意到了一个潜在的性能问题。",
+      "hi": "मैंने इस diff में एक संभावित परफॉर्मेंस समस्या देखी।",
+      "tr": "Bu diff'te olası bir performans sorunu fark ettim."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_022",
+    "english": "This PR introduces a breaking change to the public API.",
+    "context": "Warning that the PR changes will break existing consumers of the API",
+    "translations": {
+      "pt-BR": "Este PR introduz uma mudança que quebra a API pública.",
+      "es": "Este PR introduce un cambio incompatible en la API pública.",
+      "fr": "Cette PR introduit un changement cassant dans l'API publique.",
+      "de": "Dieser PR führt eine Breaking Change in der öffentlichen API ein.",
+      "it": "Questa PR introduce una modifica incompatibile nell'API pubblica.",
+      "ja": "このPRはパブリックAPIに破壊的変更を導入します。",
+      "ko": "이 PR은 공개 API에 호환되지 않는 변경 사항을 도입합니다.",
+      "zh-Hans": "这个PR引入了公共API的破坏性更改。",
+      "hi": "यह PR सार्वजनिक API में एक ब्रेकिंग चेंज पेश करता है।",
+      "tr": "Bu PR, genel API'de uyumsuz bir değişiklik getiriyor."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_023",
+    "english": "I've marked this PR as ready for review.",
+    "context": "Converting a draft PR to a review-ready state",
+    "translations": {
+      "pt-BR": "Marquei este PR como pronto para revisão.",
+      "es": "Marqué este PR como listo para revisión.",
+      "fr": "J'ai marqué cette PR comme prête pour la revue.",
+      "de": "Ich habe diesen PR als bereit zur Überprüfung markiert.",
+      "it": "Ho contrassegnato questa PR come pronta per la revisione.",
+      "ja": "このPRをレビュー準備完了としてマークしました。",
+      "ko": "이 PR을 리뷰 준비 완료로 표시했습니다.",
+      "zh-Hans": "我已将此PR标记为准备好审查。",
+      "hi": "मैंने इस PR को रिव्यू के लिए तैयार के रूप में चिह्नित किया है।",
+      "tr": "Bu PR'ı incelemeye hazır olarak işaretledim."
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_024",
+    "english": "We should avoid merging this until the dependent PR is merged first.",
+    "context": "Pointing out a dependency between two pull requests",
+    "translations": {
+      "pt-BR": "Devemos evitar mergear isso até que o PR dependente seja mergeado primeiro.",
+      "es": "Deberíamos evitar hacer merge hasta que el PR dependiente se haya mergeado primero.",
+      "fr": "On devrait éviter de fusionner tant que la PR dépendante n'est pas fusionnée.",
+      "de": "Wir sollten das nicht mergen, bis der abhängige PR zuerst gemergt wurde.",
+      "it": "Dovremmo evitare di fare il merge finché la PR dipendente non viene mergiata prima.",
+      "ja": "依存するPRが先にマージされるまで、これのマージは避けるべきです。",
+      "ko": "의존하는 PR이 먼저 머지될 때까지 이것을 머지하지 않는 것이 좋겠습니다.",
+      "zh-Hans": "在依赖的PR先合并之前，我们应该避免合并这个。",
+      "hi": "हमें इसे तब तक मर्ज करने से बचना चाहिए जब तक निर्भर PR पहले मर्ज न हो जाए।",
+      "tr": "Bağımlı PR önce birleştirilene kadar bunu birleştirmekten kaçınmalıyız."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_025",
+    "english": "Could you add a screenshot to the PR showing the UI change?",
+    "context": "Requesting visual evidence of frontend changes in the PR description",
+    "translations": {
+      "pt-BR": "Você poderia adicionar uma captura de tela ao PR mostrando a mudança na interface?",
+      "es": "¿Podrías agregar una captura de pantalla al PR mostrando el cambio en la interfaz?",
+      "fr": "Pourrais-tu ajouter une capture d'écran à la PR montrant le changement d'interface ?",
+      "de": "Könntest du einen Screenshot zum PR hinzufügen, der die UI-Änderung zeigt?",
+      "it": "Potresti aggiungere uno screenshot alla PR che mostra la modifica dell'interfaccia?",
+      "ja": "UIの変更を示すスクリーンショットをPRに追加していただけますか？",
+      "ko": "UI 변경 사항을 보여주는 스크린샷을 PR에 추가해 주실 수 있나요?",
+      "zh-Hans": "你能在PR中添加一个展示界面变化的截图吗？",
+      "hi": "क्या आप PR में UI बदलाव दिखाने वाला एक स्क्रीनशॉट जोड़ सकते हैं?",
+      "tr": "PR'a arayüz değişikliğini gösteren bir ekran görüntüsü ekleyebilir misin?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_026",
+    "english": "The linter is flagging some style issues that need to be fixed.",
+    "context": "Noting that automated style checks found problems in the PR",
+    "translations": {
+      "pt-BR": "O linter está apontando alguns problemas de estilo que precisam ser corrigidos.",
+      "es": "El linter está señalando algunos problemas de estilo que necesitan ser corregidos.",
+      "fr": "Le linter signale des problèmes de style qui doivent être corrigés.",
+      "de": "Der Linter zeigt einige Stilprobleme an, die behoben werden müssen.",
+      "it": "Il linter sta segnalando alcuni problemi di stile che devono essere corretti.",
+      "ja": "リンターが修正が必要なスタイルの問題をいくつか検出しています。",
+      "ko": "린터가 수정이 필요한 스타일 문제를 몇 가지 표시하고 있습니다.",
+      "zh-Hans": "代码检查工具标记了一些需要修复的风格问题。",
+      "hi": "लिंटर कुछ स्टाइल समस्याएं दिखा रहा है जिन्हें ठीक करना होगा।",
+      "tr": "Linter, düzeltilmesi gereken bazı stil sorunlarını işaretliyor."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_027",
+    "english": "I suggest using a feature flag to safely roll out this change.",
+    "context": "Recommending a gradual rollout approach for a risky change",
+    "translations": {
+      "pt-BR": "Sugiro usar uma feature flag para lançar essa mudança com segurança.",
+      "es": "Sugiero usar un feature flag para desplegar este cambio de forma segura.",
+      "fr": "Je suggère d'utiliser un feature flag pour déployer ce changement en toute sécurité.",
+      "de": "Ich schlage vor, ein Feature Flag zu verwenden, um diese Änderung sicher auszurollen.",
+      "it": "Suggerisco di usare un feature flag per distribuire questa modifica in sicurezza.",
+      "ja": "この変更を安全にロールアウトするために、フィーチャーフラグの使用を提案します。",
+      "ko": "이 변경 사항을 안전하게 배포하기 위해 기능 플래그를 사용할 것을 제안합니다.",
+      "zh-Hans": "我建议使用功能标志来安全地推出这个更改。",
+      "hi": "मैं इस बदलाव को सुरक्षित रूप से रोल आउट करने के लिए फीचर फ्लैग का उपयोग करने का सुझाव देता हूं।",
+      "tr": "Bu değişikliği güvenli bir şekilde dağıtmak için bir özellik bayrağı kullanmanızı öneririm."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_028",
+    "english": "Let me walk you through the changes in this pull request.",
+    "context": "Offering to explain the PR changes to reviewers in a meeting or comment",
+    "translations": {
+      "pt-BR": "Deixe-me explicar as mudanças neste pull request.",
+      "es": "Déjame explicarte los cambios en este pull request.",
+      "fr": "Laisse-moi te présenter les changements dans cette pull request.",
+      "de": "Lass mich dir die Änderungen in diesem Pull Request erklären.",
+      "it": "Lascia che ti illustri le modifiche in questa pull request.",
+      "ja": "このプルリクエストの変更について説明させてください。",
+      "ko": "이 풀 리퀘스트의 변경 사항을 설명해 드리겠습니다.",
+      "zh-Hans": "让我带你了解这个拉取请求中的更改。",
+      "hi": "इस पुल रिक्वेस्ट में किए गए बदलावों के बारे में मैं आपको बताता हूं।",
+      "tr": "Bu pull request'teki değişiklikleri sana açıklayayım."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_029",
+    "english": "I reverted the PR because it caused a regression in production.",
+    "context": "Explaining why a previously merged PR was rolled back",
+    "translations": {
+      "pt-BR": "Revertei o PR porque causou uma regressão em produção.",
+      "es": "Revertí el PR porque causó una regresión en producción.",
+      "fr": "J'ai annulé la PR car elle a causé une régression en production.",
+      "de": "Ich habe den PR zurückgesetzt, weil er eine Regression in der Produktion verursacht hat.",
+      "it": "Ho annullato la PR perché ha causato una regressione in produzione.",
+      "ja": "本番環境でリグレッションが発生したため、PRをリバートしました。",
+      "ko": "프로덕션에서 회귀가 발생하여 PR을 되돌렸습니다.",
+      "zh-Hans": "我回退了这个PR，因为它在生产环境中导致了回归。",
+      "hi": "मैंने PR को रिवर्ट कर दिया क्योंकि इसने प्रोडक्शन में रिग्रेशन पैदा किया।",
+      "tr": "PR'ı geri aldım çünkü üretimde bir gerilemeye neden oldu."
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_030",
+    "english": "The code coverage dropped after these changes. Can we add more tests?",
+    "context": "Noting that test coverage decreased and requesting additional tests",
+    "translations": {
+      "pt-BR": "A cobertura de código caiu após essas mudanças. Podemos adicionar mais testes?",
+      "es": "La cobertura de código bajó después de estos cambios. ¿Podemos agregar más pruebas?",
+      "fr": "La couverture de code a diminué après ces changements. Peut-on ajouter plus de tests ?",
+      "de": "Die Code-Abdeckung ist nach diesen Änderungen gesunken. Können wir mehr Tests hinzufügen?",
+      "it": "La copertura del codice è diminuita dopo queste modifiche. Possiamo aggiungere più test?",
+      "ja": "これらの変更後にコードカバレッジが低下しました。テストを追加できますか？",
+      "ko": "이 변경 사항 이후 코드 커버리지가 떨어졌습니다. 테스트를 더 추가할 수 있을까요?",
+      "zh-Hans": "这些更改后代码覆盖率下降了。我们可以添加更多测试吗？",
+      "hi": "इन बदलावों के बाद कोड कवरेज कम हो गया। क्या हम और टेस्ट जोड़ सकते हैं?",
+      "tr": "Bu değişikliklerden sonra kod kapsamı düştü. Daha fazla test ekleyebilir miyiz?"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  }
+]

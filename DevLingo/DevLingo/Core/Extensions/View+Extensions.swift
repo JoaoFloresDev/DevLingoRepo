@@ -50,6 +50,23 @@ struct SkeletonView: View {
     }
 }
 
+// MARK: - Press Animation Modifier
+
+struct PressAnimationModifier: ViewModifier {
+    @State private var isPressed = false
+
+    func body(content: Content) -> some View {
+        content
+            .scaleEffect(isPressed ? 0.95 : 1.0)
+            .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isPressed)
+            .simultaneousGesture(
+                DragGesture(minimumDistance: 0)
+                    .onChanged { _ in isPressed = true }
+                    .onEnded { _ in isPressed = false }
+            )
+    }
+}
+
 // MARK: - View Extensions
 
 extension View {
@@ -62,5 +79,9 @@ extension View {
             .background(AppColors.surface)
             .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
             .shadow(color: .black.opacity(0.3), radius: 8, x: 0, y: 4)
+    }
+
+    func pressAnimation() -> some View {
+        modifier(PressAnimationModifier())
     }
 }

@@ -24,9 +24,8 @@ final class ReviewService {
 
     func requestReviewIfNeeded() {
         let count = storage.getInt(forKey: StorageKeys.appOpenCount)
-        let hasRequested = storage.getBool(forKey: StorageKeys.hasRequestedReview)
 
-        guard count >= AppConstants.reviewMinimumLaunches, !hasRequested else { return }
+        guard count >= AppConstants.reviewMinimumLaunches else { return }
 
         // Check cooldown
         if let lastDate = storage.getDate(forKey: StorageKeys.lastReviewRequestDate) {
@@ -34,15 +33,18 @@ final class ReviewService {
             guard daysSince >= AppConstants.reviewCooldownDays else { return }
         }
 
-        // Request review
+        // Request review (iOS 17 + 18 compatible)
         Task { @MainActor in
             if let scene = UIApplication.shared.connectedScenes
                 .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
-                AppStore.requestReview(in: scene)
+                if #available(iOS 18.0, *) {
+                    AppStore.requestReview(in: scene)
+                } else {
+                    SKStoreReviewController.requestReview(in: scene)
+                }
             }
         }
 
-        storage.setBool(true, forKey: StorageKeys.hasRequestedReview)
         storage.setDate(Date(), forKey: StorageKeys.lastReviewRequestDate)
     }
 }

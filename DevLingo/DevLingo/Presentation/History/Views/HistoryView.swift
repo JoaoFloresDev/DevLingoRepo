@@ -145,7 +145,7 @@ struct HistoryView: View {
                     emptyDayState
                 } else {
                     let storage = StorageService.shared
-                    let showTrans = storage.getBool(forKey: "showTranslations")
+                    let showTrans = storage.getBool(forKey: StorageKeys.showTranslations)
                     let langCode = storage.getString(forKey: StorageKeys.selectedLanguage) ?? "pt-BR"
                     let lang = UserLanguage(rawValue: langCode) ?? .ptBR
 

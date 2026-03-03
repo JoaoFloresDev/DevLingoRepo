@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// ViewModel for Onboarding flow.
+@MainActor
 final class OnboardingViewModel: ObservableObject {
     // MARK: - Published
 
@@ -38,9 +39,9 @@ final class OnboardingViewModel: ObservableObject {
     func completeOnboarding() {
         // Save preferences
         storage.setString(selectedLanguage.code, forKey: StorageKeys.selectedLanguage)
-        storage.setBool(showTranslations, forKey: "showTranslations")
+        storage.setBool(showTranslations, forKey: StorageKeys.showTranslations)
         storage.setBool(enableNotifications, forKey: StorageKeys.notificationsEnabled)
-        storage.setInt(notificationCount, forKey: "phraseNotificationsCount")
+        storage.setInt(notificationCount, forKey: StorageKeys.phraseNotificationsCount)
         storage.setBool(true, forKey: StorageKeys.hasCompletedOnboarding)
 
         // Schedule notifications

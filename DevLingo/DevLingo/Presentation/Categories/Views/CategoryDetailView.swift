@@ -49,7 +49,7 @@ struct CategoryDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             savedIDs = storage.getStringSet(forKey: StorageKeys.savedPhraseIDs)
-            showTranslations = storage.getBool(forKey: "showTranslations")
+            showTranslations = storage.getBool(forKey: StorageKeys.showTranslations)
         }
     }
 
@@ -154,5 +154,6 @@ struct FilterChip: View {
                 .background(isSelected ? color : color.opacity(0.15))
                 .clipShape(Capsule())
         }
+        .pressAnimation()
     }
 }

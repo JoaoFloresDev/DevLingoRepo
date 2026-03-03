@@ -1,0 +1,572 @@
+[
+  {
+    "id": "email_001",
+    "english": "I hope this email finds you well.",
+    "context": "A polite opening line commonly used in professional emails",
+    "translations": {
+      "pt-BR": "Espero que esteja tudo bem com você.",
+      "es": "Espero que se encuentre bien.",
+      "fr": "J'espère que vous allez bien.",
+      "de": "Ich hoffe, es geht Ihnen gut.",
+      "it": "Spero che stia bene.",
+      "ja": "お元気でお過ごしのことと思います。",
+      "ko": "안녕하시길 바랍니다.",
+      "zh-Hans": "希望您一切顺利。",
+      "hi": "मुझे आशा है कि आप कुशल हैं।",
+      "tr": "Umarım iyisinizdir."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_002",
+    "english": "Just following up on my previous email regarding the API changes.",
+    "context": "Politely reminding someone about a previous message about technical work",
+    "translations": {
+      "pt-BR": "Apenas dando continuidade ao meu e-mail anterior sobre as mudanças na API.",
+      "es": "Solo dando seguimiento a mi correo anterior sobre los cambios en la API.",
+      "fr": "Je fais suite à mon précédent e-mail concernant les modifications de l'API.",
+      "de": "Ich möchte nur an meine vorherige E-Mail bezüglich der API-Änderungen erinnern.",
+      "it": "Volevo solo fare un follow-up sulla mia precedente email riguardo le modifiche all'API.",
+      "ja": "APIの変更に関する前回のメールのフォローアップです。",
+      "ko": "API 변경 사항에 대한 이전 이메일을 후속 확인드립니다.",
+      "zh-Hans": "跟进一下我之前关于API更改的邮件。",
+      "hi": "API बदलावों के बारे में मेरे पिछले ईमेल पर अनुवर्ती कर रहा हूँ।",
+      "tr": "API değişiklikleriyle ilgili önceki e-postamı takip ediyorum."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_003",
+    "english": "Could you please provide an update on the deployment status?",
+    "context": "Requesting information about the current state of a deployment",
+    "translations": {
+      "pt-BR": "Você poderia fornecer uma atualização sobre o status do deploy?",
+      "es": "¿Podría proporcionar una actualización sobre el estado del despliegue?",
+      "fr": "Pourriez-vous fournir une mise à jour sur l'état du déploiement ?",
+      "de": "Könnten Sie bitte ein Update zum Deployment-Status geben?",
+      "it": "Potrebbe fornire un aggiornamento sullo stato del deployment?",
+      "ja": "デプロイの状況について最新情報を教えていただけますか？",
+      "ko": "배포 상태에 대한 업데이트를 제공해 주실 수 있나요?",
+      "zh-Hans": "能否请您提供一下部署状态的更新？",
+      "hi": "क्या आप कृपया डिप्लॉयमेंट की स्थिति के बारे में अपडेट दे सकते हैं?",
+      "tr": "Dağıtım durumu hakkında bir güncelleme sağlayabilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_004",
+    "english": "I would like to schedule a meeting to discuss the new feature requirements.",
+    "context": "Requesting a meeting to go over specifications for upcoming work",
+    "translations": {
+      "pt-BR": "Gostaria de agendar uma reunião para discutir os requisitos da nova funcionalidade.",
+      "es": "Me gustaría programar una reunión para discutir los requisitos de la nueva funcionalidad.",
+      "fr": "Je souhaiterais planifier une réunion pour discuter des exigences de la nouvelle fonctionnalité.",
+      "de": "Ich würde gerne ein Meeting ansetzen, um die Anforderungen für das neue Feature zu besprechen.",
+      "it": "Vorrei fissare una riunione per discutere i requisiti della nuova funzionalità.",
+      "ja": "新機能の要件について話し合うためのミーティングを設定したいと思います。",
+      "ko": "새로운 기능 요구 사항을 논의하기 위한 회의를 잡고 싶습니다.",
+      "zh-Hans": "我想安排一个会议来讨论新功能的需求。",
+      "hi": "मैं नई सुविधा की आवश्यकताओं पर चर्चा के लिए एक बैठक शेड्यूल करना चाहूँगा।",
+      "tr": "Yeni özellik gereksinimleri hakkında görüşmek için bir toplantı planlamak istiyorum."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_005",
+    "english": "Please find attached the technical specification document for your review.",
+    "context": "Sharing an attachment with a colleague or stakeholder for feedback",
+    "translations": {
+      "pt-BR": "Segue em anexo o documento de especificação técnica para sua análise.",
+      "es": "Adjunto encontrará el documento de especificación técnica para su revisión.",
+      "fr": "Veuillez trouver ci-joint le document de spécification technique pour votre examen.",
+      "de": "Anbei finden Sie das technische Spezifikationsdokument zur Durchsicht.",
+      "it": "In allegato troverà il documento di specifica tecnica per la sua revisione.",
+      "ja": "技術仕様書を添付しましたので、ご確認ください。",
+      "ko": "검토를 위해 기술 사양 문서를 첨부합니다.",
+      "zh-Hans": "请查阅附件中的技术规格文档。",
+      "hi": "कृपया समीक्षा के लिए संलग्न तकनीकी विनिर्देश दस्तावेज़ देखें।",
+      "tr": "İncelemeniz için teknik şartname belgesini ekte bulabilirsiniz."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_006",
+    "english": "Thank you for the quick turnaround on the bug fix.",
+    "context": "Expressing gratitude to a teammate who resolved an issue promptly",
+    "translations": {
+      "pt-BR": "Obrigado pela rapidez na correção do bug.",
+      "es": "Gracias por la rápida resolución del error.",
+      "fr": "Merci pour la correction rapide du bug.",
+      "de": "Vielen Dank für die schnelle Behebung des Bugs.",
+      "it": "Grazie per la rapida risoluzione del bug.",
+      "ja": "バグ修正を迅速に対応していただき、ありがとうございます。",
+      "ko": "버그 수정을 빠르게 처리해 주셔서 감사합니다.",
+      "zh-Hans": "感谢您快速修复了这个Bug。",
+      "hi": "बग को जल्दी ठीक करने के लिए धन्यवाद।",
+      "tr": "Hata düzeltmesini hızlıca yapmanız için teşekkür ederim."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_007",
+    "english": "I wanted to introduce myself as the new backend developer joining the team.",
+    "context": "A new hire sending an introduction email to the engineering team",
+    "translations": {
+      "pt-BR": "Gostaria de me apresentar como o novo desenvolvedor backend que está se juntando ao time.",
+      "es": "Quería presentarme como el nuevo desarrollador backend que se une al equipo.",
+      "fr": "Je souhaitais me présenter en tant que nouveau développeur backend rejoignant l'équipe.",
+      "de": "Ich wollte mich als neuer Backend-Entwickler vorstellen, der dem Team beitritt.",
+      "it": "Volevo presentarmi come il nuovo sviluppatore backend che si unisce al team.",
+      "ja": "チームに加わる新しいバックエンド開発者として自己紹介させてください。",
+      "ko": "팀에 합류하는 새로운 백엔드 개발자로 자기소개를 드리고 싶습니다.",
+      "zh-Hans": "我想自我介绍一下，我是加入团队的新后端开发人员。",
+      "hi": "मैं टीम में शामिल होने वाले नए बैकएंड डेवलपर के रूप में अपना परिचय देना चाहता था।",
+      "tr": "Ekibe katılan yeni backend geliştirici olarak kendimi tanıtmak istiyorum."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_008",
+    "english": "We are on track to meet the sprint deadline, but the authentication module needs additional testing.",
+    "context": "Providing a project status update with a caveat about a specific area",
+    "translations": {
+      "pt-BR": "Estamos no caminho certo para cumprir o prazo da sprint, mas o módulo de autenticação precisa de testes adicionais.",
+      "es": "Estamos en camino de cumplir con la fecha límite del sprint, pero el módulo de autenticación necesita pruebas adicionales.",
+      "fr": "Nous sommes en bonne voie pour respecter la date limite du sprint, mais le module d'authentification nécessite des tests supplémentaires.",
+      "de": "Wir sind auf Kurs, die Sprint-Deadline einzuhalten, aber das Authentifizierungsmodul benötigt zusätzliche Tests.",
+      "it": "Siamo in linea con la scadenza dello sprint, ma il modulo di autenticazione necessita di test aggiuntivi.",
+      "ja": "スプリントの期限に間に合う見込みですが、認証モジュールには追加テストが必要です。",
+      "ko": "스프린트 마감일을 맞출 수 있을 것으로 보이지만, 인증 모듈에 추가 테스트가 필요합니다.",
+      "zh-Hans": "我们有望按时完成冲刺目标，但认证模块需要额外的测试。",
+      "hi": "हम स्प्रिंट की समय सीमा पूरी करने की राह पर हैं, लेकिन प्रमाणीकरण मॉड्यूल को अतिरिक्त परीक्षण की आवश्यकता है।",
+      "tr": "Sprint son tarihini karşılama yolundayız, ancak kimlik doğrulama modülünün ek testlere ihtiyacı var."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_009",
+    "english": "I would appreciate your feedback on the proposed database schema.",
+    "context": "Asking a senior engineer or architect for their opinion on a design decision",
+    "translations": {
+      "pt-BR": "Agradeceria seu feedback sobre o esquema de banco de dados proposto.",
+      "es": "Agradecería sus comentarios sobre el esquema de base de datos propuesto.",
+      "fr": "J'apprécierais vos retours sur le schéma de base de données proposé.",
+      "de": "Ich würde mich über Ihr Feedback zum vorgeschlagenen Datenbankschema freuen.",
+      "it": "Apprezzerei un suo feedback sullo schema di database proposto.",
+      "ja": "提案されたデータベーススキーマについてフィードバックをいただけると幸いです。",
+      "ko": "제안된 데이터베이스 스키마에 대한 피드백을 주시면 감사하겠습니다.",
+      "zh-Hans": "如果您能对提议的数据库架构提供反馈，我将不胜感激。",
+      "hi": "प्रस्तावित डेटाबेस स्कीमा पर आपकी प्रतिक्रिया की सराहना करूँगा।",
+      "tr": "Önerilen veritabanı şeması hakkındaki geri bildiriminizi takdir ederim."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_010",
+    "english": "The deadline for the migration has been moved to next Friday.",
+    "context": "Informing the team about a schedule change for a technical migration",
+    "translations": {
+      "pt-BR": "O prazo para a migração foi adiado para a próxima sexta-feira.",
+      "es": "La fecha límite para la migración se ha trasladado al próximo viernes.",
+      "fr": "La date limite pour la migration a été reportée à vendredi prochain.",
+      "de": "Die Frist für die Migration wurde auf nächsten Freitag verschoben.",
+      "it": "La scadenza per la migrazione è stata spostata a venerdì prossimo.",
+      "ja": "移行の期限は来週の金曜日に変更されました。",
+      "ko": "마이그레이션 마감일이 다음 주 금요일로 변경되었습니다.",
+      "zh-Hans": "迁移的截止日期已推迟到下周五。",
+      "hi": "माइग्रेशन की समय सीमा अगले शुक्रवार तक बढ़ा दी गई है।",
+      "tr": "Geçiş için son tarih gelecek cumaya ertelendi."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_011",
+    "english": "I am escalating this issue to the engineering manager as it is blocking our release.",
+    "context": "Notifying stakeholders that an issue is being raised to higher management",
+    "translations": {
+      "pt-BR": "Estou escalando este problema para o gerente de engenharia, pois está bloqueando nosso lançamento.",
+      "es": "Estoy escalando este problema al gerente de ingeniería ya que está bloqueando nuestro lanzamiento.",
+      "fr": "Je fais remonter ce problème au responsable technique car il bloque notre mise en production.",
+      "de": "Ich eskaliere dieses Problem an den Engineering Manager, da es unser Release blockiert.",
+      "it": "Sto escalando questo problema al responsabile ingegneristico poiché sta bloccando il nostro rilascio.",
+      "ja": "リリースをブロックしているため、この問題をエンジニアリングマネージャーにエスカレーションします。",
+      "ko": "이 문제가 릴리스를 차단하고 있어 엔지니어링 매니저에게 에스컬레이션합니다.",
+      "zh-Hans": "由于此问题阻碍了我们的发布，我正在将其升级给工程经理。",
+      "hi": "मैं इस समस्या को इंजीनियरिंग मैनेजर तक एस्कलेट कर रहा हूँ क्योंकि यह हमारी रिलीज़ को रोक रहा है।",
+      "tr": "Bu sorunu, sürümümüzü engellediği için mühendislik müdürüne iletiyorum."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_012",
+    "english": "Please let me know if you need any additional information from my end.",
+    "context": "A polite closing line offering further assistance",
+    "translations": {
+      "pt-BR": "Por favor, me avise se precisar de alguma informação adicional da minha parte.",
+      "es": "Por favor, avíseme si necesita información adicional de mi parte.",
+      "fr": "N'hésitez pas à me contacter si vous avez besoin d'informations supplémentaires de ma part.",
+      "de": "Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von meiner Seite benötigen.",
+      "it": "Mi faccia sapere se ha bisogno di ulteriori informazioni da parte mia.",
+      "ja": "私の方で追加情報が必要な場合は、お知らせください。",
+      "ko": "제 쪽에서 추가 정보가 필요하시면 알려주세요.",
+      "zh-Hans": "如果您需要我提供任何其他信息，请告诉我。",
+      "hi": "अगर आपको मेरी तरफ से किसी अतिरिक्त जानकारी की आवश्यकता हो तो कृपया बताएं।",
+      "tr": "Benden ek bilgiye ihtiyacınız olursa lütfen bana bildirin."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_013",
+    "english": "As per our discussion, I have created the Jira tickets for the refactoring tasks.",
+    "context": "Confirming action items that were agreed upon in a previous conversation",
+    "translations": {
+      "pt-BR": "Conforme nossa conversa, criei os tickets no Jira para as tarefas de refatoração.",
+      "es": "Según lo conversado, he creado los tickets en Jira para las tareas de refactorización.",
+      "fr": "Comme convenu lors de notre discussion, j'ai créé les tickets Jira pour les tâches de refactoring.",
+      "de": "Wie besprochen habe ich die Jira-Tickets für die Refactoring-Aufgaben erstellt.",
+      "it": "Come discusso, ho creato i ticket Jira per le attività di refactoring.",
+      "ja": "話し合いの通り、リファクタリングタスクのJiraチケットを作成しました。",
+      "ko": "논의한 대로 리팩토링 작업에 대한 Jira 티켓을 생성했습니다.",
+      "zh-Hans": "根据我们的讨论，我已经为重构任务创建了Jira工单。",
+      "hi": "हमारी चर्चा के अनुसार, मैंने रिफैक्टरिंग कार्यों के लिए Jira टिकट बना दिए हैं।",
+      "tr": "Görüşmemize göre, yeniden düzenleme görevleri için Jira biletlerini oluşturdum."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_014",
+    "english": "Could we set up a quick call to align on the architecture approach?",
+    "context": "Requesting a short meeting to ensure everyone agrees on a technical direction",
+    "translations": {
+      "pt-BR": "Podemos marcar uma ligação rápida para alinhar a abordagem de arquitetura?",
+      "es": "¿Podríamos hacer una llamada rápida para alinear el enfoque de arquitectura?",
+      "fr": "Pourrions-nous organiser un appel rapide pour nous aligner sur l'approche architecturale ?",
+      "de": "Könnten wir einen kurzen Anruf einrichten, um uns beim Architekturansatz abzustimmen?",
+      "it": "Potremmo organizzare una breve chiamata per allinearci sull'approccio architetturale?",
+      "ja": "アーキテクチャのアプローチについて認識合わせをするため、短い電話を設定できますか？",
+      "ko": "아키텍처 접근 방식을 조율하기 위해 간단한 통화를 잡을 수 있을까요?",
+      "zh-Hans": "我们能安排一个简短的电话来统一架构方案吗？",
+      "hi": "क्या हम आर्किटेक्चर दृष्टिकोण पर सहमति के लिए एक त्वरित कॉल कर सकते हैं?",
+      "tr": "Mimari yaklaşım konusunda uyum sağlamak için kısa bir görüşme ayarlayabilir miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_015",
+    "english": "I have pushed the changes to the staging branch and they are ready for QA testing.",
+    "context": "Notifying the team that code is available in a test environment",
+    "translations": {
+      "pt-BR": "Enviei as alterações para a branch de staging e estão prontas para testes de QA.",
+      "es": "He subido los cambios a la rama de staging y están listos para pruebas de QA.",
+      "fr": "J'ai poussé les modifications sur la branche de staging et elles sont prêtes pour les tests QA.",
+      "de": "Ich habe die Änderungen in den Staging-Branch gepusht und sie sind bereit für QA-Tests.",
+      "it": "Ho effettuato il push delle modifiche nel branch di staging e sono pronte per il testing QA.",
+      "ja": "ステージングブランチに変更をプッシュしました。QAテストの準備ができています。",
+      "ko": "스테이징 브랜치에 변경 사항을 푸시했으며 QA 테스트 준비가 완료되었습니다.",
+      "zh-Hans": "我已将更改推送到staging分支，可以进行QA测试了。",
+      "hi": "मैंने स्टेजिंग ब्रांच में बदलाव पुश कर दिए हैं और वे QA टेस्टिंग के लिए तैयार हैं।",
+      "tr": "Değişiklikleri staging dalına gönderdim ve QA testi için hazırlar."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_016",
+    "english": "Looking forward to your thoughts on the pull request I submitted yesterday.",
+    "context": "Gently nudging a reviewer to look at your code contribution",
+    "translations": {
+      "pt-BR": "Aguardo seus comentários sobre o pull request que enviei ontem.",
+      "es": "Espero sus comentarios sobre el pull request que envié ayer.",
+      "fr": "J'attends avec intérêt vos commentaires sur la pull request que j'ai soumise hier.",
+      "de": "Ich freue mich auf Ihre Rückmeldung zum Pull Request, den ich gestern eingereicht habe.",
+      "it": "Attendo con interesse i suoi commenti sulla pull request che ho inviato ieri.",
+      "ja": "昨日提出したプルリクエストについてのご意見をお待ちしています。",
+      "ko": "어제 제출한 풀 리퀘스트에 대한 의견을 기다리고 있습니다.",
+      "zh-Hans": "期待您对我昨天提交的拉取请求的反馈。",
+      "hi": "कल मैंने जो पुल रिक्वेस्ट सबमिट किया था, उस पर आपकी राय की प्रतीक्षा है।",
+      "tr": "Dün gönderdiğim çekme isteği hakkındaki düşüncelerinizi bekliyorum."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_017",
+    "english": "Due to an unexpected production incident, we need to postpone the feature release until the hotfix is deployed.",
+    "context": "Communicating a delay caused by a critical issue in production",
+    "translations": {
+      "pt-BR": "Devido a um incidente inesperado em produção, precisamos adiar o lançamento da funcionalidade até que o hotfix seja implantado.",
+      "es": "Debido a un incidente inesperado en producción, necesitamos posponer el lanzamiento de la funcionalidad hasta que se despliegue el hotfix.",
+      "fr": "En raison d'un incident de production inattendu, nous devons reporter le lancement de la fonctionnalité jusqu'au déploiement du correctif.",
+      "de": "Aufgrund eines unerwarteten Produktionsvorfalls müssen wir die Feature-Veröffentlichung verschieben, bis der Hotfix bereitgestellt ist.",
+      "it": "A causa di un incidente di produzione imprevisto, dobbiamo posticipare il rilascio della funzionalità fino al deployment dell'hotfix.",
+      "ja": "予期しない本番環境のインシデントにより、ホットフィックスがデプロイされるまで機能リリースを延期する必要があります。",
+      "ko": "예기치 않은 프로덕션 장애로 인해 핫픽스가 배포될 때까지 기능 릴리스를 연기해야 합니다.",
+      "zh-Hans": "由于生产环境出现意外事故，我们需要将功能发布推迟到热修复部署完成之后。",
+      "hi": "प्रोडक्शन में एक अप्रत्याशित घटना के कारण, हमें हॉटफ़िक्स डिप्लॉय होने तक फ़ीचर रिलीज़ को स्थगित करना होगा।",
+      "tr": "Beklenmedik bir üretim olayı nedeniyle, düzeltme dağıtılana kadar özellik sürümünü ertelememiz gerekiyor."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_018",
+    "english": "Best regards",
+    "context": "A standard professional email sign-off",
+    "translations": {
+      "pt-BR": "Atenciosamente",
+      "es": "Saludos cordiales",
+      "fr": "Cordialement",
+      "de": "Mit freundlichen Grüßen",
+      "it": "Cordiali saluti",
+      "ja": "よろしくお願いいたします",
+      "ko": "감사합니다",
+      "zh-Hans": "此致敬礼",
+      "hi": "सादर",
+      "tr": "Saygılarımla"
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_019",
+    "english": "I have looped in the DevOps team since this requires infrastructure changes on their end.",
+    "context": "Explaining why additional people have been added to an email thread",
+    "translations": {
+      "pt-BR": "Incluí o time de DevOps, pois isso requer mudanças de infraestrutura do lado deles.",
+      "es": "He incluido al equipo de DevOps ya que esto requiere cambios de infraestructura de su parte.",
+      "fr": "J'ai mis l'équipe DevOps en copie car cela nécessite des modifications d'infrastructure de leur côté.",
+      "de": "Ich habe das DevOps-Team hinzugezogen, da dies Infrastrukturänderungen auf deren Seite erfordert.",
+      "it": "Ho coinvolto il team DevOps poiché ciò richiede modifiche infrastrutturali da parte loro.",
+      "ja": "インフラの変更が必要なため、DevOpsチームをCCに追加しました。",
+      "ko": "인프라 변경이 필요하여 DevOps 팀을 참조에 추가했습니다.",
+      "zh-Hans": "由于这需要他们那边的基础设施变更，我已将DevOps团队加入了邮件。",
+      "hi": "मैंने DevOps टीम को शामिल किया है क्योंकि इसके लिए उनकी तरफ इंफ्रास्ट्रक्चर में बदलाव की आवश्यकता है।",
+      "tr": "Bu, onların tarafında altyapı değişiklikleri gerektirdiğinden DevOps ekibini dahil ettim."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_020",
+    "english": "Are you available for a pair programming session tomorrow afternoon?",
+    "context": "Inviting a colleague to collaborate on coding together",
+    "translations": {
+      "pt-BR": "Você está disponível para uma sessão de pair programming amanhã à tarde?",
+      "es": "¿Estás disponible para una sesión de programación en pareja mañana por la tarde?",
+      "fr": "Êtes-vous disponible pour une session de pair programming demain après-midi ?",
+      "de": "Sind Sie morgen Nachmittag für eine Pair-Programming-Sitzung verfügbar?",
+      "it": "Sei disponibile per una sessione di pair programming domani pomeriggio?",
+      "ja": "明日の午後、ペアプログラミングのセッションは可能ですか？",
+      "ko": "내일 오후에 페어 프로그래밍 세션이 가능하신가요?",
+      "zh-Hans": "明天下午你有空进行结对编程吗？",
+      "hi": "क्या आप कल दोपहर पेयर प्रोग्रामिंग सेशन के लिए उपलब्ध हैं?",
+      "tr": "Yarın öğleden sonra bir eşli programlama oturumu için müsait misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_021",
+    "english": "After careful analysis, I recommend we migrate from REST to GraphQL for the mobile endpoints to reduce over-fetching.",
+    "context": "Making a technical recommendation with justification in a formal email",
+    "translations": {
+      "pt-BR": "Após análise cuidadosa, recomendo que migremos de REST para GraphQL nos endpoints mobile para reduzir over-fetching.",
+      "es": "Después de un análisis cuidadoso, recomiendo que migremos de REST a GraphQL en los endpoints móviles para reducir la sobre-obtención de datos.",
+      "fr": "Après une analyse approfondie, je recommande de migrer de REST vers GraphQL pour les endpoints mobiles afin de réduire la sur-récupération de données.",
+      "de": "Nach sorgfältiger Analyse empfehle ich, für die mobilen Endpunkte von REST auf GraphQL zu migrieren, um Over-Fetching zu reduzieren.",
+      "it": "Dopo un'attenta analisi, raccomando di migrare da REST a GraphQL per gli endpoint mobile per ridurre l'over-fetching.",
+      "ja": "慎重な分析の結果、オーバーフェッチを削減するためにモバイルエンドポイントをRESTからGraphQLに移行することを推奨します。",
+      "ko": "신중한 분석 후, 과도한 데이터 요청을 줄이기 위해 모바일 엔드포인트를 REST에서 GraphQL로 마이그레이션할 것을 권장합니다.",
+      "zh-Hans": "经过仔细分析，我建议将移动端接口从REST迁移到GraphQL，以减少数据过度获取。",
+      "hi": "सावधानीपूर्वक विश्लेषण के बाद, मेरा सुझाव है कि हम ओवर-फ़ेचिंग कम करने के लिए मोबाइल एंडपॉइंट्स को REST से GraphQL में माइग्रेट करें।",
+      "tr": "Dikkatli bir analiz sonucunda, aşırı veri çekmeyi azaltmak için mobil uç noktalarını REST'ten GraphQL'e geçirmemizi öneriyorum."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_022",
+    "english": "I will be out of office next week. Please reach out to Sarah for any urgent issues.",
+    "context": "Setting expectations about availability and providing an alternate contact",
+    "translations": {
+      "pt-BR": "Estarei fora do escritório na próxima semana. Por favor, entre em contato com a Sarah para qualquer assunto urgente.",
+      "es": "Estaré fuera de la oficina la próxima semana. Por favor, contacten a Sarah para cualquier asunto urgente.",
+      "fr": "Je serai absent la semaine prochaine. Veuillez contacter Sarah pour toute question urgente.",
+      "de": "Ich bin nächste Woche nicht im Büro. Bitte wenden Sie sich bei dringenden Angelegenheiten an Sarah.",
+      "it": "Sarò assente la prossima settimana. Per qualsiasi questione urgente, contattate Sarah.",
+      "ja": "来週は不在です。緊急の問題がありましたら、サラに連絡してください。",
+      "ko": "다음 주에 부재 중입니다. 긴급한 사항은 Sarah에게 연락해 주세요.",
+      "zh-Hans": "下周我将不在办公室。如有紧急事项，请联系Sarah。",
+      "hi": "अगले हफ्ते मैं ऑफिस में नहीं रहूँगा। किसी भी जरूरी मामले के लिए कृपया Sarah से संपर्क करें।",
+      "tr": "Gelecek hafta ofis dışında olacağım. Acil konular için lütfen Sarah ile iletişime geçin."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_023",
+    "english": "The root cause analysis revealed that the outage was triggered by a misconfigured load balancer rule.",
+    "context": "Sharing findings from a post-incident investigation",
+    "translations": {
+      "pt-BR": "A análise de causa raiz revelou que a indisponibilidade foi causada por uma regra mal configurada no balanceador de carga.",
+      "es": "El análisis de causa raíz reveló que la interrupción fue provocada por una regla mal configurada del balanceador de carga.",
+      "fr": "L'analyse des causes profondes a révélé que la panne a été provoquée par une règle mal configurée du répartiteur de charge.",
+      "de": "Die Ursachenanalyse ergab, dass der Ausfall durch eine fehlkonfigurierte Load-Balancer-Regel ausgelöst wurde.",
+      "it": "L'analisi delle cause ha rivelato che l'interruzione è stata provocata da una regola del load balancer configurata erroneamente.",
+      "ja": "根本原因分析の結果、障害はロードバランサーのルール設定ミスが原因であることが判明しました。",
+      "ko": "근본 원인 분석 결과, 장애는 잘못 구성된 로드 밸런서 규칙에 의해 발생한 것으로 확인되었습니다.",
+      "zh-Hans": "根因分析表明，此次故障是由负载均衡器规则配置错误引起的。",
+      "hi": "मूल कारण विश्लेषण से पता चला कि आउटेज एक गलत तरीके से कॉन्फ़िगर किए गए लोड बैलेंसर नियम के कारण हुआ था।",
+      "tr": "Kök neden analizi, kesintinin yanlış yapılandırılmış bir yük dengeleyici kuralından kaynaklandığını ortaya koydu."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_024",
+    "english": "Let me know what time works best for you, and I will send a calendar invite.",
+    "context": "Coordinating a meeting time with flexibility",
+    "translations": {
+      "pt-BR": "Me diga qual horário funciona melhor para você e enviarei um convite no calendário.",
+      "es": "Dime qué horario te funciona mejor y enviaré una invitación de calendario.",
+      "fr": "Dites-moi quel horaire vous convient le mieux et j'enverrai une invitation de calendrier.",
+      "de": "Teilen Sie mir mit, welche Uhrzeit Ihnen am besten passt, und ich sende eine Kalendereinladung.",
+      "it": "Fammi sapere quale orario ti è più comodo e invierò un invito sul calendario.",
+      "ja": "ご都合の良い時間を教えてください。カレンダーの招待をお送りします。",
+      "ko": "가장 편한 시간을 알려주시면 캘린더 초대를 보내겠습니다.",
+      "zh-Hans": "请告诉我什么时间最方便，我会发送日历邀请。",
+      "hi": "मुझे बताएं कि आपके लिए कौन सा समय सबसे अच्छा है, और मैं कैलेंडर आमंत्रण भेजूँगा।",
+      "tr": "Size en uygun zamanı bildirin, takvim davetiyesi göndereceğim."
+    },
+    "difficulty": "easy",
+    "category": "email"
+  },
+  {
+    "id": "email_025",
+    "english": "We have identified a potential security vulnerability in the third-party library we are using, and I recommend we upgrade immediately.",
+    "context": "Raising an urgent security concern and proposing an action plan",
+    "translations": {
+      "pt-BR": "Identificamos uma potencial vulnerabilidade de segurança na biblioteca de terceiros que estamos usando e recomendo que façamos a atualização imediatamente.",
+      "es": "Hemos identificado una posible vulnerabilidad de seguridad en la biblioteca de terceros que estamos usando, y recomiendo que actualicemos de inmediato.",
+      "fr": "Nous avons identifié une potentielle vulnérabilité de sécurité dans la bibliothèque tierce que nous utilisons, et je recommande une mise à jour immédiate.",
+      "de": "Wir haben eine potenzielle Sicherheitslücke in der von uns verwendeten Drittanbieter-Bibliothek identifiziert und empfehle ein sofortiges Upgrade.",
+      "it": "Abbiamo identificato una potenziale vulnerabilità di sicurezza nella libreria di terze parti che stiamo utilizzando e raccomando un aggiornamento immediato.",
+      "ja": "使用しているサードパーティライブラリに潜在的なセキュリティ脆弱性を発見しました。直ちにアップグレードすることを推奨します。",
+      "ko": "사용 중인 서드파티 라이브러리에서 잠재적인 보안 취약점을 확인했으며, 즉시 업그레이드할 것을 권장합니다.",
+      "zh-Hans": "我们在使用的第三方库中发现了一个潜在的安全漏洞，建议立即升级。",
+      "hi": "हमने उपयोग की जा रही तृतीय-पक्ष लाइब्रेरी में एक संभावित सुरक्षा कमजोरी की पहचान की है, और मेरा सुझाव है कि हम तुरंत अपग्रेड करें।",
+      "tr": "Kullandığımız üçüncü taraf kütüphanede potansiyel bir güvenlik açığı tespit ettik ve derhal yükseltme yapmamızı öneriyorum."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_026",
+    "english": "Here is a summary of the changes included in this release.",
+    "context": "Introducing a release notes summary in an email to stakeholders",
+    "translations": {
+      "pt-BR": "Aqui está um resumo das alterações incluídas nesta versão.",
+      "es": "A continuación, un resumen de los cambios incluidos en esta versión.",
+      "fr": "Voici un résumé des modifications incluses dans cette version.",
+      "de": "Hier ist eine Zusammenfassung der in diesem Release enthaltenen Änderungen.",
+      "it": "Ecco un riepilogo delle modifiche incluse in questa release.",
+      "ja": "このリリースに含まれる変更の概要です。",
+      "ko": "이번 릴리스에 포함된 변경 사항의 요약입니다.",
+      "zh-Hans": "以下是本次版本中包含的更改摘要。",
+      "hi": "इस रिलीज़ में शामिल बदलावों का सारांश यहाँ दिया गया है।",
+      "tr": "Bu sürümde yer alan değişikliklerin özeti aşağıdadır."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_027",
+    "english": "I appreciate you taking the time to walk me through the codebase during my onboarding.",
+    "context": "Thanking a colleague who helped during the onboarding process",
+    "translations": {
+      "pt-BR": "Agradeço por dedicar seu tempo para me explicar o código durante meu onboarding.",
+      "es": "Agradezco que hayas dedicado tiempo a explicarme el código durante mi incorporación.",
+      "fr": "Je vous remercie d'avoir pris le temps de me guider à travers le codebase pendant mon intégration.",
+      "de": "Ich schätze es, dass Sie sich die Zeit genommen haben, mir während meines Onboardings die Codebasis zu erklären.",
+      "it": "Apprezzo che tu abbia dedicato del tempo per guidarmi nel codebase durante il mio onboarding.",
+      "ja": "オンボーディング中にコードベースを丁寧に説明していただき、ありがとうございます。",
+      "ko": "온보딩 과정에서 코드베이스를 안내해 주신 시간에 감사드립니다.",
+      "zh-Hans": "感谢您在我入职期间花时间带我了解代码库。",
+      "hi": "मेरे ऑनबोर्डिंग के दौरान कोडबेस को समझाने के लिए समय देने के लिए धन्यवाद।",
+      "tr": "Oryantasyonum sırasında kod tabanını anlatmak için zaman ayırdığınız için teşekkür ederim."
+    },
+    "difficulty": "medium",
+    "category": "email"
+  },
+  {
+    "id": "email_028",
+    "english": "Given the complexity of the integration, I suggest we break this into smaller milestones and deliver incrementally.",
+    "context": "Proposing an iterative delivery strategy for a complex project",
+    "translations": {
+      "pt-BR": "Dada a complexidade da integração, sugiro que dividamos isso em marcos menores e entreguemos de forma incremental.",
+      "es": "Dada la complejidad de la integración, sugiero dividir esto en hitos más pequeños y entregar de forma incremental.",
+      "fr": "Étant donné la complexité de l'intégration, je suggère de diviser cela en jalons plus petits et de livrer de manière incrémentale.",
+      "de": "Angesichts der Komplexität der Integration schlage ich vor, dies in kleinere Meilensteine aufzuteilen und inkrementell zu liefern.",
+      "it": "Data la complessità dell'integrazione, suggerisco di suddividere il lavoro in milestone più piccole e procedere in modo incrementale.",
+      "ja": "統合の複雑さを考慮し、これをより小さなマイルストーンに分割し、段階的にデリバリーすることを提案します。",
+      "ko": "통합의 복잡성을 고려하여 더 작은 마일스톤으로 나누어 점진적으로 제공할 것을 제안합니다.",
+      "zh-Hans": "鉴于集成的复杂性，我建议将其拆分为更小的里程碑，逐步交付。",
+      "hi": "एकीकरण की जटिलता को देखते हुए, मेरा सुझाव है कि हम इसे छोटे माइलस्टोन में बाँटें और क्रमिक रूप से डिलीवर करें।",
+      "tr": "Entegrasyonun karmaşıklığı göz önüne alındığında, bunu daha küçük kilometre taşlarına bölüp kademeli olarak teslim etmeyi öneriyorum."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_029",
+    "english": "The CI pipeline is currently failing on the main branch. I am investigating and will share an update shortly.",
+    "context": "Informing the team about a build issue and setting expectations for a follow-up",
+    "translations": {
+      "pt-BR": "O pipeline de CI está falhando na branch principal. Estou investigando e compartilharei uma atualização em breve.",
+      "es": "El pipeline de CI está fallando en la rama principal. Estoy investigando y compartiré una actualización pronto.",
+      "fr": "Le pipeline CI échoue actuellement sur la branche principale. J'enquête et partagerai une mise à jour sous peu.",
+      "de": "Die CI-Pipeline schlägt derzeit auf dem Main-Branch fehl. Ich untersuche das Problem und werde in Kürze ein Update geben.",
+      "it": "La pipeline CI sta attualmente fallendo sul branch principale. Sto indagando e condividerò un aggiornamento a breve.",
+      "ja": "メインブランチでCIパイプラインが現在失敗しています。調査中ですので、まもなくアップデートを共有します。",
+      "ko": "메인 브랜치에서 CI 파이프라인이 현재 실패하고 있습니다. 조사 중이며 곧 업데이트를 공유하겠습니다.",
+      "zh-Hans": "CI流水线在主分支上目前处于失败状态。我正在调查，稍后会分享更新。",
+      "hi": "मुख्य ब्रांच पर CI पाइपलाइन वर्तमान में विफल हो रही है। मैं जाँच कर रहा हूँ और जल्द ही अपडेट साझा करूँगा।",
+      "tr": "CI hattı şu anda ana dalda başarısız oluyor. Araştırıyorum ve kısa süre içinde bir güncelleme paylaşacağım."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  },
+  {
+    "id": "email_030",
+    "english": "Thank you all for your hard work on this release. It was a true team effort and the results speak for themselves.",
+    "context": "A manager or tech lead sending a congratulatory email after a successful launch",
+    "translations": {
+      "pt-BR": "Obrigado a todos pelo trabalho duro nesta release. Foi um verdadeiro trabalho em equipe e os resultados falam por si.",
+      "es": "Gracias a todos por su arduo trabajo en esta versión. Fue un verdadero esfuerzo de equipo y los resultados hablan por sí solos.",
+      "fr": "Merci à tous pour votre travail acharné sur cette version. C'était un véritable effort d'équipe et les résultats parlent d'eux-mêmes.",
+      "de": "Vielen Dank an alle für die harte Arbeit an diesem Release. Es war eine echte Teamleistung und die Ergebnisse sprechen für sich.",
+      "it": "Grazie a tutti per il duro lavoro su questa release. È stato un vero lavoro di squadra e i risultati parlano da soli.",
+      "ja": "このリリースに向けた皆さんの努力に感謝します。本当のチームワークであり、結果がそれを物語っています。",
+      "ko": "이번 릴리스에 대한 모든 분의 노고에 감사드립니다. 진정한 팀 노력이었으며 결과가 스스로를 말해줍니다.",
+      "zh-Hans": "感谢大家在本次发布中的辛勤付出。这是真正的团队合作，结果有目共睹。",
+      "hi": "इस रिलीज़ पर आप सभी की कड़ी मेहनत के लिए धन्यवाद। यह सच्चा टीम प्रयास था और परिणाम खुद बोलते हैं।",
+      "tr": "Bu sürümdeki sıkı çalışmanız için hepinize teşekkür ederim. Bu gerçek bir ekip çabasıydı ve sonuçlar kendini gösteriyor."
+    },
+    "difficulty": "hard",
+    "category": "email"
+  }
+]

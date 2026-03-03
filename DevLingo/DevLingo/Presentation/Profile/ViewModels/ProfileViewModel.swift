@@ -23,7 +23,7 @@ final class ProfileViewModel: ObservableObject {
         } else {
             progress = ProgressService.shared.getProgress()
             savedCount = storage.getStringSet(forKey: StorageKeys.savedPhraseIDs).count
-            hardCount = storage.getStringSet(forKey: "hardPhraseIDs").count
+            hardCount = storage.getStringSet(forKey: StorageKeys.hardPhraseIDs).count
         }
     }
 }

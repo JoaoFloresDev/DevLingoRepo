@@ -1,0 +1,572 @@
+[
+  {
+    "id": "codeReview_001",
+    "english": "Could you add some unit tests for this?",
+    "context": "Requesting test coverage during code review",
+    "translations": {
+      "pt-BR": "Você poderia adicionar alguns testes unitários para isso?",
+      "es": "¿Podrías agregar algunas pruebas unitarias para esto?",
+      "fr": "Pourrais-tu ajouter des tests unitaires pour cela ?",
+      "de": "Könntest du dafür einige Unit-Tests hinzufügen?",
+      "it": "Potresti aggiungere alcuni test unitari per questo?",
+      "ja": "これにユニットテストを追加してもらえますか？",
+      "ko": "이것에 대한 유닛 테스트를 추가해 주시겠어요?",
+      "zh-Hans": "你能为此添加一些单元测试吗？",
+      "hi": "क्या आप इसके लिए कुछ यूनिट टेस्ट जोड़ सकते हैं?",
+      "tr": "Bunun için birim testleri ekleyebilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_002",
+    "english": "Looks good to me. Approved!",
+    "context": "Approving a pull request after review",
+    "translations": {
+      "pt-BR": "Parece bom para mim. Aprovado!",
+      "es": "Me parece bien. ¡Aprobado!",
+      "fr": "Ça me semble bon. Approuvé !",
+      "de": "Sieht gut aus für mich. Genehmigt!",
+      "it": "Mi sembra buono. Approvato!",
+      "ja": "問題なさそうです。承認します！",
+      "ko": "저한테는 괜찮아 보여요. 승인합니다!",
+      "zh-Hans": "我觉得没问题。批准了！",
+      "hi": "मुझे ठीक लग रहा है। स्वीकृत!",
+      "tr": "Bana iyi görünüyor. Onaylandı!"
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_003",
+    "english": "Can you rename this variable to something more descriptive?",
+    "context": "Suggesting a better variable name for clarity",
+    "translations": {
+      "pt-BR": "Você pode renomear essa variável para algo mais descritivo?",
+      "es": "¿Puedes renombrar esta variable a algo más descriptivo?",
+      "fr": "Peux-tu renommer cette variable avec un nom plus descriptif ?",
+      "de": "Kannst du diese Variable in etwas Beschreibenderes umbenennen?",
+      "it": "Puoi rinominare questa variabile con qualcosa di più descrittivo?",
+      "ja": "この変数をもっとわかりやすい名前に変更してもらえますか？",
+      "ko": "이 변수 이름을 좀 더 설명적인 것으로 바꿔 주시겠어요?",
+      "zh-Hans": "你能把这个变量重命名为更具描述性的名称吗？",
+      "hi": "क्या आप इस वेरिएबल का नाम कुछ और वर्णनात्मक रख सकते हैं?",
+      "tr": "Bu değişkeni daha açıklayıcı bir isimle yeniden adlandırabilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_004",
+    "english": "This logic could be simplified with a guard statement.",
+    "context": "Suggesting a code simplification using early return",
+    "translations": {
+      "pt-BR": "Essa lógica poderia ser simplificada com uma instrução guard.",
+      "es": "Esta lógica podría simplificarse con una sentencia guard.",
+      "fr": "Cette logique pourrait être simplifiée avec une instruction guard.",
+      "de": "Diese Logik könnte mit einer Guard-Anweisung vereinfacht werden.",
+      "it": "Questa logica potrebbe essere semplificata con un'istruzione guard.",
+      "ja": "このロジックはguard文で簡略化できます。",
+      "ko": "이 로직은 guard 문으로 단순화할 수 있습니다.",
+      "zh-Hans": "这个逻辑可以用guard语句来简化。",
+      "hi": "इस लॉजिक को guard स्टेटमेंट से सरल बनाया जा सकता है।",
+      "tr": "Bu mantık bir guard ifadesi ile basitleştirilebilir."
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_005",
+    "english": "Nice refactoring! The code is much cleaner now.",
+    "context": "Praising a well-done refactoring effort",
+    "translations": {
+      "pt-BR": "Bela refatoração! O código está muito mais limpo agora.",
+      "es": "¡Buena refactorización! El código está mucho más limpio ahora.",
+      "fr": "Belle refactorisation ! Le code est beaucoup plus propre maintenant.",
+      "de": "Schönes Refactoring! Der Code ist jetzt viel sauberer.",
+      "it": "Bella rifattorizzazione! Il codice è molto più pulito ora.",
+      "ja": "素晴らしいリファクタリングですね！コードがずっときれいになりました。",
+      "ko": "리팩토링 잘했어요! 코드가 훨씬 깔끔해졌네요.",
+      "zh-Hans": "重构得很好！代码现在干净多了。",
+      "hi": "बढ़िया रिफैक्टरिंग! कोड अब बहुत साफ है।",
+      "tr": "Güzel yeniden düzenleme! Kod artık çok daha temiz."
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_006",
+    "english": "I think we should extract this into a separate function.",
+    "context": "Suggesting extraction of repeated or complex logic",
+    "translations": {
+      "pt-BR": "Acho que deveríamos extrair isso para uma função separada.",
+      "es": "Creo que deberíamos extraer esto en una función separada.",
+      "fr": "Je pense qu'on devrait extraire cela dans une fonction séparée.",
+      "de": "Ich denke, wir sollten das in eine separate Funktion auslagern.",
+      "it": "Penso che dovremmo estrarre questo in una funzione separata.",
+      "ja": "これは別の関数に切り出した方がいいと思います。",
+      "ko": "이것을 별도의 함수로 분리하는 게 좋을 것 같아요.",
+      "zh-Hans": "我认为我们应该把这个提取到一个单独的函数中。",
+      "hi": "मुझे लगता है कि हमें इसे एक अलग फंक्शन में निकालना चाहिए।",
+      "tr": "Bence bunu ayrı bir fonksiyona çıkarmalıyız."
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_007",
+    "english": "What happens if this value is nil?",
+    "context": "Asking about null safety and edge cases",
+    "translations": {
+      "pt-BR": "O que acontece se esse valor for nil?",
+      "es": "¿Qué pasa si este valor es nil?",
+      "fr": "Que se passe-t-il si cette valeur est nil ?",
+      "de": "Was passiert, wenn dieser Wert nil ist?",
+      "it": "Cosa succede se questo valore è nil?",
+      "ja": "この値がnilの場合はどうなりますか？",
+      "ko": "이 값이 nil이면 어떻게 되나요?",
+      "zh-Hans": "如果这个值是nil会怎样？",
+      "hi": "अगर यह वैल्यू nil हो तो क्या होगा?",
+      "tr": "Bu değer nil olursa ne olur?"
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_008",
+    "english": "This function is doing too many things. Can we break it down?",
+    "context": "Pointing out a violation of the single responsibility principle",
+    "translations": {
+      "pt-BR": "Essa função está fazendo muitas coisas. Podemos dividi-la?",
+      "es": "Esta función está haciendo demasiadas cosas. ¿Podemos dividirla?",
+      "fr": "Cette fonction fait trop de choses. Peut-on la découper ?",
+      "de": "Diese Funktion macht zu viele Dinge. Können wir sie aufteilen?",
+      "it": "Questa funzione fa troppe cose. Possiamo suddividerla?",
+      "ja": "この関数はやりすぎています。分割できますか？",
+      "ko": "이 함수가 너무 많은 일을 하고 있어요. 나눌 수 있을까요?",
+      "zh-Hans": "这个函数做的事情太多了。我们能把它拆分吗？",
+      "hi": "यह फंक्शन बहुत सारे काम कर रहा है। क्या हम इसे तोड़ सकते हैं?",
+      "tr": "Bu fonksiyon çok fazla iş yapıyor. Bölebilir miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_009",
+    "english": "Could you add a comment explaining why this workaround is necessary?",
+    "context": "Requesting documentation for non-obvious code",
+    "translations": {
+      "pt-BR": "Você poderia adicionar um comentário explicando por que essa solução alternativa é necessária?",
+      "es": "¿Podrías agregar un comentario explicando por qué es necesaria esta solución alternativa?",
+      "fr": "Pourrais-tu ajouter un commentaire expliquant pourquoi ce contournement est nécessaire ?",
+      "de": "Könntest du einen Kommentar hinzufügen, der erklärt, warum dieser Workaround nötig ist?",
+      "it": "Potresti aggiungere un commento che spieghi perché questo workaround è necessario?",
+      "ja": "この回避策が必要な理由を説明するコメントを追加してもらえますか？",
+      "ko": "이 우회 방법이 왜 필요한지 설명하는 주석을 추가해 주시겠어요?",
+      "zh-Hans": "你能添加一个注释解释为什么需要这个变通方法吗？",
+      "hi": "क्या आप एक टिप्पणी जोड़ सकते हैं जो बताए कि यह वर्कअराउंड क्यों ज़रूरी है?",
+      "tr": "Bu geçici çözümün neden gerekli olduğunu açıklayan bir yorum ekleyebilir misiniz?"
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_010",
+    "english": "I noticed a potential memory leak here.",
+    "context": "Flagging a memory management issue in the code",
+    "translations": {
+      "pt-BR": "Notei um possível vazamento de memória aqui.",
+      "es": "Noté una posible fuga de memoria aquí.",
+      "fr": "J'ai remarqué une potentielle fuite de mémoire ici.",
+      "de": "Mir ist hier ein potenzielles Speicherleck aufgefallen.",
+      "it": "Ho notato una potenziale perdita di memoria qui.",
+      "ja": "ここにメモリリークの可能性があります。",
+      "ko": "여기서 잠재적인 메모리 누수를 발견했어요.",
+      "zh-Hans": "我注意到这里可能存在内存泄漏。",
+      "hi": "मैंने यहाँ एक संभावित मेमोरी लीक देखा है।",
+      "tr": "Burada olası bir bellek sızıntısı fark ettim."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_011",
+    "english": "Let's use a constant instead of this magic number.",
+    "context": "Suggesting replacing a hardcoded value with a named constant",
+    "translations": {
+      "pt-BR": "Vamos usar uma constante em vez desse número mágico.",
+      "es": "Usemos una constante en lugar de este número mágico.",
+      "fr": "Utilisons une constante au lieu de ce nombre magique.",
+      "de": "Lass uns eine Konstante anstelle dieser magischen Zahl verwenden.",
+      "it": "Usiamo una costante invece di questo numero magico.",
+      "ja": "このマジックナンバーの代わりに定数を使いましょう。",
+      "ko": "이 매직 넘버 대신 상수를 사용합시다.",
+      "zh-Hans": "我们用常量来替代这个魔法数字吧。",
+      "hi": "इस मैजिक नंबर की जगह एक कॉन्स्टेंट का उपयोग करें।",
+      "tr": "Bu sihirli sayı yerine bir sabit kullanalım."
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_012",
+    "english": "This approach won't scale well. Have you considered using a dictionary instead?",
+    "context": "Raising scalability concerns and suggesting an alternative data structure",
+    "translations": {
+      "pt-BR": "Essa abordagem não vai escalar bem. Você considerou usar um dicionário?",
+      "es": "Este enfoque no escalará bien. ¿Has considerado usar un diccionario?",
+      "fr": "Cette approche ne passera pas à l'échelle. As-tu envisagé d'utiliser un dictionnaire ?",
+      "de": "Dieser Ansatz skaliert nicht gut. Hast du daran gedacht, ein Dictionary zu verwenden?",
+      "it": "Questo approccio non scalerà bene. Hai considerato di usare un dizionario?",
+      "ja": "このアプローチはスケールしません。辞書を使うことを検討しましたか？",
+      "ko": "이 접근 방식은 확장성이 좋지 않아요. 딕셔너리를 사용하는 것을 고려해 보셨나요?",
+      "zh-Hans": "这种方法扩展性不好。你有没有考虑过使用字典？",
+      "hi": "यह तरीका अच्छे से स्केल नहीं करेगा। क्या आपने डिक्शनरी इस्तेमाल करने पर विचार किया है?",
+      "tr": "Bu yaklaşım iyi ölçeklenmeyecek. Bunun yerine bir sözlük kullanmayı düşündünüz mü?"
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_013",
+    "english": "Please resolve the merge conflicts before I review.",
+    "context": "Asking the author to fix conflicts before proceeding with review",
+    "translations": {
+      "pt-BR": "Por favor, resolva os conflitos de merge antes de eu revisar.",
+      "es": "Por favor, resuelve los conflictos de merge antes de que revise.",
+      "fr": "Merci de résoudre les conflits de merge avant que je fasse la revue.",
+      "de": "Bitte löse die Merge-Konflikte, bevor ich reviewe.",
+      "it": "Per favore risolvi i conflitti di merge prima che io faccia la review.",
+      "ja": "レビューする前にマージコンフリクトを解消してください。",
+      "ko": "리뷰하기 전에 머지 충돌을 해결해 주세요.",
+      "zh-Hans": "请在我审查之前解决合并冲突。",
+      "hi": "कृपया मेरे रिव्यू करने से पहले मर्ज कॉन्फ्लिक्ट्स हल करें।",
+      "tr": "İncelememden önce lütfen birleştirme çakışmalarını çözün."
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_014",
+    "english": "I would prefer using a protocol here to make this more testable.",
+    "context": "Suggesting dependency injection via protocol for better testability",
+    "translations": {
+      "pt-BR": "Eu preferiria usar um protocolo aqui para tornar isso mais testável.",
+      "es": "Preferiría usar un protocolo aquí para hacer esto más testeable.",
+      "fr": "Je préférerais utiliser un protocole ici pour rendre cela plus testable.",
+      "de": "Ich würde hier lieber ein Protokoll verwenden, um das besser testbar zu machen.",
+      "it": "Preferirei usare un protocollo qui per renderlo più testabile.",
+      "ja": "テスタビリティを高めるために、ここではプロトコルを使いたいです。",
+      "ko": "테스트 가능성을 높이기 위해 여기서 프로토콜을 사용하는 게 좋겠어요.",
+      "zh-Hans": "我更倾向于在这里使用协议来提高可测试性。",
+      "hi": "मैं यहाँ प्रोटोकॉल का उपयोग करना पसंद करूँगा ताकि यह अधिक टेस्टेबल हो।",
+      "tr": "Bunu daha test edilebilir yapmak için burada bir protokol kullanmayı tercih ederim."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_015",
+    "english": "Have you tested this on older iOS versions?",
+    "context": "Asking about backward compatibility testing",
+    "translations": {
+      "pt-BR": "Você testou isso em versões mais antigas do iOS?",
+      "es": "¿Has probado esto en versiones anteriores de iOS?",
+      "fr": "As-tu testé cela sur des versions iOS plus anciennes ?",
+      "de": "Hast du das auf älteren iOS-Versionen getestet?",
+      "it": "Hai testato questo su versioni precedenti di iOS?",
+      "ja": "古いiOSバージョンでテストしましたか？",
+      "ko": "이전 iOS 버전에서 테스트해 보셨나요?",
+      "zh-Hans": "你在旧版iOS上测试过吗？",
+      "hi": "क्या आपने इसे पुराने iOS वर्शन पर टेस्ट किया है?",
+      "tr": "Bunu eski iOS sürümlerinde test ettiniz mi?"
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_016",
+    "english": "This closure should capture self weakly to avoid a retain cycle.",
+    "context": "Pointing out a potential retain cycle in a closure",
+    "translations": {
+      "pt-BR": "Essa closure deveria capturar self de forma fraca para evitar um ciclo de retenção.",
+      "es": "Este closure debería capturar self de forma débil para evitar un ciclo de retención.",
+      "fr": "Cette closure devrait capturer self faiblement pour éviter un cycle de rétention.",
+      "de": "Diese Closure sollte self schwach referenzieren, um einen Retain Cycle zu vermeiden.",
+      "it": "Questa closure dovrebbe catturare self in modo debole per evitare un ciclo di ritenzione.",
+      "ja": "循環参照を避けるため、このクロージャではselfをweakでキャプチャすべきです。",
+      "ko": "순환 참조를 피하기 위해 이 클로저에서 self를 약하게 캡처해야 합니다.",
+      "zh-Hans": "这个闭包应该弱引用self以避免循环引用。",
+      "hi": "रिटेन साइकल से बचने के लिए इस क्लोज़र में self को weakly कैप्चर करना चाहिए।",
+      "tr": "Döngüsel referansı önlemek için bu closure, self'i zayıf olarak yakalamalıdır."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_017",
+    "english": "Can you move this logic to the view model?",
+    "context": "Asking to separate business logic from the view layer",
+    "translations": {
+      "pt-BR": "Você pode mover essa lógica para o view model?",
+      "es": "¿Puedes mover esta lógica al view model?",
+      "fr": "Peux-tu déplacer cette logique dans le view model ?",
+      "de": "Kannst du diese Logik ins View Model verschieben?",
+      "it": "Puoi spostare questa logica nel view model?",
+      "ja": "このロジックをビューモデルに移動してもらえますか？",
+      "ko": "이 로직을 뷰 모델로 옮겨 주시겠어요?",
+      "zh-Hans": "你能把这个逻辑移到视图模型里吗？",
+      "hi": "क्या आप इस लॉजिक को व्यू मॉडल में ले जा सकते हैं?",
+      "tr": "Bu mantığı view model'a taşıyabilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_018",
+    "english": "I left a few minor comments, but overall this is great work.",
+    "context": "Giving positive feedback with small suggestions",
+    "translations": {
+      "pt-BR": "Deixei alguns comentários menores, mas no geral é um ótimo trabalho.",
+      "es": "Dejé algunos comentarios menores, pero en general es un gran trabajo.",
+      "fr": "J'ai laissé quelques commentaires mineurs, mais dans l'ensemble c'est un excellent travail.",
+      "de": "Ich habe ein paar kleine Anmerkungen hinterlassen, aber insgesamt tolle Arbeit.",
+      "it": "Ho lasciato alcuni commenti minori, ma nel complesso è un ottimo lavoro.",
+      "ja": "いくつか細かいコメントを残しましたが、全体的に素晴らしい仕事です。",
+      "ko": "사소한 코멘트 몇 개 남겼지만, 전반적으로 훌륭한 작업이에요.",
+      "zh-Hans": "我留了几个小评论，但整体来说做得很棒。",
+      "hi": "मैंने कुछ छोटी टिप्पणियाँ छोड़ी हैं, लेकिन कुल मिलाकर यह बहुत अच्छा काम है।",
+      "tr": "Birkaç küçük yorum bıraktım ama genel olarak harika bir iş."
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_019",
+    "english": "This error handling is too generic. We should catch specific errors.",
+    "context": "Suggesting more precise error handling instead of a catch-all",
+    "translations": {
+      "pt-BR": "Esse tratamento de erro é muito genérico. Deveríamos capturar erros específicos.",
+      "es": "Este manejo de errores es demasiado genérico. Deberíamos capturar errores específicos.",
+      "fr": "Cette gestion d'erreurs est trop générique. On devrait attraper des erreurs spécifiques.",
+      "de": "Diese Fehlerbehandlung ist zu allgemein. Wir sollten spezifische Fehler abfangen.",
+      "it": "Questa gestione degli errori è troppo generica. Dovremmo catturare errori specifici.",
+      "ja": "このエラーハンドリングは汎用的すぎます。具体的なエラーをキャッチすべきです。",
+      "ko": "이 에러 처리가 너무 일반적이에요. 특정 에러를 잡아야 합니다.",
+      "zh-Hans": "这个错误处理太笼统了。我们应该捕获特定的错误。",
+      "hi": "यह एरर हैंडलिंग बहुत सामान्य है। हमें विशिष्ट एरर को कैच करना चाहिए।",
+      "tr": "Bu hata yönetimi çok genel. Belirli hataları yakalamalıyız."
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_020",
+    "english": "Is there a reason you chose a class instead of a struct here?",
+    "context": "Questioning the choice of reference type vs value type",
+    "translations": {
+      "pt-BR": "Há algum motivo para você ter escolhido uma classe em vez de uma struct aqui?",
+      "es": "¿Hay alguna razón por la que elegiste una clase en lugar de un struct aquí?",
+      "fr": "Y a-t-il une raison pour laquelle tu as choisi une classe plutôt qu'une struct ici ?",
+      "de": "Gibt es einen Grund, warum du hier eine Klasse statt einer Struct gewählt hast?",
+      "it": "C'è un motivo per cui hai scelto una classe invece di una struct qui?",
+      "ja": "ここでstructではなくclassを選んだ理由はありますか？",
+      "ko": "여기서 struct 대신 class를 선택한 이유가 있나요?",
+      "zh-Hans": "你在这里选择class而不是struct有什么原因吗？",
+      "hi": "क्या यहाँ struct की जगह class चुनने का कोई कारण है?",
+      "tr": "Burada struct yerine class seçmenizin bir nedeni var mı?"
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_021",
+    "english": "This API call should be on a background thread to avoid blocking the main thread.",
+    "context": "Flagging a threading issue with network calls",
+    "translations": {
+      "pt-BR": "Essa chamada de API deveria estar em uma thread de fundo para não bloquear a thread principal.",
+      "es": "Esta llamada a la API debería estar en un hilo de fondo para no bloquear el hilo principal.",
+      "fr": "Cet appel API devrait être sur un thread d'arrière-plan pour ne pas bloquer le thread principal.",
+      "de": "Dieser API-Aufruf sollte auf einem Hintergrund-Thread sein, um den Main Thread nicht zu blockieren.",
+      "it": "Questa chiamata API dovrebbe essere su un thread in background per non bloccare il thread principale.",
+      "ja": "このAPI呼び出しはメインスレッドをブロックしないよう、バックグラウンドスレッドで行うべきです。",
+      "ko": "이 API 호출은 메인 스레드를 차단하지 않도록 백그라운드 스레드에서 해야 합니다.",
+      "zh-Hans": "这个API调用应该放在后台线程上，以避免阻塞主线程。",
+      "hi": "इस API कॉल को मेन थ्रेड को ब्लॉक करने से बचने के लिए बैकग्राउंड थ्रेड पर होना चाहिए।",
+      "tr": "Bu API çağrısı ana iş parçacığını engellemekten kaçınmak için arka plan iş parçacığında olmalıdır."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_022",
+    "english": "I see some duplicated code between these two files. Can we create a shared utility?",
+    "context": "Identifying code duplication and suggesting DRY improvement",
+    "translations": {
+      "pt-BR": "Vejo código duplicado entre esses dois arquivos. Podemos criar um utilitário compartilhado?",
+      "es": "Veo código duplicado entre estos dos archivos. ¿Podemos crear una utilidad compartida?",
+      "fr": "Je vois du code dupliqué entre ces deux fichiers. Peut-on créer un utilitaire partagé ?",
+      "de": "Ich sehe duplizierten Code zwischen diesen zwei Dateien. Können wir ein gemeinsames Utility erstellen?",
+      "it": "Vedo del codice duplicato tra questi due file. Possiamo creare un'utilità condivisa?",
+      "ja": "この2つのファイルに重複コードがあります。共通ユーティリティを作成できますか？",
+      "ko": "두 파일 사이에 중복 코드가 보여요. 공유 유틸리티를 만들 수 있을까요?",
+      "zh-Hans": "我看到这两个文件之间有重复的代码。我们能创建一个共享工具吗？",
+      "hi": "मुझे इन दो फाइलों के बीच डुप्लिकेट कोड दिख रहा है। क्या हम एक शेयर्ड यूटिलिटी बना सकते हैं?",
+      "tr": "Bu iki dosya arasında tekrarlanan kod görüyorum. Paylaşımlı bir yardımcı oluşturabilir miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_023",
+    "english": "The naming convention here doesn't match the rest of the codebase.",
+    "context": "Pointing out inconsistent naming style",
+    "translations": {
+      "pt-BR": "A convenção de nomenclatura aqui não corresponde ao restante do código.",
+      "es": "La convención de nombres aquí no coincide con el resto del código.",
+      "fr": "La convention de nommage ici ne correspond pas au reste du code.",
+      "de": "Die Namenskonvention hier stimmt nicht mit dem Rest der Codebasis überein.",
+      "it": "La convenzione di denominazione qui non corrisponde al resto del codice.",
+      "ja": "ここの命名規則がコードベースの残りの部分と一致していません。",
+      "ko": "여기의 네이밍 컨벤션이 코드베이스의 나머지 부분과 맞지 않아요.",
+      "zh-Hans": "这里的命名规范和代码库的其他部分不一致。",
+      "hi": "यहाँ की नामकरण शैली बाकी कोडबेस से मेल नहीं खाती।",
+      "tr": "Buradaki adlandırma kuralı kod tabanının geri kalanıyla uyuşmuyor."
+    },
+    "difficulty": "easy",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_024",
+    "english": "Consider using async/await instead of completion handlers for better readability.",
+    "context": "Suggesting modernization of asynchronous code style",
+    "translations": {
+      "pt-BR": "Considere usar async/await em vez de completion handlers para melhor legibilidade.",
+      "es": "Considera usar async/await en lugar de completion handlers para mejorar la legibilidad.",
+      "fr": "Envisage d'utiliser async/await au lieu de completion handlers pour une meilleure lisibilité.",
+      "de": "Erwäge, async/await statt Completion Handlers zu verwenden, um die Lesbarkeit zu verbessern.",
+      "it": "Considera di usare async/await invece di completion handler per una migliore leggibilità.",
+      "ja": "可読性を向上させるために、completion handlerの代わりにasync/awaitの使用を検討してください。",
+      "ko": "가독성을 높이기 위해 completion handler 대신 async/await를 사용하는 것을 고려해 보세요.",
+      "zh-Hans": "考虑使用async/await代替completion handler来提高可读性。",
+      "hi": "बेहतर पठनीयता के लिए completion handlers की जगह async/await का उपयोग करने पर विचार करें।",
+      "tr": "Daha iyi okunabilirlik için completion handler'lar yerine async/await kullanmayı düşünün."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_025",
+    "english": "This file is getting quite long. Should we split it into smaller modules?",
+    "context": "Suggesting file decomposition for maintainability",
+    "translations": {
+      "pt-BR": "Esse arquivo está ficando bem longo. Deveríamos dividi-lo em módulos menores?",
+      "es": "Este archivo se está volviendo bastante largo. ¿Deberíamos dividirlo en módulos más pequeños?",
+      "fr": "Ce fichier devient assez long. Devrions-nous le diviser en modules plus petits ?",
+      "de": "Diese Datei wird ziemlich lang. Sollten wir sie in kleinere Module aufteilen?",
+      "it": "Questo file sta diventando piuttosto lungo. Dovremmo dividerlo in moduli più piccoli?",
+      "ja": "このファイルはかなり長くなっています。小さいモジュールに分割すべきでしょうか？",
+      "ko": "이 파일이 꽤 길어지고 있어요. 더 작은 모듈로 나눠야 할까요?",
+      "zh-Hans": "这个文件变得很长了。我们应该把它拆分成更小的模块吗？",
+      "hi": "यह फाइल काफी लंबी हो रही है। क्या हमें इसे छोटे मॉड्यूल्स में बाँटना चाहिए?",
+      "tr": "Bu dosya oldukça uzuyor. Daha küçük modüllere bölmeli miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_026",
+    "english": "The race condition here could cause intermittent bugs in production.",
+    "context": "Identifying a concurrency issue that may cause unpredictable behavior",
+    "translations": {
+      "pt-BR": "A condição de corrida aqui pode causar bugs intermitentes em produção.",
+      "es": "La condición de carrera aquí podría causar errores intermitentes en producción.",
+      "fr": "La condition de concurrence ici pourrait causer des bugs intermittents en production.",
+      "de": "Die Race Condition hier könnte intermittierende Fehler in der Produktion verursachen.",
+      "it": "La race condition qui potrebbe causare bug intermittenti in produzione.",
+      "ja": "ここの競合状態は本番環境で断続的なバグを引き起こす可能性があります。",
+      "ko": "여기의 경쟁 상태가 프로덕션에서 간헐적인 버그를 일으킬 수 있어요.",
+      "zh-Hans": "这里的竞态条件可能会在生产环境中导致间歇性的bug。",
+      "hi": "यहाँ की रेस कंडीशन प्रोडक्शन में रुक-रुक कर आने वाले बग्स का कारण बन सकती है।",
+      "tr": "Buradaki yarış durumu üretimde aralıklı hatalara neden olabilir."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_027",
+    "english": "Great use of the builder pattern here. Very clean.",
+    "context": "Complimenting a well-implemented design pattern",
+    "translations": {
+      "pt-BR": "Ótimo uso do padrão builder aqui. Muito limpo.",
+      "es": "Excelente uso del patrón builder aquí. Muy limpio.",
+      "fr": "Excellente utilisation du pattern builder ici. Très propre.",
+      "de": "Tolle Verwendung des Builder Patterns hier. Sehr sauber.",
+      "it": "Ottimo uso del pattern builder qui. Molto pulito.",
+      "ja": "ビルダーパターンの素晴らしい使い方ですね。とてもきれいです。",
+      "ko": "빌더 패턴을 훌륭하게 사용했네요. 아주 깔끔해요.",
+      "zh-Hans": "这里对建造者模式的使用很棒。非常干净。",
+      "hi": "यहाँ बिल्डर पैटर्न का बहुत अच्छा उपयोग। बहुत साफ है।",
+      "tr": "Burada builder kalıbının harika kullanımı. Çok temiz."
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_028",
+    "english": "We should add input validation before passing this data to the API.",
+    "context": "Requesting data validation at the boundary layer",
+    "translations": {
+      "pt-BR": "Deveríamos adicionar validação de entrada antes de enviar esses dados para a API.",
+      "es": "Deberíamos agregar validación de entrada antes de enviar estos datos a la API.",
+      "fr": "On devrait ajouter une validation des entrées avant d'envoyer ces données à l'API.",
+      "de": "Wir sollten eine Eingabevalidierung hinzufügen, bevor wir diese Daten an die API senden.",
+      "it": "Dovremmo aggiungere una validazione degli input prima di passare questi dati all'API.",
+      "ja": "このデータをAPIに渡す前に入力バリデーションを追加すべきです。",
+      "ko": "이 데이터를 API에 전달하기 전에 입력 유효성 검사를 추가해야 합니다.",
+      "zh-Hans": "在将这些数据传递给API之前，我们应该添加输入验证。",
+      "hi": "इस डेटा को API में भेजने से पहले हमें इनपुट वैलिडेशन जोड़ना चाहिए।",
+      "tr": "Bu verileri API'ye göndermeden önce giriş doğrulaması eklemeliyiz."
+    },
+    "difficulty": "medium",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_029",
+    "english": "The performance implications of using filter followed by map here are worth considering. A single compactMap would be more efficient.",
+    "context": "Suggesting a performance optimization for chained higher-order functions",
+    "translations": {
+      "pt-BR": "As implicações de performance de usar filter seguido de map aqui valem a pena considerar. Um único compactMap seria mais eficiente.",
+      "es": "Las implicaciones de rendimiento de usar filter seguido de map aquí valen la pena considerarse. Un solo compactMap sería más eficiente.",
+      "fr": "Les implications de performance de l'utilisation de filter suivi de map ici méritent d'être considérées. Un seul compactMap serait plus efficace.",
+      "de": "Die Performance-Auswirkungen von filter gefolgt von map hier sind es wert, bedacht zu werden. Ein einzelnes compactMap wäre effizienter.",
+      "it": "Le implicazioni sulle prestazioni dell'uso di filter seguito da map qui meritano considerazione. Un singolo compactMap sarebbe più efficiente.",
+      "ja": "ここでfilterの後にmapを使うパフォーマンスへの影響は考慮に値します。単一のcompactMapの方が効率的です。",
+      "ko": "여기서 filter 다음에 map을 사용하는 것의 성능 영향을 고려해 볼 필요가 있어요. 하나의 compactMap이 더 효율적입니다.",
+      "zh-Hans": "这里使用filter后接map的性能影响值得考虑。单个compactMap会更高效。",
+      "hi": "यहाँ filter के बाद map उपयोग करने के परफॉर्मेंस प्रभावों पर विचार करना उचित है। एक single compactMap अधिक कुशल होगा।",
+      "tr": "Burada filter'dan sonra map kullanmanın performans etkilerini göz önünde bulundurmaya değer. Tek bir compactMap daha verimli olurdu."
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  },
+  {
+    "id": "codeReview_030",
+    "english": "This force unwrap will crash the app if the value is nil. Can you handle the optional safely?",
+    "context": "Flagging a dangerous force unwrap that could cause a runtime crash",
+    "translations": {
+      "pt-BR": "Esse force unwrap vai causar crash no app se o valor for nil. Você pode tratar o optional de forma segura?",
+      "es": "Este force unwrap provocará un crash en la app si el valor es nil. ¿Puedes manejar el optional de forma segura?",
+      "fr": "Ce force unwrap fera planter l'app si la valeur est nil. Peux-tu gérer l'optional de manière sécurisée ?",
+      "de": "Dieses Force Unwrap wird die App zum Absturz bringen, wenn der Wert nil ist. Kannst du das Optional sicher behandeln?",
+      "it": "Questo force unwrap farà crashare l'app se il valore è nil. Puoi gestire l'optional in modo sicuro?",
+      "ja": "このforce unwrapは値がnilの場合にアプリをクラッシュさせます。オプショナルを安全に処理してもらえますか？",
+      "ko": "이 강제 언래핑은 값이 nil이면 앱을 크래시시킬 거예요. 옵셔널을 안전하게 처리해 주시겠어요?",
+      "zh-Hans": "如果值为nil，这个强制解包会导致应用崩溃。你能安全地处理这个可选值吗？",
+      "hi": "अगर वैल्यू nil है तो यह force unwrap ऐप को क्रैश कर देगा। क्या आप optional को सुरक्षित रूप से हैंडल कर सकते हैं?",
+      "tr": "Bu zorunlu açma, değer nil ise uygulamayı çökertecektir. Optional'ı güvenli bir şekilde işleyebilir misiniz?"
+    },
+    "difficulty": "hard",
+    "category": "codeReview"
+  }
+]

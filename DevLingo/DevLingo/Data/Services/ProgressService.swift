@@ -17,11 +17,11 @@ final class ProgressService {
     // MARK: - Progress
 
     func getProgress() -> UserProgress {
-        storage.get(UserProgress.self, forKey: "userProgress") ?? UserProgress()
+        storage.get(UserProgress.self, forKey: StorageKeys.userProgress) ?? UserProgress()
     }
 
     func saveProgress(_ progress: UserProgress) {
-        storage.set(progress, forKey: "userProgress")
+        storage.set(progress, forKey: StorageKeys.userProgress)
     }
 
     func markPhraseCompleted(_ phrase: Phrase) {

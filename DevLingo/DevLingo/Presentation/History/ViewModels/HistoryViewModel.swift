@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// ViewModel for History screen.
+@MainActor
 final class HistoryViewModel: ObservableObject {
     // MARK: - Published
 

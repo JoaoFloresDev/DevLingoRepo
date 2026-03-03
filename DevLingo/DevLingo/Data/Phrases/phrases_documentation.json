@@ -1,0 +1,572 @@
+[
+  {
+    "id": "documentation_001",
+    "english": "Please refer to the README for setup instructions.",
+    "context": "Directing someone to the project README file",
+    "translations": {
+      "pt-BR": "Consulte o README para instruções de configuração.",
+      "es": "Consulta el README para las instrucciones de configuración.",
+      "fr": "Veuillez consulter le README pour les instructions d'installation.",
+      "de": "Bitte lesen Sie die README für die Einrichtungsanleitung.",
+      "it": "Consultare il README per le istruzioni di configurazione.",
+      "ja": "セットアップ手順についてはREADMEを参照してください。",
+      "ko": "설정 방법은 README를 참조해 주세요.",
+      "zh-Hans": "请参阅README了解设置说明。",
+      "hi": "सेटअप निर्देशों के लिए कृपया README देखें।",
+      "tr": "Kurulum talimatları için lütfen README'ye bakın."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_002",
+    "english": "This function returns a list of active users.",
+    "context": "Writing an inline comment describing a function's return value",
+    "translations": {
+      "pt-BR": "Esta função retorna uma lista de usuários ativos.",
+      "es": "Esta función devuelve una lista de usuarios activos.",
+      "fr": "Cette fonction retourne une liste d'utilisateurs actifs.",
+      "de": "Diese Funktion gibt eine Liste aktiver Benutzer zurück.",
+      "it": "Questa funzione restituisce una lista di utenti attivi.",
+      "ja": "この関数はアクティブなユーザーのリストを返します。",
+      "ko": "이 함수는 활성 사용자 목록을 반환합니다.",
+      "zh-Hans": "此函数返回活跃用户列表。",
+      "hi": "यह फ़ंक्शन सक्रिय उपयोगकर्ताओं की सूची लौटाता है।",
+      "tr": "Bu fonksiyon aktif kullanıcıların listesini döndürür."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_003",
+    "english": "See the changelog for a list of recent updates.",
+    "context": "Pointing someone to the changelog file",
+    "translations": {
+      "pt-BR": "Veja o changelog para uma lista de atualizações recentes.",
+      "es": "Consulta el changelog para ver las actualizaciones recientes.",
+      "fr": "Consultez le changelog pour la liste des mises à jour récentes.",
+      "de": "Sehen Sie im Changelog die Liste der letzten Änderungen.",
+      "it": "Consulta il changelog per l'elenco degli aggiornamenti recenti.",
+      "ja": "最近の更新一覧についてはchangelogを参照してください。",
+      "ko": "최근 업데이트 목록은 changelog를 확인해 주세요.",
+      "zh-Hans": "请查看changelog了解最近的更新列表。",
+      "hi": "हाल के अपडेट की सूची के लिए changelog देखें।",
+      "tr": "Son güncellemelerin listesi için changelog'a bakın."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_004",
+    "english": "Make sure to update the docs before merging.",
+    "context": "Reminding a teammate to keep documentation in sync with code changes",
+    "translations": {
+      "pt-BR": "Certifique-se de atualizar a documentação antes de fazer o merge.",
+      "es": "Asegúrate de actualizar la documentación antes de hacer merge.",
+      "fr": "Assurez-vous de mettre à jour la documentation avant de merger.",
+      "de": "Stellen Sie sicher, dass Sie die Dokumentation vor dem Merge aktualisieren.",
+      "it": "Assicurati di aggiornare la documentazione prima di fare il merge.",
+      "ja": "マージする前にドキュメントを更新してください。",
+      "ko": "머지하기 전에 문서를 업데이트해 주세요.",
+      "zh-Hans": "合并之前请确保更新文档。",
+      "hi": "मर्ज करने से पहले डॉक्स अपडेट करना न भूलें।",
+      "tr": "Merge yapmadan önce dokümantasyonu güncellediğinizden emin olun."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_005",
+    "english": "This endpoint accepts a JSON body with the following fields.",
+    "context": "Documenting an API endpoint's request format",
+    "translations": {
+      "pt-BR": "Este endpoint aceita um corpo JSON com os seguintes campos.",
+      "es": "Este endpoint acepta un cuerpo JSON con los siguientes campos.",
+      "fr": "Ce endpoint accepte un corps JSON avec les champs suivants.",
+      "de": "Dieser Endpoint akzeptiert einen JSON-Body mit den folgenden Feldern.",
+      "it": "Questo endpoint accetta un corpo JSON con i seguenti campi.",
+      "ja": "このエンドポイントは以下のフィールドを持つJSONボディを受け付けます。",
+      "ko": "이 엔드포인트는 다음 필드를 가진 JSON 본문을 받습니다.",
+      "zh-Hans": "此端点接受包含以下字段的JSON请求体。",
+      "hi": "यह endpoint निम्नलिखित फ़ील्ड वाला JSON बॉडी स्वीकार करता है।",
+      "tr": "Bu endpoint aşağıdaki alanları içeren bir JSON gövdesi kabul eder."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_006",
+    "english": "Add a brief description of your changes to the pull request.",
+    "context": "Asking someone to document their PR properly",
+    "translations": {
+      "pt-BR": "Adicione uma breve descrição das suas alterações no pull request.",
+      "es": "Agrega una breve descripción de tus cambios al pull request.",
+      "fr": "Ajoutez une brève description de vos modifications au pull request.",
+      "de": "Fügen Sie eine kurze Beschreibung Ihrer Änderungen zum Pull Request hinzu.",
+      "it": "Aggiungi una breve descrizione delle tue modifiche al pull request.",
+      "ja": "プルリクエストに変更の簡単な説明を追加してください。",
+      "ko": "풀 리퀘스트에 변경 사항에 대한 간단한 설명을 추가해 주세요.",
+      "zh-Hans": "请在拉取请求中添加简要的变更说明。",
+      "hi": "कृपया पुल रिक्वेस्ट में अपने बदलावों का संक्षिप्त विवरण जोड़ें।",
+      "tr": "Pull request'e değişikliklerinizin kısa bir açıklamasını ekleyin."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_007",
+    "english": "I'll add code comments to explain the business logic.",
+    "context": "Committing to document complex business rules in the code",
+    "translations": {
+      "pt-BR": "Vou adicionar comentários no código para explicar a lógica de negócio.",
+      "es": "Agregaré comentarios en el código para explicar la lógica de negocio.",
+      "fr": "Je vais ajouter des commentaires dans le code pour expliquer la logique métier.",
+      "de": "Ich werde Code-Kommentare hinzufügen, um die Geschäftslogik zu erklären.",
+      "it": "Aggiungerò commenti nel codice per spiegare la logica di business.",
+      "ja": "ビジネスロジックを説明するコードコメントを追加します。",
+      "ko": "비즈니스 로직을 설명하는 코드 주석을 추가하겠습니다.",
+      "zh-Hans": "我会添加代码注释来解释业务逻辑。",
+      "hi": "मैं बिज़नेस लॉजिक समझाने के लिए कोड कमेंट्स जोड़ूंगा।",
+      "tr": "İş mantığını açıklamak için kod yorumları ekleyeceğim."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_008",
+    "english": "The API returns a 404 status code if the resource is not found.",
+    "context": "Documenting an API error response in the docs",
+    "translations": {
+      "pt-BR": "A API retorna o código de status 404 se o recurso não for encontrado.",
+      "es": "La API devuelve un código de estado 404 si el recurso no se encuentra.",
+      "fr": "L'API renvoie un code de statut 404 si la ressource n'est pas trouvée.",
+      "de": "Die API gibt den Statuscode 404 zurück, wenn die Ressource nicht gefunden wird.",
+      "it": "L'API restituisce un codice di stato 404 se la risorsa non viene trovata.",
+      "ja": "リソースが見つからない場合、APIはステータスコード404を返します。",
+      "ko": "리소스를 찾을 수 없는 경우 API는 404 상태 코드를 반환합니다.",
+      "zh-Hans": "如果找不到资源，API将返回404状态码。",
+      "hi": "अगर रिसोर्स नहीं मिलता है तो API 404 स्टेटस कोड लौटाता है।",
+      "tr": "Kaynak bulunamazsa API 404 durum kodu döndürür."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_009",
+    "english": "We should document the environment variables required to run the project.",
+    "context": "Suggesting adding configuration documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar as variáveis de ambiente necessárias para rodar o projeto.",
+      "es": "Deberíamos documentar las variables de entorno necesarias para ejecutar el proyecto.",
+      "fr": "Nous devrions documenter les variables d'environnement nécessaires pour lancer le projet.",
+      "de": "Wir sollten die Umgebungsvariablen dokumentieren, die zum Ausführen des Projekts benötigt werden.",
+      "it": "Dovremmo documentare le variabili d'ambiente necessarie per eseguire il progetto.",
+      "ja": "プロジェクトの実行に必要な環境変数をドキュメント化すべきです。",
+      "ko": "프로젝트 실행에 필요한 환경 변수를 문서화해야 합니다.",
+      "zh-Hans": "我们应该记录运行项目所需的环境变量。",
+      "hi": "हमें प्रोजेक्ट चलाने के लिए ज़रूरी एनवायरनमेंट वेरिएबल्स का दस्तावेज़ीकरण करना चाहिए।",
+      "tr": "Projeyi çalıştırmak için gereken ortam değişkenlerini belgelememiz gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_010",
+    "english": "Each parameter is described in the table below with its type and default value.",
+    "context": "Introducing a parameters table in API documentation",
+    "translations": {
+      "pt-BR": "Cada parâmetro está descrito na tabela abaixo com seu tipo e valor padrão.",
+      "es": "Cada parámetro se describe en la tabla a continuación con su tipo y valor predeterminado.",
+      "fr": "Chaque paramètre est décrit dans le tableau ci-dessous avec son type et sa valeur par défaut.",
+      "de": "Jeder Parameter ist in der folgenden Tabelle mit seinem Typ und Standardwert beschrieben.",
+      "it": "Ogni parametro è descritto nella tabella seguente con il suo tipo e valore predefinito.",
+      "ja": "各パラメータは以下の表に型とデフォルト値と共に記載されています。",
+      "ko": "각 파라미터는 아래 표에 타입과 기본값과 함께 설명되어 있습니다.",
+      "zh-Hans": "每个参数在下表中描述了其类型和默认值。",
+      "hi": "प्रत्येक पैरामीटर नीचे दी गई तालिका में उसके प्रकार और डिफ़ॉल्ट मान के साथ वर्णित है।",
+      "tr": "Her parametre aşağıdaki tabloda türü ve varsayılan değeri ile açıklanmıştır."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_011",
+    "english": "This section covers the migration steps from version 2 to version 3.",
+    "context": "Writing a migration guide introduction",
+    "translations": {
+      "pt-BR": "Esta seção cobre os passos de migração da versão 2 para a versão 3.",
+      "es": "Esta sección cubre los pasos de migración de la versión 2 a la versión 3.",
+      "fr": "Cette section couvre les étapes de migration de la version 2 à la version 3.",
+      "de": "Dieser Abschnitt behandelt die Migrationsschritte von Version 2 auf Version 3.",
+      "it": "Questa sezione copre i passaggi di migrazione dalla versione 2 alla versione 3.",
+      "ja": "このセクションではバージョン2からバージョン3への移行手順を説明します。",
+      "ko": "이 섹션은 버전 2에서 버전 3으로의 마이그레이션 단계를 다룹니다.",
+      "zh-Hans": "本节介绍从版本2迁移到版本3的步骤。",
+      "hi": "यह सेक्शन वर्शन 2 से वर्शन 3 में माइग्रेशन के चरणों को कवर करता है।",
+      "tr": "Bu bölüm sürüm 2'den sürüm 3'e geçiş adımlarını kapsamaktadır."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_012",
+    "english": "Deprecated: This method will be removed in the next major release. Use fetchData() instead.",
+    "context": "Writing a deprecation notice in code documentation",
+    "translations": {
+      "pt-BR": "Obsoleto: Este método será removido na próxima versão principal. Use fetchData() em vez disso.",
+      "es": "Obsoleto: Este método será eliminado en la próxima versión principal. Usa fetchData() en su lugar.",
+      "fr": "Obsolète : Cette méthode sera supprimée dans la prochaine version majeure. Utilisez fetchData() à la place.",
+      "de": "Veraltet: Diese Methode wird in der nächsten Hauptversion entfernt. Verwenden Sie stattdessen fetchData().",
+      "it": "Deprecato: Questo metodo verrà rimosso nella prossima versione principale. Usa fetchData() al suo posto.",
+      "ja": "非推奨：このメソッドは次のメジャーリリースで削除されます。代わりにfetchData()を使用してください。",
+      "ko": "더 이상 사용되지 않음: 이 메서드는 다음 메이저 릴리스에서 제거됩니다. 대신 fetchData()를 사용하세요.",
+      "zh-Hans": "已弃用：此方法将在下一个主要版本中移除。请改用fetchData()。",
+      "hi": "पदावनत: यह मेथड अगली प्रमुख रिलीज़ में हटा दिया जाएगा। इसके बजाय fetchData() का उपयोग करें।",
+      "tr": "Kullanımdan kaldırıldı: Bu metot bir sonraki ana sürümde kaldırılacaktır. Bunun yerine fetchData() kullanın."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_013",
+    "english": "The architecture follows a clean separation between the data layer, domain layer, and presentation layer.",
+    "context": "Describing the app architecture in a design document",
+    "translations": {
+      "pt-BR": "A arquitetura segue uma separação clara entre a camada de dados, camada de domínio e camada de apresentação.",
+      "es": "La arquitectura sigue una separación clara entre la capa de datos, la capa de dominio y la capa de presentación.",
+      "fr": "L'architecture suit une séparation nette entre la couche de données, la couche de domaine et la couche de présentation.",
+      "de": "Die Architektur folgt einer klaren Trennung zwischen Datenschicht, Domänenschicht und Präsentationsschicht.",
+      "it": "L'architettura segue una chiara separazione tra il livello dati, il livello di dominio e il livello di presentazione.",
+      "ja": "このアーキテクチャはデータ層、ドメイン層、プレゼンテーション層の明確な分離に従います。",
+      "ko": "아키텍처는 데이터 레이어, 도메인 레이어, 프레젠테이션 레이어 간의 명확한 분리를 따릅니다.",
+      "zh-Hans": "该架构遵循数据层、领域层和表现层之间的清晰分离。",
+      "hi": "यह आर्किटेक्चर डेटा लेयर, डोमेन लेयर और प्रेजेंटेशन लेयर के बीच स्पष्ट विभाजन का पालन करता है।",
+      "tr": "Mimari, veri katmanı, domain katmanı ve sunum katmanı arasında net bir ayrım izler."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_014",
+    "english": "Please include a code example showing how to initialize the SDK.",
+    "context": "Requesting a usage example in documentation",
+    "translations": {
+      "pt-BR": "Por favor, inclua um exemplo de código mostrando como inicializar o SDK.",
+      "es": "Por favor, incluye un ejemplo de código que muestre cómo inicializar el SDK.",
+      "fr": "Veuillez inclure un exemple de code montrant comment initialiser le SDK.",
+      "de": "Bitte fügen Sie ein Codebeispiel hinzu, das zeigt, wie das SDK initialisiert wird.",
+      "it": "Per favore includi un esempio di codice che mostri come inizializzare l'SDK.",
+      "ja": "SDKの初期化方法を示すコード例を含めてください。",
+      "ko": "SDK를 초기화하는 방법을 보여주는 코드 예제를 포함해 주세요.",
+      "zh-Hans": "请包含一个展示如何初始化SDK的代码示例。",
+      "hi": "कृपया SDK को इनिशियलाइज़ करने का तरीका दिखाने वाला कोड उदाहरण शामिल करें।",
+      "tr": "Lütfen SDK'yı nasıl başlatacağınızı gösteren bir kod örneği ekleyin."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_015",
+    "english": "Known issue: The search feature may return duplicate results under heavy load.",
+    "context": "Documenting a known bug in release notes or troubleshooting guide",
+    "translations": {
+      "pt-BR": "Problema conhecido: A funcionalidade de busca pode retornar resultados duplicados sob carga pesada.",
+      "es": "Problema conocido: La función de búsqueda puede devolver resultados duplicados bajo carga pesada.",
+      "fr": "Problème connu : La fonction de recherche peut retourner des résultats en double sous forte charge.",
+      "de": "Bekanntes Problem: Die Suchfunktion kann unter hoher Last doppelte Ergebnisse liefern.",
+      "it": "Problema noto: La funzione di ricerca potrebbe restituire risultati duplicati sotto carico elevato.",
+      "ja": "既知の問題：高負荷時に検索機能が重複した結果を返す場合があります。",
+      "ko": "알려진 이슈: 부하가 높을 때 검색 기능이 중복된 결과를 반환할 수 있습니다.",
+      "zh-Hans": "已知问题：在高负载下搜索功能可能返回重复结果。",
+      "hi": "ज्ञात समस्या: भारी लोड के तहत सर्च फ़ीचर डुप्लिकेट रिज़ल्ट लौटा सकता है।",
+      "tr": "Bilinen sorun: Arama özelliği yoğun yük altında yinelenen sonuçlar döndürebilir."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_016",
+    "english": "Before running the project locally, make sure you have Node.js 18 or later installed.",
+    "context": "Writing prerequisites in an onboarding or setup guide",
+    "translations": {
+      "pt-BR": "Antes de rodar o projeto localmente, certifique-se de ter o Node.js 18 ou superior instalado.",
+      "es": "Antes de ejecutar el proyecto localmente, asegúrate de tener instalado Node.js 18 o superior.",
+      "fr": "Avant d'exécuter le projet localement, assurez-vous d'avoir Node.js 18 ou une version ultérieure installée.",
+      "de": "Bevor Sie das Projekt lokal ausführen, stellen Sie sicher, dass Node.js 18 oder höher installiert ist.",
+      "it": "Prima di eseguire il progetto in locale, assicurati di avere installato Node.js 18 o versioni successive.",
+      "ja": "プロジェクトをローカルで実行する前に、Node.js 18以降がインストールされていることを確認してください。",
+      "ko": "프로젝트를 로컬에서 실행하기 전에 Node.js 18 이상이 설치되어 있는지 확인하세요.",
+      "zh-Hans": "在本地运行项目之前，请确保已安装Node.js 18或更高版本。",
+      "hi": "प्रोजेक्ट को लोकली चलाने से पहले, सुनिश्चित करें कि Node.js 18 या बाद का वर्शन इंस्टॉल है।",
+      "tr": "Projeyi yerel olarak çalıştırmadan önce Node.js 18 veya üstünün yüklü olduğundan emin olun."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_017",
+    "english": "Authentication is handled via JWT tokens passed in the Authorization header.",
+    "context": "Explaining the authentication mechanism in API docs",
+    "translations": {
+      "pt-BR": "A autenticação é feita via tokens JWT passados no cabeçalho Authorization.",
+      "es": "La autenticación se maneja mediante tokens JWT enviados en el encabezado Authorization.",
+      "fr": "L'authentification est gérée via des tokens JWT transmis dans l'en-tête Authorization.",
+      "de": "Die Authentifizierung erfolgt über JWT-Tokens, die im Authorization-Header übergeben werden.",
+      "it": "L'autenticazione è gestita tramite token JWT passati nell'header Authorization.",
+      "ja": "認証はAuthorizationヘッダーで渡されるJWTトークンによって処理されます。",
+      "ko": "인증은 Authorization 헤더에 전달되는 JWT 토큰을 통해 처리됩니다.",
+      "zh-Hans": "认证通过在Authorization头中传递的JWT令牌来处理。",
+      "hi": "ऑथेंटिकेशन Authorization हेडर में पास किए गए JWT टोकन के ज़रिए होता है।",
+      "tr": "Kimlik doğrulama, Authorization başlığında iletilen JWT token'ları aracılığıyla yapılır."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_018",
+    "english": "The troubleshooting section addresses the most commonly reported issues and their solutions.",
+    "context": "Introducing the troubleshooting section of a guide",
+    "translations": {
+      "pt-BR": "A seção de solução de problemas aborda os problemas mais comumente relatados e suas soluções.",
+      "es": "La sección de solución de problemas aborda los problemas reportados con más frecuencia y sus soluciones.",
+      "fr": "La section de dépannage traite des problèmes les plus fréquemment signalés et de leurs solutions.",
+      "de": "Der Abschnitt zur Fehlerbehebung behandelt die am häufigsten gemeldeten Probleme und ihre Lösungen.",
+      "it": "La sezione di risoluzione dei problemi affronta i problemi segnalati più frequentemente e le loro soluzioni.",
+      "ja": "トラブルシューティングセクションでは、最もよく報告される問題とその解決策を取り上げています。",
+      "ko": "문제 해결 섹션은 가장 자주 보고되는 문제와 그 해결 방법을 다룹니다.",
+      "zh-Hans": "故障排除部分涵盖了最常报告的问题及其解决方案。",
+      "hi": "समस्या निवारण सेक्शन में सबसे अधिक रिपोर्ट की गई समस्याओं और उनके समाधानों को शामिल किया गया है।",
+      "tr": "Sorun giderme bölümü en sık bildirilen sorunları ve çözümlerini ele almaktadır."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_019",
+    "english": "Breaking change: The response format for the /users endpoint has been updated to include pagination metadata.",
+    "context": "Writing a breaking change entry in the changelog",
+    "translations": {
+      "pt-BR": "Mudança incompatível: O formato de resposta do endpoint /users foi atualizado para incluir metadados de paginação.",
+      "es": "Cambio incompatible: El formato de respuesta del endpoint /users se ha actualizado para incluir metadatos de paginación.",
+      "fr": "Changement majeur : Le format de réponse du endpoint /users a été mis à jour pour inclure les métadonnées de pagination.",
+      "de": "Breaking Change: Das Antwortformat des /users-Endpoints wurde aktualisiert und enthält nun Paginierungs-Metadaten.",
+      "it": "Modifica incompatibile: Il formato di risposta dell'endpoint /users è stato aggiornato per includere i metadati di paginazione.",
+      "ja": "破壊的変更：/usersエンドポイントのレスポンス形式がページネーションメタデータを含むように更新されました。",
+      "ko": "주요 변경 사항: /users 엔드포인트의 응답 형식이 페이지네이션 메타데이터를 포함하도록 업데이트되었습니다.",
+      "zh-Hans": "破坏性变更：/users端点的响应格式已更新，现包含分页元数据。",
+      "hi": "ब्रेकिंग चेंज: /users endpoint का रिस्पॉन्स फ़ॉर्मेट पेजिनेशन मेटाडेटा शामिल करने के लिए अपडेट किया गया है।",
+      "tr": "Kırılma değişikliği: /users endpoint'inin yanıt formatı, sayfalama meta verileri içerecek şekilde güncellenmiştir."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_020",
+    "english": "To configure the database connection, set the DATABASE_URL environment variable in your .env file.",
+    "context": "Explaining database configuration in setup documentation",
+    "translations": {
+      "pt-BR": "Para configurar a conexão com o banco de dados, defina a variável de ambiente DATABASE_URL no seu arquivo .env.",
+      "es": "Para configurar la conexión a la base de datos, establece la variable de entorno DATABASE_URL en tu archivo .env.",
+      "fr": "Pour configurer la connexion à la base de données, définissez la variable d'environnement DATABASE_URL dans votre fichier .env.",
+      "de": "Um die Datenbankverbindung zu konfigurieren, setzen Sie die Umgebungsvariable DATABASE_URL in Ihrer .env-Datei.",
+      "it": "Per configurare la connessione al database, imposta la variabile d'ambiente DATABASE_URL nel tuo file .env.",
+      "ja": "データベース接続を設定するには、.envファイルでDATABASE_URL環境変数を設定してください。",
+      "ko": "데이터베이스 연결을 구성하려면 .env 파일에서 DATABASE_URL 환경 변수를 설정하세요.",
+      "zh-Hans": "要配置数据库连接，请在.env文件中设置DATABASE_URL环境变量。",
+      "hi": "डेटाबेस कनेक्शन कॉन्फ़िगर करने के लिए, अपनी .env फ़ाइल में DATABASE_URL एनवायरनमेंट वेरिएबल सेट करें।",
+      "tr": "Veritabanı bağlantısını yapılandırmak için .env dosyanızda DATABASE_URL ortam değişkenini ayarlayın."
+    },
+    "difficulty": "medium",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_021",
+    "english": "The module exports a singleton instance that should be initialized once during application startup.",
+    "context": "Documenting initialization requirements for a module",
+    "translations": {
+      "pt-BR": "O módulo exporta uma instância singleton que deve ser inicializada uma vez durante a inicialização da aplicação.",
+      "es": "El módulo exporta una instancia singleton que debe inicializarse una vez durante el arranque de la aplicación.",
+      "fr": "Le module exporte une instance singleton qui doit être initialisée une fois au démarrage de l'application.",
+      "de": "Das Modul exportiert eine Singleton-Instanz, die beim Start der Anwendung einmalig initialisiert werden muss.",
+      "it": "Il modulo esporta un'istanza singleton che deve essere inizializzata una volta durante l'avvio dell'applicazione.",
+      "ja": "このモジュールは、アプリケーション起動時に一度だけ初期化すべきシングルトンインスタンスをエクスポートします。",
+      "ko": "이 모듈은 애플리케이션 시작 시 한 번 초기화해야 하는 싱글턴 인스턴스를 내보냅니다.",
+      "zh-Hans": "该模块导出一个单例实例，应在应用程序启动时初始化一次。",
+      "hi": "यह मॉड्यूल एक सिंगलटन इंस्टेंस एक्सपोर्ट करता है जिसे एप्लिकेशन स्टार्टअप के दौरान एक बार इनिशियलाइज़ किया जाना चाहिए।",
+      "tr": "Modül, uygulama başlatılırken bir kez başlatılması gereken bir singleton örneğini dışa aktarır."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_022",
+    "english": "Rate limiting is enforced at 100 requests per minute per API key. Exceeding this limit returns a 429 status code.",
+    "context": "Documenting rate limiting policies in API documentation",
+    "translations": {
+      "pt-BR": "O limite de requisições é de 100 por minuto por chave de API. Exceder esse limite retorna o código de status 429.",
+      "es": "El límite de solicitudes es de 100 por minuto por clave de API. Exceder este límite devuelve un código de estado 429.",
+      "fr": "La limitation de débit est fixée à 100 requêtes par minute par clé API. Dépasser cette limite renvoie un code de statut 429.",
+      "de": "Die Ratenbegrenzung liegt bei 100 Anfragen pro Minute pro API-Schlüssel. Bei Überschreitung wird der Statuscode 429 zurückgegeben.",
+      "it": "Il limite di richieste è di 100 al minuto per chiave API. Il superamento di questo limite restituisce un codice di stato 429.",
+      "ja": "レート制限はAPIキーごとに1分間100リクエストです。この制限を超えるとステータスコード429が返されます。",
+      "ko": "API 키당 분당 100개의 요청으로 속도 제한이 적용됩니다. 이 제한을 초과하면 429 상태 코드가 반환됩니다.",
+      "zh-Hans": "速率限制为每个API密钥每分钟100个请求。超过此限制将返回429状态码。",
+      "hi": "रेट लिमिटिंग प्रति API की प्रति मिनट 100 रिक्वेस्ट पर लागू है। इस सीमा को पार करने पर 429 स्टेटस कोड लौटता है।",
+      "tr": "Hız sınırlaması API anahtarı başına dakikada 100 istek olarak uygulanır. Bu sınırın aşılması 429 durum kodu döndürür."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_023",
+    "english": "The middleware intercepts incoming requests and validates the session token before forwarding to the handler.",
+    "context": "Explaining middleware behavior in architecture documentation",
+    "translations": {
+      "pt-BR": "O middleware intercepta as requisições recebidas e valida o token de sessão antes de encaminhar para o handler.",
+      "es": "El middleware intercepta las solicitudes entrantes y valida el token de sesión antes de reenviarlas al handler.",
+      "fr": "Le middleware intercepte les requêtes entrantes et valide le jeton de session avant de les transmettre au handler.",
+      "de": "Die Middleware fängt eingehende Anfragen ab und validiert das Session-Token, bevor sie an den Handler weitergeleitet werden.",
+      "it": "Il middleware intercetta le richieste in arrivo e valida il token di sessione prima di inoltrarle all'handler.",
+      "ja": "ミドルウェアは受信リクエストをインターセプトし、ハンドラーに転送する前にセッショントークンを検証します。",
+      "ko": "미들웨어는 수신 요청을 가로채고 핸들러로 전달하기 전에 세션 토큰을 검증합니다.",
+      "zh-Hans": "中间件拦截传入请求，在转发给处理程序之前验证会话令牌。",
+      "hi": "मिडलवेयर आने वाली रिक्वेस्ट को इंटरसेप्ट करता है और हैंडलर को फ़ॉरवर्ड करने से पहले सेशन टोकन को वैलिडेट करता है।",
+      "tr": "Middleware gelen istekleri yakalar ve handler'a iletmeden önce oturum token'ını doğrular."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_024",
+    "english": "For backward compatibility, the legacy endpoint will remain available until December 2026, after which it will be permanently removed.",
+    "context": "Communicating a deprecation timeline in documentation",
+    "translations": {
+      "pt-BR": "Para compatibilidade retroativa, o endpoint legado continuará disponível até dezembro de 2026, após o qual será permanentemente removido.",
+      "es": "Para compatibilidad retroactiva, el endpoint heredado estará disponible hasta diciembre de 2026, después de lo cual será eliminado permanentemente.",
+      "fr": "Pour la rétrocompatibilité, l'ancien endpoint restera disponible jusqu'en décembre 2026, après quoi il sera définitivement supprimé.",
+      "de": "Aus Gründen der Abwärtskompatibilität bleibt der Legacy-Endpoint bis Dezember 2026 verfügbar, danach wird er dauerhaft entfernt.",
+      "it": "Per la retrocompatibilità, l'endpoint legacy rimarrà disponibile fino a dicembre 2026, dopodiché verrà rimosso permanentemente.",
+      "ja": "下位互換性のため、レガシーエンドポイントは2026年12月まで利用可能です。その後、永久に削除されます。",
+      "ko": "하위 호환성을 위해 레거시 엔드포인트는 2026년 12월까지 사용 가능하며, 이후 영구적으로 제거됩니다.",
+      "zh-Hans": "为了向后兼容，旧版端点将保留至2026年12月，届时将被永久移除。",
+      "hi": "बैकवर्ड कम्पैटिबिलिटी के लिए, लीगेसी endpoint दिसंबर 2026 तक उपलब्ध रहेगा, जिसके बाद इसे स्थायी रूप से हटा दिया जाएगा।",
+      "tr": "Geriye dönük uyumluluk için eski endpoint Aralık 2026'ya kadar kullanılabilir olacak, ardından kalıcı olarak kaldırılacaktır."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_025",
+    "english": "The error handling strategy uses a centralized error boundary that catches unhandled exceptions and logs them to our monitoring service.",
+    "context": "Describing error handling architecture in technical docs",
+    "translations": {
+      "pt-BR": "A estratégia de tratamento de erros usa um error boundary centralizado que captura exceções não tratadas e as registra no nosso serviço de monitoramento.",
+      "es": "La estrategia de manejo de errores utiliza un error boundary centralizado que captura excepciones no controladas y las registra en nuestro servicio de monitoreo.",
+      "fr": "La stratégie de gestion des erreurs utilise un error boundary centralisé qui capture les exceptions non gérées et les enregistre dans notre service de monitoring.",
+      "de": "Die Fehlerbehandlungsstrategie verwendet eine zentrale Error Boundary, die unbehandelte Ausnahmen abfängt und in unserem Monitoring-Dienst protokolliert.",
+      "it": "La strategia di gestione degli errori utilizza un error boundary centralizzato che cattura le eccezioni non gestite e le registra nel nostro servizio di monitoraggio.",
+      "ja": "エラー処理戦略は、未処理の例外をキャッチしてモニタリングサービスにログを記録する集中型のエラーバウンダリを使用しています。",
+      "ko": "오류 처리 전략은 처리되지 않은 예외를 잡아서 모니터링 서비스에 기록하는 중앙 집중식 에러 바운더리를 사용합니다.",
+      "zh-Hans": "错误处理策略使用集中式错误边界来捕获未处理的异常，并将其记录到我们的监控服务中。",
+      "hi": "एरर हैंडलिंग स्ट्रैटेजी एक सेंट्रलाइज़्ड एरर बाउंड्री का उपयोग करती है जो अनहैंडल्ड एक्सेप्शन को कैच करती है और उन्हें हमारी मॉनिटरिंग सर्विस में लॉग करती है।",
+      "tr": "Hata işleme stratejisi, işlenmemiş istisnaları yakalayan ve bunları izleme servisimize kaydeden merkezi bir hata sınırı kullanır."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_026",
+    "english": "Refer to the sequence diagram below for a visual overview of the request-response lifecycle.",
+    "context": "Referencing a diagram in architecture documentation",
+    "translations": {
+      "pt-BR": "Consulte o diagrama de sequência abaixo para uma visão geral visual do ciclo de vida de requisição e resposta.",
+      "es": "Consulta el diagrama de secuencia a continuación para una visión general visual del ciclo de vida de solicitud y respuesta.",
+      "fr": "Reportez-vous au diagramme de séquence ci-dessous pour un aperçu visuel du cycle de vie requête-réponse.",
+      "de": "Sehen Sie sich das Sequenzdiagramm unten an, um einen visuellen Überblick über den Anfrage-Antwort-Lebenszyklus zu erhalten.",
+      "it": "Fai riferimento al diagramma di sequenza qui sotto per una panoramica visuale del ciclo di vita richiesta-risposta.",
+      "ja": "リクエスト・レスポンスのライフサイクルの視覚的な概要については、以下のシーケンス図を参照してください。",
+      "ko": "요청-응답 라이프사이클의 시각적 개요는 아래 시퀀스 다이어그램을 참조하세요.",
+      "zh-Hans": "请参阅下方的时序图，了解请求-响应生命周期的可视化概览。",
+      "hi": "रिक्वेस्ट-रिस्पॉन्स लाइफ़साइकल के विज़ुअल ओवरव्यू के लिए नीचे दिए गए सीक्वेंस डायग्राम को देखें।",
+      "tr": "İstek-yanıt yaşam döngüsüne görsel bir genel bakış için aşağıdaki sıra diyagramına bakın."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_027",
+    "english": "When contributing to this project, please follow the coding style guide and ensure all tests pass before submitting a pull request.",
+    "context": "Writing contribution guidelines for an open-source project",
+    "translations": {
+      "pt-BR": "Ao contribuir para este projeto, siga o guia de estilo de código e garanta que todos os testes passem antes de enviar um pull request.",
+      "es": "Al contribuir a este proyecto, sigue la guía de estilo de código y asegúrate de que todas las pruebas pasen antes de enviar un pull request.",
+      "fr": "Lorsque vous contribuez à ce projet, veuillez suivre le guide de style de code et vous assurer que tous les tests passent avant de soumettre un pull request.",
+      "de": "Wenn Sie zu diesem Projekt beitragen, befolgen Sie bitte den Code-Style-Guide und stellen Sie sicher, dass alle Tests bestanden werden, bevor Sie einen Pull Request einreichen.",
+      "it": "Quando contribuisci a questo progetto, segui la guida di stile del codice e assicurati che tutti i test passino prima di inviare un pull request.",
+      "ja": "このプロジェクトに貢献する際は、コーディングスタイルガイドに従い、プルリクエストを送信する前にすべてのテストが通ることを確認してください。",
+      "ko": "이 프로젝트에 기여할 때는 코딩 스타일 가이드를 따르고, 풀 리퀘스트를 제출하기 전에 모든 테스트가 통과하는지 확인해 주세요.",
+      "zh-Hans": "为本项目做贡献时，请遵循编码风格指南，并确保在提交拉取请求之前所有测试都通过。",
+      "hi": "इस प्रोजेक्ट में योगदान करते समय, कृपया कोडिंग स्टाइल गाइड का पालन करें और पुल रिक्वेस्ट सबमिट करने से पहले सुनिश्चित करें कि सभी टेस्ट पास हों।",
+      "tr": "Bu projeye katkıda bulunurken lütfen kodlama stili kılavuzunu takip edin ve pull request göndermeden önce tüm testlerin geçtiğinden emin olun."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_028",
+    "english": "This release includes performance improvements, bug fixes, and a new caching layer that reduces average response time by 40%.",
+    "context": "Writing release notes summarizing changes",
+    "translations": {
+      "pt-BR": "Esta versão inclui melhorias de desempenho, correções de bugs e uma nova camada de cache que reduz o tempo médio de resposta em 40%.",
+      "es": "Esta versión incluye mejoras de rendimiento, correcciones de errores y una nueva capa de caché que reduce el tiempo promedio de respuesta en un 40%.",
+      "fr": "Cette version comprend des améliorations de performances, des corrections de bugs et une nouvelle couche de cache qui réduit le temps de réponse moyen de 40%.",
+      "de": "Dieses Release enthält Leistungsverbesserungen, Fehlerbehebungen und eine neue Caching-Schicht, die die durchschnittliche Antwortzeit um 40% reduziert.",
+      "it": "Questa release include miglioramenti delle prestazioni, correzioni di bug e un nuovo livello di caching che riduce il tempo medio di risposta del 40%.",
+      "ja": "このリリースにはパフォーマンスの改善、バグ修正、および平均レスポンス時間を40%削減する新しいキャッシュレイヤーが含まれています。",
+      "ko": "이번 릴리스에는 성능 개선, 버그 수정, 그리고 평균 응답 시간을 40% 줄이는 새로운 캐싱 레이어가 포함되어 있습니다.",
+      "zh-Hans": "此版本包括性能改进、错误修复以及将平均响应时间减少40%的新缓存层。",
+      "hi": "इस रिलीज़ में परफ़ॉर्मेंस सुधार, बग फ़िक्स और एक नई कैशिंग लेयर शामिल है जो औसत रिस्पॉन्स टाइम को 40% कम करती है।",
+      "tr": "Bu sürüm performans iyileştirmeleri, hata düzeltmeleri ve ortalama yanıt süresini %40 azaltan yeni bir önbellekleme katmanı içermektedir."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_029",
+    "english": "The configuration file supports hot reloading, so changes take effect without restarting the application.",
+    "context": "Documenting hot reload capabilities in configuration docs",
+    "translations": {
+      "pt-BR": "O arquivo de configuração suporta hot reloading, então as alterações entram em vigor sem reiniciar a aplicação.",
+      "es": "El archivo de configuración soporta recarga en caliente, por lo que los cambios surten efecto sin reiniciar la aplicación.",
+      "fr": "Le fichier de configuration supporte le rechargement à chaud, les modifications prennent donc effet sans redémarrer l'application.",
+      "de": "Die Konfigurationsdatei unterstützt Hot Reloading, sodass Änderungen ohne Neustart der Anwendung wirksam werden.",
+      "it": "Il file di configurazione supporta il hot reloading, quindi le modifiche hanno effetto senza riavviare l'applicazione.",
+      "ja": "設定ファイルはホットリロードに対応しているため、アプリケーションを再起動せずに変更が反映されます。",
+      "ko": "설정 파일은 핫 리로딩을 지원하므로 애플리케이션을 재시작하지 않고도 변경 사항이 적용됩니다.",
+      "zh-Hans": "配置文件支持热重载，因此更改无需重启应用程序即可生效。",
+      "hi": "कॉन्फ़िगरेशन फ़ाइल हॉट रीलोडिंग सपोर्ट करती है, इसलिए बदलाव एप्लिकेशन को रीस्टार्ट किए बिना लागू हो जाते हैं।",
+      "tr": "Yapılandırma dosyası sıcak yeniden yüklemeyi destekler, bu nedenle değişiklikler uygulamayı yeniden başlatmadan geçerli olur."
+    },
+    "difficulty": "easy",
+    "category": "documentation"
+  },
+  {
+    "id": "documentation_030",
+    "english": "Ensure that all public methods have proper documentation comments including parameter descriptions, return types, and possible exceptions.",
+    "context": "Setting documentation standards in a contributing guide",
+    "translations": {
+      "pt-BR": "Garanta que todos os métodos públicos tenham comentários de documentação adequados, incluindo descrições de parâmetros, tipos de retorno e possíveis exceções.",
+      "es": "Asegúrate de que todos los métodos públicos tengan comentarios de documentación adecuados, incluyendo descripciones de parámetros, tipos de retorno y posibles excepciones.",
+      "fr": "Assurez-vous que toutes les méthodes publiques ont des commentaires de documentation appropriés, incluant les descriptions des paramètres, les types de retour et les exceptions possibles.",
+      "de": "Stellen Sie sicher, dass alle öffentlichen Methoden ordnungsgemäße Dokumentationskommentare haben, einschließlich Parameterbeschreibungen, Rückgabetypen und möglicher Ausnahmen.",
+      "it": "Assicurati che tutti i metodi pubblici abbiano commenti di documentazione appropriati, incluse le descrizioni dei parametri, i tipi di ritorno e le possibili eccezioni.",
+      "ja": "すべてのパブリックメソッドに、パラメータの説明、戻り値の型、起こりうる例外を含む適切なドキュメントコメントがあることを確認してください。",
+      "ko": "모든 공개 메서드에 매개변수 설명, 반환 타입, 가능한 예외를 포함한 적절한 문서 주석이 있는지 확인하세요.",
+      "zh-Hans": "确保所有公共方法都有适当的文档注释，包括参数描述、返回类型和可能的异常。",
+      "hi": "सुनिश्चित करें कि सभी पब्लिक मेथड्स में पैरामीटर विवरण, रिटर्न टाइप और संभावित एक्सेप्शन सहित उचित डॉक्यूमेंटेशन कमेंट्स हों।",
+      "tr": "Tüm genel metotların parametre açıklamaları, dönüş türleri ve olası istisnalar dahil uygun dokümantasyon yorumlarına sahip olduğundan emin olun."
+    },
+    "difficulty": "hard",
+    "category": "documentation"
+  }
+]

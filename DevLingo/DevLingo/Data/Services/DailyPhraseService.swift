@@ -152,7 +152,7 @@ final class DailyPhraseService {
     // MARK: - History
 
     func getHistory() -> [DailyPhraseSet] {
-        storage.get([DailyPhraseSet].self, forKey: "phraseHistory") ?? []
+        storage.get([DailyPhraseSet].self, forKey: StorageKeys.phraseHistory) ?? []
     }
 
     func saveTodayToHistory() {
@@ -178,6 +178,6 @@ final class DailyPhraseService {
             history = Array(history.suffix(365))
         }
 
-        storage.set(history, forKey: "phraseHistory")
+        storage.set(history, forKey: StorageKeys.phraseHistory)
     }
 }

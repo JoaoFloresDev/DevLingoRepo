@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// ViewModel for the Home screen — today's phrases.
+@MainActor
 final class HomeViewModel: ObservableObject {
     // MARK: - Published
 
@@ -34,7 +35,7 @@ final class HomeViewModel: ObservableObject {
     // MARK: - Init
 
     init() {
-        showTranslations = storage.getBool(forKey: "showTranslations")
+        showTranslations = storage.getBool(forKey: StorageKeys.showTranslations)
     }
 
     // MARK: - Data
@@ -92,7 +93,7 @@ final class HomeViewModel: ObservableObject {
 
     func toggleTranslations() {
         showTranslations.toggle()
-        storage.setBool(showTranslations, forKey: "showTranslations")
+        storage.setBool(showTranslations, forKey: StorageKeys.showTranslations)
         HapticManager.selection()
     }
 

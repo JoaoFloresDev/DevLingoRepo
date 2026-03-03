@@ -1,0 +1,572 @@
+[
+  {
+    "id": "interviews_001",
+    "english": "I have five years of experience in full-stack development.",
+    "context": "Introducing yourself and your background at the start of an interview",
+    "translations": {
+      "pt-BR": "Tenho cinco anos de experiência em desenvolvimento full-stack.",
+      "es": "Tengo cinco años de experiencia en desarrollo full-stack.",
+      "fr": "J'ai cinq ans d'expérience en développement full-stack.",
+      "de": "Ich habe fünf Jahre Erfahrung in der Full-Stack-Entwicklung.",
+      "it": "Ho cinque anni di esperienza nello sviluppo full-stack.",
+      "ja": "フルスタック開発で5年の経験があります。",
+      "ko": "풀스택 개발 경력이 5년 있습니다.",
+      "zh-Hans": "我有五年的全栈开发经验。",
+      "hi": "मुझे फुल-स्टैक डेवलपमेंट में पांच साल का अनुभव है।",
+      "tr": "Full-stack geliştirmede beş yıllık deneyimim var."
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_002",
+    "english": "I'm most proficient in Python and JavaScript.",
+    "context": "Describing your primary programming languages",
+    "translations": {
+      "pt-BR": "Tenho mais proficiência em Python e JavaScript.",
+      "es": "Tengo más dominio en Python y JavaScript.",
+      "fr": "Je suis le plus compétent en Python et JavaScript.",
+      "de": "Ich bin am erfahrensten in Python und JavaScript.",
+      "it": "Sono più esperto in Python e JavaScript.",
+      "ja": "PythonとJavaScriptが最も得意です。",
+      "ko": "Python과 JavaScript에 가장 능숙합니다.",
+      "zh-Hans": "我最擅长Python和JavaScript。",
+      "hi": "मैं Python और JavaScript में सबसे अधिक दक्ष हूं।",
+      "tr": "Python ve JavaScript konusunda en yetkinim."
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_003",
+    "english": "Could you tell me more about the team I'd be working with?",
+    "context": "Asking about the team structure during the interview",
+    "translations": {
+      "pt-BR": "Você poderia me contar mais sobre a equipe com a qual eu trabalharia?",
+      "es": "¿Podría contarme más sobre el equipo con el que trabajaría?",
+      "fr": "Pourriez-vous m'en dire plus sur l'équipe avec laquelle je travaillerais ?",
+      "de": "Könnten Sie mir mehr über das Team erzählen, mit dem ich arbeiten würde?",
+      "it": "Potrebbe dirmi di più sul team con cui lavorerei?",
+      "ja": "一緒に働くチームについてもう少し教えていただけますか？",
+      "ko": "함께 일하게 될 팀에 대해 더 알려주실 수 있나요?",
+      "zh-Hans": "您能告诉我更多关于我将加入的团队的信息吗？",
+      "hi": "क्या आप मुझे उस टीम के बारे में और बता सकते हैं जिसके साथ मैं काम करूंगा?",
+      "tr": "Birlikte çalışacağım ekip hakkında daha fazla bilgi verebilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_004",
+    "english": "I'm passionate about writing clean, maintainable code.",
+    "context": "Expressing your values as a developer",
+    "translations": {
+      "pt-BR": "Sou apaixonado por escrever código limpo e de fácil manutenção.",
+      "es": "Me apasiona escribir código limpio y mantenible.",
+      "fr": "Je suis passionné par l'écriture de code propre et maintenable.",
+      "de": "Ich bin leidenschaftlich daran interessiert, sauberen, wartbaren Code zu schreiben.",
+      "it": "Sono appassionato di scrivere codice pulito e manutenibile.",
+      "ja": "クリーンで保守しやすいコードを書くことに情熱を持っています。",
+      "ko": "깔끔하고 유지보수 가능한 코드를 작성하는 것에 열정을 가지고 있습니다.",
+      "zh-Hans": "我热衷于编写干净、可维护的代码。",
+      "hi": "मुझे क्लीन और मेंटेनेबल कोड लिखने का शौक है।",
+      "tr": "Temiz ve sürdürülebilir kod yazmaya tutkuyla bağlıyım."
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_005",
+    "english": "I led the migration from a monolith to microservices.",
+    "context": "Explaining a significant past project accomplishment",
+    "translations": {
+      "pt-BR": "Liderei a migração de um monolito para microsserviços.",
+      "es": "Lideré la migración de un monolito a microservicios.",
+      "fr": "J'ai dirigé la migration d'un monolithe vers des microservices.",
+      "de": "Ich habe die Migration von einem Monolithen zu Microservices geleitet.",
+      "it": "Ho guidato la migrazione da un monolite a microservizi.",
+      "ja": "モノリスからマイクロサービスへの移行をリードしました。",
+      "ko": "모놀리스에서 마이크로서비스로의 마이그레이션을 이끌었습니다.",
+      "zh-Hans": "我主导了从单体架构到微服务的迁移。",
+      "hi": "मैंने मोनोलिथ से माइक्रोसर्विसेज में माइग्रेशन का नेतृत्व किया।",
+      "tr": "Monolitten mikro servislere geçişi ben yönettim."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_006",
+    "english": "Can you walk me through the day-to-day responsibilities of this role?",
+    "context": "Asking about what the job actually involves on a daily basis",
+    "translations": {
+      "pt-BR": "Você pode me explicar as responsabilidades diárias dessa função?",
+      "es": "¿Puede explicarme las responsabilidades diarias de este puesto?",
+      "fr": "Pouvez-vous me décrire les responsabilités quotidiennes de ce poste ?",
+      "de": "Können Sie mir die täglichen Aufgaben dieser Rolle beschreiben?",
+      "it": "Può descrivermi le responsabilità quotidiane di questo ruolo?",
+      "ja": "この役職の日常的な業務内容を教えていただけますか？",
+      "ko": "이 역할의 일상적인 업무에 대해 설명해 주실 수 있나요?",
+      "zh-Hans": "您能介绍一下这个职位的日常工作职责吗？",
+      "hi": "क्या आप इस भूमिका की दैनिक जिम्मेदारियों के बारे में बता सकते हैं?",
+      "tr": "Bu pozisyonun günlük sorumluluklarını anlatabilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_007",
+    "english": "In my previous role, I reduced API response time by 40 percent.",
+    "context": "Quantifying a past achievement with metrics",
+    "translations": {
+      "pt-BR": "No meu cargo anterior, reduzi o tempo de resposta da API em 40 por cento.",
+      "es": "En mi puesto anterior, reduje el tiempo de respuesta de la API en un 40 por ciento.",
+      "fr": "Dans mon poste précédent, j'ai réduit le temps de réponse de l'API de 40 pour cent.",
+      "de": "In meiner vorherigen Rolle habe ich die API-Antwortzeit um 40 Prozent reduziert.",
+      "it": "Nel mio ruolo precedente, ho ridotto il tempo di risposta dell'API del 40 percento.",
+      "ja": "前職ではAPIのレスポンスタイムを40パーセント削減しました。",
+      "ko": "이전 직장에서 API 응답 시간을 40퍼센트 줄였습니다.",
+      "zh-Hans": "在上一份工作中，我将API响应时间缩短了40%。",
+      "hi": "अपनी पिछली भूमिका में, मैंने API रिस्पॉन्स टाइम को 40 प्रतिशत कम किया।",
+      "tr": "Önceki pozisyonumda API yanıt süresini yüzde 40 azalttım."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_008",
+    "english": "I thrive in collaborative environments where I can learn from senior engineers.",
+    "context": "Answering a behavioral question about your preferred work style",
+    "translations": {
+      "pt-BR": "Eu me destaco em ambientes colaborativos onde posso aprender com engenheiros seniores.",
+      "es": "Prospero en entornos colaborativos donde puedo aprender de ingenieros senior.",
+      "fr": "Je m'épanouis dans des environnements collaboratifs où je peux apprendre des ingénieurs seniors.",
+      "de": "Ich blühe in kollaborativen Umgebungen auf, in denen ich von erfahrenen Ingenieuren lernen kann.",
+      "it": "Mi trovo bene in ambienti collaborativi dove posso imparare da ingegneri senior.",
+      "ja": "シニアエンジニアから学べる協力的な環境で力を発揮します。",
+      "ko": "시니어 엔지니어에게 배울 수 있는 협업 환경에서 잘 성장합니다.",
+      "zh-Hans": "我在能向资深工程师学习的协作环境中表现最好。",
+      "hi": "मैं सहयोगी माहौल में अच्छा करता हूं जहां मैं सीनियर इंजीनियरों से सीख सकता हूं।",
+      "tr": "Kıdemli mühendislerden öğrenebileceğim işbirlikçi ortamlarda başarılı oluyorum."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_009",
+    "english": "What does the onboarding process look like for new hires?",
+    "context": "Asking about how the company integrates new team members",
+    "translations": {
+      "pt-BR": "Como funciona o processo de integração para novos contratados?",
+      "es": "¿Cómo es el proceso de incorporación para los nuevos empleados?",
+      "fr": "À quoi ressemble le processus d'intégration pour les nouveaux employés ?",
+      "de": "Wie sieht der Einarbeitungsprozess für neue Mitarbeiter aus?",
+      "it": "Com'è il processo di onboarding per i nuovi assunti?",
+      "ja": "新入社員のオンボーディングプロセスはどのようなものですか？",
+      "ko": "신입 사원의 온보딩 과정은 어떻게 되나요?",
+      "zh-Hans": "新员工的入职流程是怎样的？",
+      "hi": "नए कर्मचारियों के लिए ऑनबोर्डिंग प्रक्रिया कैसी होती है?",
+      "tr": "Yeni işe alınanlar için oryantasyon süreci nasıl işliyor?"
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_010",
+    "english": "I handled a conflict with a teammate by scheduling a one-on-one to discuss our different approaches.",
+    "context": "Answering a behavioral question about conflict resolution",
+    "translations": {
+      "pt-BR": "Resolvi um conflito com um colega agendando uma reunião individual para discutir nossas abordagens diferentes.",
+      "es": "Manejé un conflicto con un compañero programando una reunión individual para discutir nuestros enfoques diferentes.",
+      "fr": "J'ai géré un conflit avec un collègue en organisant un entretien individuel pour discuter de nos approches différentes.",
+      "de": "Ich habe einen Konflikt mit einem Teamkollegen gelöst, indem ich ein Einzelgespräch angesetzt habe, um unsere unterschiedlichen Ansätze zu besprechen.",
+      "it": "Ho gestito un conflitto con un collega organizzando un incontro individuale per discutere i nostri approcci diversi.",
+      "ja": "チームメイトとの対立は、一対一のミーティングを設定して異なるアプローチを話し合うことで解決しました。",
+      "ko": "팀원과의 갈등을 일대일 미팅을 잡아 서로 다른 접근 방식을 논의하며 해결했습니다.",
+      "zh-Hans": "我通过安排一对一会议讨论不同的方法来处理与队友的冲突。",
+      "hi": "मैंने एक सहकर्मी के साथ विवाद को एक-एक मीटिंग शेड्यूल करके हमारे अलग-अलग दृष्टिकोणों पर चर्चा करके सुलझाया।",
+      "tr": "Bir takım arkadaşımla olan anlaşmazlığı, farklı yaklaşımlarımızı tartışmak için birebir toplantı ayarlayarak çözdüm."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_011",
+    "english": "Let me walk you through my approach to solving this problem.",
+    "context": "Starting a whiteboard coding exercise during a technical interview",
+    "translations": {
+      "pt-BR": "Deixe-me explicar minha abordagem para resolver este problema.",
+      "es": "Permítame explicarle mi enfoque para resolver este problema.",
+      "fr": "Permettez-moi de vous présenter mon approche pour résoudre ce problème.",
+      "de": "Lassen Sie mich Ihnen meinen Ansatz zur Lösung dieses Problems erklären.",
+      "it": "Lasciate che vi illustri il mio approccio per risolvere questo problema.",
+      "ja": "この問題を解決するための私のアプローチを説明させてください。",
+      "ko": "이 문제를 해결하기 위한 제 접근 방식을 설명하겠습니다.",
+      "zh-Hans": "让我来介绍一下我解决这个问题的思路。",
+      "hi": "मुझे इस समस्या को हल करने के अपने दृष्टिकोण के बारे में बताने दीजिए।",
+      "tr": "Bu sorunu çözme yaklaşımımı adım adım anlatayım."
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_012",
+    "english": "The time complexity of this solution is O of n log n.",
+    "context": "Explaining the efficiency of your algorithm during a coding interview",
+    "translations": {
+      "pt-BR": "A complexidade de tempo desta solução é O de n log n.",
+      "es": "La complejidad temporal de esta solución es O de n log n.",
+      "fr": "La complexité temporelle de cette solution est O de n log n.",
+      "de": "Die Zeitkomplexität dieser Lösung ist O von n log n.",
+      "it": "La complessità temporale di questa soluzione è O di n log n.",
+      "ja": "このソリューションの時間計算量はO(n log n)です。",
+      "ko": "이 솔루션의 시간 복잡도는 O(n log n)입니다.",
+      "zh-Hans": "这个解决方案的时间复杂度是O(n log n)。",
+      "hi": "इस समाधान की टाइम कॉम्प्लेक्सिटी O(n log n) है।",
+      "tr": "Bu çözümün zaman karmaşıklığı O(n log n)'dir."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_013",
+    "english": "I would design this system with a load balancer in front of multiple application servers.",
+    "context": "Answering a system design question about scalable architecture",
+    "translations": {
+      "pt-BR": "Eu projetaria esse sistema com um balanceador de carga na frente de múltiplos servidores de aplicação.",
+      "es": "Diseñaría este sistema con un balanceador de carga frente a múltiples servidores de aplicación.",
+      "fr": "Je concevrais ce système avec un répartiteur de charge devant plusieurs serveurs d'application.",
+      "de": "Ich würde dieses System mit einem Load Balancer vor mehreren Anwendungsservern entwerfen.",
+      "it": "Progetterei questo sistema con un bilanciatore di carico davanti a più server applicativi.",
+      "ja": "このシステムは複数のアプリケーションサーバーの前にロードバランサーを配置して設計します。",
+      "ko": "이 시스템은 여러 애플리케이션 서버 앞에 로드 밸런서를 두는 방식으로 설계하겠습니다.",
+      "zh-Hans": "我会在多个应用服务器前面设计一个负载均衡器。",
+      "hi": "मैं इस सिस्टम को कई एप्लिकेशन सर्वरों के सामने एक लोड बैलेंसर के साथ डिज़ाइन करूंगा।",
+      "tr": "Bu sistemi birden fazla uygulama sunucusunun önünde bir yük dengeleyici ile tasarlardım."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_014",
+    "english": "What is the salary range for this position?",
+    "context": "Asking about compensation during the interview process",
+    "translations": {
+      "pt-BR": "Qual é a faixa salarial para esta posição?",
+      "es": "¿Cuál es el rango salarial para este puesto?",
+      "fr": "Quelle est la fourchette salariale pour ce poste ?",
+      "de": "Wie ist die Gehaltsspanne für diese Position?",
+      "it": "Qual è la fascia salariale per questa posizione?",
+      "ja": "このポジションの給与レンジはどのくらいですか？",
+      "ko": "이 포지션의 급여 범위는 어떻게 되나요?",
+      "zh-Hans": "这个职位的薪资范围是多少？",
+      "hi": "इस पद के लिए वेतन सीमा क्या है?",
+      "tr": "Bu pozisyon için maaş aralığı nedir?"
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_015",
+    "english": "I'm looking for a role where I can grow into a technical lead position.",
+    "context": "Discussing your career goals and growth expectations",
+    "translations": {
+      "pt-BR": "Estou procurando uma função onde eu possa crescer para uma posição de líder técnico.",
+      "es": "Busco un puesto donde pueda crecer hacia una posición de líder técnico.",
+      "fr": "Je recherche un poste où je peux évoluer vers un rôle de lead technique.",
+      "de": "Ich suche eine Rolle, in der ich mich zu einer technischen Führungsposition entwickeln kann.",
+      "it": "Cerco un ruolo in cui posso crescere fino a diventare un lead tecnico.",
+      "ja": "テクニカルリードのポジションに成長できる役割を探しています。",
+      "ko": "테크니컬 리드 포지션으로 성장할 수 있는 역할을 찾고 있습니다.",
+      "zh-Hans": "我在寻找一个能让我成长为技术负责人的职位。",
+      "hi": "मैं ऐसी भूमिका की तलाश में हूं जहां मैं टेक्निकल लीड पोजीशन तक बढ़ सकूं।",
+      "tr": "Teknik lider pozisyonuna doğru büyüyebileceğim bir rol arıyorum."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_016",
+    "english": "I'd use a hash map here to optimize the lookup time to O of one.",
+    "context": "Explaining an optimization during a whiteboard coding session",
+    "translations": {
+      "pt-BR": "Eu usaria um hash map aqui para otimizar o tempo de busca para O de um.",
+      "es": "Usaría un hash map aquí para optimizar el tiempo de búsqueda a O de uno.",
+      "fr": "J'utiliserais une table de hachage ici pour optimiser le temps de recherche à O de un.",
+      "de": "Ich würde hier eine Hash-Map verwenden, um die Suchzeit auf O von eins zu optimieren.",
+      "it": "Userei una hash map qui per ottimizzare il tempo di ricerca a O di uno.",
+      "ja": "ここでハッシュマップを使って検索時間をO(1)に最適化します。",
+      "ko": "여기서 해시 맵을 사용하여 조회 시간을 O(1)로 최적화하겠습니다.",
+      "zh-Hans": "我会在这里使用哈希表将查找时间优化到O(1)。",
+      "hi": "मैं यहां लुकअप टाइम को O(1) तक ऑप्टिमाइज़ करने के लिए हैश मैप का उपयोग करूंगा।",
+      "tr": "Arama süresini O(1)'e optimize etmek için burada bir hash map kullanırdım."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_017",
+    "english": "Thank you for your time. I'm very excited about this opportunity.",
+    "context": "Closing the interview with a positive impression",
+    "translations": {
+      "pt-BR": "Obrigado pelo seu tempo. Estou muito animado com esta oportunidade.",
+      "es": "Gracias por su tiempo. Estoy muy entusiasmado con esta oportunidad.",
+      "fr": "Merci pour votre temps. Je suis très enthousiaste à propos de cette opportunité.",
+      "de": "Vielen Dank für Ihre Zeit. Ich bin sehr begeistert von dieser Möglichkeit.",
+      "it": "Grazie per il suo tempo. Sono molto entusiasta di questa opportunità.",
+      "ja": "お時間をいただきありがとうございます。この機会にとても興奮しています。",
+      "ko": "시간 내주셔서 감사합니다. 이 기회에 매우 기대하고 있습니다.",
+      "zh-Hans": "感谢您的时间。我对这个机会非常期待。",
+      "hi": "आपके समय के लिए धन्यवाद। मैं इस अवसर को लेकर बहुत उत्साहित हूं।",
+      "tr": "Zaman ayırdığınız için teşekkürler. Bu fırsat konusunda çok heyecanlıyım."
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_018",
+    "english": "For the database layer, I'd choose PostgreSQL for its strong consistency guarantees and support for complex queries.",
+    "context": "Justifying a technology choice in a system design interview",
+    "translations": {
+      "pt-BR": "Para a camada de banco de dados, eu escolheria PostgreSQL pela sua forte garantia de consistência e suporte a consultas complexas.",
+      "es": "Para la capa de base de datos, elegiría PostgreSQL por sus fuertes garantías de consistencia y soporte para consultas complejas.",
+      "fr": "Pour la couche base de données, je choisirais PostgreSQL pour ses fortes garanties de cohérence et son support des requêtes complexes.",
+      "de": "Für die Datenbankschicht würde ich PostgreSQL wegen seiner starken Konsistenzgarantien und der Unterstützung komplexer Abfragen wählen.",
+      "it": "Per il livello database, sceglierei PostgreSQL per le sue forti garanzie di coerenza e il supporto per query complesse.",
+      "ja": "データベース層には、強力な一貫性保証と複雑なクエリのサポートがあるPostgreSQLを選びます。",
+      "ko": "데이터베이스 레이어에는 강력한 일관성 보장과 복잡한 쿼리 지원을 위해 PostgreSQL을 선택하겠습니다.",
+      "zh-Hans": "对于数据库层，我会选择PostgreSQL，因为它有强一致性保证和复杂查询支持。",
+      "hi": "डेटाबेस लेयर के लिए, मैं PostgreSQL चुनूंगा क्योंकि इसमें मजबूत कंसिस्टेंसी गारंटी और कॉम्प्लेक्स क्वेरीज़ का सपोर्ट है।",
+      "tr": "Veritabanı katmanı için, güçlü tutarlılık garantileri ve karmaşık sorgu desteği nedeniyle PostgreSQL'i tercih ederim."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_019",
+    "english": "Does the company offer remote work or flexible hours?",
+    "context": "Asking about work-life balance and flexibility",
+    "translations": {
+      "pt-BR": "A empresa oferece trabalho remoto ou horários flexíveis?",
+      "es": "¿La empresa ofrece trabajo remoto u horarios flexibles?",
+      "fr": "L'entreprise propose-t-elle le travail à distance ou des horaires flexibles ?",
+      "de": "Bietet das Unternehmen Remote-Arbeit oder flexible Arbeitszeiten an?",
+      "it": "L'azienda offre lavoro da remoto o orari flessibili?",
+      "ja": "リモートワークやフレックスタイムはありますか？",
+      "ko": "회사에서 원격 근무나 유연한 근무 시간을 제공하나요?",
+      "zh-Hans": "公司提供远程办公或弹性工作时间吗？",
+      "hi": "क्या कंपनी रिमोट वर्क या फ्लेक्सिबल घंटे ऑफर करती है?",
+      "tr": "Şirket uzaktan çalışma veya esnek çalışma saatleri sunuyor mu?"
+    },
+    "difficulty": "easy",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_020",
+    "english": "I once had to deliver a critical feature under a tight deadline, so I broke it into smaller milestones and communicated progress daily.",
+    "context": "Answering a behavioral question about working under pressure",
+    "translations": {
+      "pt-BR": "Uma vez tive que entregar uma funcionalidade crítica com prazo apertado, então dividi em marcos menores e comuniquei o progresso diariamente.",
+      "es": "Una vez tuve que entregar una funcionalidad crítica con un plazo ajustado, así que la dividí en hitos más pequeños y comuniqué el progreso diariamente.",
+      "fr": "J'ai dû une fois livrer une fonctionnalité critique dans un délai serré, alors je l'ai découpée en jalons plus petits et j'ai communiqué l'avancement quotidiennement.",
+      "de": "Ich musste einmal ein kritisches Feature unter Zeitdruck liefern, also habe ich es in kleinere Meilensteine aufgeteilt und täglich den Fortschritt kommuniziert.",
+      "it": "Una volta ho dovuto consegnare una funzionalità critica con una scadenza stretta, quindi l'ho suddivisa in traguardi più piccoli e ho comunicato i progressi quotidianamente.",
+      "ja": "厳しい締め切りの中で重要な機能を納品しなければならなかったとき、小さなマイルストーンに分割し、毎日進捗を報告しました。",
+      "ko": "촉박한 기한 내에 중요한 기능을 개발해야 했을 때, 작은 마일스톤으로 나누고 매일 진행 상황을 공유했습니다.",
+      "zh-Hans": "有一次我必须在紧迫的截止日期前交付关键功能，所以我将其分解为更小的里程碑，每天沟通进展。",
+      "hi": "मुझे एक बार तंग डेडलाइन में एक क्रिटिकल फीचर डिलीवर करना था, तो मैंने इसे छोटे माइलस्टोन्स में बांटा और रोज़ प्रोग्रेस बताई।",
+      "tr": "Bir keresinde sıkı bir teslim tarihinde kritik bir özellik sunmam gerekti, bu yüzden küçük kilometre taşlarına böldüm ve ilerlemeyi günlük olarak ilettim."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_021",
+    "english": "Before I start coding, I'd like to clarify the requirements and edge cases.",
+    "context": "Asking clarifying questions before a coding exercise",
+    "translations": {
+      "pt-BR": "Antes de começar a codificar, gostaria de esclarecer os requisitos e os casos extremos.",
+      "es": "Antes de empezar a programar, me gustaría aclarar los requisitos y los casos límite.",
+      "fr": "Avant de commencer à coder, j'aimerais clarifier les exigences et les cas limites.",
+      "de": "Bevor ich mit dem Programmieren beginne, möchte ich die Anforderungen und Grenzfälle klären.",
+      "it": "Prima di iniziare a programmare, vorrei chiarire i requisiti e i casi limite.",
+      "ja": "コーディングを始める前に、要件とエッジケースを確認させてください。",
+      "ko": "코딩을 시작하기 전에 요구사항과 엣지 케이스를 확인하고 싶습니다.",
+      "zh-Hans": "在开始编码之前，我想先确认需求和边界情况。",
+      "hi": "कोडिंग शुरू करने से पहले, मैं रिक्वायरमेंट्स और एज केसेज़ क्लियर करना चाहूंगा।",
+      "tr": "Kodlamaya başlamadan önce gereksinimleri ve uç durumları netleştirmek istiyorum."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_022",
+    "english": "I would add a caching layer using Redis to reduce the load on the database.",
+    "context": "Proposing a caching strategy in a system design discussion",
+    "translations": {
+      "pt-BR": "Eu adicionaria uma camada de cache usando Redis para reduzir a carga no banco de dados.",
+      "es": "Agregaría una capa de caché usando Redis para reducir la carga en la base de datos.",
+      "fr": "J'ajouterais une couche de cache avec Redis pour réduire la charge sur la base de données.",
+      "de": "Ich würde eine Caching-Schicht mit Redis hinzufügen, um die Last auf der Datenbank zu reduzieren.",
+      "it": "Aggiungerei un livello di caching con Redis per ridurre il carico sul database.",
+      "ja": "データベースの負荷を軽減するために、Redisを使ったキャッシュ層を追加します。",
+      "ko": "데이터베이스 부하를 줄이기 위해 Redis를 사용한 캐싱 레이어를 추가하겠습니다.",
+      "zh-Hans": "我会使用Redis添加一个缓存层来减少数据库的负载。",
+      "hi": "मैं डेटाबेस पर लोड कम करने के लिए Redis का उपयोग करके एक कैशिंग लेयर जोड़ूंगा।",
+      "tr": "Veritabanı üzerindeki yükü azaltmak için Redis kullanarak bir önbellek katmanı eklerdim."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_023",
+    "english": "My biggest weakness is that I sometimes spend too much time perfecting code before moving on.",
+    "context": "Answering the classic strengths and weaknesses question honestly",
+    "translations": {
+      "pt-BR": "Meu maior ponto fraco é que às vezes gasto tempo demais aperfeiçoando o código antes de seguir em frente.",
+      "es": "Mi mayor debilidad es que a veces paso demasiado tiempo perfeccionando el código antes de avanzar.",
+      "fr": "Mon plus grand point faible est que je passe parfois trop de temps à perfectionner le code avant de passer à autre chose.",
+      "de": "Meine größte Schwäche ist, dass ich manchmal zu viel Zeit damit verbringe, den Code zu perfektionieren, bevor ich weitermache.",
+      "it": "Il mio punto debole principale è che a volte passo troppo tempo a perfezionare il codice prima di andare avanti.",
+      "ja": "私の最大の弱点は、先に進む前にコードの完璧さに時間をかけすぎることがあることです。",
+      "ko": "제 가장 큰 약점은 다음 단계로 넘어가기 전에 코드를 완벽하게 만드는 데 너무 많은 시간을 쓸 때가 있다는 것입니다.",
+      "zh-Hans": "我最大的弱点是有时在继续前进之前花太多时间完善代码。",
+      "hi": "मेरी सबसे बड़ी कमजोरी है कि कभी-कभी मैं आगे बढ़ने से पहले कोड को परफेक्ट करने में बहुत ज्यादा समय लगा देता हूं।",
+      "tr": "En büyük zayıf noktam, bazen ilerlemeden önce kodu mükemmelleştirmek için çok fazla zaman harcamamdır."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_024",
+    "english": "I wanted to follow up on our conversation and reiterate my interest in the role.",
+    "context": "Writing a follow-up email after the interview",
+    "translations": {
+      "pt-BR": "Gostaria de dar continuidade à nossa conversa e reforçar meu interesse na vaga.",
+      "es": "Quería dar seguimiento a nuestra conversación y reiterar mi interés en el puesto.",
+      "fr": "Je souhaitais donner suite à notre conversation et réitérer mon intérêt pour le poste.",
+      "de": "Ich wollte an unser Gespräch anknüpfen und mein Interesse an der Stelle bekräftigen.",
+      "it": "Volevo dare seguito alla nostra conversazione e ribadire il mio interesse per il ruolo.",
+      "ja": "先日の面談のフォローアップとして、このポジションへの関心を改めてお伝えしたく存じます。",
+      "ko": "면접에 대해 후속 연락을 드리며, 이 역할에 대한 관심을 다시 한번 말씀드리고 싶습니다.",
+      "zh-Hans": "我想跟进我们的对话，并再次表达我对这个职位的兴趣。",
+      "hi": "मैं हमारी बातचीत पर फॉलो अप करना और इस भूमिका में अपनी रुचि दोबारा व्यक्त करना चाहता था।",
+      "tr": "Görüşmemizin devamı olarak bu pozisyona olan ilgimi tekrarlamak istiyorum."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_025",
+    "english": "To ensure data consistency across services, I'd implement an event-driven architecture with a message queue.",
+    "context": "Discussing distributed systems design in a senior-level interview",
+    "translations": {
+      "pt-BR": "Para garantir a consistência de dados entre serviços, eu implementaria uma arquitetura orientada a eventos com uma fila de mensagens.",
+      "es": "Para asegurar la consistencia de datos entre servicios, implementaría una arquitectura orientada a eventos con una cola de mensajes.",
+      "fr": "Pour assurer la cohérence des données entre les services, j'implémenterais une architecture événementielle avec une file de messages.",
+      "de": "Um die Datenkonsistenz über Services hinweg sicherzustellen, würde ich eine ereignisgesteuerte Architektur mit einer Message Queue implementieren.",
+      "it": "Per garantire la coerenza dei dati tra i servizi, implementerei un'architettura event-driven con una coda di messaggi.",
+      "ja": "サービス間のデータ整合性を確保するために、メッセージキューを使ったイベント駆動アーキテクチャを実装します。",
+      "ko": "서비스 간 데이터 일관성을 보장하기 위해 메시지 큐를 활용한 이벤트 기반 아키텍처를 구현하겠습니다.",
+      "zh-Hans": "为了确保跨服务的数据一致性，我会实现一个使用消息队列的事件驱动架构。",
+      "hi": "सर्विसेज के बीच डेटा कंसिस्टेंसी सुनिश्चित करने के लिए, मैं मैसेज क्यू के साथ एक इवेंट-ड्रिवन आर्किटेक्चर लागू करूंगा।",
+      "tr": "Servisler arası veri tutarlılığını sağlamak için mesaj kuyruğu ile olay odaklı bir mimari uygulardım."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_026",
+    "english": "Are there opportunities for professional development, such as conference budgets or training programs?",
+    "context": "Asking about learning and growth benefits",
+    "translations": {
+      "pt-BR": "Existem oportunidades de desenvolvimento profissional, como orçamento para conferências ou programas de treinamento?",
+      "es": "¿Hay oportunidades de desarrollo profesional, como presupuesto para conferencias o programas de capacitación?",
+      "fr": "Y a-t-il des opportunités de développement professionnel, comme des budgets pour les conférences ou des programmes de formation ?",
+      "de": "Gibt es Möglichkeiten zur beruflichen Weiterentwicklung, wie Konferenzbudgets oder Schulungsprogramme?",
+      "it": "Ci sono opportunità di sviluppo professionale, come budget per conferenze o programmi di formazione?",
+      "ja": "カンファレンスの予算や研修プログラムなど、専門的な成長の機会はありますか？",
+      "ko": "컨퍼런스 지원이나 교육 프로그램 같은 전문성 개발 기회가 있나요?",
+      "zh-Hans": "有没有专业发展机会，比如会议预算或培训项目？",
+      "hi": "क्या कॉन्फ्रेंस बजट या ट्रेनिंग प्रोग्राम जैसे प्रोफेशनल डेवलपमेंट के अवसर हैं?",
+      "tr": "Konferans bütçeleri veya eğitim programları gibi profesyonel gelişim fırsatları var mı?"
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_027",
+    "english": "I noticed your company recently open-sourced a library. I'd love to contribute to projects like that.",
+    "context": "Showing genuine interest in the company by referencing their work",
+    "translations": {
+      "pt-BR": "Percebi que a empresa recentemente disponibilizou uma biblioteca em código aberto. Adoraria contribuir em projetos assim.",
+      "es": "Noté que su empresa recientemente publicó una biblioteca de código abierto. Me encantaría contribuir a proyectos así.",
+      "fr": "J'ai remarqué que votre entreprise a récemment mis en open source une bibliothèque. J'adorerais contribuer à des projets comme celui-là.",
+      "de": "Mir ist aufgefallen, dass Ihr Unternehmen kürzlich eine Bibliothek als Open Source veröffentlicht hat. Ich würde gerne zu solchen Projekten beitragen.",
+      "it": "Ho notato che la vostra azienda ha recentemente reso open source una libreria. Mi piacerebbe contribuire a progetti del genere.",
+      "ja": "御社が最近ライブラリをオープンソース化されたことに気づきました。そのようなプロジェクトに貢献したいです。",
+      "ko": "회사에서 최근 라이브러리를 오픈소스로 공개한 것을 봤습니다. 그런 프로젝트에 기여하고 싶습니다.",
+      "zh-Hans": "我注意到贵公司最近开源了一个库。我很想参与这样的项目。",
+      "hi": "मैंने देखा कि आपकी कंपनी ने हाल ही में एक लाइब्रेरी ओपन-सोर्स की है। मैं ऐसे प्रोजेक्ट्स में योगदान देना चाहूंगा।",
+      "tr": "Şirketinizin yakın zamanda bir kütüphaneyi açık kaynak olarak yayınladığını fark ettim. Bu tür projelere katkıda bulunmayı çok isterim."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_028",
+    "english": "For horizontal scaling, I'd containerize the application with Docker and orchestrate it using Kubernetes.",
+    "context": "Explaining a deployment and scaling strategy in a system design interview",
+    "translations": {
+      "pt-BR": "Para escalabilidade horizontal, eu containerizaria a aplicação com Docker e orquestraria usando Kubernetes.",
+      "es": "Para el escalado horizontal, containerizaría la aplicación con Docker y la orquestaría usando Kubernetes.",
+      "fr": "Pour la mise à l'échelle horizontale, je conteneuriserais l'application avec Docker et l'orchestrerais avec Kubernetes.",
+      "de": "Für horizontale Skalierung würde ich die Anwendung mit Docker containerisieren und mit Kubernetes orchestrieren.",
+      "it": "Per la scalabilità orizzontale, containerizzerei l'applicazione con Docker e la orchestrerei con Kubernetes.",
+      "ja": "水平スケーリングのために、Dockerでアプリケーションをコンテナ化し、Kubernetesでオーケストレーションします。",
+      "ko": "수평 확장을 위해 Docker로 애플리케이션을 컨테이너화하고 Kubernetes로 오케스트레이션하겠습니다.",
+      "zh-Hans": "对于水平扩展，我会使用Docker容器化应用程序，并使用Kubernetes进行编排。",
+      "hi": "हॉरिज़ॉन्टल स्केलिंग के लिए, मैं एप्लिकेशन को Docker से कंटेनराइज़ करूंगा और Kubernetes से ऑर्केस्ट्रेट करूंगा।",
+      "tr": "Yatay ölçeklendirme için uygulamayı Docker ile konteynerize edip Kubernetes ile orkestre ederim."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_029",
+    "english": "I believe in test-driven development because it helps catch bugs early and improves code design.",
+    "context": "Discussing your development philosophy and best practices",
+    "translations": {
+      "pt-BR": "Acredito no desenvolvimento orientado a testes porque ajuda a detectar bugs cedo e melhora o design do código.",
+      "es": "Creo en el desarrollo dirigido por pruebas porque ayuda a detectar errores temprano y mejora el diseño del código.",
+      "fr": "Je crois au développement piloté par les tests car cela aide à détecter les bugs tôt et améliore la conception du code.",
+      "de": "Ich glaube an testgetriebene Entwicklung, weil sie hilft, Fehler früh zu erkennen und das Code-Design verbessert.",
+      "it": "Credo nello sviluppo guidato dai test perché aiuta a individuare i bug in anticipo e migliora il design del codice.",
+      "ja": "テスト駆動開発を信念としています。バグを早期に発見し、コード設計を改善できるからです。",
+      "ko": "테스트 주도 개발을 믿습니다. 버그를 일찍 잡고 코드 설계를 개선하는 데 도움이 되기 때문입니다.",
+      "zh-Hans": "我相信测试驱动开发，因为它有助于尽早发现缺陷并改善代码设计。",
+      "hi": "मैं टेस्ट-ड्रिवन डेवलपमेंट में विश्वास करता हूं क्योंकि यह बग्स को जल्दी पकड़ने और कोड डिज़ाइन को बेहतर बनाने में मदद करता है।",
+      "tr": "Test odaklı geliştirmeye inanıyorum çünkü hataları erken yakalamaya ve kod tasarımını iyileştirmeye yardımcı olur."
+    },
+    "difficulty": "medium",
+    "category": "interviews"
+  },
+  {
+    "id": "interviews_030",
+    "english": "Based on my experience and the market rate, I'd expect a compensation package in the range of one hundred twenty to one hundred forty thousand dollars.",
+    "context": "Negotiating salary by anchoring to market data",
+    "translations": {
+      "pt-BR": "Com base na minha experiência e no valor de mercado, eu esperaria um pacote de remuneração na faixa de cento e vinte a cento e quarenta mil dólares.",
+      "es": "Basándome en mi experiencia y el valor de mercado, esperaría un paquete de compensación en el rango de ciento veinte a ciento cuarenta mil dólares.",
+      "fr": "En fonction de mon expérience et du taux du marché, je m'attendrais à un package de rémunération dans la fourchette de cent vingt à cent quarante mille dollars.",
+      "de": "Basierend auf meiner Erfahrung und dem Marktwert würde ich ein Vergütungspaket im Bereich von einhundertzwanzig- bis einhundertvierzigtausend Dollar erwarten.",
+      "it": "In base alla mia esperienza e al valore di mercato, mi aspetterei un pacchetto retributivo nella fascia da centoventi a centoquarantamila dollari.",
+      "ja": "私の経験と市場相場に基づいて、12万ドルから14万ドルの範囲の報酬パッケージを期待しています。",
+      "ko": "제 경험과 시장 시세를 기준으로 12만에서 14만 달러 범위의 보상 패키지를 기대합니다.",
+      "zh-Hans": "根据我的经验和市场水平，我期望的薪酬范围在12万到14万美元之间。",
+      "hi": "अपने अनुभव और मार्केट रेट के आधार पर, मैं एक लाख बीस हज़ार से एक लाख चालीस हज़ार डॉलर के रेंज में कम्पेंसेशन पैकेज की उम्मीद करूंगा।",
+      "tr": "Deneyimime ve piyasa değerine dayanarak, yüz yirmi bin ile yüz kırk bin dolar arasında bir ücret paketi beklerdim."
+    },
+    "difficulty": "hard",
+    "category": "interviews"
+  }
+]

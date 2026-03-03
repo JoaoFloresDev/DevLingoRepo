@@ -1,0 +1,572 @@
+[
+  {
+    "id": "bugReports_001",
+    "english": "I found a bug in the checkout flow.",
+    "context": "Reporting a new bug you discovered in the application",
+    "translations": {
+      "pt-BR": "Encontrei um bug no fluxo de checkout.",
+      "es": "Encontré un bug en el flujo de checkout.",
+      "fr": "J'ai trouvé un bug dans le flux de paiement.",
+      "de": "Ich habe einen Bug im Checkout-Ablauf gefunden.",
+      "it": "Ho trovato un bug nel flusso di checkout.",
+      "ja": "チェックアウトフローにバグを見つけました。",
+      "ko": "결제 흐름에서 버그를 발견했습니다.",
+      "zh-Hans": "我在结账流程中发现了一个bug。",
+      "hi": "मुझे चेकआउट फ्लो में एक बग मिला।",
+      "tr": "Ödeme akışında bir hata buldum."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_002",
+    "english": "Can you provide the steps to reproduce this issue?",
+    "context": "Asking a reporter to describe how to trigger the bug",
+    "translations": {
+      "pt-BR": "Você pode fornecer os passos para reproduzir esse problema?",
+      "es": "¿Puedes proporcionar los pasos para reproducir este problema?",
+      "fr": "Peux-tu fournir les étapes pour reproduire ce problème ?",
+      "de": "Kannst du die Schritte zur Reproduktion dieses Problems angeben?",
+      "it": "Puoi fornire i passaggi per riprodurre questo problema?",
+      "ja": "この問題を再現する手順を教えてもらえますか？",
+      "ko": "이 문제를 재현하는 단계를 제공해 주시겠어요?",
+      "zh-Hans": "你能提供重现这个问题的步骤吗？",
+      "hi": "क्या आप इस समस्या को दोहराने के चरण बता सकते हैं?",
+      "tr": "Bu sorunu yeniden oluşturma adımlarını paylaşabilir misin?"
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_003",
+    "english": "The expected behavior is a success message, but instead we get a blank screen.",
+    "context": "Describing the gap between expected and actual behavior",
+    "translations": {
+      "pt-BR": "O comportamento esperado é uma mensagem de sucesso, mas em vez disso recebemos uma tela em branco.",
+      "es": "El comportamiento esperado es un mensaje de éxito, pero en su lugar obtenemos una pantalla en blanco.",
+      "fr": "Le comportement attendu est un message de succès, mais à la place nous obtenons un écran blanc.",
+      "de": "Das erwartete Verhalten ist eine Erfolgsmeldung, aber stattdessen bekommen wir einen leeren Bildschirm.",
+      "it": "Il comportamento atteso è un messaggio di successo, ma invece otteniamo una schermata vuota.",
+      "ja": "期待される動作は成功メッセージですが、代わりに空白の画面が表示されます。",
+      "ko": "예상 동작은 성공 메시지인데, 대신 빈 화면이 나타납니다.",
+      "zh-Hans": "预期行为是显示成功消息，但实际得到的是空白屏幕。",
+      "hi": "अपेक्षित व्यवहार एक सफलता संदेश है, लेकिन इसके बजाय हमें एक खाली स्क्रीन मिलती है।",
+      "tr": "Beklenen davranış bir başarı mesajı, ancak bunun yerine boş bir ekran alıyoruz."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_004",
+    "english": "This bug is critical and is blocking users from signing up.",
+    "context": "Communicating the severity and user impact of a bug",
+    "translations": {
+      "pt-BR": "Esse bug é crítico e está impedindo os usuários de se cadastrarem.",
+      "es": "Este bug es crítico y está bloqueando a los usuarios para registrarse.",
+      "fr": "Ce bug est critique et empêche les utilisateurs de s'inscrire.",
+      "de": "Dieser Bug ist kritisch und hindert Benutzer daran, sich zu registrieren.",
+      "it": "Questo bug è critico e sta impedendo agli utenti di registrarsi.",
+      "ja": "このバグは重大で、ユーザーのサインアップを妨げています。",
+      "ko": "이 버그는 치명적이며 사용자가 가입하는 것을 막고 있습니다.",
+      "zh-Hans": "这个bug是严重的，正在阻止用户注册。",
+      "hi": "यह बग गंभीर है और उपयोगकर्ताओं को साइन अप करने से रोक रहा है।",
+      "tr": "Bu hata kritik ve kullanıcıların kayıt olmasını engelliyor."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_005",
+    "english": "I can reproduce it every time on iOS 17.",
+    "context": "Confirming consistent reproducibility on a specific platform",
+    "translations": {
+      "pt-BR": "Consigo reproduzir toda vez no iOS 17.",
+      "es": "Puedo reproducirlo cada vez en iOS 17.",
+      "fr": "Je peux le reproduire à chaque fois sur iOS 17.",
+      "de": "Ich kann es jedes Mal auf iOS 17 reproduzieren.",
+      "it": "Riesco a riprodurlo ogni volta su iOS 17.",
+      "ja": "iOS 17で毎回再現できます。",
+      "ko": "iOS 17에서 매번 재현할 수 있습니다.",
+      "zh-Hans": "我每次都能在iOS 17上重现。",
+      "hi": "मैं iOS 17 पर हर बार इसे दोहरा सकता हूं।",
+      "tr": "iOS 17'de her seferinde yeniden oluşturabiliyorum."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_006",
+    "english": "Let me assign this bug to the backend team.",
+    "context": "Routing a bug to the appropriate team for fixing",
+    "translations": {
+      "pt-BR": "Deixa eu atribuir esse bug para o time de backend.",
+      "es": "Déjame asignar este bug al equipo de backend.",
+      "fr": "Laisse-moi assigner ce bug à l'équipe backend.",
+      "de": "Lass mich diesen Bug dem Backend-Team zuweisen.",
+      "it": "Lasciami assegnare questo bug al team backend.",
+      "ja": "このバグをバックエンドチームに割り当てます。",
+      "ko": "이 버그를 백엔드 팀에 할당하겠습니다.",
+      "zh-Hans": "让我把这个bug分配给后端团队。",
+      "hi": "मुझे यह बग बैकएंड टीम को असाइन करने दें।",
+      "tr": "Bu hatayı backend ekibine atamamıza izin ver."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_007",
+    "english": "Is there a workaround we can suggest to users in the meantime?",
+    "context": "Asking about temporary solutions while the bug is being fixed",
+    "translations": {
+      "pt-BR": "Existe uma solução temporária que podemos sugerir aos usuários enquanto isso?",
+      "es": "¿Hay una solución alternativa que podamos sugerir a los usuarios mientras tanto?",
+      "fr": "Y a-t-il un contournement que nous pouvons suggérer aux utilisateurs en attendant ?",
+      "de": "Gibt es einen Workaround, den wir den Benutzern in der Zwischenzeit vorschlagen können?",
+      "it": "C'è un workaround che possiamo suggerire agli utenti nel frattempo?",
+      "ja": "その間、ユーザーに提案できる回避策はありますか？",
+      "ko": "그동안 사용자에게 제안할 수 있는 임시 해결 방법이 있나요?",
+      "zh-Hans": "在此期间我们可以向用户建议什么临时解决方案吗？",
+      "hi": "क्या इस बीच हम उपयोगकर्ताओं को कोई वैकल्पिक समाधान सुझा सकते हैं?",
+      "tr": "Bu arada kullanıcılara önerebileceğimiz bir geçici çözüm var mı?"
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_008",
+    "english": "This looks like a regression from last week's release.",
+    "context": "Identifying a bug as something that was previously working",
+    "translations": {
+      "pt-BR": "Isso parece uma regressão da release da semana passada.",
+      "es": "Esto parece una regresión del lanzamiento de la semana pasada.",
+      "fr": "Cela ressemble à une régression de la release de la semaine dernière.",
+      "de": "Das sieht nach einer Regression vom Release der letzten Woche aus.",
+      "it": "Sembra una regressione dall'ultimo rilascio della settimana scorsa.",
+      "ja": "これは先週のリリースによるリグレッションのようです。",
+      "ko": "이것은 지난주 릴리스의 회귀 버그인 것 같습니다.",
+      "zh-Hans": "这看起来像是上周发布版本的回归问题。",
+      "hi": "यह पिछले हफ्ते की रिलीज से एक रिग्रेशन लग रहा है।",
+      "tr": "Bu, geçen haftaki sürümden bir regresyon gibi görünüyor."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_009",
+    "english": "I've attached a screenshot showing the error.",
+    "context": "Including visual evidence when reporting a bug",
+    "translations": {
+      "pt-BR": "Anexei uma captura de tela mostrando o erro.",
+      "es": "Adjunté una captura de pantalla mostrando el error.",
+      "fr": "J'ai joint une capture d'écran montrant l'erreur.",
+      "de": "Ich habe einen Screenshot angehängt, der den Fehler zeigt.",
+      "it": "Ho allegato uno screenshot che mostra l'errore.",
+      "ja": "エラーを示すスクリーンショットを添付しました。",
+      "ko": "오류를 보여주는 스크린샷을 첨부했습니다.",
+      "zh-Hans": "我附上了一张显示错误的截图。",
+      "hi": "मैंने त्रुटि दिखाने वाला एक स्क्रीनशॉट संलग्न किया है।",
+      "tr": "Hatayı gösteren bir ekran görüntüsü ekledim."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_010",
+    "english": "What environment are you seeing this on — staging or production?",
+    "context": "Clarifying in which environment the bug occurs",
+    "translations": {
+      "pt-BR": "Em qual ambiente você está vendo isso — staging ou produção?",
+      "es": "¿En qué entorno estás viendo esto — staging o producción?",
+      "fr": "Dans quel environnement voyez-vous ça — staging ou production ?",
+      "de": "In welcher Umgebung siehst du das — Staging oder Produktion?",
+      "it": "In quale ambiente lo stai vedendo — staging o produzione?",
+      "ja": "これはどの環境で発生していますか？ステージングですか、本番ですか？",
+      "ko": "이것은 어떤 환경에서 보이나요 — 스테이징인가요, 프로덕션인가요?",
+      "zh-Hans": "你在哪个环境看到这个问题——预发布还是生产环境？",
+      "hi": "आप इसे किस वातावरण में देख रहे हैं — स्टेजिंग या प्रोडक्शन?",
+      "tr": "Bunu hangi ortamda görüyorsun — staging mi yoksa production mı?"
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_011",
+    "english": "The app crashes when you tap the submit button twice.",
+    "context": "Describing a crash scenario with specific reproduction steps",
+    "translations": {
+      "pt-BR": "O app trava quando você toca no botão de enviar duas vezes.",
+      "es": "La app se cierra cuando tocas el botón de enviar dos veces.",
+      "fr": "L'application plante quand on appuie deux fois sur le bouton envoyer.",
+      "de": "Die App stürzt ab, wenn man zweimal auf den Senden-Button tippt.",
+      "it": "L'app si blocca quando tocchi il pulsante invia due volte.",
+      "ja": "送信ボタンを2回タップするとアプリがクラッシュします。",
+      "ko": "제출 버튼을 두 번 탭하면 앱이 충돌합니다.",
+      "zh-Hans": "当你双击提交按钮时，应用会崩溃。",
+      "hi": "जब आप सबमिट बटन को दो बार टैप करते हैं तो ऐप क्रैश हो जाता है।",
+      "tr": "Gönder butonuna iki kez dokunduğunuzda uygulama çöküyor."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_012",
+    "english": "I'm marking this as high priority since it affects all users.",
+    "context": "Setting the priority level of a bug based on user impact",
+    "translations": {
+      "pt-BR": "Estou marcando isso como alta prioridade já que afeta todos os usuários.",
+      "es": "Estoy marcando esto como alta prioridad ya que afecta a todos los usuarios.",
+      "fr": "Je marque ceci comme haute priorité car cela affecte tous les utilisateurs.",
+      "de": "Ich markiere das als hohe Priorität, da es alle Benutzer betrifft.",
+      "it": "Lo segno come alta priorità perché colpisce tutti gli utenti.",
+      "ja": "全ユーザーに影響するため、これを高優先度に設定します。",
+      "ko": "모든 사용자에게 영향을 미치므로 높은 우선순위로 표시하겠습니다.",
+      "zh-Hans": "由于影响所有用户，我将其标记为高优先级。",
+      "hi": "मैं इसे उच्च प्राथमिकता के रूप में चिह्नित कर रहा हूं क्योंकि यह सभी उपयोगकर्ताओं को प्रभावित करता है।",
+      "tr": "Tüm kullanıcıları etkilediği için bunu yüksek öncelikli olarak işaretliyorum."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_013",
+    "english": "We should add a test case to prevent this from happening again.",
+    "context": "Suggesting preventive measures after fixing a bug",
+    "translations": {
+      "pt-BR": "Devemos adicionar um caso de teste para evitar que isso aconteça novamente.",
+      "es": "Deberíamos agregar un caso de prueba para evitar que esto vuelva a suceder.",
+      "fr": "Nous devrions ajouter un cas de test pour empêcher que cela se reproduise.",
+      "de": "Wir sollten einen Testfall hinzufügen, um zu verhindern, dass das wieder passiert.",
+      "it": "Dovremmo aggiungere un test case per evitare che questo succeda di nuovo.",
+      "ja": "再発を防ぐためにテストケースを追加すべきです。",
+      "ko": "이런 일이 다시 발생하지 않도록 테스트 케이스를 추가해야 합니다.",
+      "zh-Hans": "我们应该添加一个测试用例来防止这种情况再次发生。",
+      "hi": "हमें इसे दोबारा होने से रोकने के लिए एक टेस्ट केस जोड़ना चाहिए।",
+      "tr": "Bunun tekrar olmasını önlemek için bir test senaryosu eklemeliyiz."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_014",
+    "english": "The bug has been fixed and the ticket is ready for QA verification.",
+    "context": "Updating a bug status after the fix is implemented",
+    "translations": {
+      "pt-BR": "O bug foi corrigido e o ticket está pronto para verificação do QA.",
+      "es": "El bug fue corregido y el ticket está listo para verificación de QA.",
+      "fr": "Le bug a été corrigé et le ticket est prêt pour la vérification QA.",
+      "de": "Der Bug wurde behoben und das Ticket ist bereit für die QA-Überprüfung.",
+      "it": "Il bug è stato corretto e il ticket è pronto per la verifica QA.",
+      "ja": "バグは修正済みで、チケットはQA検証の準備ができています。",
+      "ko": "버그가 수정되었고 티켓은 QA 검증 준비가 되었습니다.",
+      "zh-Hans": "Bug已修复，工单已准备好进行QA验证。",
+      "hi": "बग ठीक हो गया है और टिकट QA सत्यापन के लिए तैयार है।",
+      "tr": "Hata düzeltildi ve bilet QA doğrulaması için hazır."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_015",
+    "english": "I'm closing this issue since it's no longer reproducible after the update.",
+    "context": "Closing a bug report that is no longer valid",
+    "translations": {
+      "pt-BR": "Estou fechando esse issue já que não é mais reproduzível após a atualização.",
+      "es": "Estoy cerrando este issue ya que no es reproducible después de la actualización.",
+      "fr": "Je ferme ce problème car il n'est plus reproductible après la mise à jour.",
+      "de": "Ich schließe dieses Issue, da es nach dem Update nicht mehr reproduzierbar ist.",
+      "it": "Chiudo questa issue dato che non è più riproducibile dopo l'aggiornamento.",
+      "ja": "アップデート後に再現できなくなったため、このイシューをクローズします。",
+      "ko": "업데이트 후 더 이상 재현되지 않으므로 이 이슈를 닫겠습니다.",
+      "zh-Hans": "由于更新后不再可重现，我将关闭此问题。",
+      "hi": "मैं इस इशू को बंद कर रहा हूं क्योंकि अपडेट के बाद यह दोहराने योग्य नहीं है।",
+      "tr": "Güncellemeden sonra artık tekrarlanamadığı için bu sorunu kapatıyorum."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_016",
+    "english": "Could this be related to the memory leak we found last sprint?",
+    "context": "Investigating whether a new bug is connected to a known issue",
+    "translations": {
+      "pt-BR": "Isso poderia estar relacionado ao vazamento de memória que encontramos na sprint passada?",
+      "es": "¿Podría esto estar relacionado con la fuga de memoria que encontramos en el sprint pasado?",
+      "fr": "Est-ce que cela pourrait être lié à la fuite mémoire qu'on a trouvée au dernier sprint ?",
+      "de": "Könnte das mit dem Memory Leak zusammenhängen, den wir im letzten Sprint gefunden haben?",
+      "it": "Potrebbe essere collegato al memory leak che abbiamo trovato nello sprint scorso?",
+      "ja": "これは前回のスプリントで見つかったメモリリークと関連がありますか？",
+      "ko": "이것이 지난 스프린트에서 발견한 메모리 누수와 관련이 있을 수 있나요?",
+      "zh-Hans": "这会不会和我们上个迭代发现的内存泄漏有关？",
+      "hi": "क्या यह पिछले स्प्रिंट में पाई गई मेमोरी लीक से संबंधित हो सकता है?",
+      "tr": "Bu, geçen sprintte bulduğumuz bellek sızıntısıyla ilgili olabilir mi?"
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_017",
+    "english": "Please include the device model and OS version in the bug report.",
+    "context": "Requesting environment details for proper bug documentation",
+    "translations": {
+      "pt-BR": "Por favor, inclua o modelo do dispositivo e a versão do sistema operacional no relatório de bug.",
+      "es": "Por favor, incluye el modelo del dispositivo y la versión del sistema operativo en el reporte de bug.",
+      "fr": "Veuillez inclure le modèle de l'appareil et la version de l'OS dans le rapport de bug.",
+      "de": "Bitte gib das Gerätemodell und die OS-Version im Bug-Report an.",
+      "it": "Per favore includi il modello del dispositivo e la versione del sistema operativo nella segnalazione del bug.",
+      "ja": "バグレポートにデバイスモデルとOSバージョンを記載してください。",
+      "ko": "버그 리포트에 디바이스 모델과 OS 버전을 포함해 주세요.",
+      "zh-Hans": "请在bug报告中包含设备型号和操作系统版本。",
+      "hi": "कृपया बग रिपोर्ट में डिवाइस मॉडल और OS वर्शन शामिल करें।",
+      "tr": "Lütfen hata raporuna cihaz modeli ve işletim sistemi sürümünü ekleyin."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_018",
+    "english": "This is a cosmetic issue — the button text is truncated on smaller screens.",
+    "context": "Reporting a low-severity visual bug",
+    "translations": {
+      "pt-BR": "Este é um problema visual — o texto do botão está cortado em telas menores.",
+      "es": "Este es un problema visual — el texto del botón se corta en pantallas más pequeñas.",
+      "fr": "C'est un problème visuel — le texte du bouton est tronqué sur les petits écrans.",
+      "de": "Das ist ein kosmetisches Problem — der Button-Text wird auf kleineren Bildschirmen abgeschnitten.",
+      "it": "Questo è un problema estetico — il testo del pulsante è troncato sugli schermi più piccoli.",
+      "ja": "これは見た目の問題です。小さい画面でボタンのテキストが切れています。",
+      "ko": "이것은 디자인 문제입니다 — 작은 화면에서 버튼 텍스트가 잘립니다.",
+      "zh-Hans": "这是一个视觉问题——按钮文字在较小屏幕上被截断了。",
+      "hi": "यह एक दृश्य समस्या है — छोटी स्क्रीन पर बटन टेक्स्ट कट जाता है।",
+      "tr": "Bu bir görsel sorun — buton metni küçük ekranlarda kırpılıyor."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_019",
+    "english": "I'll open a ticket for this in our issue tracker.",
+    "context": "Creating a formal record of a bug in the project management tool",
+    "translations": {
+      "pt-BR": "Vou abrir um ticket para isso no nosso rastreador de issues.",
+      "es": "Voy a abrir un ticket para esto en nuestro rastreador de issues.",
+      "fr": "Je vais ouvrir un ticket pour ça dans notre outil de suivi.",
+      "de": "Ich werde dafür ein Ticket in unserem Issue-Tracker erstellen.",
+      "it": "Aprirò un ticket per questo nel nostro tracker delle issue.",
+      "ja": "イシュートラッカーにこのチケットを作成します。",
+      "ko": "이슈 트래커에 이 티켓을 생성하겠습니다.",
+      "zh-Hans": "我会在我们的问题追踪器中为此创建一个工单。",
+      "hi": "मैं इसके लिए हमारे इशू ट्रैकर में एक टिकट खोलूंगा।",
+      "tr": "Bunun için sorun takipçimizde bir bilet açacağım."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_020",
+    "english": "The logs show a null pointer exception when the user profile is empty.",
+    "context": "Sharing technical findings from error logs",
+    "translations": {
+      "pt-BR": "Os logs mostram uma exceção de ponteiro nulo quando o perfil do usuário está vazio.",
+      "es": "Los logs muestran una excepción de puntero nulo cuando el perfil de usuario está vacío.",
+      "fr": "Les logs montrent une exception de pointeur nul quand le profil utilisateur est vide.",
+      "de": "Die Logs zeigen eine Null-Pointer-Exception, wenn das Benutzerprofil leer ist.",
+      "it": "I log mostrano un'eccezione di puntatore nullo quando il profilo utente è vuoto.",
+      "ja": "ログにはユーザープロファイルが空の場合にヌルポインタ例外が表示されています。",
+      "ko": "로그에서 사용자 프로필이 비어있을 때 널 포인터 예외가 발생합니다.",
+      "zh-Hans": "日志显示当用户资料为空时出现空指针异常。",
+      "hi": "लॉग में दिख रहा है कि जब यूजर प्रोफाइल खाली होता है तब नल पॉइंटर एक्सेप्शन आता है।",
+      "tr": "Loglar, kullanıcı profili boş olduğunda bir null pointer hatası gösteriyor."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_021",
+    "english": "Is this a known issue or something new?",
+    "context": "Checking if a bug has already been reported before",
+    "translations": {
+      "pt-BR": "Isso é um problema conhecido ou algo novo?",
+      "es": "¿Es un problema conocido o algo nuevo?",
+      "fr": "C'est un problème connu ou quelque chose de nouveau ?",
+      "de": "Ist das ein bekanntes Problem oder etwas Neues?",
+      "it": "È un problema noto o qualcosa di nuovo?",
+      "ja": "これは既知の問題ですか、それとも新しいものですか？",
+      "ko": "이것은 알려진 문제인가요, 아니면 새로운 것인가요?",
+      "zh-Hans": "这是已知问题还是新问题？",
+      "hi": "क्या यह एक ज्ञात समस्या है या कुछ नया?",
+      "tr": "Bu bilinen bir sorun mu yoksa yeni bir şey mi?"
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_022",
+    "english": "I've narrowed it down to the authentication middleware causing the timeout.",
+    "context": "Sharing root cause analysis after investigating a bug",
+    "translations": {
+      "pt-BR": "Identifiquei que o middleware de autenticação está causando o timeout.",
+      "es": "Lo he reducido al middleware de autenticación que causa el timeout.",
+      "fr": "J'ai réduit le problème au middleware d'authentification qui cause le timeout.",
+      "de": "Ich habe es auf die Authentifizierungs-Middleware eingegrenzt, die den Timeout verursacht.",
+      "it": "Ho ristretto il problema al middleware di autenticazione che causa il timeout.",
+      "ja": "認証ミドルウェアがタイムアウトの原因であることを突き止めました。",
+      "ko": "인증 미들웨어가 타임아웃을 일으키는 것으로 범위를 좁혔습니다.",
+      "zh-Hans": "我已将问题缩小到认证中间件导致的超时。",
+      "hi": "मैंने पाया है कि ऑथेंटिकेशन मिडलवेयर टाइमआउट का कारण बन रहा है।",
+      "tr": "Sorunu kimlik doğrulama middleware'inin zaman aşımına neden olmasına kadar daralttım."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_023",
+    "english": "Let's reopen this bug — it's happening again after the latest deploy.",
+    "context": "Reopening a previously closed bug that has reappeared",
+    "translations": {
+      "pt-BR": "Vamos reabrir esse bug — está acontecendo de novo após o último deploy.",
+      "es": "Vamos a reabrir este bug — está sucediendo de nuevo después del último despliegue.",
+      "fr": "Réouvrons ce bug — ça se reproduit après le dernier déploiement.",
+      "de": "Lass uns diesen Bug wieder öffnen — er tritt nach dem letzten Deploy wieder auf.",
+      "it": "Riapriamo questo bug — sta succedendo di nuovo dopo l'ultimo deploy.",
+      "ja": "このバグを再オープンしましょう。最新のデプロイ後にまた発生しています。",
+      "ko": "이 버그를 다시 열겠습니다 — 최근 배포 후에 다시 발생하고 있습니다.",
+      "zh-Hans": "让我们重新打开这个bug——最近一次部署后又出现了。",
+      "hi": "इस बग को फिर से खोलते हैं — नवीनतम डिप्लॉय के बाद यह फिर से हो रहा है।",
+      "tr": "Bu hatayı tekrar açalım — son dağıtımdan sonra tekrar oluyor."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_024",
+    "english": "The fix is in the pull request — can someone review it urgently?",
+    "context": "Requesting an urgent code review for a bug fix",
+    "translations": {
+      "pt-BR": "A correção está no pull request — alguém pode revisá-lo com urgência?",
+      "es": "La corrección está en el pull request — ¿alguien puede revisarlo urgentemente?",
+      "fr": "Le correctif est dans la pull request — quelqu'un peut le relire en urgence ?",
+      "de": "Der Fix ist im Pull Request — kann jemand ihn dringend reviewen?",
+      "it": "La correzione è nella pull request — qualcuno può rivederla urgentemente?",
+      "ja": "修正はプルリクエストにあります。誰か至急レビューしてもらえますか？",
+      "ko": "수정 사항이 풀 리퀘스트에 있습니다 — 누군가 긴급하게 리뷰해 주실 수 있나요?",
+      "zh-Hans": "修复已在拉取请求中——有人可以紧急审查一下吗？",
+      "hi": "फिक्स पुल रिक्वेस्ट में है — क्या कोई इसे तत्काल रिव्यू कर सकता है?",
+      "tr": "Düzeltme pull request'te — biri acil olarak inceleyebilir mi?"
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_025",
+    "english": "We need to hotfix this in production immediately.",
+    "context": "Communicating urgency for a critical production issue",
+    "translations": {
+      "pt-BR": "Precisamos fazer um hotfix disso em produção imediatamente.",
+      "es": "Necesitamos hacer un hotfix de esto en producción inmediatamente.",
+      "fr": "Nous devons hotfixer ça en production immédiatement.",
+      "de": "Wir müssen das sofort in der Produktion hotfixen.",
+      "it": "Dobbiamo fare un hotfix di questo in produzione immediatamente.",
+      "ja": "本番環境にすぐにホットフィックスを適用する必要があります。",
+      "ko": "프로덕션에 즉시 핫픽스를 적용해야 합니다.",
+      "zh-Hans": "我们需要立即对生产环境进行热修复。",
+      "hi": "हमें तुरंत प्रोडक्शन में इसका हॉटफिक्स करना होगा।",
+      "tr": "Bunu hemen production'da hotfix yapmamız gerekiyor."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_026",
+    "english": "I can only reproduce this on slow network connections.",
+    "context": "Describing a bug that appears under specific network conditions",
+    "translations": {
+      "pt-BR": "Só consigo reproduzir isso em conexões de rede lentas.",
+      "es": "Solo puedo reproducir esto en conexiones de red lentas.",
+      "fr": "Je ne peux reproduire ça que sur des connexions réseau lentes.",
+      "de": "Ich kann das nur bei langsamen Netzwerkverbindungen reproduzieren.",
+      "it": "Riesco a riprodurlo solo con connessioni di rete lente.",
+      "ja": "これは低速ネットワーク接続でのみ再現できます。",
+      "ko": "느린 네트워크 연결에서만 이것을 재현할 수 있습니다.",
+      "zh-Hans": "我只能在慢速网络连接下重现这个问题。",
+      "hi": "मैं इसे केवल धीमे नेटवर्क कनेक्शन पर दोहरा सकता हूं।",
+      "tr": "Bunu yalnızca yavaş ağ bağlantılarında yeniden oluşturabiliyorum."
+    },
+    "difficulty": "medium",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_027",
+    "english": "The race condition occurs when two users update the same record simultaneously.",
+    "context": "Describing a concurrency bug with a specific trigger",
+    "translations": {
+      "pt-BR": "A condição de corrida ocorre quando dois usuários atualizam o mesmo registro simultaneamente.",
+      "es": "La condición de carrera ocurre cuando dos usuarios actualizan el mismo registro simultáneamente.",
+      "fr": "La condition de concurrence se produit quand deux utilisateurs mettent à jour le même enregistrement simultanément.",
+      "de": "Die Race Condition tritt auf, wenn zwei Benutzer denselben Datensatz gleichzeitig aktualisieren.",
+      "it": "La race condition si verifica quando due utenti aggiornano lo stesso record contemporaneamente.",
+      "ja": "2人のユーザーが同じレコードを同時に更新すると、レースコンディションが発生します。",
+      "ko": "두 사용자가 동시에 같은 레코드를 업데이트할 때 경쟁 조건이 발생합니다.",
+      "zh-Hans": "当两个用户同时更新同一条记录时会出现竞态条件。",
+      "hi": "जब दो उपयोगकर्ता एक ही रिकॉर्ड को एक साथ अपडेट करते हैं तब रेस कंडीशन होती है।",
+      "tr": "İki kullanıcı aynı kaydı aynı anda güncellediğinde yarış durumu oluşuyor."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_028",
+    "english": "I'm going to add more logging to help us debug this issue.",
+    "context": "Planning to add observability to investigate a hard-to-reproduce bug",
+    "translations": {
+      "pt-BR": "Vou adicionar mais logging para nos ajudar a debugar esse problema.",
+      "es": "Voy a agregar más logging para ayudarnos a depurar este problema.",
+      "fr": "Je vais ajouter plus de logging pour nous aider à déboguer ce problème.",
+      "de": "Ich werde mehr Logging hinzufügen, um uns beim Debuggen dieses Problems zu helfen.",
+      "it": "Aggiungerò più logging per aiutarci a fare il debug di questo problema.",
+      "ja": "この問題のデバッグに役立つよう、ログを追加します。",
+      "ko": "이 문제를 디버깅하는 데 도움이 되도록 로깅을 추가하겠습니다.",
+      "zh-Hans": "我打算添加更多日志来帮助我们调试这个问题。",
+      "hi": "मैं इस समस्या को डिबग करने में मदद के लिए अधिक लॉगिंग जोड़ने जा रहा हूं।",
+      "tr": "Bu sorunu ayıklamamıza yardımcı olmak için daha fazla log ekleyeceğim."
+    },
+    "difficulty": "easy",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_029",
+    "english": "This edge case wasn't covered in our original test suite, so let's update it.",
+    "context": "Identifying a gap in test coverage that allowed a bug to slip through",
+    "translations": {
+      "pt-BR": "Esse caso extremo não estava coberto na nossa suíte de testes original, então vamos atualizá-la.",
+      "es": "Este caso extremo no estaba cubierto en nuestra suite de pruebas original, así que actualicémosla.",
+      "fr": "Ce cas limite n'était pas couvert dans notre suite de tests originale, donc mettons-la à jour.",
+      "de": "Dieser Grenzfall war in unserer ursprünglichen Testsuite nicht abgedeckt, also aktualisieren wir sie.",
+      "it": "Questo caso limite non era coperto nella nostra suite di test originale, quindi aggiorniamola.",
+      "ja": "このエッジケースは元のテストスイートでカバーされていなかったので、更新しましょう。",
+      "ko": "이 엣지 케이스는 원래 테스트 스위트에서 다루지 않았으니 업데이트합시다.",
+      "zh-Hans": "这个边界情况在我们原来的测试套件中没有覆盖到，所以让我们更新它。",
+      "hi": "यह एज केस हमारी मूल टेस्ट सूट में कवर नहीं था, तो चलिए इसे अपडेट करते हैं।",
+      "tr": "Bu uç durum orijinal test paketimizde kapsanmamıştı, o yüzden güncelleyelim."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  },
+  {
+    "id": "bugReports_030",
+    "english": "After investigating, I believe this is a duplicate of issue #342.",
+    "context": "Identifying a bug report as a duplicate of an existing issue",
+    "translations": {
+      "pt-BR": "Após investigar, acredito que isso é uma duplicata da issue #342.",
+      "es": "Después de investigar, creo que esto es un duplicado del issue #342.",
+      "fr": "Après investigation, je pense que c'est un doublon de l'issue #342.",
+      "de": "Nach der Untersuchung glaube ich, dass dies ein Duplikat von Issue #342 ist.",
+      "it": "Dopo aver indagato, credo che questo sia un duplicato della issue #342.",
+      "ja": "調査の結果、これはイシュー#342の重複だと思います。",
+      "ko": "조사 결과, 이것은 이슈 #342의 중복이라고 생각합니다.",
+      "zh-Hans": "经过调查，我认为这是问题#342的重复。",
+      "hi": "जांच के बाद, मेरा मानना है कि यह इशू #342 का डुप्लिकेट है।",
+      "tr": "Araştırdıktan sonra, bunun #342 numaralı sorunun kopyası olduğuna inanıyorum."
+    },
+    "difficulty": "hard",
+    "category": "bugReports"
+  }
+]

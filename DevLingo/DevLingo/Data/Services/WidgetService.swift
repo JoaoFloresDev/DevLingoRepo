@@ -32,7 +32,7 @@ final class WidgetService {
         }
 
         if let data = try? JSONEncoder().encode(widgetPhrases) {
-            storage?.set(data, forKey: "widgetPhrases")
+            storage?.set(data, forKey: StorageKeys.widgetPhrases)
         }
 
         WidgetCenter.shared.reloadTimelines(ofKind: AppConstants.widgetKind)

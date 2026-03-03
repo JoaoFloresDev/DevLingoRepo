@@ -89,8 +89,8 @@ struct DevLingoWidget: Widget {
             DevLingoWidgetView(entry: entry)
                 .containerBackground(Color(hex: "000000"), for: .widget)
         }
-        .configurationDisplayName("DevLingo")
-        .description("Learn English phrases for developers")
+        .configurationDisplayName(String(localized: "widget.name"))
+        .description(String(localized: "widget.description"))
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "meetings_001",
+    "english": "Let's go over the sprint backlog.",
+    "context": "Starting a sprint planning session by reviewing pending items",
+    "translations": {
+      "pt-BR": "Vamos revisar o backlog da sprint.",
+      "es": "Vamos a revisar el backlog del sprint.",
+      "fr": "Passons en revue le backlog du sprint.",
+      "de": "Gehen wir das Sprint-Backlog durch.",
+      "it": "Rivediamo il backlog dello sprint.",
+      "ja": "スプリントバックログを確認しましょう。",
+      "ko": "스프린트 백로그를 살펴봅시다.",
+      "zh-Hans": "我们来看一下冲刺待办事项。",
+      "hi": "चलिए स्प्रिंट बैकलॉग की समीक्षा करते हैं।",
+      "tr": "Sprint backlog'unu gözden geçirelim."
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_002",
+    "english": "How many story points do we have capacity for?",
+    "context": "Discussing team bandwidth during sprint planning",
+    "translations": {
+      "pt-BR": "Quantos story points temos capacidade para assumir?",
+      "es": "Para cuantos story points tenemos capacidad?",
+      "fr": "Combien de story points avons-nous la capacité de prendre ?",
+      "de": "Für wie viele Story Points haben wir Kapazität?",
+      "it": "Quanti story point abbiamo capacità di gestire?",
+      "ja": "何ストーリーポイント分の余力がありますか？",
+      "ko": "몇 스토리 포인트를 처리할 수 있나요?",
+      "zh-Hans": "我们有多少故事点的处理能力？",
+      "hi": "हम कितने स्टोरी पॉइंट्स की क्षमता रखते हैं?",
+      "tr": "Kaç story point kapasitemiz var?"
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_003",
+    "english": "Can someone give a quick demo of the new feature?",
+    "context": "Requesting a live demonstration during a sprint review or demo meeting",
+    "translations": {
+      "pt-BR": "Alguém pode fazer uma demo rápida da nova funcionalidade?",
+      "es": "Alguien puede hacer una demo rápida de la nueva funcionalidad?",
+      "fr": "Quelqu'un peut faire une démo rapide de la nouvelle fonctionnalité ?",
+      "de": "Kann jemand eine kurze Demo des neuen Features geben?",
+      "it": "Qualcuno può fare una demo rapida della nuova funzionalità?",
+      "ja": "新機能のクイックデモをしてもらえますか？",
+      "ko": "새 기능에 대해 간단한 데모를 해줄 수 있나요?",
+      "zh-Hans": "谁能快速演示一下新功能？",
+      "hi": "क्या कोई नई फीचर का त्वरित डेमो दे सकता है?",
+      "tr": "Birisi yeni özelliğin kısa bir demosunu yapabilir mi?"
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_004",
+    "english": "What went well in this sprint?",
+    "context": "Opening question in a retrospective meeting",
+    "translations": {
+      "pt-BR": "O que deu certo nesta sprint?",
+      "es": "Qué salió bien en este sprint?",
+      "fr": "Qu'est-ce qui s'est bien passé dans ce sprint ?",
+      "de": "Was lief gut in diesem Sprint?",
+      "it": "Cosa è andato bene in questo sprint?",
+      "ja": "このスプリントでうまくいったことは何ですか？",
+      "ko": "이번 스프린트에서 잘된 점은 무엇인가요?",
+      "zh-Hans": "这个冲刺中什么做得好？",
+      "hi": "इस स्प्रिंट में क्या अच्छा रहा?",
+      "tr": "Bu sprintte ne iyi gitti?"
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_005",
+    "english": "Let's timebox this discussion to ten minutes.",
+    "context": "Setting a time limit to keep the meeting focused",
+    "translations": {
+      "pt-BR": "Vamos limitar esta discussão a dez minutos.",
+      "es": "Limitemos esta discusión a diez minutos.",
+      "fr": "Limitons cette discussion à dix minutes.",
+      "de": "Begrenzen wir diese Diskussion auf zehn Minuten.",
+      "it": "Limitiamo questa discussione a dieci minuti.",
+      "ja": "この議論は10分に制限しましょう。",
+      "ko": "이 논의를 10분으로 제한합시다.",
+      "zh-Hans": "我们把这个讨论限制在十分钟内。",
+      "hi": "इस चर्चा को दस मिनट तक सीमित रखते हैं।",
+      "tr": "Bu tartışmayı on dakikayla sınırlayalım."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_006",
+    "english": "I'd like to discuss my career growth in our one-on-one.",
+    "context": "Bringing up professional development in a 1:1 meeting with a manager",
+    "translations": {
+      "pt-BR": "Gostaria de discutir meu crescimento profissional na nossa one-on-one.",
+      "es": "Me gustaría hablar sobre mi crecimiento profesional en nuestra reunión individual.",
+      "fr": "J'aimerais discuter de mon évolution de carrière lors de notre entretien individuel.",
+      "de": "Ich möchte in unserem Einzelgespräch über meine Karriereentwicklung sprechen.",
+      "it": "Vorrei discutere della mia crescita professionale nel nostro incontro individuale.",
+      "ja": "1on1でキャリアの成長について話し合いたいです。",
+      "ko": "일대일 미팅에서 제 커리어 성장에 대해 논의하고 싶습니다.",
+      "zh-Hans": "我想在我们的一对一会议中讨论我的职业发展。",
+      "hi": "मैं हमारी वन-ऑन-वन मीटिंग में अपने करियर ग्रोथ पर चर्चा करना चाहता हूं।",
+      "tr": "Bire bir görüşmemizde kariyer gelişimimi tartışmak istiyorum."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_007",
+    "english": "Could you elaborate on the acceptance criteria for this story?",
+    "context": "Asking for clarification on requirements during sprint planning",
+    "translations": {
+      "pt-BR": "Você poderia detalhar os critérios de aceitação desta story?",
+      "es": "Podrías detallar los criterios de aceptación de esta historia?",
+      "fr": "Pourriez-vous détailler les critères d'acceptation de cette story ?",
+      "de": "Könnten Sie die Akzeptanzkriterien für diese Story erläutern?",
+      "it": "Potresti approfondire i criteri di accettazione di questa story?",
+      "ja": "このストーリーの受け入れ基準について詳しく説明してもらえますか？",
+      "ko": "이 스토리의 인수 기준에 대해 자세히 설명해 주시겠어요?",
+      "zh-Hans": "你能详细说明一下这个用户故事的验收标准吗？",
+      "hi": "क्या आप इस स्टोरी के स्वीकृति मानदंडों को विस्तार से बता सकते हैं?",
+      "tr": "Bu hikayenin kabul kriterlerini detaylandırabilir misiniz?"
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_008",
+    "english": "I think we should prioritize the bug fixes over new features.",
+    "context": "Suggesting priority changes during a planning or roadmap meeting",
+    "translations": {
+      "pt-BR": "Acho que devemos priorizar as correções de bugs em vez de novas funcionalidades.",
+      "es": "Creo que deberíamos priorizar las correcciones de errores sobre las nuevas funcionalidades.",
+      "fr": "Je pense que nous devrions prioriser les corrections de bugs plutôt que les nouvelles fonctionnalités.",
+      "de": "Ich denke, wir sollten die Bugfixes den neuen Features vorziehen.",
+      "it": "Penso che dovremmo dare priorità alle correzioni di bug rispetto alle nuove funzionalità.",
+      "ja": "新機能よりバグ修正を優先すべきだと思います。",
+      "ko": "새 기능보다 버그 수정을 우선시해야 한다고 생각합니다.",
+      "zh-Hans": "我认为我们应该优先修复缺陷而不是开发新功能。",
+      "hi": "मुझे लगता है हमें नई सुविधाओं की बजाय बग फिक्स को प्राथमिकता देनी चाहिए।",
+      "tr": "Yeni özellikler yerine hata düzeltmelerini önceliklendirmemiz gerektiğini düşünüyorum."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_009",
+    "english": "Let's capture this as an action item.",
+    "context": "Recording a task or follow-up during any meeting",
+    "translations": {
+      "pt-BR": "Vamos registrar isso como um item de ação.",
+      "es": "Registremos esto como un punto de acción.",
+      "fr": "Notons cela comme un point d'action.",
+      "de": "Halten wir das als Aktionspunkt fest.",
+      "it": "Registriamo questo come punto d'azione.",
+      "ja": "これをアクションアイテムとして記録しましょう。",
+      "ko": "이것을 액션 아이템으로 기록합시다.",
+      "zh-Hans": "我们把这个记录为行动项。",
+      "hi": "इसे एक एक्शन आइटम के रूप में दर्ज करते हैं।",
+      "tr": "Bunu bir aksiyon maddesi olarak kayıt edelim."
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_010",
+    "english": "Who is going to be the owner of this task?",
+    "context": "Assigning responsibility for a task during planning",
+    "translations": {
+      "pt-BR": "Quem vai ser o responsável por esta tarefa?",
+      "es": "Quién va a ser el responsable de esta tarea?",
+      "fr": "Qui va être le responsable de cette tâche ?",
+      "de": "Wer übernimmt die Verantwortung für diese Aufgabe?",
+      "it": "Chi sarà il responsabile di questo compito?",
+      "ja": "このタスクのオーナーは誰になりますか？",
+      "ko": "이 작업의 담당자는 누구인가요?",
+      "zh-Hans": "谁来负责这个任务？",
+      "hi": "इस कार्य का मालिक कौन होगा?",
+      "tr": "Bu görevin sorumlusu kim olacak?"
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_011",
+    "english": "What could we have done differently to avoid the delay?",
+    "context": "Reflecting on process improvements during a retrospective",
+    "translations": {
+      "pt-BR": "O que poderíamos ter feito diferente para evitar o atraso?",
+      "es": "Qué podríamos haber hecho diferente para evitar el retraso?",
+      "fr": "Qu'aurions-nous pu faire différemment pour éviter le retard ?",
+      "de": "Was hätten wir anders machen können, um die Verzögerung zu vermeiden?",
+      "it": "Cosa avremmo potuto fare diversamente per evitare il ritardo?",
+      "ja": "遅延を避けるために何を違うやり方でできたでしょうか？",
+      "ko": "지연을 피하기 위해 무엇을 다르게 할 수 있었을까요?",
+      "zh-Hans": "我们本可以做些什么不同的事情来避免延迟？",
+      "hi": "देरी से बचने के लिए हम क्या अलग कर सकते थे?",
+      "tr": "Gecikmeyi önlemek için neleri farklı yapabilirdik?"
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_012",
+    "english": "I estimate this ticket at five story points.",
+    "context": "Providing a size estimate during planning poker or estimation",
+    "translations": {
+      "pt-BR": "Eu estimo este ticket em cinco story points.",
+      "es": "Estimo este ticket en cinco story points.",
+      "fr": "J'estime ce ticket à cinq story points.",
+      "de": "Ich schätze dieses Ticket auf fünf Story Points.",
+      "it": "Stimo questo ticket a cinque story point.",
+      "ja": "このチケットを5ストーリーポイントと見積もります。",
+      "ko": "이 티켓을 5 스토리 포인트로 추정합니다.",
+      "zh-Hans": "我估计这个工单是五个故事点。",
+      "hi": "मैं इस टिकट को पांच स्टोरी पॉइंट्स पर अनुमानित करता हूं।",
+      "tr": "Bu ticket'ı beş story point olarak tahmin ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_013",
+    "english": "Are there any dependencies we should be aware of before committing to this scope?",
+    "context": "Identifying risks and blockers during sprint planning",
+    "translations": {
+      "pt-BR": "Existem dependências que devemos considerar antes de nos comprometer com este escopo?",
+      "es": "Hay dependencias que deberíamos tener en cuenta antes de comprometernos con este alcance?",
+      "fr": "Y a-t-il des dépendances dont nous devrions être conscients avant de nous engager sur ce périmètre ?",
+      "de": "Gibt es Abhängigkeiten, die wir kennen sollten, bevor wir uns auf diesen Umfang festlegen?",
+      "it": "Ci sono dipendenze di cui dovremmo essere consapevoli prima di impegnarci in questo ambito?",
+      "ja": "このスコープにコミットする前に把握すべき依存関係はありますか？",
+      "ko": "이 범위에 커밋하기 전에 알아야 할 종속성이 있나요?",
+      "zh-Hans": "在承诺这个范围之前，有什么依赖关系需要注意吗？",
+      "hi": "इस स्कोप के लिए प्रतिबद्ध होने से पहले क्या कोई निर्भरताएं हैं जिनका ध्यान रखना चाहिए?",
+      "tr": "Bu kapsama bağlanmadan önce bilmemiz gereken bağımlılıklar var mı?"
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_014",
+    "english": "Let's park that topic and come back to it later.",
+    "context": "Deferring an off-topic discussion to keep the meeting on track",
+    "translations": {
+      "pt-BR": "Vamos deixar esse assunto de lado e voltar a ele depois.",
+      "es": "Dejemos ese tema para después y volvamos a él más tarde.",
+      "fr": "Mettons ce sujet de côté et revenons-y plus tard.",
+      "de": "Stellen wir dieses Thema zurück und kommen später darauf zurück.",
+      "it": "Mettiamo da parte questo argomento e torniamoci dopo.",
+      "ja": "そのトピックは後回しにして、後で戻りましょう。",
+      "ko": "그 주제는 나중에 다시 돌아오기로 합시다.",
+      "zh-Hans": "我们先把这个话题搁置，之后再讨论。",
+      "hi": "इस विषय को बाद के लिए छोड़ते हैं और बाद में वापस आते हैं।",
+      "tr": "Bu konuyu şimdilik bir kenara bırakıp daha sonra dönelim."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_015",
+    "english": "The stakeholders want a progress update by end of week.",
+    "context": "Communicating deadlines from management during a team meeting",
+    "translations": {
+      "pt-BR": "Os stakeholders querem uma atualização de progresso até o final da semana.",
+      "es": "Los stakeholders quieren una actualización de progreso para el final de la semana.",
+      "fr": "Les parties prenantes veulent une mise à jour de l'avancement d'ici la fin de la semaine.",
+      "de": "Die Stakeholder möchten bis Ende der Woche ein Fortschrittsupdate.",
+      "it": "Gli stakeholder vogliono un aggiornamento sui progressi entro fine settimana.",
+      "ja": "ステークホルダーが週末までに進捗報告を求めています。",
+      "ko": "이해관계자들이 이번 주 말까지 진행 상황 업데이트를 원합니다.",
+      "zh-Hans": "利益相关者希望在本周末之前收到进度更新。",
+      "hi": "स्टेकहोल्डर्स सप्ताह के अंत तक प्रगति अपडेट चाहते हैं।",
+      "tr": "Paydaşlar hafta sonuna kadar ilerleme güncellemesi istiyor."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_016",
+    "english": "Can we break this epic down into smaller, more manageable stories?",
+    "context": "Suggesting task decomposition during backlog refinement or planning",
+    "translations": {
+      "pt-BR": "Podemos quebrar esse epic em stories menores e mais gerenciáveis?",
+      "es": "Podemos dividir esta épica en historias más pequeñas y manejables?",
+      "fr": "Peut-on découper cette epic en stories plus petites et plus gérables ?",
+      "de": "Können wir dieses Epic in kleinere, besser handhabbare Stories aufteilen?",
+      "it": "Possiamo suddividere questa epic in storie più piccole e gestibili?",
+      "ja": "このエピックをより小さく管理しやすいストーリーに分割できますか？",
+      "ko": "이 에픽을 더 작고 관리하기 쉬운 스토리로 나눌 수 있을까요?",
+      "zh-Hans": "我们能把这个史诗拆分成更小、更易管理的故事吗？",
+      "hi": "क्या हम इस एपिक को छोटी, अधिक प्रबंधनीय स्टोरीज में तोड़ सकते हैं?",
+      "tr": "Bu epic'i daha küçük ve yönetilebilir hikayelere bölebilir miyiz?"
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_017",
+    "english": "Does anyone have questions before we wrap up?",
+    "context": "Closing a meeting and checking for final questions",
+    "translations": {
+      "pt-BR": "Alguém tem perguntas antes de encerrarmos?",
+      "es": "Alguien tiene preguntas antes de terminar?",
+      "fr": "Est-ce que quelqu'un a des questions avant qu'on termine ?",
+      "de": "Hat jemand noch Fragen, bevor wir abschließen?",
+      "it": "Qualcuno ha domande prima di concludere?",
+      "ja": "終わる前に質問はありますか？",
+      "ko": "마무리하기 전에 질문 있으신 분 계신가요?",
+      "zh-Hans": "在我们结束之前有人有问题吗？",
+      "hi": "समाप्त करने से पहले किसी के कोई प्रश्न हैं?",
+      "tr": "Toplantıyı bitirmeden önce sorusu olan var mı?"
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_018",
+    "english": "I need to raise a concern about our current velocity.",
+    "context": "Bringing up a performance issue in a retro or planning meeting",
+    "translations": {
+      "pt-BR": "Preciso levantar uma preocupação sobre nossa velocidade atual.",
+      "es": "Necesito plantear una preocupación sobre nuestra velocidad actual.",
+      "fr": "Je dois soulever une préoccupation concernant notre vélocité actuelle.",
+      "de": "Ich muss eine Sorge bezüglich unserer aktuellen Velocity ansprechen.",
+      "it": "Devo sollevare una preoccupazione sulla nostra velocità attuale.",
+      "ja": "現在のベロシティについて懸念を提起する必要があります。",
+      "ko": "현재 벨로시티에 대해 우려 사항을 제기하고 싶습니다.",
+      "zh-Hans": "我需要就我们目前的速度提出一个关切。",
+      "hi": "मुझे हमारी वर्तमान वेलोसिटी के बारे में एक चिंता उठानी है।",
+      "tr": "Mevcut hızımız hakkında bir endişe dile getirmem gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_019",
+    "english": "Let's do a round of planning poker for this story.",
+    "context": "Initiating estimation using the planning poker technique",
+    "translations": {
+      "pt-BR": "Vamos fazer uma rodada de planning poker para esta story.",
+      "es": "Hagamos una ronda de planning poker para esta historia.",
+      "fr": "Faisons un tour de planning poker pour cette story.",
+      "de": "Machen wir eine Runde Planning Poker für diese Story.",
+      "it": "Facciamo un giro di planning poker per questa story.",
+      "ja": "このストーリーについてプランニングポーカーをしましょう。",
+      "ko": "이 스토리에 대해 플래닝 포커를 해봅시다.",
+      "zh-Hans": "我们来对这个故事做一轮计划扑克。",
+      "hi": "इस स्टोरी के लिए प्लानिंग पोकर का एक राउंड करते हैं।",
+      "tr": "Bu hikaye için bir tur planlama pokeri yapalım."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_020",
+    "english": "The demo environment is set up and ready to go.",
+    "context": "Confirming that the staging or demo system is prepared for a live demo",
+    "translations": {
+      "pt-BR": "O ambiente de demo está configurado e pronto.",
+      "es": "El entorno de demo está configurado y listo.",
+      "fr": "L'environnement de démo est configuré et prêt.",
+      "de": "Die Demo-Umgebung ist eingerichtet und bereit.",
+      "it": "L'ambiente di demo è configurato e pronto.",
+      "ja": "デモ環境はセットアップ済みで準備完了です。",
+      "ko": "데모 환경이 설정되어 준비 완료되었습니다.",
+      "zh-Hans": "演示环境已搭建完毕，随时可以开始。",
+      "hi": "डेमो एनवायरनमेंट सेटअप हो गया है और तैयार है।",
+      "tr": "Demo ortamı kuruldu ve hazır."
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_021",
+    "english": "We should address the tech debt we accumulated last quarter before taking on new work.",
+    "context": "Advocating for refactoring during a roadmap or planning discussion",
+    "translations": {
+      "pt-BR": "Devemos resolver a dívida técnica acumulada no último trimestre antes de assumir novos trabalhos.",
+      "es": "Deberíamos abordar la deuda técnica que acumulamos el último trimestre antes de asumir nuevo trabajo.",
+      "fr": "Nous devrions traiter la dette technique accumulée le trimestre dernier avant de prendre de nouveaux travaux.",
+      "de": "Wir sollten die technische Schuld, die wir letztes Quartal angesammelt haben, angehen, bevor wir neue Arbeit übernehmen.",
+      "it": "Dovremmo affrontare il debito tecnico accumulato lo scorso trimestre prima di prendere nuovo lavoro.",
+      "ja": "新しい作業に取り掛かる前に、前四半期に蓄積した技術的負債に対処すべきです。",
+      "ko": "새 작업을 맡기 전에 지난 분기에 쌓인 기술 부채를 해결해야 합니다.",
+      "zh-Hans": "在承接新工作之前，我们应该先处理上季度积累的技术债务。",
+      "hi": "नया काम लेने से पहले हमें पिछली तिमाही में जमा हुए तकनीकी कर्ज को संबोधित करना चाहिए।",
+      "tr": "Yeni iş almadan önce geçen çeyrekte biriktirdiğimiz teknik borcu ele almalıyız."
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_022",
+    "english": "Can you walk us through the user flow in the prototype?",
+    "context": "Requesting a walkthrough of a design prototype during a demo or review meeting",
+    "translations": {
+      "pt-BR": "Você pode nos guiar pelo fluxo do usuário no protótipo?",
+      "es": "Puedes guiarnos por el flujo del usuario en el prototipo?",
+      "fr": "Pouvez-vous nous montrer le parcours utilisateur dans le prototype ?",
+      "de": "Können Sie uns den Benutzerfluss im Prototyp durchgehen?",
+      "it": "Puoi guidarci attraverso il flusso utente nel prototipo?",
+      "ja": "プロトタイプのユーザーフローを説明してもらえますか？",
+      "ko": "프로토타입에서 사용자 흐름을 설명해 주시겠어요?",
+      "zh-Hans": "你能带我们看一下原型中的用户流程吗？",
+      "hi": "क्या आप प्रोटोटाइप में यूजर फ्लो के बारे में बता सकते हैं?",
+      "tr": "Prototipteki kullanıcı akışını bize anlatabilir misiniz?"
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_023",
+    "english": "I feel like our communication between teams could improve.",
+    "context": "Sharing feedback about cross-team collaboration in a retrospective",
+    "translations": {
+      "pt-BR": "Sinto que nossa comunicação entre equipes poderia melhorar.",
+      "es": "Siento que nuestra comunicación entre equipos podría mejorar.",
+      "fr": "Je pense que notre communication inter-équipes pourrait s'améliorer.",
+      "de": "Ich finde, unsere Kommunikation zwischen den Teams könnte sich verbessern.",
+      "it": "Sento che la nostra comunicazione tra i team potrebbe migliorare.",
+      "ja": "チーム間のコミュニケーションは改善できると感じています。",
+      "ko": "팀 간 커뮤니케이션이 개선될 수 있다고 느낍니다.",
+      "zh-Hans": "我觉得我们团队之间的沟通可以改进。",
+      "hi": "मुझे लगता है टीमों के बीच हमारा संवाद बेहतर हो सकता है।",
+      "tr": "Takımlar arası iletişimimizin iyileşebileceğini düşünüyorum."
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_024",
+    "english": "Is this within the scope of the current sprint, or should we push it to the next one?",
+    "context": "Clarifying whether a task belongs in the current or next sprint during planning",
+    "translations": {
+      "pt-BR": "Isso está no escopo da sprint atual ou devemos empurrar para a próxima?",
+      "es": "Esto está dentro del alcance del sprint actual o deberíamos pasarlo al siguiente?",
+      "fr": "Est-ce dans le périmètre du sprint actuel ou devrait-on le reporter au suivant ?",
+      "de": "Liegt das im Umfang des aktuellen Sprints oder sollten wir es in den nächsten verschieben?",
+      "it": "Questo rientra nell'ambito dello sprint attuale o dovremmo spostarlo al prossimo?",
+      "ja": "これは現在のスプリントの範囲内ですか、それとも次に回すべきですか？",
+      "ko": "이것은 현재 스프린트 범위 안인가요, 아니면 다음으로 미뤄야 하나요?",
+      "zh-Hans": "这在当前冲刺的范围内吗，还是应该推到下一个？",
+      "hi": "क्या यह वर्तमान स्प्रिंट के दायरे में है, या हमें इसे अगले में डालना चाहिए?",
+      "tr": "Bu mevcut sprintin kapsamında mı, yoksa bir sonrakine mi erteleyelim?"
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_025",
+    "english": "Let's align on the definition of done for this feature.",
+    "context": "Establishing shared completion criteria during sprint planning or refinement",
+    "translations": {
+      "pt-BR": "Vamos alinhar a definição de pronto para esta funcionalidade.",
+      "es": "Alineemos la definición de terminado para esta funcionalidad.",
+      "fr": "Alignons-nous sur la définition de terminé pour cette fonctionnalité.",
+      "de": "Lassen Sie uns die Definition of Done für dieses Feature abstimmen.",
+      "it": "Allineiamoci sulla definizione di fatto per questa funzionalità.",
+      "ja": "この機能の完了の定義を揃えましょう。",
+      "ko": "이 기능의 완료 정의를 맞춰봅시다.",
+      "zh-Hans": "我们来统一这个功能的完成定义。",
+      "hi": "इस फीचर के लिए 'डन' की परिभाषा पर सहमत हो लेते हैं।",
+      "tr": "Bu özellik için tamamlanma tanımını netleştirelim."
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_026",
+    "english": "I'll share my screen so everyone can follow along.",
+    "context": "Offering to screenshare during a remote meeting or demo",
+    "translations": {
+      "pt-BR": "Vou compartilhar minha tela para todos acompanharem.",
+      "es": "Voy a compartir mi pantalla para que todos puedan seguir.",
+      "fr": "Je vais partager mon écran pour que tout le monde puisse suivre.",
+      "de": "Ich teile meinen Bildschirm, damit alle mitverfolgen können.",
+      "it": "Condivido il mio schermo così tutti possono seguire.",
+      "ja": "皆さんが見られるように画面を共有します。",
+      "ko": "모두 따라올 수 있도록 화면을 공유하겠습니다.",
+      "zh-Hans": "我来分享屏幕，这样大家都可以跟着看。",
+      "hi": "मैं अपनी स्क्रीन शेयर करता हूं ताकि सभी साथ-साथ देख सकें।",
+      "tr": "Herkes takip edebilsin diye ekranımı paylaşacağım."
+    },
+    "difficulty": "easy",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_027",
+    "english": "The rollout plan involves a phased release starting with internal users.",
+    "context": "Explaining a deployment strategy during a roadmap or release planning meeting",
+    "translations": {
+      "pt-BR": "O plano de lançamento envolve uma liberação gradual começando com usuários internos.",
+      "es": "El plan de lanzamiento implica una liberación gradual comenzando con usuarios internos.",
+      "fr": "Le plan de déploiement prévoit une mise en production progressive en commençant par les utilisateurs internes.",
+      "de": "Der Rollout-Plan sieht eine schrittweise Veröffentlichung vor, beginnend mit internen Nutzern.",
+      "it": "Il piano di rilascio prevede un rilascio graduale a partire dagli utenti interni.",
+      "ja": "ロールアウト計画は内部ユーザーから始める段階的リリースです。",
+      "ko": "출시 계획은 내부 사용자부터 시작하는 단계적 릴리스입니다.",
+      "zh-Hans": "发布计划涉及从内部用户开始的分阶段发布。",
+      "hi": "रोलआउट प्लान में आंतरिक उपयोगकर्ताओं से शुरू होने वाली चरणबद्ध रिलीज़ शामिल है।",
+      "tr": "Yayınlama planı, iç kullanıcılarla başlayan aşamalı bir sürüm içeriyor."
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_028",
+    "english": "Can we get a quick status update on each in-progress item?",
+    "context": "Requesting brief updates from team members during a sync or standup-style meeting",
+    "translations": {
+      "pt-BR": "Podemos ter uma atualização rápida de status de cada item em andamento?",
+      "es": "Podemos obtener una actualización rápida del estado de cada elemento en progreso?",
+      "fr": "Peut-on avoir une mise à jour rapide sur chaque élément en cours ?",
+      "de": "Können wir ein kurzes Statusupdate zu jedem laufenden Punkt bekommen?",
+      "it": "Possiamo avere un rapido aggiornamento sullo stato di ogni elemento in corso?",
+      "ja": "進行中の各アイテムについて簡単なステータス更新をもらえますか？",
+      "ko": "진행 중인 각 항목에 대해 간단한 상태 업데이트를 받을 수 있을까요?",
+      "zh-Hans": "我们能快速了解一下每个进行中项目的状态吗？",
+      "hi": "क्या हम प्रत्येक प्रगतिशील आइटम पर एक त्वरित स्थिति अपडेट ले सकते हैं?",
+      "tr": "Devam eden her madde hakkında kısa bir durum güncellemesi alabilir miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_029",
+    "english": "I'd like to propose we adopt a two-week sprint cycle instead of three weeks.",
+    "context": "Suggesting a process change during a retrospective or team meeting",
+    "translations": {
+      "pt-BR": "Gostaria de propor que adotemos um ciclo de sprint de duas semanas em vez de três.",
+      "es": "Me gustaría proponer que adoptemos un ciclo de sprint de dos semanas en lugar de tres.",
+      "fr": "Je voudrais proposer que nous adoptions un cycle de sprint de deux semaines au lieu de trois.",
+      "de": "Ich möchte vorschlagen, dass wir einen zweiwöchigen Sprint-Zyklus statt drei Wochen einführen.",
+      "it": "Vorrei proporre di adottare un ciclo di sprint di due settimane invece di tre.",
+      "ja": "3週間ではなく2週間のスプリントサイクルを採用することを提案したいです。",
+      "ko": "3주 대신 2주 스프린트 주기를 채택할 것을 제안하고 싶습니다.",
+      "zh-Hans": "我想建议我们采用两周的冲刺周期而不是三周。",
+      "hi": "मैं प्रस्ताव रखना चाहता हूं कि हम तीन सप्ताह के बजाय दो सप्ताह का स्प्रिंट साइकल अपनाएं।",
+      "tr": "Üç hafta yerine iki haftalık bir sprint döngüsü benimsememizi önermek istiyorum."
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  },
+  {
+    "id": "meetings_030",
+    "english": "Let's make sure we have clear action items before ending this meeting.",
+    "context": "Ensuring accountability and follow-up tasks are documented before closing",
+    "translations": {
+      "pt-BR": "Vamos garantir que temos itens de ação claros antes de encerrar esta reunião.",
+      "es": "Asegurémonos de tener puntos de acción claros antes de terminar esta reunión.",
+      "fr": "Assurons-nous d'avoir des points d'action clairs avant de terminer cette réunion.",
+      "de": "Stellen wir sicher, dass wir klare Aktionspunkte haben, bevor wir dieses Meeting beenden.",
+      "it": "Assicuriamoci di avere punti d'azione chiari prima di concludere questa riunione.",
+      "ja": "この会議を終える前に、明確なアクションアイテムがあることを確認しましょう。",
+      "ko": "이 회의를 끝내기 전에 명확한 액션 아이템이 있는지 확인합시다.",
+      "zh-Hans": "在结束会议之前，确保我们有明确的行动项。",
+      "hi": "इस मीटिंग को समाप्त करने से पहले सुनिश्चित करें कि हमारे पास स्पष्ट एक्शन आइटम हैं।",
+      "tr": "Bu toplantıyı bitirmeden önce net aksiyon maddeleri olduğundan emin olalım."
+    },
+    "difficulty": "hard",
+    "category": "meetings"
+  }
+]

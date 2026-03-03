@@ -252,6 +252,7 @@ struct OnboardingView: View {
                 .background(AppColors.primary)
                 .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
         }
+        .pressAnimation()
     }
 
     // MARK: - Option Card
