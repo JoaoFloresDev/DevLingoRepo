@@ -1,7 +1,7 @@
 import UserNotifications
 import Foundation
 
-/// Manages local notifications including phrase delivery.
+/// Manages local notifications — all notifications show phrases.
 final class NotificationService {
     // MARK: - Singleton
 
@@ -10,7 +10,6 @@ final class NotificationService {
     // MARK: - Properties
 
     private let center = UNUserNotificationCenter.current()
-    private let storage = StorageService.shared
 
     // MARK: - Init
 
@@ -26,91 +25,63 @@ final class NotificationService {
         }
     }
 
-    // MARK: - Daily Reminder
-
-    func scheduleDailyReminder(at hour: Int, minute: Int) {
-        center.removePendingNotificationRequests(withIdentifiers: [AppConstants.dailyReminderNotification])
-
-        let content = UNMutableNotificationContent()
-        content.title = String(localized: "notification.daily_reminder.title")
-        content.body = String(localized: "notification.daily_reminder.body")
-        content.sound = .default
-
-        var dateComponents = DateComponents()
-        dateComponents.hour = hour
-        dateComponents.minute = minute
-
-        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
-        let request = UNNotificationRequest(
-            identifier: AppConstants.dailyReminderNotification,
-            content: content,
-            trigger: trigger
-        )
-
-        center.add(request)
-    }
-
-    // MARK: - Phrase Notifications (1 to 4 per day)
+    // MARK: - Schedule Phrase Notifications
 
     func schedulePhraseNotifications(phrases: [Phrase], language: UserLanguage, count: Int) {
-        // Remove old phrase notifications
-        let ids = (0..<4).map { "devlingo.phrase.notification.\($0)" }
-        center.removePendingNotificationRequests(withIdentifiers: ids)
+        center.removeAllPendingNotificationRequests()
 
         guard count > 0, !phrases.isEmpty else { return }
 
-        // Spread notifications across waking hours (9am to 8pm)
-        let startHour = 9
-        let endHour = 20
-        let interval = (endHour - startHour) / max(count, 1)
+        let clampedCount = min(count, 4)
 
-        let selectedPhrases = Array(phrases.shuffled().prefix(min(count, 4)))
+        // Spread notifications across waking hours
+        let hours: [Int] = {
+            switch clampedCount {
+            case 1: return [10]
+            case 2: return [9, 18]
+            case 3: return [9, 14, 19]
+            case 4: return [9, 12, 16, 20]
+            default: return [10]
+            }
+        }()
 
-        for (index, phrase) in selectedPhrases.enumerated() {
-            let content = UNMutableNotificationContent()
-            content.title = "💬 \(phrase.english)"
-            content.body = phrase.context
-            content.subtitle = phrase.translation(for: language)
-            content.sound = .default
+        // Schedule for the next 7 days with different phrases each day
+        let shuffled = phrases.shuffled()
+        var phraseIndex = 0
 
-            var dateComponents = DateComponents()
-            dateComponents.hour = startHour + (index * interval)
-            dateComponents.minute = 0
+        for day in 0..<7 {
+            for (slotIndex, hour) in hours.enumerated() {
+                let phrase = shuffled[phraseIndex % shuffled.count]
+                phraseIndex += 1
 
-            let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-            let request = UNNotificationRequest(
-                identifier: "devlingo.phrase.notification.\(index)",
-                content: content,
-                trigger: trigger
-            )
+                let content = UNMutableNotificationContent()
+                content.title = "DevLingo"
+                content.body = phrase.english
+                content.sound = .default
 
-            center.add(request)
+                guard let fireDate = Calendar.current.date(
+                    byAdding: .day, value: day, to: Date()
+                ) else { continue }
+
+                var dateComponents = DateComponents()
+                dateComponents.year = Calendar.current.component(.year, from: fireDate)
+                dateComponents.month = Calendar.current.component(.month, from: fireDate)
+                dateComponents.day = Calendar.current.component(.day, from: fireDate)
+                dateComponents.hour = hour
+                dateComponents.minute = 0
+
+                let trigger = UNCalendarNotificationTrigger(
+                    dateMatching: dateComponents, repeats: false
+                )
+                let request = UNNotificationRequest(
+                    identifier: "devlingo.phrase.\(day).\(slotIndex)",
+                    content: content,
+                    trigger: trigger
+                )
+
+                center.add(request)
+            }
         }
-    }
-
-    // MARK: - Streak Reminder
-
-    func scheduleStreakReminder() {
-        center.removePendingNotificationRequests(withIdentifiers: [AppConstants.streakReminderNotification])
-
-        let content = UNMutableNotificationContent()
-        content.title = String(localized: "notification.streak_reminder.title")
-        content.body = String(localized: "notification.streak_reminder.body")
-        content.sound = .default
-
-        // 8 PM reminder
-        var dateComponents = DateComponents()
-        dateComponents.hour = 20
-        dateComponents.minute = 0
-
-        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
-        let request = UNNotificationRequest(
-            identifier: AppConstants.streakReminderNotification,
-            content: content,
-            trigger: trigger
-        )
-
-        center.add(request)
     }
 
     // MARK: - Cancel

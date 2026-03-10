@@ -6,20 +6,12 @@ import SwiftUI
 struct PhraseEntry: TimelineEntry {
     let date: Date
     let english: String
-    let context: String
     let translation: String
-    let category: String
-    let categoryIcon: String
-    let difficulty: String
 
     static let placeholder = PhraseEntry(
         date: .now,
         english: "Can you review my pull request?",
-        context: "Asking a teammate for a code review",
-        translation: "Você pode revisar meu pull request?",
-        category: "Code Review",
-        categoryIcon: "eye.fill",
-        difficulty: "easy"
+        translation: "Você pode revisar meu pull request?"
     )
 }
 
@@ -42,11 +34,7 @@ struct DevLingoTimelineProvider: TimelineProvider {
         completion(PhraseEntry(
             date: .now,
             english: phrase.english,
-            context: phrase.context,
-            translation: phrase.translation,
-            category: phrase.category,
-            categoryIcon: phrase.categoryIcon,
-            difficulty: phrase.difficulty
+            translation: phrase.translation
         ))
     }
 
@@ -60,7 +48,6 @@ struct DevLingoTimelineProvider: TimelineProvider {
             return
         }
 
-        // Create one entry per phrase, rotating every 2 hours throughout the day
         var entries: [PhraseEntry] = []
         let calendar = Calendar.current
         let now = Date()
@@ -72,15 +59,10 @@ struct DevLingoTimelineProvider: TimelineProvider {
             entries.append(PhraseEntry(
                 date: entryDate,
                 english: phrase.english,
-                context: phrase.context,
-                translation: phrase.translation,
-                category: phrase.category,
-                categoryIcon: phrase.categoryIcon,
-                difficulty: phrase.difficulty
+                translation: phrase.translation
             ))
         }
 
-        // Refresh tomorrow morning
         let refreshDate = calendar.date(byAdding: .hour, value: phrases.count * 2, to: now) ?? now
         completion(Timeline(entries: entries, policy: .after(refreshDate)))
     }
@@ -106,7 +88,7 @@ struct WidgetPhrase: Codable {
     let difficulty: String
 }
 
-// MARK: - Widget View
+// MARK: - Widget
 
 struct DevLingoWidget: Widget {
     let kind: String = "DevLingoWidget"
@@ -122,7 +104,7 @@ struct DevLingoWidget: Widget {
     }
 }
 
-// MARK: - Widget Views
+// MARK: - Widget View
 
 struct DevLingoWidgetView: View {
     let entry: PhraseEntry
@@ -130,156 +112,47 @@ struct DevLingoWidgetView: View {
     @Environment(\.widgetFamily) var family
 
     var body: some View {
+        VStack(spacing: 0) {
+            Spacer()
+
+            Text(entry.english)
+                .font(.system(size: fontSize, weight: .semibold))
+                .foregroundStyle(.white)
+                .multilineTextAlignment(.center)
+                .lineLimit(lineLimit)
+
+            Spacer()
+        }
+        .padding(padding)
+    }
+
+    // MARK: - Sizing
+
+    private var fontSize: CGFloat {
         switch family {
-        case .systemSmall:
-            smallWidget
-        case .systemMedium:
-            mediumWidget
-        case .systemLarge:
-            largeWidget
-        default:
-            mediumWidget
+        case .systemSmall: return 15
+        case .systemMedium: return 17
+        case .systemLarge: return 22
+        default: return 17
         }
     }
 
-    // MARK: - Small
-
-    private var smallWidget: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            HStack(spacing: 4) {
-                Image(systemName: entry.categoryIcon)
-                    .font(.system(size: 10))
-                Text(entry.category)
-                    .font(.system(size: 10, weight: .medium))
-            }
-            .foregroundStyle(Color(hex: "5E5CE6"))
-
-            Spacer()
-
-            Text(entry.english)
-                .font(.system(size: 14, weight: .semibold))
-                .foregroundStyle(.white)
-                .lineLimit(4)
-
-            Spacer()
-
-            difficultyBadge
+    private var lineLimit: Int {
+        switch family {
+        case .systemSmall: return 5
+        case .systemMedium: return 3
+        case .systemLarge: return 6
+        default: return 3
         }
-        .padding(12)
     }
 
-    // MARK: - Medium
-
-    private var mediumWidget: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack {
-                HStack(spacing: 4) {
-                    Image(systemName: entry.categoryIcon)
-                        .font(.system(size: 11))
-                    Text(entry.category)
-                        .font(.system(size: 11, weight: .medium))
-                }
-                .foregroundStyle(Color(hex: "5E5CE6"))
-
-                Spacer()
-
-                difficultyBadge
-            }
-
-            Text(entry.english)
-                .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(.white)
-                .lineLimit(2)
-
-            Text(entry.context)
-                .font(.system(size: 12))
-                .foregroundStyle(Color(hex: "636366"))
-                .lineLimit(1)
-
-            Text(entry.translation)
-                .font(.system(size: 13))
-                .foregroundStyle(Color(hex: "8E8E93"))
-                .lineLimit(2)
+    private var padding: CGFloat {
+        switch family {
+        case .systemSmall: return 14
+        case .systemMedium: return 16
+        case .systemLarge: return 20
+        default: return 16
         }
-        .padding(14)
-    }
-
-    // MARK: - Large
-
-    private var largeWidget: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Image(systemName: "text.bubble.fill")
-                    .font(.system(size: 14))
-                    .foregroundStyle(Color(hex: "5E5CE6"))
-
-                Text("DevLingo")
-                    .font(.system(size: 14, weight: .bold, design: .rounded))
-                    .foregroundStyle(.white)
-
-                Spacer()
-
-                difficultyBadge
-            }
-
-            Divider()
-                .background(Color(hex: "3A3A3C"))
-
-            HStack(spacing: 4) {
-                Image(systemName: entry.categoryIcon)
-                    .font(.system(size: 11))
-                Text(entry.category)
-                    .font(.system(size: 11, weight: .medium))
-            }
-            .foregroundStyle(Color(hex: "5E5CE6"))
-
-            Text(entry.english)
-                .font(.system(size: 20, weight: .semibold))
-                .foregroundStyle(.white)
-                .lineLimit(3)
-
-            HStack(spacing: 6) {
-                RoundedRectangle(cornerRadius: 2)
-                    .fill(Color(hex: "5E5CE6").opacity(0.5))
-                    .frame(width: 3)
-
-                Text(entry.context)
-                    .font(.system(size: 13))
-                    .foregroundStyle(Color(hex: "636366"))
-                    .lineLimit(2)
-            }
-
-            Spacer()
-
-            Text(entry.translation)
-                .font(.system(size: 15))
-                .foregroundStyle(Color(hex: "8E8E93"))
-                .lineLimit(3)
-
-            Spacer()
-        }
-        .padding(16)
-    }
-
-    // MARK: - Difficulty Badge
-
-    private var difficultyBadge: some View {
-        let color: Color = {
-            switch entry.difficulty {
-            case "easy": return Color(hex: "30D158")
-            case "medium": return Color(hex: "FF9F0A")
-            case "hard": return Color(hex: "FF453A")
-            default: return Color(hex: "8E8E93")
-            }
-        }()
-
-        return Text(entry.difficulty.capitalized)
-            .font(.system(size: 9, weight: .bold))
-            .foregroundStyle(color)
-            .padding(.horizontal, 6)
-            .padding(.vertical, 2)
-            .background(color.opacity(0.15))
-            .clipShape(Capsule())
     }
 }
 

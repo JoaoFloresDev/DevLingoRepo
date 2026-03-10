@@ -12,8 +12,8 @@ enum AppConstants {
     static let easyPerDay = 4
     static let mediumPerDay = 4
     static let hardPerDay = 2
-    static let totalPhrases = 3600
-    static let totalCategories = 12
+    static let totalPhrases = 3900
+    static let totalCategories = 13
 
     // MARK: - StoreKit Product IDs (v2)
     static let monthlyProductID = "devlingo.pro.monthly"
@@ -26,10 +26,6 @@ enum AppConstants {
     // MARK: - Defaults
     static let reviewMinimumLaunches = 5
     static let reviewCooldownDays = 60
-
-    // MARK: - Notification Identifiers
-    static let dailyReminderNotification = "devlingo.notification.daily.reminder"
-    static let streakReminderNotification = "devlingo.notification.streak.reminder"
 
     // MARK: - Widget
     static let widgetKind = "DevLingoWidget"

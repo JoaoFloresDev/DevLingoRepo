@@ -119,11 +119,12 @@ struct PhraseCardView: View {
                 Button(action: onSpeak) {
                     HStack(spacing: AppSpacing.xs) {
                         Image(systemName: "speaker.wave.2.fill")
-                            .font(.system(size: 13))
+                            .font(.system(size: 16))
                         Text(String(localized: "phrase.listen"))
-                            .font(AppFonts.caption)
+                            .font(AppFonts.body)
                     }
                     .foregroundStyle(AppColors.primary)
+                    .padding(.vertical, AppSpacing.xs)
                 }
                 .pressAnimation()
 
@@ -134,13 +135,14 @@ struct PhraseCardView: View {
                     } label: {
                         HStack(spacing: AppSpacing.xs) {
                             Image(systemName: showLocalTranslation ? "eye.slash.fill" : "eye.fill")
-                                .font(.system(size: 13))
+                                .font(.system(size: 16))
                             Text(showLocalTranslation
                                  ? String(localized: "phrase.hide_translation")
                                  : String(localized: "phrase.show_translation"))
-                                .font(AppFonts.caption)
+                                .font(AppFonts.body)
                         }
                         .foregroundStyle(AppColors.textSecondary)
+                        .padding(.vertical, AppSpacing.xs)
                     }
                 }
 
@@ -149,8 +151,9 @@ struct PhraseCardView: View {
                 // Save
                 Button(action: onSave) {
                     Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
-                        .font(.system(size: 15))
+                        .font(.system(size: 20))
                         .foregroundStyle(isSaved ? AppColors.accent : AppColors.textTertiary)
+                        .padding(AppSpacing.xs)
                 }
                 .pressAnimation()
             }

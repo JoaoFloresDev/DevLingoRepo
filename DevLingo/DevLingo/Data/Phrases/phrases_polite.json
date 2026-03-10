@@ -9,10 +9,6 @@
       "fr": "Merci pour votre aide sur ce sujet.",
       "de": "Vielen Dank für Ihre Hilfe bei diesem Problem.",
       "it": "Grazie per il tuo aiuto con questo problema.",
-      "ja": "この件についてご協力いただきありがとうございます。",
-      "ko": "이 문제를 도와주셔서 감사합니다.",
-      "zh-Hans": "感谢你在这个问题上的帮助。",
-      "hi": "इस मुद्दे में आपकी मदद के लिए धन्यवाद।",
       "tr": "Bu konudaki yardımınız için teşekkür ederim."
     },
     "difficulty": "easy",
@@ -28,10 +24,6 @@
       "fr": "J'apprécie vraiment que vous ayez pris le temps de relire mon code.",
       "de": "Ich schätze es sehr, dass Sie sich die Zeit genommen haben, meinen Code zu überprüfen.",
       "it": "Apprezzo davvero che tu abbia dedicato del tempo a revisionare il mio codice.",
-      "ja": "コードをレビューしていただきありがとうございます。",
-      "ko": "제 코드를 리뷰하는 데 시간을 내주셔서 정말 감사합니다.",
-      "zh-Hans": "非常感谢你花时间审查我的代码。",
-      "hi": "मेरा कोड रिव्यू करने के लिए समय निकालने के लिए मैं वाकई आभारी हूं।",
       "tr": "Kodumu incelemek için zaman ayırdığınız için gerçekten minnettarım."
     },
     "difficulty": "easy",
@@ -47,10 +39,6 @@
       "fr": "Désolé pour le retard dans ma réponse.",
       "de": "Entschuldigung für die verspätete Rückmeldung.",
       "it": "Scusa per il ritardo nella risposta.",
-      "ja": "返信が遅くなってすみません。",
-      "ko": "답변이 늦어서 죄송합니다.",
-      "zh-Hans": "抱歉回复晚了。",
-      "hi": "जवाब देने में देरी के लिए माफ़ी।",
       "tr": "Geç cevap verdiğim için özür dilerim."
     },
     "difficulty": "easy",
@@ -66,10 +54,6 @@
       "fr": "Pourriez-vous jeter un coup d'œil à ceci quand vous aurez un moment ?",
       "de": "Könnten Sie sich das ansehen, wenn Sie einen Moment Zeit haben?",
       "it": "Potresti dare un'occhiata a questo quando hai un momento?",
-      "ja": "お時間のある時にこちらを見ていただけますか？",
-      "ko": "시간이 되실 때 이것 좀 봐주시겠어요?",
-      "zh-Hans": "方便的时候能看一下这个吗？",
-      "hi": "जब आपको मौका मिले तो क्या आप इसे देख सकते हैं?",
       "tr": "Fırsatınız olduğunda buna bir bakabilir misiniz?"
     },
     "difficulty": "easy",
@@ -85,10 +69,6 @@
       "fr": "Excellent travail sur la nouvelle fonctionnalité ! Elle a l'air vraiment aboutie.",
       "de": "Tolle Arbeit an der neuen Funktion! Sie sieht wirklich ausgereift aus.",
       "it": "Ottimo lavoro sulla nuova funzionalità! Sembra davvero curata.",
-      "ja": "新機能、素晴らしい仕上がりですね！",
-      "ko": "새 기능 훌륭하게 잘 만드셨네요! 정말 완성도가 높아 보입니다.",
-      "zh-Hans": "新功能做得很棒！看起来非常精致。",
-      "hi": "नई फ़ीचर पर बहुत अच्छा काम! बहुत बढ़िया लग रहा है।",
       "tr": "Yeni özellik için harika iş! Gerçekten çok iyi görünüyor."
     },
     "difficulty": "easy",
@@ -104,10 +84,6 @@
       "fr": "Pas de souci du tout, prenez votre temps.",
       "de": "Kein Problem, lassen Sie sich ruhig Zeit.",
       "it": "Non preoccuparti, prenditi il tuo tempo.",
-      "ja": "全然大丈夫です、ゆっくりどうぞ。",
-      "ko": "전혀 괜찮습니다, 천천히 하세요.",
-      "zh-Hans": "完全没关系，慢慢来。",
-      "hi": "कोई बात नहीं, अपना समय लें।",
       "tr": "Hiç sorun değil, acele etmeyin."
     },
     "difficulty": "easy",
@@ -123,10 +99,6 @@
       "fr": "J'aimerais beaucoup avoir votre retour sur cette approche.",
       "de": "Ich würde mich über Ihr Feedback zu diesem Ansatz freuen.",
       "it": "Mi piacerebbe avere il tuo feedback su questo approccio.",
-      "ja": "このアプローチについてご意見をいただけると嬉しいです。",
-      "ko": "이 접근 방식에 대한 피드백을 주시면 감사하겠습니다.",
-      "zh-Hans": "我很想听听你对这个方案的反馈。",
-      "hi": "इस अप्रोच पर आपका फ़ीडबैक मिलें तो बहुत अच्छा होगा।",
       "tr": "Bu yaklaşım hakkında görüşlerinizi almak isterim."
     },
     "difficulty": "easy",
@@ -142,10 +114,6 @@
       "fr": "Merci de l'avoir signalé, je vais le corriger tout de suite.",
       "de": "Danke für den Hinweis, ich werde das sofort beheben.",
       "it": "Grazie per averlo segnalato, lo correggo subito.",
-      "ja": "ご指摘ありがとうございます。すぐに修正します。",
-      "ko": "알려주셔서 감사합니다. 바로 수정하겠습니다.",
-      "zh-Hans": "感谢你指出这个问题，我会立刻修复。",
-      "hi": "यह बताने के लिए धन्यवाद, मैं इसे तुरंत ठीक कर दूंगा।",
       "tr": "Bunu bildirdiğiniz için teşekkürler, hemen düzelteceğim."
     },
     "difficulty": "easy",
@@ -161,10 +129,6 @@
       "fr": "Est-ce que ça vous dérangerait de m'expliquer comment cette partie fonctionne ?",
       "de": "Würde es Ihnen etwas ausmachen, mir zu erklären, wie dieser Teil funktioniert?",
       "it": "Ti dispiacerebbe spiegarmi come funziona questa parte?",
-      "ja": "この部分がどう動くか説明していただけますか？",
-      "ko": "이 부분이 어떻게 작동하는지 설명해 주실 수 있을까요?",
-      "zh-Hans": "你能给我讲讲这部分是怎么工作的吗？",
-      "hi": "क्या आप मुझे बता सकते हैं कि यह हिस्सा कैसे काम करता है?",
       "tr": "Bu kısmın nasıl çalıştığını bana anlatır mısınız?"
     },
     "difficulty": "easy",
@@ -180,10 +144,6 @@
       "fr": "Je comprends votre point de vue, mais j'aimerais suggérer une approche alternative.",
       "de": "Ich verstehe Ihren Standpunkt, aber ich möchte einen alternativen Ansatz vorschlagen.",
       "it": "Capisco il tuo punto, ma vorrei suggerire un approccio alternativo.",
-      "ja": "おっしゃることは理解できますが、別のアプローチを提案させてください。",
-      "ko": "말씀하신 점은 이해하지만, 대안적인 접근 방식을 제안하고 싶습니다.",
-      "zh-Hans": "我理解你的观点，但我想建议一种替代方案。",
-      "hi": "मैं आपकी बात समझता हूं, लेकिन मैं एक वैकल्पिक दृष्टिकोण सुझाना चाहूंगा।",
       "tr": "Görüşünüzü anlıyorum, ancak alternatif bir yaklaşım önermek istiyorum."
     },
     "difficulty": "medium",
@@ -199,10 +159,6 @@
       "fr": "Je m'excuse pour la confusion. Laissez-moi clarifier ce que je voulais dire.",
       "de": "Ich entschuldige mich für die Verwirrung. Lassen Sie mich klären, was ich meinte.",
       "it": "Mi scuso per la confusione. Lasciami chiarire cosa intendevo.",
-      "ja": "混乱を招いて申し訳ありません。私の意図を明確にさせてください。",
-      "ko": "혼란을 드려 죄송합니다. 제가 의미한 바를 명확히 하겠습니다.",
-      "zh-Hans": "对造成的困惑表示抱歉。让我澄清一下我的意思。",
-      "hi": "भ्रम के लिए माफ़ी चाहता हूं। मुझे स्पष्ट करने दीजिए कि मेरा क्या मतलब था।",
       "tr": "Karışıklık için özür dilerim. Ne demek istediğimi açıklayayım."
     },
     "difficulty": "medium",
@@ -218,10 +174,6 @@
       "fr": "Je ne suis pas disponible pour le moment, mais je peux vous aider avec ça demain matin.",
       "de": "Ich bin gerade nicht verfügbar, aber ich kann Ihnen morgen früh damit helfen.",
       "it": "Non sono disponibile adesso, ma posso aiutarti con quello domani mattina.",
-      "ja": "今は手が離せませんが、明日の朝ならお手伝いできます。",
-      "ko": "지금은 시간이 안 되지만, 내일 아침에 도와드릴 수 있습니다.",
-      "zh-Hans": "我现在没空，但明天早上可以帮你。",
-      "hi": "मैं अभी उपलब्ध नहीं हूं, लेकिन कल सुबह इसमें आपकी मदद कर सकता हूं।",
       "tr": "Şu anda müsait değilim ama yarın sabah size yardımcı olabilirim."
     },
     "difficulty": "medium",
@@ -237,10 +189,6 @@
       "fr": "C'est un très bon point. Je n'y avais pas pensé de cette façon.",
       "de": "Das ist ein wirklich guter Punkt. So hatte ich das noch nicht betrachtet.",
       "it": "È un ottimo punto. Non ci avevo pensato in quel modo.",
-      "ja": "とても良い指摘ですね。そういう視点では考えていませんでした。",
-      "ko": "정말 좋은 지적이에요. 그런 식으로는 생각하지 못했습니다.",
-      "zh-Hans": "这个观点很好。我之前没有这样想过。",
-      "hi": "यह बहुत अच्छा पॉइंट है। मैंने इस तरह नहीं सोचा था।",
       "tr": "Bu gerçekten çok iyi bir nokta. Bu şekilde düşünmemiştim."
     },
     "difficulty": "medium",
@@ -256,10 +204,6 @@
       "fr": "Je suis désolé, mais je ne pourrai pas assister à la réunion aujourd'hui. Quelqu'un pourrait-il partager les notes avec moi ?",
       "de": "Es tut mir leid, aber ich kann heute nicht am Meeting teilnehmen. Könnte mir jemand die Notizen teilen?",
       "it": "Mi dispiace, ma non potrò partecipare alla riunione oggi. Qualcuno potrebbe condividere gli appunti con me?",
-      "ja": "すみませんが、今日の会議に参加できません。どなたか議事録を共有していただけますか？",
-      "ko": "죄송하지만 오늘 회의에 참석하지 못할 것 같습니다. 누군가 회의록을 공유해 주실 수 있을까요?",
-      "zh-Hans": "抱歉，我今天无法参加会议。有人能把会议记录分享给我吗？",
-      "hi": "माफ़ कीजिए, मैं आज मीटिंग में शामिल नहीं हो पाऊंगा। क्या कोई मुझे नोट्स शेयर कर सकता है?",
       "tr": "Üzgünüm ama bugünkü toplantıya katılamayacağım. Biri notları benimle paylaşabilir mi?"
     },
     "difficulty": "medium",
@@ -275,10 +219,6 @@
       "fr": "Vous avez raison, c'était mon erreur. Je pousserai un correctif sous peu.",
       "de": "Sie haben recht, das war mein Fehler. Ich werde in Kürze einen Fix pushen.",
       "it": "Hai ragione, è stato un mio errore. Invierò una correzione a breve.",
-      "ja": "おっしゃる通り、私のミスでした。すぐに修正をプッシュします。",
-      "ko": "맞습니다, 제 실수였어요. 곧 수정 사항을 푸시하겠습니다.",
-      "zh-Hans": "你说得对，这是我的失误。我很快会推送修复。",
-      "hi": "आप सही कह रहे हैं, यह मेरी गलती थी। मैं जल्द ही फ़िक्स पुश करूंगा।",
       "tr": "Haklısınız, bu benim hatam. Kısa süre içinde bir düzeltme göndereceğim."
     },
     "difficulty": "medium",
@@ -294,10 +234,6 @@
       "fr": "J'ai une petite suggestion qui pourrait améliorer la lisibilité de cette section.",
       "de": "Ich habe einen kleinen Vorschlag, der die Lesbarkeit dieses Abschnitts verbessern könnte.",
       "it": "Ho un piccolo suggerimento che potrebbe migliorare la leggibilità di questa sezione.",
-      "ja": "このセクションの可読性を向上させるかもしれない小さな提案があります。",
-      "ko": "이 부분의 가독성을 개선할 수 있는 작은 제안이 있습니다.",
-      "zh-Hans": "我有一个小建议，可能可以提高这部分的可读性。",
-      "hi": "मेरे पास एक छोटा सुझाव है जो इस सेक्शन की पठनीयता में सुधार कर सकता है।",
       "tr": "Bu bölümün okunabilirliğini artırabilecek küçük bir önerim var."
     },
     "difficulty": "medium",
@@ -313,10 +249,6 @@
       "fr": "Veuillez patienter pendant que je me penche sur le sujet. Je vous tiendrai informé dès que j'aurai plus d'informations.",
       "de": "Bitte haben Sie etwas Geduld, während ich das untersuche. Ich werde Sie informieren, sobald ich mehr weiß.",
       "it": "Per favore abbi pazienza mentre indago. Ti aggiornerò non appena avrò più informazioni.",
-      "ja": "調査中ですので少々お待ちください。詳細がわかり次第お知らせします。",
-      "ko": "확인하는 동안 양해 부탁드립니다. 더 많은 정보가 있으면 바로 알려드리겠습니다.",
-      "zh-Hans": "请耐心等待我调查一下。一有更多信息我就通知你。",
-      "hi": "कृपया धैर्य रखें जब तक मैं इसकी जांच करता हूं। जैसे ही अधिक जानकारी मिलेगी, मैं आपको अपडेट करूंगा।",
       "tr": "Bunu araştırırken lütfen sabırlı olun. Daha fazla bilgi edindikçe sizi bilgilendireceğim."
     },
     "difficulty": "medium",
@@ -332,10 +264,6 @@
       "fr": "J'apprécie le retour. J'intégrerai vos suggestions dans la prochaine itération.",
       "de": "Ich schätze das Feedback. Ich werde Ihre Vorschläge in die nächste Iteration einarbeiten.",
       "it": "Apprezzo il feedback. Incorporerò i tuoi suggerimenti nella prossima iterazione.",
-      "ja": "フィードバックありがとうございます。次のイテレーションにご提案を反映させます。",
-      "ko": "피드백 감사합니다. 다음 반복에 제안 사항을 반영하겠습니다.",
-      "zh-Hans": "感谢反馈。我会在下一次迭代中采纳你的建议。",
-      "hi": "फ़ीडबैक के लिए धन्यवाद। मैं अगले इटरेशन में आपके सुझावों को शामिल करूंगा।",
       "tr": "Geri bildiriminiz için teşekkür ederim. Önerilerinizi bir sonraki iterasyona dahil edeceğim."
     },
     "difficulty": "medium",
@@ -351,10 +279,6 @@
       "fr": "Malheureusement, je ne pense pas que cette solution passera à l'échelle. Pourrions-nous explorer d'autres options ?",
       "de": "Leider glaube ich nicht, dass diese Lösung gut skalieren wird. Könnten wir andere Optionen prüfen?",
       "it": "Purtroppo non credo che questa soluzione scalerà bene. Potremmo esplorare altre opzioni?",
-      "ja": "残念ながら、その解決策はスケールしにくいと思います。他の選択肢を検討できますか？",
-      "ko": "안타깝지만 그 솔루션은 확장성이 좋지 않을 것 같습니다. 다른 옵션을 살펴볼 수 있을까요?",
-      "zh-Hans": "恐怕这个方案不太容易扩展。我们能探讨一下其他选项吗？",
-      "hi": "दुर्भाग्यवश, मुझे नहीं लगता कि यह समाधान अच्छी तरह स्केल करेगा। क्या हम अन्य विकल्प तलाश सकते हैं?",
       "tr": "Maalesef bu çözümün iyi ölçekleneceğini düşünmüyorum. Başka seçenekleri inceleyebilir miyiz?"
     },
     "difficulty": "hard",
@@ -370,10 +294,6 @@
       "fr": "Je voulais vous prévenir que le délai pourrait devoir être prolongé de quelques jours.",
       "de": "Ich wollte Sie darauf hinweisen, dass die Frist möglicherweise um ein paar Tage verlängert werden muss.",
       "it": "Volevo avvisarti che la scadenza potrebbe dover essere estesa di qualche giorno.",
-      "ja": "締め切りを数日延長する必要があるかもしれないことを事前にお知らせしたかったのです。",
-      "ko": "마감일을 며칠 연장해야 할 수도 있다는 점을 미리 알려드리고 싶었습니다.",
-      "zh-Hans": "我想提前告知你，截止日期可能需要延长几天。",
-      "hi": "मैं आपको पहले से बताना चाहता था कि डेडलाइन को कुछ दिन बढ़ाने की ज़रूरत पड़ सकती है।",
       "tr": "Son tarihin birkaç gün uzatılması gerekebileceğini önceden bildirmek istiyordum."
     },
     "difficulty": "medium",
@@ -389,10 +309,6 @@
       "fr": "Je vois d'où vous venez, mais je pense que nous devrions considérer les compromis avant de nous engager dans cette approche.",
       "de": "Ich verstehe Ihren Standpunkt, aber ich denke, wir sollten die Kompromisse abwägen, bevor wir uns auf diesen Ansatz festlegen.",
       "it": "Capisco il tuo punto di vista, ma penso che dovremmo considerare i compromessi prima di impegnarci in questo approccio.",
-      "ja": "おっしゃることはわかりますが、このアプローチを決定する前にトレードオフを検討すべきだと思います。",
-      "ko": "어디서 오시는 말씀인지 알겠지만, 이 접근 방식을 확정하기 전에 트레이드오프를 고려해야 한다고 생각합니다.",
-      "zh-Hans": "我理解你的出发点，但我认为在确定这个方案之前，我们应该考虑一下其中的权衡。",
-      "hi": "मैं आपकी बात समझता हूं, लेकिन मुझे लगता है कि इस अप्रोच को अपनाने से पहले हमें ट्रेड-ऑफ पर विचार करना चाहिए।",
       "tr": "Bakış açınızı anlıyorum, ancak bu yaklaşımı benimsemeden önce ödünleşimleri değerlendirmemiz gerektiğini düşünüyorum."
     },
     "difficulty": "hard",
@@ -408,10 +324,6 @@
       "fr": "Je sais que tout le monde est occupé, mais pourrions-nous planifier une courte réunion pour nous aligner sur les priorités ?",
       "de": "Ich weiß, dass alle beschäftigt sind, aber könnten wir ein kurzes Meeting planen, um die Prioritäten abzustimmen?",
       "it": "So che tutti sono impegnati, ma potremmo programmare un breve allineamento sulle priorità?",
-      "ja": "皆さんお忙しいのは承知していますが、優先事項を合わせるために短いミーティングを設定できますか？",
-      "ko": "모두 바쁘신 건 알지만, 우선순위를 맞추기 위해 짧은 싱크 미팅을 잡을 수 있을까요?",
-      "zh-Hans": "我知道大家都很忙，但我们能安排一个简短的同步会议来对齐优先级吗？",
-      "hi": "मुझे पता है सब व्यस्त हैं, लेकिन क्या हम प्राथमिकताओं को एलाइन करने के लिए एक छोटी सिंक मीटिंग शेड्यूल कर सकते हैं?",
       "tr": "Herkesin meşgul olduğunu biliyorum ama öncelikleri belirlemek için kısa bir toplantı ayarlayabilir miyiz?"
     },
     "difficulty": "hard",
@@ -427,10 +339,6 @@
       "fr": "C'est en dehors de mon domaine d'expertise, mais je peux vous mettre en contact avec quelqu'un qui pourrait vous aider.",
       "de": "Das liegt außerhalb meines Fachgebiets, aber ich kann Sie mit jemandem verbinden, der Ihnen helfen könnte.",
       "it": "Questo è fuori dalla mia area di competenza, ma posso metterti in contatto con qualcuno che potrebbe aiutarti.",
-      "ja": "これは私の専門外ですが、お手伝いできる方をご紹介できます。",
-      "ko": "이건 제 전문 분야가 아니지만, 도움을 줄 수 있는 분을 연결해 드릴 수 있습니다.",
-      "zh-Hans": "这不在我的专业范围内，但我可以帮你联系可能能帮到你的人。",
-      "hi": "यह मेरी विशेषज्ञता के क्षेत्र से बाहर है, लेकिन मैं आपको किसी ऐसे व्यक्ति से जोड़ सकता हूं जो मदद कर सकें।",
       "tr": "Bu benim uzmanlık alanımın dışında, ancak sizi yardımcı olabilecek biriyle iletişime geçirebilirim."
     },
     "difficulty": "hard",
@@ -446,10 +354,6 @@
       "fr": "Je suis tout à fait d'accord avec la direction générale, mais j'ai quelques inquiétudes concernant le calendrier de mise en œuvre.",
       "de": "Ich stimme der allgemeinen Richtung vollkommen zu, aber ich habe einige Bedenken bezüglich des Implementierungszeitplans.",
       "it": "Sono completamente d'accordo con la direzione generale, ma ho alcune preoccupazioni riguardo la tempistica di implementazione.",
-      "ja": "全体的な方向性には完全に賛成ですが、実装のスケジュールについていくつか懸念があります。",
-      "ko": "전반적인 방향에는 완전히 동의하지만, 구현 일정에 대해 몇 가지 우려 사항이 있습니다.",
-      "zh-Hans": "我完全同意总体方向，但对实施时间线有一些顾虑。",
-      "hi": "मैं समग्र दिशा से पूरी तरह सहमत हूं, लेकिन इम्प्लीमेंटेशन टाइमलाइन को लेकर मेरी कुछ चिंताएं हैं।",
       "tr": "Genel yönelime tamamen katılıyorum, ancak uygulama zaman çizelgesi hakkında bazı endişelerim var."
     },
     "difficulty": "hard",
@@ -465,10 +369,6 @@
       "fr": "J'apprécie vraiment votre expertise sur ce sujet. Seriez-vous ouvert à travailler en binôme sur l'implémentation ?",
       "de": "Ich schätze Ihre Expertise in diesem Bereich sehr. Wären Sie offen für Pair Programming bei der Implementierung?",
       "it": "Apprezzo molto la tua competenza su questo. Saresti disponibile a fare pair programming sull'implementazione?",
-      "ja": "この件に関するあなたの専門知識を本当に尊重しています。実装でペアプログラミングしていただけますか？",
-      "ko": "이 분야에서의 전문 지식을 정말 높이 평가합니다. 구현을 함께 페어로 작업하실 의향이 있으신가요?",
-      "zh-Hans": "我非常看重你在这方面的专业知识。你愿意一起结对实现吗？",
-      "hi": "इस विषय में आपकी विशेषज्ञता को मैं बहुत महत्व देता हूं। क्या आप इम्प्लीमेंटेशन पर पेयर करने के लिए तैयार होंगे?",
       "tr": "Bu konudaki uzmanlığınıza gerçekten değer veriyorum. Uygulamada birlikte çalışmaya açık olur musunuz?"
     },
     "difficulty": "hard",
@@ -484,10 +384,6 @@
       "fr": "J'ai peut-être introduit une régression avec mon dernier commit. Je suis en train d'enquêter et je tiendrai l'équipe au courant.",
       "de": "Möglicherweise habe ich mit meinem letzten Commit eine Regression eingeführt. Ich untersuche das gerade und halte das Team auf dem Laufenden.",
       "it": "Potrei aver introdotto una regressione con il mio ultimo commit. Sto indagando e terrò il team aggiornato.",
-      "ja": "最後のコミットでリグレッションを入れてしまったかもしれません。今調査中で、チームに随時報告します。",
-      "ko": "마지막 커밋으로 리그레션이 발생했을 수 있습니다. 지금 확인 중이며 팀에 계속 알려드리겠습니다.",
-      "zh-Hans": "我最近的提交可能引入了一个回归问题。我正在调查，会随时向团队更新情况。",
-      "hi": "मेरे पिछले कमिट से रिग्रेशन आ गया हो सकता है। मैं अभी इसकी जांच कर रहा हूं और टीम को अपडेट करता रहूंगा।",
       "tr": "Son commit'imle bir regresyon oluşturmuş olabilirim. Şu anda inceliyorum ve ekibi bilgilendirmeye devam edeceğim."
     },
     "difficulty": "hard",
@@ -503,10 +399,6 @@
       "fr": "Merci à tous pour votre travail acharné ce sprint. L'équipe a vraiment livré dans un délai serré.",
       "de": "Vielen Dank an alle für die harte Arbeit in diesem Sprint. Das Team hat unter einem engen Zeitplan wirklich geliefert.",
       "it": "Grazie a tutti per il duro lavoro in questo sprint. Il team ha davvero consegnato rispettando una scadenza stretta.",
-      "ja": "今回のスプリントでの皆さんの努力に感謝します。チームは厳しい納期の中、本当によく成果を出しました。",
-      "ko": "이번 스프린트에서 열심히 해주신 모든 분들께 감사드립니다. 팀이 빠듯한 마감 기한 안에 정말 잘 해냈습니다.",
-      "zh-Hans": "感谢大家在这个冲刺中的辛勤工作。团队在紧迫的截止日期内真的做到了。",
-      "hi": "इस स्प्रिंट में आप सभी की मेहनत के लिए धन्यवाद। टीम ने टाइट डेडलाइन में वाकई शानदार डिलीवरी की।",
       "tr": "Bu sprint'teki sıkı çalışmanız için hepinize teşekkürler. Ekip gerçekten dar bir sürede başarılı bir teslimat yaptı."
     },
     "difficulty": "easy",
@@ -522,10 +414,6 @@
       "fr": "Je préférerais que nous en discutions en personne plutôt que de faire des allers-retours dans les commentaires.",
       "de": "Ich würde es bevorzugen, wenn wir das persönlich besprechen könnten, anstatt in den Kommentaren hin und her zu gehen.",
       "it": "Preferirei se potessimo discuterne di persona piuttosto che andare avanti e indietro nei commenti.",
-      "ja": "コメントでやり取りを続けるよりも、直接話し合えればと思います。",
-      "ko": "댓글로 계속 주고받기보다 오프라인에서 논의하는 것이 좋겠습니다.",
-      "zh-Hans": "我希望我们能线下讨论，而不是在评论中反复沟通。",
-      "hi": "मैं चाहूंगा कि हम कमेंट्स में आगे-पीछे करने के बजाय ऑफलाइन इस पर चर्चा करें।",
       "tr": "Yorumlarda ileri geri gitmek yerine bunu çevrimdışı tartışmayı tercih ederim."
     },
     "difficulty": "hard",
@@ -541,10 +429,6 @@
       "fr": "Je voulais juste faire un suivi sur le problème que j'ai soulevé la semaine dernière. Avez-vous eu l'occasion de l'examiner ?",
       "de": "Ich wollte nur nachfragen, wie es mit dem Problem steht, das ich letzte Woche angesprochen habe. Hatten Sie Gelegenheit, sich das anzuschauen?",
       "it": "Volevo solo fare un follow-up sul problema che ho sollevato la settimana scorsa. Hai avuto modo di esaminarlo?",
-      "ja": "先週お伝えした件についてフォローアップしたかったのですが、確認する機会はありましたか？",
-      "ko": "지난주에 제기한 이슈에 대해 후속 확인하고 싶었습니다. 살펴보실 기회가 있으셨나요?",
-      "zh-Hans": "想跟进一下我上周提出的问题。你有机会看过了吗？",
-      "hi": "बस पिछले हफ़्ते उठाए गए मुद्दे पर फ़ॉलो-अप करना चाहता था। क्या आपको इसे देखने का मौका मिला?",
       "tr": "Geçen hafta dile getirdiğim konu hakkında bir takip yapmak istedim. İnceleme fırsatınız oldu mu?"
     },
     "difficulty": "hard",
@@ -560,11 +444,307 @@
       "fr": "Je respecte votre décision, mais j'aimerais consigner mes préoccupations pour que nous puissions y revenir si nécessaire.",
       "de": "Ich respektiere Ihre Entscheidung, aber ich möchte meine Bedenken für die Akten festhalten, damit wir bei Bedarf darauf zurückkommen können.",
       "it": "Rispetto la tua decisione, ma vorrei documentare le mie preoccupazioni agli atti in modo da poter riesaminare se necessario.",
-      "ja": "ご決定を尊重しますが、必要に応じて見直せるよう、私の懸念を記録として残しておきたいと思います。",
-      "ko": "결정을 존중하지만, 필요할 때 다시 논의할 수 있도록 제 우려 사항을 기록으로 남기고 싶습니다.",
-      "zh-Hans": "我尊重你的决定，但我想把我的顾虑记录下来，以便需要时可以重新审视。",
-      "hi": "मैं आपके फ़ैसले का सम्मान करता हूं, लेकिन मैं रिकॉर्ड के लिए अपनी चिंताओं को दस्तावेज़ करना चाहूंगा ताकि ज़रूरत पड़ने पर हम फिर से विचार कर सकें।",
       "tr": "Kararınıza saygı duyuyorum, ancak gerektiğinde tekrar ele alabilmemiz için endişelerimi kayıt altına almak istiyorum."
+    },
+    "difficulty": "hard",
+    "category": "polite"
+  },
+  {
+    "id": "polite_031",
+    "english": "Could you take a look at this PR when you get a chance?",
+    "context": "Requesting a code review without pressuring",
+    "translations": {
+      "pt-BR": "Você poderia dar uma olhada neste PR quando tiver um momento?",
+      "es": "¿Podrías revisar este PR cuando tengas un momento?",
+      "fr": "Pourriez-vous jeter un œil à cette PR quand vous aurez un moment ?",
+      "de": "Könnten Sie sich diese PR ansehen, wenn Sie Zeit haben?",
+      "it": "Potresti dare un'occhiata a questa PR quando hai un momento?",
+      "tr": "Fırsatınız olduğunda bu PR'a bir göz atabilir misiniz?"
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_032",
+    "english": "Thanks for the thorough code review, I really appreciate your feedback.",
+    "context": "Thanking a reviewer for detailed comments",
+    "translations": {
+      "pt-BR": "Obrigado pela revisão de código detalhada, agradeço muito seu feedback.",
+      "es": "Gracias por la revisión de código tan detallada, realmente aprecio tus comentarios.",
+      "fr": "Merci pour la revue de code approfondie, j'apprécie vraiment vos retours.",
+      "de": "Danke für das gründliche Code-Review, ich schätze Ihr Feedback sehr.",
+      "it": "Grazie per la revisione del codice approfondita, apprezzo molto il tuo feedback.",
+      "tr": "Kapsamlı kod incelemesi için teşekkürler, geri bildiriminizi gerçekten takdir ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_033",
+    "english": "I'm sorry about the broken build — I'm working on a fix right now.",
+    "context": "Apologizing for breaking the CI pipeline",
+    "translations": {
+      "pt-BR": "Desculpe pelo build quebrado — estou trabalhando na correção agora mesmo.",
+      "es": "Lamento haber roto el build — estoy trabajando en una corrección ahora mismo.",
+      "fr": "Désolé pour le build cassé — je travaille sur un correctif en ce moment.",
+      "de": "Entschuldigung für den kaputten Build — ich arbeite gerade an einer Lösung.",
+      "it": "Mi scuso per la build rotta — sto lavorando a una correzione in questo momento.",
+      "tr": "Kırık build için özür dilerim — şu anda düzeltme üzerinde çalışıyorum."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_034",
+    "english": "Great solution! I hadn't thought of approaching it that way.",
+    "context": "Praising a colleague's clever implementation",
+    "translations": {
+      "pt-BR": "Ótima solução! Eu não tinha pensado em abordar dessa forma.",
+      "es": "¡Gran solución! No había pensado en abordarlo de esa manera.",
+      "fr": "Excellente solution ! Je n'avais pas pensé à l'aborder de cette façon.",
+      "de": "Tolle Lösung! Daran hatte ich gar nicht gedacht.",
+      "it": "Ottima soluzione! Non avevo pensato di affrontarlo in quel modo.",
+      "tr": "Harika çözüm! Bu şekilde yaklaşmayı düşünmemiştim."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_035",
+    "english": "I understand the urgency, but I don't think I can take this on right now without impacting my current deliverables.",
+    "context": "Declining additional work diplomatically",
+    "translations": {
+      "pt-BR": "Entendo a urgência, mas não acho que consiga assumir isso agora sem impactar minhas entregas atuais.",
+      "es": "Entiendo la urgencia, pero no creo que pueda asumir esto ahora sin afectar mis entregas actuales.",
+      "fr": "Je comprends l'urgence, mais je ne pense pas pouvoir prendre cela en charge maintenant sans impacter mes livrables actuels.",
+      "de": "Ich verstehe die Dringlichkeit, aber ich glaube nicht, dass ich das jetzt übernehmen kann, ohne meine aktuellen Aufgaben zu beeinträchtigen.",
+      "it": "Capisco l'urgenza, ma non credo di potermi occupare di questo ora senza impattare le mie consegne attuali.",
+      "tr": "Aciliyeti anlıyorum, ancak mevcut teslimatlarımı etkilemeden bunu şu anda üstlenebileceğimi düşünmüyorum."
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_036",
+    "english": "Could you clarify what you mean by that? I want to make sure I understand correctly.",
+    "context": "Asking for clarification on requirements",
+    "translations": {
+      "pt-BR": "Você poderia esclarecer o que quis dizer com isso? Quero ter certeza de que entendi corretamente.",
+      "es": "¿Podrías aclarar qué quieres decir con eso? Quiero asegurarme de que entiendo correctamente.",
+      "fr": "Pourriez-vous préciser ce que vous entendez par là ? Je veux m'assurer de bien comprendre.",
+      "de": "Könnten Sie erklären, was Sie damit meinen? Ich möchte sicherstellen, dass ich es richtig verstehe.",
+      "it": "Potresti chiarire cosa intendi con questo? Voglio assicurarmi di aver capito correttamente.",
+      "tr": "Bununla ne demek istediğinizi açıklayabilir misiniz? Doğru anladığımdan emin olmak istiyorum."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_037",
+    "english": "I see where you're coming from, but have you considered this alternative approach?",
+    "context": "Respectfully suggesting a different solution",
+    "translations": {
+      "pt-BR": "Entendo seu ponto de vista, mas você já considerou esta abordagem alternativa?",
+      "es": "Entiendo tu punto de vista, pero ¿has considerado este enfoque alternativo?",
+      "fr": "Je vois d'où vous venez, mais avez-vous envisagé cette approche alternative ?",
+      "de": "Ich verstehe Ihren Standpunkt, aber haben Sie diesen alternativen Ansatz in Betracht gezogen?",
+      "it": "Capisco il tuo punto di vista, ma hai considerato questo approccio alternativo?",
+      "tr": "Bakış açınızı anlıyorum, ancak bu alternatif yaklaşımı düşündünüz mü?"
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_038",
+    "english": "Let me know if there's anything I can help with on your end.",
+    "context": "Offering assistance to a teammate",
+    "translations": {
+      "pt-BR": "Me avise se houver algo em que eu possa ajudar do seu lado.",
+      "es": "Avísame si hay algo en lo que pueda ayudarte.",
+      "fr": "Faites-moi savoir si je peux vous aider de quelque manière que ce soit.",
+      "de": "Lassen Sie mich wissen, ob ich Ihnen irgendwie helfen kann.",
+      "it": "Fammi sapere se c'è qualcosa in cui posso aiutarti.",
+      "tr": "Size yardımcı olabileceğim bir şey varsa bana bildirin."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_039",
+    "english": "I think we might need a bit more time on this feature. Can we discuss adjusting the timeline?",
+    "context": "Managing deadline expectations",
+    "translations": {
+      "pt-BR": "Acho que vamos precisar de um pouco mais de tempo nesta feature. Podemos discutir um ajuste no cronograma?",
+      "es": "Creo que necesitaremos un poco más de tiempo para esta funcionalidad. ¿Podemos hablar sobre ajustar el cronograma?",
+      "fr": "Je pense que nous aurons besoin d'un peu plus de temps sur cette fonctionnalité. Pouvons-nous discuter d'un ajustement du calendrier ?",
+      "de": "Ich denke, wir brauchen etwas mehr Zeit für dieses Feature. Können wir den Zeitplan besprechen?",
+      "it": "Penso che avremo bisogno di un po' più di tempo per questa funzionalità. Possiamo discutere di modificare la timeline?",
+      "tr": "Bu özellik için biraz daha zamana ihtiyacımız olabilir. Zaman çizelgesini ayarlamayı tartışabilir miyiz?"
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_040",
+    "english": "I appreciate you thinking of me, but I need to focus on my sprint commitments this week.",
+    "context": "Setting boundaries on additional requests",
+    "translations": {
+      "pt-BR": "Agradeço por pensar em mim, mas preciso focar nos meus compromissos da sprint esta semana.",
+      "es": "Agradezco que pienses en mí, pero necesito concentrarme en mis compromisos del sprint esta semana.",
+      "fr": "J'apprécie que vous pensiez à moi, mais je dois me concentrer sur mes engagements de sprint cette semaine.",
+      "de": "Ich schätze es, dass Sie an mich denken, aber ich muss mich diese Woche auf meine Sprint-Verpflichtungen konzentrieren.",
+      "it": "Apprezzo che tu abbia pensato a me, ma devo concentrarmi sugli impegni dello sprint questa settimana.",
+      "tr": "Beni düşündüğünüz için teşekkür ederim, ancak bu hafta sprint taahhütlerime odaklanmam gerekiyor."
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_041",
+    "english": "I respectfully disagree with that approach. Here's my reasoning.",
+    "context": "Expressing disagreement professionally in a design discussion",
+    "translations": {
+      "pt-BR": "Respeitosamente discordo dessa abordagem. Aqui está meu raciocínio.",
+      "es": "Respetuosamente, no estoy de acuerdo con ese enfoque. Aquí está mi razonamiento.",
+      "fr": "Je ne suis respectueusement pas d'accord avec cette approche. Voici mon raisonnement.",
+      "de": "Ich bin respektvoll anderer Meinung zu diesem Ansatz. Hier ist meine Begründung.",
+      "it": "Rispettosamente non sono d'accordo con quell'approccio. Ecco il mio ragionamento.",
+      "tr": "Bu yaklaşıma saygıyla katılmıyorum. İşte gerekçem."
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_042",
+    "english": "Congratulations on the promotion! It's well deserved.",
+    "context": "Congratulating a colleague on their career advancement",
+    "translations": {
+      "pt-BR": "Parabéns pela promoção! É muito merecida.",
+      "es": "¡Felicidades por el ascenso! Es muy merecido.",
+      "fr": "Félicitations pour la promotion ! C'est bien mérité.",
+      "de": "Herzlichen Glückwunsch zur Beförderung! Das ist wohlverdient.",
+      "it": "Congratulazioni per la promozione! È ben meritata.",
+      "tr": "Terfi için tebrikler! Tamamen hak edilmiş."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_043",
+    "english": "Welcome to the team! Don't hesitate to reach out if you have any questions.",
+    "context": "Welcoming a new team member",
+    "translations": {
+      "pt-BR": "Bem-vindo à equipe! Não hesite em entrar em contato se tiver alguma dúvida.",
+      "es": "¡Bienvenido al equipo! No dudes en contactarnos si tienes alguna pregunta.",
+      "fr": "Bienvenue dans l'équipe ! N'hésitez pas à nous contacter si vous avez des questions.",
+      "de": "Willkommen im Team! Zögern Sie nicht, sich zu melden, wenn Sie Fragen haben.",
+      "it": "Benvenuto nel team! Non esitare a contattarci se hai domande.",
+      "tr": "Takıma hoş geldiniz! Sorularınız olursa çekinmeden bize ulaşın."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_044",
+    "english": "I know this has been a tough sprint. I appreciate everyone's extra effort.",
+    "context": "Showing empathy during a difficult work period",
+    "translations": {
+      "pt-BR": "Sei que esta foi uma sprint difícil. Agradeço o esforço extra de todos.",
+      "es": "Sé que ha sido un sprint difícil. Aprecio el esfuerzo extra de todos.",
+      "fr": "Je sais que ce sprint a été difficile. J'apprécie les efforts supplémentaires de chacun.",
+      "de": "Ich weiß, dass dieser Sprint schwierig war. Ich schätze den zusätzlichen Einsatz aller.",
+      "it": "So che è stato uno sprint difficile. Apprezzo lo sforzo extra di tutti.",
+      "tr": "Bunun zorlu bir sprint olduğunu biliyorum. Herkesin ekstra çabasını takdir ediyorum."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_045",
+    "english": "Just checking in on the status of that PR — no rush at all, just want to keep things moving.",
+    "context": "Following up on a pending review without pressuring",
+    "translations": {
+      "pt-BR": "Só passando para saber o status daquele PR — sem pressa nenhuma, só quero manter as coisas andando.",
+      "es": "Solo quería saber el estado de ese PR — sin prisa alguna, solo quiero mantener las cosas en movimiento.",
+      "fr": "Je voulais juste prendre des nouvelles de cette PR — pas de pression du tout, je veux juste que les choses avancent.",
+      "de": "Ich wollte mich nur nach dem Status dieser PR erkundigen — überhaupt keine Eile, ich möchte nur, dass es vorangeht.",
+      "it": "Volevo solo un aggiornamento sullo stato di quella PR — nessuna fretta, voglio solo che le cose proseguano.",
+      "tr": "Sadece o PR'ın durumunu kontrol etmek istedim — hiç acele yok, sadece işlerin ilerlemesini sağlamak istiyorum."
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_046",
+    "english": "Would you mind reviewing this by end of week? I'd really value your input.",
+    "context": "Requesting a review with a soft deadline",
+    "translations": {
+      "pt-BR": "Você se importaria de revisar isso até o final da semana? Eu realmente valorizaria sua opinião.",
+      "es": "¿Te importaría revisar esto para el final de la semana? Realmente valoraría tu opinión.",
+      "fr": "Pourriez-vous revoir ceci d'ici la fin de la semaine ? J'apprécierais vraiment votre avis.",
+      "de": "Könnten Sie das bis Ende der Woche überprüfen? Ihre Meinung wäre mir sehr wichtig.",
+      "it": "Ti dispiacerebbe revisionare questo entro fine settimana? Apprezzerei molto il tuo parere.",
+      "tr": "Bunu hafta sonuna kadar inceleme imkânınız olur mu? Görüşlerinize gerçekten değer veriyorum."
+    },
+    "difficulty": "medium",
+    "category": "polite"
+  },
+  {
+    "id": "polite_047",
+    "english": "I'd like to request a deadline extension for this task. Here's where we stand and what we still need.",
+    "context": "Asking for more time with justification",
+    "translations": {
+      "pt-BR": "Gostaria de solicitar uma extensão de prazo para esta tarefa. Aqui está onde estamos e o que ainda precisamos.",
+      "es": "Me gustaría solicitar una extensión de plazo para esta tarea. Aquí está dónde estamos y lo que aún necesitamos.",
+      "fr": "Je souhaiterais demander une extension de délai pour cette tâche. Voici où nous en sommes et ce qu'il nous reste à faire.",
+      "de": "Ich möchte eine Verlängerung der Frist für diese Aufgabe beantragen. Hier ist unser aktueller Stand und was noch fehlt.",
+      "it": "Vorrei richiedere un'estensione della scadenza per questo compito. Ecco a che punto siamo e cosa ci serve ancora.",
+      "tr": "Bu görev için süre uzatımı talep etmek istiyorum. İşte mevcut durumumuz ve hâlâ ihtiyacımız olanlar."
+    },
+    "difficulty": "hard",
+    "category": "polite"
+  },
+  {
+    "id": "polite_048",
+    "english": "That was my mistake — I should have caught that in testing. I'll fix it right away.",
+    "context": "Admitting a bug was your fault",
+    "translations": {
+      "pt-BR": "Foi meu erro — eu deveria ter pego isso nos testes. Vou corrigir imediatamente.",
+      "es": "Fue mi error — debí haberlo detectado en las pruebas. Lo corregiré de inmediato.",
+      "fr": "C'était mon erreur — j'aurais dû le détecter lors des tests. Je vais le corriger tout de suite.",
+      "de": "Das war mein Fehler — ich hätte das beim Testen bemerken müssen. Ich behebe es sofort.",
+      "it": "È stato un mio errore — avrei dovuto notarlo nei test. Lo correggo subito.",
+      "tr": "Bu benim hatam — test aşamasında yakalamalıydım. Hemen düzelteceğim."
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_049",
+    "english": "Your refactoring of the authentication module is really clean. Nice work!",
+    "context": "Praising a specific technical achievement",
+    "translations": {
+      "pt-BR": "Sua refatoração do módulo de autenticação ficou muito limpa. Belo trabalho!",
+      "es": "Tu refactorización del módulo de autenticación está muy limpia. ¡Buen trabajo!",
+      "fr": "Votre refactorisation du module d'authentification est vraiment propre. Beau travail !",
+      "de": "Ihre Refaktorisierung des Authentifizierungsmoduls ist wirklich sauber. Gute Arbeit!",
+      "it": "Il tuo refactoring del modulo di autenticazione è davvero pulito. Ottimo lavoro!",
+      "tr": "Kimlik doğrulama modülünün yeniden düzenlenmesi gerçekten temiz. Harika iş!"
+    },
+    "difficulty": "easy",
+    "category": "polite"
+  },
+  {
+    "id": "polite_050",
+    "english": "I want to be mindful of different time zones — would an async update work better for everyone?",
+    "context": "Showing cultural sensitivity about global team logistics",
+    "translations": {
+      "pt-BR": "Quero ser consciente dos diferentes fusos horários — uma atualização assíncrona funcionaria melhor para todos?",
+      "es": "Quiero ser considerado con las diferentes zonas horarias — ¿funcionaría mejor una actualización asíncrona para todos?",
+      "fr": "Je veux être attentif aux différents fuseaux horaires — une mise à jour asynchrone conviendrait-elle mieux à tout le monde ?",
+      "de": "Ich möchte die verschiedenen Zeitzonen berücksichtigen — wäre ein asynchrones Update für alle besser?",
+      "it": "Voglio essere rispettoso dei diversi fusi orari — un aggiornamento asincrono funzionerebbe meglio per tutti?",
+      "tr": "Farklı zaman dilimlerini göz önünde bulundurmak istiyorum — asenkron bir güncelleme herkes için daha iyi olur mu?"
     },
     "difficulty": "hard",
     "category": "polite"

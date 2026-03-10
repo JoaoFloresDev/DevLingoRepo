@@ -44,13 +44,17 @@ final class OnboardingViewModel: ObservableObject {
         storage.setInt(notificationCount, forKey: StorageKeys.phraseNotificationsCount)
         storage.setBool(true, forKey: StorageKeys.hasCompletedOnboarding)
 
-        // Schedule notifications
+        // Schedule phrase notifications
         if enableNotifications {
             Task {
                 let granted = await NotificationService.shared.requestPermission()
                 if granted {
-                    NotificationService.shared.scheduleDailyReminder(at: 8, minute: 0)
-                    NotificationService.shared.scheduleStreakReminder()
+                    let phrases = PhraseService.shared.allPhrases
+                    NotificationService.shared.schedulePhraseNotifications(
+                        phrases: phrases,
+                        language: selectedLanguage,
+                        count: notificationCount
+                    )
                 }
             }
         }

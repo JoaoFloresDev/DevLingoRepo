@@ -25,13 +25,8 @@ final class CategoriesViewModel: ObservableObject {
 
     func loadData() {
         if !hasLoadedOnce {
-            isLoading = true
             hasLoadedOnce = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { [weak self] in
-                withAnimation(.easeOut(duration: 0.3)) {
-                    self?.isLoading = false
-                }
-            }
+            isLoading = false
         } else {
             objectWillChange.send()
         }
