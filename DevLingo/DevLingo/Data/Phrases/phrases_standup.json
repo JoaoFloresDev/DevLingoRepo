@@ -8,8 +8,7 @@
       "es": "Estoy trabajando en la función de login hoy.",
       "fr": "Je travaille sur la fonctionnalité de connexion aujourd'hui.",
       "de": "Ich arbeite heute an der Login-Funktion.",
-      "it": "Sto lavorando sulla funzionalità di login oggi.",
-      "tr": "Bugün giriş özelliği üzerinde çalışıyorum."
+      "it": "Sto lavorando sulla funzionalità di login oggi."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -23,8 +22,7 @@
       "es": "Ayer terminé la integración de la API.",
       "fr": "Hier j'ai terminé l'intégration de l'API.",
       "de": "Gestern habe ich die API-Integration abgeschlossen.",
-      "it": "Ieri ho finito l'integrazione dell'API.",
-      "tr": "Dün API entegrasyonunu tamamladım."
+      "it": "Ieri ho finito l'integrazione dell'API."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -38,8 +36,7 @@
       "es": "Sin bloqueos de mi parte.",
       "fr": "Pas de blocages de mon côté.",
       "de": "Keine Blocker auf meiner Seite.",
-      "it": "Nessun blocco da parte mia.",
-      "tr": "Benim tarafımda engel yok."
+      "it": "Nessun blocco da parte mia."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -53,8 +50,7 @@
       "es": "Continuaré con la misma tarea.",
       "fr": "Je vais continuer avec la même tâche.",
       "de": "Ich mache mit der gleichen Aufgabe weiter.",
-      "it": "Continuerò con lo stesso compito.",
-      "tr": "Aynı görevle devam edeceğim."
+      "it": "Continuerò con lo stesso compito."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -68,8 +64,7 @@
       "es": "Estoy casi terminando mi ticket.",
       "fr": "J'ai presque fini mon ticket.",
       "de": "Ich bin fast fertig mit meinem Ticket.",
-      "it": "Ho quasi finito il mio ticket.",
-      "tr": "Ticket'ımı neredeyse bitirdim."
+      "it": "Ho quasi finito il mio ticket."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -83,8 +78,7 @@
       "es": "Lo tomaré después del almuerzo.",
       "fr": "Je m'en occuperai après le déjeuner.",
       "de": "Das nehme ich nach dem Mittagessen.",
-      "it": "Lo prenderò dopo pranzo.",
-      "tr": "Öğle yemeğinden sonra ona başlayacağım."
+      "it": "Lo prenderò dopo pranzo."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -98,8 +92,7 @@
       "es": "Hice push de mis cambios ayer.",
       "fr": "J'ai poussé mes modifications hier.",
       "de": "Ich habe meine Änderungen gestern gepusht.",
-      "it": "Ho pushato le mie modifiche ieri.",
-      "tr": "Dün değişikliklerimi push ettim."
+      "it": "Ho pushato le mie modifiche ieri."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -113,8 +106,7 @@
       "es": "Las pruebas están pasando ahora.",
       "fr": "Les tests passent maintenant.",
       "de": "Die Tests laufen jetzt durch.",
-      "it": "I test passano ora.",
-      "tr": "Testler artık geçiyor."
+      "it": "I test passano ora."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -128,8 +120,7 @@
       "es": "Necesito actualizar la documentación.",
       "fr": "Je dois mettre à jour la documentation.",
       "de": "Ich muss die Dokumentation aktualisieren.",
-      "it": "Devo aggiornare la documentazione.",
-      "tr": "Dokümantasyonu güncellemem gerekiyor."
+      "it": "Devo aggiornare la documentazione."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -143,8 +134,7 @@
       "es": "Estoy revisando el pull request.",
       "fr": "Je suis en train de revoir la pull request.",
       "de": "Ich überprüfe den Pull Request.",
-      "it": "Sto revisionando la pull request.",
-      "tr": "Pull request'i inceliyorum."
+      "it": "Sto revisionando la pull request."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -158,8 +148,7 @@
       "es": "Comenzaré el nuevo ítem del sprint hoy.",
       "fr": "Je vais commencer le nouvel item du sprint aujourd'hui.",
       "de": "Ich beginne heute mit dem neuen Sprint-Item.",
-      "it": "Inizierò il nuovo item dello sprint oggi.",
-      "tr": "Bugün yeni sprint öğesine başlayacağım."
+      "it": "Inizierò il nuovo item dello sprint oggi."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -173,8 +162,7 @@
       "es": "Todo va por buen camino.",
       "fr": "Tout est en bonne voie.",
       "de": "Alles ist auf Kurs.",
-      "it": "Tutto procede bene.",
-      "tr": "Her şey yolunda."
+      "it": "Tutto procede bene."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -188,8 +176,7 @@
       "es": "Arreglé el bug en el flujo de checkout.",
       "fr": "J'ai corrigé le bug dans le flux de paiement.",
       "de": "Ich habe den Bug im Checkout-Flow behoben.",
-      "it": "Ho corretto il bug nel flusso di checkout.",
-      "tr": "Ödeme akışındaki hatayı düzelttim."
+      "it": "Ho corretto il bug nel flusso di checkout."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -203,8 +190,7 @@
       "es": "Trabajaré en la migración de la base de datos.",
       "fr": "Je vais travailler sur la migration de la base de données.",
       "de": "Ich werde an der Datenbankmigration arbeiten.",
-      "it": "Lavorerò sulla migrazione del database.",
-      "tr": "Veritabanı migrasyonu üzerinde çalışacağım."
+      "it": "Lavorerò sulla migrazione del database."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -218,8 +204,7 @@
       "es": "Creé una nueva rama para la funcionalidad.",
       "fr": "J'ai créé une nouvelle branche pour la fonctionnalité.",
       "de": "Ich habe einen neuen Branch für das Feature erstellt.",
-      "it": "Ho creato un nuovo branch per la funzionalità.",
-      "tr": "Özellik için yeni bir dal oluşturdum."
+      "it": "Ho creato un nuovo branch per la funzionalità."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -233,8 +218,7 @@
       "es": "Estoy esperando que el diseño sea finalizado.",
       "fr": "J'attends que le design soit finalisé.",
       "de": "Ich warte darauf, dass das Design fertiggestellt wird.",
-      "it": "Sto aspettando che il design venga finalizzato.",
-      "tr": "Tasarımın tamamlanmasını bekliyorum."
+      "it": "Sto aspettando che il design venga finalizzato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -248,8 +232,7 @@
       "es": "Moveré este ticket a completado.",
       "fr": "Je vais déplacer ce ticket en terminé.",
       "de": "Ich verschiebe dieses Ticket auf erledigt.",
-      "it": "Sposterò questo ticket a completato.",
-      "tr": "Bu ticket'ı tamamlandı'ya taşıyacağım."
+      "it": "Sposterò questo ticket a completato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -263,8 +246,7 @@
       "es": "Necesito escribir más pruebas.",
       "fr": "Je dois écrire plus de tests.",
       "de": "Ich muss mehr Tests schreiben.",
-      "it": "Devo scrivere più test.",
-      "tr": "Daha fazla test yazmam gerekiyor."
+      "it": "Devo scrivere più test."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -278,8 +260,7 @@
       "es": "El despliegue fue bien.",
       "fr": "Le déploiement s'est bien passé.",
       "de": "Das Deployment lief reibungslos.",
-      "it": "Il deployment è andato liscio.",
-      "tr": "Dağıtım sorunsuz geçti."
+      "it": "Il deployment è andato liscio."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -293,8 +274,7 @@
       "es": "Estoy haciendo pair con Alex en esto.",
       "fr": "Je fais du pair programming avec Alex là-dessus.",
       "de": "Ich arbeite mit Alex zusammen daran.",
-      "it": "Sto facendo pair programming con Alex su questo.",
-      "tr": "Bu konuda Alex ile eşleşiyorum."
+      "it": "Sto facendo pair programming con Alex su questo."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -308,8 +288,7 @@
       "es": "Actualicé el tablero de Jira.",
       "fr": "J'ai mis à jour le tableau Jira.",
       "de": "Ich habe das Jira-Board aktualisiert.",
-      "it": "Ho aggiornato la board di Jira.",
-      "tr": "Jira panosunu güncelledim."
+      "it": "Ho aggiornato la board di Jira."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -323,8 +302,7 @@
       "es": "Buenos días a todos.",
       "fr": "Bonjour à tous.",
       "de": "Guten Morgen, alle zusammen.",
-      "it": "Buongiorno a tutti.",
-      "tr": "Günaydın, herkese."
+      "it": "Buongiorno a tutti."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -338,8 +316,7 @@
       "es": "Eso es todo de mi parte.",
       "fr": "C'est tout de mon côté.",
       "de": "Das ist alles von mir.",
-      "it": "Questo è tutto da parte mia.",
-      "tr": "Benden bu kadar."
+      "it": "Questo è tutto da parte mia."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -353,8 +330,7 @@
       "es": "Estoy en camino de terminar para el viernes.",
       "fr": "Je suis en bonne voie pour finir vendredi.",
       "de": "Ich bin auf Kurs, bis Freitag fertig zu sein.",
-      "it": "Sono in linea per finire entro venerdì.",
-      "tr": "Cuma'ya kadar bitirmeye gidiyorum."
+      "it": "Sono in linea per finire entro venerdì."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -368,8 +344,7 @@
       "es": "Refactoricé la capa de servicio.",
       "fr": "J'ai refactorisé la couche de service.",
       "de": "Ich habe die Service-Schicht refaktoriert.",
-      "it": "Ho refactorizzato il livello di servizio.",
-      "tr": "Servis katmanını yeniden düzenledim."
+      "it": "Ho refactorizzato il livello di servizio."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -383,8 +358,7 @@
       "es": "Necesito acceso al servidor de staging.",
       "fr": "J'ai besoin d'accès au serveur de staging.",
       "de": "Ich brauche Zugang zum Staging-Server.",
-      "it": "Ho bisogno dell'accesso al server di staging.",
-      "tr": "Staging sunucusuna erişime ihtiyacım var."
+      "it": "Ho bisogno dell'accesso al server di staging."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -398,8 +372,7 @@
       "es": "Agregaré manejo de errores a ese endpoint.",
       "fr": "Je vais ajouter la gestion d'erreurs à cet endpoint.",
       "de": "Ich werde Fehlerbehandlung zu diesem Endpunkt hinzufügen.",
-      "it": "Aggiungerò la gestione degli errori a quell'endpoint.",
-      "tr": "O endpoint'e hata yönetimi ekleyeceğim."
+      "it": "Aggiungerò la gestione degli errori a quell'endpoint."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -413,8 +386,7 @@
       "es": "¿Alguien puede revisar mi PR?",
       "fr": "Quelqu'un peut revoir ma PR ?",
       "de": "Kann jemand meinen PR reviewen?",
-      "it": "Qualcuno può revisionare la mia PR?",
-      "tr": "PR'ımı biri inceleyebilir mi?"
+      "it": "Qualcuno può revisionare la mia PR?"
     },
     "difficulty": "easy",
     "category": "standup"
@@ -428,8 +400,7 @@
       "es": "Me coordinaré con el equipo de backend.",
       "fr": "Je vais me synchroniser avec l'équipe backend.",
       "de": "Ich werde mich mit dem Backend-Team abstimmen.",
-      "it": "Mi sincronizzerò con il team backend.",
-      "tr": "Backend ekibiyle senkronize olacağım."
+      "it": "Mi sincronizzerò con il team backend."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -443,8 +414,7 @@
       "es": "Hice merge de mi rama en develop.",
       "fr": "J'ai fusionné ma branche dans develop.",
       "de": "Ich habe meinen Branch in develop gemergt.",
-      "it": "Ho fatto il merge del mio branch in develop.",
-      "tr": "Branch'imi develop'a merge ettim."
+      "it": "Ho fatto il merge del mio branch in develop."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -458,8 +428,7 @@
       "es": "Resolví el conflicto de merge.",
       "fr": "J'ai résolu le conflit de fusion.",
       "de": "Ich habe den Merge-Konflikt gelöst.",
-      "it": "Ho risolto il conflitto di merge.",
-      "tr": "Merge çakışmasını çözdüm."
+      "it": "Ho risolto il conflitto di merge."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -473,8 +442,7 @@
       "es": "Estoy configurando el entorno de desarrollo.",
       "fr": "Je configure l'environnement de développement.",
       "de": "Ich richte die Entwicklungsumgebung ein.",
-      "it": "Sto configurando l'ambiente di sviluppo.",
-      "tr": "Geliştirme ortamını kuruyorum."
+      "it": "Sto configurando l'ambiente di sviluppo."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -488,8 +456,7 @@
       "es": "Actualicé las dependencias.",
       "fr": "J'ai mis à jour les dépendances.",
       "de": "Ich habe die Abhängigkeiten aktualisiert.",
-      "it": "Ho aggiornato le dipendenze.",
-      "tr": "Bağımlılıkları güncelledim."
+      "it": "Ho aggiornato le dipendenze."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -503,8 +470,7 @@
       "es": "Optimicé la consulta de la base de datos.",
       "fr": "J'ai optimisé la requête de la base de données.",
       "de": "Ich habe die Datenbankabfrage optimiert.",
-      "it": "Ho ottimizzato la query del database.",
-      "tr": "Veritabanı sorgusunu optimize ettim."
+      "it": "Ho ottimizzato la query del database."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -518,8 +484,7 @@
       "es": "Estoy investigando el problema de rendimiento.",
       "fr": "J'examine le problème de performance.",
       "de": "Ich untersuche das Performance-Problem.",
-      "it": "Sto esaminando il problema di prestazioni.",
-      "tr": "Performans sorununu araştırıyorum."
+      "it": "Sto esaminando il problema di prestazioni."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -533,23 +498,21 @@
       "es": "Agregué pruebas unitarias para la nueva funcionalidad.",
       "fr": "J'ai ajouté des tests unitaires pour la nouvelle fonctionnalité.",
       "de": "Ich habe Unit-Tests für das neue Feature hinzugefügt.",
-      "it": "Ho aggiunto test unitari per la nuova funzionalità.",
-      "tr": "Yeni özellik için birim testleri ekledim."
+      "it": "Ho aggiunto test unitari per la nuova funzionalità."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_037",
-    "english": "The CI pipeline is green.",
-    "context": "Confirming continuous integration success",
+    "english": "I estimate about two more days of work on this ticket.",
+    "context": "Giving a time estimate for remaining work",
     "translations": {
-      "pt-BR": "O pipeline de CI está verde.",
-      "es": "El pipeline de CI está en verde.",
-      "fr": "Le pipeline CI est vert.",
-      "de": "Die CI-Pipeline ist grün.",
-      "it": "La pipeline CI è verde.",
-      "tr": "CI pipeline'ı yeşil."
+      "pt-BR": "Estimo mais uns dois dias de trabalho nesse ticket.",
+      "es": "Calculo unos dos días más de trabajo en este ticket.",
+      "fr": "J'estime environ deux jours de travail restants sur ce ticket.",
+      "de": "Ich schätze noch etwa zwei Tage Arbeit an diesem Ticket.",
+      "it": "Stimo circa altri due giorni di lavoro su questo ticket."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -563,8 +526,7 @@
       "es": "Estoy depurando un caso límite.",
       "fr": "Je débogue un cas limite.",
       "de": "Ich debugge einen Grenzfall.",
-      "it": "Sto debuggando un caso limite.",
-      "tr": "Bir uç durumu debug ediyorum."
+      "it": "Sto debuggando un caso limite."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -578,8 +540,7 @@
       "es": "Trabajaré en el diseño responsivo.",
       "fr": "Je vais travailler sur la mise en page responsive.",
       "de": "Ich werde am responsiven Layout arbeiten.",
-      "it": "Lavorerò sul layout responsivo.",
-      "tr": "Duyarlı düzen üzerinde çalışacağım."
+      "it": "Lavorerò sul layout responsivo."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -593,308 +554,287 @@
       "es": "Estoy implementando la funcionalidad de búsqueda.",
       "fr": "J'implémente la fonctionnalité de recherche.",
       "de": "Ich implementiere die Suchfunktion.",
-      "it": "Sto implementando la funzionalità di ricerca.",
-      "tr": "Arama işlevini uyguluyorum."
+      "it": "Sto implementando la funzionalità di ricerca."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_041",
-    "english": "I'm working on the payment module.",
-    "context": "Updating your team about what you're doing",
+    "english": "I'm stuck on this issue — can someone take a look with me after standup?",
+    "context": "Asking for help with a blocker during standup",
     "translations": {
-      "pt-BR": "Estou trabalhando o módulo de pagamento.",
-      "es": "Estoy trabajando en el módulo de pago.",
-      "fr": "Je travaille sur le module de paiement.",
-      "de": "Ich arbeite an das Zahlungsmodul.",
-      "it": "Sto lavorando su il modulo di pagamento.",
-      "tr": "Üzerinde çalışıyorum: ödeme modülü."
+      "pt-BR": "Estou travado nesse problema — alguém pode dar uma olhada comigo depois da standup?",
+      "es": "Estoy atascado en este problema — ¿alguien puede echarle un vistazo conmigo después de la standup?",
+      "fr": "Je suis bloqué sur ce problème — quelqu'un peut y jeter un œil avec moi après le standup ?",
+      "de": "Ich hänge bei diesem Problem fest — kann sich jemand das nach dem Standup mit mir ansehen?",
+      "it": "Sono bloccato su questo problema — qualcuno può darci un'occhiata con me dopo lo standup?"
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_042",
-    "english": "I finished the payment module yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I paired with Sarah yesterday to work through the database design.",
+    "context": "Mentioning you paired with someone yesterday",
     "translations": {
-      "pt-BR": "Terminei o módulo de pagamento ontem.",
-      "es": "Terminé el módulo de pago ayer.",
-      "fr": "J'ai terminé le module de paiement hier.",
-      "de": "Ich habe das Zahlungsmodul gestern abgeschlossen.",
-      "it": "Ho finito il modulo di pagamento ieri.",
-      "tr": "Dün ödeme modülü tamamladım."
+      "pt-BR": "Pareei com a Sarah ontem para trabalhar no design do banco de dados.",
+      "es": "Hice pair con Sarah ayer para trabajar en el diseño de la base de datos.",
+      "fr": "J'ai fait du pair programming avec Sarah hier pour travailler sur la conception de la base de données.",
+      "de": "Ich habe gestern mit Sarah zusammen am Datenbankdesign gearbeitet.",
+      "it": "Ho fatto pair programming con Sarah ieri per lavorare sul design del database."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_043",
-    "english": "I'm working on the notification system.",
-    "context": "Updating your team about what you're doing",
+    "english": "I'm actually ahead of schedule on this one.",
+    "context": "Reporting you are ahead of schedule",
     "translations": {
-      "pt-BR": "Estou trabalhando o sistema de notificações.",
-      "es": "Estoy trabajando en el sistema de notificaciones.",
-      "fr": "Je travaille sur le système de notifications.",
-      "de": "Ich arbeite an das Benachrichtigungssystem.",
-      "it": "Sto lavorando su il sistema di notifiche.",
-      "tr": "Üzerinde çalışıyorum: bildirim sistemi."
+      "pt-BR": "Na verdade, estou adiantado no cronograma nessa tarefa.",
+      "es": "De hecho, estoy adelantado en el cronograma con esta tarea.",
+      "fr": "En fait, je suis en avance sur le planning pour celui-ci.",
+      "de": "Ich bin bei dieser Aufgabe tatsächlich dem Zeitplan voraus.",
+      "it": "In realtà sono in anticipo rispetto alla tabella di marcia su questo."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_044",
-    "english": "I finished the notification system yesterday.",
-    "context": "Reporting what you completed",
+    "english": "We'll need to update the timeline — this task is more complex than expected.",
+    "context": "Saying you need to update the project timeline",
     "translations": {
-      "pt-BR": "Terminei o sistema de notificações ontem.",
-      "es": "Terminé el sistema de notificaciones ayer.",
-      "fr": "J'ai terminé le système de notifications hier.",
-      "de": "Ich habe das Benachrichtigungssystem gestern abgeschlossen.",
-      "it": "Ho finito il sistema di notifiche ieri.",
-      "tr": "Dün bildirim sistemi tamamladım."
+      "pt-BR": "Vamos precisar atualizar o cronograma — essa tarefa é mais complexa do que o esperado.",
+      "es": "Necesitaremos actualizar el cronograma — esta tarea es más compleja de lo esperado.",
+      "fr": "Il faudra mettre à jour le planning — cette tâche est plus complexe que prévu.",
+      "de": "Wir müssen den Zeitplan aktualisieren — diese Aufgabe ist komplexer als erwartet.",
+      "it": "Dovremo aggiornare la timeline — questo compito è più complesso del previsto."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_045",
-    "english": "I'm working on the user profile page.",
-    "context": "Updating your team about what you're doing",
+    "english": "I'm waiting on the platform team to deploy their service before I can continue.",
+    "context": "Noting a dependency on another team's work",
     "translations": {
-      "pt-BR": "Estou trabalhando a página de perfil do usuário.",
-      "es": "Estoy trabajando en la página de perfil del usuario.",
-      "fr": "Je travaille sur la page de profil utilisateur.",
-      "de": "Ich arbeite an die Benutzerprofilseite.",
-      "it": "Sto lavorando su la pagina del profilo utente.",
-      "tr": "Üzerinde çalışıyorum: kullanıcı profil sayfası."
+      "pt-BR": "Estou esperando o time de plataforma fazer o deploy do serviço deles para poder continuar.",
+      "es": "Estoy esperando que el equipo de plataforma despliegue su servicio para poder continuar.",
+      "fr": "J'attends que l'équipe plateforme déploie leur service avant de pouvoir continuer.",
+      "de": "Ich warte darauf, dass das Plattform-Team ihren Service deployt, bevor ich weitermachen kann.",
+      "it": "Sto aspettando che il team piattaforma faccia il deploy del loro servizio prima di poter continuare."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_046",
-    "english": "I finished the user profile page yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I attended the knowledge-sharing session on Kubernetes yesterday.",
+    "context": "Mentioning you attended a knowledge-sharing session",
     "translations": {
-      "pt-BR": "Terminei a página de perfil do usuário ontem.",
-      "es": "Terminé la página de perfil del usuario ayer.",
-      "fr": "J'ai terminé la page de profil utilisateur hier.",
-      "de": "Ich habe die Benutzerprofilseite gestern abgeschlossen.",
-      "it": "Ho finito la pagina del profilo utente ieri.",
-      "tr": "Dün kullanıcı profil sayfası tamamladım."
+      "pt-BR": "Participei da sessão de compartilhamento de conhecimento sobre Kubernetes ontem.",
+      "es": "Asistí a la sesión de intercambio de conocimientos sobre Kubernetes ayer.",
+      "fr": "J'ai assisté à la session de partage de connaissances sur Kubernetes hier.",
+      "de": "Ich habe gestern an der Wissensaustausch-Session über Kubernetes teilgenommen.",
+      "it": "Ho partecipato alla sessione di condivisione delle conoscenze su Kubernetes ieri."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_047",
-    "english": "I'm working on the settings screen.",
-    "context": "Updating your team about what you're doing",
+    "english": "I spent part of yesterday onboarding the new developer on our codebase.",
+    "context": "Reporting you onboarded a new team member",
     "translations": {
-      "pt-BR": "Estou trabalhando a tela de configurações.",
-      "es": "Estoy trabajando en la pantalla de ajustes.",
-      "fr": "Je travaille sur l'écran des paramètres.",
-      "de": "Ich arbeite an den Einstellungsbildschirm.",
-      "it": "Sto lavorando su la schermata delle impostazioni.",
-      "tr": "Üzerinde çalışıyorum: ayarlar ekranı."
+      "pt-BR": "Passei parte de ontem fazendo o onboarding do novo desenvolvedor na nossa base de código.",
+      "es": "Pasé parte de ayer haciendo el onboarding del nuevo desarrollador en nuestro código.",
+      "fr": "J'ai passé une partie d'hier à intégrer le nouveau développeur sur notre codebase.",
+      "de": "Ich habe gestern einen Teil des Tages damit verbracht, den neuen Entwickler in unsere Codebasis einzuarbeiten.",
+      "it": "Ho dedicato parte di ieri all'onboarding del nuovo sviluppatore sulla nostra codebase."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_048",
-    "english": "I finished the settings screen yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I refactored the legacy code in the billing module to make it testable.",
+    "context": "Saying you refactored legacy code",
     "translations": {
-      "pt-BR": "Terminei a tela de configurações ontem.",
-      "es": "Terminé la pantalla de ajustes ayer.",
-      "fr": "J'ai terminé l'écran des paramètres hier.",
-      "de": "Ich habe den Einstellungsbildschirm gestern abgeschlossen.",
-      "it": "Ho finito la schermata delle impostazioni ieri.",
-      "tr": "Dün ayarlar ekranı tamamladım."
+      "pt-BR": "Refatorei o código legado no módulo de faturamento para torná-lo testável.",
+      "es": "Refactoricé el código legado en el módulo de facturación para hacerlo testeable.",
+      "fr": "J'ai refactorisé le code legacy dans le module de facturation pour le rendre testable.",
+      "de": "Ich habe den Legacy-Code im Abrechnungsmodul refaktoriert, um ihn testbar zu machen.",
+      "it": "Ho refactorizzato il codice legacy nel modulo di fatturazione per renderlo testabile."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_049",
-    "english": "I'm working on the onboarding flow.",
-    "context": "Updating your team about what you're doing",
+    "english": "I set up monitoring alerts for the new endpoints.",
+    "context": "Mentioning you set up monitoring alerts",
     "translations": {
-      "pt-BR": "Estou trabalhando o fluxo de onboarding.",
-      "es": "Estoy trabajando en el flujo de onboarding.",
-      "fr": "Je travaille sur le flux d'onboarding.",
-      "de": "Ich arbeite an den Onboarding-Flow.",
-      "it": "Sto lavorando su il flusso di onboarding.",
-      "tr": "Üzerinde çalışıyorum: karşılama akışı."
+      "pt-BR": "Configurei alertas de monitoramento para os novos endpoints.",
+      "es": "Configuré alertas de monitoreo para los nuevos endpoints.",
+      "fr": "J'ai configuré les alertes de monitoring pour les nouveaux endpoints.",
+      "de": "Ich habe Monitoring-Alerts für die neuen Endpunkte eingerichtet.",
+      "it": "Ho configurato gli alert di monitoraggio per i nuovi endpoint."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_050",
-    "english": "I finished the onboarding flow yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I wrote integration tests for the checkout workflow.",
+    "context": "Reporting you wrote integration tests",
     "translations": {
-      "pt-BR": "Terminei o fluxo de onboarding ontem.",
-      "es": "Terminé el flujo de onboarding ayer.",
-      "fr": "J'ai terminé le flux d'onboarding hier.",
-      "de": "Ich habe den Onboarding-Flow gestern abgeschlossen.",
-      "it": "Ho finito il flusso di onboarding ieri.",
-      "tr": "Dün karşılama akışı tamamladım."
+      "pt-BR": "Escrevi testes de integração para o fluxo de checkout.",
+      "es": "Escribí pruebas de integración para el flujo de checkout.",
+      "fr": "J'ai écrit des tests d'intégration pour le workflow de paiement.",
+      "de": "Ich habe Integrationstests für den Checkout-Workflow geschrieben.",
+      "it": "Ho scritto test di integrazione per il flusso di checkout."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_051",
-    "english": "I'm working on the dark mode implementation.",
-    "context": "Updating your team about what you're doing",
+    "english": "I updated the CI pipeline to run linting before the tests.",
+    "context": "Saying you updated the CI pipeline configuration",
     "translations": {
-      "pt-BR": "Estou trabalhando a implementação do modo escuro.",
-      "es": "Estoy trabajando en la implementación del modo oscuro.",
-      "fr": "Je travaille sur l'implémentation du mode sombre.",
-      "de": "Ich arbeite an die Dark-Mode-Implementierung.",
-      "it": "Sto lavorando su l'implementazione della modalità scura.",
-      "tr": "Üzerinde çalışıyorum: karanlık mod uygulaması."
+      "pt-BR": "Atualizei o pipeline de CI para rodar o linting antes dos testes.",
+      "es": "Actualicé el pipeline de CI para ejecutar el linting antes de las pruebas.",
+      "fr": "J'ai mis à jour le pipeline CI pour exécuter le linting avant les tests.",
+      "de": "Ich habe die CI-Pipeline aktualisiert, um Linting vor den Tests auszuführen.",
+      "it": "Ho aggiornato la pipeline CI per eseguire il linting prima dei test."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_052",
-    "english": "I finished the dark mode implementation yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I participated in the architecture review for the new microservice.",
+    "context": "Mentioning you participated in an architecture review",
     "translations": {
-      "pt-BR": "Terminei a implementação do modo escuro ontem.",
-      "es": "Terminé la implementación del modo oscuro ayer.",
-      "fr": "J'ai terminé l'implémentation du mode sombre hier.",
-      "de": "Ich habe die Dark-Mode-Implementierung gestern abgeschlossen.",
-      "it": "Ho finito l'implementazione della modalità scura ieri.",
-      "tr": "Dün karanlık mod uygulaması tamamladım."
+      "pt-BR": "Participei da revisão de arquitetura para o novo microsserviço.",
+      "es": "Participé en la revisión de arquitectura del nuevo microservicio.",
+      "fr": "J'ai participé à la revue d'architecture pour le nouveau microservice.",
+      "de": "Ich habe an der Architektur-Review für den neuen Microservice teilgenommen.",
+      "it": "Ho partecipato alla revisione dell'architettura per il nuovo microservizio."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_053",
-    "english": "I'm working on the caching layer.",
-    "context": "Updating your team about what you're doing",
+    "english": "I migrated the user data from the old schema to the new one.",
+    "context": "Reporting you migrated data from old schema",
     "translations": {
-      "pt-BR": "Estou trabalhando a camada de cache.",
-      "es": "Estoy trabajando en la capa de caché.",
-      "fr": "Je travaille sur la couche de cache.",
-      "de": "Ich arbeite an die Cache-Schicht.",
-      "it": "Sto lavorando su il livello di cache.",
-      "tr": "Üzerinde çalışıyorum: önbellek katmanı."
+      "pt-BR": "Migrei os dados de usuário do schema antigo para o novo.",
+      "es": "Migré los datos de usuario del esquema antiguo al nuevo.",
+      "fr": "J'ai migré les données utilisateur de l'ancien schéma vers le nouveau.",
+      "de": "Ich habe die Benutzerdaten vom alten Schema auf das neue migriert.",
+      "it": "Ho migrato i dati utente dal vecchio schema al nuovo."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_054",
-    "english": "I finished the caching layer yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I profiled the app and found a few performance bottlenecks in the rendering layer.",
+    "context": "Saying you profiled the app for performance bottlenecks",
     "translations": {
-      "pt-BR": "Terminei a camada de cache ontem.",
-      "es": "Terminé la capa de caché ayer.",
-      "fr": "J'ai terminé la couche de cache hier.",
-      "de": "Ich habe die Cache-Schicht gestern abgeschlossen.",
-      "it": "Ho finito il livello di cache ieri.",
-      "tr": "Dün önbellek katmanı tamamladım."
+      "pt-BR": "Fiz o profiling do app e encontrei alguns gargalos de performance na camada de renderização.",
+      "es": "Perfilé la app y encontré algunos cuellos de botella de rendimiento en la capa de renderizado.",
+      "fr": "J'ai profilé l'app et trouvé quelques goulots d'étranglement de performance dans la couche de rendu.",
+      "de": "Ich habe die App profiliert und einige Performance-Engpässe in der Rendering-Schicht gefunden.",
+      "it": "Ho profilato l'app e trovato alcuni colli di bottiglia nelle prestazioni nel livello di rendering."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_055",
-    "english": "I'm working on the authentication flow.",
-    "context": "Updating your team about what you're doing",
+    "english": "I fixed several accessibility issues flagged by the audit tool.",
+    "context": "Mentioning you fixed accessibility issues",
     "translations": {
-      "pt-BR": "Estou trabalhando o fluxo de autenticação.",
-      "es": "Estoy trabajando en el flujo de autenticación.",
-      "fr": "Je travaille sur le flux d'authentification.",
-      "de": "Ich arbeite an den Authentifizierungsablauf.",
-      "it": "Sto lavorando su il flusso di autenticazione.",
-      "tr": "Üzerinde çalışıyorum: kimlik doğrulama akışı."
+      "pt-BR": "Corrigi vários problemas de acessibilidade identificados pela ferramenta de auditoria.",
+      "es": "Corregí varios problemas de accesibilidad señalados por la herramienta de auditoría.",
+      "fr": "J'ai corrigé plusieurs problèmes d'accessibilité signalés par l'outil d'audit.",
+      "de": "Ich habe mehrere Barrierefreiheitsprobleme behoben, die das Audit-Tool gemeldet hat.",
+      "it": "Ho corretto diversi problemi di accessibilità segnalati dallo strumento di audit."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_056",
-    "english": "I finished the authentication flow yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I updated our third-party dependencies to their latest stable versions.",
+    "context": "Reporting you updated third-party dependencies",
     "translations": {
-      "pt-BR": "Terminei o fluxo de autenticação ontem.",
-      "es": "Terminé el flujo de autenticación ayer.",
-      "fr": "J'ai terminé le flux d'authentification hier.",
-      "de": "Ich habe den Authentifizierungsablauf gestern abgeschlossen.",
-      "it": "Ho finito il flusso di autenticazione ieri.",
-      "tr": "Dün kimlik doğrulama akışı tamamladım."
+      "pt-BR": "Atualizei nossas dependências de terceiros para as últimas versões estáveis.",
+      "es": "Actualicé nuestras dependencias de terceros a sus últimas versiones estables.",
+      "fr": "J'ai mis à jour nos dépendances tierces vers leurs dernières versions stables.",
+      "de": "Ich habe unsere Drittanbieter-Abhängigkeiten auf die neuesten stabilen Versionen aktualisiert.",
+      "it": "Ho aggiornato le nostre dipendenze di terze parti alle ultime versioni stabili."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_057",
-    "english": "I'm working on the error handling.",
-    "context": "Updating your team about what you're doing",
+    "english": "I documented all the API endpoints in the wiki.",
+    "context": "Saying you documented the API endpoints",
     "translations": {
-      "pt-BR": "Estou trabalhando o tratamento de erros.",
-      "es": "Estoy trabajando en el manejo de errores.",
-      "fr": "Je travaille sur la gestion des erreurs.",
-      "de": "Ich arbeite an die Fehlerbehandlung.",
-      "it": "Sto lavorando su la gestione degli errori.",
-      "tr": "Üzerinde çalışıyorum: hata yönetimi."
+      "pt-BR": "Documentei todos os endpoints da API na wiki.",
+      "es": "Documenté todos los endpoints de la API en la wiki.",
+      "fr": "J'ai documenté tous les endpoints de l'API dans le wiki.",
+      "de": "Ich habe alle API-Endpunkte im Wiki dokumentiert.",
+      "it": "Ho documentato tutti gli endpoint dell'API nel wiki."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_058",
-    "english": "I finished the error handling yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I created runbooks for the ops team to handle common incidents.",
+    "context": "Mentioning you created runbooks for ops team",
     "translations": {
-      "pt-BR": "Terminei o tratamento de erros ontem.",
-      "es": "Terminé el manejo de errores ayer.",
-      "fr": "J'ai terminé la gestion des erreurs hier.",
-      "de": "Ich habe die Fehlerbehandlung gestern abgeschlossen.",
-      "it": "Ho finito la gestione degli errori ieri.",
-      "tr": "Dün hata yönetimi tamamladım."
+      "pt-BR": "Criei runbooks para o time de operações lidar com incidentes comuns.",
+      "es": "Creé runbooks para el equipo de operaciones para manejar incidentes comunes.",
+      "fr": "J'ai créé des runbooks pour l'équipe ops pour gérer les incidents courants.",
+      "de": "Ich habe Runbooks für das Ops-Team erstellt, um häufige Vorfälle zu behandeln.",
+      "it": "Ho creato dei runbook per il team ops per gestire gli incidenti comuni."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_059",
-    "english": "I'm working on the analytics integration.",
-    "context": "Updating your team about what you're doing",
+    "english": "I implemented error tracking so we can catch crashes in production.",
+    "context": "Reporting you implemented error tracking",
     "translations": {
-      "pt-BR": "Estou trabalhando a integração de analytics.",
-      "es": "Estoy trabajando en la integración de analíticas.",
-      "fr": "Je travaille sur l'intégration des analytics.",
-      "de": "Ich arbeite an die Analytics-Integration.",
-      "it": "Sto lavorando su l'integrazione degli analytics.",
-      "tr": "Üzerinde çalışıyorum: analitik entegrasyonu."
+      "pt-BR": "Implementei o rastreamento de erros para podermos capturar crashes em produção.",
+      "es": "Implementé el seguimiento de errores para poder detectar crashes en producción.",
+      "fr": "J'ai implémenté le suivi des erreurs pour qu'on puisse détecter les crashs en production.",
+      "de": "Ich habe Error-Tracking implementiert, damit wir Abstürze in der Produktion erkennen können.",
+      "it": "Ho implementato il tracciamento degli errori per poter individuare i crash in produzione."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_060",
-    "english": "I finished the analytics integration yesterday.",
-    "context": "Reporting what you completed",
+    "english": "I reviewed the security audit findings and created tickets for each vulnerability.",
+    "context": "Saying you reviewed the security audit findings",
     "translations": {
-      "pt-BR": "Terminei a integração de analytics ontem.",
-      "es": "Terminé la integración de analíticas ayer.",
-      "fr": "J'ai terminé l'intégration des analytics hier.",
-      "de": "Ich habe die Analytics-Integration gestern abgeschlossen.",
-      "it": "Ho finito l'integrazione degli analytics ieri.",
-      "tr": "Dün analitik entegrasyonu tamamladım."
+      "pt-BR": "Revisei os achados da auditoria de segurança e criei tickets para cada vulnerabilidade.",
+      "es": "Revisé los hallazgos de la auditoría de seguridad y creé tickets para cada vulnerabilidad.",
+      "fr": "J'ai examiné les résultats de l'audit de sécurité et créé des tickets pour chaque vulnérabilité.",
+      "de": "Ich habe die Ergebnisse des Sicherheitsaudits überprüft und Tickets für jede Schwachstelle erstellt.",
+      "it": "Ho esaminato i risultati dell'audit di sicurezza e creato ticket per ogni vulnerabilità."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -908,8 +848,7 @@
       "es": "Yo me encargo de eso.",
       "fr": "Je m'en occupe.",
       "de": "Das übernehme ich.",
-      "it": "Me ne occupo io.",
-      "tr": "Ben hallederim."
+      "it": "Me ne occupo io."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -923,8 +862,7 @@
       "es": "Déjame revisar eso.",
       "fr": "Laisse-moi vérifier ça.",
       "de": "Lass mich das prüfen.",
-      "it": "Fammi controllare.",
-      "tr": "Kontrol edeyim."
+      "it": "Fammi controllare."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -938,8 +876,7 @@
       "es": "Lo tendré listo para mañana.",
       "fr": "Ce sera prêt demain.",
       "de": "Ich werde es bis morgen fertig haben.",
-      "it": "Lo avrò pronto per domani.",
-      "tr": "Yarına hazır olacak."
+      "it": "Lo avrò pronto per domani."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -953,8 +890,7 @@
       "es": "Nada nuevo que reportar.",
       "fr": "Rien de nouveau à signaler.",
       "de": "Nichts Neues zu berichten.",
-      "it": "Niente di nuovo da segnalare.",
-      "tr": "Yeni bir şey yok."
+      "it": "Niente di nuovo da segnalare."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -968,23 +904,21 @@
       "es": "Ejecuté la suite completa de pruebas.",
       "fr": "J'ai exécuté la suite de tests complète.",
       "de": "Ich habe die komplette Testsuite ausgeführt.",
-      "it": "Ho eseguito la suite di test completa.",
-      "tr": "Tüm test paketini çalıştırdım."
+      "it": "Ho eseguito la suite di test completa."
     },
     "difficulty": "easy",
     "category": "standup"
   },
   {
     "id": "standup_066",
-    "english": "I sent the PR for review.",
-    "context": "Requesting code review",
+    "english": "I'll sync with QA to make sure they have test cases ready for this feature.",
+    "context": "Coordinating with the QA team on testing",
     "translations": {
-      "pt-BR": "Enviei o PR para revisão.",
-      "es": "Envié el PR para revisión.",
-      "fr": "J'ai envoyé la PR pour revue.",
-      "de": "Ich habe den PR zur Review geschickt.",
-      "it": "Ho inviato la PR per la revisione.",
-      "tr": "PR'ı incelemeye gönderdim."
+      "pt-BR": "Vou alinhar com o QA para garantir que eles tenham os casos de teste prontos para essa feature.",
+      "es": "Me coordinaré con QA para asegurarme de que tengan los casos de prueba listos para esta funcionalidad.",
+      "fr": "Je vais me synchroniser avec le QA pour m'assurer qu'ils ont les cas de test prêts pour cette fonctionnalité.",
+      "de": "Ich werde mich mit QA abstimmen, um sicherzustellen, dass sie Testfälle für dieses Feature bereit haben.",
+      "it": "Mi sincronizzerò con il QA per assicurarmi che abbiano i casi di test pronti per questa funzionalità."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -998,8 +932,7 @@
       "es": "La funcionalidad está completa en código.",
       "fr": "La fonctionnalité est code complete.",
       "de": "Das Feature ist code complete.",
-      "it": "La funzionalità è code complete.",
-      "tr": "Özellik kod olarak tamamlandı."
+      "it": "La funzionalità è code complete."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1013,8 +946,7 @@
       "es": "Estoy actualizando la documentación de la API.",
       "fr": "Je mets à jour la documentation de l'API.",
       "de": "Ich aktualisiere die API-Dokumentation.",
-      "it": "Sto aggiornando la documentazione dell'API.",
-      "tr": "API dokümantasyonunu güncelliyorum."
+      "it": "Sto aggiornando la documentazione dell'API."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1028,8 +960,7 @@
       "es": "Necesito refactorizar este componente.",
       "fr": "Je dois refactoriser ce composant.",
       "de": "Ich muss diese Komponente refaktorieren.",
-      "it": "Devo refactorizzare questo componente.",
-      "tr": "Bu bileşeni yeniden düzenlemem gerekiyor."
+      "it": "Devo refactorizzare questo componente."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1043,8 +974,7 @@
       "es": "Limpiaré el código antes de hacer merge.",
       "fr": "Je vais nettoyer le code avant de fusionner.",
       "de": "Ich werde den Code vor dem Merge aufräumen.",
-      "it": "Pulirò il codice prima del merge.",
-      "tr": "Merge'den önce kodu temizleyeceğim."
+      "it": "Pulirò il codice prima del merge."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1058,8 +988,7 @@
       "es": "Estoy bloqueado en la integración de pagos porque la API de terceros está devolviendo errores 500.",
       "fr": "Je suis bloqué sur l'intégration de paiement car l'API tierce renvoie des erreurs 500.",
       "de": "Ich bin bei der Zahlungsintegration blockiert, weil die Drittanbieter-API 500-Fehler zurückgibt.",
-      "it": "Sono bloccato sull'integrazione dei pagamenti perché l'API di terze parti restituisce errori 500.",
-      "tr": "Üçüncü parti API 500 hatası döndürdüğü için ödeme entegrasyonunda takıldım."
+      "it": "Sono bloccato sull'integrazione dei pagamenti perché l'API di terze parti restituisce errori 500."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1073,8 +1002,7 @@
       "es": "Tuve que revertir mi último commit porque rompió el build.",
       "fr": "J'ai dû reverter mon dernier commit car il a cassé le build.",
       "de": "Ich musste meinen letzten Commit rückgängig machen, weil er den Build gebrochen hat.",
-      "it": "Ho dovuto revertire il mio ultimo commit perché ha rotto la build.",
-      "tr": "Son commit'imi geri almak zorunda kaldım çünkü build'i bozdu."
+      "it": "Ho dovuto revertire il mio ultimo commit perché ha rotto la build."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1088,8 +1016,7 @@
       "es": "He estado investigando una fuga de memoria en el service worker.",
       "fr": "J'ai enquêté sur une fuite de mémoire dans le service worker.",
       "de": "Ich habe ein Speicherleck im Service Worker untersucht.",
-      "it": "Ho investigato un memory leak nel service worker.",
-      "tr": "Service worker'daki bellek sızıntısını araştırıyordum."
+      "it": "Ho investigato un memory leak nel service worker."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1103,8 +1030,7 @@
       "es": "¿Alguien del equipo de backend puede ayudarme con el esquema GraphQL?",
       "fr": "Est-ce que quelqu'un de l'équipe backend peut m'aider avec le schéma GraphQL ?",
       "de": "Kann mir jemand aus dem Backend-Team beim GraphQL-Schema helfen?",
-      "it": "Qualcuno del team backend può aiutarmi con lo schema GraphQL?",
-      "tr": "Backend ekibinden biri GraphQL şemasında bana yardımcı olabilir mi?"
+      "it": "Qualcuno del team backend può aiutarmi con lo schema GraphQL?"
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1118,8 +1044,7 @@
       "es": "Voy a dividir esto en PRs más pequeños para facilitar la revisión.",
       "fr": "Je vais diviser ça en petites PRs pour faciliter la revue.",
       "de": "Ich werde das in kleinere PRs aufteilen, um die Review zu erleichtern.",
-      "it": "Dividerò questo in PR più piccole per facilitare la revisione.",
-      "tr": "İncelemeyi kolaylaştırmak için bunu daha küçük PR'lara böleceğim."
+      "it": "Dividerò questo in PR più piccole per facilitare la revisione."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1133,8 +1058,7 @@
       "es": "He estado mejorando la cobertura de tests del módulo de authentication.",
       "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module authentication.",
       "de": "Ich habe an der Verbesserung der Testabdeckung des authentication-Moduls gearbeitet.",
-      "it": "Ho lavorato per migliorare la copertura dei test del modulo authentication.",
-      "tr": "authentication modülünün test kapsamını iyileştiriyordum."
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo authentication."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1148,8 +1072,7 @@
       "es": "He estado mejorando la cobertura de tests del módulo de payment.",
       "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module payment.",
       "de": "Ich habe an der Verbesserung der Testabdeckung des payment-Moduls gearbeitet.",
-      "it": "Ho lavorato per migliorare la copertura dei test del modulo payment.",
-      "tr": "payment modülünün test kapsamını iyileştiriyordum."
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo payment."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1163,8 +1086,7 @@
       "es": "He estado mejorando la cobertura de tests del módulo de notification.",
       "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module notification.",
       "de": "Ich habe an der Verbesserung der Testabdeckung des notification-Moduls gearbeitet.",
-      "it": "Ho lavorato per migliorare la copertura dei test del modulo notification.",
-      "tr": "notification modülünün test kapsamını iyileştiriyordum."
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo notification."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1178,8 +1100,7 @@
       "es": "He estado mejorando la cobertura de tests del módulo de search.",
       "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module search.",
       "de": "Ich habe an der Verbesserung der Testabdeckung des search-Moduls gearbeitet.",
-      "it": "Ho lavorato per migliorare la copertura dei test del modulo search.",
-      "tr": "search modülünün test kapsamını iyileştiriyordum."
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo search."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1193,8 +1114,7 @@
       "es": "He estado mejorando la cobertura de tests del módulo de analytics.",
       "fr": "J'ai travaillé sur l'amélioration de la couverture de tests du module analytics.",
       "de": "Ich habe an der Verbesserung der Testabdeckung des analytics-Moduls gearbeitet.",
-      "it": "Ho lavorato per migliorare la copertura dei test del modulo analytics.",
-      "tr": "analytics modülünün test kapsamını iyileştiriyordum."
+      "it": "Ho lavorato per migliorare la copertura dei test del modulo analytics."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1208,8 +1128,7 @@
       "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
       "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
       "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
-      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1223,8 +1142,7 @@
       "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
       "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
       "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
-      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1238,8 +1156,7 @@
       "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
       "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
       "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
-      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1253,8 +1170,7 @@
       "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
       "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
       "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
-      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1268,8 +1184,7 @@
       "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
       "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
       "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità.",
-      "tr": "Bu özelliği yayınlamadan önce QA ekibiyle koordine olmam gerekiyor."
+      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1283,8 +1198,7 @@
       "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
       "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
       "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
-      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1298,8 +1212,7 @@
       "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
       "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
       "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
-      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1313,8 +1226,7 @@
       "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
       "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
       "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
-      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1328,8 +1240,7 @@
       "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
       "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
       "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
-      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1343,8 +1254,7 @@
       "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
       "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
       "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono.",
-      "tr": "Sorunun asenkron işleyicideki bir yarış koşuluyla ilgili olduğunu keşfettim."
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1358,8 +1268,7 @@
       "es": "Noté que el entorno de staging se comporta diferente a producción.",
       "fr": "J'ai remarqué que l'environnement de staging se comporte différemment de la production.",
       "de": "Mir ist aufgefallen, dass die Staging-Umgebung sich anders verhält als die Produktion.",
-      "it": "Ho notato che l'ambiente di staging si comporta diversamente dalla produzione.",
-      "tr": "Staging ortamının üretimden farklı davrandığını fark ettim."
+      "it": "Ho notato che l'ambiente di staging si comporta diversamente dalla produzione."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1373,8 +1282,7 @@
       "es": "Necesitaré hacer pair con alguien en los cambios de infraestructura.",
       "fr": "J'aurai besoin de faire du pair sur les changements d'infrastructure.",
       "de": "Ich werde mit jemandem an den Infrastrukturänderungen zusammenarbeiten müssen.",
-      "it": "Avrò bisogno di fare pair su i cambiamenti dell'infrastruttura.",
-      "tr": "Altyapı değişiklikleri için biriyle eşleşmem gerekecek."
+      "it": "Avrò bisogno di fare pair su i cambiamenti dell'infrastruttura."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1388,8 +1296,7 @@
       "es": "El feature flag está listo, así que podemos hacer un despliegue gradual.",
       "fr": "Le feature flag est prêt, donc on peut faire un déploiement progressif.",
       "de": "Das Feature Flag ist fertig, also können wir einen schrittweisen Rollout machen.",
-      "it": "Il feature flag è pronto, quindi possiamo fare un rollout graduale.",
-      "tr": "Feature flag hazır, kademeli yayınlama yapabiliriz."
+      "it": "Il feature flag è pronto, quindi possiamo fare un rollout graduale."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1403,8 +1310,7 @@
       "es": "Voy a agregar algunos logs para ayudarnos a depurar este problema en producción.",
       "fr": "Je vais ajouter des logs pour nous aider à déboguer ce problème en production.",
       "de": "Ich werde Logging hinzufügen, um dieses Problem in der Produktion zu debuggen.",
-      "it": "Aggiungerò del logging per aiutarci a debuggare questo problema in produzione.",
-      "tr": "Bu sorunu üretimde debug etmemize yardımcı olacak bazı loglar ekleyeceğim."
+      "it": "Aggiungerò del logging per aiutarci a debuggare questo problema in produzione."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1418,8 +1324,7 @@
       "es": "Me di cuenta de que necesitamos manejar el caso donde el usuario no tiene conexión a internet.",
       "fr": "J'ai réalisé qu'on doit gérer le cas où l'utilisateur n'a pas de connexion internet.",
       "de": "Mir ist aufgefallen, dass wir den Fall behandeln müssen, wenn der Benutzer keine Internetverbindung hat.",
-      "it": "Mi sono reso conto che dobbiamo gestire il caso in cui l'utente non ha connessione internet.",
-      "tr": "Kullanıcının internet bağlantısı olmadığı durumu ele almamız gerektiğini fark ettim."
+      "it": "Mi sono reso conto che dobbiamo gestire il caso in cui l'utente non ha connessione internet."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1433,8 +1338,7 @@
       "es": "He estado metiéndome en un agujero de conejo tratando de descifrar por qué la conexión WebSocket se cae intermitentemente.",
       "fr": "Je suis tombé dans un rabbit hole en essayant de comprendre pourquoi la connexion WebSocket se déconnecte par intermittence.",
       "de": "Ich bin in ein Rabbit Hole geraten beim Versuch herauszufinden, warum die WebSocket-Verbindung intermittierend abbricht.",
-      "it": "Sono finito in un rabbit hole cercando di capire perché la connessione WebSocket cade in modo intermittente.",
-      "tr": "WebSocket bağlantısının neden aralıklı olarak düştüğünü anlamaya çalışırken derinlere daldım."
+      "it": "Sono finito in un rabbit hole cercando di capire perché la connessione WebSocket cade in modo intermittente."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1448,8 +1352,7 @@
       "es": "Creo que deberíamos considerar dividir este monolito en microservicios, pero esa es una conversación más grande.",
       "fr": "Je pense qu'on devrait envisager de découper ce monolithe en microservices, mais c'est une plus grande conversation.",
       "de": "Ich denke, wir sollten in Betracht ziehen, diesen Monolithen in Microservices aufzuteilen, aber das ist ein größeres Gespräch.",
-      "it": "Penso che dovremmo considerare di spezzare questo monolite in microservizi, ma è una conversazione più ampia.",
-      "tr": "Bu monoliti mikroservislere ayırmayı düşünmeliyiz diye düşünüyorum, ama bu daha büyük bir konu."
+      "it": "Penso che dovremmo considerare di spezzare questo monolite in microservizi, ma è una conversazione più ampia."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1463,8 +1366,7 @@
       "es": "La deuda técnica está empezando a acumularse — deberíamos considerar dedicar un sprint a limpieza.",
       "fr": "La dette technique commence à faire boule de neige — on devrait peut-être allouer un sprint pour le nettoyage.",
       "de": "Die technische Schuld fängt an, sich aufzustauen — wir sollten vielleicht einen Sprint für Aufräumarbeiten einplanen.",
-      "it": "Il debito tecnico sta iniziando a crescere a valanga — potremmo voler dedicare uno sprint alla pulizia.",
-      "tr": "Teknik borç kartopu gibi büyüyor — temizlik için bir sprint ayırmamız iyi olabilir."
+      "it": "Il debito tecnico sta iniziando a crescere a valanga — potremmo voler dedicare uno sprint alla pulizia."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1478,8 +1380,7 @@
       "es": "Me inclino por usar un patrón pub/sub para esto, pero me gustaría una segunda opinión antes de comprometerme con la arquitectura.",
       "fr": "Je penche pour un pattern pub/sub pour ça, mais j'aimerais un deuxième avis avant de m'engager sur l'architecture.",
       "de": "Ich tendiere zu einem Pub/Sub-Pattern dafür, aber ich hätte gerne eine zweite Meinung, bevor ich mich auf die Architektur festlege.",
-      "it": "Propendo per un pattern pub/sub per questo, ma vorrei un secondo parere prima di impegnarmi nell'architettura.",
-      "tr": "Bunun için pub/sub kalıbı kullanmaya meyilliyim, ama mimariye karar vermeden önce ikinci bir görüş almak istiyorum."
+      "it": "Propendo per un pattern pub/sub per questo, ma vorrei un secondo parere prima di impegnarmi nell'architettura."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1493,8 +1394,7 @@
       "es": "Deberíamos considerar agregar un circuit breaker en esta llamada de servicio externo para prevenir fallos en cascada.",
       "fr": "On devrait peut-être ajouter un circuit breaker autour de cet appel de service externe pour éviter les défaillances en cascade.",
       "de": "Wir sollten vielleicht einen Circuit Breaker um diesen externen Service-Aufruf hinzufügen, um kaskadierende Fehler zu vermeiden.",
-      "it": "Potremmo voler aggiungere un circuit breaker attorno a questa chiamata di servizio esterno per prevenire guasti a cascata.",
-      "tr": "Basamaklı arızaları önlemek için bu harici servis çağrısının etrafına bir devre kesici eklememiz iyi olabilir."
+      "it": "Potremmo voler aggiungere un circuit breaker attorno a questa chiamata di servizio esterno per prevenire guasti a cascata."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1508,8 +1408,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1523,8 +1422,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1538,8 +1436,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1553,8 +1450,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1568,8 +1464,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1583,8 +1478,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1598,8 +1492,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1613,8 +1506,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1628,8 +1520,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1643,8 +1534,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1658,8 +1548,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1673,8 +1562,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1688,8 +1576,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1703,8 +1590,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1718,8 +1604,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "hard",
     "category": "standup"
@@ -1733,8 +1618,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1748,8 +1632,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "easy",
     "category": "standup"
@@ -1763,8 +1646,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1778,8 +1660,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "medium",
     "category": "standup"
@@ -1793,8 +1674,7 @@
       "es": "Continuando el trabajo según lo planeado.",
       "fr": "Je continue le travail comme prévu.",
       "de": "Ich fahre mit der geplanten Arbeit fort.",
-      "it": "Continuo il lavoro come pianificato.",
-      "tr": "Plana göre çalışmaya devam ediyorum."
+      "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "hard",
     "category": "standup"

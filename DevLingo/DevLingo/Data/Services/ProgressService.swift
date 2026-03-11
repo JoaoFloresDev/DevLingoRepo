@@ -31,6 +31,12 @@ final class ProgressService {
         saveProgress(progress)
     }
 
+    func markPhraseUncompleted(_ phrase: Phrase) {
+        var progress = getProgress()
+        progress.markPhraseUncompleted(phrase)
+        saveProgress(progress)
+    }
+
     func updateStreak() {
         var progress = getProgress()
         progress.updateStreak()

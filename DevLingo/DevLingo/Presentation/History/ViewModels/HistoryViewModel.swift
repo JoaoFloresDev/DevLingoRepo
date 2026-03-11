@@ -69,6 +69,7 @@ final class HistoryViewModel: ObservableObject {
         if !hasLoadedOnce {
             isLoading = true
             hasLoadedOnce = true
+            selectedDate = Date()
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
                 self?.fetchHistory()
                 withAnimation(.easeOut(duration: 0.3)) {

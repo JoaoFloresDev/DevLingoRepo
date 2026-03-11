@@ -8,8 +8,7 @@
       "es": "Abrí un pull request para la nueva funcionalidad.",
       "fr": "J'ai ouvert une pull request pour la nouvelle fonctionnalité.",
       "de": "Ich habe einen Pull Request für das neue Feature eröffnet.",
-      "it": "Ho aperto una pull request per la nuova funzionalità.",
-      "tr": "Yeni özellik için bir pull request açtım."
+      "it": "Ho aperto una pull request per la nuova funzionalità."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -23,8 +22,7 @@
       "es": "¿Puedes revisar mi pull request cuando tengas un momento?",
       "fr": "Peux-tu revoir ma pull request quand tu auras un moment ?",
       "de": "Kannst du meinen Pull Request überprüfen, wenn du Zeit hast?",
-      "it": "Puoi rivedere la mia pull request quando hai un momento?",
-      "tr": "Fırsat bulduğunda pull request'imi inceleyebilir misin?"
+      "it": "Puoi rivedere la mia pull request quando hai un momento?"
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -38,8 +36,7 @@
       "es": "Aprobé tu pull request.",
       "fr": "J'ai approuvé ta pull request.",
       "de": "Ich habe deinen Pull Request genehmigt.",
-      "it": "Ho approvato la tua pull request.",
-      "tr": "Pull request'ini onayladım."
+      "it": "Ho approvato la tua pull request."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -53,8 +50,7 @@
       "es": "Este PR está listo para hacer merge.",
       "fr": "Cette PR est prête à être fusionnée.",
       "de": "Dieser PR ist bereit zum Mergen.",
-      "it": "Questa PR è pronta per il merge.",
-      "tr": "Bu PR birleştirmeye hazır."
+      "it": "Questa PR è pronta per il merge."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -68,8 +64,7 @@
       "es": "Dejé algunos comentarios en tu PR.",
       "fr": "J'ai laissé quelques commentaires sur ta PR.",
       "de": "Ich habe ein paar Kommentare zu deinem PR hinterlassen.",
-      "it": "Ho lasciato alcuni commenti sulla tua PR.",
-      "tr": "PR'ına birkaç yorum bıraktım."
+      "it": "Ho lasciato alcuni commenti sulla tua PR."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -83,8 +78,7 @@
       "es": "Por favor, agrega una descripción al pull request.",
       "fr": "S'il te plaît, ajoute une description à la pull request.",
       "de": "Bitte füge eine Beschreibung zum Pull Request hinzu.",
-      "it": "Per favore, aggiungi una descrizione alla pull request.",
-      "tr": "Lütfen pull request'e bir açıklama ekle."
+      "it": "Per favore, aggiungi una descrizione alla pull request."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -98,8 +92,7 @@
       "es": "Haré merge después de que pase el pipeline de CI.",
       "fr": "Je fusionnerai ça après que le pipeline CI soit passé.",
       "de": "Ich werde das mergen, nachdem die CI-Pipeline durchgelaufen ist.",
-      "it": "Farò il merge dopo che la pipeline CI sarà passata.",
-      "tr": "CI pipeline geçtikten sonra bunu birleştireceğim."
+      "it": "Farò il merge dopo che la pipeline CI sarà passata."
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -113,8 +106,7 @@
       "es": "Hay conflictos de merge que necesitan ser resueltos.",
       "fr": "Il y a des conflits de fusion qui doivent être résolus.",
       "de": "Es gibt Merge-Konflikte, die gelöst werden müssen.",
-      "it": "Ci sono conflitti di merge che devono essere risolti.",
-      "tr": "Çözülmesi gereken birleştirme çakışmaları var."
+      "it": "Ci sono conflitti di merge che devono essere risolti."
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -128,8 +120,7 @@
       "es": "¿Podrías hacer squash de los commits antes de hacer merge?",
       "fr": "Pourrais-tu squasher les commits avant de fusionner ?",
       "de": "Könntest du die Commits squashen, bevor du mergst?",
-      "it": "Potresti fare squash dei commit prima di fare il merge?",
-      "tr": "Birleştirmeden önce commitleri squash yapabilir misin?"
+      "it": "Potresti fare squash dei commit prima di fare il merge?"
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -143,8 +134,7 @@
       "es": "Creé un pull request en borrador para recibir feedback temprano.",
       "fr": "J'ai créé une pull request en brouillon pour avoir un retour anticipé.",
       "de": "Ich habe einen Draft-Pull-Request für frühes Feedback erstellt.",
-      "it": "Ho creato una pull request in bozza per un feedback anticipato.",
-      "tr": "Erken geri bildirim almak için bir taslak pull request oluşturdum."
+      "it": "Ho creato una pull request in bozza per un feedback anticipato."
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -158,8 +148,7 @@
       "es": "¿Puedes hacer rebase de tu rama sobre main?",
       "fr": "Peux-tu rebaser ta branche sur main ?",
       "de": "Kannst du deinen Branch auf main rebasen?",
-      "it": "Puoi fare il rebase del tuo branch su main?",
-      "tr": "Dalını main üzerine rebase yapabilir misin?"
+      "it": "Puoi fare il rebase del tuo branch su main?"
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -173,8 +162,7 @@
       "es": "El build está fallando en este pull request.",
       "fr": "Le build échoue sur cette pull request.",
       "de": "Der Build schlägt bei diesem Pull Request fehl.",
-      "it": "La build sta fallendo su questa pull request.",
-      "tr": "Bu pull request'te build başarısız oluyor."
+      "it": "La build sta fallendo su questa pull request."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -188,8 +176,7 @@
       "es": "Atendí todos los comentarios de la revisión y subí los cambios.",
       "fr": "J'ai traité tous les commentaires de la revue et poussé les modifications.",
       "de": "Ich habe alle Review-Kommentare bearbeitet und die Änderungen gepusht.",
-      "it": "Ho affrontato tutti i commenti della revisione e pushato le modifiche.",
-      "tr": "Tüm inceleme yorumlarını ele aldım ve değişiklikleri gönderdim."
+      "it": "Ho affrontato tutti i commenti della revisione e pushato le modifiche."
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -203,8 +190,7 @@
       "es": "Este cambio me parece bien. ¡LGTM!",
       "fr": "Ce changement me semble bon. LGTM !",
       "de": "Diese Änderung sieht gut aus für mich. LGTM!",
-      "it": "Questa modifica mi sembra buona. LGTM!",
-      "tr": "Bu değişiklik bana iyi görünüyor. LGTM!"
+      "it": "Questa modifica mi sembra buona. LGTM!"
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -218,8 +204,7 @@
       "es": "Solicité cambios en el pull request.",
       "fr": "J'ai demandé des modifications sur la pull request.",
       "de": "Ich habe Änderungen am Pull Request angefordert.",
-      "it": "Ho richiesto modifiche sulla pull request.",
-      "tr": "Pull request'te değişiklik talep ettim."
+      "it": "Ho richiesto modifiche sulla pull request."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -233,8 +218,7 @@
       "es": "Dividamos este PR en cambios más pequeños y enfocados.",
       "fr": "Découpons cette PR en changements plus petits et plus ciblés.",
       "de": "Lass uns diesen PR in kleinere, fokussiertere Änderungen aufteilen.",
-      "it": "Dividiamo questa PR in modifiche più piccole e mirate.",
-      "tr": "Bu PR'ı daha küçük ve odaklı değişikliklere bölelim."
+      "it": "Dividiamo questa PR in modifiche più piccole e mirate."
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -248,8 +232,7 @@
       "es": "Creo que deberíamos agregar pruebas unitarias para cubrir este cambio.",
       "fr": "Je pense qu'on devrait ajouter des tests unitaires pour couvrir ce changement.",
       "de": "Ich denke, wir sollten Unit-Tests hinzufügen, um diese Änderung abzudecken.",
-      "it": "Penso che dovremmo aggiungere test unitari per coprire questa modifica.",
-      "tr": "Bu değişikliği kapsamak için birim testleri eklememiz gerektiğini düşünüyorum."
+      "it": "Penso che dovremmo aggiungere test unitari per coprire questa modifica."
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -263,8 +246,7 @@
       "es": "La descripción del PR debería explicar la motivación detrás del cambio.",
       "fr": "La description de la PR devrait expliquer la motivation derrière le changement.",
       "de": "Die PR-Beschreibung sollte die Motivation hinter der Änderung erklären.",
-      "it": "La descrizione della PR dovrebbe spiegare la motivazione dietro la modifica.",
-      "tr": "PR açıklaması değişikliğin arkasındaki motivasyonu açıklamalı."
+      "it": "La descrizione della PR dovrebbe spiegare la motivazione dietro la modifica."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -278,8 +260,7 @@
       "es": "Resolveré los conflictos y haré force-push de la rama actualizada.",
       "fr": "Je vais résoudre les conflits et forcer le push de la branche mise à jour.",
       "de": "Ich werde die Konflikte lösen und den aktualisierten Branch force-pushen.",
-      "it": "Risolverò i conflitti e farò force-push del branch aggiornato.",
-      "tr": "Çakışmaları çözüp güncellenmiş dalı zorla göndereceğim."
+      "it": "Risolverò i conflitti e farò force-push del branch aggiornato."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -293,8 +274,7 @@
       "es": "¿Podemos obtener una aprobación más antes de hacer merge?",
       "fr": "Peut-on obtenir une approbation de plus avant de fusionner ?",
       "de": "Können wir noch eine Genehmigung einholen, bevor wir mergen?",
-      "it": "Possiamo ottenere un'altra approvazione prima di fare il merge?",
-      "tr": "Bunu birleştirmeden önce bir onay daha alabilir miyiz?"
+      "it": "Possiamo ottenere un'altra approvazione prima di fare il merge?"
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -308,8 +288,7 @@
       "es": "Noté un posible problema de rendimiento en este diff.",
       "fr": "J'ai remarqué un potentiel problème de performance dans ce diff.",
       "de": "Mir ist ein mögliches Performance-Problem in diesem Diff aufgefallen.",
-      "it": "Ho notato un potenziale problema di prestazioni in questo diff.",
-      "tr": "Bu diff'te olası bir performans sorunu fark ettim."
+      "it": "Ho notato un potenziale problema di prestazioni in questo diff."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -323,8 +302,7 @@
       "es": "Este PR introduce un cambio incompatible en la API pública.",
       "fr": "Cette PR introduit un changement cassant dans l'API publique.",
       "de": "Dieser PR führt eine Breaking Change in der öffentlichen API ein.",
-      "it": "Questa PR introduce una modifica incompatibile nell'API pubblica.",
-      "tr": "Bu PR, genel API'de uyumsuz bir değişiklik getiriyor."
+      "it": "Questa PR introduce una modifica incompatibile nell'API pubblica."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -338,8 +316,7 @@
       "es": "Marqué este PR como listo para revisión.",
       "fr": "J'ai marqué cette PR comme prête pour la revue.",
       "de": "Ich habe diesen PR als bereit zur Überprüfung markiert.",
-      "it": "Ho contrassegnato questa PR come pronta per la revisione.",
-      "tr": "Bu PR'ı incelemeye hazır olarak işaretledim."
+      "it": "Ho contrassegnato questa PR come pronta per la revisione."
     },
     "difficulty": "easy",
     "category": "pullRequests"
@@ -353,8 +330,7 @@
       "es": "Deberíamos evitar hacer merge hasta que el PR dependiente se haya mergeado primero.",
       "fr": "On devrait éviter de fusionner tant que la PR dépendante n'est pas fusionnée.",
       "de": "Wir sollten das nicht mergen, bis der abhängige PR zuerst gemergt wurde.",
-      "it": "Dovremmo evitare di fare il merge finché la PR dipendente non viene mergiata prima.",
-      "tr": "Bağımlı PR önce birleştirilene kadar bunu birleştirmekten kaçınmalıyız."
+      "it": "Dovremmo evitare di fare il merge finché la PR dipendente non viene mergiata prima."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -368,8 +344,7 @@
       "es": "¿Podrías agregar una captura de pantalla al PR mostrando el cambio en la interfaz?",
       "fr": "Pourrais-tu ajouter une capture d'écran à la PR montrant le changement d'interface ?",
       "de": "Könntest du einen Screenshot zum PR hinzufügen, der die UI-Änderung zeigt?",
-      "it": "Potresti aggiungere uno screenshot alla PR che mostra la modifica dell'interfaccia?",
-      "tr": "PR'a arayüz değişikliğini gösteren bir ekran görüntüsü ekleyebilir misin?"
+      "it": "Potresti aggiungere uno screenshot alla PR che mostra la modifica dell'interfaccia?"
     },
     "difficulty": "medium",
     "category": "pullRequests"
@@ -383,8 +358,7 @@
       "es": "El linter está señalando algunos problemas de estilo que necesitan ser corregidos.",
       "fr": "Le linter signale des problèmes de style qui doivent être corrigés.",
       "de": "Der Linter zeigt einige Stilprobleme an, die behoben werden müssen.",
-      "it": "Il linter sta segnalando alcuni problemi di stile che devono essere corretti.",
-      "tr": "Linter, düzeltilmesi gereken bazı stil sorunlarını işaretliyor."
+      "it": "Il linter sta segnalando alcuni problemi di stile che devono essere corretti."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -398,8 +372,7 @@
       "es": "Sugiero usar un feature flag para desplegar este cambio de forma segura.",
       "fr": "Je suggère d'utiliser un feature flag pour déployer ce changement en toute sécurité.",
       "de": "Ich schlage vor, ein Feature Flag zu verwenden, um diese Änderung sicher auszurollen.",
-      "it": "Suggerisco di usare un feature flag per distribuire questa modifica in sicurezza.",
-      "tr": "Bu değişikliği güvenli bir şekilde dağıtmak için bir özellik bayrağı kullanmanızı öneririm."
+      "it": "Suggerisco di usare un feature flag per distribuire questa modifica in sicurezza."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -413,8 +386,7 @@
       "es": "Déjame explicarte los cambios en este pull request.",
       "fr": "Laisse-moi te présenter les changements dans cette pull request.",
       "de": "Lass mich dir die Änderungen in diesem Pull Request erklären.",
-      "it": "Lascia che ti illustri le modifiche in questa pull request.",
-      "tr": "Bu pull request'teki değişiklikleri sana açıklayayım."
+      "it": "Lascia che ti illustri le modifiche in questa pull request."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -428,8 +400,7 @@
       "es": "Revertí el PR porque causó una regresión en producción.",
       "fr": "J'ai annulé la PR car elle a causé une régression en production.",
       "de": "Ich habe den PR zurückgesetzt, weil er eine Regression in der Produktion verursacht hat.",
-      "it": "Ho annullato la PR perché ha causato una regressione in produzione.",
-      "tr": "PR'ı geri aldım çünkü üretimde bir gerilemeye neden oldu."
+      "it": "Ho annullato la PR perché ha causato una regressione in produzione."
     },
     "difficulty": "hard",
     "category": "pullRequests"
@@ -443,10 +414,1269 @@
       "es": "La cobertura de código bajó después de estos cambios. ¿Podemos agregar más pruebas?",
       "fr": "La couverture de code a diminué après ces changements. Peut-on ajouter plus de tests ?",
       "de": "Die Code-Abdeckung ist nach diesen Änderungen gesunken. Können wir mehr Tests hinzufügen?",
-      "it": "La copertura del codice è diminuita dopo queste modifiche. Possiamo aggiungere più test?",
-      "tr": "Bu değişikliklerden sonra kod kapsamı düştü. Daha fazla test ekleyebilir miyiz?"
+      "it": "La copertura del codice è diminuita dopo queste modifiche. Possiamo aggiungere più test?"
     },
     "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_031",
+    "english": "The CODEOWNERS file auto-assigns reviewers based on the changed paths",
+    "context": "Explaining how automatic reviewer assignment works",
+    "translations": {
+      "pt-BR": "O arquivo CODEOWNERS atribui revisores automaticamente com base nos caminhos alterados",
+      "es": "El archivo CODEOWNERS asigna revisores automáticamente según las rutas modificadas",
+      "fr": "Le fichier CODEOWNERS assigne automatiquement les reviewers selon les chemins modifiés",
+      "de": "Die CODEOWNERS-Datei weist Reviewer automatisch basierend auf den geänderten Pfaden zu",
+      "it": "Il file CODEOWNERS assegna automaticamente i reviewer in base ai percorsi modificati"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_032",
+    "english": "I need to cherry-pick that commit into the hotfix branch",
+    "context": "Selecting a specific commit to apply to another branch",
+    "translations": {
+      "pt-BR": "Preciso fazer cherry-pick daquele commit para a branch de hotfix",
+      "es": "Necesito hacer cherry-pick de ese commit en la rama de hotfix",
+      "fr": "Je dois cherry-pick ce commit dans la branche hotfix",
+      "de": "Ich muss diesen Commit in den Hotfix-Branch cherry-picken",
+      "it": "Devo fare cherry-pick di quel commit nel branch hotfix"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_033",
+    "english": "The PR template is missing the testing checklist section",
+    "context": "Noting that the PR description is incomplete",
+    "translations": {
+      "pt-BR": "O template do PR está sem a seção de checklist de testes",
+      "es": "La plantilla del PR no tiene la sección de checklist de pruebas",
+      "fr": "Le template de la PR n'a pas la section checklist de tests",
+      "de": "Dem PR-Template fehlt der Abschnitt mit der Test-Checkliste",
+      "it": "Il template della PR non ha la sezione checklist dei test"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_034",
+    "english": "This PR touches over fifty files, it's hard to review thoroughly",
+    "context": "Expressing concern about a PR that changes too many files",
+    "translations": {
+      "pt-BR": "Este PR altera mais de cinquenta arquivos, é difícil revisar com cuidado",
+      "es": "Este PR toca más de cincuenta archivos, es difícil revisarlo a fondo",
+      "fr": "Cette PR touche plus de cinquante fichiers, c'est difficile à reviewer en profondeur",
+      "de": "Dieser PR ändert über fünfzig Dateien, das ist schwer gründlich zu reviewen",
+      "it": "Questa PR tocca più di cinquanta file, è difficile fare una review approfondita"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_035",
+    "english": "I used interactive rebase to reorder and clean up the commits",
+    "context": "Using git rebase -i to tidy commit history before review",
+    "translations": {
+      "pt-BR": "Usei rebase interativo para reordenar e limpar os commits",
+      "es": "Usé rebase interactivo para reordenar y limpiar los commits",
+      "fr": "J'ai utilisé le rebase interactif pour réorganiser et nettoyer les commits",
+      "de": "Ich habe interaktives Rebase verwendet, um die Commits umzuordnen und aufzuräumen",
+      "it": "Ho usato il rebase interattivo per riordinare e ripulire i commit"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_036",
+    "english": "I left a couple of nit-picks, nothing blocking",
+    "context": "Minor review feedback",
+    "translations": {
+      "pt-BR": "Deixei alguns detalhes menores, nada bloqueante",
+      "es": "Dejé un par de detalles menores, nada bloqueante",
+      "fr": "J'ai laissé quelques nitpicks, rien de bloquant",
+      "de": "Ich habe ein paar Kleinigkeiten angemerkt, nichts Blockendes",
+      "it": "Ho lasciato un paio di nitpick, niente di bloccante"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_037",
+    "english": "I added inline comments directly on the diff to explain my reasoning",
+    "context": "Leaving contextual notes on specific lines in the PR",
+    "translations": {
+      "pt-BR": "Adicionei comentários inline direto no diff para explicar meu raciocínio",
+      "es": "Agregué comentarios inline directamente en el diff para explicar mi razonamiento",
+      "fr": "J'ai ajouté des commentaires inline directement sur le diff pour expliquer mon raisonnement",
+      "de": "Ich habe Inline-Kommentare direkt im Diff hinzugefügt, um meine Überlegungen zu erklären",
+      "it": "Ho aggiunto commenti inline direttamente nel diff per spiegare il mio ragionamento"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_038",
+    "english": "I converted the draft PR to ready for review after finishing the tests",
+    "context": "Changing PR status from draft to open",
+    "translations": {
+      "pt-BR": "Converti o PR draft para pronto para revisão depois de terminar os testes",
+      "es": "Convertí el PR borrador a listo para revisión después de terminar las pruebas",
+      "fr": "J'ai converti la PR draft en prête pour review après avoir fini les tests",
+      "de": "Ich habe den Draft-PR auf bereit für Review umgestellt, nachdem die Tests fertig waren",
+      "it": "Ho convertito la PR draft in pronta per la review dopo aver finito i test"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_039",
+    "english": "There's a merge conflict in the config file",
+    "context": "Reporting conflicts",
+    "translations": {
+      "pt-BR": "Há um conflito de merge no arquivo de configuração",
+      "es": "Hay un conflicto de merge en el archivo de configuración",
+      "fr": "Il y a un conflit de merge dans le fichier de config",
+      "de": "Es gibt einen Merge-Konflikt in der Config-Datei",
+      "it": "C'è un conflitto di merge nel file di configurazione"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_040",
+    "english": "Can you request a second reviewer for this critical change?",
+    "context": "Asking for an additional review on important code",
+    "translations": {
+      "pt-BR": "Pode solicitar um segundo revisor para essa mudança crítica?",
+      "es": "¿Puedes solicitar un segundo revisor para este cambio crítico?",
+      "fr": "Tu peux demander un deuxième reviewer pour ce changement critique ?",
+      "de": "Kannst du einen zweiten Reviewer für diese kritische Änderung anfragen?",
+      "it": "Puoi richiedere un secondo reviewer per questa modifica critica?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_041",
+    "english": "Could you add unit tests for the new helper function?",
+    "context": "Requesting test coverage",
+    "translations": {
+      "pt-BR": "Poderia adicionar testes unitários para a nova função auxiliar?",
+      "es": "¿Podrías agregar pruebas unitarias para la nueva función auxiliar?",
+      "fr": "Tu pourrais ajouter des tests unitaires pour la nouvelle fonction helper ?",
+      "de": "Könntest du Unit Tests für die neue Helper-Funktion hinzufügen?",
+      "it": "Potresti aggiungere test unitari per la nuova funzione helper?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_042",
+    "english": "We need to ensure backward compatibility with the previous endpoint",
+    "context": "Discussing the need to support older API consumers",
+    "translations": {
+      "pt-BR": "Precisamos garantir compatibilidade retroativa com o endpoint anterior",
+      "es": "Necesitamos asegurar compatibilidad retroactiva con el endpoint anterior",
+      "fr": "On doit assurer la rétrocompatibilité avec l'ancien endpoint",
+      "de": "Wir müssen die Abwärtskompatibilität mit dem vorherigen Endpoint sicherstellen",
+      "it": "Dobbiamo garantire la retrocompatibilità con l'endpoint precedente"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_043",
+    "english": "I need at least two approvals before merging",
+    "context": "Following branch protection rules",
+    "translations": {
+      "pt-BR": "Preciso de pelo menos duas aprovações antes de mergear",
+      "es": "Necesito al menos dos aprobaciones antes de hacer merge",
+      "fr": "Il me faut au moins deux approbations avant de merger",
+      "de": "Ich brauche mindestens zwei Genehmigungen vor dem Merge",
+      "it": "Ho bisogno di almeno due approvazioni prima del merge"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_044",
+    "english": "The mutation testing report shows several surviving mutants in this module",
+    "context": "Reviewing mutation testing results to assess test quality",
+    "translations": {
+      "pt-BR": "O relatório de teste de mutação mostra vários mutantes sobreviventes neste módulo",
+      "es": "El informe de pruebas de mutación muestra varios mutantes sobrevivientes en este módulo",
+      "fr": "Le rapport de test de mutation montre plusieurs mutants survivants dans ce module",
+      "de": "Der Mutationstest-Bericht zeigt mehrere überlebende Mutanten in diesem Modul",
+      "it": "Il report dei test di mutazione mostra diversi mutanti sopravvissuti in questo modulo"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_045",
+    "english": "Can you cherry-pick this fix to the release branch?",
+    "context": "Requesting a targeted fix",
+    "translations": {
+      "pt-BR": "Pode fazer cherry-pick dessa correção para a branch de release?",
+      "es": "¿Puedes hacer cherry-pick de esta corrección a la rama de release?",
+      "fr": "Tu peux cherry-pick ce fix sur la branche de release ?",
+      "de": "Kannst du diesen Fix auf den Release-Branch cherry-picken?",
+      "it": "Puoi fare cherry-pick di questo fix sul branch di release?"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_046",
+    "english": "I'll mark this as a breaking change in the changelog",
+    "context": "Documenting impact",
+    "translations": {
+      "pt-BR": "Vou marcar isso como breaking change no changelog",
+      "es": "Marcaré esto como un cambio disruptivo en el changelog",
+      "fr": "Je vais marquer ça comme breaking change dans le changelog",
+      "de": "Ich markiere das als Breaking Change im Changelog",
+      "it": "Lo segnerò come breaking change nel changelog"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_047",
+    "english": "The linter is complaining about unused imports",
+    "context": "Fixing code quality issues",
+    "translations": {
+      "pt-BR": "O linter está reclamando de imports não utilizados",
+      "es": "El linter se está quejando de imports no utilizados",
+      "fr": "Le linter se plaint des imports inutilisés",
+      "de": "Der Linter beschwert sich über unbenutzte Imports",
+      "it": "Il linter si lamenta degli import inutilizzati"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_048",
+    "english": "This introduces a circular dependency between modules",
+    "context": "Identifying architecture issues",
+    "translations": {
+      "pt-BR": "Isso introduz uma dependência circular entre módulos",
+      "es": "Esto introduce una dependencia circular entre módulos",
+      "fr": "Ça introduit une dépendance circulaire entre modules",
+      "de": "Das führt eine zirkuläre Abhängigkeit zwischen Modulen ein",
+      "it": "Questo introduce una dipendenza circolare tra moduli"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_049",
+    "english": "Nice refactor, the code is much cleaner now",
+    "context": "Positive review feedback",
+    "translations": {
+      "pt-BR": "Belo refactor, o código está muito mais limpo agora",
+      "es": "Buen refactor, el código está mucho más limpio ahora",
+      "fr": "Beau refactor, le code est beaucoup plus propre maintenant",
+      "de": "Schönes Refactoring, der Code ist jetzt viel sauberer",
+      "it": "Bel refactor, il codice è molto più pulito adesso"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_050",
+    "english": "Let's set up an A/B test to measure the impact of this new flow",
+    "context": "Proposing to test the new behavior with a subset of users",
+    "translations": {
+      "pt-BR": "Vamos configurar um teste A/B para medir o impacto desse novo fluxo",
+      "es": "Configuremos una prueba A/B para medir el impacto de este nuevo flujo",
+      "fr": "Mettons en place un test A/B pour mesurer l'impact de ce nouveau flux",
+      "de": "Lass uns einen A/B-Test einrichten, um die Auswirkung dieses neuen Flows zu messen",
+      "it": "Impostiamo un test A/B per misurare l'impatto di questo nuovo flusso"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_051",
+    "english": "I've updated the PR description with more context",
+    "context": "Improving PR documentation",
+    "translations": {
+      "pt-BR": "Atualizei a descrição do PR com mais contexto",
+      "es": "Actualicé la descripción del PR con más contexto",
+      "fr": "J'ai mis à jour la description de la PR avec plus de contexte",
+      "de": "Ich habe die PR-Beschreibung mit mehr Kontext aktualisiert",
+      "it": "Ho aggiornato la descrizione della PR con più contesto"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_052",
+    "english": "This migration needs to be backwards compatible",
+    "context": "Ensuring safe database changes",
+    "translations": {
+      "pt-BR": "Essa migração precisa ser retrocompatível",
+      "es": "Esta migración necesita ser retrocompatible",
+      "fr": "Cette migration doit être rétrocompatible",
+      "de": "Diese Migration muss abwärtskompatibel sein",
+      "it": "Questa migrazione deve essere retrocompatibile"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_053",
+    "english": "The PR template is missing the test plan section",
+    "context": "Ensuring completeness",
+    "translations": {
+      "pt-BR": "O template do PR está sem a seção de plano de teste",
+      "es": "La plantilla del PR no tiene la sección del plan de pruebas",
+      "fr": "Le template de PR manque la section plan de test",
+      "de": "Dem PR-Template fehlt der Testplan-Abschnitt",
+      "it": "Il template della PR manca della sezione piano di test"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_054",
+    "english": "Can we get a second pair of eyes on the security implications?",
+    "context": "Requesting security review",
+    "translations": {
+      "pt-BR": "Podemos ter uma segunda opinião sobre as implicações de segurança?",
+      "es": "¿Podemos tener una segunda opinión sobre las implicaciones de seguridad?",
+      "fr": "On peut avoir un second regard sur les implications sécurité ?",
+      "de": "Können wir eine zweite Meinung zu den Sicherheitsauswirkungen bekommen?",
+      "it": "Possiamo avere un secondo parere sulle implicazioni di sicurezza?"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_055",
+    "english": "I'm going to force-push to clean up the commit history",
+    "context": "Rewriting branch history",
+    "translations": {
+      "pt-BR": "Vou fazer force-push para limpar o histórico de commits",
+      "es": "Voy a hacer force-push para limpiar el historial de commits",
+      "fr": "Je vais force-push pour nettoyer l'historique des commits",
+      "de": "Ich werde force-pushen um die Commit-History aufzuräumen",
+      "it": "Farò un force-push per pulire la cronologia dei commit"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_056",
+    "english": "The automated review bot flagged some complexity issues",
+    "context": "Addressing static analysis findings",
+    "translations": {
+      "pt-BR": "O bot de revisão automatizada sinalizou alguns problemas de complexidade",
+      "es": "El bot de revisión automatizada señaló algunos problemas de complejidad",
+      "fr": "Le bot de review automatique a signalé des problèmes de complexité",
+      "de": "Der automatische Review-Bot hat Komplexitätsprobleme markiert",
+      "it": "Il bot di review automatica ha segnalato problemi di complessità"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_057",
+    "english": "Let's hold off on merging until after the release",
+    "context": "Timing merge with release cycle",
+    "translations": {
+      "pt-BR": "Vamos esperar para mergear até depois do release",
+      "es": "Esperemos para hacer merge hasta después del lanzamiento",
+      "fr": "Attendons pour merger jusqu'après la release",
+      "de": "Lass uns mit dem Merge bis nach dem Release warten",
+      "it": "Aspettiamo a fare merge fino a dopo il rilascio"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_058",
+    "english": "This looks like it could be a separate utility function",
+    "context": "Suggesting code extraction",
+    "translations": {
+      "pt-BR": "Isso parece que poderia ser uma função utilitária separada",
+      "es": "Esto parece que podría ser una función utilitaria separada",
+      "fr": "Ça pourrait être une fonction utilitaire séparée",
+      "de": "Das sieht aus, als könnte es eine separate Utility-Funktion sein",
+      "it": "Sembra che potrebbe essere una funzione utility separata"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_059",
+    "english": "The type definitions need to be exported for downstream consumers",
+    "context": "Discussing API surface",
+    "translations": {
+      "pt-BR": "As definições de tipo precisam ser exportadas para consumidores downstream",
+      "es": "Las definiciones de tipo necesitan ser exportadas para los consumidores downstream",
+      "fr": "Les définitions de types doivent être exportées pour les consommateurs en aval",
+      "de": "Die Typdefinitionen müssen für Downstream-Consumer exportiert werden",
+      "it": "Le definizioni dei tipi devono essere esportate per i consumatori downstream"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_060",
+    "english": "Great catch on that edge case, I've added a test for it",
+    "context": "Responding to review feedback positively",
+    "translations": {
+      "pt-BR": "Boa sacada nesse caso extremo, adicionei um teste para isso",
+      "es": "Buen hallazgo en ese caso borde, agregué un test para eso",
+      "fr": "Bien vu pour ce cas limite, j'ai ajouté un test",
+      "de": "Guter Fang bei dem Edge Case, ich habe einen Test dafür hinzugefügt",
+      "it": "Bella trovata su quel caso limite, ho aggiunto un test"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_061",
+    "english": "I've resolved the merge conflicts and pushed a new commit",
+    "context": "After resolving conflicts",
+    "translations": {
+      "pt-BR": "Resolvi os conflitos de merge e fiz push de um novo commit",
+      "es": "Resolví los conflictos de merge e hice push de un nuevo commit",
+      "fr": "J'ai résolu les conflits de merge et poussé un nouveau commit",
+      "de": "Ich habe die Merge-Konflikte gelöst und einen neuen Commit gepusht",
+      "it": "Ho risolto i conflitti di merge e pushato un nuovo commit"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_062",
+    "english": "Auto-merge is enabled, it will merge once checks pass",
+    "context": "Setting up automatic merge",
+    "translations": {
+      "pt-BR": "Auto-merge está ativado, vai mergear quando os checks passarem",
+      "es": "Auto-merge está activado, se hará merge cuando pasen los checks",
+      "fr": "L'auto-merge est activé, ça mergera quand les checks passeront",
+      "de": "Auto-Merge ist aktiviert, es wird gemergt sobald die Checks bestanden sind",
+      "it": "Auto-merge è abilitato, farà merge quando i check passeranno"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_063",
+    "english": "This PR closes issue #247",
+    "context": "Linking PR to an issue",
+    "translations": {
+      "pt-BR": "Este PR fecha a issue #247",
+      "es": "Este PR cierra la issue #247",
+      "fr": "Cette PR ferme l'issue #247",
+      "de": "Dieser PR schließt Issue #247",
+      "it": "Questa PR chiude la issue #247"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_064",
+    "english": "The review is taking longer than expected, sorry for the delay",
+    "context": "Apologizing for slow review",
+    "translations": {
+      "pt-BR": "A revisão está demorando mais do que o esperado, desculpa pela demora",
+      "es": "La revisión está tardando más de lo esperado, perdón por la demora",
+      "fr": "La review prend plus de temps que prévu, désolé pour le retard",
+      "de": "Das Review dauert länger als erwartet, sorry für die Verzögerung",
+      "it": "La review sta richiedendo più tempo del previsto, scusa per il ritardo"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_065",
+    "english": "We should run performance benchmarks before merging this",
+    "context": "Requesting performance validation",
+    "translations": {
+      "pt-BR": "Devemos rodar benchmarks de performance antes de mergear isso",
+      "es": "Deberíamos ejecutar benchmarks de rendimiento antes de hacer merge",
+      "fr": "On devrait lancer des benchmarks de performance avant de merger",
+      "de": "Wir sollten Performance-Benchmarks laufen lassen bevor wir mergen",
+      "it": "Dovremmo eseguire benchmark di performance prima del merge"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_066",
+    "english": "I've marked the PR as blocked until the dependency is updated",
+    "context": "Indicating a PR is on hold",
+    "translations": {
+      "pt-BR": "Marquei o PR como bloqueado até a dependência ser atualizada",
+      "es": "Marqué el PR como bloqueado hasta que se actualice la dependencia",
+      "fr": "J'ai marqué la PR comme bloquée en attendant la mise à jour de la dépendance",
+      "de": "Ich habe den PR als blockiert markiert bis die Dependency aktualisiert ist",
+      "it": "Ho segnato la PR come bloccata fino all'aggiornamento della dipendenza"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_067",
+    "english": "The diff is really hard to read, can you restructure the changes?",
+    "context": "Asking for better organization",
+    "translations": {
+      "pt-BR": "O diff está muito difícil de ler, pode reestruturar as mudanças?",
+      "es": "El diff es muy difícil de leer, ¿puedes reestructurar los cambios?",
+      "fr": "Le diff est vraiment difficile à lire, tu peux restructurer les changements ?",
+      "de": "Der Diff ist wirklich schwer zu lesen, kannst du die Änderungen umstrukturieren?",
+      "it": "Il diff è davvero difficile da leggere, puoi ristrutturare le modifiche?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_068",
+    "english": "I've added screenshots of the UI changes to the PR description",
+    "context": "Documenting visual changes",
+    "translations": {
+      "pt-BR": "Adicionei screenshots das mudanças de UI na descrição do PR",
+      "es": "Agregué capturas de pantalla de los cambios de UI en la descripción del PR",
+      "fr": "J'ai ajouté des captures d'écran des changements UI dans la description de la PR",
+      "de": "Ich habe Screenshots der UI-Änderungen zur PR-Beschreibung hinzugefügt",
+      "it": "Ho aggiunto screenshot delle modifiche UI nella descrizione della PR"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_069",
+    "english": "This needs a database migration script alongside the code changes",
+    "context": "Ensuring complete delivery",
+    "translations": {
+      "pt-BR": "Isso precisa de um script de migração de banco junto com as mudanças de código",
+      "es": "Esto necesita un script de migración de base de datos junto con los cambios de código",
+      "fr": "Ça nécessite un script de migration de base de données avec les changements de code",
+      "de": "Das braucht ein Datenbank-Migrationsskript neben den Code-Änderungen",
+      "it": "Questo necessita uno script di migrazione database insieme alle modifiche del codice"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_070",
+    "english": "I dismissed the stale review since the code has changed significantly",
+    "context": "Removing an outdated review that no longer applies",
+    "translations": {
+      "pt-BR": "Descartei a review desatualizada porque o código mudou significativamente",
+      "es": "Descarté la review obsoleta porque el código cambió significativamente",
+      "fr": "J'ai rejeté la review obsolète car le code a beaucoup changé",
+      "de": "Ich habe die veraltete Review verworfen, da sich der Code erheblich geändert hat",
+      "it": "Ho scartato la review obsoleta perché il codice è cambiato significativamente"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_071",
+    "english": "Make sure to update the API documentation with these changes",
+    "context": "Reminding about docs",
+    "translations": {
+      "pt-BR": "Certifique-se de atualizar a documentação da API com essas mudanças",
+      "es": "Asegúrate de actualizar la documentación de la API con estos cambios",
+      "fr": "N'oublie pas de mettre à jour la doc API avec ces changements",
+      "de": "Vergiss nicht die API-Dokumentation mit diesen Änderungen zu aktualisieren",
+      "it": "Assicurati di aggiornare la documentazione API con queste modifiche"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_072",
+    "english": "The code review checklist hasn't been completed yet",
+    "context": "Ensuring review process compliance",
+    "translations": {
+      "pt-BR": "O checklist de revisão de código ainda não foi completado",
+      "es": "La lista de verificación de revisión de código aún no se ha completado",
+      "fr": "La checklist de code review n'a pas encore été complétée",
+      "de": "Die Code-Review-Checkliste wurde noch nicht abgeschlossen",
+      "it": "La checklist di code review non è stata ancora completata"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_073",
+    "english": "I've pinged the codeowners for this directory",
+    "context": "Requesting required reviewers",
+    "translations": {
+      "pt-BR": "Mencionei os codeowners desse diretório",
+      "es": "Mencioné a los codeowners de este directorio",
+      "fr": "J'ai pingé les codeowners de ce répertoire",
+      "de": "Ich habe die Codeowners für dieses Verzeichnis angepingt",
+      "it": "Ho pingato i codeowner di questa directory"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_074",
+    "english": "This hotfix PR needs to bypass the normal review process",
+    "context": "Expediting urgent fixes",
+    "translations": {
+      "pt-BR": "Este PR de hotfix precisa pular o processo normal de revisão",
+      "es": "Este PR de hotfix necesita saltar el proceso normal de revisión",
+      "fr": "Cette PR de hotfix doit bypasser le processus de review normal",
+      "de": "Dieser Hotfix-PR muss den normalen Review-Prozess umgehen",
+      "it": "Questa PR hotfix deve bypassare il normale processo di review"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_075",
+    "english": "I noticed some dead code that could be removed in this file",
+    "context": "Suggesting cleanup",
+    "translations": {
+      "pt-BR": "Notei um código morto que poderia ser removido nesse arquivo",
+      "es": "Noté código muerto que podría eliminarse en este archivo",
+      "fr": "J'ai remarqué du code mort qu'on pourrait supprimer dans ce fichier",
+      "de": "Mir ist toter Code aufgefallen, der in dieser Datei entfernt werden könnte",
+      "it": "Ho notato del codice morto che potrebbe essere rimosso in questo file"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_076",
+    "english": "The integration tests are passing locally but failing in CI",
+    "context": "Debugging environment differences",
+    "translations": {
+      "pt-BR": "Os testes de integração passam localmente mas falham no CI",
+      "es": "Las pruebas de integración pasan localmente pero fallan en el CI",
+      "fr": "Les tests d'intégration passent en local mais échouent dans le CI",
+      "de": "Die Integrationstests laufen lokal aber scheitern in der CI",
+      "it": "I test di integrazione passano in locale ma falliscono nel CI"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_077",
+    "english": "I've added inline comments explaining the tricky parts",
+    "context": "Self-documenting complex code",
+    "translations": {
+      "pt-BR": "Adicionei comentários inline explicando as partes complicadas",
+      "es": "Agregué comentarios en línea explicando las partes complicadas",
+      "fr": "J'ai ajouté des commentaires inline expliquant les parties délicates",
+      "de": "Ich habe Inline-Kommentare hinzugefügt die die kniffligen Teile erklären",
+      "it": "Ho aggiunto commenti inline che spiegano le parti complicate"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_078",
+    "english": "This is a follow-up PR to address the tech debt we discussed",
+    "context": "Linking to previous discussions",
+    "translations": {
+      "pt-BR": "Este é um PR de follow-up para resolver a dívida técnica que discutimos",
+      "es": "Este es un PR de seguimiento para abordar la deuda técnica que discutimos",
+      "fr": "C'est une PR de suivi pour traiter la dette technique dont on a parlé",
+      "de": "Das ist ein Follow-up-PR um die besprochene technische Schuld anzugehen",
+      "it": "Questa è una PR di follow-up per affrontare il debito tecnico di cui abbiamo discusso"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_079",
+    "english": "Can you verify this works on both iOS and Android?",
+    "context": "Requesting cross-platform testing",
+    "translations": {
+      "pt-BR": "Pode verificar se isso funciona no iOS e no Android?",
+      "es": "¿Puedes verificar que esto funciona en iOS y Android?",
+      "fr": "Tu peux vérifier que ça marche sur iOS et Android ?",
+      "de": "Kannst du verifizieren, dass das auf iOS und Android funktioniert?",
+      "it": "Puoi verificare che funzioni sia su iOS che Android?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_080",
+    "english": "The PR has been approved, waiting for the green build to merge",
+    "context": "PR in queue to merge",
+    "translations": {
+      "pt-BR": "O PR foi aprovado, esperando o build verde para mergear",
+      "es": "El PR fue aprobado, esperando el build verde para hacer merge",
+      "fr": "La PR est approuvée, on attend le build vert pour merger",
+      "de": "Der PR ist genehmigt, warte auf den grünen Build zum Mergen",
+      "it": "La PR è stata approvata, in attesa del build verde per il merge"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_081",
+    "english": "I've separated the refactoring from the feature changes into two PRs",
+    "context": "Splitting work for easier review",
+    "translations": {
+      "pt-BR": "Separei o refactoring das mudanças de feature em dois PRs",
+      "es": "Separé el refactoring de los cambios de funcionalidad en dos PRs",
+      "fr": "J'ai séparé le refactoring des changements de feature en deux PRs",
+      "de": "Ich habe das Refactoring von den Feature-Änderungen in zwei PRs getrennt",
+      "it": "Ho separato il refactoring dalle modifiche della feature in due PR"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_082",
+    "english": "The stale bot is about to close this PR, should we keep it?",
+    "context": "Managing abandoned PRs",
+    "translations": {
+      "pt-BR": "O bot de PRs inativos vai fechar este PR, devemos mantê-lo?",
+      "es": "El bot de PRs inactivos va a cerrar este PR, ¿deberíamos mantenerlo?",
+      "fr": "Le bot de PRs stale va fermer cette PR, on la garde ?",
+      "de": "Der Stale-Bot wird diesen PR schließen, sollen wir ihn behalten?",
+      "it": "Il bot dei PR stale sta per chiudere questa PR, la manteniamo?"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_083",
+    "english": "I've tagged this PR with the correct milestone",
+    "context": "Organizing PRs by release",
+    "translations": {
+      "pt-BR": "Marquei este PR com o milestone correto",
+      "es": "Etiqueté este PR con el milestone correcto",
+      "fr": "J'ai tagué cette PR avec le bon milestone",
+      "de": "Ich habe diesen PR mit dem richtigen Milestone getaggt",
+      "it": "Ho taggato questa PR con il milestone corretto"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_084",
+    "english": "The race condition in the test is causing flaky failures",
+    "context": "Debugging unreliable tests",
+    "translations": {
+      "pt-BR": "A condição de corrida no teste está causando falhas intermitentes",
+      "es": "La condición de carrera en el test está causando fallos intermitentes",
+      "fr": "La condition de course dans le test cause des échecs intermittents",
+      "de": "Die Race Condition im Test verursacht flaky Failures",
+      "it": "La race condition nel test sta causando fallimenti intermittenti"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_085",
+    "english": "Please make sure the environment variables are documented",
+    "context": "Ensuring operational readiness",
+    "translations": {
+      "pt-BR": "Por favor garanta que as variáveis de ambiente estejam documentadas",
+      "es": "Por favor asegúrate de que las variables de entorno estén documentadas",
+      "fr": "Assure-toi que les variables d'environnement sont documentées",
+      "de": "Bitte stelle sicher, dass die Umgebungsvariablen dokumentiert sind",
+      "it": "Per favore assicurati che le variabili d'ambiente siano documentate"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_086",
+    "english": "I've reverted the accidental commit and pushed the correction",
+    "context": "Fixing mistakes",
+    "translations": {
+      "pt-BR": "Reverti o commit acidental e fiz push da correção",
+      "es": "Revertí el commit accidental e hice push de la corrección",
+      "fr": "J'ai reverté le commit accidentel et poussé la correction",
+      "de": "Ich habe den versehentlichen Commit revertiert und die Korrektur gepusht",
+      "it": "Ho revertito il commit accidentale e pushato la correzione"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_087",
+    "english": "This introduces a new shared component that other teams can use",
+    "context": "Creating reusable code",
+    "translations": {
+      "pt-BR": "Isso introduz um novo componente compartilhado que outros times podem usar",
+      "es": "Esto introduce un nuevo componente compartido que otros equipos pueden usar",
+      "fr": "Ça introduit un nouveau composant partagé que les autres équipes peuvent utiliser",
+      "de": "Das führt eine neue geteilte Komponente ein, die andere Teams nutzen können",
+      "it": "Questo introduce un nuovo componente condiviso che altri team possono usare"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_088",
+    "english": "The accessibility review flagged missing aria labels",
+    "context": "Addressing a11y issues",
+    "translations": {
+      "pt-BR": "A revisão de acessibilidade sinalizou labels aria ausentes",
+      "es": "La revisión de accesibilidad señaló etiquetas aria faltantes",
+      "fr": "La review d'accessibilité a signalé des labels aria manquants",
+      "de": "Das Accessibility-Review hat fehlende ARIA-Labels markiert",
+      "it": "La review di accessibilità ha segnalato label aria mancanti"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_089",
+    "english": "I've bumped the version number in preparation for the release",
+    "context": "Release preparation",
+    "translations": {
+      "pt-BR": "Incrementei o número da versão em preparação para o release",
+      "es": "Incrementé el número de versión en preparación para el lanzamiento",
+      "fr": "J'ai incrémenté le numéro de version en préparation de la release",
+      "de": "Ich habe die Versionsnummer für das Release erhöht",
+      "it": "Ho incrementato il numero di versione in preparazione per il rilascio"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_090",
+    "english": "The dependency update PR needs careful testing for regressions",
+    "context": "Warning about risky changes",
+    "translations": {
+      "pt-BR": "O PR de atualização de dependência precisa de testes cuidadosos para regressões",
+      "es": "El PR de actualización de dependencias necesita pruebas cuidadosas para regresiones",
+      "fr": "La PR de mise à jour de dépendance nécessite des tests soigneux pour les régressions",
+      "de": "Der Dependency-Update-PR braucht sorgfältiges Testen auf Regressionen",
+      "it": "La PR di aggiornamento dipendenze necessita test attenti per le regressioni"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_091",
+    "english": "Can you explain the reasoning behind this architectural decision?",
+    "context": "Asking for justification",
+    "translations": {
+      "pt-BR": "Pode explicar o raciocínio por trás dessa decisão arquitetural?",
+      "es": "¿Puedes explicar el razonamiento detrás de esta decisión arquitectónica?",
+      "fr": "Tu peux expliquer le raisonnement derrière cette décision architecturale ?",
+      "de": "Kannst du die Begründung hinter dieser Architekturentscheidung erklären?",
+      "it": "Puoi spiegare il ragionamento dietro questa decisione architetturale?"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_092",
+    "english": "I've linked the related PRs in the description for context",
+    "context": "Providing review context",
+    "translations": {
+      "pt-BR": "Linkei os PRs relacionados na descrição para contexto",
+      "es": "Enlacé los PRs relacionados en la descripción para contexto",
+      "fr": "J'ai lié les PRs liées dans la description pour le contexte",
+      "de": "Ich habe die verwandten PRs in der Beschreibung für den Kontext verlinkt",
+      "it": "Ho linkato le PR correlate nella descrizione per contesto"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_093",
+    "english": "This error handling needs to be more granular",
+    "context": "Requesting better error management",
+    "translations": {
+      "pt-BR": "Esse tratamento de erro precisa ser mais granular",
+      "es": "Este manejo de errores necesita ser más granular",
+      "fr": "La gestion d'erreur doit être plus granulaire",
+      "de": "Die Fehlerbehandlung muss granularer sein",
+      "it": "La gestione degli errori deve essere più granulare"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_094",
+    "english": "The before and after screenshots show a clear improvement",
+    "context": "Reviewing visual changes",
+    "translations": {
+      "pt-BR": "As screenshots de antes e depois mostram uma melhoria clara",
+      "es": "Las capturas de antes y después muestran una mejora clara",
+      "fr": "Les screenshots avant/après montrent une nette amélioration",
+      "de": "Die Vorher-Nachher-Screenshots zeigen eine deutliche Verbesserung",
+      "it": "Gli screenshot prima e dopo mostrano un chiaro miglioramento"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_095",
+    "english": "I'm going to close this PR and open a fresh one with a better approach",
+    "context": "Starting over with improved solution",
+    "translations": {
+      "pt-BR": "Vou fechar este PR e abrir um novo com uma abordagem melhor",
+      "es": "Voy a cerrar este PR y abrir uno nuevo con un mejor enfoque",
+      "fr": "Je vais fermer cette PR et en ouvrir une nouvelle avec une meilleure approche",
+      "de": "Ich werde diesen PR schließen und einen neuen mit einem besseren Ansatz öffnen",
+      "it": "Chiuderò questa PR e ne aprirò una nuova con un approccio migliore"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_096",
+    "english": "The naming convention doesn't match our style guide",
+    "context": "Enforcing coding standards",
+    "translations": {
+      "pt-BR": "A convenção de nomenclatura não segue nosso guia de estilo",
+      "es": "La convención de nombres no sigue nuestra guía de estilo",
+      "fr": "La convention de nommage ne correspond pas à notre guide de style",
+      "de": "Die Namenskonvention entspricht nicht unserem Style Guide",
+      "it": "La convenzione di denominazione non corrisponde alla nostra guida di stile"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_097",
+    "english": "This commit should have been in a separate PR",
+    "context": "Suggesting better organization",
+    "translations": {
+      "pt-BR": "Esse commit deveria estar em um PR separado",
+      "es": "Este commit debería estar en un PR separado",
+      "fr": "Ce commit aurait dû être dans une PR séparée",
+      "de": "Dieser Commit hätte in einem separaten PR sein sollen",
+      "it": "Questo commit avrebbe dovuto essere in una PR separata"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_098",
+    "english": "Merging this will unblock three other PRs that depend on it",
+    "context": "Prioritizing impactful merges",
+    "translations": {
+      "pt-BR": "Mergear isso vai desbloquear três outros PRs que dependem dele",
+      "es": "Hacer merge de esto desbloqueará tres otros PRs que dependen de él",
+      "fr": "Merger ça va débloquer trois autres PRs qui en dépendent",
+      "de": "Das Mergen wird drei andere PRs entsperren, die davon abhängen",
+      "it": "Fare merge di questa sbloccherà tre altre PR che ne dipendono"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_099",
+    "english": "I've added a TODO comment for the follow-up work",
+    "context": "Marking future work",
+    "translations": {
+      "pt-BR": "Adicionei um comentário TODO para o trabalho de follow-up",
+      "es": "Agregué un comentario TODO para el trabajo de seguimiento",
+      "fr": "J'ai ajouté un commentaire TODO pour le travail de suivi",
+      "de": "Ich habe einen TODO-Kommentar für die Folgearbeit hinzugefügt",
+      "it": "Ho aggiunto un commento TODO per il lavoro di follow-up"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_100",
+    "english": "The rollback strategy needs to be defined before we ship this",
+    "context": "Ensuring safe deployment",
+    "translations": {
+      "pt-BR": "A estratégia de rollback precisa ser definida antes de enviarmos isso",
+      "es": "La estrategia de rollback necesita ser definida antes de enviar esto",
+      "fr": "La stratégie de rollback doit être définie avant qu'on shippe ça",
+      "de": "Die Rollback-Strategie muss definiert werden bevor wir das shippen",
+      "it": "La strategia di rollback deve essere definita prima di spedire questo"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_101",
+    "english": "I've extracted the shared logic into a common module",
+    "context": "Improving code reuse",
+    "translations": {
+      "pt-BR": "Extraí a lógica compartilhada para um módulo comum",
+      "es": "Extraje la lógica compartida en un módulo común",
+      "fr": "J'ai extrait la logique partagée dans un module commun",
+      "de": "Ich habe die gemeinsame Logik in ein gemeinsames Modul extrahiert",
+      "it": "Ho estratto la logica condivisa in un modulo comune"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_102",
+    "english": "The variable naming could be more descriptive here",
+    "context": "Suggesting better readability",
+    "translations": {
+      "pt-BR": "A nomenclatura de variáveis poderia ser mais descritiva aqui",
+      "es": "El nombre de las variables podría ser más descriptivo aquí",
+      "fr": "Le nommage des variables pourrait être plus descriptif ici",
+      "de": "Die Variablenbenennung könnte hier aussagekräftiger sein",
+      "it": "I nomi delle variabili potrebbero essere più descrittivi qui"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_103",
+    "english": "This PR supersedes the previous attempt at fixing this bug",
+    "context": "Replacing an older PR",
+    "translations": {
+      "pt-BR": "Este PR substitui a tentativa anterior de corrigir esse bug",
+      "es": "Este PR reemplaza el intento anterior de corregir este bug",
+      "fr": "Cette PR remplace la tentative précédente de corriger ce bug",
+      "de": "Dieser PR ersetzt den vorherigen Versuch, diesen Bug zu fixen",
+      "it": "Questa PR sostituisce il tentativo precedente di correggere questo bug"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_104",
+    "english": "I've verified the fix manually on all supported browsers",
+    "context": "Confirming cross-browser testing",
+    "translations": {
+      "pt-BR": "Verifiquei a correção manualmente em todos os navegadores suportados",
+      "es": "Verifiqué la corrección manualmente en todos los navegadores soportados",
+      "fr": "J'ai vérifié le fix manuellement sur tous les navigateurs supportés",
+      "de": "Ich habe den Fix manuell auf allen unterstützten Browsern verifiziert",
+      "it": "Ho verificato la correzione manualmente su tutti i browser supportati"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_105",
+    "english": "The PR is blocked by branch protection rules",
+    "context": "Explaining why merge is prevented",
+    "translations": {
+      "pt-BR": "O PR está bloqueado por regras de proteção de branch",
+      "es": "El PR está bloqueado por reglas de protección de rama",
+      "fr": "La PR est bloquée par les règles de protection de branche",
+      "de": "Der PR wird durch Branch-Protection-Regeln blockiert",
+      "it": "La PR è bloccata dalle regole di protezione del branch"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_106",
+    "english": "Can you check if this change is backwards compatible with v2?",
+    "context": "Verifying compatibility",
+    "translations": {
+      "pt-BR": "Pode verificar se essa mudança é retrocompatível com a v2?",
+      "es": "¿Puedes verificar si este cambio es retrocompatible con la v2?",
+      "fr": "Tu peux vérifier si ce changement est rétrocompatible avec la v2 ?",
+      "de": "Kannst du prüfen ob diese Änderung mit v2 abwärtskompatibel ist?",
+      "it": "Puoi verificare se questa modifica è retrocompatibile con la v2?"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_107",
+    "english": "I'll batch these small fixes into a single PR",
+    "context": "Consolidating minor changes",
+    "translations": {
+      "pt-BR": "Vou agrupar essas correções pequenas em um único PR",
+      "es": "Agruparé estas correcciones pequeñas en un único PR",
+      "fr": "Je vais regrouper ces petits fixes dans une seule PR",
+      "de": "Ich fasse diese kleinen Fixes in einem einzigen PR zusammen",
+      "it": "Raggrupperò questi piccoli fix in un'unica PR"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_108",
+    "english": "The commit message doesn't follow our conventional commits format",
+    "context": "Enforcing commit conventions",
+    "translations": {
+      "pt-BR": "A mensagem de commit não segue nosso formato de commits convencionais",
+      "es": "El mensaje de commit no sigue nuestro formato de commits convencionales",
+      "fr": "Le message de commit ne suit pas notre format de commits conventionnels",
+      "de": "Die Commit-Message folgt nicht unserem Conventional Commits Format",
+      "it": "Il messaggio di commit non segue il nostro formato di conventional commits"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_109",
+    "english": "We need to coordinate this merge with the backend team",
+    "context": "Cross-team coordination",
+    "translations": {
+      "pt-BR": "Precisamos coordenar esse merge com o time de backend",
+      "es": "Necesitamos coordinar este merge con el equipo de backend",
+      "fr": "On doit coordonner ce merge avec l'équipe backend",
+      "de": "Wir müssen diesen Merge mit dem Backend-Team koordinieren",
+      "it": "Dobbiamo coordinare questo merge con il team backend"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_110",
+    "english": "The snapshot tests need to be regenerated after this UI change",
+    "context": "Maintaining visual regression tests",
+    "translations": {
+      "pt-BR": "Os testes de snapshot precisam ser regenerados após essa mudança de UI",
+      "es": "Los tests de snapshot necesitan ser regenerados después de este cambio de UI",
+      "fr": "Les tests de snapshot doivent être régénérés après ce changement d'UI",
+      "de": "Die Snapshot-Tests müssen nach dieser UI-Änderung neu generiert werden",
+      "it": "I test snapshot devono essere rigenerati dopo questa modifica UI"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_111",
+    "english": "Great job keeping this PR focused and well-scoped",
+    "context": "Praising good PR practices",
+    "translations": {
+      "pt-BR": "Ótimo trabalho mantendo este PR focado e bem delimitado",
+      "es": "Buen trabajo manteniendo este PR enfocado y bien delimitado",
+      "fr": "Bon travail pour garder cette PR ciblée et bien délimitée",
+      "de": "Tolle Arbeit, den PR fokussiert und gut abgegrenzt zu halten",
+      "it": "Ottimo lavoro nel mantenere questa PR focalizzata e ben delimitata"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_112",
+    "english": "I've converted this to a draft PR while I work out the remaining issues",
+    "context": "De-prioritizing an incomplete PR",
+    "translations": {
+      "pt-BR": "Converti isso para PR draft enquanto resolvo os problemas restantes",
+      "es": "Lo convertí a PR borrador mientras resuelvo los problemas restantes",
+      "fr": "J'ai converti en PR draft pendant que je règle les problèmes restants",
+      "de": "Ich habe das in einen Draft-PR umgewandelt während ich die übrigen Probleme löse",
+      "it": "L'ho convertita in PR draft mentre risolvo i problemi rimanenti"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_113",
+    "english": "This would be a great opportunity to improve our error messages",
+    "context": "Suggesting enhancement during review",
+    "translations": {
+      "pt-BR": "Essa seria uma ótima oportunidade para melhorar nossas mensagens de erro",
+      "es": "Esta sería una gran oportunidad para mejorar nuestros mensajes de error",
+      "fr": "Ce serait une bonne occasion d'améliorer nos messages d'erreur",
+      "de": "Das wäre eine gute Gelegenheit unsere Fehlermeldungen zu verbessern",
+      "it": "Questa sarebbe un'ottima opportunità per migliorare i nostri messaggi di errore"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_114",
+    "english": "The type safety improvements in this PR are really solid",
+    "context": "Praising quality work",
+    "translations": {
+      "pt-BR": "As melhorias de type safety neste PR são realmente sólidas",
+      "es": "Las mejoras de seguridad de tipos en este PR son realmente sólidas",
+      "fr": "Les améliorations de type safety dans cette PR sont vraiment solides",
+      "de": "Die Type-Safety-Verbesserungen in diesem PR sind wirklich solide",
+      "it": "I miglioramenti di type safety in questa PR sono davvero solidi"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_115",
+    "english": "Let me re-request review after pushing the latest changes",
+    "context": "Updating reviewers after changes",
+    "translations": {
+      "pt-BR": "Vou solicitar revisão novamente depois de fazer push das últimas mudanças",
+      "es": "Voy a volver a solicitar revisión después de pushear los últimos cambios",
+      "fr": "Je vais re-demander une review après avoir poussé les derniers changements",
+      "de": "Ich fordere nochmal ein Review an nachdem ich die letzten Änderungen gepusht habe",
+      "it": "Richiederò nuovamente la review dopo aver pushato le ultime modifiche"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_116",
+    "english": "We should avoid mixing formatting changes with logic changes",
+    "context": "PR best practices",
+    "translations": {
+      "pt-BR": "Devemos evitar misturar mudanças de formatação com mudanças de lógica",
+      "es": "Deberíamos evitar mezclar cambios de formato con cambios de lógica",
+      "fr": "On devrait éviter de mélanger les changements de formatage avec les changements de logique",
+      "de": "Wir sollten Formatierungsänderungen nicht mit Logikänderungen mischen",
+      "it": "Dovremmo evitare di mescolare modifiche di formattazione con modifiche di logica"
+    },
+    "difficulty": "medium",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_117",
+    "english": "This change touches a critical path, let's get extra reviewers",
+    "context": "High-risk review request",
+    "translations": {
+      "pt-BR": "Essa mudança toca um caminho crítico, vamos conseguir revisores extras",
+      "es": "Este cambio toca una ruta crítica, consigamos revisores adicionales",
+      "fr": "Ce changement touche un chemin critique, prenons des reviewers supplémentaires",
+      "de": "Diese Änderung betrifft einen kritischen Pfad, holen wir zusätzliche Reviewer",
+      "it": "Questa modifica tocca un percorso critico, prendiamo reviewer aggiuntivi"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_118",
+    "english": "I've resolved the conversation threads in the review",
+    "context": "Marking discussions as addressed",
+    "translations": {
+      "pt-BR": "Resolvi as conversas nas threads da revisão",
+      "es": "Resolví las conversaciones en los hilos de la revisión",
+      "fr": "J'ai résolu les fils de conversation dans la review",
+      "de": "Ich habe die Konversations-Threads im Review gelöst",
+      "it": "Ho risolto i thread di conversazione nella review"
+    },
+    "difficulty": "easy",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_119",
+    "english": "The Dependabot PR for the security patch should be prioritized",
+    "context": "Handling automated security updates",
+    "translations": {
+      "pt-BR": "O PR do Dependabot para o patch de segurança deve ser priorizado",
+      "es": "El PR de Dependabot para el parche de seguridad debe ser priorizado",
+      "fr": "La PR Dependabot pour le patch de sécurité devrait être priorisée",
+      "de": "Der Dependabot-PR für den Sicherheitspatch sollte priorisiert werden",
+      "it": "La PR Dependabot per la patch di sicurezza dovrebbe essere prioritizzata"
+    },
+    "difficulty": "hard",
+    "category": "pullRequests"
+  },
+  {
+    "id": "pullRequests_120",
+    "english": "Approved with minor suggestions, feel free to merge",
+    "context": "Giving conditional approval",
+    "translations": {
+      "pt-BR": "Aprovado com sugestões menores, pode mergear quando quiser",
+      "es": "Aprobado con sugerencias menores, siéntete libre de hacer merge",
+      "fr": "Approuvé avec des suggestions mineures, tu peux merger",
+      "de": "Genehmigt mit kleineren Vorschlägen, du kannst gerne mergen",
+      "it": "Approvata con suggerimenti minori, sentiti libero di fare merge"
+    },
+    "difficulty": "easy",
     "category": "pullRequests"
   }
 ]

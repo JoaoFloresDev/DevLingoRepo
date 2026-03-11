@@ -86,6 +86,13 @@ final class HomeViewModel: ObservableObject {
         HapticManager.success()
     }
 
+    func markUncompleted(_ phrase: Phrase) {
+        dailyService.markUncompleted(phrase.id)
+        completedIDs.remove(phrase.id)
+        progressService.markPhraseUncompleted(phrase)
+        HapticManager.lightImpact()
+    }
+
     func toggleSaved(_ phrase: Phrase) {
         dailyService.toggleSaved(phrase.id)
         if savedIDs.contains(phrase.id) {

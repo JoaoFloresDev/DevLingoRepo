@@ -36,4 +36,29 @@ final class ProfileViewModel: ObservableObject {
             hardCount = storage.getStringSet(forKey: StorageKeys.hardPhraseIDs).count
         }
     }
+
+    func getLearnedPhrases() -> [Phrase] {
+        let completedIDs = storage.getStringSet(forKey: StorageKeys.completedPhraseIDs)
+        let allPhrases = PhraseService.shared.allPhrases
+        return allPhrases.filter { completedIDs.contains($0.id) }
+    }
+
+    func getSavedPhrases() -> [Phrase] {
+        let savedIDs = storage.getStringSet(forKey: StorageKeys.savedPhraseIDs)
+        let allPhrases = PhraseService.shared.allPhrases
+        return allPhrases.filter { savedIDs.contains($0.id) }
+    }
+
+    func getHardPhrases() -> [Phrase] {
+        let allPhrases = PhraseService.shared.allPhrases
+        return allPhrases.filter { $0.difficulty == .hard }
+    }
+
+    var userLanguage: UserLanguage {
+        guard let code = storage.getString(forKey: StorageKeys.selectedLanguage),
+              let lang = UserLanguage(rawValue: code) else {
+            return .ptBR
+        }
+        return lang
+    }
 }

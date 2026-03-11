@@ -120,6 +120,11 @@ struct CategoryDetailView: View {
                         ProgressService.shared.markPhraseCompleted(phrase)
                         HapticManager.success()
                     },
+                    onUncomplete: {
+                        dailyService.markUncompleted(phrase.id)
+                        ProgressService.shared.markPhraseUncompleted(phrase)
+                        HapticManager.lightImpact()
+                    },
                     onSave: {
                         dailyService.toggleSaved(phrase.id)
                         if savedIDs.contains(phrase.id) {

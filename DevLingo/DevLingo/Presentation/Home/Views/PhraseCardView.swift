@@ -10,6 +10,7 @@ struct PhraseCardView: View {
     let isCompleted: Bool
     let isSaved: Bool
     let onComplete: () -> Void
+    let onUncomplete: () -> Void
     let onSave: () -> Void
     let onSpeak: () -> Void
 
@@ -25,8 +26,7 @@ struct PhraseCardView: View {
             // English phrase
             Text(phrase.english)
                 .font(AppFonts.phraseEnglish)
-                .foregroundStyle(isCompleted ? AppColors.textSecondary : AppColors.textPrimary)
-                .strikethrough(isCompleted, color: AppColors.textTertiary)
+                .foregroundStyle(AppColors.textPrimary)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
             // Context
@@ -158,8 +158,22 @@ struct PhraseCardView: View {
                 .pressAnimation()
             }
 
-            // Complete — separate line
-            if !isCompleted {
+            // Complete / Uncomplete
+            if isCompleted {
+                Button(action: onUncomplete) {
+                    HStack(spacing: AppSpacing.xs) {
+                        Image(systemName: "arrow.uturn.backward")
+                            .font(.system(size: 12, weight: .bold))
+                        Text(String(localized: "phrase.undo_learned"))
+                            .font(AppFonts.caption)
+                    }
+                    .foregroundStyle(AppColors.textSecondary)
+                    .frame(maxWidth: .infinity, minHeight: 44)
+                    .background(AppColors.surfaceSecondary)
+                    .clipShape(Capsule())
+                }
+                .pressAnimation()
+            } else {
                 Button(action: onComplete) {
                     HStack(spacing: AppSpacing.xs) {
                         Image(systemName: "checkmark")
@@ -168,8 +182,7 @@ struct PhraseCardView: View {
                             .font(AppFonts.caption)
                     }
                     .foregroundStyle(AppColors.secondary)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, AppSpacing.sm)
+                    .frame(maxWidth: .infinity, minHeight: 44)
                     .background(AppColors.secondary.opacity(0.15))
                     .clipShape(Capsule())
                 }

@@ -163,6 +163,7 @@ struct HomeView: View {
                             isCompleted: viewModel.isCompleted(phrase),
                             isSaved: viewModel.isSaved(phrase),
                             onComplete: { viewModel.markCompleted(phrase) },
+                            onUncomplete: { viewModel.markUncompleted(phrase) },
                             onSave: { viewModel.toggleSaved(phrase) },
                             onSpeak: { viewModel.speak(phrase) }
                         )

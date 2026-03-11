@@ -8,8 +8,7 @@
       "es": "¿Quieres conducir o navegar?",
       "fr": "Tu veux conduire ou naviguer ?",
       "de": "Willst du fahren oder navigieren?",
-      "it": "Vuoi guidare o navigare?",
-      "tr": "Sürmek mi yoksa yönlendirmek mi istersin?"
+      "it": "Vuoi guidare o navigare?"
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -23,8 +22,7 @@
       "es": "Yo conduzco primero y podemos cambiar en 20 minutos.",
       "fr": "Je conduis d'abord, et on peut échanger dans 20 minutes.",
       "de": "Ich fahre zuerst, und wir können in 20 Minuten wechseln.",
-      "it": "Guido io prima, e possiamo scambiarci tra 20 minuti.",
-      "tr": "Önce ben sürerim, 20 dakika sonra değişiriz."
+      "it": "Guido io prima, e possiamo scambiarci tra 20 minuti."
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -38,8 +36,7 @@
       "es": "¿Puedes compartir tu pantalla?",
       "fr": "Tu peux partager ton écran ?",
       "de": "Kannst du deinen Bildschirm teilen?",
-      "it": "Puoi condividere il tuo schermo?",
-      "tr": "Ekranını paylaşabilir misin?"
+      "it": "Puoi condividere il tuo schermo?"
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -53,8 +50,7 @@
       "es": "Déjame pensar en voz alta un momento.",
       "fr": "Laisse-moi réfléchir à voix haute un instant.",
       "de": "Lass mich kurz laut denken.",
-      "it": "Lasciami pensare ad alta voce per un momento.",
-      "tr": "Bir saniye sesli düşüneyim."
+      "it": "Lasciami pensare ad alta voce per un momento."
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -68,8 +64,7 @@
       "es": "¿Qué opinas de este enfoque?",
       "fr": "Qu'est-ce que tu penses de cette approche ?",
       "de": "Was hältst du von diesem Ansatz?",
-      "it": "Cosa pensi di questo approccio?",
-      "tr": "Bu yaklaşım hakkında ne düşünüyorsun?"
+      "it": "Cosa pensi di questo approccio?"
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -83,8 +78,7 @@
       "es": "¿Puedes explicar qué hace esta función?",
       "fr": "Tu peux expliquer ce que fait cette fonction ?",
       "de": "Kannst du erklären, was diese Funktion macht?",
-      "it": "Puoi spiegare cosa fa questa funzione?",
-      "tr": "Bu fonksiyonun ne yaptığını açıklayabilir misin?"
+      "it": "Puoi spiegare cosa fa questa funzione?"
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -98,8 +92,7 @@
       "es": "Demos un paso atrás y veamos el panorama general.",
       "fr": "Prenons du recul et regardons la vue d'ensemble.",
       "de": "Lass uns einen Schritt zurücktreten und das große Ganze betrachten.",
-      "it": "Facciamo un passo indietro e guardiamo il quadro generale.",
-      "tr": "Bir adım geri çekilip büyük resme bakalım."
+      "it": "Facciamo un passo indietro e guardiamo il quadro generale."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -113,8 +106,7 @@
       "es": "¿Cambiamos de rol ahora? Me gustaría intentar conducir.",
       "fr": "On échange les rôles maintenant ? J'aimerais essayer de conduire.",
       "de": "Sollen wir jetzt die Rollen tauschen? Ich würde gerne fahren.",
-      "it": "Scambiamoci i ruoli adesso? Mi piacerebbe provare a guidare.",
-      "tr": "Şimdi rol değiştirelim mi? Sürmeyi denemek isterim."
+      "it": "Scambiamoci i ruoli adesso? Mi piacerebbe provare a guidare."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -128,8 +120,7 @@
       "es": "Veo un posible error ahí. ¿Puedes desplazarte hacia arriba?",
       "fr": "Je vois un bug potentiel là. Tu peux remonter ?",
       "de": "Ich sehe dort einen möglichen Bug. Kannst du nach oben scrollen?",
-      "it": "Vedo un potenziale bug lì. Puoi scorrere verso l'alto?",
-      "tr": "Orada potansiyel bir hata görüyorum. Yukarı kaydırabilir misin?"
+      "it": "Vedo un potenziale bug lì. Puoi scorrere verso l'alto?"
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -143,8 +134,7 @@
       "es": "Escribamos un test para esto antes de continuar.",
       "fr": "Écrivons un test pour ça avant de continuer.",
       "de": "Lass uns dafür einen Test schreiben, bevor wir weitermachen.",
-      "it": "Scriviamo un test per questo prima di andare avanti.",
-      "tr": "Devam etmeden önce bunun için bir test yazalım."
+      "it": "Scriviamo un test per questo prima di andare avanti."
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -158,8 +148,7 @@
       "es": "Creo que deberíamos refactorizar esto ya que estamos aquí.",
       "fr": "Je pense qu'on devrait refactoriser ça pendant qu'on y est.",
       "de": "Ich denke, wir sollten das refactoren, solange wir hier sind.",
-      "it": "Penso che dovremmo fare il refactoring di questo ora che siamo qui.",
-      "tr": "Buradayken bunu yeniden düzenlememiz gerektiğini düşünüyorum."
+      "it": "Penso che dovremmo fare il refactoring di questo ora che siamo qui."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -173,8 +162,7 @@
       "es": "Pongamos un breakpoint ahí y depurémoslo juntos.",
       "fr": "Mettons un point d'arrêt là et déboguons ensemble.",
       "de": "Lass uns dort einen Breakpoint setzen und gemeinsam debuggen.",
-      "it": "Mettiamo un breakpoint lì e facciamo il debug insieme.",
-      "tr": "Oraya bir kesme noktası koyup birlikte hata ayıklayalım."
+      "it": "Mettiamo un breakpoint lì e facciamo il debug insieme."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -188,8 +176,7 @@
       "es": "No estoy seguro de entender. ¿Puedes explicarme tu razonamiento?",
       "fr": "Je ne suis pas sûr de suivre. Tu peux m'expliquer ton raisonnement ?",
       "de": "Ich bin mir nicht sicher, ob ich folge. Kannst du mir deine Überlegung erklären?",
-      "it": "Non sono sicuro di seguire. Puoi spiegarmi il tuo ragionamento?",
-      "tr": "Takip edebildiğimden emin değilim. Mantığını anlatabilir misin?"
+      "it": "Non sono sicuro di seguire. Puoi spiegarmi il tuo ragionamento?"
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -203,8 +190,7 @@
       "es": "¡Buena observación! No lo habría notado.",
       "fr": "Bien vu ! Je n'aurais pas remarqué ça.",
       "de": "Gut erkannt! Das hätte ich nicht bemerkt.",
-      "it": "Bella osservazione! Non l'avrei notato.",
-      "tr": "İyi yakaladın! Ben fark etmezdim."
+      "it": "Bella osservazione! Non l'avrei notato."
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -218,8 +204,7 @@
       "es": "Intentemos un enfoque diferente. ¿Y si usamos un patrón strategy aquí?",
       "fr": "Essayons une approche différente. Et si on utilisait un pattern strategy ici ?",
       "de": "Lass uns einen anderen Ansatz versuchen. Was, wenn wir hier ein Strategy-Pattern verwenden?",
-      "it": "Proviamo un approccio diverso. E se usassimo un pattern strategy qui?",
-      "tr": "Farklı bir yaklaşım deneyelim. Burada bir strateji deseni kullansak nasıl olur?"
+      "it": "Proviamo un approccio diverso. E se usassimo un pattern strategy qui?"
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -233,8 +218,7 @@
       "es": "Voy a escribir esto, y me dices si ves algún problema.",
       "fr": "Je vais taper ça, et tu me dis si tu vois des problèmes.",
       "de": "Ich tippe das jetzt, und du sagst mir, wenn du Probleme siehst.",
-      "it": "Scrivo questo, e tu dimmi se vedi qualche problema.",
-      "tr": "Bunu yazacağım, bir sorun görürsen söyle."
+      "it": "Scrivo questo, e tu dimmi se vedi qualche problema."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -248,8 +232,7 @@
       "es": "Probablemente deberíamos extraer esto en su propio método para mejorar la legibilidad.",
       "fr": "On devrait probablement extraire ça dans sa propre méthode pour la lisibilité.",
       "de": "Wir sollten das wahrscheinlich in eine eigene Methode extrahieren, für bessere Lesbarkeit.",
-      "it": "Dovremmo probabilmente estrarre questo in un metodo separato per la leggibilità.",
-      "tr": "Okunabilirlik için bunu kendi metoduna çıkarmalıyız."
+      "it": "Dovremmo probabilmente estrarre questo in un metodo separato per la leggibilità."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -263,8 +246,7 @@
       "es": "Espera, creo que hay una condición de carrera aquí. Veámoslo con más cuidado.",
       "fr": "Attends, je pense qu'il y a une condition de concurrence ici. Regardons ça plus attentivement.",
       "de": "Warte, ich glaube hier gibt es eine Race Condition. Lass uns das genauer ansehen.",
-      "it": "Aspetta, penso ci sia una race condition qui. Guardiamolo con più attenzione.",
-      "tr": "Dur, burada bir yarış durumu olduğunu düşünüyorum. Bunu daha dikkatli inceleyelim."
+      "it": "Aspetta, penso ci sia una race condition qui. Guardiamolo con più attenzione."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -278,8 +260,7 @@
       "es": "Hagamos commit de lo que tenemos y continuemos después de un descanso.",
       "fr": "Committons ce qu'on a et continuons après une pause.",
       "de": "Lass uns committen, was wir haben, und nach einer Pause weitermachen.",
-      "it": "Facciamo il commit di quello che abbiamo e continuiamo dopo una pausa.",
-      "tr": "Elimizdekileri commit edelim ve bir aradan sonra devam edelim."
+      "it": "Facciamo il commit di quello che abbiamo e continuiamo dopo una pausa."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -293,8 +274,7 @@
       "es": "¿Puedes hacer zoom? No puedo leer el código desde aquí.",
       "fr": "Tu peux zoomer ? Je n'arrive pas à lire le code d'ici.",
       "de": "Kannst du reinzoomen? Ich kann den Code von hier nicht lesen.",
-      "it": "Puoi ingrandire? Non riesco a leggere il codice da qui.",
-      "tr": "Yakınlaştırabilir misin? Kodu buradan okuyamıyorum."
+      "it": "Puoi ingrandire? Non riesco a leggere il codice da qui."
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -308,8 +288,7 @@
       "es": "Tengo una idea, pero no estoy seguro de que funcione. Déjame probarla rápidamente.",
       "fr": "J'ai une idée, mais je ne suis pas sûr que ça marchera. Laisse-moi essayer vite fait.",
       "de": "Ich habe eine Idee, bin aber nicht sicher, ob es funktioniert. Lass mich es schnell ausprobieren.",
-      "it": "Ho un'idea, ma non sono sicuro che funzioni. Fammi provare velocemente.",
-      "tr": "Bir fikrim var ama işe yarayacağından emin değilim. Hızlıca deneyeyim."
+      "it": "Ho un'idea, ma non sono sicuro che funzioni. Fammi provare velocemente."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -323,8 +302,7 @@
       "es": "El nombre de la variable aquí es un poco confuso. ¿Qué tal si la renombramos a algo más descriptivo?",
       "fr": "Le nom de la variable ici est un peu déroutant. Et si on la renommait en quelque chose de plus descriptif ?",
       "de": "Die Variablenbenennung hier ist etwas verwirrend. Wie wäre es, wenn wir sie aussagekräftiger benennen?",
-      "it": "Il nome della variabile qui è un po' confuso. Che ne dici di rinominarla con qualcosa di più descrittivo?",
-      "tr": "Buradaki değişken adı biraz kafa karıştırıcı. Daha açıklayıcı bir şeyle değiştirsek nasıl olur?"
+      "it": "Il nome della variabile qui è un po' confuso. Che ne dici di rinominarla con qualcosa di più descrittivo?"
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -338,8 +316,7 @@
       "es": "Recorramos este código paso a paso para encontrar el problema.",
       "fr": "Parcourons ce code étape par étape pour trouver le problème.",
       "de": "Lass uns den Code Schritt für Schritt durchgehen, um das Problem zu finden.",
-      "it": "Percorriamo questo codice passo passo per trovare il problema.",
-      "tr": "Sorunu bulmak için bu kodu adım adım takip edelim."
+      "it": "Percorriamo questo codice passo passo per trovare il problema."
     },
     "difficulty": "medium",
     "category": "pairProgramming"
@@ -353,8 +330,7 @@
       "es": "Podríamos probar mob programming en esto. Invitemos al resto del equipo.",
       "fr": "On pourrait essayer le mob programming sur ça. Invitons le reste de l'équipe.",
       "de": "Wir könnten Mob Programming dafür versuchen. Lass uns den Rest des Teams einladen.",
-      "it": "Potremmo provare il mob programming su questo. Invitiamo il resto del team.",
-      "tr": "Bunda mob programlama deneyebiliriz. Ekibin geri kalanını davet edelim."
+      "it": "Potremmo provare il mob programming su questo. Invitiamo il resto del team."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -368,8 +344,7 @@
       "es": "Este caso extremo es complicado. Anotemos todos los escenarios antes de codificar.",
       "fr": "Ce cas limite est délicat. Notons tous les scénarios avant de coder.",
       "de": "Dieser Grenzfall ist knifflig. Lass uns alle Szenarien aufschreiben, bevor wir coden.",
-      "it": "Questo caso limite è complicato. Annotiamo tutti gli scenari prima di codificare.",
-      "tr": "Bu uç durum zor. Kodlamadan önce tüm senaryoları yazalım."
+      "it": "Questo caso limite è complicato. Annotiamo tutti gli scenari prima di codificare."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -383,8 +358,7 @@
       "es": "Estoy de acuerdo con la lógica, pero creo que deberíamos agregar manejo de errores aquí.",
       "fr": "Je suis d'accord avec la logique, mais je pense qu'on devrait ajouter de la gestion d'erreurs ici.",
       "de": "Ich stimme der Logik zu, aber ich denke, wir sollten hier Fehlerbehandlung hinzufügen.",
-      "it": "Sono d'accordo con la logica, ma penso che dovremmo aggiungere la gestione degli errori qui.",
-      "tr": "Mantığa katılıyorum ama burada hata yönetimi eklememiz gerektiğini düşünüyorum."
+      "it": "Sono d'accordo con la logica, ma penso che dovremmo aggiungere la gestione degli errori qui."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -398,8 +372,7 @@
       "es": "Genial, ahora está mucho más limpio. Ejecutemos los tests para asegurar que no rompimos nada.",
       "fr": "Super, c'est beaucoup plus propre maintenant. Lançons les tests pour s'assurer qu'on n'a rien cassé.",
       "de": "Schön, das ist jetzt viel sauberer. Lass uns die Tests laufen lassen, um sicherzustellen, dass wir nichts kaputt gemacht haben.",
-      "it": "Bene, ora è molto più pulito. Eseguiamo i test per assicurarci di non aver rotto nulla.",
-      "tr": "Güzel, şimdi çok daha temiz. Hiçbir şeyi bozmadığımızdan emin olmak için testleri çalıştıralım."
+      "it": "Bene, ora è molto più pulito. Eseguiamo i test per assicurarci di non aver rotto nulla."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -413,8 +386,7 @@
       "es": "Espera, déjame revisar la documentación antes de seguir por ese camino.",
       "fr": "Attends, laisse-moi vérifier la documentation avant qu'on prenne cette direction.",
       "de": "Moment, lass mich die Dokumentation prüfen, bevor wir diesen Weg einschlagen.",
-      "it": "Aspetta, fammi controllare la documentazione prima di procedere in quella direzione.",
-      "tr": "Dur, o yola girmeden önce dokümantasyonu kontrol edeyim."
+      "it": "Aspetta, fammi controllare la documentazione prima di procedere in quella direzione."
     },
     "difficulty": "hard",
     "category": "pairProgramming"
@@ -428,8 +400,7 @@
       "es": "Vas demasiado rápido. ¿Puedes ir un poco más lento para que pueda seguirte?",
       "fr": "Tu vas trop vite. Tu peux ralentir un peu pour que je puisse suivre ?",
       "de": "Du gehst zu schnell vor. Kannst du etwas langsamer machen, damit ich folgen kann?",
-      "it": "Stai andando troppo veloce. Puoi rallentare un po' così riesco a seguire?",
-      "tr": "Çok hızlı gidiyorsun. Takip edebilmem için biraz yavaşlayabilir misin?"
+      "it": "Stai andando troppo veloce. Puoi rallentare un po' così riesco a seguire?"
     },
     "difficulty": "easy",
     "category": "pairProgramming"
@@ -443,8 +414,7 @@
       "es": "Fue una sesión productiva. Resumamos lo que logramos y creemos tickets para el trabajo restante.",
       "fr": "C'était une session productive. Résumons ce qu'on a accompli et créons des tickets pour le travail restant.",
       "de": "Das war eine produktive Session. Lass uns zusammenfassen, was wir geschafft haben, und Tickets für die verbleibende Arbeit erstellen.",
-      "it": "È stata una sessione produttiva. Riassumiamo cosa abbiamo realizzato e creiamo dei ticket per il lavoro rimanente.",
-      "tr": "Verimli bir oturum oldu. Başardıklarımızı özetleyip kalan iş için bilet oluşturalım."
+      "it": "È stata una sessione produttiva. Riassumiamo cosa abbiamo realizzato e creiamo dei ticket per il lavoro rimanente."
     },
     "difficulty": "hard",
     "category": "pairProgramming"

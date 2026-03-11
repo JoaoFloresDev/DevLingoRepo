@@ -8,6 +8,9 @@ struct ProfileView: View {
     @StateObject private var viewModel = ProfileViewModel()
     @State private var showLanguagePicker = false
     @State private var showNotificationSettings = false
+    @State private var showLearnedPhrases = false
+    @State private var showSavedPhrases = false
+    @State private var showHardPhrases = false
 
     // MARK: - Body
 
@@ -37,6 +40,27 @@ struct ProfileView: View {
             NotificationSettingsSheet()
                 .presentationDetents([.medium])
                 .presentationDragIndicator(.visible)
+        }
+        .sheet(isPresented: $showLearnedPhrases) {
+            PhraseListSheet(
+                title: String(localized: "profile.total_learned"),
+                phrases: viewModel.getLearnedPhrases(),
+                language: viewModel.userLanguage
+            )
+        }
+        .sheet(isPresented: $showSavedPhrases) {
+            PhraseListSheet(
+                title: String(localized: "profile.saved"),
+                phrases: viewModel.getSavedPhrases(),
+                language: viewModel.userLanguage
+            )
+        }
+        .sheet(isPresented: $showHardPhrases) {
+            PhraseListSheet(
+                title: String(localized: "profile.hard"),
+                phrases: viewModel.getHardPhrases(),
+                language: viewModel.userLanguage
+            )
         }
     }
 
@@ -144,30 +168,36 @@ struct ProfileView: View {
 
     private var statsSection: some View {
         VStack(spacing: 0) {
-            statsRow(
-                icon: "checkmark.circle.fill",
-                color: AppColors.secondary,
-                title: String(localized: "profile.total_learned"),
-                value: "\(viewModel.progress.totalPhrasesLearned)"
-            )
+            Button { showLearnedPhrases = true } label: {
+                statsRow(
+                    icon: "checkmark.circle.fill",
+                    color: AppColors.secondary,
+                    title: String(localized: "profile.total_learned"),
+                    value: "\(viewModel.progress.totalPhrasesLearned)"
+                )
+            }
 
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
 
-            statsRow(
-                icon: "bookmark.fill",
-                color: AppColors.primary,
-                title: String(localized: "profile.saved"),
-                value: "\(viewModel.savedCount)"
-            )
+            Button { showSavedPhrases = true } label: {
+                statsRow(
+                    icon: "bookmark.fill",
+                    color: AppColors.primary,
+                    title: String(localized: "profile.saved"),
+                    value: "\(viewModel.savedCount)"
+                )
+            }
 
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
 
-            statsRow(
-                icon: "exclamationmark.triangle.fill",
-                color: AppColors.accent,
-                title: String(localized: "profile.hard"),
-                value: "\(viewModel.hardCount)"
-            )
+            Button { showHardPhrases = true } label: {
+                statsRow(
+                    icon: "exclamationmark.triangle.fill",
+                    color: AppColors.accent,
+                    title: String(localized: "profile.hard"),
+                    value: "\(viewModel.hardCount)"
+                )
+            }
         }
         .background(AppColors.surface)
         .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
@@ -189,6 +219,10 @@ struct ProfileView: View {
             Text(value)
                 .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(AppColors.textSecondary)
+
+            Image(systemName: "chevron.right")
+                .font(.system(size: 13))
+                .foregroundStyle(AppColors.textTertiary)
         }
         .padding(.horizontal, AppSpacing.lg)
         .padding(.vertical, 14)
@@ -218,7 +252,7 @@ struct ProfileView: View {
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
 
             ShareLink(
-                item: URL(string: "https://apps.apple.com/app/devlingo/id0000000000")!,
+                item: URL(string: "https://apps.apple.com/app/devlingo/id6759974641")!,
                 subject: Text("DevLingo"),
                 message: Text(String(localized: "profile.share_message"))
             ) {

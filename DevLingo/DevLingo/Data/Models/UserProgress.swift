@@ -50,6 +50,16 @@ struct UserProgress: Codable {
         phrasesByDifficulty[diffKey] = (phrasesByDifficulty[diffKey] ?? 0) + 1
     }
 
+    mutating func markPhraseUncompleted(_ phrase: Phrase) {
+        totalPhrasesLearned = max(0, totalPhrasesLearned - 1)
+
+        let catKey = phrase.category.rawValue
+        phrasesByCategory[catKey] = max(0, (phrasesByCategory[catKey] ?? 0) - 1)
+
+        let diffKey = phrase.difficulty.rawValue
+        phrasesByDifficulty[diffKey] = max(0, (phrasesByDifficulty[diffKey] ?? 0) - 1)
+    }
+
     mutating func updateStreak() {
         let today = Date().startOfDay
         guard let lastDate = lastActiveDate?.startOfDay else {

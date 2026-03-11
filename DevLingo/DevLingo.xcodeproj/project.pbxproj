@@ -33,6 +33,7 @@
 		62F81F64FB6D21208AC7717E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30729B881F2BEC9E298EE9C5 /* Date+Extensions.swift */; };
 		639187CF24AEC548567C7623 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F768CFE133B979270B710 /* StorageKeys.swift */; };
 		66F636FB2B4DE550BD1D038F /* UserLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C35AEF5610AB54F5500787 /* UserLanguage.swift */; };
+		6E5C1B7A455C6F65B48FF84F /* PhraseListSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0230BF34E74528EAC37A1E18 /* PhraseListSheet.swift */; };
 		6E9F6E93D8C9133A055B6867 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1777D0BFF4188E61DC560 /* CategoriesViewModel.swift */; };
 		7026E7463BA7253FD9605FE1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B01E06041BA77BFDEF1D9C6B /* Localizable.xcstrings */; };
 		73656B4E3D86F2A44D2A2ABA /* DevLingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AC2282673D497CA1C0A043 /* DevLingoTests.swift */; };
@@ -43,7 +44,6 @@
 		7FFC6BDA1118437270FE2F8C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFC6CAB84E1CC1DB272F5B /* ProfileView.swift */; };
 		853F3326E19CA1FEFF45888E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB08237E7909967EF494E7C /* HistoryView.swift */; };
 		855D4373190D026CD5DC79E0 /* phrases_pullRequests.json in Resources */ = {isa = PBXBuildFile; fileRef = FC420249781B0DD61B95C271 /* phrases_pullRequests.json */; };
-		897979759992B2E3B9FD530A /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = ACD980A03E4CD7B84E803985 /* InfoPlist.xcstrings */; };
 		89FA8BC97D880BEB09796BC5 /* DevLingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7664F8E8D134E55E29676F /* DevLingoUITests.swift */; };
 		8C8DB33483FE2ABFE3858881 /* phrases_email.json in Resources */ = {isa = PBXBuildFile; fileRef = F9B57E2CAF43320B663133E5 /* phrases_email.json */; };
 		8CBE69B8FA7EE37C7E6D0328 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A945A9C2DA31A11017E35EFD /* Localizable.xcstrings */; };
@@ -115,6 +115,7 @@
 
 /* Begin PBXFileReference section */
 		0092AD7F8401FB8157F6618A /* MockDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataProvider.swift; sourceTree = "<group>"; };
+		0230BF34E74528EAC37A1E18 /* PhraseListSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseListSheet.swift; sourceTree = "<group>"; };
 		03873D7599AE7840223C31F4 /* phrases_interviews.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_interviews.json; sourceTree = "<group>"; };
 		03CB9BB1229EEF72C028FDA0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		04FFC6CAB84E1CC1DB272F5B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -162,7 +163,6 @@
 		A69957906E9887EEDBA62EA3 /* phrases_slack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_slack.json; sourceTree = "<group>"; };
 		A945A9C2DA31A11017E35EFD /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		AB0497F031C578F5B9B4B355 /* PhraseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseCardView.swift; sourceTree = "<group>"; };
-		ACD980A03E4CD7B84E803985 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		B01E06041BA77BFDEF1D9C6B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		B232ABBBEE9C862085C65FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B63AA31B10D2FA7060CBE388 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 		DD519582384C6ED80FEDA119 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
 		DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoApp.swift; sourceTree = "<group>"; };
 		E1B87A22B6EB3BB7FFA14CA1 /* DailyPhraseSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPhraseSet.swift; sourceTree = "<group>"; };
-		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F017AF78074B47556ECD8C42 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F2C3A4DA02184A963FBA7D22 /* ProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressService.swift; sourceTree = "<group>"; };
 		F9B57E2CAF43320B663133E5 /* phrases_email.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_email.json; sourceTree = "<group>"; };
@@ -296,7 +296,6 @@
 			children = (
 				B232ABBBEE9C862085C65FC5 /* Assets.xcassets */,
 				70365AD2EC09FDEE2A5D1EC6 /* Info.plist */,
-				ACD980A03E4CD7B84E803985 /* InfoPlist.xcstrings */,
 				CE8E8495E75F4805D5056F08 /* LaunchScreen.storyboard */,
 				A945A9C2DA31A11017E35EFD /* Localizable.xcstrings */,
 			);
@@ -308,6 +307,7 @@
 			children = (
 				4953B47AAE03174F894C8570 /* LanguagePickerSheet.swift */,
 				83674E377AD46C484DBB3B61 /* NotificationSettingsSheet.swift */,
+				0230BF34E74528EAC37A1E18 /* PhraseListSheet.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -652,8 +652,8 @@
 				it,
 				ja,
 				ko,
+				nb,
 				nl,
-				no,
 				pl,
 				"pt-BR",
 				ro,
@@ -689,7 +689,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B2C3FD72036F5A9972C65D /* Assets.xcassets in Resources */,
-				897979759992B2E3B9FD530A /* InfoPlist.xcstrings in Resources */,
 				EBA47F2455456519ABDE62B1 /* LaunchScreen.storyboard in Resources */,
 				8CBE69B8FA7EE37C7E6D0328 /* Localizable.xcstrings in Resources */,
 				CE746BB502ADEBE362F2A8B6 /* phrases_bugReports.json in Resources */,
@@ -753,6 +752,7 @@
 				518D92F9BFB442C6FC5E511F /* PhraseCardView.swift in Sources */,
 				4FEA1BE899A0BE3795742C54 /* PhraseCategory.swift in Sources */,
 				37E6517CDC0F59EDC8F2C991 /* PhraseDifficulty.swift in Sources */,
+				6E5C1B7A455C6F65B48FF84F /* PhraseListSheet.swift in Sources */,
 				C570AD0E0B6A712943FB8F2C /* PhraseService.swift in Sources */,
 				7FFC6BDA1118437270FE2F8C /* ProfileView.swift in Sources */,
 				7C02828AB396281648C5BABE /* ProfileViewModel.swift in Sources */,
@@ -814,6 +814,7 @@
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../../Frameworks",
@@ -823,7 +824,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo.widget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -913,6 +917,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingo/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -921,6 +926,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -933,6 +939,7 @@
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../../Frameworks",
@@ -942,7 +949,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo.widget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1071,6 +1081,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingo/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1079,6 +1090,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;

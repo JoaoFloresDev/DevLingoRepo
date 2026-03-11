@@ -118,6 +118,12 @@ final class DailyPhraseService {
         storage.setStringSet(completed, forKey: StorageKeys.completedPhraseIDs)
     }
 
+    func markUncompleted(_ phraseID: String) {
+        var completed = storage.getStringSet(forKey: StorageKeys.completedPhraseIDs)
+        completed.remove(phraseID)
+        storage.setStringSet(completed, forKey: StorageKeys.completedPhraseIDs)
+    }
+
     func isCompleted(_ phraseID: String) -> Bool {
         storage.getStringSet(forKey: StorageKeys.completedPhraseIDs).contains(phraseID)
     }

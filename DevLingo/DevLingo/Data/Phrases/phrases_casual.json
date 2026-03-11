@@ -8,8 +8,7 @@
       "es": "Quieres tomar un cafe?",
       "fr": "Tu veux prendre un cafe?",
       "de": "Willst du einen Kaffee holen?",
-      "it": "Vuoi prendere un caffe?",
-      "tr": "Kahve almaya gidelim mi?"
+      "it": "Vuoi prendere un caffe?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -23,8 +22,7 @@
       "es": "Como fue tu fin de semana?",
       "fr": "Comment etait ton week-end?",
       "de": "Wie war dein Wochenende?",
-      "it": "Com'e stato il tuo fine settimana?",
-      "tr": "Hafta sonun nasil gecti?"
+      "it": "Com'e stato il tuo fine settimana?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -38,8 +36,7 @@
       "es": "Donde van a almorzar?",
       "fr": "Ou est-ce que vous allez manger?",
       "de": "Wo geht ihr zum Mittagessen hin?",
-      "it": "Dove andate a pranzo?",
-      "tr": "Ogle yemegine nereye gidiyorsunuz?"
+      "it": "Dove andate a pranzo?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -53,8 +50,7 @@
       "es": "Oye, bienvenido al equipo!",
       "fr": "Salut, bienvenue dans l'equipe!",
       "de": "Hey, willkommen im Team!",
-      "it": "Ciao, benvenuto nel team!",
-      "tr": "Hey, takima hos geldin!"
+      "it": "Ciao, benvenuto nel team!"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -68,8 +64,7 @@
       "es": "Necesito un descanso, mi cerebro esta frito.",
       "fr": "J'ai besoin d'une pause, mon cerveau est grille.",
       "de": "Ich brauche eine Pause, mein Gehirn ist durch.",
-      "it": "Ho bisogno di una pausa, il mio cervello e fritto.",
-      "tr": "Bir mola lazim, beynim yandi."
+      "it": "Ho bisogno di una pausa, il mio cervello e fritto."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -83,8 +78,7 @@
       "es": "Vas a trabajar desde casa manana?",
       "fr": "Tu travailles depuis chez toi demain?",
       "de": "Arbeitest du morgen von zu Hause aus?",
-      "it": "Lavori da casa domani?",
-      "tr": "Yarin evden mi calisiyorsun?"
+      "it": "Lavori da casa domani?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -98,8 +92,7 @@
       "es": "Alguien se apunta a un almuerzo de equipo hoy?",
       "fr": "Quelqu'un est partant pour un dejeuner d'equipe aujourd'hui?",
       "de": "Hat jemand Lust auf ein Team-Mittagessen heute?",
-      "it": "Qualcuno vuole fare un pranzo di gruppo oggi?",
-      "tr": "Bugun takim yemegine cikacak var mi?"
+      "it": "Qualcuno vuole fare un pranzo di gruppo oggi?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -113,8 +106,7 @@
       "es": "Esa reunion podria haber sido un correo.",
       "fr": "Cette reunion aurait pu etre un e-mail.",
       "de": "Dieses Meeting hatte eine E-Mail sein konnen.",
-      "it": "Quella riunione poteva essere un'e-mail.",
-      "tr": "O toplanti bir e-posta olabilirdi."
+      "it": "Quella riunione poteva essere un'e-mail."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -128,8 +120,7 @@
       "es": "Viste el mensaje en el canal general?",
       "fr": "Tu as vu le message dans le canal general?",
       "de": "Hast du die Nachricht im allgemeinen Kanal gesehen?",
-      "it": "Hai visto il messaggio nel canale generale?",
-      "tr": "Genel kanaldaki mesaji gordun mu?"
+      "it": "Hai visto il messaggio nel canale generale?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -143,8 +134,7 @@
       "es": "Voy a salir un rato a tomar aire fresco.",
       "fr": "Je vais sortir prendre l'air un moment.",
       "de": "Ich gehe kurz raus an die frische Luft.",
-      "it": "Esco un attimo a prendere un po' d'aria fresca.",
-      "tr": "Biraz temiz hava almaya cikacagim."
+      "it": "Esco un attimo a prendere un po' d'aria fresca."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -158,8 +148,7 @@
       "es": "Deberiamos celebrar, el lanzamiento salio bien!",
       "fr": "On devrait feter ca, la mise en production s'est bien passee!",
       "de": "Wir sollten feiern, das Release lief reibungslos!",
-      "it": "Dovremmo festeggiare, il rilascio e andato liscio!",
-      "tr": "Kutlamamiz lazim, yayin sorunsuz gecti!"
+      "it": "Dovremmo festeggiare, il rilascio e andato liscio!"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -173,8 +162,7 @@
       "es": "Estuve concentrado toda la manana, que me perdi?",
       "fr": "J'etais a fond toute la matinee, j'ai rate quoi?",
       "de": "Ich war den ganzen Morgen vertieft, was habe ich verpasst?",
-      "it": "Sono stato concentrato tutta la mattina, cosa mi sono perso?",
-      "tr": "Butun sabah kafami kaldirmadim, ne kacirdim?"
+      "it": "Sono stato concentrato tutta la mattina, cosa mi sono perso?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -188,8 +176,7 @@
       "es": "Hagamos una salida de equipo este viernes, alguna idea?",
       "fr": "On fait une sortie d'equipe ce vendredi, des idees?",
       "de": "Lass uns diesen Freitag einen Teamausflug machen, irgendwelche Ideen?",
-      "it": "Facciamo un'uscita di gruppo questo venerdi, qualche idea?",
-      "tr": "Bu cuma takim etkinligi yapalim, fikri olan var mi?"
+      "it": "Facciamo un'uscita di gruppo questo venerdi, qualche idea?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -203,8 +190,7 @@
       "es": "Perdon por llegar tarde, el trafico estuvo terrible hoy.",
       "fr": "Desole pour le retard, le trajet etait horrible aujourd'hui.",
       "de": "Entschuldigung fur die Verspatung, der Arbeitsweg war heute furchtbar.",
-      "it": "Scusate il ritardo, il tragitto e stato terribile oggi.",
-      "tr": "Gec kaldigim icin ozur dilerim, bugun yol cok kotuydu."
+      "it": "Scusate il ritardo, il tragitto e stato terribile oggi."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -218,8 +204,7 @@
       "es": "Has probado ese restaurante nuevo a la vuelta de la esquina?",
       "fr": "Tu as essaye le nouveau restaurant au coin de la rue?",
       "de": "Hast du das neue Restaurant um die Ecke schon ausprobiert?",
-      "it": "Hai provato quel nuovo ristorante dietro l'angolo?",
-      "tr": "Kosedeki yeni restorani denedin mi?"
+      "it": "Hai provato quel nuovo ristorante dietro l'angolo?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -233,8 +218,7 @@
       "es": "Me desconecto temprano hoy, tengo cita con el medico.",
       "fr": "Je me deconnecte tot aujourd'hui, j'ai un rendez-vous medical.",
       "de": "Ich logge mich heute fruher aus, ich habe einen Arzttermin.",
-      "it": "Mi scollego presto oggi, ho un appuntamento dal dottore.",
-      "tr": "Bugun erken cikiyorum, doktor randevum var."
+      "it": "Mi scollego presto oggi, ho un appuntamento dal dottore."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -248,8 +232,7 @@
       "es": "El Wi-Fi esta fallando otra vez, soy solo yo?",
       "fr": "Le Wi-Fi deconne encore, c'est que moi?",
       "de": "Das WLAN spinnt wieder, liegt das nur an mir?",
-      "it": "Il Wi-Fi sta dando problemi di nuovo, sono solo io?",
-      "tr": "Wi-Fi yine sorun cikariyor, sadece bende mi?"
+      "it": "Il Wi-Fi sta dando problemi di nuovo, sono solo io?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -263,8 +246,7 @@
       "es": "Quieres hacer pair en esto? Me vendria bien otra perspectiva.",
       "fr": "Tu veux qu'on bosse en binome la-dessus? Un second regard serait utile.",
       "de": "Willst du das zusammen machen? Ich konnte ein zweites Augenpaar gebrauchen.",
-      "it": "Vuoi lavorarci insieme? Mi servirebbe un secondo parere.",
-      "tr": "Bunda birlikte calisalim mi? Ikinci bir goz lazim."
+      "it": "Vuoi lavorarci insieme? Mi servirebbe un secondo parere."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -278,8 +260,7 @@
       "es": "Estoy en la zona ahora, podemos hablar luego?",
       "fr": "Je suis dans le flow la, on peut discuter plus tard?",
       "de": "Ich bin gerade voll drin, konnen wir spater reden?",
-      "it": "Sono nel flusso adesso, possiamo parlare dopo?",
-      "tr": "Su an odaklanmis durumdayim, sonra konusabilir miyiz?"
+      "it": "Sono nel flusso adesso, possiamo parlare dopo?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -293,8 +274,7 @@
       "es": "Feliz viernes! Algun plan para el fin de semana?",
       "fr": "Bon vendredi! Des plans pour le week-end?",
       "de": "Schonen Freitag! Hast du Plane furs Wochenende?",
-      "it": "Buon venerdi! Qualche piano per il fine settimana?",
-      "tr": "Mutlu cumalar! Hafta sonu planin var mi?"
+      "it": "Buon venerdi! Qualche piano per il fine settimana?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -308,8 +288,7 @@
       "es": "Acabo de subir un fix que me tenia loco por dias, que alivio!",
       "fr": "Je viens de pousser un correctif qui me tracassait depuis des jours, quel soulagement!",
       "de": "Ich habe gerade einen Fix gepusht, der mich tagelang genervt hat, was fur eine Erleichterung!",
-      "it": "Ho appena pushato un fix che mi tormentava da giorni, che sollievo!",
-      "tr": "Gunlerdir canima okuyan fix'i yeni pushladim, ne buyuk rahatlama!"
+      "it": "Ho appena pushato un fix che mi tormentava da giorni, che sollievo!"
     },
     "difficulty": "hard",
     "category": "casual"
@@ -323,8 +302,7 @@
       "es": "Deberiamos organizar un cafe virtual ya que la mitad del equipo trabaja remoto.",
       "fr": "On devrait organiser un cafe virtuel vu que la moitie de l'equipe est en teletravail.",
       "de": "Wir sollten einen virtuellen Kaffee-Chat einrichten, da die Halfte des Teams remote arbeitet.",
-      "it": "Dovremmo organizzare un caffe virtuale visto che meta del team e in remoto.",
-      "tr": "Takimin yarisi uzaktan calisiyor, sanal bir kahve sohbeti ayarlayalim."
+      "it": "Dovremmo organizzare un caffe virtuale visto che meta del team e in remoto."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -338,8 +316,7 @@
       "es": "No olvides tomar descansos, el burnout es real.",
       "fr": "N'oublie pas de faire des pauses, le burnout c'est reel.",
       "de": "Vergiss nicht, Pausen zu machen, Burnout ist real.",
-      "it": "Non dimenticare di fare pause, il burnout e reale.",
-      "tr": "Mola vermeyi unutma, tukenmislik gercek."
+      "it": "Non dimenticare di fare pause, il burnout e reale."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -353,8 +330,7 @@
       "es": "El nuevo parece muy habil, creo que va a encajar perfecto.",
       "fr": "Le nouveau a l'air vraiment vif, je pense qu'il va bien s'integrer.",
       "de": "Der Neue scheint echt fit zu sein, ich denke, er wird gut reinpassen.",
-      "it": "Il nuovo assunto sembra davvero in gamba, penso che si integrera bene.",
-      "tr": "Yeni gelen cok zeki gorunuyor, bence hemen uyum saglayacak."
+      "it": "Il nuovo assunto sembra davvero in gamba, penso che si integrera bene."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -368,8 +344,7 @@
       "es": "Accidentalmente hice deploy a produccion en vez de staging, casi me da un infarto.",
       "fr": "J'ai deploye en production au lieu de staging par accident, j'ai failli avoir une crise cardiaque.",
       "de": "Ich habe aus Versehen in Produktion statt Staging deployed, ich hatte fast einen Herzinfarkt.",
-      "it": "Ho deployato in produzione invece che in staging per sbaglio, mi e quasi venuto un infarto.",
-      "tr": "Yanlislikla staging yerine production'a deploy ettim, az kalsin kalp krizi geciriyordum."
+      "it": "Ho deployato in produzione invece che in staging per sbaglio, mi e quasi venuto un infarto."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -383,8 +358,7 @@
       "es": "Terminemos por hoy, nos lo ganamos despues de este sprint.",
       "fr": "On boucle et on arrete pour aujourd'hui, on l'a bien merite apres ce sprint.",
       "de": "Lass uns Schluss machen fur heute, wir haben es nach diesem Sprint verdient.",
-      "it": "Chiudiamo e finiamo per oggi, ce lo siamo meritato dopo questo sprint.",
-      "tr": "Bugunku toplayip bitirelim, bu sprint'ten sonra hak ettik."
+      "it": "Chiudiamo e finiamo per oggi, ce lo siamo meritato dopo questo sprint."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -398,8 +372,7 @@
       "es": "Quien rompio el build? El pipeline de CI ha estado rojo toda la manana.",
       "fr": "Qui a casse le build? Le pipeline CI est rouge depuis ce matin.",
       "de": "Wer hat den Build kaputt gemacht? Die CI-Pipeline ist den ganzen Morgen rot.",
-      "it": "Chi ha rotto la build? La pipeline CI e rossa tutta la mattina.",
-      "tr": "Build'i kim bozdu? CI pipeline sabahtan beri kirmizi."
+      "it": "Chi ha rotto la build? La pipeline CI e rossa tutta la mattina."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -413,8 +386,7 @@
       "es": "Estoy pensando en cambiar a un escritorio de pie, la espalda me esta matando.",
       "fr": "Je pense passer a un bureau debout, mon dos me tue.",
       "de": "Ich uberlege, auf einen Stehschreibtisch zu wechseln, mein Rucken bringt mich um.",
-      "it": "Sto pensando di passare a una scrivania in piedi, la schiena mi sta uccidendo.",
-      "tr": "Ayakta calisma masasina gecmeyi dusunuyorum, sirtim olduruyor."
+      "it": "Sto pensando di passare a una scrivania in piedi, la schiena mi sta uccidendo."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -428,8 +400,7 @@
       "es": "Puedes creer que ya es fin de trimestre? El tiempo vuela cuando entregas funcionalidades.",
       "fr": "Tu peux croire qu'on est deja en fin de trimestre? Le temps file quand on livre des fonctionnalites.",
       "de": "Kannst du glauben, dass schon Quartalsende ist? Die Zeit fliegt, wenn man Features ausliefert.",
-      "it": "Riesci a credere che e gia fine trimestre? Il tempo vola quando si rilasciano funzionalita.",
-      "tr": "Inanabiliyor musun ceyregin sonu geldi bile? Ozellik cikarirken zaman uciyor."
+      "it": "Riesci a credere che e gia fine trimestre? Il tempo vola quando si rilasciano funzionalita."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -443,8 +414,7 @@
       "es": "Estare de vacaciones la proxima semana, pero no duden en escribirme si algo se prende fuego.",
       "fr": "Je serai en conge la semaine prochaine, mais n'hesitez pas a me contacter si ca brule.",
       "de": "Ich bin nachste Woche im Urlaub, aber meldet euch ruhig, wenn etwas brennt.",
-      "it": "Saro in ferie la prossima settimana, ma scrivetemi pure se qualcosa va a fuoco.",
-      "tr": "Gelecek hafta izindeyim ama bir sey yanarsa bana yazabilirsiniz."
+      "it": "Saro in ferie la prossima settimana, ma scrivetemi pure se qualcosa va a fuoco."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -458,8 +428,7 @@
       "es": "¿Viste ese nuevo framework de JavaScript que salió ayer?",
       "fr": "Tu as vu ce nouveau framework JavaScript sorti hier ?",
       "de": "Hast du das neue JavaScript-Framework gesehen, das gestern rausgekommen ist?",
-      "it": "Hai visto quel nuovo framework JavaScript uscito ieri?",
-      "tr": "Dün çıkan yeni JavaScript framework'ü gördün mü?"
+      "it": "Hai visto quel nuovo framework JavaScript uscito ieri?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -473,38 +442,35 @@
       "es": "Necesito café antes de poder siquiera mirar código hoy.",
       "fr": "J'ai besoin d'un café avant de pouvoir ne serait-ce que regarder du code aujourd'hui.",
       "de": "Ich brauche erstmal Kaffee, bevor ich heute auch nur Code anschauen kann.",
-      "it": "Ho bisogno di un caffè prima di poter anche solo guardare il codice oggi.",
-      "tr": "Bugün kod bakmadan önce kahveye ihtiyacım var."
+      "it": "Ho bisogno di un caffè prima di poter anche solo guardare il codice oggi."
     },
     "difficulty": "easy",
     "category": "casual"
   },
   {
     "id": "casual_033",
-    "english": "TGIF! Any fun plans for the weekend?",
-    "context": "Friday afternoon casual chat",
+    "english": "Have you read that blog post about clean architecture? It's really worth checking out.",
+    "context": "Recommending a tech blog article to a colleague",
     "translations": {
-      "pt-BR": "Ainda bem que é sexta! Algum plano legal pro fim de semana?",
-      "es": "¡Por fin viernes! ¿Algún plan divertido para el fin de semana?",
-      "fr": "Enfin vendredi ! Des plans sympas pour le week-end ?",
-      "de": "Endlich Freitag! Irgendwelche lustigen Pläne fürs Wochenende?",
-      "it": "Finalmente venerdì! Qualche piano divertente per il weekend?",
-      "tr": "Sonunda cuma! Hafta sonu için eğlenceli planların var mı?"
+      "pt-BR": "Você leu aquele post sobre clean architecture? Vale muito a pena conferir.",
+      "es": "¿Leíste ese artículo sobre clean architecture? Realmente vale la pena leerlo.",
+      "fr": "Tu as lu cet article de blog sur la clean architecture ? Ça vaut vraiment le coup d'y jeter un œil.",
+      "de": "Hast du den Blogbeitrag über Clean Architecture gelesen? Den sollte man sich echt anschauen.",
+      "it": "Hai letto quel post sulla clean architecture? Vale davvero la pena darci un'occhiata."
     },
     "difficulty": "easy",
     "category": "casual"
   },
   {
     "id": "casual_034",
-    "english": "That deployment went smoother than expected, let's celebrate!",
-    "context": "Celebrating after a successful release",
+    "english": "Did you guys see the meme about CSS centering? I just shared it in the team chat.",
+    "context": "Sharing a funny developer meme with the team",
     "translations": {
-      "pt-BR": "Esse deploy foi mais tranquilo do que o esperado, vamos comemorar!",
-      "es": "¡Ese despliegue fue más suave de lo esperado, vamos a celebrar!",
-      "fr": "Ce déploiement s'est mieux passé que prévu, fêtons ça !",
-      "de": "Das Deployment lief glatter als erwartet, lass uns feiern!",
-      "it": "Quel deploy è andato più liscio del previsto, festeggiamo!",
-      "tr": "Şu deployment beklenenden daha sorunsuz gitti, kutlayalım!"
+      "pt-BR": "Vocês viram o meme sobre centralizar em CSS? Acabei de mandar no chat do time.",
+      "es": "¿Vieron el meme sobre centrar en CSS? Lo acabo de compartir en el chat del equipo.",
+      "fr": "Vous avez vu le mème sur le centrage CSS ? Je viens de le partager dans le chat d'équipe.",
+      "de": "Habt ihr das Meme über CSS-Zentrierung gesehen? Ich habe es gerade im Teamchat geteilt.",
+      "it": "Avete visto il meme sul centrare in CSS? L'ho appena condiviso nella chat del team."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -518,8 +484,7 @@
       "es": "Llevo tres horas depurando y era un punto y coma que faltaba.",
       "fr": "J'ai débogué pendant trois heures et c'était un point-virgule manquant.",
       "de": "Ich habe drei Stunden debuggt und es war ein fehlendes Semikolon.",
-      "it": "Ho fatto debugging per tre ore ed era un punto e virgola mancante.",
-      "tr": "Üç saattir debug yapıyorum ve eksik bir noktalı virgülmüş."
+      "it": "Ho fatto debugging per tre ore ed era un punto e virgola mancante."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -533,8 +498,7 @@
       "es": "¿Eres del equipo modo oscuro o modo claro?",
       "fr": "Tu es équipe mode sombre ou mode clair ?",
       "de": "Bist du Team Dark Mode oder Light Mode?",
-      "it": "Sei del team dark mode o light mode?",
-      "tr": "Dark mode takımı mısın yoksa light mode mu?"
+      "it": "Sei del team dark mode o light mode?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -548,8 +512,7 @@
       "es": "Empecé un proyecto personal este fin de semana y ya estoy sobreanalizando la arquitectura.",
       "fr": "J'ai commencé un side project ce week-end et je suis déjà en train de trop réfléchir à l'architecture.",
       "de": "Ich habe am Wochenende ein Nebenprojekt angefangen und überdenke schon die Architektur.",
-      "it": "Ho iniziato un progetto personale questo weekend e sto già pensando troppo all'architettura.",
-      "tr": "Bu hafta sonu bir yan proje başlattım ve şimdiden mimariyi fazla düşünüyorum."
+      "it": "Ho iniziato un progetto personale questo weekend e sto già pensando troppo all'architettura."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -563,8 +526,7 @@
       "es": "¿Has probado a apagarlo y encenderlo de nuevo?",
       "fr": "Tu as essayé de l'éteindre et de le rallumer ?",
       "de": "Hast du schon versucht, es aus- und wieder einzuschalten?",
-      "it": "Hai provato a spegnerlo e riaccenderlo?",
-      "tr": "Kapatıp açmayı denedin mi?"
+      "it": "Hai provato a spegnerlo e riaccenderlo?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -578,8 +540,7 @@
       "es": "Stack Overflow me salvó la vida otra vez hoy.",
       "fr": "Stack Overflow m'a encore sauvé la vie aujourd'hui.",
       "de": "Stack Overflow hat mir heute wieder das Leben gerettet.",
-      "it": "Stack Overflow mi ha salvato la vita ancora oggi.",
-      "tr": "Stack Overflow bugün yine hayatımı kurtardı."
+      "it": "Stack Overflow mi ha salvato la vita ancora oggi."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -593,8 +554,7 @@
       "es": "¡No es un bug, es una funcionalidad no documentada!",
       "fr": "Ce n'est pas un bug, c'est une fonctionnalité non documentée !",
       "de": "Das ist kein Bug, das ist ein undokumentiertes Feature!",
-      "it": "Non è un bug, è una funzionalità non documentata!",
-      "tr": "Bu bir hata değil, belgelenmemiş bir özellik!"
+      "it": "Non è un bug, è una funzionalità non documentata!"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -608,8 +568,7 @@
       "es": "Pasé todo el fin de semana personalizando mi configuración de Neovim y no programé nada real.",
       "fr": "J'ai passé tout le week-end à personnaliser ma config Neovim et je n'ai pas codé du tout.",
       "de": "Ich habe das ganze Wochenende meine Neovim-Konfiguration angepasst und null echten Code geschrieben.",
-      "it": "Ho passato tutto il weekend a personalizzare la mia configurazione di Neovim e non ho programmato niente di concreto.",
-      "tr": "Bütün hafta sonunu Neovim ayarlarımı özelleştirerek geçirdim ve hiç gerçek kod yazmadım."
+      "it": "Ho passato tutto il weekend a personalizzare la mia configurazione di Neovim e non ho programmato niente di concreto."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -623,8 +582,7 @@
       "es": "¿Alguna vez sientes síndrome del impostor cuando lees el código de otros?",
       "fr": "Tu as déjà le syndrome de l'imposteur en lisant le code des autres ?",
       "de": "Hast du manchmal Imposter-Syndrom, wenn du den Code anderer liest?",
-      "it": "Ti capita mai di avere la sindrome dell'impostore quando leggi il codice degli altri?",
-      "tr": "Başkalarının kodunu okurken hiç imposter sendromu yaşıyor musun?"
+      "it": "Ti capita mai di avere la sindrome dell'impostore quando leggi il codice degli altri?"
     },
     "difficulty": "medium",
     "category": "casual"
@@ -638,8 +596,7 @@
       "es": "Trabajar desde casa es genial hasta que tu gato camina sobre tu teclado durante una demo.",
       "fr": "Le télétravail c'est génial jusqu'à ce que ton chat marche sur ton clavier pendant une démo.",
       "de": "Homeoffice ist super, bis deine Katze während einer Demo über die Tastatur läuft.",
-      "it": "Lavorare da casa è fantastico finché il tuo gatto non cammina sulla tastiera durante una demo.",
-      "tr": "Evden çalışmak harika, ta ki demo sırasında kedin klavyenin üzerinden yürüyene kadar."
+      "it": "Lavorare da casa è fantastico finché il tuo gatto non cammina sulla tastiera durante una demo."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -653,8 +610,7 @@
       "es": "¿Qué teclado mecánico usas? Estoy pensando en comprar uno nuevo.",
       "fr": "Tu utilises quel clavier mécanique ? Je pense en acheter un nouveau.",
       "de": "Welche mechanische Tastatur benutzt du? Ich überlege, mir eine neue zu holen.",
-      "it": "Che tastiera meccanica usi? Sto pensando di prenderne una nuova.",
-      "tr": "Hangi mekanik klavyeyi kullanıyorsun? Yeni bir tane almayı düşünüyorum."
+      "it": "Che tastiera meccanica usi? Sto pensando di prenderne una nuova."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -668,8 +624,7 @@
       "es": "Le expliqué el problema a mi patito de goma y realmente encontré la solución.",
       "fr": "J'ai expliqué le problème à mon canard en caoutchouc et j'ai vraiment trouvé la solution.",
       "de": "Ich habe das Problem meiner Gummiente erklärt und tatsächlich die Lösung gefunden.",
-      "it": "Ho spiegato il problema alla mia paperella di gomma e ho trovato davvero la soluzione.",
-      "tr": "Sorunu lastik ördeğime anlattım ve gerçekten çözümü buldum."
+      "it": "Ho spiegato il problema alla mia paperella di gomma e ho trovato davvero la soluzione."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -683,8 +638,7 @@
       "es": "¿Alguien más siente que los lunes deberían ser opcionales para los desarrolladores?",
       "fr": "Quelqu'un d'autre pense que les lundis devraient être optionnels pour les développeurs ?",
       "de": "Findet noch jemand, dass Montage für Entwickler optional sein sollten?",
-      "it": "Qualcun altro pensa che i lunedì dovrebbero essere opzionali per gli sviluppatori?",
-      "tr": "Başka biri de pazartesilerin geliştiriciler için isteğe bağlı olması gerektiğini düşünüyor mu?"
+      "it": "Qualcun altro pensa che i lunedì dovrebbero essere opzionali per gli sviluppatori?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -698,8 +652,7 @@
       "es": "Acabo de descubrir esta extensión de VS Code y es un cambio total.",
       "fr": "Je viens de découvrir cette extension VS Code et c'est révolutionnaire.",
       "de": "Ich habe gerade diese VS Code-Erweiterung entdeckt und sie ist ein absoluter Gamechanger.",
-      "it": "Ho appena scoperto questa estensione di VS Code ed è una svolta totale.",
-      "tr": "Az önce bu VS Code eklentisini keşfettim ve tam bir oyun değiştirici."
+      "it": "Ho appena scoperto questa estensione di VS Code ed è una svolta totale."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -713,8 +666,7 @@
       "es": "El mensaje de error más gracioso que he recibido fue 'éxito: la operación falló exitosamente'.",
       "fr": "Le message d'erreur le plus drôle que j'ai vu c'était 'succès : l'opération a échoué avec succès'.",
       "de": "Die lustigste Fehlermeldung, die ich je bekommen habe, war 'Erfolg: Operation erfolgreich fehlgeschlagen'.",
-      "it": "Il messaggio di errore più divertente che abbia mai ricevuto è stato 'successo: operazione fallita con successo'.",
-      "tr": "Aldığım en komik hata mesajı 'başarılı: işlem başarıyla başarısız oldu' idi."
+      "it": "Il messaggio di errore più divertente che abbia mai ricevuto è stato 'successo: operazione fallita con successo'."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -728,23 +680,21 @@
       "es": "¿Quieres ir a almorzar? Necesito un descanso de mirar este conflicto de merge.",
       "fr": "On va manger ? J'ai besoin d'une pause, je fixe ce conflit de merge.",
       "de": "Wollen wir Mittagessen gehen? Ich brauche eine Pause von diesem Merge-Konflikt.",
-      "it": "Andiamo a pranzo? Ho bisogno di una pausa da questo conflitto di merge.",
-      "tr": "Öğle yemeği yiyelim mi? Şu merge conflict'ına bakmaktan mola vermem lazım."
+      "it": "Andiamo a pranzo? Ho bisogno di una pausa da questo conflitto di merge."
     },
     "difficulty": "medium",
     "category": "casual"
   },
   {
     "id": "casual_050",
-    "english": "Welcome to the team! Don't worry, the codebase looks scarier than it actually is.",
-    "context": "Small talk with a new team member during onboarding",
+    "english": "I've been tinkering with a side project using Rust, want to hear about it?",
+    "context": "Chatting with a coworker about a personal coding project",
     "translations": {
-      "pt-BR": "Bem-vindo ao time! Não se preocupe, a codebase parece mais assustadora do que realmente é.",
-      "es": "¡Bienvenido al equipo! No te preocupes, el código parece más aterrador de lo que realmente es.",
-      "fr": "Bienvenue dans l'équipe ! T'inquiète pas, la codebase a l'air plus effrayante qu'elle ne l'est vraiment.",
-      "de": "Willkommen im Team! Keine Sorge, die Codebase sieht gruseliger aus, als sie wirklich ist.",
-      "it": "Benvenuto nel team! Non preoccuparti, il codebase sembra più spaventoso di quello che è in realtà.",
-      "tr": "Takıma hoş geldin! Merak etme, codebase göründüğü kadar korkutucu değil."
+      "pt-BR": "Tenho mexido num projeto pessoal usando Rust, quer saber mais?",
+      "es": "He estado trabajando en un proyecto personal usando Rust, ¿quieres que te cuente?",
+      "fr": "Je bidouille un side project en Rust, tu veux que je t'en parle ?",
+      "de": "Ich bastle an einem Nebenprojekt in Rust, willst du davon hören?",
+      "it": "Sto smanettando con un progetto personale in Rust, vuoi sentirne parlare?"
     },
     "difficulty": "medium",
     "category": "casual"

@@ -148,10 +148,10 @@ struct DevLingoWidgetView: View {
 
     private var padding: CGFloat {
         switch family {
-        case .systemSmall: return 14
-        case .systemMedium: return 16
-        case .systemLarge: return 20
-        default: return 16
+        case .systemSmall: return 8
+        case .systemMedium: return 10
+        case .systemLarge: return 12
+        default: return 10
         }
     }
 }
