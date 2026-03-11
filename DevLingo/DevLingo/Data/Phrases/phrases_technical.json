@@ -421,14 +421,14 @@
   },
   {
     "id": "technical_031",
-    "english": "We need to add an index on that column to speed up the query.",
-    "context": "Suggesting a database optimization when queries are running slow",
+    "english": "Run EXPLAIN on that query — I bet it's doing a full table scan.",
+    "context": "Using database tools to diagnose slow query performance",
     "translations": {
-      "pt-BR": "Precisamos adicionar um índice nessa coluna para acelerar a consulta.",
-      "es": "Necesitamos agregar un índice en esa columna para acelerar la consulta.",
-      "fr": "Nous devons ajouter un index sur cette colonne pour accélérer la requête.",
-      "de": "Wir müssen einen Index auf diese Spalte setzen, um die Abfrage zu beschleunigen.",
-      "it": "Dobbiamo aggiungere un indice su quella colonna per velocizzare la query."
+      "pt-BR": "Rode um EXPLAIN nessa query — aposto que está fazendo um full table scan.",
+      "es": "Ejecuta un EXPLAIN en esa consulta — apuesto a que está haciendo un escaneo completo de tabla.",
+      "fr": "Lance un EXPLAIN sur cette requête — je parie qu'elle fait un scan complet de table.",
+      "de": "Führe EXPLAIN auf dieser Query aus — ich wette, sie macht einen Full Table Scan.",
+      "it": "Esegui un EXPLAIN su quella query — scommetto che sta facendo un full table scan."
     },
     "difficulty": "medium",
     "category": "technical"
@@ -449,14 +449,14 @@
   },
   {
     "id": "technical_033",
-    "english": "Let's use a message queue to decouple these two services.",
-    "context": "Proposing an architecture pattern to reduce tight coupling between services",
+    "english": "We should move to an event-driven architecture so services don't need to know about each other.",
+    "context": "Proposing a design where services communicate through events instead of direct calls",
     "translations": {
-      "pt-BR": "Vamos usar uma fila de mensagens para desacoplar esses dois serviços.",
-      "es": "Usemos una cola de mensajes para desacoplar estos dos servicios.",
-      "fr": "Utilisons une file de messages pour découpler ces deux services.",
-      "de": "Lass uns eine Nachrichtenwarteschlange verwenden, um diese beiden Dienste zu entkoppeln.",
-      "it": "Usiamo una coda di messaggi per disaccoppiare questi due servizi."
+      "pt-BR": "Devemos migrar para uma arquitetura orientada a eventos para que os serviços não precisem se conhecer.",
+      "es": "Deberíamos migrar a una arquitectura orientada a eventos para que los servicios no necesiten conocerse entre sí.",
+      "fr": "Nous devrions passer à une architecture événementielle pour que les services n'aient pas besoin de se connaître.",
+      "de": "Wir sollten auf eine ereignisgesteuerte Architektur umstellen, damit die Dienste nichts voneinander wissen müssen.",
+      "it": "Dovremmo passare a un'architettura event-driven così i servizi non devono conoscersi tra loro."
     },
     "difficulty": "hard",
     "category": "technical"
@@ -505,14 +505,14 @@
   },
   {
     "id": "technical_037",
-    "english": "We should implement rate limiting before this goes to production.",
-    "context": "Flagging the need for API protection before a release",
+    "english": "We need to implement request throttling with exponential backoff on the client side.",
+    "context": "Discussing client-side strategies to handle API rate limits gracefully",
     "translations": {
-      "pt-BR": "Devemos implementar rate limiting antes de ir para produção.",
-      "es": "Deberíamos implementar rate limiting antes de que vaya a producción.",
-      "fr": "Nous devrions implémenter le rate limiting avant la mise en production.",
-      "de": "Wir sollten Rate Limiting implementieren, bevor das in Produktion geht.",
-      "it": "Dovremmo implementare il rate limiting prima che vada in produzione."
+      "pt-BR": "Precisamos implementar throttling de requisições com backoff exponencial no lado do cliente.",
+      "es": "Necesitamos implementar throttling de solicitudes con backoff exponencial en el lado del cliente.",
+      "fr": "Nous devons implémenter un throttling des requêtes avec backoff exponentiel côté client.",
+      "de": "Wir müssen Request-Throttling mit exponentiellem Backoff auf der Client-Seite implementieren.",
+      "it": "Dobbiamo implementare il throttling delle richieste con backoff esponenziale lato client."
     },
     "difficulty": "medium",
     "category": "technical"
@@ -547,28 +547,28 @@
   },
   {
     "id": "technical_040",
-    "english": "The container keeps crashing because it's running out of memory.",
-    "context": "Debugging a Kubernetes pod that repeatedly restarts due to OOM",
+    "english": "I ran the memory profiler and found a 200MB allocation spike during image processing.",
+    "context": "Using profiling tools to investigate high memory usage",
     "translations": {
-      "pt-BR": "O contêiner continua falhando porque está ficando sem memória.",
-      "es": "El contenedor sigue fallando porque se está quedando sin memoria.",
-      "fr": "Le conteneur plante en boucle parce qu'il manque de mémoire.",
-      "de": "Der Container stürzt immer wieder ab, weil ihm der Speicher ausgeht.",
-      "it": "Il container continua a crashare perché esaurisce la memoria."
+      "pt-BR": "Rodei o profiler de memória e encontrei um pico de alocação de 200MB durante o processamento de imagem.",
+      "es": "Ejecuté el profiler de memoria y encontré un pico de asignación de 200MB durante el procesamiento de imágenes.",
+      "fr": "J'ai lancé le profiler mémoire et trouvé un pic d'allocation de 200 Mo lors du traitement d'images.",
+      "de": "Ich habe den Memory Profiler ausgeführt und einen 200-MB-Allokationspeak bei der Bildverarbeitung gefunden.",
+      "it": "Ho eseguito il profiler di memoria e trovato un picco di allocazione di 200MB durante l'elaborazione delle immagini."
     },
     "difficulty": "easy",
     "category": "technical"
   },
   {
     "id": "technical_041",
-    "english": "Let's set up a circuit breaker so failures don't cascade downstream.",
-    "context": "Proposing a resilience pattern to prevent a failing service from bringing down others",
+    "english": "We should use the bulkhead pattern to isolate failures in the payment service from affecting search.",
+    "context": "Applying resilience patterns to prevent one service failure from impacting unrelated services",
     "translations": {
-      "pt-BR": "Vamos configurar um circuit breaker para que falhas não se propaguem.",
-      "es": "Configuremos un circuit breaker para que las fallas no se propaguen aguas abajo.",
-      "fr": "Mettons en place un disjoncteur pour que les pannes ne se propagent pas en aval.",
-      "de": "Lass uns einen Circuit Breaker einrichten, damit Fehler sich nicht kaskadieren.",
-      "it": "Configuriamo un circuit breaker per evitare che i guasti si propaghino a valle."
+      "pt-BR": "Devemos usar o padrão bulkhead para isolar falhas no serviço de pagamento de afetar a busca.",
+      "es": "Deberíamos usar el patrón bulkhead para aislar las fallas del servicio de pago de afectar la búsqueda.",
+      "fr": "Nous devrions utiliser le pattern bulkhead pour isoler les pannes du service de paiement du service de recherche.",
+      "de": "Wir sollten das Bulkhead-Pattern verwenden, um Fehler im Zahlungsdienst vom Suchdienst zu isolieren.",
+      "it": "Dovremmo usare il pattern bulkhead per isolare i guasti nel servizio di pagamento dal servizio di ricerca."
     },
     "difficulty": "hard",
     "category": "technical"
@@ -673,28 +673,28 @@
   },
   {
     "id": "technical_049",
-    "english": "That function violates the single responsibility principle.",
-    "context": "Pointing out a SOLID principles violation during code review",
+    "english": "This class is closed for modification but open for extension — just add a new strategy.",
+    "context": "Applying the open/closed principle from SOLID design principles",
     "translations": {
-      "pt-BR": "Essa função viola o princípio da responsabilidade única.",
-      "es": "Esa función viola el principio de responsabilidad única.",
-      "fr": "Cette fonction viole le principe de responsabilité unique.",
-      "de": "Diese Funktion verstößt gegen das Single-Responsibility-Prinzip.",
-      "it": "Quella funzione viola il principio di responsabilità singola."
+      "pt-BR": "Essa classe é fechada para modificação mas aberta para extensão — basta adicionar uma nova estratégia.",
+      "es": "Esta clase está cerrada para modificación pero abierta para extensión — solo agrega una nueva estrategia.",
+      "fr": "Cette classe est fermée à la modification mais ouverte à l'extension — il suffit d'ajouter une nouvelle stratégie.",
+      "de": "Diese Klasse ist geschlossen für Modifikation aber offen für Erweiterung — füge einfach eine neue Strategie hinzu.",
+      "it": "Questa classe è chiusa alle modifiche ma aperta alle estensioni — basta aggiungere una nuova strategia."
     },
     "difficulty": "medium",
     "category": "technical"
   },
   {
     "id": "technical_050",
-    "english": "The load balancer is distributing traffic unevenly across nodes.",
-    "context": "Diagnosing a traffic distribution issue in the infrastructure",
+    "english": "We need sticky sessions enabled so the WebSocket connections stay on the same node.",
+    "context": "Configuring load balancer session affinity for stateful connections",
     "translations": {
-      "pt-BR": "O load balancer está distribuindo o tráfego de forma desigual entre os nós.",
-      "es": "El balanceador de carga está distribuyendo el tráfico de manera desigual entre los nodos.",
-      "fr": "Le répartiteur de charge distribue le trafic de manière inégale entre les nœuds.",
-      "de": "Der Load Balancer verteilt den Traffic ungleichmäßig auf die Knoten.",
-      "it": "Il load balancer sta distribuendo il traffico in modo disomogeneo tra i nodi."
+      "pt-BR": "Precisamos de sticky sessions habilitadas para que as conexões WebSocket fiquem no mesmo nó.",
+      "es": "Necesitamos sticky sessions habilitadas para que las conexiones WebSocket permanezcan en el mismo nodo.",
+      "fr": "Nous avons besoin de sessions persistantes pour que les connexions WebSocket restent sur le même nœud.",
+      "de": "Wir brauchen Sticky Sessions, damit die WebSocket-Verbindungen auf demselben Knoten bleiben.",
+      "it": "Abbiamo bisogno delle sticky sessions abilitate perché le connessioni WebSocket restino sullo stesso nodo."
     },
     "difficulty": "medium",
     "category": "technical"

@@ -14,6 +14,8 @@
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleName</key>
     <string>$(PRODUCT_NAME)</string>
+    <key>CFBundleDisplayName</key>
+    <string>DevLingo Widget</string>
     <key>NSExtension</key>
     <dict>
         <key>NSExtensionPointIdentifier</key>

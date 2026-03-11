@@ -418,5 +418,1265 @@
     },
     "difficulty": "hard",
     "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_031",
+    "english": "Let's try ping pong pairing — I'll write a failing test and you make it pass.",
+    "context": "Proposing the ping pong TDD technique where partners alternate writing tests and implementations",
+    "translations": {
+      "pt-BR": "Vamos tentar ping pong pairing — eu escrevo um teste falhando e você faz passar.",
+      "es": "Probemos ping pong pairing — yo escribo un test que falle y tú lo haces pasar.",
+      "fr": "Essayons le ping pong pairing — j'écris un test qui échoue et tu le fais passer.",
+      "de": "Lass uns Ping-Pong-Pairing versuchen — ich schreibe einen fehlschlagenden Test und du bringst ihn zum Laufen.",
+      "it": "Proviamo il ping pong pairing — io scrivo un test che fallisce e tu lo fai passare."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_032",
+    "english": "I think we should mob on this — let's pull in the rest of the team.",
+    "context": "Suggesting mob programming when the problem requires more perspectives",
+    "translations": {
+      "pt-BR": "Acho que devemos fazer mob programming nisso — vamos chamar o resto da equipe.",
+      "es": "Creo que deberíamos hacer mob programming — llamemos al resto del equipo.",
+      "fr": "Je pense qu'on devrait mobber là-dessus — appelons le reste de l'équipe.",
+      "de": "Ich denke, wir sollten darauf mobben — lass uns den Rest des Teams dazuholen.",
+      "it": "Penso che dovremmo fare mob programming su questo — coinvolgiamo il resto del team."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_033",
+    "english": "Can you walk me through this function before we start refactoring it?",
+    "context": "Asking your pair to explain existing code before making changes",
+    "translations": {
+      "pt-BR": "Pode me explicar essa função antes de começarmos a refatorá-la?",
+      "es": "¿Puedes explicarme esta función antes de que empecemos a refactorizarla?",
+      "fr": "Tu peux m'expliquer cette fonction avant qu'on commence à la refactorer ?",
+      "de": "Kannst du mir diese Funktion erklären, bevor wir sie refaktorieren?",
+      "it": "Puoi spiegarmi questa funzione prima di iniziare a fare il refactoring?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_034",
+    "english": "I'm just going to rubber duck this with you for a minute.",
+    "context": "Using your pair as a sounding board to talk through a problem",
+    "translations": {
+      "pt-BR": "Vou só usar você como meu pato de borracha por um minuto.",
+      "es": "Solo voy a usar la técnica del pato de goma contigo por un minuto.",
+      "fr": "Je vais juste faire du rubber ducking avec toi pendant une minute.",
+      "de": "Ich werde das kurz mit dir durchsprechen wie beim Rubber Ducking.",
+      "it": "Ti uso come paperella di gomma per un minuto."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_035",
+    "english": "Let's write the test first and then figure out the implementation together.",
+    "context": "Starting with TDD approach during a pair programming session",
+    "translations": {
+      "pt-BR": "Vamos escrever o teste primeiro e depois descobrir a implementação juntos.",
+      "es": "Escribamos el test primero y luego definamos la implementación juntos.",
+      "fr": "Écrivons le test d'abord, puis trouvons l'implémentation ensemble.",
+      "de": "Lass uns zuerst den Test schreiben und dann gemeinsam die Implementierung herausfinden.",
+      "it": "Scriviamo il test prima e poi capiamo l'implementazione insieme."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_036",
+    "english": "I'm lost — can you scroll back up to where we defined that variable?",
+    "context": "Asking your pair to navigate back to a previous section of code",
+    "translations": {
+      "pt-BR": "Me perdi — pode rolar pra cima até onde definimos aquela variável?",
+      "es": "Me perdí — ¿puedes subir hasta donde definimos esa variable?",
+      "fr": "Je suis perdu — tu peux remonter là où on a défini cette variable ?",
+      "de": "Ich bin verloren — kannst du zurückscrollen, wo wir diese Variable definiert haben?",
+      "it": "Mi sono perso — puoi tornare su dove abbiamo definito quella variabile?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_037",
+    "english": "Nice catch! I totally missed that edge case.",
+    "context": "Acknowledging when your pair spots a bug or oversight you missed",
+    "translations": {
+      "pt-BR": "Boa observação! Eu tinha passado totalmente por esse caso limite.",
+      "es": "¡Buena observación! Se me pasó totalmente ese caso límite.",
+      "fr": "Bien vu ! J'avais complètement raté ce cas limite.",
+      "de": "Gut erkannt! Den Grenzfall hatte ich total übersehen.",
+      "it": "Ben visto! Mi era sfuggito completamente quel caso limite."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_038",
+    "english": "Let's add a breakpoint here and step through the code together.",
+    "context": "Collaborative debugging during a pair programming session",
+    "translations": {
+      "pt-BR": "Vamos adicionar um breakpoint aqui e percorrer o código juntos.",
+      "es": "Pongamos un breakpoint aquí y recorramos el código juntos.",
+      "fr": "Mettons un point d'arrêt ici et parcourons le code ensemble.",
+      "de": "Lass uns hier einen Breakpoint setzen und gemeinsam durch den Code steppen.",
+      "it": "Mettiamo un breakpoint qui e attraversiamo il codice insieme."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_039",
+    "english": "I have an idea but I'm not sure it'll work. Mind if I try it real quick?",
+    "context": "Proposing an experimental approach during pairing",
+    "translations": {
+      "pt-BR": "Tenho uma ideia mas não sei se vai funcionar. Se importa se eu tentar rapidinho?",
+      "es": "Tengo una idea pero no estoy seguro de que funcione. ¿Te importa si la pruebo rápido?",
+      "fr": "J'ai une idée mais je ne suis pas sûr que ça marche. Ça te dérange si j'essaie vite ?",
+      "de": "Ich habe eine Idee, bin aber nicht sicher, ob sie funktioniert. Stört es dich, wenn ich es kurz ausprobiere?",
+      "it": "Ho un'idea ma non sono sicuro che funzioni. Ti dispiace se la provo velocemente?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_040",
+    "english": "Let's swap — you've been driving for a while and I want to try something.",
+    "context": "Requesting to switch roles during a pairing session",
+    "translations": {
+      "pt-BR": "Vamos trocar — você está dirigindo há um tempo e eu quero tentar algo.",
+      "es": "Intercambiemos — llevas un rato conduciendo y quiero intentar algo.",
+      "fr": "On échange — tu conduis depuis un moment et je veux essayer quelque chose.",
+      "de": "Lass uns tauschen — du fährst schon eine Weile und ich möchte etwas ausprobieren.",
+      "it": "Scambiamoci — stai guidando da un po' e voglio provare qualcosa."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_041",
+    "english": "Before we write any code, let's sketch out the approach on a whiteboard.",
+    "context": "Planning before coding during a pair programming session",
+    "translations": {
+      "pt-BR": "Antes de escrevermos código, vamos esboçar a abordagem no quadro branco.",
+      "es": "Antes de escribir código, dibujemos el enfoque en la pizarra.",
+      "fr": "Avant d'écrire du code, esquissons l'approche sur un tableau blanc.",
+      "de": "Bevor wir Code schreiben, lass uns den Ansatz auf dem Whiteboard skizzieren.",
+      "it": "Prima di scrivere codice, abbozziamo l'approccio sulla lavagna."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_042",
+    "english": "I notice we keep going back and forth — let's just pick one approach and commit to it.",
+    "context": "Resolving indecision during pairing by agreeing on a direction",
+    "translations": {
+      "pt-BR": "Percebi que estamos indo e voltando — vamos escolher uma abordagem e seguir com ela.",
+      "es": "Noto que seguimos yendo y viniendo — elijamos un enfoque y comprometámonos con él.",
+      "fr": "Je remarque qu'on fait des allers-retours — choisissons une approche et tenons-nous-y.",
+      "de": "Ich merke, dass wir hin und her springen — lass uns einen Ansatz wählen und daran festhalten.",
+      "it": "Noto che continuiamo ad andare avanti e indietro — scegliamo un approccio e seguiamolo."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_043",
+    "english": "Can you explain why you chose that data structure? I want to understand the reasoning.",
+    "context": "Asking your pair to explain a technical decision for learning purposes",
+    "translations": {
+      "pt-BR": "Pode explicar por que escolheu essa estrutura de dados? Quero entender o raciocínio.",
+      "es": "¿Puedes explicar por qué elegiste esa estructura de datos? Quiero entender el razonamiento.",
+      "fr": "Tu peux expliquer pourquoi tu as choisi cette structure de données ? Je veux comprendre le raisonnement.",
+      "de": "Kannst du erklären, warum du diese Datenstruktur gewählt hast? Ich möchte die Begründung verstehen.",
+      "it": "Puoi spiegare perché hai scelto quella struttura dati? Voglio capire il ragionamento."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_044",
+    "english": "I think we're overcomplicating this — what's the simplest solution that could work?",
+    "context": "Encouraging simplicity when the pair is going down a complex path",
+    "translations": {
+      "pt-BR": "Acho que estamos complicando demais — qual é a solução mais simples que funcionaria?",
+      "es": "Creo que estamos complicando esto — ¿cuál es la solución más simple que podría funcionar?",
+      "fr": "Je pense qu'on complique trop — quelle est la solution la plus simple qui pourrait marcher ?",
+      "de": "Ich glaube, wir machen das zu kompliziert — was ist die einfachste Lösung, die funktionieren könnte?",
+      "it": "Penso che stiamo complicando troppo — qual è la soluzione più semplice che potrebbe funzionare?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_045",
+    "english": "Let me share my VS Code session so we can both edit in real time.",
+    "context": "Setting up a Live Share session for remote pair programming",
+    "translations": {
+      "pt-BR": "Deixa eu compartilhar minha sessão do VS Code para editarmos em tempo real.",
+      "es": "Déjame compartir mi sesión de VS Code para que ambos podamos editar en tiempo real.",
+      "fr": "Laisse-moi partager ma session VS Code pour qu'on puisse éditer en temps réel.",
+      "de": "Lass mich meine VS-Code-Session teilen, damit wir beide in Echtzeit bearbeiten können.",
+      "it": "Fammi condividere la mia sessione VS Code così possiamo modificare entrambi in tempo reale."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_046",
+    "english": "Wait, I think there's a race condition here. Let's trace through the execution order.",
+    "context": "Spotting a concurrency bug during collaborative debugging",
+    "translations": {
+      "pt-BR": "Espera, acho que tem uma condição de corrida aqui. Vamos rastrear a ordem de execução.",
+      "es": "Espera, creo que hay una condición de carrera aquí. Rastreemos el orden de ejecución.",
+      "fr": "Attends, je pense qu'il y a une condition de course ici. Traçons l'ordre d'exécution.",
+      "de": "Moment, ich glaube hier gibt es eine Race Condition. Lass uns die Ausführungsreihenfolge nachverfolgen.",
+      "it": "Aspetta, penso ci sia una race condition qui. Tracciamo l'ordine di esecuzione."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_047",
+    "english": "Great, the tests are green. Let's refactor before moving on.",
+    "context": "Following the red-green-refactor TDD cycle during pairing",
+    "translations": {
+      "pt-BR": "Ótimo, os testes estão verdes. Vamos refatorar antes de seguir em frente.",
+      "es": "Genial, los tests están en verde. Refactoricemos antes de continuar.",
+      "fr": "Super, les tests sont verts. Refactorons avant de continuer.",
+      "de": "Gut, die Tests sind grün. Lass uns refactoren, bevor wir weitermachen.",
+      "it": "Ottimo, i test sono verdi. Facciamo refactoring prima di andare avanti."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_048",
+    "english": "I learned a new keyboard shortcut — watch this, it'll save us a lot of time.",
+    "context": "Sharing productivity tips with your pair during coding",
+    "translations": {
+      "pt-BR": "Aprendi um novo atalho de teclado — olha isso, vai nos economizar muito tempo.",
+      "es": "Aprendí un nuevo atajo de teclado — mira esto, nos ahorrará mucho tiempo.",
+      "fr": "J'ai appris un nouveau raccourci clavier — regarde, ça va nous faire gagner beaucoup de temps.",
+      "de": "Ich habe eine neue Tastenkombination gelernt — schau, das spart uns viel Zeit.",
+      "it": "Ho imparato una nuova scorciatoia da tastiera — guarda, ci farà risparmiare un sacco di tempo."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_049",
+    "english": "I'm going to extract this into a helper function while you write the next test.",
+    "context": "Dividing work during a pairing session for efficiency",
+    "translations": {
+      "pt-BR": "Vou extrair isso para uma função auxiliar enquanto você escreve o próximo teste.",
+      "es": "Voy a extraer esto en una función auxiliar mientras escribes el próximo test.",
+      "fr": "Je vais extraire ça dans une fonction utilitaire pendant que tu écris le prochain test.",
+      "de": "Ich werde das in eine Hilfsfunktion extrahieren, während du den nächsten Test schreibst.",
+      "it": "Estraggo questo in una funzione helper mentre tu scrivi il prossimo test."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_050",
+    "english": "Can you zoom in a bit? The font is too small for me to read from here.",
+    "context": "Asking your pair to adjust display settings during remote pairing",
+    "translations": {
+      "pt-BR": "Pode dar um zoom? A fonte está muito pequena para eu ler daqui.",
+      "es": "¿Puedes hacer zoom? La fuente es muy pequeña para que yo la lea desde aquí.",
+      "fr": "Tu peux zoomer un peu ? La police est trop petite pour que je lise d'ici.",
+      "de": "Kannst du etwas reinzoomen? Die Schrift ist zu klein, um sie von hier zu lesen.",
+      "it": "Puoi ingrandire un po'? Il font è troppo piccolo per leggerlo da qui."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_051",
+    "english": "This is getting complex. Let's draw a sequence diagram to map out the flow.",
+    "context": "Using diagrams to visualize complex logic during pairing",
+    "translations": {
+      "pt-BR": "Isso está ficando complexo. Vamos desenhar um diagrama de sequência para mapear o fluxo.",
+      "es": "Esto se está poniendo complejo. Dibujemos un diagrama de secuencia para mapear el flujo.",
+      "fr": "Ça devient complexe. Dessinons un diagramme de séquence pour cartographier le flux.",
+      "de": "Das wird komplex. Lass uns ein Sequenzdiagramm zeichnen, um den Ablauf zu visualisieren.",
+      "it": "Sta diventando complesso. Disegniamo un diagramma di sequenza per mappare il flusso."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_052",
+    "english": "I see what you're doing, but wouldn't it be cleaner to use a map instead of a for loop?",
+    "context": "Suggesting a more idiomatic approach while navigating",
+    "translations": {
+      "pt-BR": "Entendo o que está fazendo, mas não seria mais limpo usar um map em vez de um for loop?",
+      "es": "Entiendo lo que haces, pero ¿no sería más limpio usar un map en lugar de un for loop?",
+      "fr": "Je vois ce que tu fais, mais ça ne serait pas plus propre d'utiliser un map au lieu d'une boucle for ?",
+      "de": "Ich sehe, was du machst, aber wäre es nicht sauberer, eine Map statt einer For-Schleife zu verwenden?",
+      "it": "Capisco cosa stai facendo, ma non sarebbe più pulito usare un map invece di un for loop?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_053",
+    "english": "Let me pull up the acceptance criteria so we don't miss anything.",
+    "context": "Referencing requirements during pairing to stay on track",
+    "translations": {
+      "pt-BR": "Deixa eu abrir os critérios de aceitação para não esquecermos nada.",
+      "es": "Déjame abrir los criterios de aceptación para no olvidarnos de nada.",
+      "fr": "Laisse-moi ouvrir les critères d'acceptation pour ne rien oublier.",
+      "de": "Lass mich die Akzeptanzkriterien öffnen, damit wir nichts vergessen.",
+      "it": "Fammi aprire i criteri di accettazione per non dimenticare nulla."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_054",
+    "english": "We've been going for two hours. Let's take a break and come back with fresh eyes.",
+    "context": "Recognizing fatigue and suggesting a break during a long pairing session",
+    "translations": {
+      "pt-BR": "Já estamos há duas horas. Vamos fazer uma pausa e voltar com olhos frescos.",
+      "es": "Llevamos dos horas. Tomemos un descanso y volvamos con ojos frescos.",
+      "fr": "Ça fait deux heures qu'on est dessus. Faisons une pause et revenons avec un regard frais.",
+      "de": "Wir machen schon zwei Stunden. Lass uns eine Pause machen und mit frischen Augen wiederkommen.",
+      "it": "Siamo andati avanti per due ore. Facciamo una pausa e torniamo con occhi freschi."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_055",
+    "english": "I just realized we're solving the wrong problem. Let's re-read the ticket.",
+    "context": "Course-correcting when the pair has gone off track",
+    "translations": {
+      "pt-BR": "Acabei de perceber que estamos resolvendo o problema errado. Vamos reler o ticket.",
+      "es": "Acabo de darme cuenta de que estamos resolviendo el problema equivocado. Volvamos a leer el ticket.",
+      "fr": "Je viens de réaliser qu'on résout le mauvais problème. Relisons le ticket.",
+      "de": "Mir ist gerade aufgefallen, dass wir das falsche Problem lösen. Lass uns das Ticket nochmal lesen.",
+      "it": "Mi sono appena reso conto che stiamo risolvendo il problema sbagliato. Rileggiamo il ticket."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_056",
+    "english": "Your approach is interesting. I've never used that pattern before — can you explain how it works?",
+    "context": "Learning from your pair's different technique or pattern",
+    "translations": {
+      "pt-BR": "Sua abordagem é interessante. Nunca usei esse padrão antes — pode explicar como funciona?",
+      "es": "Tu enfoque es interesante. Nunca usé ese patrón antes — ¿puedes explicar cómo funciona?",
+      "fr": "Ton approche est intéressante. Je n'ai jamais utilisé ce pattern — tu peux expliquer comment ça marche ?",
+      "de": "Dein Ansatz ist interessant. Ich habe dieses Pattern noch nie benutzt — kannst du erklären, wie es funktioniert?",
+      "it": "Il tuo approccio è interessante. Non ho mai usato quel pattern prima — puoi spiegare come funziona?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_057",
+    "english": "Let's run the linter before we commit — I want to keep the diff clean.",
+    "context": "Maintaining code quality standards during pair programming",
+    "translations": {
+      "pt-BR": "Vamos rodar o linter antes de commitar — quero manter o diff limpo.",
+      "es": "Corramos el linter antes de hacer commit — quiero mantener el diff limpio.",
+      "fr": "Lançons le linter avant de commiter — je veux garder le diff propre.",
+      "de": "Lass uns den Linter laufen lassen, bevor wir committen — ich möchte den Diff sauber halten.",
+      "it": "Lanciamo il linter prima di committare — voglio mantenere il diff pulito."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_058",
+    "english": "I'll handle the API integration part while you set up the database schema.",
+    "context": "Splitting work between partners on independent tasks",
+    "translations": {
+      "pt-BR": "Eu cuido da parte de integração com a API enquanto você configura o schema do banco.",
+      "es": "Yo me encargo de la integración con la API mientras tú configuras el esquema de la base de datos.",
+      "fr": "Je m'occupe de l'intégration API pendant que tu mets en place le schéma de base de données.",
+      "de": "Ich kümmere mich um die API-Integration, während du das Datenbankschema einrichtest.",
+      "it": "Io mi occupo dell'integrazione API mentre tu configuri lo schema del database."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_059",
+    "english": "That if-else chain is getting long. What do you think about using a switch or a strategy pattern?",
+    "context": "Suggesting a refactoring opportunity while reviewing code together",
+    "translations": {
+      "pt-BR": "Essa cadeia de if-else está ficando longa. O que acha de usar um switch ou um padrão strategy?",
+      "es": "Esa cadena de if-else se está haciendo larga. ¿Qué te parece usar un switch o un patrón strategy?",
+      "fr": "Cette chaîne if-else devient longue. Qu'est-ce que tu penses d'utiliser un switch ou un pattern strategy ?",
+      "de": "Diese If-Else-Kette wird lang. Was hältst du davon, einen Switch oder ein Strategy-Pattern zu verwenden?",
+      "it": "Quella catena di if-else sta diventando lunga. Che ne pensi di usare un switch o un pattern strategy?"
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_060",
+    "english": "Let's commit what we have so far and continue in a new branch.",
+    "context": "Saving progress by committing incrementally during pairing",
+    "translations": {
+      "pt-BR": "Vamos commitar o que temos até agora e continuar em uma nova branch.",
+      "es": "Hagamos commit de lo que tenemos hasta ahora y continuemos en una nueva rama.",
+      "fr": "Commitons ce qu'on a jusqu'ici et continuons dans une nouvelle branche.",
+      "de": "Lass uns committen, was wir bisher haben, und in einem neuen Branch weitermachen.",
+      "it": "Committiamo quello che abbiamo finora e continuiamo in un nuovo branch."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_061",
+    "english": "I think the bug is in the callback. Let's add some console logs and trace the data flow.",
+    "context": "Collaborative debugging with logging during pair programming",
+    "translations": {
+      "pt-BR": "Acho que o bug está no callback. Vamos adicionar alguns console logs e rastrear o fluxo de dados.",
+      "es": "Creo que el bug está en el callback. Agreguemos algunos console logs y rastreemos el flujo de datos.",
+      "fr": "Je pense que le bug est dans le callback. Ajoutons des console logs et traçons le flux de données.",
+      "de": "Ich glaube, der Bug ist im Callback. Lass uns Console Logs hinzufügen und den Datenfluss nachverfolgen.",
+      "it": "Penso che il bug sia nel callback. Aggiungiamo dei console log e tracciamo il flusso di dati."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_062",
+    "english": "Good idea. Let's spike on that for fifteen minutes and see if it's viable.",
+    "context": "Agreeing to timebox an experimental investigation during pairing",
+    "translations": {
+      "pt-BR": "Boa ideia. Vamos fazer um spike de quinze minutos e ver se é viável.",
+      "es": "Buena idea. Hagamos un spike de quince minutos y veamos si es viable.",
+      "fr": "Bonne idée. Faisons un spike de quinze minutes et voyons si c'est viable.",
+      "de": "Gute Idee. Lass uns fünfzehn Minuten einen Spike machen und schauen, ob es machbar ist.",
+      "it": "Buona idea. Facciamo uno spike di quindici minuti e vediamo se è fattibile."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_063",
+    "english": "I keep getting a type mismatch here. Can you take over and see if you spot the issue?",
+    "context": "Handing the keyboard over when you're stuck on a specific error",
+    "translations": {
+      "pt-BR": "Estou recebendo um tipo incompatível aqui. Pode assumir e ver se encontra o problema?",
+      "es": "Sigo obteniendo un tipo incompatible aquí. ¿Puedes tomar el control y ver si encuentras el problema?",
+      "fr": "J'ai une erreur de type ici. Tu peux prendre le relais et voir si tu trouves le problème ?",
+      "de": "Ich bekomme hier einen Typfehler. Kannst du übernehmen und schauen, ob du das Problem findest?",
+      "it": "Continuo a ricevere un tipo incompatibile qui. Puoi prendere il controllo e vedere se trovi il problema?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_064",
+    "english": "Let's review the git diff together before pushing to make sure everything looks right.",
+    "context": "Doing a final review of changes before submitting code",
+    "translations": {
+      "pt-BR": "Vamos revisar o git diff juntos antes de fazer push para garantir que tudo está certo.",
+      "es": "Revisemos el git diff juntos antes de hacer push para asegurarnos de que todo se vea bien.",
+      "fr": "Revoyons le git diff ensemble avant de pousser pour vérifier que tout est correct.",
+      "de": "Lass uns den Git-Diff zusammen überprüfen, bevor wir pushen, um sicherzugehen, dass alles stimmt.",
+      "it": "Rivediamo il git diff insieme prima di fare push per assicurarci che tutto sia corretto."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_065",
+    "english": "The navigator should be thinking about the big picture while the driver focuses on the code.",
+    "context": "Explaining the responsibilities of each role in pair programming",
+    "translations": {
+      "pt-BR": "O navegador deve pensar no panorama geral enquanto o piloto foca no código.",
+      "es": "El navegador debe pensar en el panorama general mientras el conductor se enfoca en el código.",
+      "fr": "Le navigateur devrait penser à la vue d'ensemble pendant que le pilote se concentre sur le code.",
+      "de": "Der Navigator sollte das große Ganze im Blick haben, während der Fahrer sich auf den Code konzentriert.",
+      "it": "Il navigatore dovrebbe pensare al quadro generale mentre il pilota si concentra sul codice."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_066",
+    "english": "I think we need to step back and agree on the interface before implementing the details.",
+    "context": "Advocating for design-first approach during collaborative coding",
+    "translations": {
+      "pt-BR": "Acho que precisamos dar um passo atrás e concordar na interface antes de implementar os detalhes.",
+      "es": "Creo que necesitamos dar un paso atrás y ponernos de acuerdo en la interfaz antes de implementar los detalles.",
+      "fr": "Je pense qu'on doit prendre du recul et se mettre d'accord sur l'interface avant d'implémenter les détails.",
+      "de": "Ich denke, wir müssen einen Schritt zurücktreten und uns auf das Interface einigen, bevor wir die Details implementieren.",
+      "it": "Penso che dobbiamo fare un passo indietro e concordare sull'interfaccia prima di implementare i dettagli."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_067",
+    "english": "That's a clever use of destructuring. I'm going to start using that in my own code.",
+    "context": "Complimenting and learning from your pair's coding style",
+    "translations": {
+      "pt-BR": "Uso inteligente de destructuring. Vou começar a usar isso no meu próprio código.",
+      "es": "Uso inteligente de destructuring. Voy a empezar a usarlo en mi propio código.",
+      "fr": "Utilisation astucieuse du destructuring. Je vais commencer à l'utiliser dans mon propre code.",
+      "de": "Clevere Nutzung von Destructuring. Das werde ich auch in meinem eigenen Code verwenden.",
+      "it": "Uso intelligente del destructuring. Comincerò a usarlo anche nel mio codice."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_068",
+    "english": "Let's not gold-plate this. It meets the requirements — we can optimize later if needed.",
+    "context": "Preventing over-engineering during a pairing session",
+    "translations": {
+      "pt-BR": "Não vamos polir demais. Atende aos requisitos — podemos otimizar depois se necessário.",
+      "es": "No lo adornemos de más. Cumple con los requisitos — podemos optimizar después si es necesario.",
+      "fr": "Ne surdorons pas ça. Ça répond aux exigences — on pourra optimiser plus tard si besoin.",
+      "de": "Lass uns das nicht vergolden. Es erfüllt die Anforderungen — wir können später optimieren, wenn nötig.",
+      "it": "Non esageriamo con le rifiniture. Soddisfa i requisiti — possiamo ottimizzare dopo se necessario."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_069",
+    "english": "I'm going to mute my mic for a minute while I read through this code block.",
+    "context": "Taking a moment to silently read code during remote pairing",
+    "translations": {
+      "pt-BR": "Vou mutar meu microfone por um minuto enquanto leio esse bloco de código.",
+      "es": "Voy a silenciar mi micrófono un minuto mientras leo este bloque de código.",
+      "fr": "Je vais couper mon micro une minute pendant que je lis ce bloc de code.",
+      "de": "Ich schalte mein Mikrofon kurz stumm, während ich diesen Codeblock durchlese.",
+      "it": "Muto il microfono per un minuto mentre leggo questo blocco di codice."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_070",
+    "english": "Let's mock this external API so we can test our code without depending on the third-party service.",
+    "context": "Setting up mocks during collaborative test writing",
+    "translations": {
+      "pt-BR": "Vamos mockar essa API externa para testar nosso código sem depender do serviço de terceiros.",
+      "es": "Mockeemos esta API externa para probar nuestro código sin depender del servicio de terceros.",
+      "fr": "Mockons cette API externe pour tester notre code sans dépendre du service tiers.",
+      "de": "Lass uns diese externe API mocken, damit wir unseren Code ohne Abhängigkeit vom Drittanbieterdienst testen können.",
+      "it": "Mockiamo questa API esterna per testare il nostro codice senza dipendere dal servizio di terze parti."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_071",
+    "english": "I've never worked with this framework before — this is a great learning opportunity for me.",
+    "context": "Acknowledging a knowledge gap and being open to learning during pairing",
+    "translations": {
+      "pt-BR": "Nunca trabalhei com esse framework antes — essa é uma ótima oportunidade de aprendizado para mim.",
+      "es": "Nunca trabajé con este framework antes — esta es una gran oportunidad de aprendizaje para mí.",
+      "fr": "Je n'ai jamais travaillé avec ce framework — c'est une super opportunité d'apprentissage pour moi.",
+      "de": "Ich habe noch nie mit diesem Framework gearbeitet — das ist eine tolle Lernmöglichkeit für mich.",
+      "it": "Non ho mai lavorato con questo framework prima — è un'ottima opportunità di apprendimento per me."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_072",
+    "english": "I notice we have some code duplication between these two methods. Should we extract a shared helper?",
+    "context": "Identifying DRY violations during collaborative code review",
+    "translations": {
+      "pt-BR": "Percebi que temos código duplicado entre esses dois métodos. Devemos extrair um helper compartilhado?",
+      "es": "Noto que tenemos código duplicado entre estos dos métodos. ¿Deberíamos extraer un helper compartido?",
+      "fr": "Je remarque qu'on a du code dupliqué entre ces deux méthodes. On devrait extraire un helper partagé ?",
+      "de": "Mir fällt auf, dass wir doppelten Code in diesen beiden Methoden haben. Sollten wir einen gemeinsamen Helper extrahieren?",
+      "it": "Noto che abbiamo codice duplicato tra questi due metodi. Dovremmo estrarre un helper condiviso?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_073",
+    "english": "I'm going to type while you dictate — tell me what to write next.",
+    "context": "Adopting a dictation style of pair programming",
+    "translations": {
+      "pt-BR": "Vou digitar enquanto você dita — me diga o que escrever.",
+      "es": "Voy a escribir mientras tú dictas — dime qué escribir.",
+      "fr": "Je vais taper pendant que tu dictes — dis-moi quoi écrire.",
+      "de": "Ich tippe, während du diktierst — sag mir, was ich schreiben soll.",
+      "it": "Digito io mentre tu detti — dimmi cosa scrivere."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_074",
+    "english": "That error message is misleading. The actual problem is two levels deeper in the stack trace.",
+    "context": "Helping your pair identify the root cause during debugging",
+    "translations": {
+      "pt-BR": "Essa mensagem de erro é enganosa. O problema real está dois níveis mais profundo no stack trace.",
+      "es": "Ese mensaje de error es engañoso. El problema real está dos niveles más profundo en el stack trace.",
+      "fr": "Ce message d'erreur est trompeur. Le vrai problème est deux niveaux plus bas dans la stack trace.",
+      "de": "Diese Fehlermeldung ist irreführend. Das eigentliche Problem liegt zwei Ebenen tiefer im Stack Trace.",
+      "it": "Quel messaggio di errore è fuorviante. Il vero problema è due livelli più in profondità nello stack trace."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_075",
+    "english": "Let's use the Pomodoro technique — 25 minutes of focused pairing, then a five-minute break.",
+    "context": "Structuring a pairing session with timed intervals",
+    "translations": {
+      "pt-BR": "Vamos usar a técnica Pomodoro — 25 minutos de pairing focado, depois 5 minutos de pausa.",
+      "es": "Usemos la técnica Pomodoro — 25 minutos de pairing enfocado, luego 5 minutos de descanso.",
+      "fr": "Utilisons la technique Pomodoro — 25 minutes de pairing concentré, puis 5 minutes de pause.",
+      "de": "Lass uns die Pomodoro-Technik verwenden — 25 Minuten fokussiertes Pairing, dann 5 Minuten Pause.",
+      "it": "Usiamo la tecnica Pomodoro — 25 minuti di pairing concentrato, poi 5 minuti di pausa."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_076",
+    "english": "I think we should write a unit test for this edge case before we forget about it.",
+    "context": "Proactively adding test coverage during collaborative development",
+    "translations": {
+      "pt-BR": "Acho que devemos escrever um teste unitário para esse caso limite antes de esquecermos.",
+      "es": "Creo que deberíamos escribir un test unitario para este caso límite antes de que lo olvidemos.",
+      "fr": "Je pense qu'on devrait écrire un test unitaire pour ce cas limite avant de l'oublier.",
+      "de": "Ich denke, wir sollten einen Unit-Test für diesen Grenzfall schreiben, bevor wir ihn vergessen.",
+      "it": "Penso che dovremmo scrivere un test unitario per questo caso limite prima di dimenticarcene."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_077",
+    "english": "Can you open the terminal in a split view? I want to see the logs while we make changes.",
+    "context": "Optimizing the screen layout for simultaneous coding and monitoring",
+    "translations": {
+      "pt-BR": "Pode abrir o terminal em tela dividida? Quero ver os logs enquanto fazemos alterações.",
+      "es": "¿Puedes abrir la terminal en vista dividida? Quiero ver los logs mientras hacemos cambios.",
+      "fr": "Tu peux ouvrir le terminal en vue partagée ? Je veux voir les logs pendant qu'on fait les modifications.",
+      "de": "Kannst du das Terminal in geteilter Ansicht öffnen? Ich möchte die Logs sehen, während wir Änderungen vornehmen.",
+      "it": "Puoi aprire il terminale in vista divisa? Voglio vedere i log mentre facciamo le modifiche."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_078",
+    "english": "We should document this workaround with a comment explaining why it's necessary.",
+    "context": "Ensuring non-obvious code decisions are documented during pairing",
+    "translations": {
+      "pt-BR": "Devemos documentar esse workaround com um comentário explicando por que é necessário.",
+      "es": "Deberíamos documentar este workaround con un comentario explicando por qué es necesario.",
+      "fr": "On devrait documenter ce contournement avec un commentaire expliquant pourquoi c'est nécessaire.",
+      "de": "Wir sollten diesen Workaround mit einem Kommentar dokumentieren, der erklärt, warum er nötig ist.",
+      "it": "Dovremmo documentare questo workaround con un commento che spiega perché è necessario."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_079",
+    "english": "I disagree with that approach, but let's try it your way first. If it doesn't work, we'll pivot.",
+    "context": "Constructively disagreeing while remaining collaborative",
+    "translations": {
+      "pt-BR": "Discordo dessa abordagem, mas vamos tentar do seu jeito primeiro. Se não funcionar, mudamos.",
+      "es": "No estoy de acuerdo con ese enfoque, pero probemos a tu manera primero. Si no funciona, cambiamos.",
+      "fr": "Je ne suis pas d'accord avec cette approche, mais essayons à ta façon d'abord. Si ça ne marche pas, on pivotera.",
+      "de": "Ich bin nicht einverstanden mit dem Ansatz, aber lass uns es erst auf deine Weise versuchen. Wenn es nicht klappt, ändern wir den Kurs.",
+      "it": "Non sono d'accordo con quell'approccio, ma proviamo prima a modo tuo. Se non funziona, cambiamo rotta."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_080",
+    "english": "The connection is lagging — let me restart the Live Share session.",
+    "context": "Troubleshooting remote pairing tools when they're not performing well",
+    "translations": {
+      "pt-BR": "A conexão está com lag — deixa eu reiniciar a sessão de Live Share.",
+      "es": "La conexión está con retraso — déjame reiniciar la sesión de Live Share.",
+      "fr": "La connexion rame — laisse-moi redémarrer la session Live Share.",
+      "de": "Die Verbindung hakt — lass mich die Live-Share-Session neu starten.",
+      "it": "La connessione è in ritardo — fammi riavviare la sessione Live Share."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_081",
+    "english": "Let's create a TODO comment here and come back to it — this is a separate concern.",
+    "context": "Deferring tangential work to stay focused on the current task",
+    "translations": {
+      "pt-BR": "Vamos criar um comentário TODO aqui e voltar depois — isso é uma preocupação separada.",
+      "es": "Pongamos un comentario TODO aquí y volvamos después — esto es un asunto separado.",
+      "fr": "Mettons un commentaire TODO ici et revenons-y — c'est une préoccupation séparée.",
+      "de": "Lass uns hier einen TODO-Kommentar machen und später darauf zurückkommen — das ist ein separates Thema.",
+      "it": "Mettiamo un commento TODO qui e torniamoci dopo — è una questione separata."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_082",
+    "english": "I think the integration test is more valuable here than a unit test. Let's test the whole flow.",
+    "context": "Discussing testing strategy during collaborative development",
+    "translations": {
+      "pt-BR": "Acho que o teste de integração é mais valioso aqui do que um teste unitário. Vamos testar o fluxo inteiro.",
+      "es": "Creo que el test de integración es más valioso aquí que un test unitario. Probemos el flujo completo.",
+      "fr": "Je pense que le test d'intégration est plus utile ici qu'un test unitaire. Testons le flux entier.",
+      "de": "Ich denke, der Integrationstest ist hier wertvoller als ein Unit-Test. Lass uns den gesamten Ablauf testen.",
+      "it": "Penso che il test di integrazione sia più prezioso qui di un test unitario. Testiamo l'intero flusso."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_083",
+    "english": "I see you're using an extension method there. Can you show me how you defined it?",
+    "context": "Learning about a language feature from your pair partner",
+    "translations": {
+      "pt-BR": "Vejo que está usando um método de extensão ali. Pode me mostrar como você o definiu?",
+      "es": "Veo que estás usando un método de extensión ahí. ¿Puedes mostrarme cómo lo definiste?",
+      "fr": "Je vois que tu utilises une méthode d'extension là. Tu peux me montrer comment tu l'as définie ?",
+      "de": "Ich sehe, du verwendest eine Extension-Methode. Kannst du mir zeigen, wie du sie definiert hast?",
+      "it": "Vedo che stai usando un metodo di estensione lì. Puoi mostrarmi come l'hai definito?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_084",
+    "english": "The build is taking too long. Let's review the PR description while we wait.",
+    "context": "Making productive use of wait time during pairing",
+    "translations": {
+      "pt-BR": "O build está demorando demais. Vamos revisar a descrição do PR enquanto esperamos.",
+      "es": "El build está tardando mucho. Revisemos la descripción del PR mientras esperamos.",
+      "fr": "Le build prend trop de temps. Revoyons la description de la PR en attendant.",
+      "de": "Der Build dauert zu lange. Lass uns die PR-Beschreibung überprüfen, während wir warten.",
+      "it": "La build sta impiegando troppo. Rivediamo la descrizione della PR mentre aspettiamo."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_085",
+    "english": "I'm going to stash my changes so we can start from a clean state.",
+    "context": "Resetting the working directory during collaborative debugging",
+    "translations": {
+      "pt-BR": "Vou fazer stash das minhas mudanças para começarmos de um estado limpo.",
+      "es": "Voy a hacer stash de mis cambios para que empecemos desde un estado limpio.",
+      "fr": "Je vais stasher mes modifications pour qu'on reparte d'un état propre.",
+      "de": "Ich werde meine Änderungen stashen, damit wir von einem sauberen Zustand ausgehen.",
+      "it": "Faccio stash delle mie modifiche così partiamo da uno stato pulito."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_086",
+    "english": "Can we step through this with the debugger? I want to inspect the state at each step.",
+    "context": "Using a debugger collaboratively to understand program behavior",
+    "translations": {
+      "pt-BR": "Podemos percorrer isso com o debugger? Quero inspecionar o estado em cada passo.",
+      "es": "¿Podemos recorrer esto con el depurador? Quiero inspeccionar el estado en cada paso.",
+      "fr": "On peut parcourir ça avec le débogueur ? Je veux inspecter l'état à chaque étape.",
+      "de": "Können wir das mit dem Debugger durchgehen? Ich möchte den Zustand bei jedem Schritt inspizieren.",
+      "it": "Possiamo attraversare questo con il debugger? Voglio ispezionare lo stato ad ogni passo."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_087",
+    "english": "I just realized this component already exists in our shared library. We don't need to rewrite it.",
+    "context": "Discovering existing reusable code that avoids duplication",
+    "translations": {
+      "pt-BR": "Acabei de perceber que esse componente já existe na nossa biblioteca compartilhada. Não precisamos reescrevê-lo.",
+      "es": "Acabo de darme cuenta de que este componente ya existe en nuestra biblioteca compartida. No necesitamos reescribirlo.",
+      "fr": "Je viens de réaliser que ce composant existe déjà dans notre bibliothèque partagée. Pas besoin de le réécrire.",
+      "de": "Mir ist gerade aufgefallen, dass diese Komponente bereits in unserer Shared Library existiert. Wir müssen sie nicht neu schreiben.",
+      "it": "Mi sono appena reso conto che questo componente esiste già nella nostra libreria condivisa. Non dobbiamo riscriverlo."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_088",
+    "english": "Let's write the happy path first, then handle the error cases one by one.",
+    "context": "Prioritizing the main flow before edge cases during implementation",
+    "translations": {
+      "pt-BR": "Vamos escrever o caminho feliz primeiro, depois tratamos os casos de erro um por um.",
+      "es": "Escribamos el happy path primero, luego manejemos los casos de error uno por uno.",
+      "fr": "Écrivons le chemin nominal d'abord, puis traitons les cas d'erreur un par un.",
+      "de": "Lass uns zuerst den Happy Path schreiben, dann behandeln wir die Fehlerfälle nacheinander.",
+      "it": "Scriviamo l'happy path prima, poi gestiamo i casi di errore uno per uno."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_089",
+    "english": "Do you have a preference for how we name this function? I'm torn between two options.",
+    "context": "Collaborating on naming decisions during development",
+    "translations": {
+      "pt-BR": "Você tem preferência de como nomear essa função? Estou em dúvida entre duas opções.",
+      "es": "¿Tienes preferencia sobre cómo nombrar esta función? Estoy indeciso entre dos opciones.",
+      "fr": "Tu as une préférence pour le nom de cette fonction ? J'hésite entre deux options.",
+      "de": "Hast du eine Präferenz, wie wir diese Funktion benennen? Ich schwanke zwischen zwei Optionen.",
+      "it": "Hai una preferenza per come chiamare questa funzione? Sono indeciso tra due opzioni."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_090",
+    "english": "Let's annotate the code with comments for now and clean them up later.",
+    "context": "Using temporary comments to track thoughts during complex implementation",
+    "translations": {
+      "pt-BR": "Vamos anotar o código com comentários por agora e limpar depois.",
+      "es": "Anotemos el código con comentarios por ahora y limpiémoslos después.",
+      "fr": "Annotons le code avec des commentaires pour l'instant et nettoyons-les plus tard.",
+      "de": "Lass uns den Code jetzt mit Kommentaren annotieren und sie später aufräumen.",
+      "it": "Annotiamo il codice con commenti per ora e puliamo dopo."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_091",
+    "english": "I think we're in a rabbit hole. Let's time-box this to ten more minutes and then reassess.",
+    "context": "Recognizing when the pair is spending too long on a tangent",
+    "translations": {
+      "pt-BR": "Acho que entramos numa toca de coelho. Vamos limitar isso a mais dez minutos e reavaliar.",
+      "es": "Creo que estamos en un agujero de conejo. Limitemos esto a diez minutos más y reevaluemos.",
+      "fr": "Je crois qu'on est dans un terrier de lapin. Limitons ça à dix minutes de plus et réévaluons.",
+      "de": "Ich glaube, wir stecken in einem Rabbit Hole. Lass uns das auf zehn Minuten begrenzen und dann neu bewerten.",
+      "it": "Penso che siamo in un rabbit hole. Limitiamo a dieci minuti in più e rivalutiamo."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_092",
+    "english": "Can you explain the business logic behind this requirement? I want to make sure our implementation is correct.",
+    "context": "Seeking domain understanding during collaborative implementation",
+    "translations": {
+      "pt-BR": "Pode explicar a lógica de negócio por trás desse requisito? Quero garantir que nossa implementação está correta.",
+      "es": "¿Puedes explicar la lógica de negocio detrás de este requisito? Quiero asegurarme de que nuestra implementación sea correcta.",
+      "fr": "Tu peux expliquer la logique métier derrière cette exigence ? Je veux m'assurer que notre implémentation est correcte.",
+      "de": "Kannst du die Geschäftslogik hinter dieser Anforderung erklären? Ich möchte sicherstellen, dass unsere Implementierung korrekt ist.",
+      "it": "Puoi spiegare la logica di business dietro questo requisito? Voglio assicurarmi che la nostra implementazione sia corretta."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_093",
+    "english": "Instead of fixing this bug, let's write a regression test that reproduces it first.",
+    "context": "Following test-first approach for bug fixing during pairing",
+    "translations": {
+      "pt-BR": "Em vez de corrigir esse bug, vamos escrever um teste de regressão que o reproduza primeiro.",
+      "es": "En lugar de corregir este bug, escribamos primero un test de regresión que lo reproduzca.",
+      "fr": "Au lieu de corriger ce bug, écrivons d'abord un test de régression qui le reproduit.",
+      "de": "Statt den Bug zu fixen, lass uns zuerst einen Regressionstest schreiben, der ihn reproduziert.",
+      "it": "Invece di correggere questo bug, scriviamo prima un test di regressione che lo riproduca."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_094",
+    "english": "I like how you structured that. Can you explain the thought process so I can apply it elsewhere?",
+    "context": "Actively learning from your pair's problem-solving approach",
+    "translations": {
+      "pt-BR": "Gostei de como você estruturou isso. Pode explicar o processo de pensamento para eu aplicar em outros lugares?",
+      "es": "Me gusta cómo lo estructuraste. ¿Puedes explicar el proceso de pensamiento para que lo aplique en otros lugares?",
+      "fr": "J'aime comment tu as structuré ça. Tu peux expliquer le raisonnement pour que je puisse l'appliquer ailleurs ?",
+      "de": "Mir gefällt, wie du das strukturiert hast. Kannst du den Denkprozess erklären, damit ich ihn anderswo anwenden kann?",
+      "it": "Mi piace come l'hai strutturato. Puoi spiegare il processo di pensiero così posso applicarlo altrove?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_095",
+    "english": "This dependency injection setup is getting messy. Let's refactor it before adding more services.",
+    "context": "Addressing technical debt during a pairing session",
+    "translations": {
+      "pt-BR": "Essa configuração de injeção de dependência está ficando bagunçada. Vamos refatorar antes de adicionar mais serviços.",
+      "es": "Esta configuración de inyección de dependencias se está desordenando. Refactoricemos antes de agregar más servicios.",
+      "fr": "Cette configuration d'injection de dépendances devient désordonnée. Refactorons avant d'ajouter plus de services.",
+      "de": "Dieses Dependency-Injection-Setup wird unübersichtlich. Lass uns refactoren, bevor wir weitere Services hinzufügen.",
+      "it": "Questa configurazione di dependency injection sta diventando disordinata. Facciamo refactoring prima di aggiungere altri servizi."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_096",
+    "english": "Let's check the performance impact of this change by running the benchmark suite.",
+    "context": "Verifying performance during collaborative optimization work",
+    "translations": {
+      "pt-BR": "Vamos verificar o impacto de performance dessa mudança rodando a suíte de benchmarks.",
+      "es": "Verifiquemos el impacto de rendimiento de este cambio ejecutando la suite de benchmarks.",
+      "fr": "Vérifions l'impact sur les performances de ce changement en lançant la suite de benchmarks.",
+      "de": "Lass uns die Performance-Auswirkung dieser Änderung prüfen, indem wir die Benchmark-Suite ausführen.",
+      "it": "Verifichiamo l'impatto sulle prestazioni di questa modifica eseguendo la suite di benchmark."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_097",
+    "english": "I just noticed the CI is failing on our branch. Let's check the logs before we continue.",
+    "context": "Responding to CI failures during a pairing session",
+    "translations": {
+      "pt-BR": "Acabei de notar que o CI está falhando na nossa branch. Vamos checar os logs antes de continuar.",
+      "es": "Acabo de notar que el CI está fallando en nuestra rama. Revisemos los logs antes de continuar.",
+      "fr": "Je viens de remarquer que la CI échoue sur notre branche. Vérifions les logs avant de continuer.",
+      "de": "Mir ist gerade aufgefallen, dass die CI auf unserem Branch fehlschlägt. Lass uns die Logs prüfen, bevor wir weitermachen.",
+      "it": "Ho appena notato che la CI sta fallendo sul nostro branch. Controlliamo i log prima di continuare."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_098",
+    "english": "Let's pair on the code review — we can go through the diff together and leave comments.",
+    "context": "Doing code reviews collaboratively as a form of pairing",
+    "translations": {
+      "pt-BR": "Vamos fazer o code review juntos — podemos percorrer o diff e deixar comentários.",
+      "es": "Hagamos el code review juntos — podemos recorrer el diff juntos y dejar comentarios.",
+      "fr": "Faisons la revue de code ensemble — on peut parcourir le diff et laisser des commentaires.",
+      "de": "Lass uns das Code Review zusammen machen — wir können den Diff gemeinsam durchgehen und Kommentare hinterlassen.",
+      "it": "Facciamo il code review insieme — possiamo attraversare il diff e lasciare commenti."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_099",
+    "english": "I'm going to rename this variable to something more descriptive — currentUserPermissions instead of just perms.",
+    "context": "Improving code readability during collaborative coding",
+    "translations": {
+      "pt-BR": "Vou renomear essa variável para algo mais descritivo — currentUserPermissions em vez de só perms.",
+      "es": "Voy a renombrar esta variable a algo más descriptivo — currentUserPermissions en vez de solo perms.",
+      "fr": "Je vais renommer cette variable en quelque chose de plus descriptif — currentUserPermissions au lieu de juste perms.",
+      "de": "Ich werde diese Variable in etwas Beschreibenderes umbenennen — currentUserPermissions statt nur perms.",
+      "it": "Rinomino questa variabile con qualcosa di più descrittivo — currentUserPermissions invece di solo perms."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_100",
+    "english": "The API contract says it returns an array, but we're handling it as a single object. That's the bug.",
+    "context": "Identifying a contract mismatch during collaborative debugging",
+    "translations": {
+      "pt-BR": "O contrato da API diz que retorna um array, mas estamos tratando como um objeto único. Esse é o bug.",
+      "es": "El contrato de la API dice que retorna un array, pero lo estamos manejando como un objeto único. Ese es el bug.",
+      "fr": "Le contrat de l'API dit qu'elle retourne un tableau, mais on le traite comme un objet unique. C'est ça le bug.",
+      "de": "Der API-Vertrag sagt, es wird ein Array zurückgegeben, aber wir behandeln es als einzelnes Objekt. Das ist der Bug.",
+      "it": "Il contratto dell'API dice che restituisce un array, ma lo stiamo gestendo come oggetto singolo. Quello è il bug."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_101",
+    "english": "Let's use a feature branch and make small, atomic commits as we go.",
+    "context": "Setting up version control strategy for a pairing session",
+    "translations": {
+      "pt-BR": "Vamos usar uma branch de feature e fazer commits pequenos e atômicos conforme avançamos.",
+      "es": "Usemos una rama de feature y hagamos commits pequeños y atómicos a medida que avanzamos.",
+      "fr": "Utilisons une branche feature et faisons des commits petits et atomiques au fur et à mesure.",
+      "de": "Lass uns einen Feature-Branch verwenden und kleine, atomare Commits machen, während wir vorankommen.",
+      "it": "Usiamo un branch feature e facciamo commit piccoli e atomici man mano che procediamo."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_102",
+    "english": "I think the problem is in how we're serializing the date. Let me check the timezone handling.",
+    "context": "Investigating date/time bugs during collaborative debugging",
+    "translations": {
+      "pt-BR": "Acho que o problema é como estamos serializando a data. Deixa eu verificar o tratamento de fuso horário.",
+      "es": "Creo que el problema está en cómo estamos serializando la fecha. Déjame verificar el manejo de zona horaria.",
+      "fr": "Je pense que le problème vient de la sérialisation de la date. Laisse-moi vérifier la gestion des fuseaux horaires.",
+      "de": "Ich glaube, das Problem liegt darin, wie wir das Datum serialisieren. Lass mich die Zeitzonen-Behandlung prüfen.",
+      "it": "Penso che il problema sia come stiamo serializzando la data. Fammi verificare la gestione del fuso orario."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_103",
+    "english": "That was a tough one. Nice job figuring it out together — I don't think I could've solved it alone.",
+    "context": "Celebrating collaborative problem solving after a difficult challenge",
+    "translations": {
+      "pt-BR": "Esse foi difícil. Bom trabalho resolvendo juntos — acho que não teria conseguido sozinho.",
+      "es": "Ese fue difícil. Buen trabajo resolviéndolo juntos — no creo que hubiera podido solo.",
+      "fr": "Celui-là était costaud. Bien joué de l'avoir résolu ensemble — je ne pense pas que j'aurais pu seul.",
+      "de": "Das war ein harter Brocken. Gut gemacht, dass wir es zusammen gelöst haben — alleine hätte ich das nicht geschafft.",
+      "it": "Quello era tosto. Ben fatto a risolverlo insieme — non credo che ci sarei riuscito da solo."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_104",
+    "english": "Let's do a quick code walkthrough of the existing module before we start making changes.",
+    "context": "Understanding legacy code before modifying it during pairing",
+    "translations": {
+      "pt-BR": "Vamos fazer um walkthrough rápido do módulo existente antes de começar a fazer mudanças.",
+      "es": "Hagamos un walkthrough rápido del módulo existente antes de empezar a hacer cambios.",
+      "fr": "Faisons un walkthrough rapide du module existant avant de commencer à faire des changements.",
+      "de": "Lass uns einen kurzen Walkthrough des bestehenden Moduls machen, bevor wir anfangen, Änderungen vorzunehmen.",
+      "it": "Facciamo un walkthrough rapido del modulo esistente prima di iniziare a fare modifiche."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_105",
+    "english": "I'll set up the database migration while you scaffold the new endpoint.",
+    "context": "Efficiently dividing parallel tasks during a pairing session",
+    "translations": {
+      "pt-BR": "Eu configuro a migração do banco enquanto você cria o scaffold do novo endpoint.",
+      "es": "Yo preparo la migración de la base de datos mientras tú creas el scaffold del nuevo endpoint.",
+      "fr": "Je prépare la migration de base de données pendant que tu scaffoldes le nouvel endpoint.",
+      "de": "Ich richte die Datenbankmigration ein, während du den neuen Endpoint aufbaust.",
+      "it": "Io preparo la migrazione del database mentre tu fai lo scaffold del nuovo endpoint."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_106",
+    "english": "I've seen this pattern cause issues in production before. Let me tell you what happened.",
+    "context": "Sharing past experience to prevent potential problems",
+    "translations": {
+      "pt-BR": "Já vi esse padrão causar problemas em produção antes. Deixa eu te contar o que aconteceu.",
+      "es": "He visto este patrón causar problemas en producción antes. Déjame contarte lo que pasó.",
+      "fr": "J'ai déjà vu ce pattern causer des problèmes en production. Laisse-moi te raconter ce qui s'est passé.",
+      "de": "Ich habe gesehen, wie dieses Pattern in der Produktion Probleme verursacht hat. Lass mich dir erzählen, was passiert ist.",
+      "it": "Ho già visto questo pattern causare problemi in produzione. Lascia che ti racconti cosa è successo."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_107",
+    "english": "Let's look at how other teams solved this by checking the internal codebase.",
+    "context": "Researching existing solutions within the organization during pairing",
+    "translations": {
+      "pt-BR": "Vamos ver como outras equipes resolveram isso verificando a codebase interna.",
+      "es": "Veamos cómo otros equipos resolvieron esto revisando la codebase interna.",
+      "fr": "Regardons comment d'autres équipes ont résolu ça en vérifiant la codebase interne.",
+      "de": "Lass uns schauen, wie andere Teams das gelöst haben, indem wir die interne Codebasis prüfen.",
+      "it": "Vediamo come altri team hanno risolto questo controllando la codebase interna."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_108",
+    "english": "That null check won't be enough — what if the array is empty but not null?",
+    "context": "Catching subtle bugs by questioning assumptions during pairing",
+    "translations": {
+      "pt-BR": "Essa verificação de null não será suficiente — e se o array estiver vazio mas não nulo?",
+      "es": "Esa verificación de null no será suficiente — ¿y si el array está vacío pero no es null?",
+      "fr": "Cette vérification de null ne suffira pas — et si le tableau est vide mais pas null ?",
+      "de": "Diese Null-Prüfung reicht nicht — was wenn das Array leer aber nicht null ist?",
+      "it": "Quel controllo null non sarà sufficiente — e se l'array è vuoto ma non null?"
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_109",
+    "english": "I'm going to copy the curl command from Postman so we can test the endpoint from the terminal.",
+    "context": "Using API tools during collaborative testing",
+    "translations": {
+      "pt-BR": "Vou copiar o comando curl do Postman para testarmos o endpoint pelo terminal.",
+      "es": "Voy a copiar el comando curl de Postman para probar el endpoint desde la terminal.",
+      "fr": "Je vais copier la commande curl de Postman pour tester l'endpoint depuis le terminal.",
+      "de": "Ich kopiere den Curl-Befehl aus Postman, damit wir den Endpoint vom Terminal aus testen können.",
+      "it": "Copio il comando curl da Postman per testare l'endpoint dal terminale."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_110",
+    "english": "I think we should use dependency injection here so this is easier to test.",
+    "context": "Suggesting architectural improvements for testability during pairing",
+    "translations": {
+      "pt-BR": "Acho que devemos usar injeção de dependência aqui para facilitar os testes.",
+      "es": "Creo que deberíamos usar inyección de dependencias aquí para facilitar las pruebas.",
+      "fr": "Je pense qu'on devrait utiliser l'injection de dépendances ici pour faciliter les tests.",
+      "de": "Ich denke, wir sollten hier Dependency Injection verwenden, damit es einfacher zu testen ist.",
+      "it": "Penso che dovremmo usare la dependency injection qui per rendere i test più facili."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_111",
+    "english": "Let's compare our local changes against main to make sure we haven't drifted too far.",
+    "context": "Keeping the branch in sync during extended pairing sessions",
+    "translations": {
+      "pt-BR": "Vamos comparar nossas mudanças locais contra a main para garantir que não nos afastamos demais.",
+      "es": "Comparemos nuestros cambios locales contra main para asegurarnos de no habernos desviado mucho.",
+      "fr": "Comparons nos changements locaux avec main pour s'assurer qu'on ne s'est pas trop éloignés.",
+      "de": "Lass uns unsere lokalen Änderungen mit main vergleichen, um sicherzustellen, dass wir nicht zu weit abgedriftet sind.",
+      "it": "Confrontiamo le nostre modifiche locali con main per assicurarci di non esserci allontanati troppo."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_112",
+    "english": "You handle the frontend changes and I'll update the backend to match.",
+    "context": "Splitting full-stack work across the pair for parallel development",
+    "translations": {
+      "pt-BR": "Você cuida das mudanças no frontend e eu atualizo o backend para combinar.",
+      "es": "Tú encárgate de los cambios de frontend y yo actualizo el backend para que coincida.",
+      "fr": "Tu t'occupes des changements frontend et je mets à jour le backend pour correspondre.",
+      "de": "Du machst die Frontend-Änderungen und ich aktualisiere das Backend entsprechend.",
+      "it": "Tu gestisci le modifiche frontend e io aggiorno il backend di conseguenza."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_113",
+    "english": "I have a feeling this is a caching issue. Let's clear the cache and try again.",
+    "context": "Troubleshooting intermittent issues during collaborative debugging",
+    "translations": {
+      "pt-BR": "Tenho a sensação de que isso é um problema de cache. Vamos limpar o cache e tentar de novo.",
+      "es": "Tengo la sensación de que esto es un problema de caché. Limpiemos el caché e intentemos de nuevo.",
+      "fr": "J'ai l'impression que c'est un problème de cache. Vidons le cache et réessayons.",
+      "de": "Ich habe das Gefühl, das ist ein Caching-Problem. Lass uns den Cache leeren und es nochmal versuchen.",
+      "it": "Ho la sensazione che sia un problema di cache. Puliamo la cache e riproviamo."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_114",
+    "english": "Let's not fix the formatting manually — just run the code formatter and let it handle everything.",
+    "context": "Using automated tools instead of manual formatting during pairing",
+    "translations": {
+      "pt-BR": "Não vamos corrigir a formatação manualmente — basta rodar o formatador de código e deixar ele resolver.",
+      "es": "No arreglemos el formato manualmente — solo ejecutemos el formateador de código y dejemos que se encargue.",
+      "fr": "Ne corrigeons pas le formatage manuellement — lançons juste le formateur de code et laissons-le gérer.",
+      "de": "Lass uns die Formatierung nicht manuell korrigieren — lass einfach den Code-Formatierer laufen.",
+      "it": "Non sistemiamo la formattazione manualmente — eseguiamo il formatter del codice e lasciamo che faccia tutto lui."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_115",
+    "english": "I think we need to add error boundaries around this component to handle rendering failures gracefully.",
+    "context": "Discussing resilience patterns during UI development in pairing",
+    "translations": {
+      "pt-BR": "Acho que precisamos adicionar error boundaries em torno desse componente para lidar com falhas de renderização de forma elegante.",
+      "es": "Creo que necesitamos agregar error boundaries alrededor de este componente para manejar las fallas de renderizado con gracia.",
+      "fr": "Je pense qu'on doit ajouter des error boundaries autour de ce composant pour gérer les erreurs de rendu gracieusement.",
+      "de": "Ich denke, wir müssen Error Boundaries um diese Komponente hinzufügen, um Rendering-Fehler elegant zu behandeln.",
+      "it": "Penso che dobbiamo aggiungere error boundaries attorno a questo componente per gestire i fallimenti di rendering in modo elegante."
+    },
+    "difficulty": "hard",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_116",
+    "english": "Great pairing session today. I feel like I learned a lot about how you approach architecture decisions.",
+    "context": "Giving positive feedback after a productive pairing session",
+    "translations": {
+      "pt-BR": "Ótima sessão de pairing hoje. Sinto que aprendi muito sobre como você aborda decisões de arquitetura.",
+      "es": "Gran sesión de pairing hoy. Siento que aprendí mucho sobre cómo abordas las decisiones de arquitectura.",
+      "fr": "Super session de pairing aujourd'hui. J'ai l'impression d'avoir beaucoup appris sur ta façon d'aborder les décisions d'architecture.",
+      "de": "Tolle Pairing-Session heute. Ich habe das Gefühl, viel darüber gelernt zu haben, wie du Architekturentscheidungen angehst.",
+      "it": "Ottima sessione di pairing oggi. Sento di aver imparato molto su come affronti le decisioni architetturali."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_117",
+    "english": "Let's keep the scope tight. If we find something unrelated, we file a separate ticket.",
+    "context": "Maintaining focus and avoiding scope creep during pairing",
+    "translations": {
+      "pt-BR": "Vamos manter o escopo restrito. Se encontrarmos algo não relacionado, abrimos um ticket separado.",
+      "es": "Mantengamos el alcance ajustado. Si encontramos algo no relacionado, creamos un ticket separado.",
+      "fr": "Gardons le périmètre serré. Si on trouve quelque chose sans rapport, on crée un ticket séparé.",
+      "de": "Lass uns den Scope eng halten. Wenn wir etwas Unzusammenhängendes finden, erstellen wir ein separates Ticket.",
+      "it": "Manteniamo lo scope stretto. Se troviamo qualcosa di non correlato, apriamo un ticket separato."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_118",
+    "english": "Can you check Stack Overflow for that error while I try a different approach?",
+    "context": "Dividing research and coding work during troubleshooting",
+    "translations": {
+      "pt-BR": "Pode procurar esse erro no Stack Overflow enquanto eu tento uma abordagem diferente?",
+      "es": "¿Puedes buscar ese error en Stack Overflow mientras yo intento un enfoque diferente?",
+      "fr": "Tu peux chercher cette erreur sur Stack Overflow pendant que j'essaie une approche différente ?",
+      "de": "Kannst du den Fehler auf Stack Overflow suchen, während ich einen anderen Ansatz versuche?",
+      "it": "Puoi cercare quell'errore su Stack Overflow mentre io provo un approccio diverso?"
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_119",
+    "english": "The response payload is huge. Let's add pagination to avoid loading everything at once.",
+    "context": "Identifying performance improvements during collaborative API development",
+    "translations": {
+      "pt-BR": "O payload da resposta é enorme. Vamos adicionar paginação para evitar carregar tudo de uma vez.",
+      "es": "El payload de respuesta es enorme. Agreguemos paginación para evitar cargar todo de una vez.",
+      "fr": "Le payload de réponse est énorme. Ajoutons de la pagination pour éviter de tout charger d'un coup.",
+      "de": "Die Antwort-Payload ist riesig. Lass uns Paginierung hinzufügen, um zu vermeiden, alles auf einmal zu laden.",
+      "it": "Il payload della risposta è enorme. Aggiungiamo la paginazione per evitare di caricare tutto in una volta."
+    },
+    "difficulty": "medium",
+    "category": "pairProgramming"
+  },
+  {
+    "id": "pairProgramming_120",
+    "english": "Thanks for pairing with me today — next time let's tackle the authentication flow together.",
+    "context": "Wrapping up a session and planning the next pairing topic",
+    "translations": {
+      "pt-BR": "Obrigado por parear comigo hoje — na próxima vez vamos atacar o fluxo de autenticação juntos.",
+      "es": "Gracias por hacer pair programming conmigo hoy — la próxima vez abordemos el flujo de autenticación juntos.",
+      "fr": "Merci d'avoir pairé avec moi aujourd'hui — la prochaine fois, attaquons le flux d'authentification ensemble.",
+      "de": "Danke fürs Pairing heute — nächstes Mal nehmen wir uns den Authentifizierungsfluss zusammen vor.",
+      "it": "Grazie per aver pairato con me oggi — la prossima volta affrontiamo il flusso di autenticazione insieme."
+    },
+    "difficulty": "easy",
+    "category": "pairProgramming"
   }
 ]

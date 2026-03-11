@@ -161,28 +161,28 @@ struct PhraseCardView: View {
             // Complete / Uncomplete
             if isCompleted {
                 Button(action: onUncomplete) {
-                    HStack(spacing: AppSpacing.xs) {
+                    HStack(spacing: AppSpacing.sm) {
                         Image(systemName: "arrow.uturn.backward")
-                            .font(.system(size: 12, weight: .bold))
+                            .font(.system(size: 14, weight: .bold))
                         Text(String(localized: "phrase.undo_learned"))
-                            .font(AppFonts.caption)
+                            .font(.system(size: 16, weight: .semibold))
                     }
                     .foregroundStyle(AppColors.textSecondary)
-                    .frame(maxWidth: .infinity, minHeight: 44)
+                    .frame(maxWidth: .infinity, minHeight: 50)
                     .background(AppColors.surfaceSecondary)
                     .clipShape(Capsule())
                 }
                 .pressAnimation()
             } else {
                 Button(action: onComplete) {
-                    HStack(spacing: AppSpacing.xs) {
+                    HStack(spacing: AppSpacing.sm) {
                         Image(systemName: "checkmark")
-                            .font(.system(size: 12, weight: .bold))
+                            .font(.system(size: 14, weight: .bold))
                         Text(String(localized: "phrase.learned"))
-                            .font(AppFonts.caption)
+                            .font(.system(size: 16, weight: .semibold))
                     }
                     .foregroundStyle(AppColors.secondary)
-                    .frame(maxWidth: .infinity, minHeight: 44)
+                    .frame(maxWidth: .infinity, minHeight: 50)
                     .background(AppColors.secondary.opacity(0.15))
                     .clipShape(Capsule())
                 }

@@ -10,7 +10,6 @@ struct ProfileView: View {
     @State private var showNotificationSettings = false
     @State private var showLearnedPhrases = false
     @State private var showSavedPhrases = false
-    @State private var showHardPhrases = false
 
     // MARK: - Body
 
@@ -55,13 +54,6 @@ struct ProfileView: View {
                 language: viewModel.userLanguage
             )
         }
-        .sheet(isPresented: $showHardPhrases) {
-            PhraseListSheet(
-                title: String(localized: "profile.hard"),
-                phrases: viewModel.getHardPhrases(),
-                language: viewModel.userLanguage
-            )
-        }
     }
 
     // MARK: - Header
@@ -70,11 +62,11 @@ struct ProfileView: View {
         HStack {
             VStack(alignment: .leading, spacing: 4) {
                 Text(String(localized: "profile.title"))
-                    .font(.system(size: 28, weight: .bold))
+                    .font(AppFonts.largeTitle)
                     .foregroundStyle(AppColors.textPrimary)
 
                 Text(String(localized: "profile.subtitle"))
-                    .font(.system(size: 15))
+                    .font(.system(size: 17))
                     .foregroundStyle(AppColors.textSecondary)
             }
             Spacer()
@@ -89,11 +81,11 @@ struct ProfileView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(String(localized: "profile.level \(viewModel.progress.level)"))
-                        .font(.system(size: 22, weight: .bold))
+                        .font(.system(size: 24, weight: .bold))
                         .foregroundStyle(AppColors.textPrimary)
 
                     Text(viewModel.progress.levelTitle)
-                        .font(.system(size: 15))
+                        .font(.system(size: 17))
                         .foregroundStyle(AppColors.primary)
                 }
                 Spacer()
@@ -110,7 +102,7 @@ struct ProfileView: View {
                         .frame(width: 70, height: 70)
 
                     Text("\(Int(viewModel.progress.levelProgress * 100))%")
-                        .font(.system(size: 14, weight: .semibold))
+                        .font(.system(size: 16, weight: .semibold))
                         .foregroundStyle(AppColors.textPrimary)
                 }
             }
@@ -119,7 +111,7 @@ struct ProfileView: View {
                 .tint(AppColors.primary)
 
             Text(String(localized: "profile.phrases_to_next \(viewModel.progress.phrasesToNextLevel)"))
-                .font(.system(size: 13))
+                .font(.system(size: 15))
                 .foregroundStyle(AppColors.textTertiary)
 
             Divider().background(AppColors.surfaceSecondary)
@@ -148,16 +140,16 @@ struct ProfileView: View {
     private func statItem(icon: String, color: Color, value: String, label: String) -> some View {
         HStack(spacing: 10) {
             Image(systemName: icon)
-                .font(.system(size: 20))
+                .font(.system(size: 22))
                 .foregroundStyle(color)
 
             VStack(alignment: .leading, spacing: 2) {
                 Text(value)
-                    .font(.system(size: 18, weight: .bold))
+                    .font(.system(size: 20, weight: .bold))
                     .foregroundStyle(AppColors.textPrimary)
 
                 Text(label)
-                    .font(.system(size: 12))
+                    .font(.system(size: 14))
                     .foregroundStyle(AppColors.textSecondary)
             }
         }
@@ -188,16 +180,6 @@ struct ProfileView: View {
                 )
             }
 
-            Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
-
-            Button { showHardPhrases = true } label: {
-                statsRow(
-                    icon: "exclamationmark.triangle.fill",
-                    color: AppColors.accent,
-                    title: String(localized: "profile.hard"),
-                    value: "\(viewModel.hardCount)"
-                )
-            }
         }
         .background(AppColors.surface)
         .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
@@ -206,22 +188,22 @@ struct ProfileView: View {
     private func statsRow(icon: String, color: Color, title: String, value: String) -> some View {
         HStack {
             Image(systemName: icon)
-                .font(.system(size: 18))
+                .font(.system(size: 20))
                 .foregroundStyle(color)
-                .frame(width: 28)
+                .frame(width: 30)
 
             Text(title)
-                .font(.system(size: 16))
+                .font(.system(size: 18))
                 .foregroundStyle(AppColors.textPrimary)
 
             Spacer()
 
             Text(value)
-                .font(.system(size: 16, weight: .semibold))
+                .font(.system(size: 18, weight: .semibold))
                 .foregroundStyle(AppColors.textSecondary)
 
             Image(systemName: "chevron.right")
-                .font(.system(size: 13))
+                .font(.system(size: 14))
                 .foregroundStyle(AppColors.textTertiary)
         }
         .padding(.horizontal, AppSpacing.lg)
@@ -266,24 +248,24 @@ struct ProfileView: View {
     private func settingsRow(icon: String, title: String, detail: String? = nil) -> some View {
         HStack {
             Image(systemName: icon)
-                .font(.system(size: 18))
+                .font(.system(size: 20))
                 .foregroundStyle(AppColors.primary)
-                .frame(width: 28)
+                .frame(width: 30)
 
             Text(title)
-                .font(.system(size: 16))
+                .font(.system(size: 18))
                 .foregroundStyle(AppColors.textPrimary)
 
             Spacer()
 
             if let detail {
                 Text(detail)
-                    .font(.system(size: 14))
+                    .font(.system(size: 16))
                     .foregroundStyle(AppColors.textTertiary)
             }
 
             Image(systemName: "chevron.right")
-                .font(.system(size: 13))
+                .font(.system(size: 14))
                 .foregroundStyle(AppColors.textTertiary)
         }
         .padding(.horizontal, AppSpacing.lg)
@@ -294,12 +276,12 @@ struct ProfileView: View {
 
     private var appInfoFooter: some View {
         VStack(spacing: AppSpacing.xs) {
-            Text("DevLingo")
-                .font(.system(size: 14, weight: .semibold))
+            Text("Devlingo")
+                .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(AppColors.textSecondary)
 
             Text(String(localized: "profile.version \(appVersion)"))
-                .font(.system(size: 12))
+                .font(.system(size: 14))
                 .foregroundStyle(AppColors.textTertiary)
         }
         .frame(maxWidth: .infinity)

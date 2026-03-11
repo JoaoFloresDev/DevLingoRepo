@@ -421,14 +421,14 @@
   },
   {
     "id": "email_031",
-    "english": "Just following up on my previous email regarding the deployment schedule.",
-    "context": "When you sent an email earlier and haven't received a response",
+    "english": "Bumping this thread — has there been any progress on the load testing results?",
+    "context": "Gently pushing for an update on a stalled email thread",
     "translations": {
-      "pt-BR": "Apenas dando seguimento ao meu e-mail anterior sobre o cronograma de implantação.",
-      "es": "Solo dando seguimiento a mi correo anterior sobre el cronograma de despliegue.",
-      "fr": "Je fais juste un suivi de mon e-mail précédent concernant le calendrier de déploiement.",
-      "de": "Ich möchte nur an meine vorherige E-Mail bezüglich des Deployment-Zeitplans erinnern.",
-      "it": "Volevo solo dare un seguito alla mia email precedente riguardo al calendario di distribuzione."
+      "pt-BR": "Revivendo essa thread — houve algum progresso nos resultados dos testes de carga?",
+      "es": "Reviviendo este hilo — ¿ha habido algún avance en los resultados de las pruebas de carga?",
+      "fr": "Je relance ce fil — y a-t-il eu des progrès sur les résultats des tests de charge ?",
+      "de": "Ich hake hier nochmal nach — gibt es Fortschritte bei den Lasttestergebnissen?",
+      "it": "Rilancio questo thread — ci sono stati progressi sui risultati dei test di carico?"
     },
     "difficulty": "easy",
     "category": "email"
@@ -463,28 +463,28 @@
   },
   {
     "id": "email_034",
-    "english": "Please find attached the updated sprint retrospective notes.",
-    "context": "Sending meeting notes or documents as attachments",
+    "english": "Here's the Google Doc with the architecture proposal — feel free to leave comments directly.",
+    "context": "Sharing a collaborative document for team feedback",
     "translations": {
-      "pt-BR": "Segue em anexo as notas atualizadas da retrospectiva do sprint.",
-      "es": "Adjunto encontrarás las notas actualizadas de la retrospectiva del sprint.",
-      "fr": "Veuillez trouver ci-joint les notes mises à jour de la rétrospective de sprint.",
-      "de": "Anbei finden Sie die aktualisierten Sprint-Retrospektive-Notizen.",
-      "it": "In allegato troverai le note aggiornate della retrospettiva dello sprint."
+      "pt-BR": "Aqui está o Google Doc com a proposta de arquitetura — fiquem à vontade para comentar diretamente.",
+      "es": "Aquí está el Google Doc con la propuesta de arquitectura — siéntanse libres de dejar comentarios directamente.",
+      "fr": "Voici le Google Doc avec la proposition d'architecture — n'hésitez pas à laisser vos commentaires directement.",
+      "de": "Hier ist das Google Doc mit dem Architekturvorschlag — hinterlasst gerne direkt eure Kommentare.",
+      "it": "Ecco il Google Doc con la proposta di architettura — sentitevi liberi di lasciare commenti direttamente."
     },
     "difficulty": "easy",
     "category": "email"
   },
   {
     "id": "email_035",
-    "english": "I'd appreciate it if you could review the pull request before end of day.",
-    "context": "Requesting a code review with a soft deadline",
+    "english": "Could you grant me access to the staging environment? I need to verify the migration script.",
+    "context": "Requesting access to a shared resource for testing purposes",
     "translations": {
-      "pt-BR": "Eu agradeceria se você pudesse revisar o pull request antes do final do dia.",
-      "es": "Te agradecería si pudieras revisar el pull request antes del final del día.",
-      "fr": "Je vous serais reconnaissant de bien vouloir examiner la pull request avant la fin de la journée.",
-      "de": "Ich würde mich freuen, wenn Sie den Pull Request bis Ende des Tages überprüfen könnten.",
-      "it": "Ti sarei grato se potessi revisionare la pull request entro fine giornata."
+      "pt-BR": "Você poderia me dar acesso ao ambiente de staging? Preciso verificar o script de migração.",
+      "es": "¿Podrías darme acceso al entorno de staging? Necesito verificar el script de migración.",
+      "fr": "Pourrais-tu me donner accès à l'environnement de staging ? J'ai besoin de vérifier le script de migration.",
+      "de": "Könntest du mir Zugang zur Staging-Umgebung geben? Ich muss das Migrationsskript überprüfen.",
+      "it": "Potresti darmi accesso all'ambiente di staging? Devo verificare lo script di migrazione."
     },
     "difficulty": "medium",
     "category": "email"
@@ -505,14 +505,14 @@
   },
   {
     "id": "email_037",
-    "english": "Let me know if you need any further clarification on the technical requirements.",
-    "context": "Offering to explain more after sending specifications",
+    "english": "To clarify the scope — this ticket only covers the backend changes, not the frontend.",
+    "context": "Setting clear boundaries on what a task includes",
     "translations": {
-      "pt-BR": "Me avise se precisar de mais algum esclarecimento sobre os requisitos técnicos.",
-      "es": "Avísame si necesitas más aclaraciones sobre los requisitos técnicos.",
-      "fr": "N'hésitez pas à me contacter si vous avez besoin de précisions sur les exigences techniques.",
-      "de": "Lassen Sie mich wissen, wenn Sie weitere Erläuterungen zu den technischen Anforderungen benötigen.",
-      "it": "Fammi sapere se hai bisogno di ulteriori chiarimenti sui requisiti tecnici."
+      "pt-BR": "Para esclarecer o escopo — esse ticket cobre apenas as mudanças no backend, não no frontend.",
+      "es": "Para aclarar el alcance — este ticket solo cubre los cambios de backend, no el frontend.",
+      "fr": "Pour clarifier le périmètre — ce ticket ne couvre que les changements backend, pas le frontend.",
+      "de": "Zur Klarstellung des Umfangs — dieses Ticket umfasst nur die Backend-Änderungen, nicht das Frontend.",
+      "it": "Per chiarire lo scope — questo ticket copre solo le modifiche backend, non il frontend."
     },
     "difficulty": "easy",
     "category": "email"
@@ -547,28 +547,28 @@
   },
   {
     "id": "email_040",
-    "english": "I'll be out of office from Monday through Friday — please reach out to Sarah for any urgent matters.",
-    "context": "Setting expectations for being away and providing a backup contact",
+    "english": "I've delegated the on-call responsibilities to Mike while I'm away — he's up to speed on everything.",
+    "context": "Ensuring continuity by delegating tasks during your absence",
     "translations": {
-      "pt-BR": "Estarei fora do escritório de segunda a sexta — por favor, entre em contato com a Sarah para assuntos urgentes.",
-      "es": "Estaré fuera de la oficina de lunes a viernes — por favor, contacta a Sarah para cualquier asunto urgente.",
-      "fr": "Je serai absent du bureau de lundi à vendredi — veuillez contacter Sarah pour toute question urgente.",
-      "de": "Ich bin von Montag bis Freitag abwesend — bitte wenden Sie sich bei dringenden Angelegenheiten an Sarah.",
-      "it": "Sarò fuori ufficio da lunedì a venerdì — per favore contatta Sarah per qualsiasi questione urgente."
+      "pt-BR": "Deleguei as responsabilidades de plantão para o Mike enquanto estiver fora — ele está por dentro de tudo.",
+      "es": "He delegado las responsabilidades de guardia a Mike mientras esté fuera — él está al tanto de todo.",
+      "fr": "J'ai délégué les responsabilités d'astreinte à Mike pendant mon absence — il est au courant de tout.",
+      "de": "Ich habe die Bereitschaftsaufgaben an Mike übergeben, während ich weg bin — er ist über alles informiert.",
+      "it": "Ho delegato le responsabilità di reperibilità a Mike mentre sono via — è aggiornato su tutto."
     },
     "difficulty": "easy",
     "category": "email"
   },
   {
     "id": "email_041",
-    "english": "Per our conversation earlier, I've created a Jira ticket to track the memory leak fix.",
-    "context": "Following up on a verbal discussion with written documentation",
+    "english": "I'm documenting the key decisions from today's meeting in Confluence — will share the link shortly.",
+    "context": "Converting verbal meeting outcomes into written documentation",
     "translations": {
-      "pt-BR": "Conforme nossa conversa anterior, criei um ticket no Jira para acompanhar a correção do vazamento de memória.",
-      "es": "Según nuestra conversación anterior, he creado un ticket en Jira para dar seguimiento a la corrección de la fuga de memoria.",
-      "fr": "Suite à notre conversation de tout à l'heure, j'ai créé un ticket Jira pour suivre la correction de la fuite mémoire.",
-      "de": "Wie vorhin besprochen habe ich ein Jira-Ticket erstellt, um die Behebung des Speicherlecks zu verfolgen.",
-      "it": "Come da nostra conversazione di prima, ho creato un ticket Jira per tracciare la correzione del memory leak."
+      "pt-BR": "Estou documentando as decisões principais da reunião de hoje no Confluence — compartilho o link em breve.",
+      "es": "Estoy documentando las decisiones clave de la reunión de hoy en Confluence — compartiré el enlace pronto.",
+      "fr": "Je documente les décisions clés de la réunion d'aujourd'hui dans Confluence — je partagerai le lien bientôt.",
+      "de": "Ich dokumentiere die wichtigsten Entscheidungen aus dem heutigen Meeting in Confluence — teile den Link gleich.",
+      "it": "Sto documentando le decisioni chiave della riunione di oggi su Confluence — condividerò il link a breve."
     },
     "difficulty": "medium",
     "category": "email"
@@ -589,14 +589,14 @@
   },
   {
     "id": "email_043",
-    "english": "Thanks for the quick turnaround on the hotfix — really saved us.",
-    "context": "Expressing gratitude for a fast bug fix in production",
+    "english": "Thanks for the detailed explanation — that cleared up a lot of confusion on our side.",
+    "context": "Appreciating someone who took time to explain a complex topic",
     "translations": {
-      "pt-BR": "Obrigado pela rapidez no hotfix — realmente nos salvou.",
-      "es": "Gracias por la rapidez en el hotfix — realmente nos salvó.",
-      "fr": "Merci pour la rapidité du correctif d'urgence — ça nous a vraiment sauvés.",
-      "de": "Danke für die schnelle Umsetzung des Hotfixes — das hat uns wirklich gerettet.",
-      "it": "Grazie per la rapidità con l'hotfix — ci hai davvero salvato."
+      "pt-BR": "Obrigado pela explicação detalhada — isso esclareceu muita confusão do nosso lado.",
+      "es": "Gracias por la explicación detallada — eso aclaró mucha confusión de nuestro lado.",
+      "fr": "Merci pour l'explication détaillée — ça a dissipé beaucoup de confusion de notre côté.",
+      "de": "Danke für die ausführliche Erklärung — das hat viel Verwirrung auf unserer Seite beseitigt.",
+      "it": "Grazie per la spiegazione dettagliata — ha chiarito molta confusione dalla nostra parte."
     },
     "difficulty": "medium",
     "category": "email"
@@ -729,14 +729,14 @@
   },
   {
     "id": "email_053",
-    "english": "Hope this email finds you well. I'm reaching out regarding the vendor API rate limits we discussed.",
-    "context": "Opening a professional email to an external contact",
+    "english": "Quick introduction — I'm the new backend lead and I'll be your main point of contact going forward.",
+    "context": "Introducing yourself to a new team or external stakeholders via email",
     "translations": {
-      "pt-BR": "Espero que esteja bem. Estou entrando em contato sobre os limites de taxa da API do fornecedor que discutimos.",
-      "es": "Espero que te encuentres bien. Me comunico respecto a los límites de tasa de la API del proveedor que discutimos.",
-      "fr": "J'espère que vous allez bien. Je vous contacte au sujet des limites de débit de l'API du fournisseur dont nous avons discuté.",
-      "de": "Ich hoffe, es geht Ihnen gut. Ich melde mich bezüglich der Vendor-API-Rate-Limits, die wir besprochen haben.",
-      "it": "Spero che tu stia bene. Ti contatto riguardo ai limiti di frequenza dell'API del fornitore di cui abbiamo discusso."
+      "pt-BR": "Uma rápida apresentação — sou o novo líder de backend e serei seu principal ponto de contato daqui em diante.",
+      "es": "Una breve presentación — soy el nuevo líder de backend y seré tu principal punto de contacto de ahora en adelante.",
+      "fr": "Rapide présentation — je suis le nouveau lead backend et je serai votre principal point de contact désormais.",
+      "de": "Kurze Vorstellung — ich bin der neue Backend-Lead und werde ab jetzt euer Hauptansprechpartner sein.",
+      "it": "Breve presentazione — sono il nuovo lead backend e sarò il vostro principale punto di contatto d'ora in poi."
     },
     "difficulty": "medium",
     "category": "email"

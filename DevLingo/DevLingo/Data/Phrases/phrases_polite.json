@@ -421,28 +421,28 @@
   },
   {
     "id": "polite_031",
-    "english": "Could you take a look at this PR when you get a chance?",
-    "context": "Requesting a code review without pressuring",
+    "english": "I noticed you're swamped this week — let me know if I can take anything off your plate.",
+    "context": "Proactively offering help to a busy colleague",
     "translations": {
-      "pt-BR": "Você poderia dar uma olhada neste PR quando tiver um momento?",
-      "es": "¿Podrías revisar este PR cuando tengas un momento?",
-      "fr": "Pourriez-vous jeter un œil à cette PR quand vous aurez un moment ?",
-      "de": "Könnten Sie sich diese PR ansehen, wenn Sie Zeit haben?",
-      "it": "Potresti dare un'occhiata a questa PR quando hai un momento?"
+      "pt-BR": "Percebi que você está sobrecarregado esta semana — me avise se posso tirar algo do seu prato.",
+      "es": "Noté que estás muy ocupado esta semana — avísame si puedo quitarte algo de encima.",
+      "fr": "J'ai remarqué que tu es débordé cette semaine — dis-moi si je peux te décharger de quelque chose.",
+      "de": "Ich habe gemerkt, dass du diese Woche viel zu tun hast — sag Bescheid, wenn ich dir etwas abnehmen kann.",
+      "it": "Ho notato che sei sommerso questa settimana — fammi sapere se posso toglierti qualcosa dalle mani."
     },
     "difficulty": "easy",
     "category": "polite"
   },
   {
     "id": "polite_032",
-    "english": "Thanks for the thorough code review, I really appreciate your feedback.",
-    "context": "Thanking a reviewer for detailed comments",
+    "english": "Thank you for mentoring me on the architecture patterns — I learned a lot from that session.",
+    "context": "Expressing gratitude for knowledge sharing and mentorship",
     "translations": {
-      "pt-BR": "Obrigado pela revisão de código detalhada, agradeço muito seu feedback.",
-      "es": "Gracias por la revisión de código tan detallada, realmente aprecio tus comentarios.",
-      "fr": "Merci pour la revue de code approfondie, j'apprécie vraiment vos retours.",
-      "de": "Danke für das gründliche Code-Review, ich schätze Ihr Feedback sehr.",
-      "it": "Grazie per la revisione del codice approfondita, apprezzo molto il tuo feedback."
+      "pt-BR": "Obrigado por me orientar sobre os padrões de arquitetura — aprendi muito naquela sessão.",
+      "es": "Gracias por orientarme sobre los patrones de arquitectura — aprendí mucho en esa sesión.",
+      "fr": "Merci de m'avoir guidé sur les patterns d'architecture — j'ai beaucoup appris lors de cette session.",
+      "de": "Danke, dass du mich bei den Architektur-Patterns betreut hast — ich habe in dieser Session viel gelernt.",
+      "it": "Grazie per avermi fatto da mentore sui pattern architetturali — ho imparato molto da quella sessione."
     },
     "difficulty": "easy",
     "category": "polite"
@@ -505,14 +505,14 @@
   },
   {
     "id": "polite_037",
-    "english": "I see where you're coming from, but have you considered this alternative approach?",
-    "context": "Respectfully suggesting a different solution",
+    "english": "What if we meet in the middle — we use your approach for the API layer and mine for the database layer?",
+    "context": "Proposing a compromise when two people have different technical opinions",
     "translations": {
-      "pt-BR": "Entendo seu ponto de vista, mas você já considerou esta abordagem alternativa?",
-      "es": "Entiendo tu punto de vista, pero ¿has considerado este enfoque alternativo?",
-      "fr": "Je vois d'où vous venez, mais avez-vous envisagé cette approche alternative ?",
-      "de": "Ich verstehe Ihren Standpunkt, aber haben Sie diesen alternativen Ansatz in Betracht gezogen?",
-      "it": "Capisco il tuo punto di vista, ma hai considerato questo approccio alternativo?"
+      "pt-BR": "E se encontrarmos um meio-termo — usamos sua abordagem para a camada de API e a minha para a camada de banco?",
+      "es": "¿Y si encontramos un punto medio — usamos tu enfoque para la capa de API y el mío para la capa de base de datos?",
+      "fr": "Et si on trouvait un compromis — on utilise ton approche pour la couche API et la mienne pour la couche base de données ?",
+      "de": "Was, wenn wir uns in der Mitte treffen — deinen Ansatz für die API-Schicht und meinen für die Datenbankschicht?",
+      "it": "E se troviamo un compromesso — usiamo il tuo approccio per il layer API e il mio per il layer database?"
     },
     "difficulty": "medium",
     "category": "polite"
@@ -533,42 +533,42 @@
   },
   {
     "id": "polite_039",
-    "english": "I think we might need a bit more time on this feature. Can we discuss adjusting the timeline?",
-    "context": "Managing deadline expectations",
+    "english": "Instead of extending the deadline, could we reduce the scope to focus on the core functionality first?",
+    "context": "Negotiating scope instead of timeline when facing tight deadlines",
     "translations": {
-      "pt-BR": "Acho que vamos precisar de um pouco mais de tempo nesta feature. Podemos discutir um ajuste no cronograma?",
-      "es": "Creo que necesitaremos un poco más de tiempo para esta funcionalidad. ¿Podemos hablar sobre ajustar el cronograma?",
-      "fr": "Je pense que nous aurons besoin d'un peu plus de temps sur cette fonctionnalité. Pouvons-nous discuter d'un ajustement du calendrier ?",
-      "de": "Ich denke, wir brauchen etwas mehr Zeit für dieses Feature. Können wir den Zeitplan besprechen?",
-      "it": "Penso che avremo bisogno di un po' più di tempo per questa funzionalità. Possiamo discutere di modificare la timeline?"
+      "pt-BR": "Em vez de estender o prazo, poderíamos reduzir o escopo para focar na funcionalidade principal primeiro?",
+      "es": "En lugar de extender el plazo, ¿podríamos reducir el alcance para enfocarnos en la funcionalidad principal primero?",
+      "fr": "Au lieu d'étendre le délai, pourrait-on réduire le périmètre pour se concentrer d'abord sur la fonctionnalité principale ?",
+      "de": "Statt die Deadline zu verlängern, könnten wir den Umfang reduzieren und uns zuerst auf die Kernfunktionalität konzentrieren?",
+      "it": "Invece di estendere la scadenza, potremmo ridurre lo scope per concentrarci prima sulla funzionalità principale?"
     },
     "difficulty": "medium",
     "category": "polite"
   },
   {
     "id": "polite_040",
-    "english": "I appreciate you thinking of me, but I need to focus on my sprint commitments this week.",
-    "context": "Setting boundaries on additional requests",
+    "english": "I think Alex would be a better fit for this task — he has more experience with the payment gateway.",
+    "context": "Suggesting someone better suited for a task instead of just declining",
     "translations": {
-      "pt-BR": "Agradeço por pensar em mim, mas preciso focar nos meus compromissos da sprint esta semana.",
-      "es": "Agradezco que pienses en mí, pero necesito concentrarme en mis compromisos del sprint esta semana.",
-      "fr": "J'apprécie que vous pensiez à moi, mais je dois me concentrer sur mes engagements de sprint cette semaine.",
-      "de": "Ich schätze es, dass Sie an mich denken, aber ich muss mich diese Woche auf meine Sprint-Verpflichtungen konzentrieren.",
-      "it": "Apprezzo che tu abbia pensato a me, ma devo concentrarmi sugli impegni dello sprint questa settimana."
+      "pt-BR": "Acho que o Alex seria mais indicado para essa tarefa — ele tem mais experiência com o gateway de pagamento.",
+      "es": "Creo que Alex sería más adecuado para esta tarea — tiene más experiencia con la pasarela de pago.",
+      "fr": "Je pense qu'Alex serait plus adapté pour cette tâche — il a plus d'expérience avec la passerelle de paiement.",
+      "de": "Ich denke, Alex wäre besser für diese Aufgabe geeignet — er hat mehr Erfahrung mit dem Payment Gateway.",
+      "it": "Penso che Alex sarebbe più adatto per questo compito — ha più esperienza con il gateway di pagamento."
     },
     "difficulty": "medium",
     "category": "polite"
   },
   {
     "id": "polite_041",
-    "english": "I respectfully disagree with that approach. Here's my reasoning.",
-    "context": "Expressing disagreement professionally in a design discussion",
+    "english": "Both approaches have valid trade-offs — maybe we should prototype each and compare the results.",
+    "context": "Acknowledging different perspectives and suggesting a data-driven resolution",
     "translations": {
-      "pt-BR": "Respeitosamente discordo dessa abordagem. Aqui está meu raciocínio.",
-      "es": "Respetuosamente, no estoy de acuerdo con ese enfoque. Aquí está mi razonamiento.",
-      "fr": "Je ne suis respectueusement pas d'accord avec cette approche. Voici mon raisonnement.",
-      "de": "Ich bin respektvoll anderer Meinung zu diesem Ansatz. Hier ist meine Begründung.",
-      "it": "Rispettosamente non sono d'accordo con quell'approccio. Ecco il mio ragionamento."
+      "pt-BR": "Ambas as abordagens têm trade-offs válidos — talvez devêssemos prototipar cada uma e comparar os resultados.",
+      "es": "Ambos enfoques tienen compromisos válidos — quizás deberíamos prototipar cada uno y comparar los resultados.",
+      "fr": "Les deux approches ont des compromis valables — peut-être devrions-nous prototyper chacune et comparer les résultats.",
+      "de": "Beide Ansätze haben gültige Trade-offs — vielleicht sollten wir beide prototypen und die Ergebnisse vergleichen.",
+      "it": "Entrambi gli approcci hanno compromessi validi — forse dovremmo prototipare ciascuno e confrontare i risultati."
     },
     "difficulty": "medium",
     "category": "polite"
@@ -617,14 +617,14 @@
   },
   {
     "id": "polite_045",
-    "english": "Just checking in on the status of that PR — no rush at all, just want to keep things moving.",
-    "context": "Following up on a pending review without pressuring",
+    "english": "Gentle ping on the vendor contract decision — the team is waiting on this to move forward.",
+    "context": "Politely following up on a pending decision that blocks team progress",
     "translations": {
-      "pt-BR": "Só passando para saber o status daquele PR — sem pressa nenhuma, só quero manter as coisas andando.",
-      "es": "Solo quería saber el estado de ese PR — sin prisa alguna, solo quiero mantener las cosas en movimiento.",
-      "fr": "Je voulais juste prendre des nouvelles de cette PR — pas de pression du tout, je veux juste que les choses avancent.",
-      "de": "Ich wollte mich nur nach dem Status dieser PR erkundigen — überhaupt keine Eile, ich möchte nur, dass es vorangeht.",
-      "it": "Volevo solo un aggiornamento sullo stato di quella PR — nessuna fretta, voglio solo che le cose proseguano."
+      "pt-BR": "Um lembrete gentil sobre a decisão do contrato com o fornecedor — a equipe está aguardando isso para avançar.",
+      "es": "Un recordatorio amable sobre la decisión del contrato con el proveedor — el equipo está esperando esto para avanzar.",
+      "fr": "Petit rappel concernant la décision sur le contrat fournisseur — l'équipe attend cela pour avancer.",
+      "de": "Freundliche Erinnerung an die Entscheidung zum Anbietervertrag — das Team wartet darauf, um weiterzumachen.",
+      "it": "Un gentile promemoria sulla decisione del contratto con il fornitore — il team sta aspettando questo per procedere."
     },
     "difficulty": "medium",
     "category": "polite"
@@ -659,16 +659,16 @@
   },
   {
     "id": "polite_048",
-    "english": "That was my mistake — I should have caught that in testing. I'll fix it right away.",
-    "context": "Admitting a bug was your fault",
+    "english": "I take full responsibility for the production incident — I've already written a post-mortem with preventive measures.",
+    "context": "Taking ownership of a production issue and showing initiative in preventing future ones",
     "translations": {
-      "pt-BR": "Foi meu erro — eu deveria ter pego isso nos testes. Vou corrigir imediatamente.",
-      "es": "Fue mi error — debí haberlo detectado en las pruebas. Lo corregiré de inmediato.",
-      "fr": "C'était mon erreur — j'aurais dû le détecter lors des tests. Je vais le corriger tout de suite.",
-      "de": "Das war mein Fehler — ich hätte das beim Testen bemerken müssen. Ich behebe es sofort.",
-      "it": "È stato un mio errore — avrei dovuto notarlo nei test. Lo correggo subito."
+      "pt-BR": "Assumo total responsabilidade pelo incidente em produção — já escrevi um post-mortem com medidas preventivas.",
+      "es": "Asumo toda la responsabilidad por el incidente en producción — ya escribí un post-mortem con medidas preventivas.",
+      "fr": "J'assume l'entière responsabilité de l'incident en production — j'ai déjà rédigé un post-mortem avec des mesures préventives.",
+      "de": "Ich übernehme die volle Verantwortung für den Produktionsvorfall — ich habe bereits ein Post-Mortem mit Präventivmaßnahmen geschrieben.",
+      "it": "Mi assumo la piena responsabilità dell'incidente in produzione — ho già scritto un post-mortem con misure preventive."
     },
-    "difficulty": "easy",
+    "difficulty": "medium",
     "category": "polite"
   },
   {

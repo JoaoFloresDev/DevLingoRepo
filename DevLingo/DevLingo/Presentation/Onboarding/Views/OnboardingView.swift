@@ -70,35 +70,40 @@ struct OnboardingView: View {
                 .foregroundStyle(AppColors.textSecondary)
                 .multilineTextAlignment(.center)
 
-            // Language grid
+            // Language list
             ScrollView(.vertical, showsIndicators: false) {
-                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: AppSpacing.md) {
+                VStack(spacing: AppSpacing.md) {
                     ForEach(UserLanguage.allCases) { language in
                         Button {
                             viewModel.selectedLanguage = language
                             HapticManager.selection()
                         } label: {
-                            HStack(spacing: AppSpacing.sm) {
+                            HStack(spacing: AppSpacing.lg) {
                                 Text(language.flag)
-                                    .font(.system(size: 24))
+                                    .font(.system(size: 32))
 
                                 Text(language.nativeName)
-                                    .font(AppFonts.subheadline)
+                                    .font(.system(size: 20, weight: .medium))
                                     .foregroundStyle(AppColors.textPrimary)
-                                    .lineLimit(1)
 
                                 Spacer()
+
+                                if viewModel.selectedLanguage == language {
+                                    Image(systemName: "checkmark.circle.fill")
+                                        .font(.system(size: 24))
+                                        .foregroundStyle(AppColors.primary)
+                                }
                             }
-                            .padding(.horizontal, AppSpacing.md)
-                            .padding(.vertical, AppSpacing.md)
+                            .padding(.horizontal, AppSpacing.lg)
+                            .padding(.vertical, AppSpacing.lg)
                             .background(
                                 viewModel.selectedLanguage == language
                                 ? AppColors.primary.opacity(0.2)
                                 : AppColors.surface
                             )
-                            .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadius))
+                            .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
                             .overlay(
-                                RoundedRectangle(cornerRadius: AppSpacing.cornerRadius)
+                                RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge)
                                     .strokeBorder(
                                         viewModel.selectedLanguage == language
                                         ? AppColors.primary : Color.clear,

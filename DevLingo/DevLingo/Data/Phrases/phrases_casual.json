@@ -424,9 +424,9 @@
     "english": "Did you see that new JavaScript framework that dropped yesterday?",
     "context": "Water cooler talk about the latest tech news",
     "translations": {
-      "pt-BR": "Você viu aquele novo framework JavaScript que lançaram ontem?",
-      "es": "¿Viste ese nuevo framework de JavaScript que salió ayer?",
-      "fr": "Tu as vu ce nouveau framework JavaScript sorti hier ?",
+      "pt-BR": "Voce viu aquele novo framework JavaScript que lancaram ontem?",
+      "es": "Viste ese nuevo framework de JavaScript que salio ayer?",
+      "fr": "Tu as vu ce nouveau framework JavaScript sorti hier?",
       "de": "Hast du das neue JavaScript-Framework gesehen, das gestern rausgekommen ist?",
       "it": "Hai visto quel nuovo framework JavaScript uscito ieri?"
     },
@@ -438,11 +438,11 @@
     "english": "I need coffee before I can even look at code today.",
     "context": "Monday morning or early start conversation",
     "translations": {
-      "pt-BR": "Preciso de café antes de conseguir olhar pra código hoje.",
-      "es": "Necesito café antes de poder siquiera mirar código hoy.",
-      "fr": "J'ai besoin d'un café avant de pouvoir ne serait-ce que regarder du code aujourd'hui.",
+      "pt-BR": "Preciso de cafe antes de conseguir olhar pra codigo hoje.",
+      "es": "Necesito cafe antes de poder siquiera mirar codigo hoy.",
+      "fr": "J'ai besoin d'un cafe avant de pouvoir ne serait-ce que regarder du code aujourd'hui.",
       "de": "Ich brauche erstmal Kaffee, bevor ich heute auch nur Code anschauen kann.",
-      "it": "Ho bisogno di un caffè prima di poter anche solo guardare il codice oggi."
+      "it": "Ho bisogno di un caffe prima di poter anche solo guardare il codice oggi."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -452,10 +452,10 @@
     "english": "Have you read that blog post about clean architecture? It's really worth checking out.",
     "context": "Recommending a tech blog article to a colleague",
     "translations": {
-      "pt-BR": "Você leu aquele post sobre clean architecture? Vale muito a pena conferir.",
-      "es": "¿Leíste ese artículo sobre clean architecture? Realmente vale la pena leerlo.",
-      "fr": "Tu as lu cet article de blog sur la clean architecture ? Ça vaut vraiment le coup d'y jeter un œil.",
-      "de": "Hast du den Blogbeitrag über Clean Architecture gelesen? Den sollte man sich echt anschauen.",
+      "pt-BR": "Voce leu aquele post sobre clean architecture? Vale muito a pena conferir.",
+      "es": "Leiste ese articulo sobre clean architecture? Realmente vale la pena leerlo.",
+      "fr": "Tu as lu cet article de blog sur la clean architecture? Ca vaut vraiment le coup d'y jeter un oeil.",
+      "de": "Hast du den Blogbeitrag uber Clean Architecture gelesen? Den sollte man sich echt anschauen.",
       "it": "Hai letto quel post sulla clean architecture? Vale davvero la pena darci un'occhiata."
     },
     "difficulty": "easy",
@@ -466,10 +466,10 @@
     "english": "Did you guys see the meme about CSS centering? I just shared it in the team chat.",
     "context": "Sharing a funny developer meme with the team",
     "translations": {
-      "pt-BR": "Vocês viram o meme sobre centralizar em CSS? Acabei de mandar no chat do time.",
-      "es": "¿Vieron el meme sobre centrar en CSS? Lo acabo de compartir en el chat del equipo.",
-      "fr": "Vous avez vu le mème sur le centrage CSS ? Je viens de le partager dans le chat d'équipe.",
-      "de": "Habt ihr das Meme über CSS-Zentrierung gesehen? Ich habe es gerade im Teamchat geteilt.",
+      "pt-BR": "Voces viram o meme sobre centralizar em CSS? Acabei de mandar no chat do time.",
+      "es": "Vieron el meme sobre centrar en CSS? Lo acabo de compartir en el chat del equipo.",
+      "fr": "Vous avez vu le meme sur le centrage CSS? Je viens de le partager dans le chat d'equipe.",
+      "de": "Habt ihr das Meme uber CSS-Zentrierung gesehen? Ich habe es gerade im Teamchat geteilt.",
       "it": "Avete visto il meme sul centrare in CSS? L'ho appena condiviso nella chat del team."
     },
     "difficulty": "medium",
@@ -480,9 +480,9 @@
     "english": "I've been mass debugging for three hours and it was a missing semicolon.",
     "context": "Commiserating after a frustrating debugging session",
     "translations": {
-      "pt-BR": "Fiquei três horas debugando e era um ponto e vírgula faltando.",
+      "pt-BR": "Fiquei tres horas debugando e era um ponto e virgula faltando.",
       "es": "Llevo tres horas depurando y era un punto y coma que faltaba.",
-      "fr": "J'ai débogué pendant trois heures et c'était un point-virgule manquant.",
+      "fr": "J'ai debogue pendant trois heures et c'etait un point-virgule manquant.",
       "de": "Ich habe drei Stunden debuggt und es war ein fehlendes Semikolon.",
       "it": "Ho fatto debugging per tre ore ed era un punto e virgola mancante."
     },
@@ -494,9 +494,9 @@
     "english": "Are you team dark mode or light mode?",
     "context": "Classic developer debate about IDE appearance",
     "translations": {
-      "pt-BR": "Você é do time dark mode ou light mode?",
-      "es": "¿Eres del equipo modo oscuro o modo claro?",
-      "fr": "Tu es équipe mode sombre ou mode clair ?",
+      "pt-BR": "Voce e do time dark mode ou light mode?",
+      "es": "Eres del equipo modo oscuro o modo claro?",
+      "fr": "Tu es equipe mode sombre ou mode clair?",
       "de": "Bist du Team Dark Mode oder Light Mode?",
       "it": "Sei del team dark mode o light mode?"
     },
@@ -508,11 +508,11 @@
     "english": "I started a side project this weekend and I'm already overthinking the architecture.",
     "context": "Discussing personal coding projects",
     "translations": {
-      "pt-BR": "Comecei um projeto pessoal nesse fim de semana e já estou pensando demais na arquitetura.",
-      "es": "Empecé un proyecto personal este fin de semana y ya estoy sobreanalizando la arquitectura.",
-      "fr": "J'ai commencé un side project ce week-end et je suis déjà en train de trop réfléchir à l'architecture.",
-      "de": "Ich habe am Wochenende ein Nebenprojekt angefangen und überdenke schon die Architektur.",
-      "it": "Ho iniziato un progetto personale questo weekend e sto già pensando troppo all'architettura."
+      "pt-BR": "Comecei um projeto pessoal nesse fim de semana e ja estou pensando demais na arquitetura.",
+      "es": "Empece un proyecto personal este fin de semana y ya estoy sobreanalizando la arquitectura.",
+      "fr": "J'ai commence un side project ce week-end et je suis deja en train de trop reflechir a l'architecture.",
+      "de": "Ich habe am Wochenende ein Nebenprojekt angefangen und uberdenke schon die Architektur.",
+      "it": "Ho iniziato un progetto personale questo weekend e sto gia pensando troppo all'architettura."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -522,9 +522,9 @@
     "english": "Have you tried turning it off and on again?",
     "context": "Classic IT humor when someone has a tech issue",
     "translations": {
-      "pt-BR": "Você já tentou desligar e ligar de novo?",
-      "es": "¿Has probado a apagarlo y encenderlo de nuevo?",
-      "fr": "Tu as essayé de l'éteindre et de le rallumer ?",
+      "pt-BR": "Voce ja tentou desligar e ligar de novo?",
+      "es": "Has probado a apagarlo y encenderlo de nuevo?",
+      "fr": "Tu as essaye de l'eteindre et de le rallumer?",
       "de": "Hast du schon versucht, es aus- und wieder einzuschalten?",
       "it": "Hai provato a spegnerlo e riaccenderlo?"
     },
@@ -537,8 +537,8 @@
     "context": "Grateful mention of finding a solution online",
     "translations": {
       "pt-BR": "O Stack Overflow salvou minha vida de novo hoje.",
-      "es": "Stack Overflow me salvó la vida otra vez hoy.",
-      "fr": "Stack Overflow m'a encore sauvé la vie aujourd'hui.",
+      "es": "Stack Overflow me salvo la vida otra vez hoy.",
+      "fr": "Stack Overflow m'a encore sauve la vie aujourd'hui.",
       "de": "Stack Overflow hat mir heute wieder das Leben gerettet.",
       "it": "Stack Overflow mi ha salvato la vita ancora oggi."
     },
@@ -550,11 +550,11 @@
     "english": "It's not a bug, it's an undocumented feature!",
     "context": "Classic developer joke when defending quirky behavior",
     "translations": {
-      "pt-BR": "Não é um bug, é uma funcionalidade não documentada!",
-      "es": "¡No es un bug, es una funcionalidad no documentada!",
-      "fr": "Ce n'est pas un bug, c'est une fonctionnalité non documentée !",
+      "pt-BR": "Nao e um bug, e uma funcionalidade nao documentada!",
+      "es": "No es un bug, es una funcionalidad no documentada!",
+      "fr": "Ce n'est pas un bug, c'est une fonctionnalite non documentee!",
       "de": "Das ist kein Bug, das ist ein undokumentiertes Feature!",
-      "it": "Non è un bug, è una funzionalità non documentata!"
+      "it": "Non e un bug, e una funzionalita non documentata!"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -564,9 +564,9 @@
     "english": "I spent the whole weekend customizing my Neovim config and got zero actual coding done.",
     "context": "Discussing IDE and tool customization obsession",
     "translations": {
-      "pt-BR": "Passei o fim de semana inteiro customizando meu Neovim e não programei nada de verdade.",
-      "es": "Pasé todo el fin de semana personalizando mi configuración de Neovim y no programé nada real.",
-      "fr": "J'ai passé tout le week-end à personnaliser ma config Neovim et je n'ai pas codé du tout.",
+      "pt-BR": "Passei o fim de semana inteiro customizando meu Neovim e nao programei nada de verdade.",
+      "es": "Pase todo el fin de semana personalizando mi configuracion de Neovim y no programe nada real.",
+      "fr": "J'ai passe tout le week-end a personnaliser ma config Neovim et je n'ai pas code du tout.",
       "de": "Ich habe das ganze Wochenende meine Neovim-Konfiguration angepasst und null echten Code geschrieben.",
       "it": "Ho passato tutto il weekend a personalizzare la mia configurazione di Neovim e non ho programmato niente di concreto."
     },
@@ -578,9 +578,9 @@
     "english": "Do you ever get imposter syndrome when reading other people's code?",
     "context": "Supportive conversation about self-doubt in tech",
     "translations": {
-      "pt-BR": "Você sente síndrome do impostor quando lê código dos outros?",
-      "es": "¿Alguna vez sientes síndrome del impostor cuando lees el código de otros?",
-      "fr": "Tu as déjà le syndrome de l'imposteur en lisant le code des autres ?",
+      "pt-BR": "Voce sente sindrome do impostor quando le codigo dos outros?",
+      "es": "Alguna vez sientes sindrome del impostor cuando lees el codigo de otros?",
+      "fr": "Tu as deja le syndrome de l'imposteur en lisant le code des autres?",
       "de": "Hast du manchmal Imposter-Syndrom, wenn du den Code anderer liest?",
       "it": "Ti capita mai di avere la sindrome dell'impostore quando leggi il codice degli altri?"
     },
@@ -592,11 +592,11 @@
     "english": "Working from home is great until your cat walks across your keyboard during a demo.",
     "context": "Remote work humor and experiences",
     "translations": {
-      "pt-BR": "Trabalhar de casa é ótimo até seu gato andar no teclado durante uma demo.",
+      "pt-BR": "Trabalhar de casa e otimo ate seu gato andar no teclado durante uma demo.",
       "es": "Trabajar desde casa es genial hasta que tu gato camina sobre tu teclado durante una demo.",
-      "fr": "Le télétravail c'est génial jusqu'à ce que ton chat marche sur ton clavier pendant une démo.",
-      "de": "Homeoffice ist super, bis deine Katze während einer Demo über die Tastatur läuft.",
-      "it": "Lavorare da casa è fantastico finché il tuo gatto non cammina sulla tastiera durante una demo."
+      "fr": "Le teletravail c'est genial jusqu'a ce que ton chat marche sur ton clavier pendant une demo.",
+      "de": "Homeoffice ist super, bis deine Katze wahrend einer Demo uber die Tastatur lauft.",
+      "it": "Lavorare da casa e fantastico finche il tuo gatto non cammina sulla tastiera durante una demo."
     },
     "difficulty": "medium",
     "category": "casual"
@@ -606,10 +606,10 @@
     "english": "What mechanical keyboard are you using? I'm thinking of getting a new one.",
     "context": "Discussing desk setup and gear preferences",
     "translations": {
-      "pt-BR": "Qual teclado mecânico você usa? Tô pensando em comprar um novo.",
-      "es": "¿Qué teclado mecánico usas? Estoy pensando en comprar uno nuevo.",
-      "fr": "Tu utilises quel clavier mécanique ? Je pense en acheter un nouveau.",
-      "de": "Welche mechanische Tastatur benutzt du? Ich überlege, mir eine neue zu holen.",
+      "pt-BR": "Qual teclado mecanico voce usa? To pensando em comprar um novo.",
+      "es": "Que teclado mecanico usas? Estoy pensando en comprar uno nuevo.",
+      "fr": "Tu utilises quel clavier mecanique? Je pense en acheter un nouveau.",
+      "de": "Welche mechanische Tastatur benutzt du? Ich uberlege, mir eine neue zu holen.",
       "it": "Che tastiera meccanica usi? Sto pensando di prenderne una nuova."
     },
     "difficulty": "easy",
@@ -620,10 +620,10 @@
     "english": "I explained the problem to my rubber duck and actually found the solution.",
     "context": "Reference to rubber duck debugging technique",
     "translations": {
-      "pt-BR": "Expliquei o problema pro meu patinho de borracha e realmente encontrei a solução.",
-      "es": "Le expliqué el problema a mi patito de goma y realmente encontré la solución.",
-      "fr": "J'ai expliqué le problème à mon canard en caoutchouc et j'ai vraiment trouvé la solution.",
-      "de": "Ich habe das Problem meiner Gummiente erklärt und tatsächlich die Lösung gefunden.",
+      "pt-BR": "Expliquei o problema pro meu patinho de borracha e realmente encontrei a solucao.",
+      "es": "Le explique el problema a mi patito de goma y realmente encontre la solucion.",
+      "fr": "J'ai explique le probleme a mon canard en caoutchouc et j'ai vraiment trouve la solution.",
+      "de": "Ich habe das Problem meiner Gummiente erklart und tatsachlich die Losung gefunden.",
       "it": "Ho spiegato il problema alla mia paperella di gomma e ho trovato davvero la soluzione."
     },
     "difficulty": "medium",
@@ -634,11 +634,11 @@
     "english": "Anyone else feel like Mondays should be optional for developers?",
     "context": "Monday morning greetings and shared feelings",
     "translations": {
-      "pt-BR": "Mais alguém acha que segunda-feira deveria ser opcional pra devs?",
-      "es": "¿Alguien más siente que los lunes deberían ser opcionales para los desarrolladores?",
-      "fr": "Quelqu'un d'autre pense que les lundis devraient être optionnels pour les développeurs ?",
-      "de": "Findet noch jemand, dass Montage für Entwickler optional sein sollten?",
-      "it": "Qualcun altro pensa che i lunedì dovrebbero essere opzionali per gli sviluppatori?"
+      "pt-BR": "Mais alguem acha que segunda-feira deveria ser opcional pra devs?",
+      "es": "Alguien mas siente que los lunes deberian ser opcionales para los desarrolladores?",
+      "fr": "Quelqu'un d'autre pense que les lundis devraient etre optionnels pour les developpeurs?",
+      "de": "Findet noch jemand, dass Montage fur Entwickler optional sein sollten?",
+      "it": "Qualcun altro pensa che i lunedi dovrebbero essere opzionali per gli sviluppatori?"
     },
     "difficulty": "easy",
     "category": "casual"
@@ -648,11 +648,11 @@
     "english": "I just discovered this VS Code extension and it's a total game changer.",
     "context": "Sharing a new tool or framework discovery",
     "translations": {
-      "pt-BR": "Acabei de descobrir essa extensão do VS Code e mudou completamente meu jogo.",
-      "es": "Acabo de descubrir esta extensión de VS Code y es un cambio total.",
-      "fr": "Je viens de découvrir cette extension VS Code et c'est révolutionnaire.",
+      "pt-BR": "Acabei de descobrir essa extensao do VS Code e mudou completamente meu jogo.",
+      "es": "Acabo de descubrir esta extension de VS Code y es un cambio total.",
+      "fr": "Je viens de decouvrir cette extension VS Code et c'est revolutionnaire.",
       "de": "Ich habe gerade diese VS Code-Erweiterung entdeckt und sie ist ein absoluter Gamechanger.",
-      "it": "Ho appena scoperto questa estensione di VS Code ed è una svolta totale."
+      "it": "Ho appena scoperto questa estensione di VS Code ed e una svolta totale."
     },
     "difficulty": "easy",
     "category": "casual"
@@ -662,11 +662,11 @@
     "english": "The funniest error message I ever got was 'success: operation failed successfully'.",
     "context": "Sharing funny error messages encountered",
     "translations": {
-      "pt-BR": "A mensagem de erro mais engraçada que já recebi foi 'sucesso: operação falhou com sucesso'.",
-      "es": "El mensaje de error más gracioso que he recibido fue 'éxito: la operación falló exitosamente'.",
-      "fr": "Le message d'erreur le plus drôle que j'ai vu c'était 'succès : l'opération a échoué avec succès'.",
+      "pt-BR": "A mensagem de erro mais engracada que ja recebi foi 'sucesso: operacao falhou com sucesso'.",
+      "es": "El mensaje de error mas gracioso que he recibido fue 'exito: la operacion fallo exitosamente'.",
+      "fr": "Le message d'erreur le plus drole que j'ai vu c'etait 'succes: l'operation a echoue avec succes'.",
       "de": "Die lustigste Fehlermeldung, die ich je bekommen habe, war 'Erfolg: Operation erfolgreich fehlgeschlagen'.",
-      "it": "Il messaggio di errore più divertente che abbia mai ricevuto è stato 'successo: operazione fallita con successo'."
+      "it": "Il messaggio di errore piu divertente che abbia mai ricevuto e stato 'successo: operazione fallita con successo'."
     },
     "difficulty": "hard",
     "category": "casual"
@@ -676,9 +676,9 @@
     "english": "Want to grab lunch? I need a break from staring at this merge conflict.",
     "context": "Team lunch planning during a tough work session",
     "translations": {
-      "pt-BR": "Quer almoçar? Preciso de uma pausa de ficar olhando pra esse conflito de merge.",
-      "es": "¿Quieres ir a almorzar? Necesito un descanso de mirar este conflicto de merge.",
-      "fr": "On va manger ? J'ai besoin d'une pause, je fixe ce conflit de merge.",
+      "pt-BR": "Quer almocar? Preciso de uma pausa de ficar olhando pra esse conflito de merge.",
+      "es": "Quieres ir a almorzar? Necesito un descanso de mirar este conflicto de merge.",
+      "fr": "On va manger? J'ai besoin d'une pause, je fixe ce conflit de merge.",
       "de": "Wollen wir Mittagessen gehen? Ich brauche eine Pause von diesem Merge-Konflikt.",
       "it": "Andiamo a pranzo? Ho bisogno di una pausa da questo conflitto di merge."
     },
@@ -691,12 +691,992 @@
     "context": "Chatting with a coworker about a personal coding project",
     "translations": {
       "pt-BR": "Tenho mexido num projeto pessoal usando Rust, quer saber mais?",
-      "es": "He estado trabajando en un proyecto personal usando Rust, ¿quieres que te cuente?",
-      "fr": "Je bidouille un side project en Rust, tu veux que je t'en parle ?",
-      "de": "Ich bastle an einem Nebenprojekt in Rust, willst du davon hören?",
+      "es": "He estado trabajando en un proyecto personal usando Rust, quieres que te cuente?",
+      "fr": "Je bidouille un side project en Rust, tu veux que je t'en parle?",
+      "de": "Ich bastle an einem Nebenprojekt in Rust, willst du davon horen?",
       "it": "Sto smanettando con un progetto personale in Rust, vuoi sentirne parlare?"
     },
     "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_051",
+    "english": "Are you going to that tech conference next month?",
+    "context": "Asking a colleague about upcoming tech events",
+    "translations": {
+      "pt-BR": "Voce vai naquela conferencia de tecnologia mes que vem?",
+      "es": "Vas a ir a esa conferencia de tecnologia el proximo mes?",
+      "fr": "Tu vas a cette conference tech le mois prochain?",
+      "de": "Gehst du nachsten Monat zu dieser Tech-Konferenz?",
+      "it": "Vai a quella conferenza tech il mese prossimo?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_052",
+    "english": "I finally upgraded my home office monitor, it makes such a difference.",
+    "context": "Discussing home office setup improvements",
+    "translations": {
+      "pt-BR": "Finalmente troquei o monitor do meu home office, faz muita diferenca.",
+      "es": "Por fin mejore el monitor de mi oficina en casa, hace una gran diferencia.",
+      "fr": "J'ai enfin ameliore mon ecran de bureau a la maison, ca change tout.",
+      "de": "Ich habe endlich meinen Homeoffice-Monitor aufgerustet, das macht so einen Unterschied.",
+      "it": "Ho finalmente aggiornato il monitor del mio ufficio a casa, fa una differenza enorme."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_053",
+    "english": "What podcast do you listen to while coding?",
+    "context": "Asking for podcast recommendations during work",
+    "translations": {
+      "pt-BR": "Qual podcast voce ouve enquanto programa?",
+      "es": "Que podcast escuchas mientras programas?",
+      "fr": "Tu ecoutes quel podcast en codant?",
+      "de": "Welchen Podcast horst du beim Programmieren?",
+      "it": "Che podcast ascolti mentre programmi?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_054",
+    "english": "Someone brought donuts to the office, they're in the kitchen!",
+    "context": "Announcing free food in the office break room",
+    "translations": {
+      "pt-BR": "Alguem trouxe donuts pro escritorio, estao na cozinha!",
+      "es": "Alguien trajo donas a la oficina, estan en la cocina!",
+      "fr": "Quelqu'un a apporte des beignets au bureau, ils sont dans la cuisine!",
+      "de": "Jemand hat Donuts ins Buro mitgebracht, sie sind in der Kuche!",
+      "it": "Qualcuno ha portato ciambelle in ufficio, sono in cucina!"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_055",
+    "english": "Do you play any video games, or is coding enough screen time for you?",
+    "context": "Asking about hobbies and gaming outside of work",
+    "translations": {
+      "pt-BR": "Voce joga algum video game, ou programar ja e tempo de tela suficiente?",
+      "es": "Juegas algun videojuego, o programar ya es suficiente tiempo de pantalla?",
+      "fr": "Tu joues a des jeux video, ou le code c'est deja assez d'ecran pour toi?",
+      "de": "Spielst du Videospiele, oder ist Programmieren genug Bildschirmzeit fur dich?",
+      "it": "Giochi ai videogiochi, o programmare e gia abbastanza tempo davanti allo schermo?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_056",
+    "english": "I have back-to-back meetings all afternoon, I won't get anything done.",
+    "context": "Complaining about a packed meeting schedule",
+    "translations": {
+      "pt-BR": "Tenho reunioes seguidas a tarde toda, nao vou conseguir fazer nada.",
+      "es": "Tengo reuniones consecutivas toda la tarde, no voy a lograr hacer nada.",
+      "fr": "J'ai des reunions dos a dos tout l'apres-midi, je ne vais rien pouvoir faire.",
+      "de": "Ich habe den ganzen Nachmittag Meetings am Stuck, ich werde nichts schaffen.",
+      "it": "Ho riunioni una dopo l'altra tutto il pomeriggio, non riusciro a fare niente."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_057",
+    "english": "Have you seen how many stars that open source project got overnight?",
+    "context": "Discussing trending GitHub repositories",
+    "translations": {
+      "pt-BR": "Voce viu quantas estrelas aquele projeto open source ganhou da noite pro dia?",
+      "es": "Has visto cuantas estrellas consiguio ese proyecto open source de la noche a la manana?",
+      "fr": "Tu as vu combien d'etoiles ce projet open source a eu du jour au lendemain?",
+      "de": "Hast du gesehen, wie viele Sterne dieses Open-Source-Projekt uber Nacht bekommen hat?",
+      "it": "Hai visto quante stelle ha preso quel progetto open source in una notte?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_058",
+    "english": "The weather is so nice today, I wish I could code outside.",
+    "context": "Weather and commute small talk at the office",
+    "translations": {
+      "pt-BR": "O tempo esta tao bom hoje, queria poder programar la fora.",
+      "es": "El clima esta tan lindo hoy, ojala pudiera programar afuera.",
+      "fr": "Il fait tellement beau aujourd'hui, j'aimerais pouvoir coder dehors.",
+      "de": "Das Wetter ist so schon heute, ich wunschte, ich konnte draussen programmieren.",
+      "it": "Il tempo e cosi bello oggi, vorrei poter programmare fuori."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_059",
+    "english": "I'm thinking about getting a certification, do you think it's worth it?",
+    "context": "Career growth conversation about professional certifications",
+    "translations": {
+      "pt-BR": "Estou pensando em tirar uma certificacao, voce acha que vale a pena?",
+      "es": "Estoy pensando en sacar una certificacion, crees que vale la pena?",
+      "fr": "Je pense passer une certification, tu penses que ca vaut le coup?",
+      "de": "Ich uberlege, eine Zertifizierung zu machen, denkst du, das lohnt sich?",
+      "it": "Sto pensando di prendere una certificazione, pensi che ne valga la pena?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_060",
+    "english": "My desk plant is the only thing keeping me sane during long debugging sessions.",
+    "context": "Joking about office plants and workspace personalization",
+    "translations": {
+      "pt-BR": "Minha planta na mesa e a unica coisa que me mantem sao durante longas sessoes de debug.",
+      "es": "Mi planta del escritorio es lo unico que me mantiene cuerdo durante largas sesiones de depuracion.",
+      "fr": "Ma plante de bureau est la seule chose qui me garde sain d'esprit pendant les longues sessions de debogage.",
+      "de": "Meine Schreibtischpflanze ist das Einzige, was mich bei langen Debug-Sitzungen bei Verstand halt.",
+      "it": "La mia pianta sulla scrivania e l'unica cosa che mi tiene sano di mente durante le lunghe sessioni di debug."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_061",
+    "english": "What kind of music do you listen to while coding? I can't focus without lo-fi beats.",
+    "context": "Discussing music preferences during work",
+    "translations": {
+      "pt-BR": "Que tipo de musica voce ouve enquanto programa? Eu nao consigo focar sem lo-fi.",
+      "es": "Que tipo de musica escuchas mientras programas? No puedo concentrarme sin lo-fi.",
+      "fr": "Quel genre de musique tu ecoutes en codant? Je ne peux pas me concentrer sans du lo-fi.",
+      "de": "Was fur Musik horst du beim Programmieren? Ich kann mich ohne Lo-fi nicht konzentrieren.",
+      "it": "Che tipo di musica ascolti mentre programmi? Non riesco a concentrarmi senza lo-fi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_062",
+    "english": "The printer is jammed again, does anyone actually know how to fix it?",
+    "context": "Classic office IT frustration with shared equipment",
+    "translations": {
+      "pt-BR": "A impressora travou de novo, alguem realmente sabe consertar?",
+      "es": "La impresora se atasco otra vez, alguien realmente sabe como arreglarla?",
+      "fr": "L'imprimante est encore bloquee, quelqu'un sait vraiment comment la reparer?",
+      "de": "Der Drucker hat sich wieder verklemmt, weiss jemand wirklich, wie man ihn repariert?",
+      "it": "La stampante si e inceppata di nuovo, qualcuno sa davvero come ripararla?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_063",
+    "english": "Have you tried that AI coding assistant? It's surprisingly good at boilerplate.",
+    "context": "Discussing new AI tools and their impact on development",
+    "translations": {
+      "pt-BR": "Voce ja experimentou aquele assistente de codigo com IA? E surpreendentemente bom pra boilerplate.",
+      "es": "Has probado ese asistente de programacion con IA? Es sorprendentemente bueno para boilerplate.",
+      "fr": "Tu as essaye cet assistant de code IA? C'est etonnamment bon pour le boilerplate.",
+      "de": "Hast du diesen KI-Coding-Assistenten ausprobiert? Er ist uberraschend gut bei Boilerplate.",
+      "it": "Hai provato quell'assistente di programmazione con IA? E sorprendentemente bravo col boilerplate."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_064",
+    "english": "Does the company cover conference tickets or do we have to pay out of pocket?",
+    "context": "Asking about company benefits for professional development",
+    "translations": {
+      "pt-BR": "A empresa cobre ingressos de conferencia ou temos que pagar do bolso?",
+      "es": "La empresa cubre las entradas de conferencias o tenemos que pagar de nuestro bolsillo?",
+      "fr": "L'entreprise prend en charge les billets de conference ou on doit payer de notre poche?",
+      "de": "Ubernimmt die Firma Konferenztickets oder mussen wir selbst zahlen?",
+      "it": "L'azienda copre i biglietti per le conferenze o dobbiamo pagare di tasca nostra?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_065",
+    "english": "I covered my laptop with developer stickers, there's no space left.",
+    "context": "Talking about developer swag and sticker collections",
+    "translations": {
+      "pt-BR": "Cobri meu notebook com adesivos de dev, nao tem mais espaco.",
+      "es": "Llene mi laptop de stickers de desarrollador, ya no queda espacio.",
+      "fr": "J'ai couvert mon laptop de stickers de dev, il n'y a plus de place.",
+      "de": "Ich habe meinen Laptop mit Entwickler-Stickern beklebt, es ist kein Platz mehr.",
+      "it": "Ho coperto il mio portatile di adesivi da sviluppatore, non c'e piu spazio."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_066",
+    "english": "I prefer working from home but I miss the office snacks honestly.",
+    "context": "Remote vs office debate with a touch of humor",
+    "translations": {
+      "pt-BR": "Prefiro trabalhar de casa mas sinto falta dos lanches do escritorio sinceramente.",
+      "es": "Prefiero trabajar desde casa pero sinceramente extrano los snacks de la oficina.",
+      "fr": "Je prefere travailler de chez moi mais les snacks du bureau me manquent franchement.",
+      "de": "Ich arbeite lieber von zu Hause, aber die Snacks im Buro vermisse ich ehrlich gesagt.",
+      "it": "Preferisco lavorare da casa ma sinceramente mi mancano gli spuntini dell'ufficio."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_067",
+    "english": "Who's organizing the holiday party this year? We need to start planning.",
+    "context": "End-of-year party planning conversation",
+    "translations": {
+      "pt-BR": "Quem esta organizando a festa de fim de ano? Precisamos comecar a planejar.",
+      "es": "Quien organiza la fiesta de fin de ano? Necesitamos empezar a planear.",
+      "fr": "Qui organise la fete de fin d'annee cette annee? On doit commencer a planifier.",
+      "de": "Wer organisiert dieses Jahr die Weihnachtsfeier? Wir mussen anfangen zu planen.",
+      "it": "Chi organizza la festa di fine anno quest'anno? Dobbiamo iniziare a pianificare."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_068",
+    "english": "My two monitors aren't enough anymore, I think I need a third one.",
+    "context": "Joking about needing more screen real estate",
+    "translations": {
+      "pt-BR": "Meus dois monitores nao sao mais suficientes, acho que preciso de um terceiro.",
+      "es": "Mis dos monitores ya no son suficientes, creo que necesito un tercero.",
+      "fr": "Mes deux ecrans ne suffisent plus, je pense qu'il m'en faut un troisieme.",
+      "de": "Meine zwei Monitore reichen nicht mehr, ich glaube ich brauche einen dritten.",
+      "it": "I miei due monitor non bastano piu, penso di aver bisogno di un terzo."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_069",
+    "english": "I just contributed to an open source project for the first time, it felt amazing.",
+    "context": "Sharing excitement about first open source contribution",
+    "translations": {
+      "pt-BR": "Acabei de contribuir para um projeto open source pela primeira vez, foi incrivel.",
+      "es": "Acabo de contribuir a un proyecto open source por primera vez, se sintio increible.",
+      "fr": "Je viens de contribuer a un projet open source pour la premiere fois, c'etait genial.",
+      "de": "Ich habe gerade zum ersten Mal zu einem Open-Source-Projekt beigetragen, das war ein tolles Gefuhl.",
+      "it": "Ho appena contribuito a un progetto open source per la prima volta, e stato fantastico."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_070",
+    "english": "Traffic was insane this morning, I should have just worked from home.",
+    "context": "Complaining about the morning commute",
+    "translations": {
+      "pt-BR": "O transito estava impossivel hoje de manha, deveria ter trabalhado de casa.",
+      "es": "El trafico estaba terrible esta manana, deberia haber trabajado desde casa.",
+      "fr": "Le trafic etait dingue ce matin, j'aurais du rester bosser de chez moi.",
+      "de": "Der Verkehr war heute Morgen wahnsinnig, ich hatte einfach von zu Hause arbeiten sollen.",
+      "it": "Il traffico era assurdo stamattina, avrei dovuto lavorare da casa."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_071",
+    "english": "Did you catch the keynote from WWDC? The new APIs look promising.",
+    "context": "Discussing a tech conference keynote presentation",
+    "translations": {
+      "pt-BR": "Voce assistiu a keynote da WWDC? As novas APIs parecem promissoras.",
+      "es": "Viste la keynote de la WWDC? Las nuevas APIs se ven prometedoras.",
+      "fr": "Tu as vu la keynote de la WWDC? Les nouvelles APIs ont l'air prometteuses.",
+      "de": "Hast du die Keynote von der WWDC gesehen? Die neuen APIs sehen vielversprechend aus.",
+      "it": "Hai visto la keynote della WWDC? Le nuove API sembrano promettenti."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_072",
+    "english": "I'm trying to maintain a better work-life balance this quarter, no more late nights.",
+    "context": "Discussing personal goals for work-life balance",
+    "translations": {
+      "pt-BR": "Estou tentando manter um melhor equilibrio entre trabalho e vida pessoal neste trimestre, chega de noites viradas.",
+      "es": "Estoy intentando mantener un mejor equilibrio trabajo-vida este trimestre, no mas noches largas.",
+      "fr": "J'essaie de maintenir un meilleur equilibre vie pro-vie perso ce trimestre, fini les nuits blanches.",
+      "de": "Ich versuche dieses Quartal eine bessere Work-Life-Balance zu halten, keine spaten Nachte mehr.",
+      "it": "Sto cercando di mantenere un migliore equilibrio vita-lavoro questo trimestre, basta nottate."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_073",
+    "english": "Our team building escape room last week was actually really fun.",
+    "context": "Reflecting on a recent team building activity",
+    "translations": {
+      "pt-BR": "A escape room de team building da semana passada foi muito divertida na verdade.",
+      "es": "La sala de escape de team building de la semana pasada fue realmente muy divertida.",
+      "fr": "L'escape room de team building de la semaine derniere etait vraiment super.",
+      "de": "Unser Team-Building-Escape-Room letzte Woche hat tatsachlich richtig Spass gemacht.",
+      "it": "L'escape room di team building della settimana scorsa e stata davvero divertente."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_074",
+    "english": "I'm thinking of applying for a senior role, do you have any tips?",
+    "context": "Career growth conversation about leveling up",
+    "translations": {
+      "pt-BR": "Estou pensando em me candidatar para uma vaga senior, voce tem alguma dica?",
+      "es": "Estoy pensando en aplicar para un puesto senior, tienes algun consejo?",
+      "fr": "Je pense postuler pour un poste senior, tu as des conseils?",
+      "de": "Ich uberlege mich fur eine Senior-Stelle zu bewerben, hast du Tipps?",
+      "it": "Sto pensando di candidarmi per un ruolo senior, hai qualche consiglio?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_075",
+    "english": "The office dog is here today, my productivity just dropped to zero.",
+    "context": "Joking about an office pet being a distraction",
+    "translations": {
+      "pt-BR": "O cachorro do escritorio esta aqui hoje, minha produtividade caiu a zero.",
+      "es": "El perro de la oficina esta aqui hoy, mi productividad cayo a cero.",
+      "fr": "Le chien du bureau est la aujourd'hui, ma productivite vient de tomber a zero.",
+      "de": "Der Burohund ist heute da, meine Produktivitat ist gerade auf null gefallen.",
+      "it": "Il cane dell'ufficio e qui oggi, la mia produttivita e appena scesa a zero."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_076",
+    "english": "I can't code in silence, I always need some background noise.",
+    "context": "Discussing coding environment preferences",
+    "translations": {
+      "pt-BR": "Nao consigo programar em silencio, sempre preciso de algum ruido de fundo.",
+      "es": "No puedo programar en silencio, siempre necesito algun ruido de fondo.",
+      "fr": "Je ne peux pas coder en silence, j'ai toujours besoin d'un bruit de fond.",
+      "de": "Ich kann nicht in Stille programmieren, ich brauche immer Hintergrundgerausche.",
+      "it": "Non riesco a programmare in silenzio, ho sempre bisogno di un rumore di fondo."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_077",
+    "english": "The client just called an emergency meeting at five on a Friday.",
+    "context": "Frustration about poorly timed meetings",
+    "translations": {
+      "pt-BR": "O cliente acabou de marcar uma reuniao de emergencia as cinco numa sexta.",
+      "es": "El cliente acaba de convocar una reunion de emergencia a las cinco un viernes.",
+      "fr": "Le client vient de convoquer une reunion d'urgence a dix-sept heures un vendredi.",
+      "de": "Der Kunde hat gerade ein Notfall-Meeting um funf an einem Freitag einberufen.",
+      "it": "Il cliente ha appena convocato una riunione d'emergenza alle cinque di venerdi."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_078",
+    "english": "Everyone is talking about AI replacing developers, but I think it just makes us faster.",
+    "context": "Discussing AI trends and their impact on the profession",
+    "translations": {
+      "pt-BR": "Todo mundo fala sobre IA substituindo desenvolvedores, mas acho que ela so nos torna mais rapidos.",
+      "es": "Todos hablan de que la IA reemplazara a los desarrolladores, pero creo que solo nos hace mas rapidos.",
+      "fr": "Tout le monde parle de l'IA qui remplace les developpeurs, mais je pense que ca nous rend juste plus rapides.",
+      "de": "Alle reden davon, dass KI Entwickler ersetzt, aber ich denke, sie macht uns nur schneller.",
+      "it": "Tutti parlano di IA che sostituisce gli sviluppatori, ma penso che ci renda solo piu veloci."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_079",
+    "english": "Do we get free lunch on Fridays or was that just a rumor?",
+    "context": "Asking about company perks and benefits",
+    "translations": {
+      "pt-BR": "Temos almoco gratis nas sextas ou isso era so um boato?",
+      "es": "Tenemos almuerzo gratis los viernes o eso era solo un rumor?",
+      "fr": "On a le dejeuner gratuit le vendredi ou c'etait juste une rumeur?",
+      "de": "Gibt es freitags kostenloses Mittagessen oder war das nur ein Gerucht?",
+      "it": "Abbiamo il pranzo gratis il venerdi o era solo un pettegolezzo?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_080",
+    "english": "I reorganized my whole desk setup over the weekend, want to see a photo?",
+    "context": "Sharing workspace personalization with a colleague",
+    "translations": {
+      "pt-BR": "Reorganizei toda a minha mesa no fim de semana, quer ver uma foto?",
+      "es": "Reorganice toda mi mesa el fin de semana, quieres ver una foto?",
+      "fr": "J'ai reorganise tout mon bureau ce week-end, tu veux voir une photo?",
+      "de": "Ich habe am Wochenende meinen ganzen Schreibtisch umorganisiert, willst du ein Foto sehen?",
+      "it": "Ho riorganizzato tutta la mia scrivania nel weekend, vuoi vedere una foto?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_081",
+    "english": "I got the coolest swag at that hackathon, a hoodie with a terminal print on it.",
+    "context": "Showing off developer merchandise from an event",
+    "translations": {
+      "pt-BR": "Ganhei o melhor brinde naquele hackathon, um moletom com estampa de terminal.",
+      "es": "Consegui el mejor regalo en ese hackathon, una sudadera con un estampado de terminal.",
+      "fr": "J'ai eu le meilleur goodies a ce hackathon, un sweat avec un imprime de terminal.",
+      "de": "Ich habe den coolsten Merch bei diesem Hackathon bekommen, einen Hoodie mit Terminal-Aufdruck.",
+      "it": "Ho preso il gadget piu bello a quell'hackathon, una felpa con una stampa del terminale."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_082",
+    "english": "Three days in the office and two from home is the perfect balance for me.",
+    "context": "Discussing hybrid work preferences",
+    "translations": {
+      "pt-BR": "Tres dias no escritorio e dois de casa e o equilibrio perfeito pra mim.",
+      "es": "Tres dias en la oficina y dos desde casa es el equilibrio perfecto para mi.",
+      "fr": "Trois jours au bureau et deux de chez moi c'est l'equilibre parfait pour moi.",
+      "de": "Drei Tage im Buro und zwei von zu Hause ist die perfekte Balance fur mich.",
+      "it": "Tre giorni in ufficio e due da casa e l'equilibrio perfetto per me."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_083",
+    "english": "Happy holidays everyone, enjoy the break and try not to check Slack!",
+    "context": "Holiday season farewell message to the team",
+    "translations": {
+      "pt-BR": "Boas festas a todos, aproveitem a folga e tentem nao checar o Slack!",
+      "es": "Felices fiestas a todos, disfruten el descanso y traten de no revisar Slack!",
+      "fr": "Bonnes fetes a tous, profitez de la pause et essayez de ne pas regarder Slack!",
+      "de": "Schone Feiertage allerseits, geniesst die Pause und versucht nicht, Slack zu checken!",
+      "it": "Buone feste a tutti, godetevi la pausa e cercate di non controllare Slack!"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_084",
+    "english": "The coffee machine broke again, this is officially a crisis.",
+    "context": "Dramatic reaction to the office coffee machine being out of order",
+    "translations": {
+      "pt-BR": "A maquina de cafe quebrou de novo, isso oficialmente e uma crise.",
+      "es": "La maquina de cafe se descompuso otra vez, esto oficialmente es una crisis.",
+      "fr": "La machine a cafe est encore en panne, c'est officiellement une crise.",
+      "de": "Die Kaffeemaschine ist wieder kaputt, das ist offiziell eine Krise.",
+      "it": "La macchina del caffe si e rotta di nuovo, questa e ufficialmente una crisi."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_085",
+    "english": "I just got promoted to tech lead, drinks are on me tonight!",
+    "context": "Celebrating a career milestone with colleagues",
+    "translations": {
+      "pt-BR": "Acabei de ser promovido a tech lead, as bebidas sao por minha conta hoje!",
+      "es": "Acabo de ser promovido a tech lead, las bebidas corren por mi cuenta esta noche!",
+      "fr": "Je viens d'etre promu tech lead, c'est ma tournee ce soir!",
+      "de": "Ich wurde gerade zum Tech Lead befordert, heute Abend gebe ich einen aus!",
+      "it": "Sono appena stato promosso a tech lead, stasera offro io!"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_086",
+    "english": "I can't believe they scheduled a mandatory fun event during peak sprint time.",
+    "context": "Ironic comment about forced team activities at busy times",
+    "translations": {
+      "pt-BR": "Nao acredito que marcaram um evento obrigatorio de diversao no pico do sprint.",
+      "es": "No puedo creer que programaron un evento de diversion obligatorio en pleno sprint.",
+      "fr": "Je n'arrive pas a croire qu'ils ont programme un evenement fun obligatoire en plein sprint.",
+      "de": "Ich kann nicht glauben, dass sie ein Pflicht-Spass-Event mitten im Sprint geplant haben.",
+      "it": "Non posso credere che abbiano programmato un evento di divertimento obbligatorio nel mezzo dello sprint."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_087",
+    "english": "I heard the startup across the street has a nap room, should we ask for one too?",
+    "context": "Joking about trendy office perks at other companies",
+    "translations": {
+      "pt-BR": "Ouvi dizer que a startup do outro lado da rua tem sala de soneca, deveriamos pedir uma tambem?",
+      "es": "Escuche que la startup de enfrente tiene sala de siesta, deberiamos pedir una tambien?",
+      "fr": "J'ai entendu dire que la startup d'en face a une salle de sieste, on devrait en demander une aussi?",
+      "de": "Ich habe gehort, das Startup gegenuber hat einen Schlafraum, sollten wir auch nach einem fragen?",
+      "it": "Ho sentito che la startup dall'altra parte della strada ha una stanza per i pisolini, dovremmo chiederne una anche noi?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_088",
+    "english": "I ran into our CTO at the gym yesterday, that was kind of awkward.",
+    "context": "Casual story about bumping into colleagues outside work",
+    "translations": {
+      "pt-BR": "Encontrei nosso CTO na academia ontem, foi meio constrangedor.",
+      "es": "Me encontre con nuestro CTO en el gimnasio ayer, fue un poco incomodo.",
+      "fr": "J'ai croise notre CTO a la salle de sport hier, c'etait un peu genant.",
+      "de": "Ich bin gestern im Fitnessstudio unserem CTO begegnet, das war etwas unangenehm.",
+      "it": "Ho incontrato il nostro CTO in palestra ieri, e stato un po' imbarazzante."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_089",
+    "english": "I subscribed to way too many tech newsletters, my inbox is drowning.",
+    "context": "Complaining about information overload from tech content",
+    "translations": {
+      "pt-BR": "Me inscrevi em newsletters de tecnologia demais, minha caixa de entrada esta afogando.",
+      "es": "Me suscribi a demasiados newsletters de tecnologia, mi bandeja de entrada se esta ahogando.",
+      "fr": "Je me suis inscrit a trop de newsletters tech, ma boite mail est noyee.",
+      "de": "Ich habe viel zu viele Tech-Newsletter abonniert, mein Posteingang geht unter.",
+      "it": "Mi sono iscritto a troppe newsletter tech, la mia casella di posta sta annegando."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_090",
+    "english": "Who wants to do a snack run? I'm going to the convenience store.",
+    "context": "Offering to pick up snacks for the team",
+    "translations": {
+      "pt-BR": "Quem quer que eu traga lanche? Vou na lojinha.",
+      "es": "Quien quiere que le traiga algo? Voy a la tienda de la esquina.",
+      "fr": "Qui veut que je ramene des snacks? Je vais a l'epicerie.",
+      "de": "Wer will Snacks? Ich gehe zum Kiosk.",
+      "it": "Chi vuole che porti degli snack? Vado al negozio."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_091",
+    "english": "I've been learning a new language on Duolingo, Japanese is way harder than JavaScript.",
+    "context": "Sharing a hobby and making a coding comparison joke",
+    "translations": {
+      "pt-BR": "Estou aprendendo uma nova lingua no Duolingo, japones e muito mais dificil que JavaScript.",
+      "es": "Estoy aprendiendo un nuevo idioma en Duolingo, japones es mucho mas dificil que JavaScript.",
+      "fr": "J'apprends une nouvelle langue sur Duolingo, le japonais c'est bien plus dur que le JavaScript.",
+      "de": "Ich lerne eine neue Sprache auf Duolingo, Japanisch ist viel schwerer als JavaScript.",
+      "it": "Sto imparando una nuova lingua su Duolingo, il giapponese e molto piu difficile di JavaScript."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_092",
+    "english": "My internet went out during the standup, can someone catch me up?",
+    "context": "Asking for an update after a connectivity issue during a meeting",
+    "translations": {
+      "pt-BR": "Minha internet caiu durante a daily, alguem pode me atualizar?",
+      "es": "Se me cayo el internet durante la daily, alguien puede ponerme al dia?",
+      "fr": "Mon internet a plante pendant le standup, quelqu'un peut me faire un recap?",
+      "de": "Mein Internet ist wahrend des Standups ausgefallen, kann mich jemand auf den neuesten Stand bringen?",
+      "it": "Mi e caduta la connessione durante lo standup, qualcuno puo aggiornarmi?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_093",
+    "english": "I think I'm going to start running in the mornings, coding all day without exercise is rough.",
+    "context": "Discussing fitness and developer lifestyle",
+    "translations": {
+      "pt-BR": "Acho que vou comecar a correr de manha, programar o dia todo sem exercicio e pesado.",
+      "es": "Creo que voy a empezar a correr por las mananas, programar todo el dia sin ejercicio es duro.",
+      "fr": "Je pense que je vais commencer a courir le matin, coder toute la journee sans sport c'est dur.",
+      "de": "Ich denke, ich fange an morgens zu laufen, den ganzen Tag programmieren ohne Bewegung ist hart.",
+      "it": "Penso che iniziero a correre al mattino, programmare tutto il giorno senza fare esercizio e dura."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_094",
+    "english": "That YouTube tutorial saved me hours of reading documentation.",
+    "context": "Recommending a helpful tech video to a colleague",
+    "translations": {
+      "pt-BR": "Aquele tutorial no YouTube me economizou horas lendo documentacao.",
+      "es": "Ese tutorial de YouTube me ahorro horas de leer documentacion.",
+      "fr": "Ce tuto YouTube m'a fait gagner des heures de lecture de documentation.",
+      "de": "Dieses YouTube-Tutorial hat mir Stunden an Dokumentationslesen erspart.",
+      "it": "Quel tutorial su YouTube mi ha risparmiato ore di lettura della documentazione."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_095",
+    "english": "The AC is way too cold in here, I'm coding with a blanket on.",
+    "context": "Complaining about office temperature",
+    "translations": {
+      "pt-BR": "O ar-condicionado esta gelado demais aqui, estou programando com um cobertor.",
+      "es": "El aire acondicionado esta demasiado frio aqui, estoy programando con una manta.",
+      "fr": "La clim est beaucoup trop froide ici, je code avec une couverture.",
+      "de": "Die Klimaanlage ist viel zu kalt hier, ich programmiere mit einer Decke.",
+      "it": "L'aria condizionata e troppo fredda qui, sto programmando con una coperta addosso."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_096",
+    "english": "I'm putting together a reading list of tech books, any suggestions?",
+    "context": "Asking for book recommendations for professional development",
+    "translations": {
+      "pt-BR": "Estou montando uma lista de leitura de livros de tecnologia, alguma sugestao?",
+      "es": "Estoy armando una lista de lectura de libros de tecnologia, alguna sugerencia?",
+      "fr": "Je prepare une liste de lecture de livres tech, des suggestions?",
+      "de": "Ich stelle eine Leseliste mit Tech-Buchern zusammen, irgendwelche Vorschlage?",
+      "it": "Sto preparando una lista di lettura di libri tech, qualche suggerimento?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_097",
+    "english": "Our team Slack channel has more memes than actual work messages at this point.",
+    "context": "Joking about the team chat culture",
+    "translations": {
+      "pt-BR": "O canal do time no Slack tem mais memes do que mensagens de trabalho a essa altura.",
+      "es": "El canal del equipo en Slack tiene mas memes que mensajes de trabajo a estas alturas.",
+      "fr": "Notre canal Slack d'equipe a plus de memes que de vrais messages de travail a ce stade.",
+      "de": "Unser Team-Slack-Kanal hat mittlerweile mehr Memes als echte Arbeitsnachrichten.",
+      "it": "Il canale Slack del team ha piu meme che messaggi di lavoro a questo punto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_098",
+    "english": "I brought my own espresso machine to the office, best decision ever.",
+    "context": "Sharing a workspace personalization win",
+    "translations": {
+      "pt-BR": "Trouxe minha propria maquina de espresso pro escritorio, melhor decisao de todas.",
+      "es": "Traje mi propia maquina de espresso a la oficina, la mejor decision de todas.",
+      "fr": "J'ai apporte ma propre machine a espresso au bureau, meilleure decision de ma vie.",
+      "de": "Ich habe meine eigene Espressomaschine ins Buro mitgebracht, beste Entscheidung aller Zeiten.",
+      "it": "Ho portato la mia macchinetta del caffe in ufficio, la miglior decisione di sempre."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_099",
+    "english": "Remember when we thought the cloud was just a buzzword? Now everything runs on it.",
+    "context": "Reflecting on how tech trends evolved",
+    "translations": {
+      "pt-BR": "Lembra quando a gente achava que a nuvem era so uma palavra da moda? Agora tudo roda nela.",
+      "es": "Recuerdas cuando pensabamos que la nube era solo una palabra de moda? Ahora todo corre en ella.",
+      "fr": "Tu te souviens quand on pensait que le cloud n'etait qu'un buzzword? Maintenant tout tourne dessus.",
+      "de": "Erinnerst du dich, als wir dachten, die Cloud ware nur ein Buzzword? Jetzt lauft alles darauf.",
+      "it": "Ti ricordi quando pensavamo che il cloud fosse solo una parola di moda? Ora tutto gira li sopra."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_100",
+    "english": "Let me guess, you also have a hundred unfinished side projects on GitHub?",
+    "context": "Joking about the common developer habit of starting many projects",
+    "translations": {
+      "pt-BR": "Deixa eu adivinhar, voce tambem tem cem projetos inacabados no GitHub?",
+      "es": "Dejame adivinar, tu tambien tienes cien proyectos sin terminar en GitHub?",
+      "fr": "Laisse-moi deviner, tu as aussi cent projets inacheves sur GitHub?",
+      "de": "Lass mich raten, du hast auch hundert unfertige Nebenprojekte auf GitHub?",
+      "it": "Fammi indovinare, anche tu hai cento progetti incompiuti su GitHub?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_101",
+    "english": "I just realized I've been on mute for the last five minutes of the call.",
+    "context": "Embarrassing moment during a video meeting",
+    "translations": {
+      "pt-BR": "Acabei de perceber que estava no mudo nos ultimos cinco minutos da chamada.",
+      "es": "Acabo de darme cuenta de que estuve en silencio los ultimos cinco minutos de la llamada.",
+      "fr": "Je viens de realiser que j'etais en sourdine pendant les cinq dernieres minutes de l'appel.",
+      "de": "Ich habe gerade gemerkt, dass ich die letzten funf Minuten des Calls stumm geschaltet war.",
+      "it": "Ho appena realizzato che ero in muto negli ultimi cinque minuti della chiamata."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_102",
+    "english": "Did anyone else get that phishing email pretending to be from IT support?",
+    "context": "Discussing a suspicious email received at work",
+    "translations": {
+      "pt-BR": "Mais alguem recebeu aquele email de phishing fingindo ser do suporte de TI?",
+      "es": "Alguien mas recibio ese correo de phishing haciendose pasar por soporte de TI?",
+      "fr": "Quelqu'un d'autre a recu ce mail de phishing qui pretendait venir du support IT?",
+      "de": "Hat noch jemand diese Phishing-Mail bekommen, die so tat, als ware sie vom IT-Support?",
+      "it": "Qualcun altro ha ricevuto quell'email di phishing che fingeva di essere del supporto IT?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_103",
+    "english": "We should order pizza for the late night deployment session.",
+    "context": "Suggesting food for a team working late on a release",
+    "translations": {
+      "pt-BR": "Deveriamos pedir pizza pra sessao de deploy noturna.",
+      "es": "Deberiamos pedir pizza para la sesion nocturna de deploy.",
+      "fr": "On devrait commander des pizzas pour la session de deploiement de ce soir.",
+      "de": "Wir sollten Pizza bestellen fur die nachtliche Deployment-Session.",
+      "it": "Dovremmo ordinare pizza per la sessione di deploy notturna."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_104",
+    "english": "My one-on-one with the manager went really well, I feel valued on this team.",
+    "context": "Sharing positive feedback after a manager meeting",
+    "translations": {
+      "pt-BR": "Meu one-on-one com o gerente foi muito bem, me sinto valorizado nesse time.",
+      "es": "Mi one-on-one con el gerente fue muy bien, me siento valorado en este equipo.",
+      "fr": "Mon one-on-one avec le manager s'est super bien passe, je me sens valorise dans l'equipe.",
+      "de": "Mein Einzelgesprach mit dem Manager lief richtig gut, ich fuhle mich im Team wertgeschatzt.",
+      "it": "Il mio one-on-one con il manager e andato molto bene, mi sento valorizzato in questo team."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_105",
+    "english": "I just bought a new ergonomic chair and my back already feels better.",
+    "context": "Discussing home office gear upgrades",
+    "translations": {
+      "pt-BR": "Acabei de comprar uma cadeira ergonomica nova e minhas costas ja estao melhores.",
+      "es": "Acabo de comprar una silla ergonomica nueva y mi espalda ya se siente mejor.",
+      "fr": "Je viens d'acheter une nouvelle chaise ergonomique et mon dos se sent deja mieux.",
+      "de": "Ich habe mir gerade einen neuen ergonomischen Stuhl gekauft und mein Rucken fuhlt sich schon besser an.",
+      "it": "Ho appena comprato una sedia ergonomica nuova e la mia schiena sta gia meglio."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_106",
+    "english": "The intern asked me what Git is and I didn't know where to start explaining.",
+    "context": "Funny moment mentoring a newcomer",
+    "translations": {
+      "pt-BR": "O estagiario me perguntou o que e Git e eu nao sabia por onde comecar a explicar.",
+      "es": "El pasante me pregunto que es Git y no supe por donde empezar a explicar.",
+      "fr": "Le stagiaire m'a demande ce qu'est Git et je ne savais pas par ou commencer.",
+      "de": "Der Praktikant hat mich gefragt, was Git ist, und ich wusste nicht, wo ich anfangen sollte.",
+      "it": "Lo stagista mi ha chiesto cos'e Git e non sapevo da dove iniziare a spiegare."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_107",
+    "english": "I just found out we have a learning budget, I'm signing up for that online course immediately.",
+    "context": "Discovering and using a company benefit for education",
+    "translations": {
+      "pt-BR": "Acabei de descobrir que temos verba pra aprendizado, vou me inscrever naquele curso online agora mesmo.",
+      "es": "Acabo de enterarme de que tenemos presupuesto de aprendizaje, me inscribo en ese curso online de inmediato.",
+      "fr": "Je viens de decouvrir qu'on a un budget formation, je m'inscris a ce cours en ligne tout de suite.",
+      "de": "Ich habe gerade erfahren, dass wir ein Lernbudget haben, ich melde mich sofort fur diesen Online-Kurs an.",
+      "it": "Ho appena scoperto che abbiamo un budget per la formazione, mi iscrivo subito a quel corso online."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_108",
+    "english": "I keep watering this desk cactus and it still looks dead, am I doing something wrong?",
+    "context": "Humorous struggle with office plant care",
+    "translations": {
+      "pt-BR": "Continuo regando esse cacto de mesa e ele ainda parece morto, estou fazendo algo errado?",
+      "es": "Sigo regando este cactus de escritorio y sigue pareciendo muerto, estoy haciendo algo mal?",
+      "fr": "Je continue d'arroser ce cactus de bureau et il a toujours l'air mort, je fais quelque chose de mal?",
+      "de": "Ich giesse diesen Schreibtischkaktus standig und er sieht immer noch tot aus, mache ich was falsch?",
+      "it": "Continuo ad annaffiare questo cactus da scrivania e sembra ancora morto, sto facendo qualcosa di sbagliato?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_109",
+    "english": "I wore my company hoodie to brunch and someone asked me if I work in tech.",
+    "context": "Funny story about developer attire outside work",
+    "translations": {
+      "pt-BR": "Fui de moletom da empresa no brunch e alguem me perguntou se eu trabalho com tecnologia.",
+      "es": "Fui con la sudadera de la empresa al brunch y alguien me pregunto si trabajo en tech.",
+      "fr": "J'ai porte le sweat de l'entreprise au brunch et quelqu'un m'a demande si je travaillais dans la tech.",
+      "de": "Ich habe den Firmen-Hoodie beim Brunch getragen und jemand hat mich gefragt, ob ich in der Tech-Branche arbeite.",
+      "it": "Ho indossato la felpa dell'azienda al brunch e qualcuno mi ha chiesto se lavoro nel tech."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_110",
+    "english": "Is anyone else tired of Zoom calls or is it just me at this point?",
+    "context": "Video call fatigue discussion",
+    "translations": {
+      "pt-BR": "Mais alguem esta cansado de chamadas no Zoom ou sou so eu a essa altura?",
+      "es": "Alguien mas esta cansado de las llamadas de Zoom o soy solo yo a estas alturas?",
+      "fr": "Quelqu'un d'autre en a marre des appels Zoom ou c'est juste moi a ce stade?",
+      "de": "Ist noch jemand Zoom-Calls leid oder bin das nur ich mittlerweile?",
+      "it": "Qualcun altro e stanco delle chiamate Zoom o sono solo io a questo punto?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_111",
+    "english": "The new office building has a rooftop terrace, perfect for afternoon coding sessions.",
+    "context": "Talking about a new office space feature",
+    "translations": {
+      "pt-BR": "O novo predio do escritorio tem um terraco no telhado, perfeito pra sessoes de codigo a tarde.",
+      "es": "El nuevo edificio de la oficina tiene una terraza en la azotea, perfecta para sesiones de codigo por la tarde.",
+      "fr": "Le nouveau batiment du bureau a une terrasse sur le toit, parfait pour coder l'apres-midi.",
+      "de": "Das neue Burogebaude hat eine Dachterrasse, perfekt fur Coding-Sessions am Nachmittag.",
+      "it": "Il nuovo edificio dell'ufficio ha una terrazza sul tetto, perfetta per sessioni di programmazione al pomeriggio."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_112",
+    "english": "I accidentally left my mic on during lunch and the whole team heard me eating.",
+    "context": "Embarrassing remote work moment",
+    "translations": {
+      "pt-BR": "Esqueci meu microfone ligado durante o almoco e o time inteiro me ouviu comendo.",
+      "es": "Accidentalmente deje el microfono encendido durante el almuerzo y todo el equipo me escucho comiendo.",
+      "fr": "J'ai accidentellement laisse mon micro allume pendant le dejeuner et toute l'equipe m'a entendu manger.",
+      "de": "Ich habe versehentlich mein Mikro wahrend der Mittagspause angelassen und das ganze Team hat mich essen gehort.",
+      "it": "Ho accidentalmente lasciato il microfono acceso durante il pranzo e tutto il team mi ha sentito mangiare."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_113",
+    "english": "Want to join a board game night at my place this Saturday?",
+    "context": "Inviting colleagues to a social gathering outside work",
+    "translations": {
+      "pt-BR": "Quer vir pra uma noite de jogos de tabuleiro na minha casa neste sabado?",
+      "es": "Quieres venir a una noche de juegos de mesa en mi casa este sabado?",
+      "fr": "Tu veux venir a une soiree jeux de societe chez moi ce samedi?",
+      "de": "Hast du Lust auf einen Brettspielabend bei mir diesen Samstag?",
+      "it": "Vuoi venire a una serata di giochi da tavolo a casa mia questo sabato?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_114",
+    "english": "I tried to explain to my family what I do for a living and they still think I fix computers.",
+    "context": "Relatable humor about explaining software development to non-tech people",
+    "translations": {
+      "pt-BR": "Tentei explicar pra minha familia o que eu faco e eles ainda acham que eu conserto computadores.",
+      "es": "Intente explicar a mi familia lo que hago y todavia creen que arreglo computadoras.",
+      "fr": "J'ai essaye d'expliquer a ma famille ce que je fais et ils pensent encore que je repare des ordinateurs.",
+      "de": "Ich habe versucht meiner Familie zu erklaren, was ich beruflich mache, und sie denken immer noch, ich repariere Computer.",
+      "it": "Ho provato a spiegare alla mia famiglia cosa faccio per vivere e pensano ancora che ripari computer."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_115",
+    "english": "The free snack shelf is empty again, who's in charge of restocking?",
+    "context": "Asking about office snack supplies",
+    "translations": {
+      "pt-BR": "A prateleira de lanches gratis esta vazia de novo, quem e responsavel por reabastecer?",
+      "es": "La estanteria de snacks gratis esta vacia otra vez, quien se encarga de reponerla?",
+      "fr": "L'etagere des snacks gratuits est encore vide, qui s'occupe du reapprovisionnement?",
+      "de": "Das Regal mit den kostenlosen Snacks ist wieder leer, wer ist furs Auffallen zustandig?",
+      "it": "Lo scaffale degli snack gratis e vuoto di nuovo, chi si occupa di rifornirlo?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_116",
+    "english": "I just found a commit message from two years ago that says 'fix stuff', no context at all.",
+    "context": "Laughing at old unhelpful commit messages in the codebase",
+    "translations": {
+      "pt-BR": "Acabei de encontrar uma mensagem de commit de dois anos atras que diz 'corrigir coisas', sem contexto nenhum.",
+      "es": "Acabo de encontrar un mensaje de commit de hace dos anos que dice 'arreglar cosas', sin contexto alguno.",
+      "fr": "Je viens de trouver un message de commit d'il y a deux ans qui dit 'corriger trucs', aucun contexte.",
+      "de": "Ich habe gerade eine Commit-Nachricht von vor zwei Jahren gefunden, die 'Zeug fixen' sagt, null Kontext.",
+      "it": "Ho appena trovato un messaggio di commit di due anni fa che dice 'sistemare roba', senza contesto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_117",
+    "english": "Are you coming to the company picnic next weekend?",
+    "context": "Asking about attendance at a company social event",
+    "translations": {
+      "pt-BR": "Voce vai ao piquenique da empresa no proximo fim de semana?",
+      "es": "Vas al picnic de la empresa el proximo fin de semana?",
+      "fr": "Tu viens au pique-nique de l'entreprise le week-end prochain?",
+      "de": "Kommst du zum Firmenpicknick nachstes Wochenende?",
+      "it": "Vieni al picnic aziendale il prossimo fine settimana?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_118",
+    "english": "I need to update my LinkedIn profile, it still says junior developer from three years ago.",
+    "context": "Discussing online professional presence and career growth",
+    "translations": {
+      "pt-BR": "Preciso atualizar meu perfil no LinkedIn, ainda diz desenvolvedor junior de tres anos atras.",
+      "es": "Necesito actualizar mi perfil de LinkedIn, todavia dice desarrollador junior de hace tres anos.",
+      "fr": "Je dois mettre a jour mon profil LinkedIn, il dit encore developpeur junior d'il y a trois ans.",
+      "de": "Ich muss mein LinkedIn-Profil aktualisieren, da steht immer noch Junior-Entwickler von vor drei Jahren.",
+      "it": "Devo aggiornare il mio profilo LinkedIn, dice ancora sviluppatore junior di tre anni fa."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_119",
+    "english": "The elevator is broken so I took the stairs, that's my workout for the day.",
+    "context": "Light-hearted comment about an office inconvenience",
+    "translations": {
+      "pt-BR": "O elevador esta quebrado entao subi de escada, esse e meu exercicio do dia.",
+      "es": "El ascensor esta roto asi que subi por las escaleras, ese es mi ejercicio del dia.",
+      "fr": "L'ascenseur est en panne alors j'ai pris les escaliers, c'est mon sport de la journee.",
+      "de": "Der Aufzug ist kaputt, also bin ich die Treppe gelaufen, das war mein Training fur heute.",
+      "it": "L'ascensore e rotto quindi ho fatto le scale, questo e il mio allenamento del giorno."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_120",
+    "english": "I set up a Raspberry Pi as a dashboard for our build status, it looks awesome on my desk.",
+    "context": "Sharing a fun tech project for workspace personalization",
+    "translations": {
+      "pt-BR": "Montei um Raspberry Pi como painel do status dos nossos builds, fica incrivel na minha mesa.",
+      "es": "Monte una Raspberry Pi como dashboard del estado de nuestros builds, se ve genial en mi escritorio.",
+      "fr": "J'ai configure un Raspberry Pi comme tableau de bord pour le statut de nos builds, ca rend super sur mon bureau.",
+      "de": "Ich habe einen Raspberry Pi als Dashboard fur unseren Build-Status eingerichtet, sieht super aus auf meinem Schreibtisch.",
+      "it": "Ho configurato un Raspberry Pi come dashboard per lo stato delle nostre build, sta benissimo sulla mia scrivania."
+    },
+    "difficulty": "hard",
     "category": "casual"
   }
 ]

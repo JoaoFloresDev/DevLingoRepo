@@ -421,42 +421,42 @@
   },
   {
     "id": "interviews_031",
-    "english": "I have five years of experience working primarily with backend technologies.",
-    "context": "Introducing yourself at the start of a technical interview",
+    "english": "I thrive in environments where I can balance heads-down coding with collaborative problem solving.",
+    "context": "Describing your ideal work environment during an interview",
     "translations": {
-      "pt-BR": "Tenho cinco anos de experiência trabalhando principalmente com tecnologias de backend.",
-      "es": "Tengo cinco años de experiencia trabajando principalmente con tecnologías de backend.",
-      "fr": "J'ai cinq ans d'expérience, principalement dans les technologies backend.",
-      "de": "Ich habe fünf Jahre Erfahrung, hauptsächlich mit Backend-Technologien.",
-      "it": "Ho cinque anni di esperienza lavorando principalmente con tecnologie backend."
+      "pt-BR": "Eu prospero em ambientes onde posso equilibrar programação focada com resolução colaborativa de problemas.",
+      "es": "Prospero en entornos donde puedo equilibrar la programación enfocada con la resolución colaborativa de problemas.",
+      "fr": "Je m'épanouis dans les environnements où je peux alterner entre programmation concentrée et résolution collaborative de problèmes.",
+      "de": "Ich blühe in Umgebungen auf, in denen ich fokussiertes Programmieren mit kollaborativem Problemlösen verbinden kann.",
+      "it": "Do il meglio in ambienti dove posso bilanciare la programmazione concentrata con la risoluzione collaborativa dei problemi."
     },
     "difficulty": "easy",
     "category": "interviews"
   },
   {
     "id": "interviews_032",
-    "english": "Could you walk me through the day-to-day responsibilities of this role?",
-    "context": "Asking the interviewer about what the job actually involves",
+    "english": "Last year I had to pick up Go in two weeks for a new project — I learn new technologies quickly under pressure.",
+    "context": "Demonstrating ability to learn new technology rapidly",
     "translations": {
-      "pt-BR": "Você poderia me explicar as responsabilidades diárias dessa função?",
-      "es": "¿Podría explicarme las responsabilidades diarias de este puesto?",
-      "fr": "Pourriez-vous me décrire les responsabilités quotidiennes de ce poste ?",
-      "de": "Könnten Sie mir die täglichen Aufgaben dieser Rolle erläutern?",
-      "it": "Potrebbe illustrarmi le responsabilità quotidiane di questo ruolo?"
+      "pt-BR": "No ano passado tive que aprender Go em duas semanas para um projeto novo — aprendo novas tecnologias rapidamente sob pressão.",
+      "es": "El año pasado tuve que aprender Go en dos semanas para un proyecto nuevo — aprendo nuevas tecnologías rápidamente bajo presión.",
+      "fr": "L'année dernière, j'ai dû apprendre Go en deux semaines pour un nouveau projet — j'apprends rapidement les nouvelles technologies sous pression.",
+      "de": "Letztes Jahr musste ich Go in zwei Wochen für ein neues Projekt lernen — ich eigne mir neue Technologien schnell unter Druck an.",
+      "it": "L'anno scorso ho dovuto imparare Go in due settimane per un nuovo progetto — imparo nuove tecnologie velocemente sotto pressione."
     },
     "difficulty": "easy",
     "category": "interviews"
   },
   {
     "id": "interviews_033",
-    "english": "In my previous role, I led the migration from a monolithic architecture to microservices.",
-    "context": "Describing a significant past project during a technical interview",
+    "english": "When giving feedback, I always start with what's working well before suggesting improvements.",
+    "context": "Describing your approach to providing constructive feedback",
     "translations": {
-      "pt-BR": "Na minha função anterior, liderei a migração de uma arquitetura monolítica para microsserviços.",
-      "es": "En mi puesto anterior, lideré la migración de una arquitectura monolítica a microservicios.",
-      "fr": "Dans mon poste précédent, j'ai dirigé la migration d'une architecture monolithique vers des microservices.",
-      "de": "In meiner vorherigen Rolle habe ich die Migration von einer monolithischen Architektur zu Microservices geleitet.",
-      "it": "Nel mio ruolo precedente, ho guidato la migrazione da un'architettura monolitica ai microservizi."
+      "pt-BR": "Ao dar feedback, sempre começo pelo que está funcionando bem antes de sugerir melhorias.",
+      "es": "Al dar feedback, siempre empiezo por lo que funciona bien antes de sugerir mejoras.",
+      "fr": "Quand je donne du feedback, je commence toujours par ce qui fonctionne bien avant de suggérer des améliorations.",
+      "de": "Wenn ich Feedback gebe, beginne ich immer mit dem, was gut funktioniert, bevor ich Verbesserungen vorschlage.",
+      "it": "Quando do feedback, inizio sempre da ciò che funziona bene prima di suggerire miglioramenti."
     },
     "difficulty": "medium",
     "category": "interviews"
@@ -477,14 +477,14 @@
   },
   {
     "id": "interviews_035",
-    "english": "I'm looking for a role where I can grow into a technical lead position over time.",
-    "context": "Discussing career growth expectations with the interviewer",
+    "english": "One area I'm actively improving is my public speaking — I've started presenting at internal tech talks.",
+    "context": "Answering about areas of growth while showing initiative",
     "translations": {
-      "pt-BR": "Estou buscando uma posição onde eu possa crescer para um cargo de líder técnico ao longo do tempo.",
-      "es": "Busco un puesto donde pueda crecer hacia una posición de líder técnico con el tiempo.",
-      "fr": "Je recherche un poste où je puisse évoluer vers un rôle de responsable technique au fil du temps.",
-      "de": "Ich suche eine Rolle, in der ich mich im Laufe der Zeit zu einer technischen Führungsposition entwickeln kann.",
-      "it": "Cerco un ruolo in cui possa crescere fino a diventare un responsabile tecnico nel tempo."
+      "pt-BR": "Uma área que estou ativamente melhorando é minha comunicação em público — comecei a apresentar em tech talks internos.",
+      "es": "Un área que estoy mejorando activamente es mi oratoria — he empezado a presentar en charlas técnicas internas.",
+      "fr": "Un domaine que j'améliore activement est ma prise de parole en public — j'ai commencé à présenter lors de talks techniques internes.",
+      "de": "Ein Bereich, den ich aktiv verbessere, ist mein öffentliches Sprechen — ich habe angefangen, bei internen Tech-Talks zu präsentieren.",
+      "it": "Un'area che sto attivamente migliorando è parlare in pubblico — ho iniziato a presentare ai tech talk interni."
     },
     "difficulty": "easy",
     "category": "interviews"
@@ -505,14 +505,14 @@
   },
   {
     "id": "interviews_037",
-    "english": "What does the onboarding process look like for new engineers?",
-    "context": "Asking about what to expect when joining the team",
+    "english": "I contribute to open source in my spare time — it helps me stay sharp and give back to the community.",
+    "context": "Mentioning open source contributions as a way to show passion for coding",
     "translations": {
-      "pt-BR": "Como é o processo de integração para novos engenheiros?",
-      "es": "¿Cómo es el proceso de incorporación para nuevos ingenieros?",
-      "fr": "À quoi ressemble le processus d'intégration pour les nouveaux ingénieurs ?",
-      "de": "Wie sieht der Einarbeitungsprozess für neue Ingenieure aus?",
-      "it": "Come si svolge il processo di onboarding per i nuovi ingegneri?"
+      "pt-BR": "Contribuo para projetos open source no meu tempo livre — me ajuda a me manter afiado e retribuir à comunidade.",
+      "es": "Contribuyo a proyectos open source en mi tiempo libre — me ayuda a mantenerme en forma y devolver a la comunidad.",
+      "fr": "Je contribue à des projets open source pendant mon temps libre — ça m'aide à rester affûté et à contribuer à la communauté.",
+      "de": "Ich trage in meiner Freizeit zu Open-Source-Projekten bei — das hält mich fit und gibt der Community etwas zurück.",
+      "it": "Contribuisco a progetti open source nel mio tempo libero — mi aiuta a restare in forma e restituire alla community."
     },
     "difficulty": "easy",
     "category": "interviews"
@@ -533,14 +533,14 @@
   },
   {
     "id": "interviews_039",
-    "english": "My salary expectation is in the range of one hundred twenty to one hundred forty thousand, depending on the total compensation package.",
-    "context": "Discussing salary expectations when asked directly",
+    "english": "I'm looking to transition from an individual contributor role to a team lead position where I can still be hands-on.",
+    "context": "Discussing career transition goals from IC to engineering management",
     "translations": {
-      "pt-BR": "Minha expectativa salarial está na faixa de cento e vinte a cento e quarenta mil, dependendo do pacote de remuneração total.",
-      "es": "Mi expectativa salarial está en el rango de ciento veinte a ciento cuarenta mil, dependiendo del paquete de compensación total.",
-      "fr": "Mes attentes salariales se situent entre cent vingt et cent quarante mille, selon le package de rémunération global.",
-      "de": "Meine Gehaltsvorstellung liegt zwischen hundertzwanzig- und hundertvierzigtausend, je nach Gesamtvergütungspaket.",
-      "it": "La mia aspettativa salariale è nella fascia tra centoventi e centoquarantamila, a seconda del pacchetto retributivo complessivo."
+      "pt-BR": "Estou buscando a transição de contribuidor individual para líder de equipe onde eu ainda possa ser mão na massa.",
+      "es": "Busco hacer la transición de contribuidor individual a líder de equipo donde aún pueda ser práctico.",
+      "fr": "Je cherche à passer d'un rôle de contributeur individuel à un poste de lead d'équipe où je peux encore être opérationnel.",
+      "de": "Ich möchte von einer Individual-Contributor-Rolle zu einer Teamleiter-Position wechseln, in der ich noch hands-on sein kann.",
+      "it": "Sto cercando di passare da un ruolo di contributore individuale a team lead dove posso ancora essere operativo."
     },
     "difficulty": "medium",
     "category": "interviews"
@@ -729,14 +729,14 @@
   },
   {
     "id": "interviews_053",
-    "english": "I wanted to follow up on our conversation and reiterate my enthusiasm for the position.",
-    "context": "Writing a follow-up email after an interview",
+    "english": "When onboarding new team members, I create a structured plan with milestones for their first thirty, sixty, and ninety days.",
+    "context": "Describing your approach to onboarding and helping new hires succeed",
     "translations": {
-      "pt-BR": "Gostaria de dar continuidade à nossa conversa e reiterar meu entusiasmo pela posição.",
-      "es": "Quería dar seguimiento a nuestra conversación y reiterar mi entusiasmo por el puesto.",
-      "fr": "Je souhaitais revenir sur notre conversation et réitérer mon enthousiasme pour le poste.",
-      "de": "Ich wollte an unser Gespräch anknüpfen und meine Begeisterung für die Position bekräftigen.",
-      "it": "Volevo fare un follow-up sulla nostra conversazione e ribadire il mio entusiasmo per la posizione."
+      "pt-BR": "Ao integrar novos membros na equipe, crio um plano estruturado com marcos para os primeiros trinta, sessenta e noventa dias.",
+      "es": "Al integrar nuevos miembros del equipo, creo un plan estructurado con hitos para sus primeros treinta, sesenta y noventa días.",
+      "fr": "Lors de l'intégration de nouveaux membres, je crée un plan structuré avec des jalons pour leurs trente, soixante et quatre-vingt-dix premiers jours.",
+      "de": "Beim Onboarding neuer Teammitglieder erstelle ich einen strukturierten Plan mit Meilensteinen für die ersten dreißig, sechzig und neunzig Tage.",
+      "it": "Quando integro nuovi membri nel team, creo un piano strutturato con traguardi per i primi trenta, sessanta e novanta giorni."
     },
     "difficulty": "easy",
     "category": "interviews"

@@ -21,7 +21,6 @@ struct CategoriesView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: AppSpacing.lg) {
                     headerTitle
-                    searchBar
                     categoriesGrid
                 }
                 .padding(.horizontal, AppSpacing.screenPadding)
@@ -43,24 +42,6 @@ struct CategoriesView: View {
             Spacer()
         }
         .padding(.top, AppSpacing.lg)
-    }
-
-    // MARK: - Search
-
-    private var searchBar: some View {
-        HStack(spacing: AppSpacing.sm) {
-            Image(systemName: "magnifyingglass")
-                .foregroundStyle(AppColors.textTertiary)
-                .font(.system(size: 16))
-
-            TextField(String(localized: "categories.search"), text: $viewModel.searchText)
-                .font(AppFonts.body)
-                .foregroundStyle(AppColors.textPrimary)
-        }
-        .padding(.horizontal, AppSpacing.lg)
-        .padding(.vertical, AppSpacing.md)
-        .background(AppColors.surface)
-        .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadius))
     }
 
     // MARK: - Grid
@@ -108,10 +89,10 @@ struct CategoryCard: View {
                 .lineLimit(2)
 
             Text("\(phraseCount) \(String(localized: "categories.phrases"))")
-                .font(AppFonts.caption)
+                .font(.system(size: 15, weight: .medium))
                 .foregroundStyle(AppColors.textSecondary)
         }
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, minHeight: 140)
         .padding(.vertical, AppSpacing.xl)
         .padding(.horizontal, AppSpacing.md)
         .background(AppColors.surface)

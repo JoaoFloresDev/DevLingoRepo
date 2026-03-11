@@ -1,3563 +1,3574 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "%@": {},
-    "%@ %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "%1$@ %2$@"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@" : {
+
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
           }
         }
       }
     },
-    "%@/%@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "%1$@/%2$@"
+    "%@/%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@/%2$@"
           }
         }
       }
     },
-    "%@%%": {},
-    "categories.phrases": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrasen"
+    "%@%%" : {
+
+    },
+    "categories.phrases" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrasen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "phrases"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrases"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "frases"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frases"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "phrases"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrases"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "frasi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frasi"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "frases"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frases"
           }
         }
       }
     },
-    "categories.search": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kategorien suchen..."
+    "categories.search" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorien suchen..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search categories..."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search categories..."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buscar categorías..."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar categorías..."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher des catégories..."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des catégories..."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cerca categorie..."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerca categorie..."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buscar categorias..."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar categorias..."
           }
         }
       }
     },
-    "categories.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kategorien"
+    "categories.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorien"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categories"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categories"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categorías"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorías"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Catégories"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégories"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categorie"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorie"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categorias"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorias"
           }
         }
       }
     },
-    "category.bug_reports": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fehlerberichte"
+    "category.bug_reports" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlerberichte"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bug Reports"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bug Reports"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reportes de Errores"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reportes de Errores"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rapports de bugs"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapports de bugs"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Segnalazioni Bug"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segnalazioni Bug"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Relatórios de Bug"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relatórios de Bug"
           }
         }
       }
     },
-    "category.casual": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lockeres Gespräch"
+    "category.casual" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lockeres Gespräch"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Casual Chat"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casual Chat"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Charla Informal"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charla Informal"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Discussion informelle"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discussion informelle"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chiacchierata Informale"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiacchierata Informale"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conversa Informal"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversa Informal"
           }
         }
       }
     },
-    "category.code_review": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Code-Review"
+    "category.code_review" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code-Review"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Code Review"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code Review"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Revisión de Código"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisión de Código"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Revue de code"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revue de code"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Revisione del Codice"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisione del Codice"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Revisão de Código"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisão de Código"
           }
         }
       }
     },
-    "category.documentation": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dokumentation"
+    "category.documentation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokumentation"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Documentation"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentation"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Documentación"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentación"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Documentation"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentation"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Documentazione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentazione"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Documentação"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentação"
           }
         }
       }
     },
-    "category.email": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-Mail"
+    "category.email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-Mail"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Correo electrónico"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correo electrónico"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-mail"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-mail"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-mail"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail"
           }
         }
       }
     },
-    "category.interviews": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Interviews"
+    "category.interviews" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interviews"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Interviews"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interviews"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entrevistas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrevistas"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entretiens"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entretiens"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Colloqui"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colloqui"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entrevistas"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrevistas"
           }
         }
       }
     },
-    "category.meetings": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meetings"
+    "category.meetings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meetings"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meetings"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meetings"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reuniones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reuniones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Réunions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réunions"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Riunioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riunioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reuniões"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reuniões"
           }
         }
       }
     },
-    "category.pair_programming": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pair Programming"
+    "category.pair_programming" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pair Programming"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pair Programming"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pair Programming"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Programación en Pareja"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programación en Pareja"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Programmation en binôme"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmation en binôme"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Programmazione in Coppia"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmazione in Coppia"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Programação em Par"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programação em Par"
           }
         }
       }
     },
-    "category.pull_requests": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pull Requests"
+    "category.pull_requests" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pull Requests"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pull Requests"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pull Requests"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pull Requests"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pull Requests"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pull Requests"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pull Requests"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pull Request"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pull Request"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pull Requests"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pull Requests"
           }
         }
       }
     },
-    "category.slack": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slack & Chat"
+    "category.slack" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack & Chat"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slack & Chat"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack & Chat"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slack y Chat"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack y Chat"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slack et Chat"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack et Chat"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slack e Chat"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack e Chat"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slack e Chat"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack e Chat"
           }
         }
       }
     },
-    "category.standup": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tägliches Standup"
+    "category.standup" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tägliches Standup"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Daily Standup"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daily Standup"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reunión Diaria"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reunión Diaria"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Réunion quotidienne"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réunion quotidienne"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Standup Giornaliero"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standup Giornaliero"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reunião Diária"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reunião Diária"
           }
         }
       }
     },
-    "category.technical": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Technisch"
+    "category.technical" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technisch"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Technical"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technical"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Técnico"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Técnico"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Technique"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technique"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tecnico"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tecnico"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Técnico"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Técnico"
           }
         }
       }
+    },
+    "Devlingo" : {
+
     },
-    "DevLingo": {},
-    "difficulty.easy": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Einfach"
+    "DevLingo" : {
+
+    },
+    "difficulty.easy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einfach"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Easy"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Easy"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fácil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fácil"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Facile"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Facile"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Facile"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Facile"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fácil"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fácil"
           }
         }
       }
     },
-    "difficulty.hard": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Schwer"
+    "difficulty.hard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwer"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hard"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hard"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Difícil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difícil"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Difficile"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficile"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Difficile"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficile"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Difícil"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difícil"
           }
         }
       }
     },
-    "difficulty.medium": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mittel"
+    "difficulty.medium" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittel"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medium"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medium"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medio"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medio"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Moyen"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moyen"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medio"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medio"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Médio"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Médio"
           }
         }
       }
     },
-    "filter.all": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alle"
+    "filter.all" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "All"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tout"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tutti"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutti"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todos"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos"
           }
         }
       }
     },
-    "history.no_phrases": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keine Phrasen für diesen Tag"
+    "history.no_phrases" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Phrasen für diesen Tag"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No phrases for this day"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No phrases for this day"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No hay frases para este día"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay frases para este día"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aucune phrase pour ce jour"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune phrase pour ce jour"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nessuna frase per questo giorno"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna frase per questo giorno"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nenhuma frase para este dia"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhuma frase para este dia"
           }
         }
       }
     },
-    "history.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlauf"
+    "history.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "History"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Historial"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Historique"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historique"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cronologia"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cronologia"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histórico"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórico"
           }
         }
       }
     },
-    "home.greeting": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Schön dich zu sehen!"
+    "home.greeting" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schön dich zu sehen!"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Good to see you!"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good to see you!"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¡Qué bueno verte!"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Qué bueno verte!"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Content de te voir !"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Content de te voir !"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bello vederti!"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bello vederti!"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bom te ver!"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bom te ver!"
           }
         }
       }
     },
-    "home.streak_days": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tage in Folge"
+    "home.streak_days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tage in Folge"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "day streak"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "day streak"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "días seguidos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "días seguidos"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "jours consécutifs"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jours consécutifs"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "giorni consecutivi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "giorni consecutivi"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "dias seguidos"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dias seguidos"
           }
         }
       }
     },
-    "home.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Englisch des Tages"
+    "home.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devlingo"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Today's English"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devlingo"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inglés de Hoy"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devlingo"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "L'anglais du jour"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devlingo"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inglese di Oggi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devlingo"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inglês de Hoje"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devlingo"
           }
         }
       }
     },
-    "home.today_progress": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "heute"
+    "home.today_progress" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "heute"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "today"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "today"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hoy"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hoy"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "aujourd'hui"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aujourd'hui"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "oggi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oggi"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hoje"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hoje"
           }
         }
       }
     },
-    "home.todays_phrases": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrasen des Tages"
+    "home.todays_phrases" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrasen des Tages"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Today's Phrases"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today's Phrases"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frases de Hoy"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frases de Hoy"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrases du jour"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrases du jour"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frasi di Oggi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frasi di Oggi"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frases de Hoje"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frases de Hoje"
           }
         }
       }
     },
-    "home.translations_hidden": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzungen ausgeblendet"
+    "home.translations_hidden" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzungen ausgeblendet"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Translations hidden"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translations hidden"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traducciones ocultas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducciones ocultas"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traductions masquées"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traductions masquées"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduzioni nascoste"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduzioni nascoste"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduções ocultas"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduções ocultas"
           }
         }
       }
     },
-    "home.translations_visible": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzungen sichtbar"
+    "home.translations_visible" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzungen sichtbar"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Translations visible"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translations visible"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traducciones visibles"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducciones visibles"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traductions visibles"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traductions visibles"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduzioni visibili"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduzioni visibili"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduções visíveis"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduções visíveis"
           }
         }
       }
     },
-    "level.advanced": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fortgeschritten"
+    "level.advanced" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortgeschritten"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Advanced"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advanced"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avanzado"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanzado"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avancé"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avancé"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avanzato"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanzato"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avançado"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avançado"
           }
         }
       }
     },
-    "level.beginner": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anfänger"
+    "level.beginner" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfänger"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beginner"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beginner"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Principiante"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Principiante"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Débutant"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Débutant"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Principiante"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Principiante"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iniciante"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciante"
           }
         }
       }
     },
-    "level.elementary": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Grundlegend"
+    "level.elementary" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grundlegend"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elementary"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementary"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elemental"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elemental"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Élémentaire"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Élémentaire"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elementare"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementare"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elementar"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementar"
           }
         }
       }
     },
-    "level.fluent": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fließend"
+    "level.fluent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fließend"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fluent"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fluent"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fluido"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fluido"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Courant"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Courant"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fluente"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fluente"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fluente"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fluente"
           }
         }
       }
     },
-    "level.intermediate": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mittelstufe"
+    "level.intermediate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittelstufe"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intermediate"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermediate"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intermedio"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermedio"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intermédiaire"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermédiaire"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intermedio"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermedio"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intermediário"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermediário"
           }
         }
       }
     },
-    "Lv.%@": {},
-    "notification.daily_reminder.body": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deine täglichen Englisch-Phrasen warten"
+    "Lv.%@" : {
+
+    },
+    "notification.daily_reminder.body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine täglichen Englisch-Phrasen warten"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your daily English phrases are waiting"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your daily English phrases are waiting"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tus frases diarias de inglés te esperan"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus frases diarias de inglés te esperan"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vos phrases quotidiennes en anglais vous attendent"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos phrases quotidiennes en anglais vous attendent"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Le tue frasi quotidiane di inglese ti aspettano"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le tue frasi quotidiane di inglese ti aspettano"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suas frases diárias de inglês estão esperando"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas frases diárias de inglês estão esperando"
           }
         }
       }
     },
-    "notification.daily_reminder.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zeit zum Lernen!"
+    "notification.daily_reminder.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeit zum Lernen!"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Time to learn!"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time to learn!"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¡Hora de aprender!"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Hora de aprender!"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "C'est l'heure d'apprendre !"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C'est l'heure d'apprendre !"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "È ora di imparare!"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È ora di imparare!"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hora de aprender!"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hora de aprender!"
           }
         }
       }
     },
-    "notification.streak_reminder.body": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Öffne DevLingo, um deine Serie fortzusetzen"
+    "notification.streak_reminder.body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffne DevLingo, um deine Serie fortzusetzen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Open DevLingo to keep your streak going"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open DevLingo to keep your streak going"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abre DevLingo para mantener tu racha"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre DevLingo para mantener tu racha"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ouvrez DevLingo pour maintenir votre série"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrez DevLingo pour maintenir votre série"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apri DevLingo per mantenere la tua serie"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri DevLingo per mantenere la tua serie"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abra o DevLingo para manter sua sequência"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abra o DevLingo para manter sua sequência"
           }
         }
       }
     },
-    "notification.streak_reminder.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlier deine Serie nicht!"
+    "notification.streak_reminder.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlier deine Serie nicht!"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Don't lose your streak!"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't lose your streak!"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¡No pierdas tu racha!"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡No pierdas tu racha!"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ne perdez pas votre série !"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne perdez pas votre série !"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Non perdere la tua serie!"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non perdere la tua serie!"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Não perca sua sequência!"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não perca sua sequência!"
           }
         }
       }
     },
-    "onboarding.hide_translations": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzungen ausblenden"
+    "onboarding.hide_translations" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzungen ausblenden"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hide translations"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide translations"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocultar traducciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocultar traducciones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Masquer les traductions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masquer les traductions"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nascondi traduzioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nascondi traduzioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocultar traduções"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocultar traduções"
           }
         }
       }
     },
-    "onboarding.hide_translations_desc": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ich kann etwas Englisch, lass mich erst versuchen"
+    "onboarding.hide_translations_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich kann etwas Englisch, lass mich erst versuchen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I know some English, let me try first"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I know some English, let me try first"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sé algo de inglés, déjame intentar primero"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sé algo de inglés, déjame intentar primero"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Je connais un peu d'anglais, laissez-moi essayer d'abord"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je connais un peu d'anglais, laissez-moi essayer d'abord"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conosco un po' di inglese, fammi provare prima"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conosco un po' di inglese, fammi provare prima"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sei um pouco de inglês, deixe-me tentar primeiro"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sei um pouco de inglês, deixe-me tentar primeiro"
           }
         }
       }
     },
-    "onboarding.next": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Weiter"
+    "onboarding.next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Next"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Siguiente"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suivant"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avanti"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Próximo"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próximo"
           }
         }
       }
     },
-    "onboarding.notifications_spread": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verteilt zwischen 9 und 20 Uhr"
+    "onboarding.notifications_spread" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verteilt zwischen 9 und 20 Uhr"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Spread between 9am and 8pm"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spread between 9am and 8pm"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Distribuidas entre 9am y 8pm"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distribuidas entre 9am y 8pm"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Réparties entre 9h et 20h"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réparties entre 9h et 20h"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Distribuite tra le 9 e le 20"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distribuite tra le 9 e le 20"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Distribuídas entre 9h e 20h"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distribuídas entre 9h e 20h"
           }
         }
       }
     },
-    "onboarding.notifications_subtitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erhalte Phrasen über den Tag verteilt"
+    "onboarding.notifications_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalte Phrasen über den Tag verteilt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Get phrases delivered throughout your day"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get phrases delivered throughout your day"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recibe frases a lo largo del día"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recibe frases a lo largo del día"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recevez des phrases tout au long de la journée"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recevez des phrases tout au long de la journée"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ricevi frasi durante la giornata"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricevi frasi durante la giornata"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Receba frases ao longo do seu dia"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receba frases ao longo do seu dia"
           }
         }
       }
     },
-    "onboarding.notifications_title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bleib am Ball"
+    "onboarding.notifications_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bleib am Ball"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stay on track"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stay on track"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mantente en el camino"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantente en el camino"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restez sur la bonne voie"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restez sur la bonne voie"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Resta in carreggiata"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resta in carreggiata"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mantenha o ritmo"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantenha o ritmo"
           }
         }
       }
     },
-    "onboarding.phrases_per_day": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Benachrichtigungen pro Tag"
+    "onboarding.phrases_per_day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen pro Tag"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifications per day"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications per day"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificaciones por día"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones por día"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifications par jour"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications par jour"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifiche al giorno"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifiche al giorno"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificações por dia"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações por dia"
           }
         }
       }
     },
-    "onboarding.select_language": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Was ist deine Sprache?"
+    "onboarding.select_language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ist deine Sprache?"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What's your language?"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What's your language?"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¿Cuál es tu idioma?"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Cuál es tu idioma?"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quelle est votre langue ?"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelle est votre langue ?"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Qual è la tua lingua?"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qual è la tua lingua?"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Qual é o seu idioma?"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qual é o seu idioma?"
           }
         }
       }
     },
-    "onboarding.select_language_subtitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wir zeigen Übersetzungen in deiner Sprache"
+    "onboarding.select_language_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wir zeigen Übersetzungen in deiner Sprache"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We'll show translations in your language"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We'll show translations in your language"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Te mostraremos traducciones en tu idioma"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te mostraremos traducciones en tu idioma"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nous afficherons les traductions dans votre langue"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous afficherons les traductions dans votre langue"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ti mostreremo le traduzioni nella tua lingua"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti mostreremo le traduzioni nella tua lingua"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostraremos traduções no seu idioma"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostraremos traduções no seu idioma"
           }
         }
       }
     },
-    "onboarding.show_translations": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzungen anzeigen"
+    "onboarding.show_translations" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzungen anzeigen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show translations"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show translations"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar traducciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar traducciones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Afficher les traductions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher les traductions"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostra traduzioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra traduzioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar traduções"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar traduções"
           }
         }
       }
     },
-    "onboarding.show_translations_desc": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ich bin Anfänger, zeig mir Übersetzungen"
+    "onboarding.show_translations_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bin Anfänger, zeig mir Übersetzungen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I'm a beginner, show me translations"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm a beginner, show me translations"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Soy principiante, muéstrame traducciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soy principiante, muéstrame traducciones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Je suis débutant, montrez-moi les traductions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis débutant, montrez-moi les traductions"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sono un principiante, mostrami le traduzioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono un principiante, mostrami le traduzioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sou iniciante, mostre-me traduções"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sou iniciante, mostre-me traduções"
           }
         }
       }
     },
-    "onboarding.start": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lernen starten"
+    "onboarding.start" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lernen starten"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Start Learning"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Learning"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Empezar a Aprender"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar a Aprender"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Commencer à apprendre"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer à apprendre"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inizia a Imparare"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia a Imparare"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Começar a Aprender"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar a Aprender"
           }
         }
       }
     },
-    "onboarding.translation_subtitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wähle, ob du Übersetzungen sehen möchtest. Du kannst dies später ändern."
+    "onboarding.translation_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle, ob du Übersetzungen sehen möchtest. Du kannst dies später ändern."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose if you want to see translations. You can change this later."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose if you want to see translations. You can change this later."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige si quieres ver traducciones. Puedes cambiar esto después."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige si quieres ver traducciones. Puedes cambiar esto después."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choisissez si vous souhaitez voir les traductions. Vous pourrez changer cela plus tard."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez si vous souhaitez voir les traductions. Vous pourrez changer cela plus tard."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Scegli se vuoi vedere le traduzioni. Puoi cambiare questa impostazione in seguito."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli se vuoi vedere le traduzioni. Puoi cambiare questa impostazione in seguito."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escolha se deseja ver traduções. Você pode mudar isso depois."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolha se deseja ver traduções. Você pode mudar isso depois."
           }
         }
       }
     },
-    "onboarding.translation_title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzungen"
+    "onboarding.translation_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzungen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Translations"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translations"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traducciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducciones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traductions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traductions"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduzioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduzioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduções"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduções"
           }
         }
       }
     },
-    "phrase.hide_translation": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzung ausblenden"
+    "phrase.hide_translation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzung ausblenden"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hide translation"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide translation"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocultar traducción"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocultar traducción"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Masquer la traduction"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masquer la traduction"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nascondi traduzione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nascondi traduzione"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocultar tradução"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocultar tradução"
           }
         }
       }
     },
-    "phrase.learned": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gelernt"
+    "phrase.learned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelernt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Learned"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learned"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aprendido"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprendido"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Appris"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appris"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Imparato"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imparato"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aprendido"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprendido"
           }
         }
       }
     },
-    "phrase.undo_learned": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rückgängig"
+    "phrase.listen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhören"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Undo"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listen"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deshacer"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escuchar"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annuler"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écouter"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annulla"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascolta"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desfazer"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvir"
           }
         }
       }
     },
-    "phrase.listen": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anhören"
+    "phrase.show_translation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzung anzeigen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Listen"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show translation"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escuchar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar traducción"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Écouter"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher la traduction"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ascolta"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra traduzione"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ouvir"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar tradução"
           }
         }
       }
     },
-    "phrase.show_translation": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzung anzeigen"
+    "phrase.undo_learned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rückgängig"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show translation"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undo"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar traducción"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deshacer"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Afficher la traduction"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostra traduzione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar tradução"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desfazer"
           }
         }
       }
     },
-    "profile.about": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "About"
+    "profile.about" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Acerca de"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sobre"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre"
           }
         }
       }
     },
-    "profile.current_streak": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aktuelle Serie"
+    "profile.current_streak" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktuelle Serie"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Current Streak"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current Streak"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Racha Actual"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Racha Actual"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Série actuelle"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Série actuelle"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Serie Attuale"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie Attuale"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sequência Atual"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sequência Atual"
           }
         }
       }
     },
-    "profile.hard": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hard Phrases"
+    "profile.hard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hard Phrases"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frases Difíciles"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frases Difíciles"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frases Difíceis"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frases Difíceis"
           }
         }
       }
     },
-    "profile.no_phrases": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Noch keine Phrasen hier"
+    "profile.language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Sprache"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No phrases here yet"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Language"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aún no hay frases aquí"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu Idioma"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pas encore de phrases ici"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre langue"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nessuna frase qui ancora"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La tua Lingua"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nenhuma frase aqui ainda"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seu Idioma"
           }
         }
       }
     },
-    "profile.language": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deine Sprache"
+    "profile.level %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level %lld"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your Language"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nivel %lld"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tu Idioma"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nível %lld"
           }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Votre langue"
+        }
+      }
+    },
+    "profile.longest_streak" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Längste Serie"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La tua Lingua"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Longest Streak"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seu Idioma"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Racha Más Larga"
           }
-        }
-      }
-    },
-    "profile.level %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Level %lld"
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus longue série"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nivel %lld"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie Più Lunga"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nível %lld"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maior Sequência"
           }
         }
       }
     },
-    "profile.longest_streak": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Längste Serie"
+    "profile.no_phrases" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Phrasen hier"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Longest Streak"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No phrases here yet"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Racha Más Larga"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay frases aquí"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Plus longue série"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore de phrases ici"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Serie Più Lunga"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna frase qui ancora"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Maior Sequência"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhuma frase aqui ainda"
           }
         }
       }
     },
-    "profile.notifications": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Benachrichtigungen"
+    "profile.notifications" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifications"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificaciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifications"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifiche"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifiche"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificações"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações"
           }
         }
       }
     },
-    "profile.notifications_denied": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifications are disabled. Enable them in Settings."
+    "profile.notifications_denied" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications are disabled. Enable them in Settings."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Las notificaciones están desactivadas. Actívalas en Ajustes."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las notificaciones están desactivadas. Actívalas en Ajustes."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificações estão desativadas. Ative nas Configurações."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações estão desativadas. Ative nas Configurações."
           }
         }
       }
     },
-    "profile.notifications_per_day": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrasen pro Tag"
+    "profile.notifications_per_day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrasen pro Tag"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrases per day"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrases per day"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frases por día"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frases por día"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrases par jour"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrases par jour"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frasi al giorno"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frasi al giorno"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frases por dia"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frases por dia"
           }
         }
       }
     },
-    "profile.phrase_notifications": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrasen-Benachrichtigungen"
+    "profile.phrase_notifications" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrasen-Benachrichtigungen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrase notifications"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrase notifications"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificaciones de frases"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones de frases"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifications de phrases"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications de phrases"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notifiche frasi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifiche frasi"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notificações de frases"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações de frases"
           }
         }
       }
     },
-    "profile.phrases_to_next %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld phrases to next level"
+    "profile.phrases_to_next %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld phrases to next level"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld frases para el siguiente nivel"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld frases para el siguiente nivel"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld frases para o próximo nível"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld frases para o próximo nível"
           }
         }
       }
     },
-    "profile.rate_app": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rate App"
+    "profile.rate_app" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate App"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Calificar App"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calificar App"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avaliar App"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaliar App"
           }
         }
       }
     },
-    "profile.saved": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gespeichert"
+    "profile.saved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeichert"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saved"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardados"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardados"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enregistrés"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrés"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salvati"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvati"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salvos"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvos"
           }
         }
       }
     },
-    "profile.share_app": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Share App"
+    "profile.share_app" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share App"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compartir App"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir App"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compartilhar App"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar App"
           }
         }
       }
     },
-    "profile.share_message": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Learn tech English with DevLingo! Practice daily phrases for remote work."
+    "profile.share_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learn tech English with DevLingo! Practice daily phrases for remote work."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¡Aprende inglés técnico con DevLingo! Practica frases diarias para trabajo remoto."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Aprende inglés técnico con DevLingo! Practica frases diarias para trabajo remoto."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aprenda inglês técnico com DevLingo! Pratique frases diárias para trabalho remoto."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprenda inglês técnico com DevLingo! Pratique frases diárias para trabalho remoto."
           }
         }
       }
     },
-    "profile.show_translations": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzungen anzeigen"
+    "profile.show_translations" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzungen anzeigen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show translations"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show translations"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar traducciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar traducciones"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Afficher les traductions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher les traductions"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostra traduzioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra traduzioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar traduções"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar traduções"
           }
         }
       }
     },
-    "profile.subtitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your learning progress"
+    "profile.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your learning progress"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tu progreso de aprendizaje"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu progreso de aprendizaje"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seu progresso de aprendizado"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seu progresso de aprendizado"
           }
         }
       }
     },
-    "profile.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profil"
+    "profile.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profile"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perfil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfil"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profil"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profilo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profilo"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perfil"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfil"
           }
         }
       }
     },
-    "profile.to_next_level": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrasen bis zum nächsten Level"
+    "profile.to_next_level" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrasen bis zum nächsten Level"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "phrases to next level"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrases to next level"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "frases para el siguiente nivel"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frases para el siguiente nivel"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "phrases pour le niveau suivant"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrases pour le niveau suivant"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "frasi per il livello successivo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frasi per il livello successivo"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "frases para o próximo nível"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frases para o próximo nível"
           }
         }
       }
     },
-    "profile.total_learned": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Learned"
+    "profile.total_learned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Learned"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Aprendidas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Aprendidas"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Aprendidas"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Aprendidas"
           }
         }
       }
     },
-    "profile.total_phrases": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phrasen gesamt"
+    "profile.total_phrases" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrasen gesamt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Phrases"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Phrases"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total de Frases"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total de Frases"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total de phrases"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total de phrases"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frasi Totali"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frasi Totali"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total de Frases"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total de Frases"
           }
         }
       }
     },
-    "profile.translation_settings": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übersetzung"
+    "profile.translation_settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersetzung"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Translation"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translation"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traducción"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducción"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduction"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduction"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Traduzione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduzione"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tradução"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tradução"
           }
         }
       }
     },
-    "profile.version %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version %@"
+    "profile.version %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versión %@"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %@"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versão %@"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versão %@"
           }
         }
       }
     },
-    "settings.about": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Über"
+    "settings.about" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "About"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Acerca de"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "À propos"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Informazioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informazioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sobre"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre"
           }
         }
       }
     },
-    "settings.done": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fertig"
+    "settings.done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Listo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminé"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fatto"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fatto"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Concluído"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
           }
         }
       }
     },
-    "settings.rate_app": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "DevLingo bewerten"
+    "settings.rate_app" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DevLingo bewerten"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rate DevLingo"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate DevLingo"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Calificar DevLingo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calificar DevLingo"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Évaluer DevLingo"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Évaluer DevLingo"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valuta DevLingo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta DevLingo"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avaliar DevLingo"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaliar DevLingo"
           }
         }
       }
     },
-    "settings.share_app": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "DevLingo teilen"
+    "settings.share_app" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DevLingo teilen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Share DevLingo"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share DevLingo"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compartir DevLingo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir DevLingo"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Partager DevLingo"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager DevLingo"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Condividi DevLingo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi DevLingo"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compartilhar DevLingo"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar DevLingo"
           }
         }
       }
     },
-    "settings.support": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Support"
+    "settings.support" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Support"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Soporte"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soporte"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Support"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Supporto"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suporte"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporte"
           }
         }
       }
     },
-    "settings.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Einstellungen"
+    "settings.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Settings"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ajustes"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paramètres"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Impostazioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Configurações"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurações"
           }
         }
       }
     },
-    "settings.version": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
+    "settings.version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versión"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versione"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versão"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versão"
           }
         }
       }
     },
-    "tab.categories": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kategorien"
+    "tab.categories" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorien"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categories"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categories"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categorías"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorías"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Catégories"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégories"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categorie"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorie"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Categorias"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorias"
           }
         }
       }
     },
-    "tab.history": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlauf"
+    "tab.history" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "History"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Historial"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Historique"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historique"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cronologia"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cronologia"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histórico"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórico"
           }
         }
       }
     },
-    "tab.home": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Start"
+    "tab.home" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Home"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inicio"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Accueil"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accueil"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Home"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Início"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Início"
           }
         }
       }
     },
-    "tab.profile": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profil"
+    "tab.profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profile"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perfil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfil"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profil"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Profilo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profilo"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perfil"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfil"
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

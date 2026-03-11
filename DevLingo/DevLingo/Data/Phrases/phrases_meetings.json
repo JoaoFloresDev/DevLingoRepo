@@ -421,28 +421,28 @@
   },
   {
     "id": "meetings_031",
-    "english": "Can we timebox this discussion to ten minutes?",
-    "context": "Keeping a meeting on track by limiting discussion time",
+    "english": "I'll share the meeting recording in the team channel for those who couldn't attend.",
+    "context": "Making meetings accessible to absent team members by sharing recordings",
     "translations": {
-      "pt-BR": "Podemos limitar essa discussão a dez minutos?",
-      "es": "¿Podemos limitar esta discusión a diez minutos?",
-      "fr": "On peut limiter cette discussion à dix minutes ?",
-      "de": "Können wir diese Diskussion auf zehn Minuten begrenzen?",
-      "it": "Possiamo limitare questa discussione a dieci minuti?"
+      "pt-BR": "Vou compartilhar a gravação da reunião no canal da equipe para quem não pôde participar.",
+      "es": "Compartiré la grabación de la reunión en el canal del equipo para quienes no pudieron asistir.",
+      "fr": "Je partagerai l'enregistrement de la réunion dans le canal de l'équipe pour ceux qui n'ont pas pu y assister.",
+      "de": "Ich teile die Aufzeichnung des Meetings im Team-Kanal für diejenigen, die nicht teilnehmen konnten.",
+      "it": "Condividerò la registrazione della riunione nel canale del team per chi non ha potuto partecipare."
     },
     "difficulty": "medium",
     "category": "meetings"
   },
   {
     "id": "meetings_032",
-    "english": "Let's put that in the parking lot for now.",
-    "context": "Deferring an off-topic item to discuss later",
+    "english": "I appreciate the invite, but I don't think I'm needed in this one — feel free to send me the notes.",
+    "context": "Politely declining a meeting invite when your presence isn't essential",
     "translations": {
-      "pt-BR": "Vamos colocar isso no estacionamento por enquanto.",
-      "es": "Dejemos eso en el estacionamiento por ahora.",
-      "fr": "Mettons ça dans le parking lot pour l'instant.",
-      "de": "Lassen wir das erstmal im Parking Lot.",
-      "it": "Mettiamolo nel parcheggio per ora."
+      "pt-BR": "Agradeço o convite, mas acho que não sou necessário nessa — fiquem à vontade para me enviar as notas.",
+      "es": "Agradezco la invitación, pero no creo que sea necesario en esta — envíenme las notas si quieren.",
+      "fr": "Merci pour l'invitation, mais je ne pense pas être nécessaire — envoyez-moi les notes si besoin.",
+      "de": "Danke für die Einladung, aber ich glaube, ich werde hier nicht gebraucht — schickt mir gerne die Notizen.",
+      "it": "Grazie per l'invito, ma non credo di essere necessario — mandatemi pure le note."
     },
     "difficulty": "hard",
     "category": "meetings"
@@ -575,30 +575,30 @@
   },
   {
     "id": "meetings_042",
-    "english": "Let's break this epic down into smaller stories.",
-    "context": "Splitting a large feature into manageable work items during grooming",
+    "english": "Let's make sure we document this decision in the meeting notes before we wrap up.",
+    "context": "Ensuring important decisions are captured in writing during a meeting",
     "translations": {
-      "pt-BR": "Vamos dividir esse épico em histórias menores.",
-      "es": "Dividamos este épico en historias más pequeñas.",
-      "fr": "Décomposons cet epic en histoires plus petites.",
-      "de": "Lassen wir dieses Epic in kleinere Stories aufteilen.",
-      "it": "Scomponiamo questo epic in storie più piccole."
+      "pt-BR": "Vamos garantir que documentamos essa decisão nas notas da reunião antes de encerrar.",
+      "es": "Asegurémonos de documentar esta decisión en las notas de la reunión antes de terminar.",
+      "fr": "Assurons-nous de documenter cette décision dans les notes de réunion avant de conclure.",
+      "de": "Stellen wir sicher, dass wir diese Entscheidung in den Meeting-Notizen festhalten, bevor wir abschließen.",
+      "it": "Assicuriamoci di documentare questa decisione nelle note della riunione prima di chiudere."
     },
     "difficulty": "medium",
     "category": "meetings"
   },
   {
     "id": "meetings_043",
-    "english": "What went well in this sprint?",
-    "context": "Opening question in a sprint retrospective",
+    "english": "Let's assign action items before we close the retro.",
+    "context": "Making sure retrospective outcomes are assigned to specific people",
     "translations": {
-      "pt-BR": "O que deu certo nessa sprint?",
-      "es": "¿Qué salió bien en este sprint?",
-      "fr": "Qu'est-ce qui s'est bien passé dans ce sprint ?",
-      "de": "Was lief gut in diesem Sprint?",
-      "it": "Cosa è andato bene in questo sprint?"
+      "pt-BR": "Vamos atribuir itens de ação antes de encerrar a retro.",
+      "es": "Asignemos los elementos de acción antes de cerrar la retro.",
+      "fr": "Attribuons les actions avant de clore la rétro.",
+      "de": "Lasst uns die Action Items zuweisen, bevor wir die Retro abschließen.",
+      "it": "Assegniamo i punti d'azione prima di chiudere la retro."
     },
-    "difficulty": "easy",
+    "difficulty": "medium",
     "category": "meetings"
   },
   {
@@ -617,14 +617,14 @@
   },
   {
     "id": "meetings_045",
-    "english": "I'd like to raise a concern about our current velocity.",
-    "context": "Bringing up team performance concerns during a retrospective or planning",
+    "english": "Can we do a quick design critique before moving to implementation?",
+    "context": "Suggesting a design review session before coding begins",
     "translations": {
-      "pt-BR": "Gostaria de levantar uma preocupação sobre nossa velocidade atual.",
-      "es": "Me gustaría plantear una preocupación sobre nuestra velocidad actual.",
-      "fr": "J'aimerais soulever une préoccupation concernant notre vélocité actuelle.",
-      "de": "Ich möchte eine Bedenken bezüglich unserer aktuellen Velocity ansprechen.",
-      "it": "Vorrei sollevare una preoccupazione sulla nostra velocità attuale."
+      "pt-BR": "Podemos fazer uma crítica rápida do design antes de ir para a implementação?",
+      "es": "¿Podemos hacer una revisión rápida del diseño antes de pasar a la implementación?",
+      "fr": "On peut faire une critique rapide du design avant de passer à l'implémentation ?",
+      "de": "Können wir eine kurze Design-Kritik machen, bevor wir zur Implementierung übergehen?",
+      "it": "Possiamo fare una rapida revisione del design prima di passare all'implementazione?"
     },
     "difficulty": "medium",
     "category": "meetings"
