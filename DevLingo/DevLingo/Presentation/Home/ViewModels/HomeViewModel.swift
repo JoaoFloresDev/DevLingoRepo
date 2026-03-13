@@ -17,6 +17,7 @@ final class HomeViewModel: ObservableObject {
     private let progressService = ProgressService.shared
     private let storage = StorageService.shared
     private var hasLoadedOnce = false
+    private var hasTriggeredReviewThisSession = false
 
     var progress: UserProgress {
         progressService.getProgress()
@@ -84,6 +85,11 @@ final class HomeViewModel: ObservableObject {
         completedIDs.insert(phrase.id)
         progressService.markPhraseCompleted(phrase)
         HapticManager.success()
+
+        if !hasTriggeredReviewThisSession {
+            hasTriggeredReviewThisSession = true
+            ReviewService.shared.requestReviewIfNeeded()
+        }
     }
 
     func markUncompleted(_ phrase: Phrase) {

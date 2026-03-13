@@ -1135,132 +1135,20 @@
   },
   {
     "id": "standup_082",
-    "english": "I need to coordinate with the QA team before we can release this feature.",
-    "context": "Explaining a dependency on QA",
+    "english": "I discovered that the issue is related to a race condition in the async handler.",
+    "context": "Sharing a debugging discovery",
     "translations": {
-      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
-      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
-      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
-      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
+      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
+      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
+      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
+      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
+      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
     },
     "difficulty": "medium",
     "category": "standup"
   },
   {
     "id": "standup_083",
-    "english": "I need to coordinate with the QA team before we can release this feature.",
-    "context": "Explaining a dependency on QA",
-    "translations": {
-      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
-      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
-      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
-      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_084",
-    "english": "I need to coordinate with the QA team before we can release this feature.",
-    "context": "Explaining a dependency on QA",
-    "translations": {
-      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
-      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
-      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
-      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_085",
-    "english": "I need to coordinate with the QA team before we can release this feature.",
-    "context": "Explaining a dependency on QA",
-    "translations": {
-      "pt-BR": "Preciso coordenar com o time de QA antes de lançar essa feature.",
-      "es": "Necesito coordinar con el equipo de QA antes de lanzar esta funcionalidad.",
-      "fr": "Je dois me coordonner avec l'équipe QA avant de pouvoir sortir cette fonctionnalité.",
-      "de": "Ich muss mich mit dem QA-Team abstimmen, bevor wir dieses Feature releasen können.",
-      "it": "Devo coordinarmi con il team QA prima di poter rilasciare questa funzionalità."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_086",
-    "english": "I discovered that the issue is related to a race condition in the async handler.",
-    "context": "Sharing a debugging discovery",
-    "translations": {
-      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
-      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
-      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
-      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_087",
-    "english": "I discovered that the issue is related to a race condition in the async handler.",
-    "context": "Sharing a debugging discovery",
-    "translations": {
-      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
-      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
-      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
-      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_088",
-    "english": "I discovered that the issue is related to a race condition in the async handler.",
-    "context": "Sharing a debugging discovery",
-    "translations": {
-      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
-      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
-      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
-      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_089",
-    "english": "I discovered that the issue is related to a race condition in the async handler.",
-    "context": "Sharing a debugging discovery",
-    "translations": {
-      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
-      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
-      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
-      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_090",
-    "english": "I discovered that the issue is related to a race condition in the async handler.",
-    "context": "Sharing a debugging discovery",
-    "translations": {
-      "pt-BR": "Descobri que o problema está relacionado a uma condição de corrida no handler assíncrono.",
-      "es": "Descubrí que el problema está relacionado con una condición de carrera en el manejador asíncrono.",
-      "fr": "J'ai découvert que le problème est lié à une condition de course dans le gestionnaire asynchrone.",
-      "de": "Ich habe herausgefunden, dass das Problem mit einer Race Condition im Async-Handler zusammenhängt.",
-      "it": "Ho scoperto che il problema è legato a una race condition nell'handler asincrono."
-    },
-    "difficulty": "medium",
-    "category": "standup"
-  },
-  {
-    "id": "standup_091",
     "english": "I noticed the staging environment is behaving differently from production.",
     "context": "Flagging an environment discrepancy",
     "translations": {
@@ -1274,7 +1162,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_092",
+    "id": "standup_084",
     "english": "I'll need to pair with someone on the infrastructure changes.",
     "context": "Requesting collaboration",
     "translations": {
@@ -1288,7 +1176,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_093",
+    "id": "standup_085",
     "english": "The feature flag is ready, so we can do a gradual rollout.",
     "context": "Explaining release strategy",
     "translations": {
@@ -1302,7 +1190,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_094",
+    "id": "standup_086",
     "english": "I'm going to add some logging to help us debug this issue in production.",
     "context": "Adding observability",
     "translations": {
@@ -1316,7 +1204,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_095",
+    "id": "standup_087",
     "english": "I realized we need to handle the edge case where the user has no internet connection.",
     "context": "Identifying a missing scenario",
     "translations": {
@@ -1330,7 +1218,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_096",
+    "id": "standup_088",
     "english": "I've been going down a rabbit hole trying to figure out why the WebSocket connection drops intermittently.",
     "context": "Describing a complex debugging situation",
     "translations": {
@@ -1344,7 +1232,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_097",
+    "id": "standup_089",
     "english": "I think we should consider breaking this monolith into microservices, but that's a bigger conversation.",
     "context": "Suggesting architectural change carefully",
     "translations": {
@@ -1358,7 +1246,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_098",
+    "id": "standup_090",
     "english": "The tech debt is starting to snowball — we might want to allocate a sprint for cleanup.",
     "context": "Advocating for tech debt time",
     "translations": {
@@ -1372,7 +1260,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_099",
+    "id": "standup_091",
     "english": "I'm leaning towards using a pub/sub pattern for this, but I'd like to get a second opinion before committing to the architecture.",
     "context": "Seeking consensus on a technical decision",
     "translations": {
@@ -1386,7 +1274,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_100",
+    "id": "standup_092",
     "english": "We might want to add a circuit breaker around this external service call to prevent cascading failures.",
     "context": "Suggesting a resilience pattern",
     "translations": {
@@ -1400,7 +1288,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_101",
+    "id": "standup_093",
     "english": "I'm cleaning up the technical debt in the legacy code.",
     "context": "Reporting cleanup work on old code",
     "translations": {
@@ -1414,7 +1302,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_102",
+    "id": "standup_094",
     "english": "I'll review the architecture document today.",
     "context": "Planning documentation review",
     "translations": {
@@ -1428,7 +1316,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_103",
+    "id": "standup_095",
     "english": "The sprint goal looks achievable.",
     "context": "Assessing sprint progress",
     "translations": {
@@ -1442,7 +1330,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_104",
+    "id": "standup_096",
     "english": "I need to discuss the requirements with the product team.",
     "context": "Flagging requirement gaps",
     "translations": {
@@ -1456,7 +1344,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_105",
+    "id": "standup_097",
     "english": "I'm running into some issues with the Docker configuration.",
     "context": "Reporting infrastructure problems",
     "translations": {
@@ -1470,7 +1358,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_106",
+    "id": "standup_098",
     "english": "I backfilled the missing data in the database.",
     "context": "Reporting data fix",
     "translations": {
@@ -1484,7 +1372,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_107",
+    "id": "standup_099",
     "english": "I added monitoring alerts for the new service.",
     "context": "Setting up observability",
     "translations": {
@@ -1498,7 +1386,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_108",
+    "id": "standup_100",
     "english": "I'll be out of office tomorrow, so I'm wrapping up my tasks.",
     "context": "Communicating upcoming absence",
     "translations": {
@@ -1512,7 +1400,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_109",
+    "id": "standup_101",
     "english": "The migration script is ready for testing.",
     "context": "Reporting script completion",
     "translations": {
@@ -1526,7 +1414,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_110",
+    "id": "standup_102",
     "english": "I synced with the design team on the new mockups.",
     "context": "Reporting cross-team alignment",
     "translations": {
@@ -1540,7 +1428,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_111",
+    "id": "standup_103",
     "english": "I updated the README with the new setup instructions.",
     "context": "Documentation update",
     "translations": {
@@ -1554,7 +1442,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_112",
+    "id": "standup_104",
     "english": "I'm prototyping the new recommendation algorithm.",
     "context": "Working on experimental feature",
     "translations": {
@@ -1568,7 +1456,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_113",
+    "id": "standup_105",
     "english": "I had to roll back the last deployment due to a regression.",
     "context": "Reporting a rollback",
     "translations": {
@@ -1582,7 +1470,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_114",
+    "id": "standup_106",
     "english": "I'm setting up the A/B testing framework.",
     "context": "Working on experimentation infrastructure",
     "translations": {
@@ -1596,7 +1484,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_115",
+    "id": "standup_107",
     "english": "I created a hotfix branch for the critical bug.",
     "context": "Urgent bug response",
     "translations": {
@@ -1610,7 +1498,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_116",
+    "id": "standup_108",
     "english": "I need to benchmark the new caching strategy before we ship it.",
     "context": "Planning performance testing",
     "translations": {
@@ -1624,7 +1512,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_117",
+    "id": "standup_109",
     "english": "I'll present the technical proposal in the architecture meeting.",
     "context": "Planning a presentation",
     "translations": {
@@ -1638,7 +1526,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_118",
+    "id": "standup_110",
     "english": "The load test results look promising.",
     "context": "Sharing test results",
     "translations": {
@@ -1652,7 +1540,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_119",
+    "id": "standup_111",
     "english": "I'm integrating the third-party analytics SDK.",
     "context": "Working on integration",
     "translations": {
@@ -1666,7 +1554,7 @@
     "category": "standup"
   },
   {
-    "id": "standup_120",
+    "id": "standup_112",
     "english": "I automated the manual deployment steps.",
     "context": "Improving CI/CD",
     "translations": {
@@ -1677,6 +1565,2638 @@
       "it": "Continuo il lavoro come pianificato."
     },
     "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_113",
+    "english": "I'm working on the frontend refactor.",
+    "context": "Sharing your current task",
+    "translations": {
+      "pt-BR": "Estou trabalhando na refatoração do frontend.",
+      "es": "Estoy trabajando en la refactorización del frontend.",
+      "fr": "Je travaille sur la refactorisation du frontend.",
+      "de": "Ich arbeite an der Frontend-Refaktorisierung.",
+      "it": "Sto lavorando sulla refactorizzazione del frontend."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_114",
+    "english": "I closed three tickets yesterday.",
+    "context": "Reporting completed work",
+    "translations": {
+      "pt-BR": "Fechei três tickets ontem.",
+      "es": "Cerré tres tickets ayer.",
+      "fr": "J'ai fermé trois tickets hier.",
+      "de": "Ich habe gestern drei Tickets geschlossen.",
+      "it": "Ho chiuso tre ticket ieri."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_115",
+    "english": "I'm pair programming with the new hire today.",
+    "context": "Describing collaborative work",
+    "translations": {
+      "pt-BR": "Estou programando em par com o novo contratado hoje.",
+      "es": "Estoy haciendo pair programming con el nuevo empleado hoy.",
+      "fr": "Je fais du pair programming avec le nouveau recruté aujourd'hui.",
+      "de": "Ich programmiere heute im Pair mit dem Neueinsteiger.",
+      "it": "Sto facendo pair programming con il nuovo assunto oggi."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_116",
+    "english": "My PR is waiting for approval.",
+    "context": "Sharing blocker status",
+    "translations": {
+      "pt-BR": "Meu PR está aguardando aprovação.",
+      "es": "Mi PR está esperando aprobación.",
+      "fr": "Ma PR attend l'approbation.",
+      "de": "Mein PR wartet auf Genehmigung.",
+      "it": "Il mio PR è in attesa di approvazione."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_117",
+    "english": "I'll tackle the performance issue next.",
+    "context": "Planning upcoming work",
+    "translations": {
+      "pt-BR": "Vou resolver o problema de performance em seguida.",
+      "es": "Abordaré el problema de rendimiento después.",
+      "fr": "Je vais m'attaquer au problème de performance ensuite.",
+      "de": "Ich werde mich als nächstes dem Performance-Problem widmen.",
+      "it": "Affronterò il problema di performance dopo."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_118",
+    "english": "I ran into a dependency conflict.",
+    "context": "Reporting a blocker",
+    "translations": {
+      "pt-BR": "Encontrei um conflito de dependência.",
+      "es": "Encontré un conflicto de dependencias.",
+      "fr": "J'ai rencontré un conflit de dépendances.",
+      "de": "Ich bin auf einen Abhängigkeitskonflikt gestoßen.",
+      "it": "Ho riscontrato un conflitto di dipendenze."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_119",
+    "english": "The code review took longer than expected.",
+    "context": "Explaining time spent",
+    "translations": {
+      "pt-BR": "A revisão de código demorou mais do que o esperado.",
+      "es": "La revisión de código tomó más tiempo de lo esperado.",
+      "fr": "La revue de code a pris plus de temps que prévu.",
+      "de": "Das Code Review hat länger gedauert als erwartet.",
+      "it": "La code review ha richiesto più tempo del previsto."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_120",
+    "english": "I'll wrap up the testing by end of day.",
+    "context": "Setting expectations",
+    "translations": {
+      "pt-BR": "Vou concluir os testes até o final do dia.",
+      "es": "Terminaré las pruebas al final del día.",
+      "fr": "Je terminerai les tests d'ici la fin de la journée.",
+      "de": "Ich werde die Tests bis Ende des Tages abschließen.",
+      "it": "Concluderò i test entro fine giornata."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_121",
+    "english": "I found a regression in the latest build.",
+    "context": "Reporting an issue",
+    "translations": {
+      "pt-BR": "Encontrei uma regressão na última build.",
+      "es": "Encontré una regresión en la última build.",
+      "fr": "J'ai trouvé une régression dans le dernier build.",
+      "de": "Ich habe eine Regression im letzten Build gefunden.",
+      "it": "Ho trovato una regressione nell'ultima build."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_122",
+    "english": "I'm going to spike on the new payment provider.",
+    "context": "Describing research work",
+    "translations": {
+      "pt-BR": "Vou fazer um spike no novo provedor de pagamento.",
+      "es": "Voy a hacer un spike con el nuevo proveedor de pagos.",
+      "fr": "Je vais faire un spike sur le nouveau fournisseur de paiement.",
+      "de": "Ich werde einen Spike zum neuen Zahlungsanbieter machen.",
+      "it": "Farò uno spike sul nuovo provider di pagamento."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_123",
+    "english": "I need the product team to clarify the acceptance criteria.",
+    "context": "Expressing a dependency",
+    "translations": {
+      "pt-BR": "Preciso que o time de produto esclareça os critérios de aceitação.",
+      "es": "Necesito que el equipo de producto aclare los criterios de aceptación.",
+      "fr": "J'ai besoin que l'équipe produit clarifie les critères d'acceptation.",
+      "de": "Ich brauche das Produktteam, um die Akzeptanzkriterien zu klären.",
+      "it": "Ho bisogno che il team di prodotto chiarisca i criteri di accettazione."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_124",
+    "english": "I updated the environment variables for staging.",
+    "context": "Sharing infrastructure work",
+    "translations": {
+      "pt-BR": "Atualizei as variáveis de ambiente do staging.",
+      "es": "Actualicé las variables de entorno de staging.",
+      "fr": "J'ai mis à jour les variables d'environnement de staging.",
+      "de": "Ich habe die Umgebungsvariablen für Staging aktualisiert.",
+      "it": "Ho aggiornato le variabili d'ambiente per lo staging."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_125",
+    "english": "I'm writing the migration script for the new table.",
+    "context": "Describing database work",
+    "translations": {
+      "pt-BR": "Estou escrevendo o script de migração para a nova tabela.",
+      "es": "Estoy escribiendo el script de migración para la nueva tabla.",
+      "fr": "J'écris le script de migration pour la nouvelle table.",
+      "de": "Ich schreibe das Migrationsskript für die neue Tabelle.",
+      "it": "Sto scrivendo lo script di migrazione per la nuova tabella."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_126",
+    "english": "The build is green after my latest changes.",
+    "context": "Reporting test status",
+    "translations": {
+      "pt-BR": "A build está verde após minhas últimas mudanças.",
+      "es": "La build está verde después de mis últimos cambios.",
+      "fr": "Le build est vert après mes dernières modifications.",
+      "de": "Der Build ist grün nach meinen letzten Änderungen.",
+      "it": "La build è verde dopo le mie ultime modifiche."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_127",
+    "english": "I'll demo the feature in sprint review.",
+    "context": "Planning a presentation",
+    "translations": {
+      "pt-BR": "Vou demonstrar a funcionalidade na revisão do sprint.",
+      "es": "Haré una demo de la función en la revisión del sprint.",
+      "fr": "Je ferai une démo de la fonctionnalité lors de la revue de sprint.",
+      "de": "Ich werde das Feature in der Sprint-Review vorführen.",
+      "it": "Farò una demo della funzionalità nella sprint review."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_128",
+    "english": "I'm waiting on the DevOps team to provision the new server.",
+    "context": "Reporting external dependency",
+    "translations": {
+      "pt-BR": "Estou esperando o time de DevOps provisionar o novo servidor.",
+      "es": "Estoy esperando al equipo de DevOps para aprovisionar el nuevo servidor.",
+      "fr": "J'attends que l'équipe DevOps configure le nouveau serveur.",
+      "de": "Ich warte darauf, dass das DevOps-Team den neuen Server bereitstellt.",
+      "it": "Sto aspettando che il team DevOps fornisca il nuovo server."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_129",
+    "english": "I'll update the Swagger docs after the API changes.",
+    "context": "Planning documentation",
+    "translations": {
+      "pt-BR": "Vou atualizar os docs do Swagger após as mudanças na API.",
+      "es": "Actualizaré la documentación de Swagger después de los cambios en la API.",
+      "fr": "Je mettrai à jour la documentation Swagger après les modifications de l'API.",
+      "de": "Ich werde die Swagger-Dokumentation nach den API-Änderungen aktualisieren.",
+      "it": "Aggiornerò la documentazione Swagger dopo le modifiche all'API."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_130",
+    "english": "I completed the code review for the authentication PR.",
+    "context": "Reporting review work",
+    "translations": {
+      "pt-BR": "Concluí a revisão de código do PR de autenticação.",
+      "es": "Completé la revisión de código del PR de autenticación.",
+      "fr": "J'ai terminé la revue de code du PR d'authentification.",
+      "de": "Ich habe das Code Review für den Authentifizierungs-PR abgeschlossen.",
+      "it": "Ho completato la code review del PR di autenticazione."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_131",
+    "english": "I need to add caching to improve the response time.",
+    "context": "Identifying improvement",
+    "translations": {
+      "pt-BR": "Preciso adicionar cache para melhorar o tempo de resposta.",
+      "es": "Necesito agregar caché para mejorar el tiempo de respuesta.",
+      "fr": "Je dois ajouter du cache pour améliorer le temps de réponse.",
+      "de": "Ich muss Caching hinzufügen, um die Antwortzeit zu verbessern.",
+      "it": "Devo aggiungere la cache per migliorare il tempo di risposta."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_132",
+    "english": "I submitted the PR late yesterday and it still needs review.",
+    "context": "Sharing PR status",
+    "translations": {
+      "pt-BR": "Enviei o PR ontem à noite e ainda precisa de revisão.",
+      "es": "Envié el PR ayer tarde y todavía necesita revisión.",
+      "fr": "J'ai soumis la PR tard hier et elle a encore besoin d'être revue.",
+      "de": "Ich habe den PR gestern spät eingereicht und er braucht noch ein Review.",
+      "it": "Ho inviato il PR tardi ieri e ha ancora bisogno di revisione."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_133",
+    "english": "I'm investigating why the webhook isn't firing.",
+    "context": "Describing debugging work",
+    "translations": {
+      "pt-BR": "Estou investigando por que o webhook não está disparando.",
+      "es": "Estoy investigando por qué el webhook no se está activando.",
+      "fr": "J'enquête sur pourquoi le webhook ne se déclenche pas.",
+      "de": "Ich untersuche, warum der Webhook nicht ausgelöst wird.",
+      "it": "Sto investigando perché il webhook non si attiva."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_134",
+    "english": "The QA team approved the feature for release.",
+    "context": "Sharing good news",
+    "translations": {
+      "pt-BR": "O time de QA aprovou a funcionalidade para release.",
+      "es": "El equipo de QA aprobó la función para release.",
+      "fr": "L'équipe QA a approuvé la fonctionnalité pour la release.",
+      "de": "Das QA-Team hat das Feature für den Release freigegeben.",
+      "it": "Il team QA ha approvato la funzionalità per il rilascio."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_135",
+    "english": "I'm setting up end-to-end tests for the checkout flow.",
+    "context": "Describing testing work",
+    "translations": {
+      "pt-BR": "Estou configurando testes end-to-end para o fluxo de checkout.",
+      "es": "Estoy configurando pruebas end-to-end para el flujo de checkout.",
+      "fr": "Je mets en place des tests end-to-end pour le flux de paiement.",
+      "de": "Ich richte End-to-End-Tests für den Checkout-Flow ein.",
+      "it": "Sto configurando i test end-to-end per il flusso di checkout."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_136",
+    "english": "I'll ping the team in Slack if I need help.",
+    "context": "Communicating availability",
+    "translations": {
+      "pt-BR": "Vou pingar o time no Slack se precisar de ajuda.",
+      "es": "Le avisaré al equipo en Slack si necesito ayuda.",
+      "fr": "Je contacterai l'équipe sur Slack si j'ai besoin d'aide.",
+      "de": "Ich werde das Team auf Slack anpingen, wenn ich Hilfe brauche.",
+      "it": "Pingerò il team su Slack se ho bisogno di aiuto."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_137",
+    "english": "I had to increase the timeout on the API calls.",
+    "context": "Explaining a fix",
+    "translations": {
+      "pt-BR": "Tive que aumentar o timeout nas chamadas da API.",
+      "es": "Tuve que aumentar el timeout en las llamadas a la API.",
+      "fr": "J'ai dû augmenter le timeout sur les appels API.",
+      "de": "Ich musste das Timeout für die API-Aufrufe erhöhen.",
+      "it": "Ho dovuto aumentare il timeout sulle chiamate API."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_138",
+    "english": "I'm working through the backlog of bug reports.",
+    "context": "Describing bug fix work",
+    "translations": {
+      "pt-BR": "Estou trabalhando no backlog de relatórios de bugs.",
+      "es": "Estoy trabajando en el backlog de reportes de bugs.",
+      "fr": "Je travaille sur le backlog des rapports de bugs.",
+      "de": "Ich arbeite den Backlog der Fehlerberichte ab.",
+      "it": "Sto lavorando sul backlog dei report di bug."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_139",
+    "english": "I'll move the ticket to 'in review' now.",
+    "context": "Updating board status",
+    "translations": {
+      "pt-BR": "Vou mover o ticket para 'em revisão' agora.",
+      "es": "Moveré el ticket a 'en revisión' ahora.",
+      "fr": "Je vais déplacer le ticket en 'en revue' maintenant.",
+      "de": "Ich werde das Ticket jetzt auf 'in Review' setzen.",
+      "it": "Sposterò il ticket su 'in review' ora."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_140",
+    "english": "I had to rebase my branch against main.",
+    "context": "Describing git operations",
+    "translations": {
+      "pt-BR": "Tive que fazer rebase da minha branch contra a main.",
+      "es": "Tuve que hacer rebase de mi branch contra main.",
+      "fr": "J'ai dû rebaser ma branche sur main.",
+      "de": "Ich musste meinen Branch auf Main rebasen.",
+      "it": "Ho dovuto fare il rebase del mio branch su main."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_141",
+    "english": "I'm implementing the search filters as per the latest designs.",
+    "context": "Describing UI work",
+    "translations": {
+      "pt-BR": "Estou implementando os filtros de busca conforme os últimos designs.",
+      "es": "Estoy implementando los filtros de búsqueda según los últimos diseños.",
+      "fr": "J'implémente les filtres de recherche selon les derniers designs.",
+      "de": "Ich implementiere die Suchfilter gemäß den neuesten Designs.",
+      "it": "Sto implementando i filtri di ricerca secondo gli ultimi design."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_142",
+    "english": "I'll take ownership of that ticket.",
+    "context": "Volunteering for work",
+    "translations": {
+      "pt-BR": "Vou assumir esse ticket.",
+      "es": "Me haré cargo de ese ticket.",
+      "fr": "Je vais prendre en charge ce ticket.",
+      "de": "Ich übernehme dieses Ticket.",
+      "it": "Mi prenderò carico di quel ticket."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_143",
+    "english": "I noticed some flaky tests in the CI pipeline.",
+    "context": "Reporting CI issues",
+    "translations": {
+      "pt-BR": "Notei alguns testes instáveis no pipeline de CI.",
+      "es": "Noté algunas pruebas inestables en el pipeline de CI.",
+      "fr": "J'ai remarqué des tests instables dans le pipeline CI.",
+      "de": "Mir sind einige instabile Tests in der CI-Pipeline aufgefallen.",
+      "it": "Ho notato alcuni test instabili nella pipeline CI."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_144",
+    "english": "I'm adding input validation to the form fields.",
+    "context": "Describing validation work",
+    "translations": {
+      "pt-BR": "Estou adicionando validação de entrada nos campos do formulário.",
+      "es": "Estoy agregando validación de entrada a los campos del formulario.",
+      "fr": "J'ajoute la validation des entrées aux champs du formulaire.",
+      "de": "Ich füge Eingabevalidierung zu den Formularfeldern hinzu.",
+      "it": "Sto aggiungendo la validazione degli input ai campi del form."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_145",
+    "english": "The hotfix was deployed to production last night.",
+    "context": "Reporting deployment",
+    "translations": {
+      "pt-BR": "O hotfix foi implantado em produção ontem à noite.",
+      "es": "El hotfix fue desplegado en producción anoche.",
+      "fr": "Le hotfix a été déployé en production hier soir.",
+      "de": "Der Hotfix wurde gestern Nacht in Produktion deployed.",
+      "it": "L'hotfix è stato deployato in produzione ieri sera."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_146",
+    "english": "I need to set up a feature flag for the new experiment.",
+    "context": "Describing feature flag work",
+    "translations": {
+      "pt-BR": "Preciso configurar uma feature flag para o novo experimento.",
+      "es": "Necesito configurar un feature flag para el nuevo experimento.",
+      "fr": "Je dois configurer un feature flag pour la nouvelle expérience.",
+      "de": "Ich muss ein Feature Flag für das neue Experiment einrichten.",
+      "it": "Devo configurare un feature flag per il nuovo esperimento."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_147",
+    "english": "I'll handle the data migration over the weekend.",
+    "context": "Planning weekend work",
+    "translations": {
+      "pt-BR": "Vou cuidar da migração de dados no fim de semana.",
+      "es": "Me encargaré de la migración de datos durante el fin de semana.",
+      "fr": "Je m'occuperai de la migration de données ce week-end.",
+      "de": "Ich werde die Datenmigration am Wochenende erledigen.",
+      "it": "Mi occuperò della migrazione dati nel weekend."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_148",
+    "english": "The linter is flagging some style issues I need to fix.",
+    "context": "Reporting linter issues",
+    "translations": {
+      "pt-BR": "O linter está sinalizando alguns problemas de estilo que preciso corrigir.",
+      "es": "El linter está marcando algunos problemas de estilo que debo corregir.",
+      "fr": "Le linter signale des problèmes de style que je dois corriger.",
+      "de": "Der Linter markiert einige Stilprobleme, die ich beheben muss.",
+      "it": "Il linter sta segnalando alcuni problemi di stile che devo correggere."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_149",
+    "english": "I'll reach out to the stakeholders for feedback.",
+    "context": "Planning communication",
+    "translations": {
+      "pt-BR": "Vou entrar em contato com os stakeholders para feedback.",
+      "es": "Me pondré en contacto con los stakeholders para obtener feedback.",
+      "fr": "Je contacterai les parties prenantes pour obtenir des retours.",
+      "de": "Ich werde mich an die Stakeholder für Feedback wenden.",
+      "it": "Contatterò gli stakeholder per un feedback."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_150",
+    "english": "I'm adding logging to help trace the issue.",
+    "context": "Describing debugging approach",
+    "translations": {
+      "pt-BR": "Estou adicionando logs para ajudar a rastrear o problema.",
+      "es": "Estoy agregando logging para ayudar a rastrear el problema.",
+      "fr": "J'ajoute des logs pour aider à tracer le problème.",
+      "de": "Ich füge Logging hinzu, um das Problem nachzuverfolgen.",
+      "it": "Sto aggiungendo logging per aiutare a tracciare il problema."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_151",
+    "english": "I'll cherry-pick the fix to the release branch.",
+    "context": "Describing git workflow",
+    "translations": {
+      "pt-BR": "Vou fazer cherry-pick do fix para a branch de release.",
+      "es": "Haré cherry-pick del fix a la rama de release.",
+      "fr": "Je vais cherry-picker le correctif sur la branche de release.",
+      "de": "Ich werde den Fix in den Release-Branch cherry-picken.",
+      "it": "Farò il cherry-pick del fix sul branch di release."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_152",
+    "english": "I optimized the image loading to reduce bundle size.",
+    "context": "Reporting optimization",
+    "translations": {
+      "pt-BR": "Otimizei o carregamento de imagens para reduzir o tamanho do bundle.",
+      "es": "Optimicé la carga de imágenes para reducir el tamaño del bundle.",
+      "fr": "J'ai optimisé le chargement des images pour réduire la taille du bundle.",
+      "de": "Ich habe das Laden von Bildern optimiert, um die Bundle-Größe zu reduzieren.",
+      "it": "Ho ottimizzato il caricamento delle immagini per ridurre la dimensione del bundle."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_153",
+    "english": "I'm adding dark mode support to the settings page.",
+    "context": "Describing UI feature",
+    "translations": {
+      "pt-BR": "Estou adicionando suporte a modo escuro na página de configurações.",
+      "es": "Estoy agregando soporte de modo oscuro a la página de configuración.",
+      "fr": "J'ajoute le support du mode sombre à la page des paramètres.",
+      "de": "Ich füge Dark-Mode-Unterstützung zur Einstellungsseite hinzu.",
+      "it": "Sto aggiungendo il supporto alla modalità scura nella pagina impostazioni."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_154",
+    "english": "I completed the spike on the real-time notification system.",
+    "context": "Reporting research results",
+    "translations": {
+      "pt-BR": "Concluí o spike no sistema de notificações em tempo real.",
+      "es": "Completé el spike del sistema de notificaciones en tiempo real.",
+      "fr": "J'ai terminé le spike sur le système de notifications en temps réel.",
+      "de": "Ich habe den Spike zum Echtzeit-Benachrichtigungssystem abgeschlossen.",
+      "it": "Ho completato lo spike sul sistema di notifiche in tempo reale."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_155",
+    "english": "I'm going to shadow the on-call engineer today to learn the process.",
+    "context": "Describing learning activity",
+    "translations": {
+      "pt-BR": "Vou acompanhar o engenheiro de plantão hoje para aprender o processo.",
+      "es": "Voy a hacer shadow al ingeniero de guardia hoy para aprender el proceso.",
+      "fr": "Je vais suivre l'ingénieur d'astreinte aujourd'hui pour apprendre le processus.",
+      "de": "Ich werde heute den Bereitschaftsingenieur begleiten, um den Prozess zu lernen.",
+      "it": "Oggi farò shadow all'ingegnere di turno per imparare il processo."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_156",
+    "english": "I'm refactoring the state management to use Redux.",
+    "context": "Describing architecture change",
+    "translations": {
+      "pt-BR": "Estou refatorando o gerenciamento de estado para usar Redux.",
+      "es": "Estoy refactorizando la gestión de estado para usar Redux.",
+      "fr": "Je refactorise la gestion d'état pour utiliser Redux.",
+      "de": "Ich refaktorisiere das State-Management auf Redux.",
+      "it": "Sto refactorizzando la gestione dello stato per usare Redux."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_157",
+    "english": "I'll finish writing the unit tests this morning.",
+    "context": "Setting a timeline",
+    "translations": {
+      "pt-BR": "Vou terminar de escrever os testes unitários esta manhã.",
+      "es": "Terminaré de escribir las pruebas unitarias esta mañana.",
+      "fr": "Je finirai d'écrire les tests unitaires ce matin.",
+      "de": "Ich werde heute Morgen die Unit-Tests fertig schreiben.",
+      "it": "Finirò di scrivere i test unitari stamattina."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_158",
+    "english": "I fixed the CORS issue on the staging server.",
+    "context": "Reporting a fix",
+    "translations": {
+      "pt-BR": "Corrigi o problema de CORS no servidor de staging.",
+      "es": "Arreglé el problema de CORS en el servidor de staging.",
+      "fr": "J'ai corrigé le problème CORS sur le serveur de staging.",
+      "de": "Ich habe das CORS-Problem auf dem Staging-Server behoben.",
+      "it": "Ho risolto il problema CORS sul server di staging."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_159",
+    "english": "The API response time improved after the indexing changes.",
+    "context": "Sharing performance results",
+    "translations": {
+      "pt-BR": "O tempo de resposta da API melhorou após as mudanças de indexação.",
+      "es": "El tiempo de respuesta de la API mejoró después de los cambios de indexación.",
+      "fr": "Le temps de réponse de l'API s'est amélioré après les modifications d'indexation.",
+      "de": "Die API-Antwortzeit hat sich nach den Indexänderungen verbessert.",
+      "it": "Il tempo di risposta dell'API è migliorato dopo le modifiche all'indicizzazione."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_160",
+    "english": "I'll create a separate PR for the refactoring.",
+    "context": "Organizing work",
+    "translations": {
+      "pt-BR": "Vou criar um PR separado para a refatoração.",
+      "es": "Crearé un PR separado para la refactorización.",
+      "fr": "Je vais créer une PR séparée pour la refactorisation.",
+      "de": "Ich werde einen separaten PR für das Refactoring erstellen.",
+      "it": "Creerò un PR separato per il refactoring."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_161",
+    "english": "I had a productive pairing session with the tech lead.",
+    "context": "Sharing collaboration",
+    "translations": {
+      "pt-BR": "Tive uma sessão produtiva de pair programming com o tech lead.",
+      "es": "Tuve una sesión productiva de pair programming con el tech lead.",
+      "fr": "J'ai eu une session productive de pair programming avec le tech lead.",
+      "de": "Ich hatte eine produktive Pairing-Session mit dem Tech Lead.",
+      "it": "Ho avuto una sessione produttiva di pair programming con il tech lead."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_162",
+    "english": "I'm implementing rate limiting on the public API.",
+    "context": "Describing security work",
+    "translations": {
+      "pt-BR": "Estou implementando rate limiting na API pública.",
+      "es": "Estoy implementando rate limiting en la API pública.",
+      "fr": "J'implémente le rate limiting sur l'API publique.",
+      "de": "Ich implementiere Rate Limiting für die öffentliche API.",
+      "it": "Sto implementando il rate limiting sull'API pubblica."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_163",
+    "english": "I need to update the SSL certificate before it expires.",
+    "context": "Reporting urgent task",
+    "translations": {
+      "pt-BR": "Preciso atualizar o certificado SSL antes que expire.",
+      "es": "Necesito actualizar el certificado SSL antes de que expire.",
+      "fr": "Je dois mettre à jour le certificat SSL avant qu'il n'expire.",
+      "de": "Ich muss das SSL-Zertifikat aktualisieren, bevor es abläuft.",
+      "it": "Devo aggiornare il certificato SSL prima che scada."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_164",
+    "english": "I'll add retry logic to the failed API calls.",
+    "context": "Describing resilience work",
+    "translations": {
+      "pt-BR": "Vou adicionar lógica de retry nas chamadas de API que falharam.",
+      "es": "Agregaré lógica de reintentos a las llamadas de API fallidas.",
+      "fr": "Je vais ajouter une logique de retry aux appels API échoués.",
+      "de": "Ich werde Retry-Logik für fehlgeschlagene API-Aufrufe hinzufügen.",
+      "it": "Aggiungerò la logica di retry alle chiamate API fallite."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_165",
+    "english": "I'm writing a script to automate the database seeding.",
+    "context": "Describing automation",
+    "translations": {
+      "pt-BR": "Estou escrevendo um script para automatizar o seeding do banco de dados.",
+      "es": "Estoy escribiendo un script para automatizar el seeding de la base de datos.",
+      "fr": "J'écris un script pour automatiser le seeding de la base de données.",
+      "de": "Ich schreibe ein Skript zur Automatisierung des Datenbank-Seedings.",
+      "it": "Sto scrivendo uno script per automatizzare il seeding del database."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_166",
+    "english": "I'm updating the error messages to be more user-friendly.",
+    "context": "Describing UX improvement",
+    "translations": {
+      "pt-BR": "Estou atualizando as mensagens de erro para serem mais amigáveis.",
+      "es": "Estoy actualizando los mensajes de error para que sean más amigables.",
+      "fr": "Je mets à jour les messages d'erreur pour les rendre plus conviviaux.",
+      "de": "Ich aktualisiere die Fehlermeldungen, damit sie benutzerfreundlicher sind.",
+      "it": "Sto aggiornando i messaggi di errore per renderli più user-friendly."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_167",
+    "english": "I'll schedule a meeting with the architect to discuss the design.",
+    "context": "Planning a meeting",
+    "translations": {
+      "pt-BR": "Vou agendar uma reunião com o arquiteto para discutir o design.",
+      "es": "Programaré una reunión con el arquitecto para discutir el diseño.",
+      "fr": "Je vais planifier une réunion avec l'architecte pour discuter du design.",
+      "de": "Ich werde ein Meeting mit dem Architekten planen, um das Design zu besprechen.",
+      "it": "Organizzerò un meeting con l'architetto per discutere il design."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_168",
+    "english": "I'm upgrading the Node version across all services.",
+    "context": "Describing infrastructure work",
+    "translations": {
+      "pt-BR": "Estou atualizando a versão do Node em todos os serviços.",
+      "es": "Estoy actualizando la versión de Node en todos los servicios.",
+      "fr": "Je mets à jour la version de Node sur tous les services.",
+      "de": "Ich aktualisiere die Node-Version über alle Services hinweg.",
+      "it": "Sto aggiornando la versione di Node su tutti i servizi."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_169",
+    "english": "The automated tests caught a bug before it reached production.",
+    "context": "Sharing positive outcome",
+    "translations": {
+      "pt-BR": "Os testes automatizados pegaram um bug antes de chegar à produção.",
+      "es": "Las pruebas automatizadas detectaron un bug antes de llegar a producción.",
+      "fr": "Les tests automatisés ont détecté un bug avant qu'il n'atteigne la production.",
+      "de": "Die automatisierten Tests haben einen Bug gefunden, bevor er die Produktion erreicht hat.",
+      "it": "I test automatizzati hanno catturato un bug prima che raggiungesse la produzione."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_170",
+    "english": "I'm configuring the new monitoring dashboard.",
+    "context": "Describing observability work",
+    "translations": {
+      "pt-BR": "Estou configurando o novo dashboard de monitoramento.",
+      "es": "Estoy configurando el nuevo dashboard de monitoreo.",
+      "fr": "Je configure le nouveau tableau de bord de monitoring.",
+      "de": "Ich konfiguriere das neue Monitoring-Dashboard.",
+      "it": "Sto configurando la nuova dashboard di monitoraggio."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_171",
+    "english": "I'll tag the release after the final round of QA.",
+    "context": "Planning release",
+    "translations": {
+      "pt-BR": "Vou criar a tag do release após a última rodada de QA.",
+      "es": "Crearé el tag del release después de la última ronda de QA.",
+      "fr": "Je vais taguer la release après le dernier cycle de QA.",
+      "de": "Ich werde den Release nach der letzten QA-Runde taggen.",
+      "it": "Creerò il tag del rilascio dopo l'ultimo ciclo di QA."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_172",
+    "english": "I had to roll back the feature toggle because of a bug.",
+    "context": "Explaining a revert",
+    "translations": {
+      "pt-BR": "Tive que reverter a feature toggle por causa de um bug.",
+      "es": "Tuve que revertir el feature toggle por un bug.",
+      "fr": "J'ai dû annuler le feature toggle à cause d'un bug.",
+      "de": "Ich musste das Feature Toggle wegen eines Bugs zurückrollen.",
+      "it": "Ho dovuto fare il rollback del feature toggle a causa di un bug."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_173",
+    "english": "I fixed the broken import statement that was causing the build to fail.",
+    "context": "Reporting a fix",
+    "translations": {
+      "pt-BR": "Corrigi o import quebrado que estava causando falha na build.",
+      "es": "Arreglé la importación rota que estaba causando que la build fallara.",
+      "fr": "J'ai corrigé l'import cassé qui faisait échouer le build.",
+      "de": "Ich habe die fehlerhafte Import-Anweisung behoben, die den Build zum Scheitern brachte.",
+      "it": "Ho corretto l'import rotto che causava il fallimento della build."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_174",
+    "english": "I'll add the loading spinner for better UX.",
+    "context": "Describing UX work",
+    "translations": {
+      "pt-BR": "Vou adicionar o loading spinner para melhorar a UX.",
+      "es": "Agregaré el loading spinner para mejorar la UX.",
+      "fr": "Je vais ajouter le spinner de chargement pour une meilleure UX.",
+      "de": "Ich werde den Ladespinner für bessere UX hinzufügen.",
+      "it": "Aggiungerò lo spinner di caricamento per una migliore UX."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_175",
+    "english": "I set up the pre-commit hooks for the team.",
+    "context": "Describing tooling work",
+    "translations": {
+      "pt-BR": "Configurei os pre-commit hooks para o time.",
+      "es": "Configuré los pre-commit hooks para el equipo.",
+      "fr": "J'ai configuré les hooks de pre-commit pour l'équipe.",
+      "de": "Ich habe die Pre-Commit-Hooks für das Team eingerichtet.",
+      "it": "Ho configurato i pre-commit hook per il team."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_176",
+    "english": "I'm extracting the shared logic into a reusable module.",
+    "context": "Describing code reuse",
+    "translations": {
+      "pt-BR": "Estou extraindo a lógica compartilhada em um módulo reutilizável.",
+      "es": "Estoy extrayendo la lógica compartida en un módulo reutilizable.",
+      "fr": "J'extrais la logique partagée dans un module réutilisable.",
+      "de": "Ich extrahiere die gemeinsame Logik in ein wiederverwendbares Modul.",
+      "it": "Sto estraendo la logica condivisa in un modulo riutilizzabile."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_177",
+    "english": "I finished setting up the staging environment.",
+    "context": "Reporting setup completion",
+    "translations": {
+      "pt-BR": "Terminei de configurar o ambiente de staging.",
+      "es": "Terminé de configurar el entorno de staging.",
+      "fr": "J'ai terminé la configuration de l'environnement de staging.",
+      "de": "Ich habe die Staging-Umgebung fertig eingerichtet.",
+      "it": "Ho finito di configurare l'ambiente di staging."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_178",
+    "english": "I'm looking into upgrading our authentication library.",
+    "context": "Describing research",
+    "translations": {
+      "pt-BR": "Estou analisando a atualização da nossa biblioteca de autenticação.",
+      "es": "Estoy evaluando actualizar nuestra biblioteca de autenticación.",
+      "fr": "J'étudie la mise à jour de notre bibliothèque d'authentification.",
+      "de": "Ich prüfe das Upgrade unserer Authentifizierungsbibliothek.",
+      "it": "Sto valutando l'aggiornamento della nostra libreria di autenticazione."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_179",
+    "english": "I'll fix the failing snapshot tests today.",
+    "context": "Planning test fixes",
+    "translations": {
+      "pt-BR": "Vou corrigir os testes de snapshot que estão falhando hoje.",
+      "es": "Arreglaré las pruebas de snapshot que están fallando hoy.",
+      "fr": "Je vais corriger les tests de snapshot qui échouent aujourd'hui.",
+      "de": "Ich werde heute die fehlschlagenden Snapshot-Tests beheben.",
+      "it": "Correggerò i test di snapshot che stanno fallendo oggi."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_180",
+    "english": "I onboarded the new team member on our git workflow.",
+    "context": "Describing mentoring",
+    "translations": {
+      "pt-BR": "Fiz o onboarding do novo membro do time no nosso workflow do git.",
+      "es": "Hice el onboarding del nuevo miembro del equipo en nuestro flujo de git.",
+      "fr": "J'ai accompagné le nouveau membre de l'équipe sur notre workflow git.",
+      "de": "Ich habe das neue Teammitglied in unseren Git-Workflow eingearbeitet.",
+      "it": "Ho fatto l'onboarding del nuovo membro del team sul nostro workflow git."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_181",
+    "english": "I'll be focusing on tech debt reduction today.",
+    "context": "Sharing today's focus",
+    "translations": {
+      "pt-BR": "Vou focar na redução de dívida técnica hoje.",
+      "es": "Me enfocaré en la reducción de deuda técnica hoy.",
+      "fr": "Je vais me concentrer sur la réduction de la dette technique aujourd'hui.",
+      "de": "Ich werde mich heute auf den Abbau der technischen Schulden konzentrieren.",
+      "it": "Oggi mi concentrerò sulla riduzione del debito tecnico."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_182",
+    "english": "I resolved the timeout issue by implementing connection pooling.",
+    "context": "Explaining a technical fix",
+    "translations": {
+      "pt-BR": "Resolvi o problema de timeout implementando connection pooling.",
+      "es": "Resolví el problema de timeout implementando connection pooling.",
+      "fr": "J'ai résolu le problème de timeout en implémentant le pooling de connexions.",
+      "de": "Ich habe das Timeout-Problem durch Implementierung von Connection Pooling gelöst.",
+      "it": "Ho risolto il problema di timeout implementando il connection pooling."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_183",
+    "english": "I wrote a helper function to reduce code duplication.",
+    "context": "Describing refactoring",
+    "translations": {
+      "pt-BR": "Escrevi uma função auxiliar para reduzir duplicação de código.",
+      "es": "Escribí una función auxiliar para reducir la duplicación de código.",
+      "fr": "J'ai écrit une fonction utilitaire pour réduire la duplication de code.",
+      "de": "Ich habe eine Hilfsfunktion geschrieben, um Code-Duplizierung zu reduzieren.",
+      "it": "Ho scritto una funzione helper per ridurre la duplicazione del codice."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_184",
+    "english": "I'm adding pagination to the list endpoint.",
+    "context": "Describing API feature",
+    "translations": {
+      "pt-BR": "Estou adicionando paginação ao endpoint de lista.",
+      "es": "Estoy agregando paginación al endpoint de lista.",
+      "fr": "J'ajoute la pagination à l'endpoint de liste.",
+      "de": "Ich füge Paginierung zum Listen-Endpoint hinzu.",
+      "it": "Sto aggiungendo la paginazione all'endpoint della lista."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_185",
+    "english": "I'll coordinate with the mobile team on the API contract.",
+    "context": "Planning collaboration",
+    "translations": {
+      "pt-BR": "Vou coordenar com o time mobile sobre o contrato da API.",
+      "es": "Coordinaré con el equipo mobile sobre el contrato de la API.",
+      "fr": "Je vais me coordonner avec l'équipe mobile sur le contrat API.",
+      "de": "Ich werde mich mit dem Mobile-Team zum API-Vertrag abstimmen.",
+      "it": "Mi coordinerò con il team mobile sul contratto API."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_186",
+    "english": "I cleaned up the unused feature flags.",
+    "context": "Reporting cleanup",
+    "translations": {
+      "pt-BR": "Limpei as feature flags que não estavam sendo usadas.",
+      "es": "Limpié los feature flags que no se estaban usando.",
+      "fr": "J'ai nettoyé les feature flags inutilisés.",
+      "de": "Ich habe die ungenutzten Feature Flags aufgeräumt.",
+      "it": "Ho ripulito i feature flag non utilizzati."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_187",
+    "english": "I'm investigating a spike in error rates since yesterday's deploy.",
+    "context": "Describing incident investigation",
+    "translations": {
+      "pt-BR": "Estou investigando um pico nas taxas de erro desde o deploy de ontem.",
+      "es": "Estoy investigando un pico en las tasas de error desde el deploy de ayer.",
+      "fr": "J'enquête sur un pic des taux d'erreur depuis le déploiement d'hier.",
+      "de": "Ich untersuche einen Anstieg der Fehlerrate seit dem gestrigen Deploy.",
+      "it": "Sto investigando un picco nei tassi di errore dal deploy di ieri."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_188",
+    "english": "I'll share the technical design document for feedback.",
+    "context": "Planning collaboration",
+    "translations": {
+      "pt-BR": "Vou compartilhar o documento de design técnico para feedback.",
+      "es": "Compartiré el documento de diseño técnico para obtener feedback.",
+      "fr": "Je vais partager le document de conception technique pour obtenir des retours.",
+      "de": "Ich werde das technische Design-Dokument zur Rückmeldung teilen.",
+      "it": "Condividerò il documento di design tecnico per il feedback."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_189",
+    "english": "I added structured logging to the payment service.",
+    "context": "Describing observability",
+    "translations": {
+      "pt-BR": "Adicionei logging estruturado ao serviço de pagamento.",
+      "es": "Agregué logging estructurado al servicio de pagos.",
+      "fr": "J'ai ajouté du logging structuré au service de paiement.",
+      "de": "Ich habe strukturiertes Logging zum Payment-Service hinzugefügt.",
+      "it": "Ho aggiunto il logging strutturato al servizio di pagamento."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_190",
+    "english": "I'm containerizing the service with Docker.",
+    "context": "Describing DevOps work",
+    "translations": {
+      "pt-BR": "Estou containerizando o serviço com Docker.",
+      "es": "Estoy containerizando el servicio con Docker.",
+      "fr": "Je conteneurise le service avec Docker.",
+      "de": "Ich containerisiere den Service mit Docker.",
+      "it": "Sto containerizzando il servizio con Docker."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_191",
+    "english": "I'll follow up on the open questions from yesterday's design review.",
+    "context": "Planning follow-up",
+    "translations": {
+      "pt-BR": "Vou dar seguimento às perguntas abertas da revisão de design de ontem.",
+      "es": "Haré seguimiento de las preguntas abiertas de la revisión de diseño de ayer.",
+      "fr": "Je vais donner suite aux questions ouvertes de la revue de design d'hier.",
+      "de": "Ich werde die offenen Fragen aus dem gestrigen Design-Review nachverfolgen.",
+      "it": "Darò seguito alle domande aperte dalla design review di ieri."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_192",
+    "english": "The database migration ran successfully in staging.",
+    "context": "Reporting migration result",
+    "translations": {
+      "pt-BR": "A migração do banco de dados rodou com sucesso no staging.",
+      "es": "La migración de la base de datos se ejecutó exitosamente en staging.",
+      "fr": "La migration de la base de données s'est exécutée avec succès en staging.",
+      "de": "Die Datenbankmigration lief erfolgreich im Staging.",
+      "it": "La migrazione del database è stata eseguita con successo nello staging."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_193",
+    "english": "I need someone to help me reproduce the issue on Windows.",
+    "context": "Asking for help",
+    "translations": {
+      "pt-BR": "Preciso de alguém para me ajudar a reproduzir o problema no Windows.",
+      "es": "Necesito que alguien me ayude a reproducir el problema en Windows.",
+      "fr": "J'ai besoin de quelqu'un pour m'aider à reproduire le problème sous Windows.",
+      "de": "Ich brauche jemanden, der mir hilft, das Problem unter Windows zu reproduzieren.",
+      "it": "Ho bisogno di qualcuno che mi aiuti a riprodurre il problema su Windows."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_194",
+    "english": "I'm converting the callback-based code to async/await.",
+    "context": "Describing modernization",
+    "translations": {
+      "pt-BR": "Estou convertendo o código baseado em callbacks para async/await.",
+      "es": "Estoy convirtiendo el código basado en callbacks a async/await.",
+      "fr": "Je convertis le code basé sur les callbacks en async/await.",
+      "de": "Ich konvertiere den Callback-basierten Code zu async/await.",
+      "it": "Sto convertendo il codice basato su callback in async/await."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_195",
+    "english": "I'll create a runbook for the deployment process.",
+    "context": "Planning documentation",
+    "translations": {
+      "pt-BR": "Vou criar um runbook para o processo de deployment.",
+      "es": "Crearé un runbook para el proceso de despliegue.",
+      "fr": "Je vais créer un runbook pour le processus de déploiement.",
+      "de": "Ich werde ein Runbook für den Deployment-Prozess erstellen.",
+      "it": "Creerò un runbook per il processo di deployment."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_196",
+    "english": "The code freeze starts tomorrow, so I'm wrapping up my changes.",
+    "context": "Sharing timeline awareness",
+    "translations": {
+      "pt-BR": "O code freeze começa amanhã, então estou finalizando minhas mudanças.",
+      "es": "El code freeze comienza mañana, así que estoy terminando mis cambios.",
+      "fr": "Le code freeze commence demain, donc je finalise mes modifications.",
+      "de": "Der Code Freeze beginnt morgen, also schließe ich meine Änderungen ab.",
+      "it": "Il code freeze inizia domani, quindi sto concludendo le mie modifiche."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_197",
+    "english": "I fixed the race condition in the order processing pipeline.",
+    "context": "Reporting a complex fix",
+    "translations": {
+      "pt-BR": "Corrigi a condição de corrida no pipeline de processamento de pedidos.",
+      "es": "Arreglé la condición de carrera en el pipeline de procesamiento de pedidos.",
+      "fr": "J'ai corrigé la condition de concurrence dans le pipeline de traitement des commandes.",
+      "de": "Ich habe die Race Condition in der Auftragsverarbeitungspipeline behoben.",
+      "it": "Ho corretto la race condition nella pipeline di elaborazione ordini."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_198",
+    "english": "I'll update the changelog before the release.",
+    "context": "Planning release documentation",
+    "translations": {
+      "pt-BR": "Vou atualizar o changelog antes do release.",
+      "es": "Actualizaré el changelog antes del release.",
+      "fr": "Je mettrai à jour le changelog avant la release.",
+      "de": "Ich werde das Changelog vor dem Release aktualisieren.",
+      "it": "Aggiornerò il changelog prima del rilascio."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_199",
+    "english": "I'm splitting the monolithic service into smaller microservices.",
+    "context": "Describing architecture work",
+    "translations": {
+      "pt-BR": "Estou dividindo o serviço monolítico em microserviços menores.",
+      "es": "Estoy dividiendo el servicio monolítico en microservicios más pequeños.",
+      "fr": "Je divise le service monolithique en microservices plus petits.",
+      "de": "Ich teile den monolithischen Service in kleinere Microservices auf.",
+      "it": "Sto dividendo il servizio monolitico in microservizi più piccoli."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_200",
+    "english": "I need to update the API versioning strategy.",
+    "context": "Describing API work",
+    "translations": {
+      "pt-BR": "Preciso atualizar a estratégia de versionamento da API.",
+      "es": "Necesito actualizar la estrategia de versionado de la API.",
+      "fr": "Je dois mettre à jour la stratégie de versionnement de l'API.",
+      "de": "Ich muss die API-Versionierungsstrategie aktualisieren.",
+      "it": "Devo aggiornare la strategia di versionamento dell'API."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_201",
+    "english": "I attended the incident retro yesterday afternoon.",
+    "context": "Sharing what you did",
+    "translations": {
+      "pt-BR": "Participei da retro de incidente ontem à tarde.",
+      "es": "Asistí a la retro del incidente ayer por la tarde.",
+      "fr": "J'ai assisté à la rétro d'incident hier après-midi.",
+      "de": "Ich habe gestern Nachmittag an der Incident-Retro teilgenommen.",
+      "it": "Ho partecipato alla retro dell'incidente ieri pomeriggio."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_202",
+    "english": "I'm working on the accessibility improvements for screen readers.",
+    "context": "Describing accessibility work",
+    "translations": {
+      "pt-BR": "Estou trabalhando nas melhorias de acessibilidade para leitores de tela.",
+      "es": "Estoy trabajando en las mejoras de accesibilidad para lectores de pantalla.",
+      "fr": "Je travaille sur les améliorations d'accessibilité pour les lecteurs d'écran.",
+      "de": "Ich arbeite an den Barrierefreiheitsverbesserungen für Screenreader.",
+      "it": "Sto lavorando sui miglioramenti di accessibilità per gli screen reader."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_203",
+    "english": "I submitted the security patch to the upstream repository.",
+    "context": "Reporting open source work",
+    "translations": {
+      "pt-BR": "Enviei o patch de segurança para o repositório upstream.",
+      "es": "Envié el parche de seguridad al repositorio upstream.",
+      "fr": "J'ai soumis le correctif de sécurité au dépôt upstream.",
+      "de": "Ich habe den Sicherheitspatch an das Upstream-Repository übermittelt.",
+      "it": "Ho inviato la patch di sicurezza al repository upstream."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_204",
+    "english": "I'm working on reducing the cold start time for our serverless functions.",
+    "context": "Describing performance work",
+    "translations": {
+      "pt-BR": "Estou trabalhando na redução do cold start das nossas funções serverless.",
+      "es": "Estoy trabajando en reducir el cold start de nuestras funciones serverless.",
+      "fr": "Je travaille sur la réduction du temps de démarrage à froid de nos fonctions serverless.",
+      "de": "Ich arbeite an der Reduzierung der Kaltstartzeit unserer Serverless-Funktionen.",
+      "it": "Sto lavorando sulla riduzione del cold start delle nostre funzioni serverless."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_205",
+    "english": "I'll add the API key rotation mechanism today.",
+    "context": "Describing security work",
+    "translations": {
+      "pt-BR": "Vou adicionar o mecanismo de rotação de chave de API hoje.",
+      "es": "Agregaré el mecanismo de rotación de claves de API hoy.",
+      "fr": "Je vais ajouter le mécanisme de rotation des clés API aujourd'hui.",
+      "de": "Ich werde heute den API-Key-Rotationsmechanismus hinzufügen.",
+      "it": "Aggiungerò il meccanismo di rotazione delle chiavi API oggi."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_206",
+    "english": "I'm setting up the blue-green deployment strategy.",
+    "context": "Describing deployment work",
+    "translations": {
+      "pt-BR": "Estou configurando a estratégia de deploy blue-green.",
+      "es": "Estoy configurando la estrategia de despliegue blue-green.",
+      "fr": "Je mets en place la stratégie de déploiement blue-green.",
+      "de": "Ich richte die Blue-Green-Deployment-Strategie ein.",
+      "it": "Sto configurando la strategia di deploy blue-green."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_207",
+    "english": "I verified that the rollback plan works correctly.",
+    "context": "Reporting validation",
+    "translations": {
+      "pt-BR": "Verifiquei que o plano de rollback funciona corretamente.",
+      "es": "Verifiqué que el plan de rollback funciona correctamente.",
+      "fr": "J'ai vérifié que le plan de rollback fonctionne correctement.",
+      "de": "Ich habe überprüft, dass der Rollback-Plan korrekt funktioniert.",
+      "it": "Ho verificato che il piano di rollback funziona correttamente."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_208",
+    "english": "I'm implementing the webhook retry mechanism with exponential backoff.",
+    "context": "Describing resilience work",
+    "translations": {
+      "pt-BR": "Estou implementando o mecanismo de retry do webhook com backoff exponencial.",
+      "es": "Estoy implementando el mecanismo de reintentos del webhook con backoff exponencial.",
+      "fr": "J'implémente le mécanisme de retry du webhook avec backoff exponentiel.",
+      "de": "Ich implementiere den Webhook-Retry-Mechanismus mit exponentiellem Backoff.",
+      "it": "Sto implementando il meccanismo di retry del webhook con backoff esponenziale."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_209",
+    "english": "I'll write the postmortem document for the outage.",
+    "context": "Planning documentation",
+    "translations": {
+      "pt-BR": "Vou escrever o documento de postmortem da indisponibilidade.",
+      "es": "Escribiré el documento de postmortem de la interrupción.",
+      "fr": "Je vais rédiger le document de postmortem de la panne.",
+      "de": "Ich werde das Postmortem-Dokument für den Ausfall schreiben.",
+      "it": "Scriverò il documento di postmortem per il disservizio."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_210",
+    "english": "I'm adding health check endpoints to all our services.",
+    "context": "Describing infrastructure work",
+    "translations": {
+      "pt-BR": "Estou adicionando endpoints de health check a todos os nossos serviços.",
+      "es": "Estoy agregando endpoints de health check a todos nuestros servicios.",
+      "fr": "J'ajoute des endpoints de health check à tous nos services.",
+      "de": "Ich füge Health-Check-Endpoints zu allen unseren Services hinzu.",
+      "it": "Sto aggiungendo endpoint di health check a tutti i nostri servizi."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_211",
+    "english": "I configured alerts for when CPU usage exceeds eighty percent.",
+    "context": "Describing monitoring",
+    "translations": {
+      "pt-BR": "Configurei alertas para quando o uso de CPU exceder oitenta por cento.",
+      "es": "Configuré alertas para cuando el uso de CPU exceda el ochenta por ciento.",
+      "fr": "J'ai configuré des alertes pour quand l'utilisation du CPU dépasse quatre-vingts pour cent.",
+      "de": "Ich habe Alarme konfiguriert, wenn die CPU-Auslastung achtzig Prozent überschreitet.",
+      "it": "Ho configurato gli alert per quando l'uso della CPU supera l'ottanta per cento."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_212",
+    "english": "I'm migrating the cron jobs to a task scheduler.",
+    "context": "Describing infrastructure change",
+    "translations": {
+      "pt-BR": "Estou migrando os cron jobs para um agendador de tarefas.",
+      "es": "Estoy migrando los cron jobs a un programador de tareas.",
+      "fr": "Je migre les cron jobs vers un planificateur de tâches.",
+      "de": "Ich migriere die Cron-Jobs zu einem Task-Scheduler.",
+      "it": "Sto migrando i cron job a un task scheduler."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_213",
+    "english": "I removed the deprecated API endpoints as planned.",
+    "context": "Reporting cleanup",
+    "translations": {
+      "pt-BR": "Removi os endpoints de API depreciados conforme planejado.",
+      "es": "Eliminé los endpoints de API deprecados según lo planeado.",
+      "fr": "J'ai supprimé les endpoints d'API obsolètes comme prévu.",
+      "de": "Ich habe die veralteten API-Endpoints wie geplant entfernt.",
+      "it": "Ho rimosso gli endpoint API deprecati come pianificato."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_214",
+    "english": "I'll set up the canary deployment for the new version.",
+    "context": "Planning deployment",
+    "translations": {
+      "pt-BR": "Vou configurar o deploy canário para a nova versão.",
+      "es": "Configuraré el despliegue canario para la nueva versión.",
+      "fr": "Je vais mettre en place le déploiement canary pour la nouvelle version.",
+      "de": "Ich werde das Canary-Deployment für die neue Version einrichten.",
+      "it": "Configurerò il deploy canary per la nuova versione."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_215",
+    "english": "I updated the Terraform configuration for the new resources.",
+    "context": "Describing IaC work",
+    "translations": {
+      "pt-BR": "Atualizei a configuração do Terraform para os novos recursos.",
+      "es": "Actualicé la configuración de Terraform para los nuevos recursos.",
+      "fr": "J'ai mis à jour la configuration Terraform pour les nouvelles ressources.",
+      "de": "Ich habe die Terraform-Konfiguration für die neuen Ressourcen aktualisiert.",
+      "it": "Ho aggiornato la configurazione Terraform per le nuove risorse."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_216",
+    "english": "I'm reviewing the pull requests from the open source contributors.",
+    "context": "Describing community work",
+    "translations": {
+      "pt-BR": "Estou revisando os pull requests dos contribuidores open source.",
+      "es": "Estoy revisando los pull requests de los contribuidores de código abierto.",
+      "fr": "Je passe en revue les pull requests des contributeurs open source.",
+      "de": "Ich überprüfe die Pull Requests der Open-Source-Mitwirkenden.",
+      "it": "Sto revisionando le pull request dei contributori open source."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_217",
+    "english": "I optimized the SQL queries to reduce the page load time.",
+    "context": "Reporting optimization",
+    "translations": {
+      "pt-BR": "Otimizei as queries SQL para reduzir o tempo de carregamento da página.",
+      "es": "Optimicé las consultas SQL para reducir el tiempo de carga de la página.",
+      "fr": "J'ai optimisé les requêtes SQL pour réduire le temps de chargement de la page.",
+      "de": "Ich habe die SQL-Abfragen optimiert, um die Seitenladezeit zu reduzieren.",
+      "it": "Ho ottimizzato le query SQL per ridurre il tempo di caricamento della pagina."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_218",
+    "english": "I'll set up the continuous deployment pipeline today.",
+    "context": "Planning DevOps work",
+    "translations": {
+      "pt-BR": "Vou configurar o pipeline de deploy contínuo hoje.",
+      "es": "Configuraré el pipeline de despliegue continuo hoy.",
+      "fr": "Je vais mettre en place le pipeline de déploiement continu aujourd'hui.",
+      "de": "Ich werde heute die Continuous-Deployment-Pipeline einrichten.",
+      "it": "Configurerò la pipeline di deploy continuo oggi."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_219",
+    "english": "I'm implementing the new OAuth flow for third-party integrations.",
+    "context": "Describing auth work",
+    "translations": {
+      "pt-BR": "Estou implementando o novo fluxo OAuth para integrações com terceiros.",
+      "es": "Estoy implementando el nuevo flujo OAuth para integraciones con terceros.",
+      "fr": "J'implémente le nouveau flux OAuth pour les intégrations tierces.",
+      "de": "Ich implementiere den neuen OAuth-Flow für Drittanbieter-Integrationen.",
+      "it": "Sto implementando il nuovo flusso OAuth per le integrazioni con terze parti."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_220",
+    "english": "I triaged the incoming bug reports and prioritized them.",
+    "context": "Reporting triage work",
+    "translations": {
+      "pt-BR": "Fiz a triagem dos relatórios de bugs recebidos e os priorizei.",
+      "es": "Hice el triage de los reportes de bugs recibidos y los prioricé.",
+      "fr": "J'ai trié les rapports de bugs entrants et les ai priorisés.",
+      "de": "Ich habe die eingehenden Fehlerberichte gesichtet und priorisiert.",
+      "it": "Ho fatto il triage dei report di bug in arrivo e li ho prioritizzati."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_221",
+    "english": "I'm adding support for internationalization to the frontend.",
+    "context": "Describing i18n work",
+    "translations": {
+      "pt-BR": "Estou adicionando suporte a internacionalização no frontend.",
+      "es": "Estoy agregando soporte de internacionalización al frontend.",
+      "fr": "J'ajoute le support de l'internationalisation au frontend.",
+      "de": "Ich füge Internationalisierungsunterstützung zum Frontend hinzu.",
+      "it": "Sto aggiungendo il supporto all'internazionalizzazione nel frontend."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_222",
+    "english": "I'll run the performance benchmarks after my changes.",
+    "context": "Planning performance testing",
+    "translations": {
+      "pt-BR": "Vou rodar os benchmarks de performance após minhas mudanças.",
+      "es": "Ejecutaré los benchmarks de rendimiento después de mis cambios.",
+      "fr": "Je lancerai les benchmarks de performance après mes modifications.",
+      "de": "Ich werde die Performance-Benchmarks nach meinen Änderungen durchführen.",
+      "it": "Eseguirò i benchmark di performance dopo le mie modifiche."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_223",
+    "english": "I'm adding two-factor authentication to the admin panel.",
+    "context": "Describing security feature",
+    "translations": {
+      "pt-BR": "Estou adicionando autenticação de dois fatores ao painel admin.",
+      "es": "Estoy agregando autenticación de dos factores al panel de administración.",
+      "fr": "J'ajoute l'authentification à deux facteurs au panneau d'administration.",
+      "de": "Ich füge Zwei-Faktor-Authentifizierung zum Admin-Panel hinzu.",
+      "it": "Sto aggiungendo l'autenticazione a due fattori al pannello admin."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_224",
+    "english": "I need to bump the version number for the next release.",
+    "context": "Describing release prep",
+    "translations": {
+      "pt-BR": "Preciso incrementar o número da versão para o próximo release.",
+      "es": "Necesito incrementar el número de versión para el próximo release.",
+      "fr": "Je dois incrémenter le numéro de version pour la prochaine release.",
+      "de": "Ich muss die Versionsnummer für das nächste Release erhöhen.",
+      "it": "Devo aumentare il numero di versione per il prossimo rilascio."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_225",
+    "english": "I debugged the issue and it turned out to be a null pointer exception.",
+    "context": "Explaining root cause",
+    "translations": {
+      "pt-BR": "Depurei o problema e era uma exceção de ponteiro nulo.",
+      "es": "Depuré el problema y resultó ser una excepción de puntero nulo.",
+      "fr": "J'ai débogué le problème et c'était une exception de pointeur nul.",
+      "de": "Ich habe das Problem debuggt und es war eine Null-Pointer-Exception.",
+      "it": "Ho debuggato il problema ed era un'eccezione di puntero nullo."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_226",
+    "english": "I'm refactoring the API to follow RESTful conventions.",
+    "context": "Describing API improvement",
+    "translations": {
+      "pt-BR": "Estou refatorando a API para seguir convenções RESTful.",
+      "es": "Estoy refactorizando la API para seguir convenciones RESTful.",
+      "fr": "Je refactorise l'API pour suivre les conventions RESTful.",
+      "de": "Ich refaktorisiere die API, um RESTful-Konventionen zu folgen.",
+      "it": "Sto refactorizzando l'API per seguire le convenzioni RESTful."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_227",
+    "english": "I'll create a shared library for the common utilities.",
+    "context": "Planning code sharing",
+    "translations": {
+      "pt-BR": "Vou criar uma biblioteca compartilhada para os utilitários comuns.",
+      "es": "Crearé una biblioteca compartida para las utilidades comunes.",
+      "fr": "Je vais créer une bibliothèque partagée pour les utilitaires communs.",
+      "de": "Ich werde eine gemeinsame Bibliothek für die gemeinsamen Utilities erstellen.",
+      "it": "Creerò una libreria condivisa per le utility comuni."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_228",
+    "english": "I fixed a memory leak in the image processing pipeline.",
+    "context": "Reporting a fix",
+    "translations": {
+      "pt-BR": "Corrigi um vazamento de memória no pipeline de processamento de imagens.",
+      "es": "Arreglé una fuga de memoria en el pipeline de procesamiento de imágenes.",
+      "fr": "J'ai corrigé une fuite de mémoire dans le pipeline de traitement d'images.",
+      "de": "Ich habe ein Speicherleck in der Bildverarbeitungspipeline behoben.",
+      "it": "Ho corretto un memory leak nella pipeline di elaborazione immagini."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_229",
+    "english": "I'm working on the data export feature for GDPR compliance.",
+    "context": "Describing compliance work",
+    "translations": {
+      "pt-BR": "Estou trabalhando na funcionalidade de exportação de dados para conformidade com GDPR.",
+      "es": "Estoy trabajando en la función de exportación de datos para cumplimiento del GDPR.",
+      "fr": "Je travaille sur la fonctionnalité d'export de données pour la conformité RGPD.",
+      "de": "Ich arbeite an der Datenexport-Funktion für die DSGVO-Konformität.",
+      "it": "Sto lavorando sulla funzionalità di esportazione dati per la conformità GDPR."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_230",
+    "english": "I'll clean up the temporary workarounds after the proper fix lands.",
+    "context": "Planning cleanup",
+    "translations": {
+      "pt-BR": "Vou limpar os workarounds temporários depois que o fix definitivo entrar.",
+      "es": "Limpiaré los workarounds temporales después de que el fix definitivo sea implementado.",
+      "fr": "Je nettoierai les solutions de contournement temporaires après que le correctif définitif soit en place.",
+      "de": "Ich werde die temporären Workarounds aufräumen, nachdem der richtige Fix landet.",
+      "it": "Ripulirò i workaround temporanei dopo che il fix definitivo sarà implementato."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_231",
+    "english": "I added database indexes to speed up the search queries.",
+    "context": "Reporting optimization",
+    "translations": {
+      "pt-BR": "Adicionei índices no banco de dados para acelerar as queries de busca.",
+      "es": "Agregué índices a la base de datos para acelerar las consultas de búsqueda.",
+      "fr": "J'ai ajouté des index à la base de données pour accélérer les requêtes de recherche.",
+      "de": "Ich habe Datenbankindizes hinzugefügt, um die Suchabfragen zu beschleunigen.",
+      "it": "Ho aggiunto indici al database per velocizzare le query di ricerca."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_232",
+    "english": "I'm implementing the event-driven architecture for the notification system.",
+    "context": "Describing architecture work",
+    "translations": {
+      "pt-BR": "Estou implementando a arquitetura orientada a eventos para o sistema de notificações.",
+      "es": "Estoy implementando la arquitectura orientada a eventos para el sistema de notificaciones.",
+      "fr": "J'implémente l'architecture événementielle pour le système de notifications.",
+      "de": "Ich implementiere die ereignisgesteuerte Architektur für das Benachrichtigungssystem.",
+      "it": "Sto implementando l'architettura event-driven per il sistema di notifiche."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_233",
+    "english": "I need to update the API documentation with the new endpoints.",
+    "context": "Planning documentation",
+    "translations": {
+      "pt-BR": "Preciso atualizar a documentação da API com os novos endpoints.",
+      "es": "Necesito actualizar la documentación de la API con los nuevos endpoints.",
+      "fr": "Je dois mettre à jour la documentation de l'API avec les nouveaux endpoints.",
+      "de": "Ich muss die API-Dokumentation mit den neuen Endpoints aktualisieren.",
+      "it": "Devo aggiornare la documentazione dell'API con i nuovi endpoint."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_234",
+    "english": "The security scan flagged a vulnerable dependency.",
+    "context": "Reporting security issue",
+    "translations": {
+      "pt-BR": "O scan de segurança sinalizou uma dependência vulnerável.",
+      "es": "El escaneo de seguridad marcó una dependencia vulnerable.",
+      "fr": "Le scan de sécurité a signalé une dépendance vulnérable.",
+      "de": "Der Sicherheitsscan hat eine verwundbare Abhängigkeit markiert.",
+      "it": "Lo scan di sicurezza ha segnalato una dipendenza vulnerabile."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_235",
+    "english": "I'll pair with the frontend team on the component library.",
+    "context": "Planning collaboration",
+    "translations": {
+      "pt-BR": "Vou fazer pair com o time de frontend na biblioteca de componentes.",
+      "es": "Haré pair programming con el equipo de frontend en la biblioteca de componentes.",
+      "fr": "Je vais faire du pair avec l'équipe frontend sur la bibliothèque de composants.",
+      "de": "Ich werde mit dem Frontend-Team an der Komponentenbibliothek pairen.",
+      "it": "Farò pair con il team frontend sulla libreria di componenti."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_236",
+    "english": "I migrated the tests from Jest to Vitest.",
+    "context": "Describing tooling migration",
+    "translations": {
+      "pt-BR": "Migrei os testes de Jest para Vitest.",
+      "es": "Migré las pruebas de Jest a Vitest.",
+      "fr": "J'ai migré les tests de Jest vers Vitest.",
+      "de": "Ich habe die Tests von Jest auf Vitest migriert.",
+      "it": "Ho migrato i test da Jest a Vitest."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_237",
+    "english": "I updated the README with the troubleshooting guide.",
+    "context": "Reporting documentation work",
+    "translations": {
+      "pt-BR": "Atualizei o README com o guia de troubleshooting.",
+      "es": "Actualicé el README con la guía de solución de problemas.",
+      "fr": "J'ai mis à jour le README avec le guide de dépannage.",
+      "de": "Ich habe die README mit dem Troubleshooting-Guide aktualisiert.",
+      "it": "Ho aggiornato il README con la guida al troubleshooting."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_238",
+    "english": "I'm adding request validation middleware to the API.",
+    "context": "Describing security work",
+    "translations": {
+      "pt-BR": "Estou adicionando middleware de validação de requisições na API.",
+      "es": "Estoy agregando middleware de validación de solicitudes a la API.",
+      "fr": "J'ajoute un middleware de validation des requêtes à l'API.",
+      "de": "Ich füge Request-Validierungs-Middleware zur API hinzu.",
+      "it": "Sto aggiungendo middleware di validazione delle richieste all'API."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_239",
+    "english": "I reproduced the bug and I'm working on a fix.",
+    "context": "Sharing debugging progress",
+    "translations": {
+      "pt-BR": "Reproduzi o bug e estou trabalhando na correção.",
+      "es": "Reproduje el bug y estoy trabajando en un fix.",
+      "fr": "J'ai reproduit le bug et je travaille sur un correctif.",
+      "de": "Ich habe den Bug reproduziert und arbeite an einem Fix.",
+      "it": "Ho riprodotto il bug e sto lavorando a un fix."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_240",
+    "english": "I'll update the CI config to include the new test suite.",
+    "context": "Planning CI changes",
+    "translations": {
+      "pt-BR": "Vou atualizar a configuração do CI para incluir a nova suíte de testes.",
+      "es": "Actualizaré la configuración del CI para incluir la nueva suite de pruebas.",
+      "fr": "Je vais mettre à jour la configuration CI pour inclure la nouvelle suite de tests.",
+      "de": "Ich werde die CI-Konfiguration aktualisieren, um die neue Testsuite einzubeziehen.",
+      "it": "Aggiornerò la configurazione CI per includere la nuova suite di test."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_241",
+    "english": "I cached the API responses to reduce latency.",
+    "context": "Reporting optimization",
+    "translations": {
+      "pt-BR": "Cacheei as respostas da API para reduzir a latência.",
+      "es": "Almacené en caché las respuestas de la API para reducir la latencia.",
+      "fr": "J'ai mis en cache les réponses de l'API pour réduire la latence.",
+      "de": "Ich habe die API-Antworten gecacht, um die Latenz zu reduzieren.",
+      "it": "Ho messo in cache le risposte dell'API per ridurre la latenza."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_242",
+    "english": "I'll be working from home today, but I'm fully available.",
+    "context": "Sharing availability",
+    "translations": {
+      "pt-BR": "Vou trabalhar de casa hoje, mas estou totalmente disponível.",
+      "es": "Trabajaré desde casa hoy, pero estoy completamente disponible.",
+      "fr": "Je travaillerai de chez moi aujourd'hui, mais je suis entièrement disponible.",
+      "de": "Ich arbeite heute von zu Hause, aber ich bin voll erreichbar.",
+      "it": "Oggi lavorerò da casa, ma sono completamente disponibile."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_243",
+    "english": "I added the error boundary to prevent the whole app from crashing.",
+    "context": "Describing resilience",
+    "translations": {
+      "pt-BR": "Adicionei o error boundary para evitar que o app inteiro quebre.",
+      "es": "Agregué el error boundary para evitar que toda la app se bloquee.",
+      "fr": "J'ai ajouté l'error boundary pour éviter que toute l'application ne plante.",
+      "de": "Ich habe die Error Boundary hinzugefügt, um zu verhindern, dass die ganze App abstürzt.",
+      "it": "Ho aggiunto l'error boundary per evitare che l'intera app si blocchi."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_244",
+    "english": "I'm handling the edge case where the session token expires mid-request.",
+    "context": "Describing edge case handling",
+    "translations": {
+      "pt-BR": "Estou tratando o caso de borda onde o token de sessão expira durante a requisição.",
+      "es": "Estoy manejando el caso límite donde el token de sesión expira durante la solicitud.",
+      "fr": "Je gère le cas limite où le jeton de session expire en pleine requête.",
+      "de": "Ich behandle den Grenzfall, in dem das Session-Token während der Anfrage abläuft.",
+      "it": "Sto gestendo il caso limite in cui il token di sessione scade durante la richiesta."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_245",
+    "english": "I wrote a custom linter rule for our coding standards.",
+    "context": "Describing tooling work",
+    "translations": {
+      "pt-BR": "Escrevi uma regra de linter personalizada para nossos padrões de código.",
+      "es": "Escribí una regla de linter personalizada para nuestros estándares de código.",
+      "fr": "J'ai écrit une règle de linter personnalisée pour nos standards de code.",
+      "de": "Ich habe eine benutzerdefinierte Linter-Regel für unsere Coding-Standards geschrieben.",
+      "it": "Ho scritto una regola di linter personalizzata per i nostri standard di codice."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_246",
+    "english": "I enabled compression on the API responses.",
+    "context": "Describing optimization",
+    "translations": {
+      "pt-BR": "Habilitei compressão nas respostas da API.",
+      "es": "Habilité la compresión en las respuestas de la API.",
+      "fr": "J'ai activé la compression sur les réponses de l'API.",
+      "de": "Ich habe die Komprimierung der API-Antworten aktiviert.",
+      "it": "Ho abilitato la compressione sulle risposte dell'API."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_247",
+    "english": "I just picked up the highest priority bug from the backlog.",
+    "context": "Sharing what you picked up",
+    "translations": {
+      "pt-BR": "Peguei o bug de maior prioridade do backlog.",
+      "es": "Tomé el bug de mayor prioridad del backlog.",
+      "fr": "J'ai pris le bug de plus haute priorité du backlog.",
+      "de": "Ich habe den Bug mit der höchsten Priorität aus dem Backlog genommen.",
+      "it": "Ho preso il bug con la priorità più alta dal backlog."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_248",
+    "english": "I refactored the middleware chain for better readability.",
+    "context": "Describing refactoring",
+    "translations": {
+      "pt-BR": "Refatorei a cadeia de middleware para melhor legibilidade.",
+      "es": "Refactoricé la cadena de middleware para mejor legibilidad.",
+      "fr": "J'ai refactorisé la chaîne de middleware pour une meilleure lisibilité.",
+      "de": "Ich habe die Middleware-Kette für bessere Lesbarkeit refaktorisiert.",
+      "it": "Ho refactorizzato la catena di middleware per una migliore leggibilità."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_249",
+    "english": "I'll add smoke tests for the critical user flows.",
+    "context": "Planning testing",
+    "translations": {
+      "pt-BR": "Vou adicionar smoke tests para os fluxos críticos do usuário.",
+      "es": "Agregaré smoke tests para los flujos críticos del usuario.",
+      "fr": "Je vais ajouter des smoke tests pour les flux utilisateur critiques.",
+      "de": "Ich werde Smoke-Tests für die kritischen Benutzerflows hinzufügen.",
+      "it": "Aggiungerò smoke test per i flussi utente critici."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_250",
+    "english": "I set up the new Grafana dashboard for the backend metrics.",
+    "context": "Describing observability",
+    "translations": {
+      "pt-BR": "Configurei o novo dashboard do Grafana para as métricas do backend.",
+      "es": "Configuré el nuevo dashboard de Grafana para las métricas del backend.",
+      "fr": "J'ai configuré le nouveau tableau de bord Grafana pour les métriques du backend.",
+      "de": "Ich habe das neue Grafana-Dashboard für die Backend-Metriken eingerichtet.",
+      "it": "Ho configurato la nuova dashboard Grafana per le metriche del backend."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_251",
+    "english": "I'm working on lazy loading the images to improve initial page load.",
+    "context": "Describing performance work",
+    "translations": {
+      "pt-BR": "Estou trabalhando no lazy loading das imagens para melhorar o carregamento inicial da página.",
+      "es": "Estoy trabajando en la carga diferida de las imágenes para mejorar la carga inicial de la página.",
+      "fr": "Je travaille sur le lazy loading des images pour améliorer le chargement initial de la page.",
+      "de": "Ich arbeite am Lazy Loading der Bilder, um den initialen Seitenaufbau zu verbessern.",
+      "it": "Sto lavorando sul lazy loading delle immagini per migliorare il caricamento iniziale della pagina."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_252",
+    "english": "I'll verify the fix on staging before promoting to production.",
+    "context": "Planning verification",
+    "translations": {
+      "pt-BR": "Vou verificar a correção no staging antes de promover para produção.",
+      "es": "Verificaré el fix en staging antes de promover a producción.",
+      "fr": "Je vais vérifier le correctif en staging avant de le passer en production.",
+      "de": "Ich werde den Fix im Staging verifizieren, bevor ich ihn in die Produktion bringe.",
+      "it": "Verificherò il fix sullo staging prima di promuoverlo in produzione."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_253",
+    "english": "The load balancer configuration needs to be updated for the new instances.",
+    "context": "Identifying a task",
+    "translations": {
+      "pt-BR": "A configuração do load balancer precisa ser atualizada para as novas instâncias.",
+      "es": "La configuración del load balancer necesita actualizarse para las nuevas instancias.",
+      "fr": "La configuration du load balancer doit être mise à jour pour les nouvelles instances.",
+      "de": "Die Load-Balancer-Konfiguration muss für die neuen Instanzen aktualisiert werden.",
+      "it": "La configurazione del load balancer deve essere aggiornata per le nuove istanze."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_254",
+    "english": "I'm implementing server-side rendering for better SEO.",
+    "context": "Describing SSR work",
+    "translations": {
+      "pt-BR": "Estou implementando renderização no servidor para melhor SEO.",
+      "es": "Estoy implementando renderización del lado del servidor para mejor SEO.",
+      "fr": "J'implémente le rendu côté serveur pour un meilleur SEO.",
+      "de": "Ich implementiere Server-Side-Rendering für besseres SEO.",
+      "it": "Sto implementando il server-side rendering per un migliore SEO."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_255",
+    "english": "I created a shared context for the authenticated user state.",
+    "context": "Describing architecture work",
+    "translations": {
+      "pt-BR": "Criei um contexto compartilhado para o estado do usuário autenticado.",
+      "es": "Creé un contexto compartido para el estado del usuario autenticado.",
+      "fr": "J'ai créé un contexte partagé pour l'état de l'utilisateur authentifié.",
+      "de": "Ich habe einen gemeinsamen Kontext für den authentifizierten Benutzerstatus erstellt.",
+      "it": "Ho creato un contesto condiviso per lo stato dell'utente autenticato."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_256",
+    "english": "I'm working on the file upload feature with drag and drop.",
+    "context": "Describing UI feature",
+    "translations": {
+      "pt-BR": "Estou trabalhando na funcionalidade de upload de arquivo com arrastar e soltar.",
+      "es": "Estoy trabajando en la función de carga de archivos con arrastrar y soltar.",
+      "fr": "Je travaille sur la fonctionnalité d'upload de fichiers avec glisser-déposer.",
+      "de": "Ich arbeite an der Datei-Upload-Funktion mit Drag and Drop.",
+      "it": "Sto lavorando sulla funzionalità di upload file con drag and drop."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_257",
+    "english": "I'll add the cron job to clean up expired sessions.",
+    "context": "Planning maintenance task",
+    "translations": {
+      "pt-BR": "Vou adicionar o cron job para limpar sessões expiradas.",
+      "es": "Agregaré el cron job para limpiar sesiones expiradas.",
+      "fr": "Je vais ajouter le cron job pour nettoyer les sessions expirées.",
+      "de": "Ich werde den Cron-Job zum Bereinigen abgelaufener Sitzungen hinzufügen.",
+      "it": "Aggiungerò il cron job per pulire le sessioni scadute."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_258",
+    "english": "I'm adding WebSocket support for real-time updates.",
+    "context": "Describing feature work",
+    "translations": {
+      "pt-BR": "Estou adicionando suporte a WebSocket para atualizações em tempo real.",
+      "es": "Estoy agregando soporte de WebSocket para actualizaciones en tiempo real.",
+      "fr": "J'ajoute le support WebSocket pour les mises à jour en temps réel.",
+      "de": "Ich füge WebSocket-Unterstützung für Echtzeit-Updates hinzu.",
+      "it": "Sto aggiungendo il supporto WebSocket per gli aggiornamenti in tempo reale."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_259",
+    "english": "I automated the release notes generation from commit messages.",
+    "context": "Describing automation",
+    "translations": {
+      "pt-BR": "Automatizei a geração de notas de release a partir das mensagens de commit.",
+      "es": "Automaticé la generación de notas de release a partir de los mensajes de commit.",
+      "fr": "J'ai automatisé la génération des notes de release à partir des messages de commit.",
+      "de": "Ich habe die Release-Notes-Generierung aus Commit-Nachrichten automatisiert.",
+      "it": "Ho automatizzato la generazione delle note di rilascio dai messaggi di commit."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_260",
+    "english": "I need to add a retry queue for failed email deliveries.",
+    "context": "Identifying a task",
+    "translations": {
+      "pt-BR": "Preciso adicionar uma fila de retry para entregas de email que falharam.",
+      "es": "Necesito agregar una cola de reintentos para entregas de email fallidas.",
+      "fr": "Je dois ajouter une file de retry pour les livraisons d'e-mail échouées.",
+      "de": "Ich muss eine Retry-Warteschlange für fehlgeschlagene E-Mail-Zustellungen hinzufügen.",
+      "it": "Devo aggiungere una coda di retry per le consegne email fallite."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_261",
+    "english": "I reduced the Docker image size by switching to Alpine.",
+    "context": "Reporting optimization",
+    "translations": {
+      "pt-BR": "Reduzi o tamanho da imagem Docker mudando para Alpine.",
+      "es": "Reduje el tamaño de la imagen Docker cambiando a Alpine.",
+      "fr": "J'ai réduit la taille de l'image Docker en passant à Alpine.",
+      "de": "Ich habe die Docker-Image-Größe durch den Wechsel zu Alpine reduziert.",
+      "it": "Ho ridotto la dimensione dell'immagine Docker passando ad Alpine."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_262",
+    "english": "I'm implementing the GraphQL subscriptions for the chat feature.",
+    "context": "Describing feature work",
+    "translations": {
+      "pt-BR": "Estou implementando as subscriptions GraphQL para a funcionalidade de chat.",
+      "es": "Estoy implementando las suscripciones GraphQL para la función de chat.",
+      "fr": "J'implémente les subscriptions GraphQL pour la fonctionnalité de chat.",
+      "de": "Ich implementiere die GraphQL-Subscriptions für die Chat-Funktion.",
+      "it": "Sto implementando le subscription GraphQL per la funzionalità di chat."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_263",
+    "english": "I adjusted the retry policy to be more aggressive during peak hours.",
+    "context": "Describing configuration change",
+    "translations": {
+      "pt-BR": "Ajustei a política de retry para ser mais agressiva durante horários de pico.",
+      "es": "Ajusté la política de reintentos para que sea más agresiva durante las horas pico.",
+      "fr": "J'ai ajusté la politique de retry pour être plus agressive pendant les heures de pointe.",
+      "de": "Ich habe die Retry-Richtlinie für Spitzenzeiten aggressiver eingestellt.",
+      "it": "Ho aggiustato la policy di retry per essere più aggressiva durante le ore di punta."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_264",
+    "english": "I'll share the retrospective action items with the team.",
+    "context": "Planning communication",
+    "translations": {
+      "pt-BR": "Vou compartilhar os action items da retrospectiva com o time.",
+      "es": "Compartiré los action items de la retrospectiva con el equipo.",
+      "fr": "Je vais partager les actions de la rétrospective avec l'équipe.",
+      "de": "Ich werde die Aktionspunkte der Retrospektive mit dem Team teilen.",
+      "it": "Condividerò gli action item della retrospettiva con il team."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_265",
+    "english": "The API gateway is now routing traffic correctly to the new service.",
+    "context": "Reporting progress",
+    "translations": {
+      "pt-BR": "O API gateway agora está roteando tráfego corretamente para o novo serviço.",
+      "es": "El API gateway ahora está enrutando tráfico correctamente al nuevo servicio.",
+      "fr": "L'API gateway route maintenant correctement le trafic vers le nouveau service.",
+      "de": "Das API Gateway leitet den Traffic jetzt korrekt zum neuen Service.",
+      "it": "L'API gateway ora instrada correttamente il traffico al nuovo servizio."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_266",
+    "english": "I need help reviewing the database schema changes.",
+    "context": "Asking for help",
+    "translations": {
+      "pt-BR": "Preciso de ajuda para revisar as mudanças no schema do banco de dados.",
+      "es": "Necesito ayuda para revisar los cambios en el esquema de la base de datos.",
+      "fr": "J'ai besoin d'aide pour revoir les modifications du schéma de base de données.",
+      "de": "Ich brauche Hilfe bei der Überprüfung der Datenbankschema-Änderungen.",
+      "it": "Ho bisogno di aiuto per revisionare le modifiche allo schema del database."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_267",
+    "english": "I just deployed the new version of the mobile app to TestFlight.",
+    "context": "Reporting deployment",
+    "translations": {
+      "pt-BR": "Acabei de fazer deploy da nova versão do app mobile no TestFlight.",
+      "es": "Acabo de desplegar la nueva versión de la app móvil en TestFlight.",
+      "fr": "Je viens de déployer la nouvelle version de l'app mobile sur TestFlight.",
+      "de": "Ich habe gerade die neue Version der mobilen App auf TestFlight deployed.",
+      "it": "Ho appena deployato la nuova versione dell'app mobile su TestFlight."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_268",
+    "english": "I'm implementing the queue system for background jobs.",
+    "context": "Describing backend work",
+    "translations": {
+      "pt-BR": "Estou implementando o sistema de filas para jobs em background.",
+      "es": "Estoy implementando el sistema de colas para trabajos en segundo plano.",
+      "fr": "J'implémente le système de files pour les tâches en arrière-plan.",
+      "de": "Ich implementiere das Warteschlangensystem für Background-Jobs.",
+      "it": "Sto implementando il sistema di code per i job in background."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_269",
+    "english": "I replaced the hard-coded values with environment variables.",
+    "context": "Describing config improvement",
+    "translations": {
+      "pt-BR": "Substituí os valores hard-coded por variáveis de ambiente.",
+      "es": "Reemplacé los valores hard-coded por variables de entorno.",
+      "fr": "J'ai remplacé les valeurs en dur par des variables d'environnement.",
+      "de": "Ich habe die fest codierten Werte durch Umgebungsvariablen ersetzt.",
+      "it": "Ho sostituito i valori hard-coded con variabili d'ambiente."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_270",
+    "english": "I'm setting up distributed tracing across our microservices.",
+    "context": "Describing observability",
+    "translations": {
+      "pt-BR": "Estou configurando tracing distribuído entre nossos microserviços.",
+      "es": "Estoy configurando el tracing distribuido en nuestros microservicios.",
+      "fr": "Je mets en place le tracing distribué à travers nos microservices.",
+      "de": "Ich richte verteiltes Tracing über unsere Microservices hinweg ein.",
+      "it": "Sto configurando il tracing distribuito tra i nostri microservizi."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_271",
+    "english": "I'll add the feature to the beta channel first.",
+    "context": "Planning gradual rollout",
+    "translations": {
+      "pt-BR": "Vou adicionar a funcionalidade no canal beta primeiro.",
+      "es": "Agregaré la función al canal beta primero.",
+      "fr": "Je vais d'abord ajouter la fonctionnalité au canal bêta.",
+      "de": "Ich werde das Feature zuerst im Beta-Kanal hinzufügen.",
+      "it": "Aggiungerò la funzionalità prima nel canale beta."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_272",
+    "english": "I updated the TypeScript types to match the new API response.",
+    "context": "Describing type safety work",
+    "translations": {
+      "pt-BR": "Atualizei os tipos TypeScript para corresponder à nova resposta da API.",
+      "es": "Actualicé los tipos de TypeScript para que coincidan con la nueva respuesta de la API.",
+      "fr": "J'ai mis à jour les types TypeScript pour correspondre à la nouvelle réponse de l'API.",
+      "de": "Ich habe die TypeScript-Typen aktualisiert, um zur neuen API-Antwort zu passen.",
+      "it": "Ho aggiornato i tipi TypeScript per corrispondere alla nuova risposta API."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_273",
+    "english": "I resolved the dependency vulnerability by bumping the package version.",
+    "context": "Reporting security fix",
+    "translations": {
+      "pt-BR": "Resolvi a vulnerabilidade de dependência atualizando a versão do pacote.",
+      "es": "Resolví la vulnerabilidad de dependencia actualizando la versión del paquete.",
+      "fr": "J'ai résolu la vulnérabilité de dépendance en mettant à jour la version du package.",
+      "de": "Ich habe die Dependency-Schwachstelle durch Aktualisierung der Paketversion behoben.",
+      "it": "Ho risolto la vulnerabilità della dipendenza aggiornando la versione del pacchetto."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_274",
+    "english": "I'm building the admin dashboard for managing user accounts.",
+    "context": "Describing feature work",
+    "translations": {
+      "pt-BR": "Estou construindo o dashboard admin para gerenciar contas de usuário.",
+      "es": "Estoy construyendo el dashboard de administración para gestionar cuentas de usuario.",
+      "fr": "Je construis le tableau de bord admin pour la gestion des comptes utilisateurs.",
+      "de": "Ich baue das Admin-Dashboard zur Verwaltung von Benutzerkonten.",
+      "it": "Sto costruendo la dashboard admin per la gestione degli account utente."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_275",
+    "english": "I cleaned up the dead code after the feature was deprecated.",
+    "context": "Reporting cleanup",
+    "translations": {
+      "pt-BR": "Limpei o código morto depois que a funcionalidade foi depreciada.",
+      "es": "Limpié el código muerto después de que la función fue deprecada.",
+      "fr": "J'ai nettoyé le code mort après que la fonctionnalité a été dépréciée.",
+      "de": "Ich habe den toten Code nach der Abkündigung des Features aufgeräumt.",
+      "it": "Ho ripulito il codice morto dopo che la funzionalità è stata deprecata."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_276",
+    "english": "I'll set up the mock server for the frontend team to start working.",
+    "context": "Enabling other team",
+    "translations": {
+      "pt-BR": "Vou configurar o mock server para o time de frontend começar a trabalhar.",
+      "es": "Configuraré el mock server para que el equipo de frontend pueda comenzar a trabajar.",
+      "fr": "Je vais configurer le serveur mock pour que l'équipe frontend puisse commencer à travailler.",
+      "de": "Ich werde den Mock-Server einrichten, damit das Frontend-Team anfangen kann.",
+      "it": "Configurerò il mock server per permettere al team frontend di iniziare a lavorare."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_277",
+    "english": "I'm adding the database connection pool to handle more concurrent requests.",
+    "context": "Describing scalability work",
+    "translations": {
+      "pt-BR": "Estou adicionando o pool de conexões do banco para lidar com mais requisições simultâneas.",
+      "es": "Estoy agregando el pool de conexiones de base de datos para manejar más solicitudes concurrentes.",
+      "fr": "J'ajoute le pool de connexions à la base de données pour gérer plus de requêtes simultanées.",
+      "de": "Ich füge den Datenbank-Connection-Pool hinzu, um mehr gleichzeitige Anfragen zu bewältigen.",
+      "it": "Sto aggiungendo il pool di connessioni al database per gestire più richieste simultanee."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_278",
+    "english": "I pinpointed the root cause — it was a missing null check.",
+    "context": "Explaining root cause",
+    "translations": {
+      "pt-BR": "Identifiquei a causa raiz — era uma verificação de nulo faltando.",
+      "es": "Identifiqué la causa raíz — era una verificación de nulo faltante.",
+      "fr": "J'ai identifié la cause racine — c'était une vérification de null manquante.",
+      "de": "Ich habe die Ursache gefunden — es fehlte eine Null-Prüfung.",
+      "it": "Ho individuato la causa radice — mancava un controllo null."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_279",
+    "english": "I'm adding the soft delete feature so we can recover deleted records.",
+    "context": "Describing data safety",
+    "translations": {
+      "pt-BR": "Estou adicionando a funcionalidade de soft delete para podermos recuperar registros deletados.",
+      "es": "Estoy agregando la función de soft delete para poder recuperar registros eliminados.",
+      "fr": "J'ajoute la fonctionnalité de soft delete pour pouvoir récupérer les enregistrements supprimés.",
+      "de": "Ich füge die Soft-Delete-Funktion hinzu, damit wir gelöschte Datensätze wiederherstellen können.",
+      "it": "Sto aggiungendo la funzionalità di soft delete per poter recuperare i record cancellati."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_280",
+    "english": "I need to look into why the nightly build keeps failing.",
+    "context": "Identifying investigation",
+    "translations": {
+      "pt-BR": "Preciso investigar por que a build noturna continua falhando.",
+      "es": "Necesito investigar por qué la build nocturna sigue fallando.",
+      "fr": "Je dois examiner pourquoi le build nocturne continue d'échouer.",
+      "de": "Ich muss untersuchen, warum der nächtliche Build weiterhin fehlschlägt.",
+      "it": "Devo indagare perché la build notturna continua a fallire."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_281",
+    "english": "I added the OpenTelemetry instrumentation for better observability.",
+    "context": "Describing observability work",
+    "translations": {
+      "pt-BR": "Adicionei a instrumentação OpenTelemetry para melhor observabilidade.",
+      "es": "Agregué la instrumentación de OpenTelemetry para mejor observabilidad.",
+      "fr": "J'ai ajouté l'instrumentation OpenTelemetry pour une meilleure observabilité.",
+      "de": "Ich habe die OpenTelemetry-Instrumentierung für bessere Observability hinzugefügt.",
+      "it": "Ho aggiunto l'instrumentazione OpenTelemetry per una migliore osservabilità."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_282",
+    "english": "I'll send a summary of my findings in Slack after standup.",
+    "context": "Planning communication",
+    "translations": {
+      "pt-BR": "Vou enviar um resumo das minhas descobertas no Slack após o standup.",
+      "es": "Enviaré un resumen de mis hallazgos en Slack después del standup.",
+      "fr": "J'enverrai un résumé de mes conclusions sur Slack après le standup.",
+      "de": "Ich werde nach dem Standup eine Zusammenfassung meiner Ergebnisse auf Slack senden.",
+      "it": "Invierò un riepilogo delle mie scoperte su Slack dopo lo standup."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_283",
+    "english": "I'm done with my updates. Does anyone need help with anything?",
+    "context": "Offering help at end of standup",
+    "translations": {
+      "pt-BR": "Terminei minhas atualizações. Alguém precisa de ajuda com alguma coisa?",
+      "es": "Terminé mis actualizaciones. ¿Alguien necesita ayuda con algo?",
+      "fr": "J'ai terminé mes mises à jour. Quelqu'un a-t-il besoin d'aide ?",
+      "de": "Ich bin fertig mit meinen Updates. Braucht jemand Hilfe bei etwas?",
+      "it": "Ho finito con i miei aggiornamenti. Qualcuno ha bisogno di aiuto con qualcosa?"
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_284",
+    "english": "I'm working on the GraphQL resolvers for the new entity.",
+    "context": "Describing API work",
+    "translations": {
+      "pt-BR": "Estou trabalhando nos resolvers GraphQL para a nova entidade.",
+      "es": "Estoy trabajando en los resolvers de GraphQL para la nueva entidad.",
+      "fr": "Je travaille sur les résolveurs GraphQL pour la nouvelle entité.",
+      "de": "Ich arbeite an den GraphQL-Resolvern für die neue Entität.",
+      "it": "Sto lavorando sui resolver GraphQL per la nuova entità."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_285",
+    "english": "I configured the CDN to cache the static assets.",
+    "context": "Describing infrastructure",
+    "translations": {
+      "pt-BR": "Configurei o CDN para cachear os assets estáticos.",
+      "es": "Configuré el CDN para almacenar en caché los activos estáticos.",
+      "fr": "J'ai configuré le CDN pour mettre en cache les ressources statiques.",
+      "de": "Ich habe das CDN so konfiguriert, dass statische Assets gecacht werden.",
+      "it": "Ho configurato il CDN per mettere in cache gli asset statici."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_286",
+    "english": "I'm looking into the failing health checks on the production pods.",
+    "context": "Describing investigation",
+    "translations": {
+      "pt-BR": "Estou investigando os health checks falhando nos pods de produção.",
+      "es": "Estoy investigando los health checks que fallan en los pods de producción.",
+      "fr": "J'enquête sur les health checks qui échouent sur les pods de production.",
+      "de": "Ich untersuche die fehlgeschlagenen Health Checks auf den Produktions-Pods.",
+      "it": "Sto indagando sui health check che falliscono sui pod di produzione."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_287",
+    "english": "I'll refactor the tests to use the new test utilities.",
+    "context": "Planning test improvement",
+    "translations": {
+      "pt-BR": "Vou refatorar os testes para usar os novos utilitários de teste.",
+      "es": "Refactorizaré las pruebas para usar las nuevas utilidades de prueba.",
+      "fr": "Je vais refactoriser les tests pour utiliser les nouveaux utilitaires de test.",
+      "de": "Ich werde die Tests refaktorisieren, um die neuen Test-Utilities zu verwenden.",
+      "it": "Refactorizzerò i test per usare le nuove utility di test."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_288",
+    "english": "I rolled out the feature to ten percent of users for A/B testing.",
+    "context": "Describing gradual rollout",
+    "translations": {
+      "pt-BR": "Liberei a funcionalidade para dez por cento dos usuários para teste A/B.",
+      "es": "Lancé la función al diez por ciento de los usuarios para prueba A/B.",
+      "fr": "J'ai déployé la fonctionnalité pour dix pour cent des utilisateurs pour un test A/B.",
+      "de": "Ich habe das Feature für zehn Prozent der Benutzer zum A/B-Testen ausgerollt.",
+      "it": "Ho rilasciato la funzionalità al dieci per cento degli utenti per test A/B."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_289",
+    "english": "I need to discuss the rate limiting thresholds with the product owner.",
+    "context": "Planning discussion",
+    "translations": {
+      "pt-BR": "Preciso discutir os limites de rate limiting com o product owner.",
+      "es": "Necesito discutir los umbrales de rate limiting con el product owner.",
+      "fr": "Je dois discuter des seuils de rate limiting avec le product owner.",
+      "de": "Ich muss die Rate-Limiting-Schwellenwerte mit dem Product Owner besprechen.",
+      "it": "Devo discutere le soglie di rate limiting con il product owner."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_290",
+    "english": "I standardized the error response format across all endpoints.",
+    "context": "Describing API improvement",
+    "translations": {
+      "pt-BR": "Padronizei o formato de resposta de erro em todos os endpoints.",
+      "es": "Estandaricé el formato de respuesta de error en todos los endpoints.",
+      "fr": "J'ai standardisé le format de réponse d'erreur sur tous les endpoints.",
+      "de": "Ich habe das Fehler-Antwortformat über alle Endpoints hinweg standardisiert.",
+      "it": "Ho standardizzato il formato di risposta errore su tutti gli endpoint."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_291",
+    "english": "I set up the integration tests with the real database.",
+    "context": "Describing test infrastructure",
+    "translations": {
+      "pt-BR": "Configurei os testes de integração com o banco de dados real.",
+      "es": "Configuré las pruebas de integración con la base de datos real.",
+      "fr": "J'ai configuré les tests d'intégration avec la vraie base de données.",
+      "de": "Ich habe die Integrationstests mit der echten Datenbank eingerichtet.",
+      "it": "Ho configurato i test di integrazione con il database reale."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_292",
+    "english": "I'm handling the graceful shutdown of the service.",
+    "context": "Describing reliability work",
+    "translations": {
+      "pt-BR": "Estou tratando o shutdown gracioso do serviço.",
+      "es": "Estoy manejando el apagado gracioso del servicio.",
+      "fr": "Je gère l'arrêt gracieux du service.",
+      "de": "Ich implementiere das graceful Shutdown des Services.",
+      "it": "Sto gestendo lo shutdown graceful del servizio."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_293",
+    "english": "I'll be offline for a couple of hours this afternoon for a dentist appointment.",
+    "context": "Sharing availability",
+    "translations": {
+      "pt-BR": "Vou ficar offline por algumas horas esta tarde para uma consulta no dentista.",
+      "es": "Estaré offline por un par de horas esta tarde por una cita con el dentista.",
+      "fr": "Je serai hors ligne quelques heures cet après-midi pour un rendez-vous chez le dentiste.",
+      "de": "Ich werde heute Nachmittag ein paar Stunden offline sein wegen eines Zahnarzttermins.",
+      "it": "Sarò offline per un paio d'ore questo pomeriggio per un appuntamento dal dentista."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_294",
+    "english": "I wrote a database seed script for the development environment.",
+    "context": "Describing tooling",
+    "translations": {
+      "pt-BR": "Escrevi um script de seed do banco de dados para o ambiente de desenvolvimento.",
+      "es": "Escribí un script de seed de base de datos para el entorno de desarrollo.",
+      "fr": "J'ai écrit un script de seed de base de données pour l'environnement de développement.",
+      "de": "Ich habe ein Datenbank-Seed-Skript für die Entwicklungsumgebung geschrieben.",
+      "it": "Ho scritto uno script di seed del database per l'ambiente di sviluppo."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_295",
+    "english": "I'm implementing the circuit breaker pattern for the external API calls.",
+    "context": "Describing resilience pattern",
+    "translations": {
+      "pt-BR": "Estou implementando o padrão circuit breaker para as chamadas de API externa.",
+      "es": "Estoy implementando el patrón circuit breaker para las llamadas a API externas.",
+      "fr": "J'implémente le pattern circuit breaker pour les appels à l'API externe.",
+      "de": "Ich implementiere das Circuit-Breaker-Pattern für die externen API-Aufrufe.",
+      "it": "Sto implementando il pattern circuit breaker per le chiamate API esterne."
+    },
+    "difficulty": "hard",
+    "category": "standup"
+  },
+  {
+    "id": "standup_296",
+    "english": "I removed the console.log statements I left during debugging.",
+    "context": "Reporting cleanup",
+    "translations": {
+      "pt-BR": "Removi os console.log que deixei durante a depuração.",
+      "es": "Eliminé los console.log que dejé durante la depuración.",
+      "fr": "J'ai supprimé les console.log que j'avais laissés pendant le débogage.",
+      "de": "Ich habe die console.log-Anweisungen entfernt, die ich beim Debuggen hinterlassen hatte.",
+      "it": "Ho rimosso i console.log che avevo lasciato durante il debug."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_297",
+    "english": "I need to add the CORS headers to allow cross-origin requests.",
+    "context": "Identifying task",
+    "translations": {
+      "pt-BR": "Preciso adicionar os headers CORS para permitir requisições cross-origin.",
+      "es": "Necesito agregar los headers CORS para permitir solicitudes cross-origin.",
+      "fr": "Je dois ajouter les en-têtes CORS pour autoriser les requêtes cross-origin.",
+      "de": "Ich muss die CORS-Header hinzufügen, um Cross-Origin-Anfragen zu erlauben.",
+      "it": "Devo aggiungere gli header CORS per consentire le richieste cross-origin."
+    },
+    "difficulty": "easy",
+    "category": "standup"
+  },
+  {
+    "id": "standup_298",
+    "english": "I'm setting up GitHub Actions for the automated deployments.",
+    "context": "Describing CI/CD work",
+    "translations": {
+      "pt-BR": "Estou configurando GitHub Actions para os deploys automatizados.",
+      "es": "Estoy configurando GitHub Actions para los despliegues automatizados.",
+      "fr": "Je mets en place GitHub Actions pour les déploiements automatisés.",
+      "de": "Ich richte GitHub Actions für die automatisierten Deployments ein.",
+      "it": "Sto configurando GitHub Actions per i deploy automatizzati."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_299",
+    "english": "I noticed the memory usage has been increasing steadily and I'll investigate.",
+    "context": "Identifying investigation",
+    "translations": {
+      "pt-BR": "Notei que o uso de memória tem aumentado constantemente e vou investigar.",
+      "es": "Noté que el uso de memoria ha estado aumentando constantemente y lo investigaré.",
+      "fr": "J'ai remarqué que l'utilisation de la mémoire augmente régulièrement et je vais enquêter.",
+      "de": "Ich habe bemerkt, dass der Speicherverbrauch stetig steigt, und werde das untersuchen.",
+      "it": "Ho notato che l'uso della memoria è in costante aumento e indagherò."
+    },
+    "difficulty": "medium",
+    "category": "standup"
+  },
+  {
+    "id": "standup_300",
+    "english": "I'm wrapping up the documentation for the new API version.",
+    "context": "Describing documentation work",
+    "translations": {
+      "pt-BR": "Estou finalizando a documentação da nova versão da API.",
+      "es": "Estoy terminando la documentación de la nueva versión de la API.",
+      "fr": "Je finalise la documentation de la nouvelle version de l'API.",
+      "de": "Ich schließe die Dokumentation für die neue API-Version ab.",
+      "it": "Sto concludendo la documentazione della nuova versione dell'API."
+    },
+    "difficulty": "easy",
     "category": "standup"
   }
 ]

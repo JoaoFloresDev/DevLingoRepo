@@ -7,11 +7,15 @@ struct PhraseEntry: TimelineEntry {
     let date: Date
     let english: String
     let translation: String
+    let secondEnglish: String?
+    let secondTranslation: String?
 
     static let placeholder = PhraseEntry(
         date: .now,
         english: "Can you review my pull request?",
-        translation: "Você pode revisar meu pull request?"
+        translation: "Você pode revisar meu pull request?",
+        secondEnglish: "Let's circle back on this",
+        secondTranslation: "Vamos retomar isso"
     )
 }
 
@@ -31,10 +35,13 @@ struct DevLingoTimelineProvider: TimelineProvider {
             return
         }
         let phrase = phrases[0]
+        let second = phrases.count > 1 ? phrases[1] : nil
         completion(PhraseEntry(
             date: .now,
             english: phrase.english,
-            translation: phrase.translation
+            translation: phrase.translation,
+            secondEnglish: second?.english,
+            secondTranslation: second?.translation
         ))
     }
 
@@ -55,11 +62,15 @@ struct DevLingoTimelineProvider: TimelineProvider {
         for i in 0..<phrases.count {
             let entryDate = calendar.date(byAdding: .hour, value: i * 2, to: now) ?? now
             let phrase = phrases[i % phrases.count]
+            let secondIndex = (i + 1) % phrases.count
+            let second = phrases.count > 1 ? phrases[secondIndex] : nil
 
             entries.append(PhraseEntry(
                 date: entryDate,
                 english: phrase.english,
-                translation: phrase.translation
+                translation: phrase.translation,
+                secondEnglish: second?.english,
+                secondTranslation: second?.translation
             ))
         }
 
@@ -100,7 +111,10 @@ struct DevLingoWidget: Widget {
         }
         .configurationDisplayName(String(localized: "widget.name"))
         .description(String(localized: "widget.description"))
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        .supportedFamilies([
+            .systemSmall, .systemMedium, .systemLarge,
+            .accessoryRectangular, .accessoryInline
+        ])
     }
 }
 
@@ -112,6 +126,21 @@ struct DevLingoWidgetView: View {
     @Environment(\.widgetFamily) var family
 
     var body: some View {
+        switch family {
+        case .systemLarge:
+            largeView
+        case .accessoryRectangular:
+            accessoryRectangularView
+        case .accessoryInline:
+            accessoryInlineView
+        default:
+            standardView
+        }
+    }
+
+    // MARK: - Standard View (Small / Medium)
+
+    private var standardView: some View {
         VStack(spacing: 0) {
             Spacer()
 
@@ -126,13 +155,72 @@ struct DevLingoWidgetView: View {
         .padding(padding)
     }
 
+    // MARK: - Large View (Two Phrases)
+
+    private var largeView: some View {
+        VStack(spacing: 0) {
+            phraseCard(english: entry.english)
+
+            Divider()
+                .background(Color.white.opacity(0.15))
+                .padding(.horizontal, 16)
+
+            if let second = entry.secondEnglish {
+                phraseCard(english: second)
+            } else {
+                phraseCard(english: entry.english)
+            }
+        }
+        .padding(.vertical, 8)
+    }
+
+    private func phraseCard(english: String) -> some View {
+        VStack(spacing: 6) {
+            Spacer()
+
+            Image(systemName: "text.bubble.fill")
+                .font(.system(size: 14))
+                .foregroundStyle(Color(hex: "5E5CE6").opacity(0.7))
+
+            Text(english)
+                .font(.system(size: 19, weight: .semibold))
+                .foregroundStyle(.white)
+                .multilineTextAlignment(.center)
+                .lineLimit(3)
+                .padding(.horizontal, 16)
+
+            Spacer()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+
+    // MARK: - Accessory Views (Lock Screen)
+
+    private var accessoryRectangularView: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Label("DevLingo", systemImage: "text.bubble.fill")
+                .font(.system(size: 11, weight: .semibold))
+                .foregroundStyle(.secondary)
+
+            Text(entry.english)
+                .font(.system(size: 13, weight: .medium))
+                .foregroundStyle(.primary)
+                .lineLimit(2)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private var accessoryInlineView: some View {
+        Label(entry.english, systemImage: "text.bubble.fill")
+            .lineLimit(1)
+    }
+
     // MARK: - Sizing
 
     private var fontSize: CGFloat {
         switch family {
         case .systemSmall: return 15
         case .systemMedium: return 17
-        case .systemLarge: return 22
         default: return 17
         }
     }
@@ -141,7 +229,6 @@ struct DevLingoWidgetView: View {
         switch family {
         case .systemSmall: return 5
         case .systemMedium: return 3
-        case .systemLarge: return 6
         default: return 3
         }
     }
@@ -150,7 +237,6 @@ struct DevLingoWidgetView: View {
         switch family {
         case .systemSmall: return 8
         case .systemMedium: return 10
-        case .systemLarge: return 12
         default: return 10
         }
     }

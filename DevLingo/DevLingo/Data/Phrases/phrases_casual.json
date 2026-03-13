@@ -1678,5 +1678,2525 @@
     },
     "difficulty": "hard",
     "category": "casual"
+  },
+  {
+    "id": "casual_121",
+    "english": "I'm running on energy drinks today, I barely slept last night.",
+    "context": "Telling a coworker about a rough night before work",
+    "translations": {
+      "pt-BR": "Estou na base de energetico hoje, quase nao dormi ontem.",
+      "es": "Hoy voy a base de bebidas energeticas, apenas dormi anoche.",
+      "fr": "Je tourne aux boissons energisantes aujourd'hui, j'ai a peine dormi cette nuit.",
+      "de": "Ich laufe heute auf Energy-Drinks, ich habe letzte Nacht kaum geschlafen.",
+      "it": "Oggi vado a bevande energetiche, stanotte ho dormito a malapena."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_122",
+    "english": "Are you submitting a talk proposal for the next conference?",
+    "context": "Asking a colleague about speaking at a tech event",
+    "translations": {
+      "pt-BR": "Voce vai submeter uma proposta de palestra para a proxima conferencia?",
+      "es": "Vas a enviar una propuesta de charla para la proxima conferencia?",
+      "fr": "Tu vas soumettre une proposition de talk pour la prochaine conference?",
+      "de": "Reichst du einen Vortrag fur die nachste Konferenz ein?",
+      "it": "Invierai una proposta di talk per la prossima conferenza?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_123",
+    "english": "My chair squeaks every time I move, it's driving me insane.",
+    "context": "Complaining about office furniture to a nearby colleague",
+    "translations": {
+      "pt-BR": "Minha cadeira range toda vez que eu me mexo, esta me deixando maluco.",
+      "es": "Mi silla rechina cada vez que me muevo, me esta volviendo loco.",
+      "fr": "Ma chaise grince a chaque fois que je bouge, ca me rend dingue.",
+      "de": "Mein Stuhl quietscht jedes Mal wenn ich mich bewege, es macht mich wahnsinnig.",
+      "it": "La mia sedia scricchiola ogni volta che mi muovo, mi sta facendo impazzire."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_124",
+    "english": "I just got a mass of free stickers at the meetup, want some?",
+    "context": "Offering developer swag to teammates after attending an event",
+    "translations": {
+      "pt-BR": "Acabei de ganhar um monte de adesivos gratis no meetup, quer alguns?",
+      "es": "Acabo de conseguir un monton de stickers gratis en el meetup, quieres algunos?",
+      "fr": "Je viens de recuperer plein de stickers gratuits au meetup, t'en veux?",
+      "de": "Ich habe gerade massenhaft kostenlose Sticker beim Meetup bekommen, willst du welche?",
+      "it": "Ho appena preso un sacco di sticker gratis al meetup, ne vuoi qualcuno?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_125",
+    "english": "Does anyone know a good chiropractor? This desk posture is wrecking me.",
+    "context": "Asking for health recommendations due to office work strain",
+    "translations": {
+      "pt-BR": "Alguem conhece um bom quiropraxista? Essa postura na mesa esta me destruindo.",
+      "es": "Alguien conoce un buen quiropractico? Esta postura de escritorio me esta destrozando.",
+      "fr": "Quelqu'un connait un bon chiropracteur? Cette posture au bureau me detruit.",
+      "de": "Kennt jemand einen guten Chiropraktiker? Diese Schreibtischhaltung ruiniert mich.",
+      "it": "Qualcuno conosce un buon chiropratico? Questa postura alla scrivania mi sta distruggendo."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_126",
+    "english": "I watched a conference talk on microservices and now I want to refactor everything.",
+    "context": "Joking about being inspired by a tech talk",
+    "translations": {
+      "pt-BR": "Assisti uma palestra sobre microsservicos e agora quero refatorar tudo.",
+      "es": "Vi una charla sobre microservicios y ahora quiero refactorizar todo.",
+      "fr": "J'ai regarde un talk sur les microservices et maintenant je veux tout refactorer.",
+      "de": "Ich habe einen Konferenzvortrag uber Microservices gesehen und will jetzt alles refactoren.",
+      "it": "Ho visto un talk sui microservizi e adesso voglio rifattorizzare tutto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_127",
+    "english": "The vending machine ate my money again.",
+    "context": "Frustration with the office vending machine",
+    "translations": {
+      "pt-BR": "A maquina de vendas engoliu meu dinheiro de novo.",
+      "es": "La maquina expendedora se trago mi dinero otra vez.",
+      "fr": "Le distributeur a encore avale mon argent.",
+      "de": "Der Automat hat wieder mein Geld geschluckt.",
+      "it": "Il distributore si e mangiato i miei soldi di nuovo."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_128",
+    "english": "I finally cleaned up my downloads folder, it had files from two years ago.",
+    "context": "Casual chat about digital housekeeping",
+    "translations": {
+      "pt-BR": "Finalmente limpei minha pasta de downloads, tinha arquivos de dois anos atras.",
+      "es": "Por fin limpie mi carpeta de descargas, tenia archivos de hace dos anos.",
+      "fr": "J'ai enfin nettoye mon dossier telechargements, il y avait des fichiers de deux ans.",
+      "de": "Ich habe endlich meinen Downloads-Ordner aufgeraumt, da waren Dateien von vor zwei Jahren.",
+      "it": "Ho finalmente pulito la cartella dei download, c'erano file di due anni fa."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_129",
+    "english": "My noise-canceling headphones are the best investment I've ever made.",
+    "context": "Praising a work accessory to a colleague",
+    "translations": {
+      "pt-BR": "Meus fones com cancelamento de ruido foram o melhor investimento que ja fiz.",
+      "es": "Mis audifonos con cancelacion de ruido son la mejor inversion que he hecho.",
+      "fr": "Mon casque a reduction de bruit est le meilleur investissement que j'ai jamais fait.",
+      "de": "Meine Noise-Cancelling-Kopfhorer sind die beste Investition, die ich je gemacht habe.",
+      "it": "Le mie cuffie con cancellazione del rumore sono il miglior investimento che abbia mai fatto."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_130",
+    "english": "I'm taking a mental health day tomorrow, I really need to recharge.",
+    "context": "Informing the team about taking a day off for wellbeing",
+    "translations": {
+      "pt-BR": "Vou tirar um dia de saude mental amanha, preciso realmente recarregar.",
+      "es": "Manana me tomo un dia de salud mental, realmente necesito recargar.",
+      "fr": "Je prends une journee sante mentale demain, j'ai vraiment besoin de recharger.",
+      "de": "Ich nehme mir morgen einen Mental-Health-Tag, ich muss wirklich auftanken.",
+      "it": "Domani mi prendo un giorno per la salute mentale, ho davvero bisogno di ricaricarmi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_131",
+    "english": "Who keeps leaving dirty mugs in the sink?",
+    "context": "Office kitchen complaint shared with coworkers",
+    "translations": {
+      "pt-BR": "Quem fica deixando canecas sujas na pia?",
+      "es": "Quien sigue dejando tazas sucias en el fregadero?",
+      "fr": "Qui continue de laisser des tasses sales dans l'evier?",
+      "de": "Wer lasst standig dreckige Tassen im Spulbecken stehen?",
+      "it": "Chi continua a lasciare tazze sporche nel lavandino?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_132",
+    "english": "I'm attending a hackathon this weekend, anyone want to team up?",
+    "context": "Inviting colleagues to join a hackathon team",
+    "translations": {
+      "pt-BR": "Vou participar de um hackathon nesse fim de semana, alguem quer formar equipe?",
+      "es": "Voy a un hackathon este fin de semana, alguien quiere hacer equipo?",
+      "fr": "Je participe a un hackathon ce week-end, quelqu'un veut faire equipe?",
+      "de": "Ich nehme dieses Wochenende an einem Hackathon teil, will jemand ein Team bilden?",
+      "it": "Partecipo a un hackathon questo weekend, qualcuno vuole fare squadra?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_133",
+    "english": "I can't stop yawning, this morning standup needs to be shorter.",
+    "context": "Joking about being sleepy during early meetings",
+    "translations": {
+      "pt-BR": "Nao consigo parar de bocejar, essa daily matinal precisa ser mais curta.",
+      "es": "No puedo parar de bostezar, esta daily matutina necesita ser mas corta.",
+      "fr": "Je n'arrete pas de bailler, ce standup matinal doit etre plus court.",
+      "de": "Ich kann nicht aufhoren zu gahnen, dieses Morgen-Standup muss kurzer werden.",
+      "it": "Non riesco a smettere di sbadigliare, questo standup mattutino deve essere piu corto."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_134",
+    "english": "Someone left a box of donuts in the break room, first come first served!",
+    "context": "Announcing free food to the team",
+    "translations": {
+      "pt-BR": "Alguem deixou uma caixa de donuts na copa, quem chegar primeiro leva!",
+      "es": "Alguien dejo una caja de donas en la sala de descanso, el que llegue primero se las lleva!",
+      "fr": "Quelqu'un a laisse une boite de donuts dans la salle de pause, premier arrive premier servi!",
+      "de": "Jemand hat eine Schachtel Donuts im Pausenraum gelassen, wer zuerst kommt mahlt zuerst!",
+      "it": "Qualcuno ha lasciato una scatola di ciambelle nella sala relax, chi primo arriva meglio alloggia!"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_135",
+    "english": "I got locked out of my laptop and IT takes forever to respond.",
+    "context": "Frustrated about being unable to work due to IT issues",
+    "translations": {
+      "pt-BR": "Fiquei trancado fora do meu notebook e o TI demora uma eternidade pra responder.",
+      "es": "Me quede bloqueado de mi laptop y soporte tecnico tarda una eternidad en responder.",
+      "fr": "Je me suis fait bloquer de mon portable et le support informatique met une eternite a repondre.",
+      "de": "Ich wurde aus meinem Laptop ausgesperrt und die IT braucht ewig zum Antworten.",
+      "it": "Sono rimasto bloccato fuori dal mio portatile e l'IT ci mette un'eternita a rispondere."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_136",
+    "english": "Have you started planning your vacation yet?",
+    "context": "Casual conversation about upcoming holiday plans",
+    "translations": {
+      "pt-BR": "Voce ja comecou a planejar suas ferias?",
+      "es": "Ya empezaste a planear tus vacaciones?",
+      "fr": "Tu as deja commence a planifier tes vacances?",
+      "de": "Hast du schon angefangen, deinen Urlaub zu planen?",
+      "it": "Hai gia iniziato a pianificare le vacanze?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_137",
+    "english": "I just realized I've been coding for six hours straight without eating.",
+    "context": "Noticing you forgot to take a lunch break while deep in work",
+    "translations": {
+      "pt-BR": "Acabei de perceber que estou codando ha seis horas sem comer.",
+      "es": "Acabo de darme cuenta de que llevo seis horas programando sin comer.",
+      "fr": "Je viens de realiser que je code depuis six heures sans manger.",
+      "de": "Mir ist gerade aufgefallen, dass ich seit sechs Stunden programmiere ohne zu essen.",
+      "it": "Mi sono appena reso conto che sto programmando da sei ore senza mangiare."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_138",
+    "english": "Did the office order new monitors or are we still using these ancient ones?",
+    "context": "Asking about hardware upgrades at the office",
+    "translations": {
+      "pt-BR": "O escritorio comprou monitores novos ou ainda estamos com esses antigos?",
+      "es": "La oficina pidio monitores nuevos o seguimos usando estos antiguos?",
+      "fr": "Le bureau a commande de nouveaux ecrans ou on utilise encore ces vieux modeles?",
+      "de": "Hat das Buro neue Monitore bestellt oder benutzen wir immer noch diese uralten?",
+      "it": "L'ufficio ha ordinato monitor nuovi o usiamo ancora questi antichi?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_139",
+    "english": "I'm going to miss this team, my last day is next Friday.",
+    "context": "Telling colleagues about leaving the company",
+    "translations": {
+      "pt-BR": "Vou sentir falta deste time, meu ultimo dia e na proxima sexta.",
+      "es": "Voy a extranar a este equipo, mi ultimo dia es el proximo viernes.",
+      "fr": "Cette equipe va me manquer, mon dernier jour est vendredi prochain.",
+      "de": "Ich werde dieses Team vermissen, mein letzter Tag ist nachsten Freitag.",
+      "it": "Mi manchera questo team, il mio ultimo giorno e venerdi prossimo."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_140",
+    "english": "The deploy went out at four fifty-nine on a Friday, who approved that?",
+    "context": "Expressing disbelief about a risky late Friday deployment",
+    "translations": {
+      "pt-BR": "O deploy saiu as quatro e cinquenta e nove de uma sexta, quem aprovou isso?",
+      "es": "El deploy salio a las cuatro y cincuenta y nueve de un viernes, quien aprobo eso?",
+      "fr": "Le deploiement est sorti a seize heures cinquante-neuf un vendredi, qui a valide ca?",
+      "de": "Das Deployment ging Freitag um sechzehn Uhr neunundfunfzig raus, wer hat das genehmigt?",
+      "it": "Il deploy e uscito alle quattro e cinquantanove di un venerdi, chi lo ha approvato?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_141",
+    "english": "My cat keeps jumping on my keyboard during video calls.",
+    "context": "Sharing a funny remote work moment with the team",
+    "translations": {
+      "pt-BR": "Meu gato fica pulando no meu teclado durante videochamadas.",
+      "es": "Mi gato no para de saltar sobre mi teclado durante las videollamadas.",
+      "fr": "Mon chat n'arrete pas de sauter sur mon clavier pendant les visios.",
+      "de": "Meine Katze springt standig auf meine Tastatur wahrend Videoanrufen.",
+      "it": "Il mio gatto continua a saltare sulla tastiera durante le videochiamate."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_142",
+    "english": "I just discovered the company has a free gym membership perk.",
+    "context": "Excitedly sharing a workplace benefit you didn't know about",
+    "translations": {
+      "pt-BR": "Acabei de descobrir que a empresa tem beneficio de academia gratis.",
+      "es": "Acabo de descubrir que la empresa tiene beneficio de gimnasio gratis.",
+      "fr": "Je viens de decouvrir que l'entreprise offre un abonnement de salle de sport gratuit.",
+      "de": "Ich habe gerade entdeckt, dass die Firma eine kostenlose Fitnessstudio-Mitgliedschaft bietet.",
+      "it": "Ho appena scoperto che l'azienda offre l'abbonamento in palestra gratuito."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_143",
+    "english": "I'll bring my own lunch today, I'm trying to eat healthier.",
+    "context": "Declining a lunch invite to stick to a healthy eating plan",
+    "translations": {
+      "pt-BR": "Vou trazer meu almoco hoje, estou tentando comer mais saudavel.",
+      "es": "Hoy traigo mi almuerzo, estoy intentando comer mas saludable.",
+      "fr": "J'apporte mon dejeuner aujourd'hui, j'essaie de manger plus sainement.",
+      "de": "Ich bringe heute mein eigenes Mittagessen mit, ich versuche gesunder zu essen.",
+      "it": "Porto il mio pranzo oggi, sto cercando di mangiare piu sano."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_144",
+    "english": "Our code review comments are getting spicier than usual today.",
+    "context": "Commenting on a heated code review discussion",
+    "translations": {
+      "pt-BR": "Os comentarios do code review estao mais apimentados que o normal hoje.",
+      "es": "Los comentarios del code review estan mas picantes de lo habitual hoy.",
+      "fr": "Les commentaires de code review sont plus piquants que d'habitude aujourd'hui.",
+      "de": "Die Code-Review-Kommentare sind heute scharfer als ublich.",
+      "it": "I commenti della code review sono piu piccanti del solito oggi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_145",
+    "english": "I really need to organize my bookmarks, I have over five hundred saved.",
+    "context": "Talking about digital clutter with a coworker",
+    "translations": {
+      "pt-BR": "Preciso muito organizar meus favoritos, tenho mais de quinhentos salvos.",
+      "es": "Necesito organizar mis marcadores, tengo mas de quinientos guardados.",
+      "fr": "Il faut vraiment que j'organise mes favoris, j'en ai plus de cinq cents enregistres.",
+      "de": "Ich muss wirklich meine Lesezeichen sortieren, ich habe uber funfhundert gespeichert.",
+      "it": "Devo davvero organizzare i miei segnalibri, ne ho piu di cinquecento salvati."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_146",
+    "english": "My onboarding was a mess, I had no idea where anything was for the first month.",
+    "context": "Reflecting on a chaotic first month at a company",
+    "translations": {
+      "pt-BR": "Meu onboarding foi uma bagunca, eu nao sabia onde nada estava no primeiro mes.",
+      "es": "Mi onboarding fue un desastre, no tenia idea de donde estaba nada el primer mes.",
+      "fr": "Mon onboarding etait un bazar, je ne savais pas ou rien se trouvait le premier mois.",
+      "de": "Mein Onboarding war ein Chaos, ich wusste den ersten Monat nicht, wo irgendwas war.",
+      "it": "Il mio onboarding e stato un disastro, non sapevo dove fosse niente per il primo mese."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_147",
+    "english": "Is it just me or does everyone have meeting fatigue this week?",
+    "context": "Checking if others feel overwhelmed by too many meetings",
+    "translations": {
+      "pt-BR": "Sou so eu ou todo mundo esta com fadiga de reunioes essa semana?",
+      "es": "Soy solo yo o todos tienen fatiga de reuniones esta semana?",
+      "fr": "C'est que moi ou tout le monde a la fatigue des reunions cette semaine?",
+      "de": "Liegt es nur an mir oder hat jeder diese Woche Meeting-Mudigkeit?",
+      "it": "Sono solo io o tutti hanno stanchezza da riunioni questa settimana?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_148",
+    "english": "I just bought a mechanical keyboard and my teammates already hate me.",
+    "context": "Joking about the noise of a new keyboard in the office",
+    "translations": {
+      "pt-BR": "Acabei de comprar um teclado mecanico e meus colegas ja me odeiam.",
+      "es": "Acabo de comprar un teclado mecanico y mis companeros ya me odian.",
+      "fr": "Je viens d'acheter un clavier mecanique et mes collegues me detestent deja.",
+      "de": "Ich habe gerade eine mechanische Tastatur gekauft und meine Kollegen hassen mich schon.",
+      "it": "Ho appena comprato una tastiera meccanica e i miei colleghi mi odiano gia."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_149",
+    "english": "Guess what, I just got accepted as a speaker at the tech summit!",
+    "context": "Excitedly sharing conference speaking news",
+    "translations": {
+      "pt-BR": "Adivinha, acabei de ser aceito como palestrante no summit de tecnologia!",
+      "es": "Adivina, me acaban de aceptar como ponente en el summit de tecnologia!",
+      "fr": "Devine quoi, je viens d'etre accepte comme speaker au sommet tech!",
+      "de": "Rate mal, ich wurde gerade als Speaker beim Tech-Summit angenommen!",
+      "it": "Indovina, sono appena stato accettato come speaker al summit tecnologico!"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_150",
+    "english": "The office thermostat is a battlefield, everyone wants a different temperature.",
+    "context": "Complaining about office temperature disagreements",
+    "translations": {
+      "pt-BR": "O termostato do escritorio e um campo de batalha, cada um quer uma temperatura diferente.",
+      "es": "El termostato de la oficina es un campo de batalla, todos quieren una temperatura diferente.",
+      "fr": "Le thermostat du bureau est un champ de bataille, tout le monde veut une temperature differente.",
+      "de": "Der Buro-Thermostat ist ein Schlachtfeld, jeder will eine andere Temperatur.",
+      "it": "Il termostato dell'ufficio e un campo di battaglia, tutti vogliono una temperatura diversa."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_151",
+    "english": "I left my badge at home, can someone let me into the building?",
+    "context": "Asking for help getting into the office without your access card",
+    "translations": {
+      "pt-BR": "Esqueci meu cracha em casa, alguem pode me deixar entrar no predio?",
+      "es": "Deje mi credencial en casa, alguien puede dejarme entrar al edificio?",
+      "fr": "J'ai oublie mon badge chez moi, quelqu'un peut me laisser entrer dans le batiment?",
+      "de": "Ich habe meinen Ausweis zu Hause vergessen, kann mich jemand ins Gebaude lassen?",
+      "it": "Ho dimenticato il badge a casa, qualcuno puo farmi entrare nell'edificio?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_152",
+    "english": "I'm going to take a walk around the block to clear my head.",
+    "context": "Telling a colleague you need a short break outdoors",
+    "translations": {
+      "pt-BR": "Vou dar uma volta no quarteiro pra clarear a cabeca.",
+      "es": "Voy a dar una vuelta a la manzana para despejarme.",
+      "fr": "Je vais faire un tour du pate de maisons pour me vider la tete.",
+      "de": "Ich gehe einmal um den Block, um den Kopf frei zu bekommen.",
+      "it": "Vado a fare un giro dell'isolato per schiarirmi le idee."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_153",
+    "english": "My performance review is next week and I'm kind of nervous about it.",
+    "context": "Sharing anxiety about an upcoming evaluation with a coworker",
+    "translations": {
+      "pt-BR": "Minha avaliacao de desempenho e na proxima semana e estou meio nervoso.",
+      "es": "Mi evaluacion de desempeno es la proxima semana y estoy algo nervioso.",
+      "fr": "Mon entretien d'evaluation est la semaine prochaine et je suis un peu stresse.",
+      "de": "Mein Leistungsgesprach ist nachste Woche und ich bin etwas nervos.",
+      "it": "La mia valutazione delle prestazioni e la prossima settimana e sono un po' nervoso."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_154",
+    "english": "I spent my entire Saturday playing video games and I regret nothing.",
+    "context": "Talking about weekend hobbies on Monday morning",
+    "translations": {
+      "pt-BR": "Passei o sabado inteiro jogando videogame e nao me arrependo de nada.",
+      "es": "Pase todo el sabado jugando videojuegos y no me arrepiento de nada.",
+      "fr": "J'ai passe tout mon samedi a jouer aux jeux video et je ne regrette rien.",
+      "de": "Ich habe meinen ganzen Samstag mit Videospielen verbracht und bereue nichts.",
+      "it": "Ho passato tutto il sabato a giocare ai videogiochi e non mi pento di nulla."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_155",
+    "english": "Do you have a favorite lo-fi playlist you can share with me?",
+    "context": "Asking for music recommendations for focus time",
+    "translations": {
+      "pt-BR": "Voce tem uma playlist de lo-fi favorita que possa compartilhar comigo?",
+      "es": "Tienes una playlist de lo-fi favorita que puedas compartirme?",
+      "fr": "Tu as une playlist lo-fi preferee que tu peux me partager?",
+      "de": "Hast du eine Lieblings-Lo-Fi-Playlist, die du mit mir teilen kannst?",
+      "it": "Hai una playlist lo-fi preferita che puoi condividere con me?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_156",
+    "english": "The pair programming session was actually fun, we should do it more often.",
+    "context": "Giving positive feedback after a collaborative coding session",
+    "translations": {
+      "pt-BR": "A sessao de pair programming foi bem legal, deveriamos fazer mais vezes.",
+      "es": "La sesion de pair programming fue bastante divertida, deberiamos hacerlo mas seguido.",
+      "fr": "La session de pair programming etait sympa, on devrait le faire plus souvent.",
+      "de": "Die Pair-Programming-Session hat Spass gemacht, wir sollten das ofter machen.",
+      "it": "La sessione di pair programming e stata divertente, dovremmo farlo piu spesso."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_157",
+    "english": "I think I need a second coffee, the afternoon slump is hitting hard.",
+    "context": "Discussing the post-lunch energy dip with a colleague",
+    "translations": {
+      "pt-BR": "Acho que preciso de um segundo cafe, a queda da tarde esta batendo forte.",
+      "es": "Creo que necesito otro cafe, el bajon de la tarde me esta pegando fuerte.",
+      "fr": "Je pense que j'ai besoin d'un deuxieme cafe, le coup de barre de l'apres-midi tape fort.",
+      "de": "Ich glaube, ich brauche einen zweiten Kaffee, das Nachmittagstief trifft mich hart.",
+      "it": "Penso di aver bisogno di un secondo caffe, il calo pomeridiano mi sta colpendo forte."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_158",
+    "english": "I heard there's a table tennis tournament in the office this week.",
+    "context": "Sharing news about a fun office competition",
+    "translations": {
+      "pt-BR": "Ouvi dizer que tem um torneio de ping-pong no escritorio essa semana.",
+      "es": "Escuche que hay un torneo de ping-pong en la oficina esta semana.",
+      "fr": "J'ai entendu dire qu'il y a un tournoi de ping-pong au bureau cette semaine.",
+      "de": "Ich habe gehort, dass es diese Woche ein Tischtennis-Turnier im Buro gibt.",
+      "it": "Ho sentito che c'e un torneo di ping-pong in ufficio questa settimana."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_159",
+    "english": "My commit messages get worse the later it gets in the day.",
+    "context": "Joking about declining code quality as the day goes on",
+    "translations": {
+      "pt-BR": "Minhas mensagens de commit pioram conforme o dia vai passando.",
+      "es": "Mis mensajes de commit empeoran a medida que avanza el dia.",
+      "fr": "Mes messages de commit empirent au fil de la journee.",
+      "de": "Meine Commit-Nachrichten werden schlechter, je spater es wird.",
+      "it": "I miei messaggi di commit peggiorano con il passare della giornata."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_160",
+    "english": "I'm finally learning TypeScript, I should have started years ago.",
+    "context": "Telling a colleague about picking up a new programming language",
+    "translations": {
+      "pt-BR": "Estou finalmente aprendendo TypeScript, deveria ter comecado anos atras.",
+      "es": "Por fin estoy aprendiendo TypeScript, deberia haber empezado hace anos.",
+      "fr": "J'apprends enfin TypeScript, j'aurais du commencer il y a des annees.",
+      "de": "Ich lerne endlich TypeScript, ich hatte vor Jahren anfangen sollen.",
+      "it": "Sto finalmente imparando TypeScript, avrei dovuto iniziare anni fa."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_161",
+    "english": "The company retreat is next month, I hope we go somewhere warm.",
+    "context": "Discussing an upcoming corporate offsite event",
+    "translations": {
+      "pt-BR": "O retiro da empresa e no proximo mes, espero que a gente va pra algum lugar quente.",
+      "es": "El retiro de la empresa es el proximo mes, espero que vayamos a algun lugar calido.",
+      "fr": "La retraite de l'entreprise est le mois prochain, j'espere qu'on ira quelque part au chaud.",
+      "de": "Der Firmenausflug ist nachsten Monat, ich hoffe, wir fahren irgendwohin Warmes.",
+      "it": "Il ritiro aziendale e il mese prossimo, spero che andiamo in un posto caldo."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_162",
+    "english": "My screen just froze in the middle of a presentation, that was embarrassing.",
+    "context": "Sharing a tech fail moment with a coworker",
+    "translations": {
+      "pt-BR": "Minha tela travou no meio de uma apresentacao, foi constrangedor.",
+      "es": "Mi pantalla se congelo en medio de una presentacion, fue vergonzoso.",
+      "fr": "Mon ecran a plante en plein milieu d'une presentation, c'etait geniant.",
+      "de": "Mein Bildschirm ist mitten in einer Prasentation eingefroren, das war peinlich.",
+      "it": "Il mio schermo si e bloccato nel mezzo di una presentazione, e stato imbarazzante."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_163",
+    "english": "I can never find a quiet meeting room when I actually need one.",
+    "context": "Frustration about room availability in the office",
+    "translations": {
+      "pt-BR": "Nunca consigo achar uma sala de reuniao silenciosa quando realmente preciso.",
+      "es": "Nunca puedo encontrar una sala de reuniones tranquila cuando realmente la necesito.",
+      "fr": "Je ne trouve jamais de salle de reunion calme quand j'en ai vraiment besoin.",
+      "de": "Ich finde nie einen ruhigen Meetingraum, wenn ich wirklich einen brauche.",
+      "it": "Non riesco mai a trovare una sala riunioni tranquilla quando ne ho davvero bisogno."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_164",
+    "english": "I adopted a rescue dog and now I'm the guy who shows pet photos at every meeting.",
+    "context": "Joking about constantly showing off your new pet at work",
+    "translations": {
+      "pt-BR": "Adotei um cachorro resgatado e agora sou o cara que mostra fotos do pet em toda reuniao.",
+      "es": "Adopte un perro rescatado y ahora soy el que muestra fotos de mascotas en cada reunion.",
+      "fr": "J'ai adopte un chien sauve et maintenant je suis le gars qui montre des photos d'animaux a chaque reunion.",
+      "de": "Ich habe einen Rettungshund adoptiert und bin jetzt der Typ, der in jedem Meeting Tierfotos zeigt.",
+      "it": "Ho adottato un cane salvato e adesso sono quello che mostra foto dell'animale a ogni riunione."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_165",
+    "english": "I forgot to block my calendar and now I have six meetings in a row.",
+    "context": "Regretting poor calendar management",
+    "translations": {
+      "pt-BR": "Esqueci de bloquear minha agenda e agora tenho seis reunioes seguidas.",
+      "es": "Olvide bloquear mi calendario y ahora tengo seis reuniones seguidas.",
+      "fr": "J'ai oublie de bloquer mon calendrier et maintenant j'ai six reunions d'affilee.",
+      "de": "Ich habe vergessen, meinen Kalender zu blocken, und jetzt habe ich sechs Meetings hintereinander.",
+      "it": "Ho dimenticato di bloccare il calendario e adesso ho sei riunioni di fila."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_166",
+    "english": "Whoever restocked the snack bar with dark chocolate is my hero.",
+    "context": "Appreciating someone who filled the office snack area",
+    "translations": {
+      "pt-BR": "Quem reabasteceu o bar de lanches com chocolate amargo e meu heroi.",
+      "es": "Quien reaprovisiono la barra de snacks con chocolate oscuro es mi heroe.",
+      "fr": "Celui qui a rempli le bar a snacks de chocolat noir est mon heros.",
+      "de": "Wer auch immer die Snackbar mit dunkler Schokolade aufgefullt hat, ist mein Held.",
+      "it": "Chiunque abbia rifornito il bar degli snack con cioccolato fondente e il mio eroe."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_167",
+    "english": "I need to stop checking my phone first thing in the morning.",
+    "context": "Discussing a bad habit related to screen time",
+    "translations": {
+      "pt-BR": "Preciso parar de olhar o celular logo de manha.",
+      "es": "Necesito dejar de revisar el telefono a primera hora de la manana.",
+      "fr": "Il faut que j'arrete de regarder mon telephone des le reveil.",
+      "de": "Ich muss aufhoren, morgens als erstes auf mein Handy zu schauen.",
+      "it": "Devo smettere di controllare il telefono come prima cosa al mattino."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_168",
+    "english": "Our farewell party for the intern was really wholesome.",
+    "context": "Reflecting on a goodbye event for a departing team member",
+    "translations": {
+      "pt-BR": "Nossa festa de despedida do estagiario foi muito bacana.",
+      "es": "Nuestra fiesta de despedida del pasante fue muy bonita.",
+      "fr": "Notre fete de depart pour le stagiaire etait vraiment chaleureuse.",
+      "de": "Unsere Abschiedsfeier fur den Praktikanten war echt herzlich.",
+      "it": "La nostra festa d'addio per lo stagista e stata davvero calorosa."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_169",
+    "english": "I just found out our competitors shipped the same feature we've been working on.",
+    "context": "Sharing frustrating competitive news with your team",
+    "translations": {
+      "pt-BR": "Acabei de descobrir que os concorrentes lancaram a mesma feature que estamos trabalhando.",
+      "es": "Acabo de enterarme de que la competencia lanzo la misma funcionalidad en la que estamos trabajando.",
+      "fr": "Je viens de decouvrir que nos concurrents ont sorti la meme fonctionnalite sur laquelle on travaille.",
+      "de": "Ich habe gerade erfahren, dass unsere Konkurrenten dasselbe Feature geliefert haben, an dem wir arbeiten.",
+      "it": "Ho appena scoperto che i concorrenti hanno rilasciato la stessa funzionalita su cui stiamo lavorando."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_170",
+    "english": "The sunrise was incredible on my way to the office this morning.",
+    "context": "Making small talk about the commute and weather",
+    "translations": {
+      "pt-BR": "O nascer do sol estava incrivel no meu caminho pro escritorio hoje de manha.",
+      "es": "El amanecer estaba increible camino a la oficina esta manana.",
+      "fr": "Le lever de soleil etait incroyable en venant au bureau ce matin.",
+      "de": "Der Sonnenaufgang war unglaublich auf dem Weg ins Buro heute Morgen.",
+      "it": "L'alba era incredibile stamattina venendo in ufficio."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_171",
+    "english": "I've been doing daily pushups between meetings and it really helps with focus.",
+    "context": "Sharing a fitness tip for office productivity",
+    "translations": {
+      "pt-BR": "Estou fazendo flexoes diarias entre reunioes e realmente ajuda na concentracao.",
+      "es": "He estado haciendo flexiones diarias entre reuniones y realmente ayuda a concentrarse.",
+      "fr": "Je fais des pompes quotidiennes entre les reunions et ca aide vraiment a se concentrer.",
+      "de": "Ich mache tagliche Liegestutze zwischen Meetings und es hilft wirklich bei der Konzentration.",
+      "it": "Faccio flessioni giornaliere tra le riunioni e aiuta davvero con la concentrazione."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_172",
+    "english": "My manager just approved my request to attend that workshop.",
+    "context": "Sharing good news about professional development",
+    "translations": {
+      "pt-BR": "Meu gestor acabou de aprovar meu pedido para participar daquele workshop.",
+      "es": "Mi jefe acaba de aprobar mi solicitud para asistir a ese taller.",
+      "fr": "Mon manager vient d'approuver ma demande pour assister a cet atelier.",
+      "de": "Mein Manager hat gerade meinen Antrag genehmigt, an dem Workshop teilzunehmen.",
+      "it": "Il mio manager ha appena approvato la mia richiesta per partecipare a quel workshop."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_173",
+    "english": "I got three calendar invites while writing one email, this is madness.",
+    "context": "Expressing frustration about constant meeting invitations",
+    "translations": {
+      "pt-BR": "Recebi tres convites de agenda enquanto escrevia um e-mail, isso e loucura.",
+      "es": "Recibi tres invitaciones de calendario mientras escribia un correo, esto es una locura.",
+      "fr": "J'ai recu trois invitations de calendrier en ecrivant un seul e-mail, c'est de la folie.",
+      "de": "Ich habe drei Kalendereinladungen bekommen, wahrend ich eine E-Mail geschrieben habe, das ist Wahnsinn.",
+      "it": "Ho ricevuto tre inviti al calendario mentre scrivevo una mail, questa e follia."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_174",
+    "english": "This cold brew from the cafe downstairs is dangerously addictive.",
+    "context": "Discussing a favorite coffee spot near the office",
+    "translations": {
+      "pt-BR": "Esse cold brew do cafe la embaixo e perigosamente viciante.",
+      "es": "Este cold brew de la cafeteria de abajo es peligrosamente adictivo.",
+      "fr": "Ce cold brew du cafe en bas est dangereusement addictif.",
+      "de": "Dieser Cold Brew aus dem Cafe unten ist gefahrlich suchtig machend.",
+      "it": "Questo cold brew del bar al piano di sotto e pericolosamente avvincente."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_175",
+    "english": "My ultrawide monitor arrived and I feel like a stock trader now.",
+    "context": "Showing off a new home office upgrade",
+    "translations": {
+      "pt-BR": "Meu monitor ultrawide chegou e eu me sinto um operador da bolsa agora.",
+      "es": "Llego mi monitor ultrawide y me siento como un operador de bolsa ahora.",
+      "fr": "Mon ecran ultra-large est arrive et je me sens comme un trader maintenant.",
+      "de": "Mein Ultrawide-Monitor ist angekommen und ich fuhle mich jetzt wie ein Borsenhandler.",
+      "it": "Il mio monitor ultrawide e arrivato e mi sento un trader di borsa adesso."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_176",
+    "english": "The building fire alarm went off during our retrospective, talk about perfect timing.",
+    "context": "Sharing a funny interruption during a team meeting",
+    "translations": {
+      "pt-BR": "O alarme de incendio disparou durante nossa retrospectiva, isso que e timing perfeito.",
+      "es": "La alarma de incendio se activo durante nuestra retrospectiva, hablando de timing perfecto.",
+      "fr": "L'alarme incendie s'est declenchee pendant notre retrospective, question de timing parfait.",
+      "de": "Der Feueralarm ging wahrend unserer Retrospektive los, das nenne ich perfektes Timing.",
+      "it": "L'allarme antincendio e scattato durante la nostra retrospettiva, parliamo di tempismo perfetto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_177",
+    "english": "Anybody know a good stretch routine for desk workers?",
+    "context": "Asking for wellness advice for sedentary work",
+    "translations": {
+      "pt-BR": "Alguem conhece uma boa rotina de alongamento pra quem trabalha em mesa?",
+      "es": "Alguien conoce una buena rutina de estiramiento para los que trabajan en escritorio?",
+      "fr": "Quelqu'un connait une bonne routine d'etirements pour les travailleurs de bureau?",
+      "de": "Kennt jemand eine gute Dehnroutine fur Schreibtischarbeiter?",
+      "it": "Qualcuno conosce una buona routine di stretching per chi lavora alla scrivania?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_178",
+    "english": "I'm already counting down the days until the long weekend.",
+    "context": "Expressing excitement about an upcoming holiday",
+    "translations": {
+      "pt-BR": "Ja estou contando os dias ate o feriado prolongado.",
+      "es": "Ya estoy contando los dias para el fin de semana largo.",
+      "fr": "Je compte deja les jours avant le week-end prolonge.",
+      "de": "Ich zahle schon die Tage bis zum langen Wochenende.",
+      "it": "Sto gia contando i giorni fino al ponte festivo."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_179",
+    "english": "I reviewed your pull request and left a few nitpicks, nothing major.",
+    "context": "Casually telling a colleague about minor code review comments",
+    "translations": {
+      "pt-BR": "Revisei seu pull request e deixei alguns detalhes, nada grave.",
+      "es": "Revise tu pull request y deje algunos detalles menores, nada grave.",
+      "fr": "J'ai relu ta pull request et laisse quelques remarques mineures, rien de grave.",
+      "de": "Ich habe deinen Pull Request reviewed und ein paar Kleinigkeiten hinterlassen, nichts Grosses.",
+      "it": "Ho revisionato la tua pull request e lasciato qualche dettaglio, niente di grave."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_180",
+    "english": "My Figma prototype skills have gotten way better since I started watching tutorials.",
+    "context": "Discussing skill growth with a colleague",
+    "translations": {
+      "pt-BR": "Minhas habilidades de prototipo no Figma melhoraram muito desde que comecei a assistir tutoriais.",
+      "es": "Mis habilidades de prototipado en Figma mejoraron mucho desde que empece a ver tutoriales.",
+      "fr": "Mes competences en prototype Figma se sont bien ameliorees depuis que j'ai commence a regarder des tutos.",
+      "de": "Meine Figma-Prototyp-Fahigkeiten sind viel besser geworden, seit ich Tutorials schaue.",
+      "it": "Le mie abilita di prototipazione su Figma sono migliorate molto da quando ho iniziato a guardare tutorial."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_181",
+    "english": "I finally set up my home office properly with a webcam and ring light.",
+    "context": "Talking about remote work setup improvements",
+    "translations": {
+      "pt-BR": "Finalmente montei meu home office direito com webcam e ring light.",
+      "es": "Por fin monte mi oficina en casa bien con webcam y aro de luz.",
+      "fr": "J'ai enfin bien amenage mon bureau a domicile avec une webcam et un anneau lumineux.",
+      "de": "Ich habe endlich mein Homeoffice richtig eingerichtet mit Webcam und Ringlicht.",
+      "it": "Ho finalmente sistemato il mio ufficio a casa come si deve con webcam e ring light."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_182",
+    "english": "Does anyone want to split an order from that sushi place?",
+    "context": "Proposing a group food delivery order at the office",
+    "translations": {
+      "pt-BR": "Alguem quer dividir um pedido daquele lugar de sushi?",
+      "es": "Alguien quiere compartir un pedido de ese lugar de sushi?",
+      "fr": "Quelqu'un veut partager une commande de ce restaurant de sushi?",
+      "de": "Will jemand eine Bestellung von dem Sushi-Laden teilen?",
+      "it": "Qualcuno vuole dividere un ordine da quel posto di sushi?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_183",
+    "english": "I have so many browser tabs open that I can't even read the titles anymore.",
+    "context": "Joking about having too many tabs open while working",
+    "translations": {
+      "pt-BR": "Tenho tantas abas abertas no navegador que nem consigo ler os titulos mais.",
+      "es": "Tengo tantas pestanas abiertas que ya ni puedo leer los titulos.",
+      "fr": "J'ai tellement d'onglets ouverts que je ne peux meme plus lire les titres.",
+      "de": "Ich habe so viele Browser-Tabs offen, dass ich die Titel nicht mehr lesen kann.",
+      "it": "Ho cosi tante schede aperte nel browser che non riesco neanche piu a leggere i titoli."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_184",
+    "english": "My mentor gave me some great advice on how to handle difficult stakeholders.",
+    "context": "Sharing career guidance received from a senior colleague",
+    "translations": {
+      "pt-BR": "Meu mentor me deu otimos conselhos sobre como lidar com stakeholders dificeis.",
+      "es": "Mi mentor me dio excelentes consejos sobre como manejar stakeholders dificiles.",
+      "fr": "Mon mentor m'a donne d'excellents conseils sur comment gerer les parties prenantes difficiles.",
+      "de": "Mein Mentor hat mir tolle Tipps gegeben, wie man mit schwierigen Stakeholdern umgeht.",
+      "it": "Il mio mentore mi ha dato ottimi consigli su come gestire gli stakeholder difficili."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_185",
+    "english": "I think the microwave in the kitchen is about to die.",
+    "context": "Warning coworkers about a malfunctioning office appliance",
+    "translations": {
+      "pt-BR": "Acho que o micro-ondas da cozinha esta prestes a morrer.",
+      "es": "Creo que el microondas de la cocina esta a punto de morir.",
+      "fr": "Je pense que le micro-ondes de la cuisine est sur le point de lacher.",
+      "de": "Ich glaube, die Mikrowelle in der Kuche gibt bald den Geist auf.",
+      "it": "Penso che il microonde della cucina stia per morire."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_186",
+    "english": "I spent all weekend reading documentation and I actually enjoyed it.",
+    "context": "Sharing a surprisingly productive weekend of learning",
+    "translations": {
+      "pt-BR": "Passei o fim de semana inteiro lendo documentacao e na verdade gostei.",
+      "es": "Pase todo el fin de semana leyendo documentacion y la verdad me gusto.",
+      "fr": "J'ai passe tout le week-end a lire de la documentation et j'ai vraiment apprecie.",
+      "de": "Ich habe das ganze Wochenende Dokumentation gelesen und es hat mir tatsachlich Spass gemacht.",
+      "it": "Ho passato tutto il weekend a leggere documentazione e mi e piaciuto davvero."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_187",
+    "english": "My standing desk keeps drifting down on its own, I think it's broken.",
+    "context": "Reporting a problem with office furniture",
+    "translations": {
+      "pt-BR": "Minha mesa de pe fica abaixando sozinha, acho que esta quebrada.",
+      "es": "Mi escritorio de pie se baja solo, creo que esta roto.",
+      "fr": "Mon bureau debout descend tout seul, je pense qu'il est casse.",
+      "de": "Mein Stehschreibtisch sinkt von selbst ab, ich glaube, er ist kaputt.",
+      "it": "La mia scrivania regolabile scende da sola, penso sia rotta."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_188",
+    "english": "That podcast episode about distributed systems was mind-blowing.",
+    "context": "Recommending a tech podcast to a coworker",
+    "translations": {
+      "pt-BR": "Aquele episodio de podcast sobre sistemas distribuidos foi impressionante.",
+      "es": "Ese episodio de podcast sobre sistemas distribuidos fue alucinante.",
+      "fr": "Cet episode de podcast sur les systemes distribues etait incroyable.",
+      "de": "Diese Podcast-Folge uber verteilte Systeme war der Wahnsinn.",
+      "it": "Quell'episodio di podcast sui sistemi distribuiti e stato pazzesco."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_189",
+    "english": "I accidentally replied all to the entire company, I want to disappear.",
+    "context": "Sharing an embarrassing email mistake",
+    "translations": {
+      "pt-BR": "Acidentalmente respondi a todos pra empresa inteira, quero desaparecer.",
+      "es": "Accidentalmente respondi a todos en toda la empresa, quiero desaparecer.",
+      "fr": "J'ai accidentellement fait un repondre a tous a toute l'entreprise, je veux disparaitre.",
+      "de": "Ich habe versehentlich an die ganze Firma geantwortet, ich will verschwinden.",
+      "it": "Ho accidentalmente risposto a tutti a tutta l'azienda, voglio scomparire."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_190",
+    "english": "We should do a lunch and learn session about that new framework.",
+    "context": "Suggesting a casual learning event during lunch",
+    "translations": {
+      "pt-BR": "Deveriamos fazer um almoco com aprendizado sobre aquele novo framework.",
+      "es": "Deberiamos hacer un almuerzo con aprendizaje sobre ese nuevo framework.",
+      "fr": "On devrait faire un dejeuner-conference sur ce nouveau framework.",
+      "de": "Wir sollten ein Lunch-and-Learn uber das neue Framework machen.",
+      "it": "Dovremmo fare un pranzo formativo su quel nuovo framework."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_191",
+    "english": "My partner doesn't understand why I talk to my code out loud.",
+    "context": "Joking about developer habits that confuse non-tech people",
+    "translations": {
+      "pt-BR": "Meu parceiro nao entende por que eu falo com meu codigo em voz alta.",
+      "es": "Mi pareja no entiende por que hablo con mi codigo en voz alta.",
+      "fr": "Mon conjoint ne comprend pas pourquoi je parle a mon code a voix haute.",
+      "de": "Mein Partner versteht nicht, warum ich laut mit meinem Code rede.",
+      "it": "Il mio partner non capisce perche parlo al mio codice ad alta voce."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_192",
+    "english": "There's a free workshop on Kubernetes next Thursday, are you signing up?",
+    "context": "Inviting a colleague to a learning event",
+    "translations": {
+      "pt-BR": "Tem um workshop gratuito de Kubernetes na proxima quinta, voce vai se inscrever?",
+      "es": "Hay un taller gratuito de Kubernetes el proximo jueves, te vas a inscribir?",
+      "fr": "Il y a un atelier gratuit sur Kubernetes jeudi prochain, tu t'inscris?",
+      "de": "Es gibt nachsten Donnerstag einen kostenlosen Kubernetes-Workshop, meldest du dich an?",
+      "it": "C'e un workshop gratuito su Kubernetes giovedi prossimo, ti iscrivi?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_193",
+    "english": "I just realized my webcam was off the entire meeting and nobody told me.",
+    "context": "Discovering a video call mishap after the fact",
+    "translations": {
+      "pt-BR": "Acabei de perceber que minha webcam estava desligada a reuniao inteira e ninguem me avisou.",
+      "es": "Acabo de darme cuenta de que mi camara estuvo apagada toda la reunion y nadie me dijo.",
+      "fr": "Je viens de realiser que ma webcam etait eteinte pendant toute la reunion et personne ne m'a prevenu.",
+      "de": "Mir ist gerade aufgefallen, dass meine Webcam das ganze Meeting aus war und niemand mir Bescheid gesagt hat.",
+      "it": "Mi sono appena accorto che la mia webcam era spenta per tutta la riunione e nessuno me l'ha detto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_194",
+    "english": "My neighbor started construction and working from home is impossible now.",
+    "context": "Complaining about noise disrupting remote work",
+    "translations": {
+      "pt-BR": "Meu vizinho comecou uma obra e trabalhar de casa esta impossivel agora.",
+      "es": "Mi vecino empezo una obra y trabajar desde casa es imposible ahora.",
+      "fr": "Mon voisin a commence des travaux et le teletravail est impossible maintenant.",
+      "de": "Mein Nachbar hat mit Bauarbeiten angefangen und Homeoffice ist jetzt unmoglich.",
+      "it": "Il mio vicino ha iniziato dei lavori e lavorare da casa e impossibile adesso."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_195",
+    "english": "I can't believe they removed the ping-pong table from the break room.",
+    "context": "Expressing disappointment about a lost office perk",
+    "translations": {
+      "pt-BR": "Nao acredito que removeram a mesa de ping-pong da sala de descanso.",
+      "es": "No puedo creer que quitaron la mesa de ping-pong de la sala de descanso.",
+      "fr": "Je n'arrive pas a croire qu'ils ont enleve la table de ping-pong de la salle de pause.",
+      "de": "Ich kann nicht glauben, dass sie den Tischtennistisch aus dem Pausenraum entfernt haben.",
+      "it": "Non posso credere che abbiano tolto il tavolo da ping-pong dalla sala relax."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_196",
+    "english": "What time zone are you in again? I keep scheduling meetings at weird hours for you.",
+    "context": "Apologizing for timezone confusion on a distributed team",
+    "translations": {
+      "pt-BR": "Em que fuso horario voce esta mesmo? Fico marcando reunioes em horarios estranhos pra voce.",
+      "es": "En que zona horaria estas de nuevo? Sigo programando reuniones a horas raras para ti.",
+      "fr": "Tu es dans quel fuseau horaire deja? Je n'arrete pas de programmer des reunions a des heures bizarres pour toi.",
+      "de": "In welcher Zeitzone bist du nochmal? Ich plane dir standig Meetings zu komischen Zeiten.",
+      "it": "In che fuso orario sei di nuovo? Continuo a fissare riunioni a orari strani per te."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_197",
+    "english": "Let's get burritos for lunch, my treat.",
+    "context": "Generously offering to pay for a group lunch",
+    "translations": {
+      "pt-BR": "Vamos pegar burritos no almoco, eu pago.",
+      "es": "Vamos por burritos para el almuerzo, yo invito.",
+      "fr": "On va chercher des burritos pour midi, c'est moi qui invite.",
+      "de": "Lass uns Burritos zum Mittagessen holen, ich lade ein.",
+      "it": "Andiamo a prendere burritos per pranzo, offro io."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_198",
+    "english": "I automated my morning standup update with a script and nobody noticed.",
+    "context": "Joking about automating routine work tasks",
+    "translations": {
+      "pt-BR": "Automatizei minha atualizacao da daily com um script e ninguem percebeu.",
+      "es": "Automatice mi actualizacion del daily con un script y nadie se dio cuenta.",
+      "fr": "J'ai automatise ma mise a jour du standup avec un script et personne n'a remarque.",
+      "de": "Ich habe mein Standup-Update mit einem Skript automatisiert und niemand hat es bemerkt.",
+      "it": "Ho automatizzato il mio aggiornamento dello standup con uno script e nessuno se n'e accorto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_199",
+    "english": "The rain is so heavy today, I'm glad I'm working from home.",
+    "context": "Commenting on bad weather while remote working",
+    "translations": {
+      "pt-BR": "A chuva esta tao forte hoje, estou feliz de estar trabalhando de casa.",
+      "es": "La lluvia esta tan fuerte hoy, me alegro de estar trabajando desde casa.",
+      "fr": "La pluie est tellement forte aujourd'hui, je suis content de travailler de chez moi.",
+      "de": "Der Regen ist heute so stark, ich bin froh, dass ich von zu Hause arbeite.",
+      "it": "La pioggia e cosi forte oggi, sono contento di lavorare da casa."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_200",
+    "english": "I wrote a blog post about our migration to the new cloud provider, check it out.",
+    "context": "Sharing a technical blog post you authored with the team",
+    "translations": {
+      "pt-BR": "Escrevi um post sobre nossa migracao para o novo provedor cloud, da uma olhada.",
+      "es": "Escribi un post sobre nuestra migracion al nuevo proveedor cloud, dale un vistazo.",
+      "fr": "J'ai ecrit un article sur notre migration vers le nouveau fournisseur cloud, jette un oeil.",
+      "de": "Ich habe einen Blogbeitrag uber unsere Migration zum neuen Cloud-Anbieter geschrieben, schau mal rein.",
+      "it": "Ho scritto un post sulla nostra migrazione al nuovo provider cloud, dagli un'occhiata."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_201",
+    "english": "I have a dentist appointment at two, I'll be back online by three.",
+    "context": "Letting the team know about a midday absence",
+    "translations": {
+      "pt-BR": "Tenho dentista as duas, volto online ate as tres.",
+      "es": "Tengo cita con el dentista a las dos, vuelvo online a las tres.",
+      "fr": "J'ai rendez-vous chez le dentiste a quatorze heures, je serai de retour en ligne a quinze heures.",
+      "de": "Ich habe um zwei einen Zahnarzttermin, ich bin um drei wieder online.",
+      "it": "Ho il dentista alle due, torno online entro le tre."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_202",
+    "english": "I keep forgetting to drink water while coding, I need to set reminders.",
+    "context": "Discussing healthy habits at work",
+    "translations": {
+      "pt-BR": "Fico esquecendo de beber agua enquanto codifico, preciso colocar lembretes.",
+      "es": "Sigo olvidandome de beber agua mientras programo, necesito poner recordatorios.",
+      "fr": "J'oublie tout le temps de boire de l'eau en codant, il faut que je mette des rappels.",
+      "de": "Ich vergesse standig, Wasser zu trinken wahrend ich programmiere, ich muss Erinnerungen setzen.",
+      "it": "Continuo a dimenticare di bere acqua mentre programmo, devo impostare dei promemoria."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_203",
+    "english": "My kid drew a picture of me coding and I look like a zombie in it.",
+    "context": "Sharing a funny family moment with coworkers",
+    "translations": {
+      "pt-BR": "Meu filho desenhou eu programando e eu pareco um zumbi no desenho.",
+      "es": "Mi hijo dibujo un retrato mio programando y parezco un zombie.",
+      "fr": "Mon enfant a fait un dessin de moi en train de coder et j'ai l'air d'un zombie.",
+      "de": "Mein Kind hat ein Bild von mir beim Programmieren gemalt und ich sehe aus wie ein Zombie.",
+      "it": "Mio figlio ha disegnato me che programmo e sembro uno zombie."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_204",
+    "english": "I bookmarked like twenty talks from that conference and haven't watched a single one.",
+    "context": "Admitting to procrastinating on conference talk recordings",
+    "translations": {
+      "pt-BR": "Salvei umas vinte palestras daquela conferencia e nao assisti nenhuma.",
+      "es": "Guarde como veinte charlas de esa conferencia y no he visto ninguna.",
+      "fr": "J'ai mis en favoris genre vingt talks de cette conference et je n'en ai regarde aucun.",
+      "de": "Ich habe ungefahr zwanzig Vortrage von der Konferenz gespeichert und keinen einzigen angeschaut.",
+      "it": "Ho salvato tipo venti talk da quella conferenza e non ne ho guardato nemmeno uno."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_205",
+    "english": "Are you going to the office holiday party or skipping it this year?",
+    "context": "Asking a colleague about attending the company's seasonal celebration",
+    "translations": {
+      "pt-BR": "Voce vai na festa de fim de ano do escritorio ou vai pular esse ano?",
+      "es": "Vas a la fiesta de fin de ano de la oficina o te la vas a saltar este ano?",
+      "fr": "Tu vas a la fete de fin d'annee du bureau ou tu zappes cette annee?",
+      "de": "Gehst du zur Buro-Weihnachtsfeier oder lasst du sie dieses Jahr ausfallen?",
+      "it": "Vai alla festa di fine anno dell'ufficio o la salti quest'anno?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_206",
+    "english": "I heard they're giving out company hoodies in the new brand colors.",
+    "context": "Sharing news about upcoming company merchandise",
+    "translations": {
+      "pt-BR": "Ouvi dizer que vao distribuir moletons da empresa nas novas cores da marca.",
+      "es": "Escuche que van a repartir sudaderas de la empresa en los nuevos colores de la marca.",
+      "fr": "J'ai entendu dire qu'ils distribuent des sweats a capuche aux nouvelles couleurs de la marque.",
+      "de": "Ich habe gehort, dass sie Firmen-Hoodies in den neuen Markenfarben verteilen.",
+      "it": "Ho sentito che distribuiranno felpe aziendali nei nuovi colori del marchio."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_207",
+    "english": "Can we move this meeting to async? I have a coding block I don't want to lose.",
+    "context": "Requesting to cancel a live meeting in favor of written updates",
+    "translations": {
+      "pt-BR": "Podemos passar essa reuniao para assincrono? Estou num bloco de codificacao que nao quero perder.",
+      "es": "Podemos pasar esta reunion a asincrona? Tengo un bloque de programacion que no quiero perder.",
+      "fr": "On peut passer cette reunion en asynchrone? J'ai un bloc de codage que je ne veux pas perdre.",
+      "de": "Konnen wir dieses Meeting auf asynchron verschieben? Ich habe einen Codingblock, den ich nicht verlieren will.",
+      "it": "Possiamo spostare questa riunione in asincrono? Ho un blocco di programmazione che non voglio perdere."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_208",
+    "english": "I brought homemade cookies for the team, they're on my desk.",
+    "context": "Offering homemade treats to coworkers",
+    "translations": {
+      "pt-BR": "Trouxe biscoitos caseiros pro time, estao na minha mesa.",
+      "es": "Traje galletas caseras para el equipo, estan en mi escritorio.",
+      "fr": "J'ai apporte des cookies faits maison pour l'equipe, ils sont sur mon bureau.",
+      "de": "Ich habe selbstgemachte Kekse fur das Team mitgebracht, sie stehen auf meinem Schreibtisch.",
+      "it": "Ho portato biscotti fatti in casa per il team, sono sulla mia scrivania."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_209",
+    "english": "I just learned that our company offers a sabbatical after five years.",
+    "context": "Discovering a long-term employee benefit",
+    "translations": {
+      "pt-BR": "Acabei de saber que nossa empresa oferece um sabbatico depois de cinco anos.",
+      "es": "Acabo de enterarme de que nuestra empresa ofrece un sabatico despues de cinco anos.",
+      "fr": "Je viens d'apprendre que notre entreprise offre un conge sabbatique apres cinq ans.",
+      "de": "Ich habe gerade erfahren, dass unsere Firma nach funf Jahren ein Sabbatical anbietet.",
+      "it": "Ho appena scoperto che la nostra azienda offre un anno sabbatico dopo cinque anni."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_210",
+    "english": "My git stash has become a graveyard of abandoned experiments.",
+    "context": "Joking about forgotten work saved in git stash",
+    "translations": {
+      "pt-BR": "Meu git stash virou um cemiterio de experimentos abandonados.",
+      "es": "Mi git stash se ha convertido en un cementerio de experimentos abandonados.",
+      "fr": "Mon git stash est devenu un cimetiere d'experiences abandonnees.",
+      "de": "Mein Git-Stash ist zu einem Friedhof verlassener Experimente geworden.",
+      "it": "Il mio git stash e diventato un cimitero di esperimenti abbandonati."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_211",
+    "english": "I just signed up for a marathon, wish me luck with the training.",
+    "context": "Sharing a personal fitness goal with colleagues",
+    "translations": {
+      "pt-BR": "Acabei de me inscrever numa maratona, me deseje sorte com o treino.",
+      "es": "Acabo de inscribirme en un maraton, deseenme suerte con el entrenamiento.",
+      "fr": "Je viens de m'inscrire a un marathon, souhaitez-moi bonne chance pour l'entrainement.",
+      "de": "Ich habe mich gerade fur einen Marathon angemeldet, wunscht mir Gluck beim Training.",
+      "it": "Mi sono appena iscritto a una maratona, fatemi gli auguri per l'allenamento."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_212",
+    "english": "The new onboarding buddy system is actually a great idea.",
+    "context": "Praising a company initiative for helping new employees",
+    "translations": {
+      "pt-BR": "O novo sistema de buddy no onboarding e realmente uma otima ideia.",
+      "es": "El nuevo sistema de companero de onboarding es realmente una gran idea.",
+      "fr": "Le nouveau systeme de parrainage a l'onboarding est vraiment une bonne idee.",
+      "de": "Das neue Buddy-System beim Onboarding ist wirklich eine tolle Idee.",
+      "it": "Il nuovo sistema di buddy per l'onboarding e davvero un'ottima idea."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_213",
+    "english": "I promised myself I wouldn't open my laptop this weekend and I lasted two hours.",
+    "context": "Admitting failure at disconnecting from work",
+    "translations": {
+      "pt-BR": "Prometi a mim mesmo que nao abriria o notebook nesse fim de semana e durei duas horas.",
+      "es": "Me prometi que no abriria el portatil este fin de semana y dure dos horas.",
+      "fr": "Je me suis promis de ne pas ouvrir mon ordi ce week-end et j'ai tenu deux heures.",
+      "de": "Ich habe mir vorgenommen, am Wochenende meinen Laptop nicht zu offnen, und habe zwei Stunden durchgehalten.",
+      "it": "Mi ero promesso di non aprire il portatile questo weekend e sono durato due ore."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_214",
+    "english": "There's a new taco truck parked outside our building.",
+    "context": "Alerting colleagues about a new food option nearby",
+    "translations": {
+      "pt-BR": "Tem um novo food truck de tacos estacionado na frente do nosso predio.",
+      "es": "Hay un nuevo camion de tacos estacionado afuera de nuestro edificio.",
+      "fr": "Il y a un nouveau food truck de tacos gare devant notre batiment.",
+      "de": "Vor unserem Gebaude steht ein neuer Taco-Truck.",
+      "it": "C'e un nuovo furgone di tacos parcheggiato fuori dal nostro edificio."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_215",
+    "english": "I just finished my first pull request at this company, feeling accomplished.",
+    "context": "A new team member celebrating their first contribution",
+    "translations": {
+      "pt-BR": "Acabei de terminar meu primeiro pull request nesta empresa, me sentindo realizado.",
+      "es": "Acabo de terminar mi primer pull request en esta empresa, me siento realizado.",
+      "fr": "Je viens de terminer ma premiere pull request dans cette entreprise, je me sens accompli.",
+      "de": "Ich habe gerade meinen ersten Pull Request bei dieser Firma fertiggestellt, fuhlt sich gut an.",
+      "it": "Ho appena completato la mia prima pull request in questa azienda, mi sento realizzato."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_216",
+    "english": "The subway was packed this morning, I might start biking to work.",
+    "context": "Discussing alternative commute options due to crowded transit",
+    "translations": {
+      "pt-BR": "O metro estava lotado hoje de manha, talvez eu comece a ir de bicicleta pro trabalho.",
+      "es": "El metro estaba lleno esta manana, tal vez empiece a ir en bicicleta al trabajo.",
+      "fr": "Le metro etait bonde ce matin, je vais peut-etre commencer a venir a velo.",
+      "de": "Die U-Bahn war heute Morgen voll, vielleicht fange ich an, mit dem Rad zur Arbeit zu fahren.",
+      "it": "La metro era piena stamattina, forse inizio ad andare al lavoro in bicicletta."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_217",
+    "english": "I've been binge-watching that sci-fi series instead of sleeping.",
+    "context": "Talking about entertainment habits with a teammate",
+    "translations": {
+      "pt-BR": "Estou assistindo aquela serie de ficcao cientifica sem parar ao inves de dormir.",
+      "es": "Estoy viendo esa serie de ciencia ficcion sin parar en vez de dormir.",
+      "fr": "Je binge-watche cette serie de science-fiction au lieu de dormir.",
+      "de": "Ich schaue diese Sci-Fi-Serie am Stuck, anstatt zu schlafen.",
+      "it": "Sto guardando senza sosta quella serie di fantascienza invece di dormire."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_218",
+    "english": "I think I left my charger at the office, can someone check my desk?",
+    "context": "Asking a colleague to look for something you forgot",
+    "translations": {
+      "pt-BR": "Acho que deixei meu carregador no escritorio, alguem pode olhar minha mesa?",
+      "es": "Creo que deje mi cargador en la oficina, alguien puede revisar mi escritorio?",
+      "fr": "Je pense avoir laisse mon chargeur au bureau, quelqu'un peut verifier mon bureau?",
+      "de": "Ich glaube, ich habe mein Ladegerat im Buro vergessen, kann jemand an meinem Schreibtisch nachschauen?",
+      "it": "Penso di aver lasciato il caricatore in ufficio, qualcuno puo controllare la mia scrivania?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_219",
+    "english": "I just got a raise and I'm treating the team to lunch tomorrow.",
+    "context": "Celebrating good news and being generous with colleagues",
+    "translations": {
+      "pt-BR": "Acabei de receber um aumento e vou pagar o almoco do time amanha.",
+      "es": "Acabo de recibir un aumento y manana invito al equipo a almorzar.",
+      "fr": "Je viens d'avoir une augmentation et j'invite l'equipe a dejeuner demain.",
+      "de": "Ich habe gerade eine Gehaltserhohung bekommen und lade das Team morgen zum Mittagessen ein.",
+      "it": "Ho appena ricevuto un aumento e domani offro il pranzo al team."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_220",
+    "english": "The new guy asked where the any key is, I couldn't keep a straight face.",
+    "context": "Sharing a funny moment with a fellow developer",
+    "translations": {
+      "pt-BR": "O novo perguntou onde fica a tecla 'any', eu nao consegui segurar o riso.",
+      "es": "El nuevo pregunto donde esta la tecla 'any', no pude aguantar la risa.",
+      "fr": "Le nouveau a demande ou est la touche 'any', je n'ai pas pu garder mon serieux.",
+      "de": "Der Neue hat gefragt, wo die Any-Taste ist, ich konnte mir das Lachen nicht verkneifen.",
+      "it": "Il nuovo ha chiesto dov'e il tasto 'any', non sono riuscito a mantenere la faccia seria."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_221",
+    "english": "I ordered a new laptop sleeve with a funny coding quote on it.",
+    "context": "Showing off a fun developer accessory",
+    "translations": {
+      "pt-BR": "Encomendei uma nova capa de notebook com uma frase engracada de programacao.",
+      "es": "Pedi una nueva funda de portatil con una frase graciosa de programacion.",
+      "fr": "J'ai commande une nouvelle housse d'ordinateur avec une citation de code drole dessus.",
+      "de": "Ich habe eine neue Laptoptasche mit einem lustigen Programmierspruch bestellt.",
+      "it": "Ho ordinato una nuova custodia per il portatile con una citazione divertente sulla programmazione."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_222",
+    "english": "The deploy on Monday morning went perfectly for once.",
+    "context": "Expressing pleasant surprise at a smooth Monday deployment",
+    "translations": {
+      "pt-BR": "O deploy na segunda de manha deu certo dessa vez.",
+      "es": "El deploy del lunes por la manana salio perfecto por una vez.",
+      "fr": "Le deploiement du lundi matin s'est bien passe pour une fois.",
+      "de": "Das Deployment am Montagmorgen lief ausnahmsweise mal perfekt.",
+      "it": "Il deploy del lunedi mattina e andato perfettamente per una volta."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_223",
+    "english": "I made the mistake of checking Slack notifications during dinner with my family.",
+    "context": "Regretting poor work-life boundaries",
+    "translations": {
+      "pt-BR": "Cometi o erro de checar notificacoes do Slack durante o jantar com minha familia.",
+      "es": "Cometi el error de revisar las notificaciones de Slack durante la cena con mi familia.",
+      "fr": "J'ai fait l'erreur de verifier mes notifications Slack pendant le diner en famille.",
+      "de": "Ich habe den Fehler gemacht, Slack-Benachrichtigungen beim Abendessen mit meiner Familie zu checken.",
+      "it": "Ho fatto l'errore di controllare le notifiche di Slack durante la cena con la mia famiglia."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_224",
+    "english": "Anybody want to carpool tomorrow? I can pick you up on the way.",
+    "context": "Offering a shared ride to the office",
+    "translations": {
+      "pt-BR": "Alguem quer pegar carona amanha? Posso te pegar no caminho.",
+      "es": "Alguien quiere compartir auto manana? Puedo recogerlos de camino.",
+      "fr": "Quelqu'un veut faire du covoiturage demain? Je peux te prendre en route.",
+      "de": "Will jemand morgen eine Fahrgemeinschaft? Ich kann dich auf dem Weg mitnehmen.",
+      "it": "Qualcuno vuole condividere l'auto domani? Posso passare a prenderti lungo la strada."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_225",
+    "english": "I wonder how many hours I've spent in meetings that achieved absolutely nothing.",
+    "context": "Reflecting on unproductive meeting culture",
+    "translations": {
+      "pt-BR": "Me pergunto quantas horas ja passei em reunioes que nao deram em absolutamente nada.",
+      "es": "Me pregunto cuantas horas he pasado en reuniones que no lograron absolutamente nada.",
+      "fr": "Je me demande combien d'heures j'ai passees en reunions qui n'ont absolument rien donne.",
+      "de": "Ich frage mich, wie viele Stunden ich in Meetings verbracht habe, die absolut nichts gebracht haben.",
+      "it": "Mi chiedo quante ore ho passato in riunioni che non hanno ottenuto assolutamente nulla."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_226",
+    "english": "I need to renew my passport before planning any international trips.",
+    "context": "Discussing travel logistics casually with a colleague",
+    "translations": {
+      "pt-BR": "Preciso renovar meu passaporte antes de planejar qualquer viagem internacional.",
+      "es": "Necesito renovar mi pasaporte antes de planear cualquier viaje internacional.",
+      "fr": "Je dois renouveler mon passeport avant de planifier des voyages a l'etranger.",
+      "de": "Ich muss meinen Reisepass erneuern, bevor ich internationale Reisen plane.",
+      "it": "Devo rinnovare il passaporto prima di pianificare viaggi internazionali."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_227",
+    "english": "The product demo went great, the client was really impressed with the new features.",
+    "context": "Sharing good news after a client presentation",
+    "translations": {
+      "pt-BR": "A demo do produto foi otima, o cliente ficou muito impressionado com as novas funcionalidades.",
+      "es": "La demo del producto salio genial, el cliente quedo muy impresionado con las nuevas funcionalidades.",
+      "fr": "La demo du produit s'est super bien passee, le client etait vraiment impressionne par les nouvelles fonctionnalites.",
+      "de": "Die Produktdemo lief super, der Kunde war wirklich beeindruckt von den neuen Features.",
+      "it": "La demo del prodotto e andata benissimo, il cliente e rimasto molto colpito dalle nuove funzionalita."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_228",
+    "english": "Someone put googly eyes on the office printer and it made my whole day.",
+    "context": "Sharing a silly office prank moment",
+    "translations": {
+      "pt-BR": "Alguem colocou olhos de boneco na impressora do escritorio e alegrou meu dia inteiro.",
+      "es": "Alguien le puso ojos saltones a la impresora de la oficina y me alegro todo el dia.",
+      "fr": "Quelqu'un a mis des yeux rigolos sur l'imprimante du bureau et ca m'a fait la journee.",
+      "de": "Jemand hat Wackelaugen auf den Burodrucker geklebt und das hat meinen ganzen Tag gemacht.",
+      "it": "Qualcuno ha messo degli occhi finti sulla stampante dell'ufficio e mi ha reso la giornata."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_229",
+    "english": "Is the parking lot full or should I even bother driving today?",
+    "context": "Checking commute conditions before heading to the office",
+    "translations": {
+      "pt-BR": "O estacionamento esta cheio ou vale a pena eu ir de carro hoje?",
+      "es": "El estacionamiento esta lleno o vale la pena que vaya en carro hoy?",
+      "fr": "Le parking est plein ou est-ce que ca vaut le coup que je vienne en voiture aujourd'hui?",
+      "de": "Ist der Parkplatz voll oder soll ich heute uberhaupt mit dem Auto kommen?",
+      "it": "Il parcheggio e pieno o vale la pena venire in macchina oggi?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_230",
+    "english": "I've been using Copilot for a week and my coding speed has doubled.",
+    "context": "Sharing a positive experience with an AI coding tool",
+    "translations": {
+      "pt-BR": "Estou usando Copilot ha uma semana e minha velocidade de codificacao dobrou.",
+      "es": "Llevo una semana usando Copilot y mi velocidad de programacion se duplico.",
+      "fr": "J'utilise Copilot depuis une semaine et ma vitesse de codage a double.",
+      "de": "Ich benutze Copilot seit einer Woche und meine Programmiergeschwindigkeit hat sich verdoppelt.",
+      "it": "Sto usando Copilot da una settimana e la mia velocita di programmazione e raddoppiata."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_231",
+    "english": "Let me grab my headphones before this open office drives me crazy.",
+    "context": "Dealing with noise in an open-plan office",
+    "translations": {
+      "pt-BR": "Deixa eu pegar meus fones antes que esse escritorio aberto me deixe maluco.",
+      "es": "Dejame agarrar mis audifonos antes de que esta oficina abierta me vuelva loco.",
+      "fr": "Laisse-moi attraper mon casque avant que cet open space me rende fou.",
+      "de": "Lass mich meine Kopfhorer holen, bevor mich dieses Grossraumburo verruckt macht.",
+      "it": "Fammi prendere le cuffie prima che questo ufficio aperto mi faccia impazzire."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_232",
+    "english": "Our team trivia night last week was hilarious, we should do it monthly.",
+    "context": "Suggesting a recurring social activity after a fun team event",
+    "translations": {
+      "pt-BR": "Nosso quiz do time na semana passada foi hilario, deveriamos fazer mensal.",
+      "es": "Nuestra noche de trivia del equipo la semana pasada fue genial, deberiamos hacerlo mensual.",
+      "fr": "Notre soiree quiz d'equipe la semaine derniere etait hilarante, on devrait le faire tous les mois.",
+      "de": "Unser Team-Quizabend letzte Woche war zum Schreien, wir sollten das monatlich machen.",
+      "it": "La nostra serata quiz di squadra la settimana scorsa e stata esilarante, dovremmo farla mensilmente."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_233",
+    "english": "I just deleted a branch I shouldn't have, does anyone remember the name?",
+    "context": "Panicking after accidentally deleting a git branch",
+    "translations": {
+      "pt-BR": "Acabei de deletar uma branch que nao deveria, alguem lembra o nome?",
+      "es": "Acabo de borrar una rama que no debia, alguien recuerda el nombre?",
+      "fr": "Je viens de supprimer une branche que je n'aurais pas du, quelqu'un se souvient du nom?",
+      "de": "Ich habe gerade einen Branch geloscht, den ich nicht hatte loschen sollen, erinnert sich jemand an den Namen?",
+      "it": "Ho appena cancellato un branch che non dovevo, qualcuno ricorda il nome?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_234",
+    "english": "I'm going to start meditating before work, the stress is getting to me.",
+    "context": "Discussing a new wellness routine to handle work pressure",
+    "translations": {
+      "pt-BR": "Vou comecar a meditar antes do trabalho, o estresse esta me afetando.",
+      "es": "Voy a empezar a meditar antes del trabajo, el estres me esta afectando.",
+      "fr": "Je vais commencer a mediter avant le travail, le stress commence a me peser.",
+      "de": "Ich fange an, vor der Arbeit zu meditieren, der Stress wird mir zu viel.",
+      "it": "Comincero a meditare prima del lavoro, lo stress mi sta prendendo."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_235",
+    "english": "My desk neighbor eats the loudest chips every single afternoon.",
+    "context": "Humorously complaining about a noisy coworker habit",
+    "translations": {
+      "pt-BR": "Meu vizinho de mesa come os chips mais barulhentos todas as tardes.",
+      "es": "Mi vecino de escritorio come las papas fritas mas ruidosas todas las tardes.",
+      "fr": "Mon voisin de bureau mange les chips les plus bruyantes tous les apres-midi.",
+      "de": "Mein Schreibtischnachbar isst jeden Nachmittag die lautesten Chips.",
+      "it": "Il mio vicino di scrivania mangia le patatine piu rumorose ogni singolo pomeriggio."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_236",
+    "english": "Has anyone used that new design tool everyone on Twitter is raving about?",
+    "context": "Asking about trending developer tools",
+    "translations": {
+      "pt-BR": "Alguem ja usou aquela nova ferramenta de design que todo mundo no Twitter esta elogiando?",
+      "es": "Alguien ha usado esa nueva herramienta de diseno de la que todos hablan en Twitter?",
+      "fr": "Quelqu'un a utilise ce nouvel outil de design dont tout le monde parle sur Twitter?",
+      "de": "Hat jemand dieses neue Design-Tool benutzt, uber das alle auf Twitter schwarten?",
+      "it": "Qualcuno ha usato quel nuovo strumento di design di cui parlano tutti su Twitter?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_237",
+    "english": "I finished my tasks early today, should I leave or find something else to do?",
+    "context": "Asking a coworker about office culture around leaving early",
+    "translations": {
+      "pt-BR": "Terminei minhas tarefas cedo hoje, devo ir embora ou achar algo mais pra fazer?",
+      "es": "Termine mis tareas temprano hoy, deberia irme o buscar algo mas que hacer?",
+      "fr": "J'ai fini mes taches tot aujourd'hui, je pars ou je cherche autre chose a faire?",
+      "de": "Ich habe meine Aufgaben heute fruher fertig, soll ich gehen oder mir was anderes suchen?",
+      "it": "Ho finito i miei compiti presto oggi, dovrei andare o trovare qualcos'altro da fare?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_238",
+    "english": "The motivational poster in the meeting room says 'teamwork' but nobody reads it.",
+    "context": "Making a dry observation about office decor",
+    "translations": {
+      "pt-BR": "O poster motivacional na sala de reuniao diz 'trabalho em equipe' mas ninguem le.",
+      "es": "El poster motivacional en la sala de reuniones dice 'trabajo en equipo' pero nadie lo lee.",
+      "fr": "L'affiche motivationnelle dans la salle de reunion dit 'travail d'equipe' mais personne ne la lit.",
+      "de": "Das Motivationsposter im Meetingraum sagt 'Teamwork', aber niemand liest es.",
+      "it": "Il poster motivazionale nella sala riunioni dice 'lavoro di squadra' ma nessuno lo legge."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_239",
+    "english": "My phone keeps buzzing with Jira notifications and I can't focus.",
+    "context": "Complaining about project management tool distractions",
+    "translations": {
+      "pt-BR": "Meu celular nao para de vibrar com notificacoes do Jira e eu nao consigo focar.",
+      "es": "Mi telefono no para de vibrar con notificaciones de Jira y no puedo concentrarme.",
+      "fr": "Mon telephone n'arrete pas de vibrer avec des notifications Jira et je n'arrive pas a me concentrer.",
+      "de": "Mein Handy vibriert standig mit Jira-Benachrichtigungen und ich kann mich nicht konzentrieren.",
+      "it": "Il mio telefono continua a vibrare con notifiche di Jira e non riesco a concentrarmi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_240",
+    "english": "We won the hackathon! Free pizza and bragging rights for a month.",
+    "context": "Celebrating a hackathon victory with the team",
+    "translations": {
+      "pt-BR": "Ganhamos o hackathon! Pizza gratis e direito de se gabar por um mes.",
+      "es": "Ganamos el hackathon! Pizza gratis y derecho a presumir por un mes.",
+      "fr": "On a gagne le hackathon! Pizza gratuite et droit de se vanter pendant un mois.",
+      "de": "Wir haben den Hackathon gewonnen! Gratis Pizza und Angeber-Rechte fur einen Monat.",
+      "it": "Abbiamo vinto l'hackathon! Pizza gratis e diritto di vantarsi per un mese."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_241",
+    "english": "The elevator music in this building is stuck in the nineties.",
+    "context": "Making fun of office building ambiance",
+    "translations": {
+      "pt-BR": "A musica do elevador deste predio esta presa nos anos noventa.",
+      "es": "La musica del ascensor de este edificio esta atrapada en los noventa.",
+      "fr": "La musique de l'ascenseur de ce batiment est bloquee dans les annees quatre-vingt-dix.",
+      "de": "Die Aufzugmusik in diesem Gebaude steckt in den Neunzigern fest.",
+      "it": "La musica dell'ascensore di questo edificio e bloccata negli anni novanta."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_242",
+    "english": "I just completed my one-year anniversary at the company, time went fast.",
+    "context": "Reflecting on a work milestone with colleagues",
+    "translations": {
+      "pt-BR": "Acabei de completar meu primeiro ano na empresa, o tempo passou rapido.",
+      "es": "Acabo de cumplir un ano en la empresa, el tiempo paso rapido.",
+      "fr": "Je viens de feter mon premier anniversaire dans l'entreprise, le temps est passe vite.",
+      "de": "Ich habe gerade mein einjahtriges Jubilaum in der Firma, die Zeit ging schnell.",
+      "it": "Ho appena completato il mio primo anno in azienda, il tempo e volato."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_243",
+    "english": "I put a Lego set on my desk and everyone keeps stopping to look at it.",
+    "context": "Talking about desk decorations attracting attention",
+    "translations": {
+      "pt-BR": "Coloquei um set de Lego na minha mesa e todo mundo para pra olhar.",
+      "es": "Puse un set de Lego en mi escritorio y todos se detienen a mirarlo.",
+      "fr": "J'ai mis un set de Lego sur mon bureau et tout le monde s'arrete pour le regarder.",
+      "de": "Ich habe ein Lego-Set auf meinen Schreibtisch gestellt und jeder bleibt stehen, um es anzuschauen.",
+      "it": "Ho messo un set Lego sulla scrivania e tutti si fermano a guardarlo."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_244",
+    "english": "I dread opening my email on Monday mornings, there are always a hundred unread.",
+    "context": "Describing the Monday inbox overwhelm",
+    "translations": {
+      "pt-BR": "Tenho pavor de abrir meu e-mail nas segundas de manha, sempre tem cem nao lidos.",
+      "es": "Me da pavor abrir mi correo los lunes por la manana, siempre hay cien sin leer.",
+      "fr": "J'ai horreur d'ouvrir mes e-mails le lundi matin, il y en a toujours une centaine de non lus.",
+      "de": "Ich habe Angst davor, montags meine E-Mails zu offnen, es sind immer hundert ungelesene.",
+      "it": "Ho il terrore di aprire la mail il lunedi mattina, ci sono sempre cento non lette."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_245",
+    "english": "I'm trying out a new note-taking app, this one actually syncs across devices.",
+    "context": "Sharing a productivity tool discovery",
+    "translations": {
+      "pt-BR": "Estou testando um novo app de anotacoes, esse realmente sincroniza entre dispositivos.",
+      "es": "Estoy probando una nueva app de notas, esta si sincroniza entre dispositivos.",
+      "fr": "J'essaie une nouvelle appli de prise de notes, celle-ci se synchronise vraiment entre appareils.",
+      "de": "Ich probiere eine neue Notiz-App aus, die synchronisiert tatsachlich uber Gerate hinweg.",
+      "it": "Sto provando una nuova app per appunti, questa si sincronizza davvero tra i dispositivi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_246",
+    "english": "My Slack status has been 'in a meeting' for three straight hours, send help.",
+    "context": "Joking about being stuck in back-to-back meetings",
+    "translations": {
+      "pt-BR": "Meu status do Slack esta 'em reuniao' ha tres horas seguidas, mandem ajuda.",
+      "es": "Mi estado de Slack ha sido 'en reunion' por tres horas seguidas, manden ayuda.",
+      "fr": "Mon statut Slack est 'en reunion' depuis trois heures d'affilee, envoyez de l'aide.",
+      "de": "Mein Slack-Status ist seit drei Stunden 'im Meeting', schickt Hilfe.",
+      "it": "Il mio stato Slack e 'in riunione' da tre ore di fila, mandate aiuto."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_247",
+    "english": "The sunset view from the office window is gorgeous today.",
+    "context": "Appreciating nature during a work day",
+    "translations": {
+      "pt-BR": "A vista do por do sol da janela do escritorio esta linda hoje.",
+      "es": "La vista del atardecer desde la ventana de la oficina esta preciosa hoy.",
+      "fr": "La vue du coucher de soleil depuis la fenetre du bureau est magnifique aujourd'hui.",
+      "de": "Der Blick auf den Sonnenuntergang aus dem Burofenster ist heute wunderschon.",
+      "it": "La vista del tramonto dalla finestra dell'ufficio e bellissima oggi."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_248",
+    "english": "I've been procrastinating on that migration ticket for two sprints now.",
+    "context": "Admitting to avoiding a tedious task",
+    "translations": {
+      "pt-BR": "Estou procrastinando naquele ticket de migracao ha dois sprints ja.",
+      "es": "Llevo dos sprints procrastinando en ese ticket de migracion.",
+      "fr": "Je procrastine sur ce ticket de migration depuis deux sprints maintenant.",
+      "de": "Ich schiebe dieses Migrations-Ticket jetzt schon seit zwei Sprints vor mir her.",
+      "it": "Sto procrastinando su quel ticket di migrazione da due sprint ormai."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_249",
+    "english": "Do we have any team swag left? I want to give some to a friend.",
+    "context": "Asking about available company merchandise",
+    "translations": {
+      "pt-BR": "Ainda temos algum brinde do time? Quero dar uns pra um amigo.",
+      "es": "Nos queda algo de merchandising del equipo? Quiero darle algo a un amigo.",
+      "fr": "Il nous reste des goodies d'equipe? Je voudrais en donner a un ami.",
+      "de": "Haben wir noch Team-Swag ubrig? Ich mochte einem Freund was geben.",
+      "it": "Abbiamo ancora del merchandising del team? Voglio darne un po' a un amico."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_250",
+    "english": "I switched from VS Code to a JetBrains IDE and I'm never going back.",
+    "context": "Sharing an opinion about development tools",
+    "translations": {
+      "pt-BR": "Mudei do VS Code para uma IDE da JetBrains e nao volto nunca mais.",
+      "es": "Cambie de VS Code a un IDE de JetBrains y no vuelvo nunca mas.",
+      "fr": "Je suis passe de VS Code a un IDE JetBrains et je ne reviendrai jamais.",
+      "de": "Ich bin von VS Code auf eine JetBrains-IDE umgestiegen und gehe nie wieder zuruck.",
+      "it": "Sono passato da VS Code a un IDE JetBrains e non torno piu indietro."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_251",
+    "english": "The cleaning crew rearranged everything on my desk and I can't find my mouse.",
+    "context": "Dealing with an office disruption after cleaning",
+    "translations": {
+      "pt-BR": "O pessoal da limpeza reorganizou tudo na minha mesa e nao consigo achar meu mouse.",
+      "es": "El equipo de limpieza reorganizo todo en mi escritorio y no encuentro mi raton.",
+      "fr": "L'equipe de nettoyage a tout rerange sur mon bureau et je ne trouve plus ma souris.",
+      "de": "Das Reinigungsteam hat alles auf meinem Schreibtisch umgeraumt und ich finde meine Maus nicht.",
+      "it": "Le pulizie hanno riorganizzato tutto sulla mia scrivania e non trovo il mio mouse."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_252",
+    "english": "I haven't used a physical whiteboard in months, everything is Miro now.",
+    "context": "Commenting on the shift to digital collaboration tools",
+    "translations": {
+      "pt-BR": "Nao uso um quadro branco fisico ha meses, agora tudo e no Miro.",
+      "es": "No he usado una pizarra fisica en meses, ahora todo es en Miro.",
+      "fr": "Je n'ai pas utilise un tableau blanc physique depuis des mois, tout est sur Miro maintenant.",
+      "de": "Ich habe seit Monaten kein physisches Whiteboard mehr benutzt, alles ist jetzt Miro.",
+      "it": "Non uso una lavagna fisica da mesi, adesso tutto e su Miro."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_253",
+    "english": "Does anyone else feel weird going back to the office after a long remote stretch?",
+    "context": "Discussing the transition back to office after working remotely",
+    "translations": {
+      "pt-BR": "Mais alguem se sente estranho voltando ao escritorio depois de um longo periodo remoto?",
+      "es": "Alguien mas se siente raro volviendo a la oficina despues de un largo periodo remoto?",
+      "fr": "Quelqu'un d'autre trouve ca bizarre de retourner au bureau apres une longue periode en teletravail?",
+      "de": "Findet es noch jemand komisch, nach einer langen Remote-Phase ins Buro zuruckzukehren?",
+      "it": "Qualcun altro si sente strano a tornare in ufficio dopo un lungo periodo da remoto?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_254",
+    "english": "Today is my birthday, I brought cake for everyone.",
+    "context": "Celebrating a personal milestone at the office",
+    "translations": {
+      "pt-BR": "Hoje e meu aniversario, trouxe bolo pra todo mundo.",
+      "es": "Hoy es mi cumpleanos, traje pastel para todos.",
+      "fr": "C'est mon anniversaire aujourd'hui, j'ai apporte du gateau pour tout le monde.",
+      "de": "Heute ist mein Geburtstag, ich habe Kuchen fur alle mitgebracht.",
+      "it": "Oggi e il mio compleanno, ho portato la torta per tutti."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_255",
+    "english": "I finally understand why senior developers love boring technology.",
+    "context": "Having a career growth realization about stable tech choices",
+    "translations": {
+      "pt-BR": "Finalmente entendo por que desenvolvedores senior amam tecnologia chata.",
+      "es": "Por fin entiendo por que los desarrolladores senior aman la tecnologia aburrida.",
+      "fr": "Je comprends enfin pourquoi les devs seniors aiment la technologie ennuyeuse.",
+      "de": "Ich verstehe endlich, warum Senior-Entwickler langweilige Technologie lieben.",
+      "it": "Finalmente capisco perche gli sviluppatori senior amano la tecnologia noiosa."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_256",
+    "english": "The office plants are thriving since we assigned someone to water them weekly.",
+    "context": "Positive update about office plant care",
+    "translations": {
+      "pt-BR": "As plantas do escritorio estao prosperando desde que designamos alguem pra rega-las semanalmente.",
+      "es": "Las plantas de la oficina estan prosperando desde que asignamos a alguien para regarlas semanalmente.",
+      "fr": "Les plantes du bureau se portent bien depuis qu'on a designe quelqu'un pour les arroser chaque semaine.",
+      "de": "Die Buropflanzen gedeihen, seit wir jemanden zum wochentlichen Giessen eingeteilt haben.",
+      "it": "Le piante dell'ufficio stanno prosperando da quando abbiamo assegnato qualcuno per innaffiarle settimanalmente."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_257",
+    "english": "I'm on my fourth cup of tea today, I might switch back to coffee.",
+    "context": "Casual beverage conversation at the office",
+    "translations": {
+      "pt-BR": "Estou na minha quarta xicara de cha hoje, talvez volte pro cafe.",
+      "es": "Voy por mi cuarta taza de te hoy, quiza vuelva al cafe.",
+      "fr": "J'en suis a ma quatrieme tasse de the aujourd'hui, je vais peut-etre repasser au cafe.",
+      "de": "Ich bin heute bei meiner vierten Tasse Tee, vielleicht wechsle ich wieder zu Kaffee.",
+      "it": "Sono alla mia quarta tazza di te oggi, forse torno al caffe."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_258",
+    "english": "I'm volunteering to mentor a junior dev, anyone else interested?",
+    "context": "Offering to guide newcomers and inviting others to join",
+    "translations": {
+      "pt-BR": "Estou me voluntariando pra mentorar um dev junior, mais alguem interessado?",
+      "es": "Me estoy ofreciendo para ser mentor de un dev junior, alguien mas interesado?",
+      "fr": "Je me porte volontaire pour mentorer un dev junior, quelqu'un d'autre interesse?",
+      "de": "Ich melde mich freiwillig, einen Junior-Dev zu mentoren, hat noch jemand Interesse?",
+      "it": "Mi offro volontario per fare da mentore a un dev junior, qualcun altro e interessato?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_259",
+    "english": "The air conditioning is making this weird humming noise, am I the only one hearing it?",
+    "context": "Pointing out an annoying background noise in the office",
+    "translations": {
+      "pt-BR": "O ar condicionado esta fazendo um zumbido estranho, sou so eu que estou ouvindo?",
+      "es": "El aire acondicionado esta haciendo un zumbido raro, soy el unico que lo escucha?",
+      "fr": "La climatisation fait un bourdonnement bizarre, c'est que moi qui l'entends?",
+      "de": "Die Klimaanlage macht ein seltsames Brummen, bin ich der Einzige, der es hort?",
+      "it": "L'aria condizionata fa un ronzio strano, sono l'unico che lo sente?"
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_260",
+    "english": "Who's up for a coffee walk? I need to stretch my legs.",
+    "context": "Inviting colleagues for a short walk and coffee break",
+    "translations": {
+      "pt-BR": "Quem topa uma caminhada ate o cafe? Preciso esticar as pernas.",
+      "es": "Quien se apunta a una caminata al cafe? Necesito estirar las piernas.",
+      "fr": "Qui est partant pour une balade cafe? J'ai besoin de me degourdir les jambes.",
+      "de": "Wer hat Lust auf einen Kaffeespaziergang? Ich muss mir die Beine vertreten.",
+      "it": "Chi viene per una passeggiata al caffe? Ho bisogno di sgranchirmi le gambe."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_261",
+    "english": "I spent the whole standup talking and forgot to mention my actual blocker.",
+    "context": "Realizing you missed the important part of your daily update",
+    "translations": {
+      "pt-BR": "Passei a daily inteira falando e esqueci de mencionar meu bloqueio real.",
+      "es": "Pase toda la daily hablando y olvide mencionar mi bloqueo real.",
+      "fr": "J'ai passe tout le standup a parler et j'ai oublie de mentionner mon vrai blocage.",
+      "de": "Ich habe das ganze Standup geredet und vergessen, meinen eigentlichen Blocker zu erwahnen.",
+      "it": "Ho passato tutto lo standup a parlare e mi sono dimenticato di menzionare il mio vero blocco."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_262",
+    "english": "I downloaded a Pomodoro app and my productivity actually improved.",
+    "context": "Recommending a productivity technique to a colleague",
+    "translations": {
+      "pt-BR": "Baixei um app de Pomodoro e minha produtividade realmente melhorou.",
+      "es": "Descargue una app de Pomodoro y mi productividad realmente mejoro.",
+      "fr": "J'ai telecharge une appli Pomodoro et ma productivite s'est vraiment amelioree.",
+      "de": "Ich habe eine Pomodoro-App heruntergeladen und meine Produktivitat hat sich tatsachlich verbessert.",
+      "it": "Ho scaricato un'app Pomodoro e la mia produttivita e davvero migliorata."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_263",
+    "english": "Our annual team photo looks hilarious, have you seen it on the intranet?",
+    "context": "Sharing a funny team photo with colleagues",
+    "translations": {
+      "pt-BR": "Nossa foto anual de equipe ficou hilaria, voce viu na intranet?",
+      "es": "Nuestra foto anual del equipo quedo chistosa, la viste en la intranet?",
+      "fr": "Notre photo d'equipe annuelle est hilarante, tu l'as vue sur l'intranet?",
+      "de": "Unser jahrliches Teamfoto sieht urkomisch aus, hast du es im Intranet gesehen?",
+      "it": "La nostra foto di squadra annuale e esilarante, l'hai vista sulla intranet?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_264",
+    "english": "I just got accepted into a coding bootcamp as a guest instructor.",
+    "context": "Sharing exciting teaching or speaking news",
+    "translations": {
+      "pt-BR": "Acabei de ser aceito como instrutor convidado num bootcamp de programacao.",
+      "es": "Acabo de ser aceptado como instructor invitado en un bootcamp de programacion.",
+      "fr": "Je viens d'etre accepte comme instructeur invite dans un bootcamp de programmation.",
+      "de": "Ich wurde gerade als Gastdozent in einem Coding-Bootcamp angenommen.",
+      "it": "Sono appena stato accettato come istruttore ospite in un bootcamp di programmazione."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_265",
+    "english": "The power went out at my house and my laptop battery died mid-call.",
+    "context": "Explaining a sudden disconnection to the team",
+    "translations": {
+      "pt-BR": "Acabou a luz na minha casa e a bateria do meu notebook morreu no meio da chamada.",
+      "es": "Se fue la luz en mi casa y la bateria de mi portatil murio a mitad de la llamada.",
+      "fr": "Il y a eu une coupure de courant chez moi et la batterie de mon portable est morte en plein appel.",
+      "de": "Bei mir ist der Strom ausgefallen und mein Laptop-Akku ist mitten im Anruf gestorben.",
+      "it": "E andata via la corrente a casa mia e la batteria del portatile e morta durante la chiamata."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_266",
+    "english": "The food delivery app is taking forever, we should have just walked there.",
+    "context": "Regretting ordering delivery instead of going to pick up food",
+    "translations": {
+      "pt-BR": "O app de entrega esta demorando uma eternidade, deveriamos ter ido a pe.",
+      "es": "La app de delivery esta tardando una eternidad, debimos haber ido caminando.",
+      "fr": "L'appli de livraison met une eternite, on aurait du y aller a pied.",
+      "de": "Die Liefer-App braucht ewig, wir hatten einfach hinlaufen sollen.",
+      "it": "L'app di consegna ci sta mettendo un'eternita, dovevamo andarci a piedi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_267",
+    "english": "I keep my desk super clean, no cables in sight, it helps me think.",
+    "context": "Discussing workspace organization preferences",
+    "translations": {
+      "pt-BR": "Mantenho minha mesa super limpa, sem cabos a vista, me ajuda a pensar.",
+      "es": "Mantengo mi escritorio super limpio, sin cables a la vista, me ayuda a pensar.",
+      "fr": "Je garde mon bureau super propre, aucun cable en vue, ca m'aide a reflechir.",
+      "de": "Ich halte meinen Schreibtisch super sauber, keine Kabel in Sicht, das hilft mir beim Denken.",
+      "it": "Tengo la mia scrivania super pulita, nessun cavo in vista, mi aiuta a pensare."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_268",
+    "english": "The tech blog I follow just posted a deep dive on WebAssembly, check it out.",
+    "context": "Sharing an interesting technical article with a coworker",
+    "translations": {
+      "pt-BR": "O blog de tecnologia que eu sigo postou um artigo aprofundado sobre WebAssembly, da uma olhada.",
+      "es": "El blog de tecnologia que sigo publico un articulo a fondo sobre WebAssembly, echale un vistazo.",
+      "fr": "Le blog tech que je suis a poste un article detaille sur WebAssembly, jette un oeil.",
+      "de": "Der Tech-Blog, dem ich folge, hat einen tiefen Einblick in WebAssembly gepostet, schau mal rein.",
+      "it": "Il blog tech che seguo ha pubblicato un approfondimento su WebAssembly, dagli un'occhiata."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_269",
+    "english": "My morning routine now includes reading Hacker News with breakfast.",
+    "context": "Sharing daily habits related to tech culture",
+    "translations": {
+      "pt-BR": "Minha rotina matinal agora inclui ler Hacker News durante o cafe da manha.",
+      "es": "Mi rutina matutina ahora incluye leer Hacker News durante el desayuno.",
+      "fr": "Ma routine matinale inclut maintenant la lecture de Hacker News au petit-dejeuner.",
+      "de": "Meine Morgenroutine beinhaltet jetzt Hacker News beim Fruhstuck zu lesen.",
+      "it": "La mia routine mattutina ora include leggere Hacker News a colazione."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_270",
+    "english": "I tried to explain Docker to my parents and they think I work at a shipping company.",
+    "context": "Funny story about explaining tech to non-tech family members",
+    "translations": {
+      "pt-BR": "Tentei explicar Docker pros meus pais e eles acham que eu trabalho numa empresa de transporte.",
+      "es": "Intente explicar Docker a mis padres y creen que trabajo en una empresa de envios.",
+      "fr": "J'ai essaye d'expliquer Docker a mes parents et ils pensent que je travaille dans une entreprise de transport.",
+      "de": "Ich habe versucht, meinen Eltern Docker zu erklaren, und sie denken, ich arbeite bei einer Spedition.",
+      "it": "Ho provato a spiegare Docker ai miei genitori e pensano che lavori in un'azienda di spedizioni."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_271",
+    "english": "I set a Do Not Disturb slot on my calendar every afternoon for deep work.",
+    "context": "Sharing a productivity strategy with a colleague",
+    "translations": {
+      "pt-BR": "Coloquei um horario de nao perturbe na minha agenda toda tarde para trabalho focado.",
+      "es": "Puse un bloque de no molestar en mi calendario cada tarde para trabajo profundo.",
+      "fr": "J'ai mis un creneau ne pas deranger dans mon calendrier chaque apres-midi pour le travail approfondi.",
+      "de": "Ich habe jeden Nachmittag einen Bitte-nicht-storen-Block in meinem Kalender fur konzentriertes Arbeiten.",
+      "it": "Ho impostato uno slot non disturbare nel calendario ogni pomeriggio per il lavoro profondo."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_272",
+    "english": "I keep a rubber duck on my monitor for debugging purposes.",
+    "context": "Explaining a quirky developer tradition to someone new",
+    "translations": {
+      "pt-BR": "Mantenho um patinho de borracha no meu monitor para fins de debugging.",
+      "es": "Tengo un patito de goma en mi monitor para propositos de depuracion.",
+      "fr": "Je garde un canard en caoutchouc sur mon ecran pour le debogage.",
+      "de": "Ich habe eine Gummiente auf meinem Monitor fur Debugging-Zwecke.",
+      "it": "Tengo un papero di gomma sul monitor per scopi di debugging."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_273",
+    "english": "I got sunburned at the company barbecue, totally worth it though.",
+    "context": "Talking about a fun company event the next day",
+    "translations": {
+      "pt-BR": "Fiquei queimado de sol no churrasco da empresa, mas valeu a pena.",
+      "es": "Me queme con el sol en la barbacoa de la empresa, pero valio la pena.",
+      "fr": "J'ai pris un coup de soleil au barbecue de l'entreprise, mais ca valait le coup.",
+      "de": "Ich habe mir beim Firmengrillen einen Sonnenbrand geholt, hat sich aber gelohnt.",
+      "it": "Mi sono scottato al barbecue aziendale, ma ne e valsa la pena."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_274",
+    "english": "The HR survey about office satisfaction was longer than our sprint retrospective.",
+    "context": "Joking about a lengthy corporate survey",
+    "translations": {
+      "pt-BR": "A pesquisa do RH sobre satisfacao no escritorio era mais longa que nossa retrospectiva de sprint.",
+      "es": "La encuesta de recursos humanos sobre satisfaccion en la oficina era mas larga que nuestra retrospectiva de sprint.",
+      "fr": "Le sondage RH sur la satisfaction au bureau etait plus long que notre retrospective de sprint.",
+      "de": "Die HR-Umfrage zur Burozufriedenheit war langer als unsere Sprint-Retrospektive.",
+      "it": "Il sondaggio delle risorse umane sulla soddisfazione in ufficio era piu lungo della nostra retrospettiva di sprint."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_275",
+    "english": "I'm going to that local tech meetup tonight, anyone want to come along?",
+    "context": "Inviting coworkers to a community event",
+    "translations": {
+      "pt-BR": "Vou naquele meetup de tecnologia local hoje a noite, alguem quer ir junto?",
+      "es": "Voy a ese meetup de tecnologia local esta noche, alguien quiere venir?",
+      "fr": "Je vais a ce meetup tech local ce soir, quelqu'un veut venir?",
+      "de": "Ich gehe heute Abend zu diesem lokalen Tech-Meetup, will jemand mitkommen?",
+      "it": "Vado a quel meetup tech locale stasera, qualcuno vuole venire?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_276",
+    "english": "My desk drawer is full of conference lanyards from the past three years.",
+    "context": "Noticing accumulated tech event souvenirs",
+    "translations": {
+      "pt-BR": "Minha gaveta esta cheia de crachas de conferencia dos ultimos tres anos.",
+      "es": "Mi cajon esta lleno de credenciales de conferencias de los ultimos tres anos.",
+      "fr": "Mon tiroir est plein de badges de conferences des trois dernieres annees.",
+      "de": "Meine Schreibtischschublade ist voll mit Konferenz-Lanyard der letzten drei Jahre.",
+      "it": "Il mio cassetto e pieno di badge di conferenze degli ultimi tre anni."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_277",
+    "english": "My dog started barking during my demo to the stakeholders.",
+    "context": "Sharing a remote work interruption story",
+    "translations": {
+      "pt-BR": "Meu cachorro comecou a latir durante minha demo para os stakeholders.",
+      "es": "Mi perro empezo a ladrar durante mi demo para los stakeholders.",
+      "fr": "Mon chien s'est mis a aboyer pendant ma demo aux parties prenantes.",
+      "de": "Mein Hund hat wahrend meiner Demo fur die Stakeholder angefangen zu bellen.",
+      "it": "Il mio cane ha iniziato ad abbaiare durante la mia demo agli stakeholder."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_278",
+    "english": "I feel like every time I update my resume, a recruiter magically appears.",
+    "context": "Joking about recruiter outreach on professional networks",
+    "translations": {
+      "pt-BR": "Sinto que toda vez que atualizo meu curriculo, um recrutador magicamente aparece.",
+      "es": "Siento que cada vez que actualizo mi curriculum, un reclutador aparece magicamente.",
+      "fr": "J'ai l'impression qu'a chaque fois que je mets a jour mon CV, un recruteur apparait comme par magie.",
+      "de": "Ich habe das Gefuhl, jedes Mal wenn ich meinen Lebenslauf aktualisiere, taucht magisch ein Recruiter auf.",
+      "it": "Ho la sensazione che ogni volta che aggiorno il curriculum, un recruiter appare magicamente."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_279",
+    "english": "Does this office have a nap room? Asking for myself, not a friend.",
+    "context": "Humorously asking about office amenities when tired",
+    "translations": {
+      "pt-BR": "Esse escritorio tem sala de soneca? Perguntando pra mim, nao pra um amigo.",
+      "es": "Esta oficina tiene sala de siesta? Pregunto por mi, no por un amigo.",
+      "fr": "Ce bureau a une salle de sieste? Je demande pour moi, pas pour un ami.",
+      "de": "Hat dieses Buro einen Schlafraum? Ich frage fur mich, nicht fur einen Freund.",
+      "it": "Questo ufficio ha una sala per il pisolino? Chiedo per me, non per un amico."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_280",
+    "english": "I'm archiving three hundred unread emails and starting fresh.",
+    "context": "Declaring email inbox bankruptcy to a colleague",
+    "translations": {
+      "pt-BR": "Vou arquivar trezentos e-mails nao lidos e comecar do zero.",
+      "es": "Voy a archivar trescientos correos sin leer y empezar de cero.",
+      "fr": "J'archive trois cents e-mails non lus et je repars a zero.",
+      "de": "Ich archiviere dreihundert ungelesene E-Mails und fange von vorne an.",
+      "it": "Sto archiviando trecento email non lette e riparto da zero."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_281",
+    "english": "Our team channel has more emoji reactions than actual messages today.",
+    "context": "Commenting on a fun but low-productivity day in team chat",
+    "translations": {
+      "pt-BR": "Nosso canal do time tem mais reacoes de emoji do que mensagens reais hoje.",
+      "es": "Nuestro canal del equipo tiene mas reacciones de emoji que mensajes reales hoy.",
+      "fr": "Notre canal d'equipe a plus de reactions emoji que de vrais messages aujourd'hui.",
+      "de": "Unser Team-Kanal hat heute mehr Emoji-Reaktionen als echte Nachrichten.",
+      "it": "Il nostro canale di squadra ha piu reazioni emoji che messaggi veri oggi."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_282",
+    "english": "I brought a portable monitor to the coffee shop and got weird looks.",
+    "context": "Joking about an extreme remote work setup in public",
+    "translations": {
+      "pt-BR": "Levei um monitor portatil pro cafe e recebi olhares estranhos.",
+      "es": "Lleve un monitor portatil a la cafeteria y me miraron raro.",
+      "fr": "J'ai apporte un ecran portable au cafe et on m'a regarde bizarrement.",
+      "de": "Ich habe einen tragbaren Monitor ins Cafe mitgebracht und seltsame Blicke bekommen.",
+      "it": "Ho portato un monitor portatile al bar e mi hanno guardato strano."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_283",
+    "english": "This week felt like it lasted a month, is it Friday yet?",
+    "context": "Expressing exhaustion during a tough work week",
+    "translations": {
+      "pt-BR": "Essa semana pareceu durar um mes, ja e sexta?",
+      "es": "Esta semana parecio durar un mes, ya es viernes?",
+      "fr": "Cette semaine a dure un mois, c'est deja vendredi?",
+      "de": "Diese Woche fuhlte sich an wie ein Monat, ist schon Freitag?",
+      "it": "Questa settimana e sembrata durare un mese, e gia venerdi?"
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_284",
+    "english": "I found a bug in production at eleven at night, it was a fun evening.",
+    "context": "Sarcastically describing a stressful late-night incident",
+    "translations": {
+      "pt-BR": "Encontrei um bug em producao as onze da noite, foi uma noite divertida.",
+      "es": "Encontre un bug en produccion a las once de la noche, fue una noche divertida.",
+      "fr": "J'ai trouve un bug en production a vingt-trois heures, c'etait une soiree sympa.",
+      "de": "Ich habe um elf Uhr nachts einen Bug in Produktion gefunden, ein lustiger Abend.",
+      "it": "Ho trovato un bug in produzione alle undici di sera, e stata una serata divertente."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_285",
+    "english": "I signed up for a yoga class to fix my developer posture.",
+    "context": "Discussing health and wellness related to desk work",
+    "translations": {
+      "pt-BR": "Me inscrevi numa aula de yoga pra consertar minha postura de desenvolvedor.",
+      "es": "Me apunte a una clase de yoga para arreglar mi postura de desarrollador.",
+      "fr": "Je me suis inscrit a un cours de yoga pour corriger ma posture de developpeur.",
+      "de": "Ich habe mich fur einen Yoga-Kurs angemeldet, um meine Entwickler-Haltung zu verbessern.",
+      "it": "Mi sono iscritto a un corso di yoga per correggere la mia postura da sviluppatore."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_286",
+    "english": "Our retrospective turned into a therapy session, but honestly we needed it.",
+    "context": "Reflecting on an emotionally honest team meeting",
+    "translations": {
+      "pt-BR": "Nossa retrospectiva virou uma sessao de terapia, mas honestamente precisavamos.",
+      "es": "Nuestra retrospectiva se convirtio en una sesion de terapia, pero honestamente lo necesitabamos.",
+      "fr": "Notre retrospective s'est transformee en seance de therapie, mais honnement on en avait besoin.",
+      "de": "Unsere Retrospektive wurde zu einer Therapiesitzung, aber ehrlich gesagt brauchten wir das.",
+      "it": "La nostra retrospettiva si e trasformata in una seduta di terapia, ma onestamente ne avevamo bisogno."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_287",
+    "english": "I just discovered keyboard shortcuts I've never used before and I feel like a beginner again.",
+    "context": "Surprising yourself with tool features you missed",
+    "translations": {
+      "pt-BR": "Acabei de descobrir atalhos de teclado que nunca usei e me sinto um iniciante de novo.",
+      "es": "Acabo de descubrir atajos de teclado que nunca use y me siento principiante otra vez.",
+      "fr": "Je viens de decouvrir des raccourcis clavier que je n'ai jamais utilises et je me sens debutant a nouveau.",
+      "de": "Ich habe gerade Tastaturkurzel entdeckt, die ich nie benutzt habe, und fuhle mich wieder wie ein Anfanger.",
+      "it": "Ho appena scoperto scorciatoie da tastiera che non ho mai usato e mi sento di nuovo un principiante."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_288",
+    "english": "The free fruit basket at reception is the highlight of my Tuesday.",
+    "context": "Appreciating a small office perk",
+    "translations": {
+      "pt-BR": "A cesta de frutas gratis na recepcao e o ponto alto da minha terca.",
+      "es": "La cesta de frutas gratis en recepcion es lo mejor de mi martes.",
+      "fr": "Le panier de fruits gratuit a l'accueil est le point fort de mon mardi.",
+      "de": "Der kostenlose Obstkorb am Empfang ist das Highlight meines Dienstags.",
+      "it": "Il cesto di frutta gratis alla reception e il punto forte del mio martedi."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_289",
+    "english": "I gave a lightning talk at the company all-hands and my hands were shaking the whole time.",
+    "context": "Sharing a nerve-wracking public speaking experience",
+    "translations": {
+      "pt-BR": "Dei uma palestra relampago na reuniao geral da empresa e minhas maos estavam tremendo o tempo todo.",
+      "es": "Di una charla relampago en la reunion general de la empresa y me temblaban las manos todo el tiempo.",
+      "fr": "J'ai fait un lightning talk au rassemblement general de l'entreprise et mes mains tremblaient tout le temps.",
+      "de": "Ich habe einen Lightning Talk beim Firmen-All-Hands gehalten und meine Hande haben die ganze Zeit gezittert.",
+      "it": "Ho fatto un lightning talk alla riunione plenaria aziendale e le mie mani tremavano tutto il tempo."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_290",
+    "english": "I ordered a new desk mat and it transformed my whole workspace vibe.",
+    "context": "Showing off a small but impactful desk upgrade",
+    "translations": {
+      "pt-BR": "Pedi um novo desk mat e transformou toda a vibe do meu espaco de trabalho.",
+      "es": "Pedi un nuevo tapete de escritorio y transformo toda la vibra de mi espacio de trabajo.",
+      "fr": "J'ai commande un nouveau tapis de bureau et ca a transforme toute l'ambiance de mon espace de travail.",
+      "de": "Ich habe eine neue Schreibtischunterlage bestellt und sie hat die ganze Stimmung meines Arbeitsplatzes verandert.",
+      "it": "Ho ordinato un nuovo tappetino da scrivania e ha trasformato l'atmosfera di tutto il mio spazio di lavoro."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_291",
+    "english": "Can someone explain what half the acronyms in that email meant?",
+    "context": "Confused by corporate jargon in internal communications",
+    "translations": {
+      "pt-BR": "Alguem pode explicar o que metade das siglas naquele e-mail significavam?",
+      "es": "Alguien puede explicar que significaban la mitad de las siglas en ese correo?",
+      "fr": "Quelqu'un peut m'expliquer ce que la moitie des acronymes dans cet e-mail voulaient dire?",
+      "de": "Kann mir jemand erklaren, was die Halfte der Abkurzungen in dieser E-Mail bedeutet?",
+      "it": "Qualcuno puo spiegare cosa significava meta degli acronimi in quella mail?"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_292",
+    "english": "The new canteen menu looks amazing, they finally added salad options.",
+    "context": "Discussing positive changes to office food offerings",
+    "translations": {
+      "pt-BR": "O novo cardapio da cantina parece incrivel, finalmente adicionaram opcoes de salada.",
+      "es": "El nuevo menu de la cafeteria se ve increible, por fin agregaron opciones de ensalada.",
+      "fr": "Le nouveau menu de la cantine a l'air genial, ils ont enfin ajoute des options de salade.",
+      "de": "Das neue Kantinenmenü sieht toll aus, sie haben endlich Salatoptionen hinzugefugt.",
+      "it": "Il nuovo menu della mensa sembra fantastico, hanno finalmente aggiunto opzioni di insalata."
+    },
+    "difficulty": "easy",
+    "category": "casual"
+  },
+  {
+    "id": "casual_293",
+    "english": "I just had a great one-on-one with my skip-level manager and it was surprisingly relaxed.",
+    "context": "Sharing a positive managerial interaction",
+    "translations": {
+      "pt-BR": "Acabei de ter um otimo one-on-one com meu gestor de nivel acima e foi surpreendentemente relaxado.",
+      "es": "Acabo de tener una gran reunion uno a uno con mi jefe de segundo nivel y fue sorprendentemente relajada.",
+      "fr": "Je viens d'avoir un excellent entretien avec mon manager N+2 et c'etait etonnamment detendu.",
+      "de": "Ich hatte gerade ein tolles Gesprach mit meinem Skip-Level-Manager und es war uberraschend entspannt.",
+      "it": "Ho appena avuto un ottimo one-on-one con il mio manager di secondo livello ed e stato sorprendentemente rilassato."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_294",
+    "english": "I need to clear my notification badges, seeing red dots everywhere stresses me out.",
+    "context": "Talking about notification anxiety with a colleague",
+    "translations": {
+      "pt-BR": "Preciso limpar minhas notificacoes, ver pontos vermelhos em todo lugar me estressa.",
+      "es": "Necesito limpiar mis insignias de notificacion, ver puntos rojos en todas partes me estresa.",
+      "fr": "Je dois effacer mes badges de notification, voir des points rouges partout me stresse.",
+      "de": "Ich muss meine Benachrichtigungsbadges loschen, uberall rote Punkte zu sehen stresst mich.",
+      "it": "Devo cancellare i miei badge di notifica, vedere punti rossi ovunque mi stressa."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_295",
+    "english": "My coworker's typing speed is insane, it sounds like rainfall on the keyboard.",
+    "context": "Commenting on a colleague's impressive typing ability",
+    "translations": {
+      "pt-BR": "A velocidade de digitacao do meu colega e insana, parece chuva caindo no teclado.",
+      "es": "La velocidad de tecleo de mi companero es una locura, suena como lluvia en el teclado.",
+      "fr": "La vitesse de frappe de mon collegue est folle, on dirait de la pluie sur le clavier.",
+      "de": "Die Tippgeschwindigkeit meines Kollegen ist irre, es klingt wie Regen auf der Tastatur.",
+      "it": "La velocita di battitura del mio collega e pazzesca, sembra pioggia sulla tastiera."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_296",
+    "english": "I just claimed the best parking spot in the entire lot, today is going to be a good day.",
+    "context": "Celebrating a small daily victory upon arriving at work",
+    "translations": {
+      "pt-BR": "Acabei de pegar a melhor vaga do estacionamento inteiro, hoje vai ser um bom dia.",
+      "es": "Acabo de conseguir el mejor lugar en todo el estacionamiento, hoy va a ser un buen dia.",
+      "fr": "Je viens de prendre la meilleure place de tout le parking, aujourd'hui va etre une bonne journee.",
+      "de": "Ich habe gerade den besten Parkplatz auf dem ganzen Gelande ergattert, heute wird ein guter Tag.",
+      "it": "Ho appena preso il miglior posto in tutto il parcheggio, oggi sara una buona giornata."
+    },
+    "difficulty": "hard",
+    "category": "casual"
+  },
+  {
+    "id": "casual_297",
+    "english": "We should create a shared playlist for the office, everyone gets to add songs.",
+    "context": "Suggesting a collaborative music idea for the workplace",
+    "translations": {
+      "pt-BR": "Deveriamos criar uma playlist compartilhada pro escritorio, todo mundo pode adicionar musicas.",
+      "es": "Deberiamos crear una playlist compartida para la oficina, todos pueden agregar canciones.",
+      "fr": "On devrait creer une playlist partagee pour le bureau, tout le monde peut ajouter des chansons.",
+      "de": "Wir sollten eine gemeinsame Playlist furs Buro erstellen, jeder darf Songs hinzufugen.",
+      "it": "Dovremmo creare una playlist condivisa per l'ufficio, tutti possono aggiungere canzoni."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_298",
+    "english": "I'm so glad we have flexible hours, I am not a morning person at all.",
+    "context": "Appreciating a work schedule benefit",
+    "translations": {
+      "pt-BR": "Estou muito feliz por termos horarios flexiveis, nao sou uma pessoa matinal de jeito nenhum.",
+      "es": "Estoy muy contento de que tengamos horario flexible, no soy persona manianera para nada.",
+      "fr": "Je suis tellement content qu'on ait des horaires flexibles, je ne suis pas du tout du matin.",
+      "de": "Ich bin so froh, dass wir flexible Arbeitszeiten haben, ich bin uberhaupt kein Morgenmensch.",
+      "it": "Sono cosi contento che abbiamo orari flessibili, non sono assolutamente una persona mattiniera."
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_299",
+    "english": "I saw our app mentioned on a tech forum and the feedback was actually positive!",
+    "context": "Sharing exciting user feedback discovered online",
+    "translations": {
+      "pt-BR": "Vi nosso app mencionado num forum de tecnologia e o feedback foi realmente positivo!",
+      "es": "Vi nuestra app mencionada en un foro de tecnologia y los comentarios fueron realmente positivos!",
+      "fr": "J'ai vu notre appli mentionnee sur un forum tech et les retours etaient en fait positifs!",
+      "de": "Ich habe unsere App in einem Tech-Forum erwahnt gesehen und das Feedback war tatsachlich positiv!",
+      "it": "Ho visto la nostra app menzionata su un forum tech e il feedback era effettivamente positivo!"
+    },
+    "difficulty": "medium",
+    "category": "casual"
+  },
+  {
+    "id": "casual_300",
+    "english": "It's been a great run with this team, I'll miss you all when I switch departments next month.",
+    "context": "Saying a heartfelt goodbye before an internal transfer",
+    "translations": {
+      "pt-BR": "Foi uma otima jornada com esse time, vou sentir falta de todos quando mudar de departamento no proximo mes.",
+      "es": "Ha sido un gran recorrido con este equipo, los extranare a todos cuando cambie de departamento el proximo mes.",
+      "fr": "Ca a ete un super parcours avec cette equipe, vous allez tous me manquer quand je changerai de departement le mois prochain.",
+      "de": "Es war eine tolle Zeit mit diesem Team, ihr werdet mir alle fehlen, wenn ich nachsten Monat die Abteilung wechsle.",
+      "it": "E stato un gran percorso con questo team, mi mancherete tutti quando cambiero reparto il mese prossimo."
+    },
+    "difficulty": "hard",
+    "category": "casual"
   }
 ]

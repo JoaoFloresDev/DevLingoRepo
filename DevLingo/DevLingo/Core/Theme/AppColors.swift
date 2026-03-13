@@ -31,6 +31,7 @@ enum AppColors {
     static let categoryInterviews = Color(hex: "FFD60A")
     static let categoryCasual = Color(hex: "FF9F0A")
     static let categoryDocumentation = Color(hex: "8E8E93")
+    static let categoryPolite = Color(hex: "AF52DE")
 
     // MARK: - Semantic Colors
     static let error = Color(hex: "FF453A")

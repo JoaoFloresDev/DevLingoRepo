@@ -23,6 +23,7 @@ struct ProfileView: View {
                     levelCard
                     statsSection
                     settingsSection
+                    widgetSection
                     appInfoFooter
                 }
                 .padding(.horizontal, AppSpacing.screenPadding)
@@ -66,7 +67,7 @@ struct ProfileView: View {
                     .foregroundStyle(AppColors.textPrimary)
 
                 Text(String(localized: "profile.subtitle"))
-                    .font(.system(size: 17))
+                    .font(.system(size: 18))
                     .foregroundStyle(AppColors.textSecondary)
             }
             Spacer()
@@ -85,7 +86,7 @@ struct ProfileView: View {
                         .foregroundStyle(AppColors.textPrimary)
 
                     Text(viewModel.progress.levelTitle)
-                        .font(.system(size: 17))
+                        .font(.system(size: 18))
                         .foregroundStyle(AppColors.primary)
                 }
                 Spacer()
@@ -145,11 +146,11 @@ struct ProfileView: View {
 
             VStack(alignment: .leading, spacing: 2) {
                 Text(value)
-                    .font(.system(size: 20, weight: .bold))
+                    .font(.system(size: 22, weight: .bold))
                     .foregroundStyle(AppColors.textPrimary)
 
                 Text(label)
-                    .font(.system(size: 14))
+                    .font(.system(size: 15))
                     .foregroundStyle(AppColors.textSecondary)
             }
         }
@@ -270,6 +271,40 @@ struct ProfileView: View {
         }
         .padding(.horizontal, AppSpacing.lg)
         .padding(.vertical, 14)
+    }
+
+    // MARK: - Widget Section
+
+    private var widgetSection: some View {
+        VStack(spacing: AppSpacing.md) {
+            HStack(spacing: 12) {
+                Image(systemName: "square.stack.3d.up.fill")
+                    .font(.system(size: 28))
+                    .foregroundStyle(AppColors.primary)
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(String(localized: "profile.widget_title"))
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundStyle(AppColors.textPrimary)
+
+                    Text(String(localized: "profile.widget_description"))
+                        .font(.system(size: 15))
+                        .foregroundStyle(AppColors.textSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+
+                Spacer()
+            }
+
+            Text(String(localized: "profile.widget_instructions"))
+                .font(.system(size: 14))
+                .foregroundStyle(AppColors.textTertiary)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(AppSpacing.lg)
+        .background(AppColors.surface)
+        .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
     }
 
     // MARK: - App Info

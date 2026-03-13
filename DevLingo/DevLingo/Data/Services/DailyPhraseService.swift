@@ -24,7 +24,7 @@ final class DailyPhraseService {
         if let savedDate = storage.getString(forKey: StorageKeys.todayDate),
            savedDate == today {
             let ids = storage.getStringArray(forKey: StorageKeys.todayPhraseIDs)
-            if !ids.isEmpty {
+            if ids.count >= AppConstants.phrasesPerDay {
                 return phraseService.phrases(by: ids)
             }
         }

@@ -1678,5 +1678,2525 @@
     },
     "difficulty": "medium",
     "category": "slack"
+  },
+  {
+    "id": "slack_121",
+    "english": "Could you approve my PR? It's been open since yesterday.",
+    "context": "Asking for PR review",
+    "translations": {
+      "pt-BR": "Poderia aprovar meu PR? Está aberto desde ontem.",
+      "es": "¿Podrías aprobar mi PR? Está abierto desde ayer.",
+      "fr": "Pourrais-tu approuver ma PR ? Elle est ouverte depuis hier.",
+      "de": "Könntest du meinen PR genehmigen? Er ist seit gestern offen.",
+      "it": "Potresti approvare il mio PR? È aperto da ieri."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_122",
+    "english": "Let me grab the error logs and paste them in a thread.",
+    "context": "Sharing debugging info",
+    "translations": {
+      "pt-BR": "Deixa eu pegar os logs de erro e colar numa thread.",
+      "es": "Déjame tomar los logs de error y pegarlos en un hilo.",
+      "fr": "Laisse-moi récupérer les logs d'erreur et les coller dans un fil.",
+      "de": "Lass mich die Fehlerlogs holen und in einem Thread posten.",
+      "it": "Lasciami prendere i log degli errori e incollarli in un thread."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_123",
+    "english": "I'll create a Jira ticket for this and share the link here.",
+    "context": "Organizing work",
+    "translations": {
+      "pt-BR": "Vou criar um ticket no Jira para isso e compartilhar o link aqui.",
+      "es": "Crearé un ticket en Jira para esto y compartiré el enlace aquí.",
+      "fr": "Je vais créer un ticket Jira et partager le lien ici.",
+      "de": "Ich werde ein Jira-Ticket dafür erstellen und den Link hier teilen.",
+      "it": "Creerò un ticket Jira per questo e condividerò il link qui."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_124",
+    "english": "Quick poll: should we use REST or GraphQL for the new API?",
+    "context": "Starting a discussion",
+    "translations": {
+      "pt-BR": "Enquete rápida: devemos usar REST ou GraphQL para a nova API?",
+      "es": "Encuesta rápida: ¿deberíamos usar REST o GraphQL para la nueva API?",
+      "fr": "Sondage rapide : devrait-on utiliser REST ou GraphQL pour la nouvelle API ?",
+      "de": "Kurze Umfrage: Sollen wir REST oder GraphQL für die neue API verwenden?",
+      "it": "Sondaggio veloce: dovremmo usare REST o GraphQL per la nuova API?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_125",
+    "english": "The deploy was successful, all health checks are passing.",
+    "context": "Sharing deploy status",
+    "translations": {
+      "pt-BR": "O deploy foi bem-sucedido, todos os health checks estão passando.",
+      "es": "El despliegue fue exitoso, todos los health checks están pasando.",
+      "fr": "Le déploiement a réussi, tous les health checks passent.",
+      "de": "Das Deployment war erfolgreich, alle Health Checks bestehen.",
+      "it": "Il deploy è andato a buon fine, tutti gli health check stanno passando."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_126",
+    "english": "I'm going to be in focus mode for the next two hours.",
+    "context": "Setting availability",
+    "translations": {
+      "pt-BR": "Vou ficar em modo foco pelas próximas duas horas.",
+      "es": "Voy a estar en modo foco por las próximas dos horas.",
+      "fr": "Je vais être en mode concentration pendant les deux prochaines heures.",
+      "de": "Ich werde die nächsten zwei Stunden im Fokusmodus sein.",
+      "it": "Sarò in modalità focus per le prossime due ore."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_127",
+    "english": "Has anyone run into issues with the new SDK version?",
+    "context": "Asking for shared experience",
+    "translations": {
+      "pt-BR": "Alguém teve problemas com a nova versão do SDK?",
+      "es": "¿Alguien ha tenido problemas con la nueva versión del SDK?",
+      "fr": "Quelqu'un a-t-il rencontré des problèmes avec la nouvelle version du SDK ?",
+      "de": "Hat jemand Probleme mit der neuen SDK-Version gehabt?",
+      "it": "Qualcuno ha riscontrato problemi con la nuova versione dell'SDK?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_128",
+    "english": "That's exactly what I was looking for, thanks!",
+    "context": "Expressing gratitude",
+    "translations": {
+      "pt-BR": "Era exatamente isso que eu estava procurando, obrigado!",
+      "es": "Eso es exactamente lo que estaba buscando, ¡gracias!",
+      "fr": "C'est exactement ce que je cherchais, merci !",
+      "de": "Das ist genau das, was ich gesucht habe, danke!",
+      "it": "È esattamente quello che stavo cercando, grazie!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_129",
+    "english": "Please don't merge until the QA team signs off.",
+    "context": "Setting merge conditions",
+    "translations": {
+      "pt-BR": "Por favor, não faça merge até o time de QA aprovar.",
+      "es": "Por favor, no hagas merge hasta que el equipo de QA apruebe.",
+      "fr": "S'il te plaît, ne merge pas avant que l'équipe QA ait validé.",
+      "de": "Bitte nicht mergen, bis das QA-Team freigegeben hat.",
+      "it": "Per favore non fare il merge finché il team QA non approva."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_130",
+    "english": "I noticed you're also working on the auth module. Can we coordinate?",
+    "context": "Avoiding conflicts",
+    "translations": {
+      "pt-BR": "Percebi que você também está trabalhando no módulo de auth. Podemos coordenar?",
+      "es": "Noté que también estás trabajando en el módulo de auth. ¿Podemos coordinarnos?",
+      "fr": "J'ai remarqué que tu travailles aussi sur le module d'auth. On peut se coordonner ?",
+      "de": "Mir ist aufgefallen, dass du auch am Auth-Modul arbeitest. Können wir uns abstimmen?",
+      "it": "Ho notato che stai lavorando anche tu sul modulo auth. Possiamo coordinarci?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_131",
+    "english": "The error is intermittent, I can't reproduce it consistently.",
+    "context": "Describing a tricky bug",
+    "translations": {
+      "pt-BR": "O erro é intermitente, não consigo reproduzi-lo consistentemente.",
+      "es": "El error es intermitente, no puedo reproducirlo de forma consistente.",
+      "fr": "L'erreur est intermittente, je n'arrive pas à la reproduire de manière fiable.",
+      "de": "Der Fehler ist sporadisch, ich kann ihn nicht konsistent reproduzieren.",
+      "it": "L'errore è intermittente, non riesco a riprodurlo in modo consistente."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_132",
+    "english": "Check the pinned message for the meeting agenda.",
+    "context": "Directing to resources",
+    "translations": {
+      "pt-BR": "Confira a mensagem fixada para a agenda da reunião.",
+      "es": "Revisa el mensaje fijado para la agenda de la reunión.",
+      "fr": "Vérifie le message épinglé pour l'ordre du jour de la réunion.",
+      "de": "Schau dir die angeheftete Nachricht für die Meeting-Agenda an.",
+      "it": "Controlla il messaggio fissato per l'agenda della riunione."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_133",
+    "english": "I'll hop on a huddle if anyone wants to discuss this live.",
+    "context": "Offering real-time discussion",
+    "translations": {
+      "pt-BR": "Vou entrar num huddle se alguém quiser discutir isso ao vivo.",
+      "es": "Me uniré a un huddle si alguien quiere discutir esto en vivo.",
+      "fr": "Je me connecte en huddle si quelqu'un veut en discuter en direct.",
+      "de": "Ich starte einen Huddle, wenn jemand das live besprechen möchte.",
+      "it": "Entro in un huddle se qualcuno vuole discuterne dal vivo."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_134",
+    "english": "The ticket is blocked pending design approval.",
+    "context": "Sharing blocker",
+    "translations": {
+      "pt-BR": "O ticket está bloqueado aguardando aprovação do design.",
+      "es": "El ticket está bloqueado esperando la aprobación del diseño.",
+      "fr": "Le ticket est bloqué en attente de l'approbation du design.",
+      "de": "Das Ticket ist blockiert und wartet auf Design-Freigabe.",
+      "it": "Il ticket è bloccato in attesa dell'approvazione del design."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_135",
+    "english": "I left some comments on the PR, nothing major.",
+    "context": "Sharing review feedback",
+    "translations": {
+      "pt-BR": "Deixei alguns comentários no PR, nada grave.",
+      "es": "Dejé algunos comentarios en el PR, nada importante.",
+      "fr": "J'ai laissé quelques commentaires sur la PR, rien de majeur.",
+      "de": "Ich habe einige Kommentare am PR hinterlassen, nichts Großes.",
+      "it": "Ho lasciato alcuni commenti sul PR, niente di grave."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_136",
+    "english": "Can you share the Figma link for the updated designs?",
+    "context": "Requesting resources",
+    "translations": {
+      "pt-BR": "Pode compartilhar o link do Figma para os designs atualizados?",
+      "es": "¿Puedes compartir el enlace de Figma para los diseños actualizados?",
+      "fr": "Tu peux partager le lien Figma pour les designs mis à jour ?",
+      "de": "Kannst du den Figma-Link für die aktualisierten Designs teilen?",
+      "it": "Puoi condividere il link Figma per i design aggiornati?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_137",
+    "english": "We should consider using a message queue for this workflow.",
+    "context": "Suggesting architecture",
+    "translations": {
+      "pt-BR": "Devemos considerar usar uma fila de mensagens para esse workflow.",
+      "es": "Deberíamos considerar usar una cola de mensajes para este flujo.",
+      "fr": "On devrait considérer l'utilisation d'une file de messages pour ce workflow.",
+      "de": "Wir sollten erwägen, eine Message Queue für diesen Workflow zu verwenden.",
+      "it": "Dovremmo considerare l'uso di una coda di messaggi per questo workflow."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_138",
+    "english": "The nightly build failed, but it looks like a flaky test.",
+    "context": "Triaging build failure",
+    "translations": {
+      "pt-BR": "A build noturna falhou, mas parece ser um teste instável.",
+      "es": "La build nocturna falló, pero parece ser una prueba inestable.",
+      "fr": "Le build nocturne a échoué, mais ça ressemble à un test instable.",
+      "de": "Der Nightly Build ist fehlgeschlagen, aber es sieht nach einem instabilen Test aus.",
+      "it": "La build notturna è fallita, ma sembra un test instabile."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_139",
+    "english": "Working on it, will update the thread once I have more info.",
+    "context": "Setting expectations",
+    "translations": {
+      "pt-BR": "Estou trabalhando nisso, vou atualizar a thread quando tiver mais informações.",
+      "es": "Estoy trabajando en ello, actualizaré el hilo cuando tenga más información.",
+      "fr": "J'y travaille, je mettrai le fil à jour quand j'aurai plus d'infos.",
+      "de": "Ich arbeite daran und werde den Thread aktualisieren, sobald ich mehr Infos habe.",
+      "it": "Ci sto lavorando, aggiornerò il thread quando avrò più informazioni."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_140",
+    "english": "The new endpoint is live, here's the documentation.",
+    "context": "Announcing availability",
+    "translations": {
+      "pt-BR": "O novo endpoint está no ar, aqui está a documentação.",
+      "es": "El nuevo endpoint está en vivo, aquí está la documentación.",
+      "fr": "Le nouvel endpoint est en ligne, voici la documentation.",
+      "de": "Der neue Endpoint ist live, hier ist die Dokumentation.",
+      "it": "Il nuovo endpoint è live, ecco la documentazione."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_141",
+    "english": "I updated the Postman collection with the latest changes.",
+    "context": "Sharing tool updates",
+    "translations": {
+      "pt-BR": "Atualizei a coleção do Postman com as últimas mudanças.",
+      "es": "Actualicé la colección de Postman con los últimos cambios.",
+      "fr": "J'ai mis à jour la collection Postman avec les dernières modifications.",
+      "de": "Ich habe die Postman-Collection mit den neuesten Änderungen aktualisiert.",
+      "it": "Ho aggiornato la collezione Postman con le ultime modifiche."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_142",
+    "english": "Apologies for the @channel, but this is time-sensitive.",
+    "context": "Justifying a broadcast notification",
+    "translations": {
+      "pt-BR": "Desculpa pelo @channel, mas isso é urgente.",
+      "es": "Disculpas por el @channel, pero esto es urgente.",
+      "fr": "Désolé pour le @channel, mais c'est urgent.",
+      "de": "Entschuldigung für das @channel, aber das ist zeitkritisch.",
+      "it": "Scusate per il @channel, ma è urgente."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_143",
+    "english": "Looks like the SSL cert expired, that's why the API is down.",
+    "context": "Diagnosing an issue",
+    "translations": {
+      "pt-BR": "Parece que o certificado SSL expirou, por isso a API está fora.",
+      "es": "Parece que el certificado SSL expiró, por eso la API está caída.",
+      "fr": "Il semble que le certificat SSL a expiré, c'est pourquoi l'API est en panne.",
+      "de": "Es sieht so aus, als ob das SSL-Zertifikat abgelaufen ist, deshalb ist die API down.",
+      "it": "Sembra che il certificato SSL sia scaduto, ecco perché l'API è down."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_144",
+    "english": "Sent you a DM with the credentials for the test account.",
+    "context": "Sharing sensitive info privately",
+    "translations": {
+      "pt-BR": "Te mandei um DM com as credenciais da conta de teste.",
+      "es": "Te envié un DM con las credenciales de la cuenta de prueba.",
+      "fr": "Je t'ai envoyé un DM avec les identifiants du compte de test.",
+      "de": "Ich habe dir eine DM mit den Zugangsdaten des Testkontos geschickt.",
+      "it": "Ti ho mandato un DM con le credenziali dell'account di test."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_145",
+    "english": "Can someone with admin access grant me permissions to the prod environment?",
+    "context": "Requesting access",
+    "translations": {
+      "pt-BR": "Alguém com acesso admin pode me conceder permissões ao ambiente de produção?",
+      "es": "¿Alguien con acceso de administrador puede darme permisos al entorno de producción?",
+      "fr": "Quelqu'un avec un accès admin peut-il me donner les permissions sur l'environnement de prod ?",
+      "de": "Kann jemand mit Admin-Zugang mir Berechtigungen für die Prod-Umgebung geben?",
+      "it": "Qualcuno con accesso admin può concedermi i permessi per l'ambiente di produzione?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_146",
+    "english": "The API latency spiked after the last deploy, reverting now.",
+    "context": "Reporting incident action",
+    "translations": {
+      "pt-BR": "A latência da API disparou após o último deploy, revertendo agora.",
+      "es": "La latencia de la API se disparó después del último despliegue, revirtiendo ahora.",
+      "fr": "La latence de l'API a grimpé après le dernier déploiement, je fais un revert.",
+      "de": "Die API-Latenz ist nach dem letzten Deploy gestiegen, ich mache jetzt einen Revert.",
+      "it": "La latenza dell'API è aumentata dopo l'ultimo deploy, sto facendo il revert."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_147",
+    "english": "I added a reaction to confirm I've seen the message.",
+    "context": "Acknowledging messages",
+    "translations": {
+      "pt-BR": "Adicionei uma reação para confirmar que vi a mensagem.",
+      "es": "Agregué una reacción para confirmar que vi el mensaje.",
+      "fr": "J'ai ajouté une réaction pour confirmer que j'ai vu le message.",
+      "de": "Ich habe eine Reaktion hinzugefügt, um zu bestätigen, dass ich die Nachricht gesehen habe.",
+      "it": "Ho aggiunto una reazione per confermare che ho visto il messaggio."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_148",
+    "english": "The refactoring PR is quite large. I'll break it into smaller ones.",
+    "context": "Planning PR strategy",
+    "translations": {
+      "pt-BR": "O PR de refatoração é bem grande. Vou dividi-lo em menores.",
+      "es": "El PR de refactorización es bastante grande. Lo dividiré en más pequeños.",
+      "fr": "La PR de refactorisation est assez grande. Je vais la découper en plus petites.",
+      "de": "Der Refactoring-PR ist ziemlich groß. Ich werde ihn in kleinere aufteilen.",
+      "it": "Il PR di refactoring è piuttosto grande. Lo dividerò in più piccoli."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_149",
+    "english": "Can we do a quick sanity check before deploying to production?",
+    "context": "Requesting verification",
+    "translations": {
+      "pt-BR": "Podemos fazer uma verificação rápida antes de deployar para produção?",
+      "es": "¿Podemos hacer una verificación rápida antes de desplegar a producción?",
+      "fr": "On peut faire un quick check avant de déployer en production ?",
+      "de": "Können wir einen schnellen Sanity Check machen, bevor wir in Produktion deployen?",
+      "it": "Possiamo fare un rapido sanity check prima di deployare in produzione?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_150",
+    "english": "The Slack bot is reporting high memory usage on the server.",
+    "context": "Sharing monitoring alerts",
+    "translations": {
+      "pt-BR": "O bot do Slack está reportando uso alto de memória no servidor.",
+      "es": "El bot de Slack está reportando alto uso de memoria en el servidor.",
+      "fr": "Le bot Slack signale une utilisation élevée de la mémoire sur le serveur.",
+      "de": "Der Slack-Bot meldet hohe Speicherauslastung auf dem Server.",
+      "it": "Il bot Slack sta segnalando un uso elevato di memoria sul server."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_151",
+    "english": "Friendly reminder to update your sprint tasks before the review.",
+    "context": "Sending reminders",
+    "translations": {
+      "pt-BR": "Lembrete amigável para atualizar suas tarefas do sprint antes da review.",
+      "es": "Recordatorio amigable de actualizar tus tareas del sprint antes de la revisión.",
+      "fr": "Petit rappel : mettez à jour vos tâches de sprint avant la review.",
+      "de": "Freundliche Erinnerung, eure Sprint-Aufgaben vor dem Review zu aktualisieren.",
+      "it": "Promemoria amichevole di aggiornare i task dello sprint prima della review."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_152",
+    "english": "The test coverage for this module dropped below 70%.",
+    "context": "Reporting quality metrics",
+    "translations": {
+      "pt-BR": "A cobertura de testes deste módulo caiu abaixo de 70%.",
+      "es": "La cobertura de pruebas de este módulo cayó por debajo del 70%.",
+      "fr": "La couverture de tests de ce module est passée en dessous de 70%.",
+      "de": "Die Testabdeckung dieses Moduls ist unter 70% gefallen.",
+      "it": "La copertura dei test di questo modulo è scesa sotto il 70%."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_153",
+    "english": "I'll handle the on-call rotation for the holiday period.",
+    "context": "Volunteering for on-call",
+    "translations": {
+      "pt-BR": "Vou cuidar da rotação de plantão no período de feriado.",
+      "es": "Me encargaré de la rotación de guardia durante el periodo de vacaciones.",
+      "fr": "Je m'occupe de la rotation d'astreinte pendant les vacances.",
+      "de": "Ich übernehme die Bereitschaftsrotation für die Feiertagszeit.",
+      "it": "Mi occuperò della rotazione di turno per il periodo delle feste."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_154",
+    "english": "Just a heads up, I'm going to restart the staging server.",
+    "context": "Warning about service interruption",
+    "translations": {
+      "pt-BR": "Só avisando, vou reiniciar o servidor de staging.",
+      "es": "Solo aviso, voy a reiniciar el servidor de staging.",
+      "fr": "Juste pour info, je vais redémarrer le serveur de staging.",
+      "de": "Kurze Info, ich werde den Staging-Server neu starten.",
+      "it": "Solo per info, sto per riavviare il server di staging."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_155",
+    "english": "The feature is behind a feature flag, so it's safe to merge.",
+    "context": "Explaining merge safety",
+    "translations": {
+      "pt-BR": "A funcionalidade está atrás de uma feature flag, então é seguro fazer merge.",
+      "es": "La función está detrás de un feature flag, así que es seguro hacer merge.",
+      "fr": "La fonctionnalité est derrière un feature flag, donc c'est sûr de merger.",
+      "de": "Das Feature ist hinter einem Feature Flag, also ist es sicher zu mergen.",
+      "it": "La funzionalità è dietro un feature flag, quindi è sicuro fare il merge."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_156",
+    "english": "Attaching the stack trace in the thread for context.",
+    "context": "Sharing debugging info",
+    "translations": {
+      "pt-BR": "Anexando o stack trace na thread para contexto.",
+      "es": "Adjuntando el stack trace en el hilo para contexto.",
+      "fr": "Je joins la stack trace dans le fil pour contexte.",
+      "de": "Ich hänge den Stacktrace im Thread als Kontext an.",
+      "it": "Allego lo stack trace nel thread per contesto."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_157",
+    "english": "We need to discuss the breaking changes before the next release.",
+    "context": "Flagging important discussion",
+    "translations": {
+      "pt-BR": "Precisamos discutir as breaking changes antes do próximo release.",
+      "es": "Necesitamos discutir los cambios que rompen compatibilidad antes del próximo release.",
+      "fr": "On doit discuter des breaking changes avant la prochaine release.",
+      "de": "Wir müssen die Breaking Changes vor dem nächsten Release besprechen.",
+      "it": "Dobbiamo discutere le breaking change prima del prossimo rilascio."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_158",
+    "english": "Thanks for jumping on this so quickly!",
+    "context": "Expressing appreciation",
+    "translations": {
+      "pt-BR": "Obrigado por agir nisso tão rápido!",
+      "es": "¡Gracias por atender esto tan rápido!",
+      "fr": "Merci d'avoir réagi si vite !",
+      "de": "Danke, dass du dich so schnell darum gekümmert hast!",
+      "it": "Grazie per aver agito così rapidamente!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_159",
+    "english": "I'll post a summary of the architectural decision in the RFC channel.",
+    "context": "Planning communication",
+    "translations": {
+      "pt-BR": "Vou postar um resumo da decisão arquitetural no canal de RFC.",
+      "es": "Publicaré un resumen de la decisión arquitectónica en el canal de RFC.",
+      "fr": "Je vais poster un résumé de la décision architecturale dans le canal RFC.",
+      "de": "Ich werde eine Zusammenfassung der Architekturentscheidung im RFC-Kanal posten.",
+      "it": "Posterò un riepilogo della decisione architetturale nel canale RFC."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_160",
+    "english": "The cron job completed successfully, all records were processed.",
+    "context": "Sharing job status",
+    "translations": {
+      "pt-BR": "O cron job completou com sucesso, todos os registros foram processados.",
+      "es": "El cron job completó exitosamente, todos los registros fueron procesados.",
+      "fr": "Le cron job s'est terminé avec succès, tous les enregistrements ont été traités.",
+      "de": "Der Cron-Job wurde erfolgreich abgeschlossen, alle Datensätze wurden verarbeitet.",
+      "it": "Il cron job è stato completato con successo, tutti i record sono stati elaborati."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_161",
+    "english": "I'll add a disclaimer in the code review about the known limitations.",
+    "context": "Planning PR communication",
+    "translations": {
+      "pt-BR": "Vou adicionar um aviso na revisão de código sobre as limitações conhecidas.",
+      "es": "Agregaré una nota en la revisión de código sobre las limitaciones conocidas.",
+      "fr": "Je vais ajouter une note dans la revue de code sur les limitations connues.",
+      "de": "Ich werde einen Hinweis im Code Review zu den bekannten Einschränkungen hinzufügen.",
+      "it": "Aggiungerò una nota nella code review sulle limitazioni note."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_162",
+    "english": "Anyone available to pair on the Kubernetes deployment config?",
+    "context": "Asking for pairing partner",
+    "translations": {
+      "pt-BR": "Alguém disponível para parear na configuração de deployment do Kubernetes?",
+      "es": "¿Alguien disponible para hacer pair programming en la configuración de deployment de Kubernetes?",
+      "fr": "Quelqu'un est disponible pour pair sur la config de déploiement Kubernetes ?",
+      "de": "Jemand verfügbar zum Pairen an der Kubernetes-Deployment-Konfiguration?",
+      "it": "Qualcuno è disponibile per fare pair sulla configurazione di deployment Kubernetes?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_163",
+    "english": "The error message is misleading, I'll update it to be more descriptive.",
+    "context": "Describing improvement",
+    "translations": {
+      "pt-BR": "A mensagem de erro é enganosa, vou atualizá-la para ser mais descritiva.",
+      "es": "El mensaje de error es confuso, lo actualizaré para que sea más descriptivo.",
+      "fr": "Le message d'erreur est trompeur, je vais le mettre à jour pour qu'il soit plus descriptif.",
+      "de": "Die Fehlermeldung ist irreführend, ich werde sie aussagekräftiger machen.",
+      "it": "Il messaggio di errore è fuorviante, lo aggiornerò per renderlo più descrittivo."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_164",
+    "english": "I ran the database backup and uploaded it to S3.",
+    "context": "Reporting ops task",
+    "translations": {
+      "pt-BR": "Executei o backup do banco de dados e fiz upload para o S3.",
+      "es": "Ejecuté el respaldo de la base de datos y lo subí a S3.",
+      "fr": "J'ai exécuté la sauvegarde de la base de données et l'ai uploadée sur S3.",
+      "de": "Ich habe das Datenbank-Backup durchgeführt und auf S3 hochgeladen.",
+      "it": "Ho eseguito il backup del database e l'ho caricato su S3."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_165",
+    "english": "Shoutout to Maria for catching that bug in code review!",
+    "context": "Giving public praise",
+    "translations": {
+      "pt-BR": "Parabéns para a Maria por pegar aquele bug na revisão de código!",
+      "es": "¡Felicitaciones a María por encontrar ese bug en la revisión de código!",
+      "fr": "Bravo à Maria pour avoir repéré ce bug en revue de code !",
+      "de": "Lob an Maria, die den Bug im Code Review gefunden hat!",
+      "it": "Complimenti a Maria per aver trovato quel bug nella code review!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_166",
+    "english": "The frontend bundle size increased by 20% after the last merge.",
+    "context": "Reporting quality regression",
+    "translations": {
+      "pt-BR": "O tamanho do bundle do frontend aumentou 20% após o último merge.",
+      "es": "El tamaño del bundle del frontend aumentó un 20% después del último merge.",
+      "fr": "La taille du bundle frontend a augmenté de 20% après le dernier merge.",
+      "de": "Die Frontend-Bundle-Größe ist nach dem letzten Merge um 20% gestiegen.",
+      "it": "La dimensione del bundle frontend è aumentata del 20% dopo l'ultimo merge."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_167",
+    "english": "Can we schedule a knowledge transfer session before Sam leaves?",
+    "context": "Planning knowledge sharing",
+    "translations": {
+      "pt-BR": "Podemos agendar uma sessão de transferência de conhecimento antes do Sam sair?",
+      "es": "¿Podemos programar una sesión de transferencia de conocimiento antes de que Sam se vaya?",
+      "fr": "On peut planifier une session de transfert de connaissances avant que Sam parte ?",
+      "de": "Können wir eine Wissenstransfer-Session planen, bevor Sam geht?",
+      "it": "Possiamo programmare una sessione di knowledge transfer prima che Sam se ne vada?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_168",
+    "english": "I pushed a fix but I need someone to verify it on staging.",
+    "context": "Requesting verification",
+    "translations": {
+      "pt-BR": "Fiz push de uma correção mas preciso que alguém verifique no staging.",
+      "es": "Hice push de un fix pero necesito que alguien lo verifique en staging.",
+      "fr": "J'ai poussé un correctif mais j'ai besoin que quelqu'un le vérifie en staging.",
+      "de": "Ich habe einen Fix gepusht, aber jemand muss ihn im Staging verifizieren.",
+      "it": "Ho pushato un fix ma ho bisogno che qualcuno lo verifichi sullo staging."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_169",
+    "english": "I've documented the workaround in the troubleshooting guide.",
+    "context": "Sharing documentation",
+    "translations": {
+      "pt-BR": "Documentei o workaround no guia de troubleshooting.",
+      "es": "Documenté el workaround en la guía de solución de problemas.",
+      "fr": "J'ai documenté le contournement dans le guide de dépannage.",
+      "de": "Ich habe den Workaround im Troubleshooting-Guide dokumentiert.",
+      "it": "Ho documentato il workaround nella guida al troubleshooting."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_170",
+    "english": "I'm going to do a code walkthrough for the new architecture.",
+    "context": "Planning knowledge sharing",
+    "translations": {
+      "pt-BR": "Vou fazer um walkthrough do código da nova arquitetura.",
+      "es": "Voy a hacer un walkthrough del código de la nueva arquitectura.",
+      "fr": "Je vais faire un walkthrough du code de la nouvelle architecture.",
+      "de": "Ich werde einen Code-Walkthrough für die neue Architektur machen.",
+      "it": "Farò un walkthrough del codice della nuova architettura."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_171",
+    "english": "Can we add this to the retrospective agenda?",
+    "context": "Adding discussion topics",
+    "translations": {
+      "pt-BR": "Podemos adicionar isso à agenda da retrospectiva?",
+      "es": "¿Podemos agregar esto a la agenda de la retrospectiva?",
+      "fr": "On peut ajouter ça à l'agenda de la rétro ?",
+      "de": "Können wir das zur Retrospektive-Agenda hinzufügen?",
+      "it": "Possiamo aggiungerlo all'agenda della retrospettiva?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_172",
+    "english": "The new version of the SDK fixed the crash we were seeing.",
+    "context": "Sharing good news",
+    "translations": {
+      "pt-BR": "A nova versão do SDK corrigiu o crash que estávamos vendo.",
+      "es": "La nueva versión del SDK arregló el crash que estábamos viendo.",
+      "fr": "La nouvelle version du SDK a corrigé le crash qu'on observait.",
+      "de": "Die neue Version des SDK hat den Crash behoben, den wir gesehen haben.",
+      "it": "La nuova versione dell'SDK ha corretto il crash che stavamo vedendo."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_173",
+    "english": "I'm adding the request ID to all log entries for easier tracing.",
+    "context": "Describing observability improvement",
+    "translations": {
+      "pt-BR": "Estou adicionando o request ID a todas as entradas de log para facilitar o rastreamento.",
+      "es": "Estoy agregando el request ID a todas las entradas de log para facilitar el rastreo.",
+      "fr": "J'ajoute le request ID à toutes les entrées de log pour faciliter le traçage.",
+      "de": "Ich füge die Request-ID zu allen Log-Einträgen für einfacheres Tracing hinzu.",
+      "it": "Sto aggiungendo il request ID a tutte le voci di log per un tracing più facile."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_174",
+    "english": "I tested the rollback procedure and it works as expected.",
+    "context": "Verifying safety procedures",
+    "translations": {
+      "pt-BR": "Testei o procedimento de rollback e funciona conforme esperado.",
+      "es": "Probé el procedimiento de rollback y funciona como se esperaba.",
+      "fr": "J'ai testé la procédure de rollback et elle fonctionne comme prévu.",
+      "de": "Ich habe das Rollback-Verfahren getestet und es funktioniert wie erwartet.",
+      "it": "Ho testato la procedura di rollback e funziona come previsto."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_175",
+    "english": "The PR has merge conflicts, could you rebase?",
+    "context": "Asking for PR maintenance",
+    "translations": {
+      "pt-BR": "O PR tem conflitos de merge, poderia fazer rebase?",
+      "es": "El PR tiene conflictos de merge, ¿podrías hacer rebase?",
+      "fr": "La PR a des conflits de merge, tu peux rebaser ?",
+      "de": "Der PR hat Merge-Konflikte, könntest du rebasen?",
+      "it": "Il PR ha conflitti di merge, potresti fare il rebase?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_176",
+    "english": "I'm configuring the webhook to notify us on Slack when a deploy fails.",
+    "context": "Describing integration",
+    "translations": {
+      "pt-BR": "Estou configurando o webhook para nos notificar no Slack quando um deploy falhar.",
+      "es": "Estoy configurando el webhook para notificarnos en Slack cuando un despliegue falle.",
+      "fr": "Je configure le webhook pour nous notifier sur Slack quand un déploiement échoue.",
+      "de": "Ich konfiguriere den Webhook, um uns auf Slack zu benachrichtigen, wenn ein Deploy fehlschlägt.",
+      "it": "Sto configurando il webhook per notificarci su Slack quando un deploy fallisce."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_177",
+    "english": "Let me check the audit logs and I'll share what I find.",
+    "context": "Investigating an issue",
+    "translations": {
+      "pt-BR": "Deixa eu verificar os logs de auditoria e compartilho o que encontrar.",
+      "es": "Déjame revisar los logs de auditoría y compartiré lo que encuentre.",
+      "fr": "Laisse-moi vérifier les logs d'audit et je partagerai ce que je trouve.",
+      "de": "Lass mich die Audit-Logs prüfen und ich teile mit, was ich finde.",
+      "it": "Fammi controllare i log di audit e condividerò quello che trovo."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_178",
+    "english": "That's a great point, I hadn't considered that edge case.",
+    "context": "Acknowledging feedback",
+    "translations": {
+      "pt-BR": "Ótimo ponto, eu não tinha considerado esse caso de borda.",
+      "es": "Buen punto, no había considerado ese caso límite.",
+      "fr": "Bon point, je n'avais pas considéré ce cas limite.",
+      "de": "Guter Punkt, ich hatte diesen Grenzfall nicht bedacht.",
+      "it": "Ottimo punto, non avevo considerato quel caso limite."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_179",
+    "english": "Posting the incident timeline for the outage we had last night.",
+    "context": "Sharing incident info",
+    "translations": {
+      "pt-BR": "Postando a linha do tempo do incidente que tivemos ontem à noite.",
+      "es": "Publicando la línea de tiempo del incidente que tuvimos anoche.",
+      "fr": "Je poste la chronologie de l'incident que nous avons eu hier soir.",
+      "de": "Ich poste die Zeitleiste des Vorfalls von letzter Nacht.",
+      "it": "Pubblico la timeline dell'incidente che abbiamo avuto ieri sera."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_180",
+    "english": "Can we get a quick thumbs up if everyone's aligned on this approach?",
+    "context": "Checking alignment",
+    "translations": {
+      "pt-BR": "Podemos ter um joinha rápido se todos estão de acordo com essa abordagem?",
+      "es": "¿Podemos obtener un pulgar arriba rápido si todos están de acuerdo con este enfoque?",
+      "fr": "On peut avoir un pouce en l'air rapide si tout le monde est aligné sur cette approche ?",
+      "de": "Können wir schnell einen Daumen hoch bekommen, wenn alle mit diesem Ansatz einverstanden sind?",
+      "it": "Possiamo avere un rapido pollice su se tutti sono d'accordo con questo approccio?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_181",
+    "english": "I noticed the error rate dropped after the fix. Looks like it worked.",
+    "context": "Confirming fix effectiveness",
+    "translations": {
+      "pt-BR": "Percebi que a taxa de erro caiu após a correção. Parece que funcionou.",
+      "es": "Noté que la tasa de error bajó después del fix. Parece que funcionó.",
+      "fr": "J'ai remarqué que le taux d'erreur a baissé après le correctif. On dirait que ça a marché.",
+      "de": "Mir ist aufgefallen, dass die Fehlerrate nach dem Fix gesunken ist. Sieht so aus, als hätte es funktioniert.",
+      "it": "Ho notato che il tasso di errore è calato dopo il fix. Sembra che abbia funzionato."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_182",
+    "english": "The new hire needs access to the repos. Can someone from infra help?",
+    "context": "Requesting help for onboarding",
+    "translations": {
+      "pt-BR": "O novo contratado precisa de acesso aos repos. Alguém de infra pode ajudar?",
+      "es": "El nuevo empleado necesita acceso a los repos. ¿Alguien de infra puede ayudar?",
+      "fr": "Le nouveau recruté a besoin d'accès aux repos. Quelqu'un de l'infra peut aider ?",
+      "de": "Der Neueinsteiger braucht Zugang zu den Repos. Kann jemand aus der Infra helfen?",
+      "it": "Il nuovo assunto ha bisogno dell'accesso ai repo. Qualcuno dell'infra può aiutare?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_183",
+    "english": "I enabled the debug mode on staging to trace the issue.",
+    "context": "Describing debugging setup",
+    "translations": {
+      "pt-BR": "Habilitei o modo debug no staging para rastrear o problema.",
+      "es": "Habilité el modo debug en staging para rastrear el problema.",
+      "fr": "J'ai activé le mode debug en staging pour tracer le problème.",
+      "de": "Ich habe den Debug-Modus auf Staging aktiviert, um das Problem zu verfolgen.",
+      "it": "Ho abilitato la modalità debug sullo staging per tracciare il problema."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_184",
+    "english": "Please keep the discussion in this channel instead of DMs so the team has context.",
+    "context": "Encouraging transparency",
+    "translations": {
+      "pt-BR": "Por favor, mantenha a discussão neste canal ao invés de DMs para que o time tenha contexto.",
+      "es": "Por favor, mantén la discusión en este canal en lugar de DMs para que el equipo tenga contexto.",
+      "fr": "S'il vous plaît, gardez la discussion dans ce canal plutôt qu'en DM pour que l'équipe ait le contexte.",
+      "de": "Bitte haltet die Diskussion in diesem Kanal statt in DMs, damit das Team Kontext hat.",
+      "it": "Per favore, mantenete la discussione in questo canale invece che nei DM, così il team ha il contesto."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_185",
+    "english": "I'm sending the API contract to the partner team for review.",
+    "context": "Sharing external communication",
+    "translations": {
+      "pt-BR": "Estou enviando o contrato da API para o time parceiro para revisão.",
+      "es": "Estoy enviando el contrato de la API al equipo asociado para revisión.",
+      "fr": "J'envoie le contrat API à l'équipe partenaire pour revue.",
+      "de": "Ich sende den API-Vertrag an das Partner-Team zur Überprüfung.",
+      "it": "Sto inviando il contratto API al team partner per la revisione."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_186",
+    "english": "The rate limiter kicked in during the load test — we need to adjust the threshold.",
+    "context": "Sharing test results",
+    "translations": {
+      "pt-BR": "O rate limiter disparou durante o teste de carga — precisamos ajustar o limiar.",
+      "es": "El rate limiter se activó durante la prueba de carga — necesitamos ajustar el umbral.",
+      "fr": "Le rate limiter s'est activé pendant le test de charge — on doit ajuster le seuil.",
+      "de": "Der Rate Limiter hat beim Lasttest ausgelöst — wir müssen den Schwellenwert anpassen.",
+      "it": "Il rate limiter è scattato durante il load test — dobbiamo regolare la soglia."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_187",
+    "english": "The customer reported the issue again. Let me check if our fix was deployed.",
+    "context": "Investigating customer issue",
+    "translations": {
+      "pt-BR": "O cliente reportou o problema novamente. Deixa eu verificar se nosso fix foi deployado.",
+      "es": "El cliente reportó el problema de nuevo. Déjame verificar si nuestro fix fue desplegado.",
+      "fr": "Le client a signalé le problème à nouveau. Laisse-moi vérifier si notre correctif a été déployé.",
+      "de": "Der Kunde hat das Problem erneut gemeldet. Lass mich prüfen, ob unser Fix deployed wurde.",
+      "it": "Il cliente ha segnalato il problema di nuovo. Fammi verificare se il nostro fix è stato deployato."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_188",
+    "english": "The API versioning proposal is ready for discussion in the RFC channel.",
+    "context": "Sharing a proposal",
+    "translations": {
+      "pt-BR": "A proposta de versionamento da API está pronta para discussão no canal de RFC.",
+      "es": "La propuesta de versionado de la API está lista para discusión en el canal de RFC.",
+      "fr": "La proposition de versionnement de l'API est prête pour discussion dans le canal RFC.",
+      "de": "Der API-Versionierungsvorschlag ist bereit zur Diskussion im RFC-Kanal.",
+      "it": "La proposta di versionamento dell'API è pronta per la discussione nel canale RFC."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_189",
+    "english": "The automated deployment pipeline just saved us a ton of manual work.",
+    "context": "Appreciating tooling",
+    "translations": {
+      "pt-BR": "O pipeline de deploy automatizado acabou de nos poupar um monte de trabalho manual.",
+      "es": "El pipeline de despliegue automatizado nos acaba de ahorrar un montón de trabajo manual.",
+      "fr": "Le pipeline de déploiement automatisé vient de nous faire gagner un temps fou.",
+      "de": "Die automatisierte Deployment-Pipeline hat uns gerade eine Menge manueller Arbeit erspart.",
+      "it": "La pipeline di deploy automatizzata ci ha appena risparmiato un sacco di lavoro manuale."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_190",
+    "english": "I'm testing the disaster recovery plan in a sandbox environment.",
+    "context": "Describing DR testing",
+    "translations": {
+      "pt-BR": "Estou testando o plano de recuperação de desastres em um ambiente sandbox.",
+      "es": "Estoy probando el plan de recuperación ante desastres en un entorno sandbox.",
+      "fr": "Je teste le plan de reprise d'activité dans un environnement sandbox.",
+      "de": "Ich teste den Disaster-Recovery-Plan in einer Sandbox-Umgebung.",
+      "it": "Sto testando il piano di disaster recovery in un ambiente sandbox."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_191",
+    "english": "Thread for async code review — drop your feedback below.",
+    "context": "Organizing async review",
+    "translations": {
+      "pt-BR": "Thread para revisão de código assíncrona — deixe seu feedback abaixo.",
+      "es": "Hilo para revisión de código asíncrona — dejen su feedback abajo.",
+      "fr": "Fil pour la revue de code asynchrone — laissez vos retours ci-dessous.",
+      "de": "Thread für asynchrones Code Review — gebt euer Feedback unten ab.",
+      "it": "Thread per code review asincrona — lasciate il vostro feedback sotto."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_192",
+    "english": "The user acceptance testing revealed a few edge cases we missed.",
+    "context": "Sharing QA results",
+    "translations": {
+      "pt-BR": "O teste de aceitação do usuário revelou alguns casos de borda que não vimos.",
+      "es": "Las pruebas de aceptación del usuario revelaron algunos casos límite que pasamos por alto.",
+      "fr": "Les tests d'acceptation utilisateur ont révélé quelques cas limites que nous avions manqués.",
+      "de": "Die Benutzerakzeptanztests haben einige Grenzfälle aufgedeckt, die wir übersehen haben.",
+      "it": "I test di accettazione utente hanno rivelato alcuni casi limite che ci erano sfuggiti."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_193",
+    "english": "I'll write a migration guide for the teams consuming our API.",
+    "context": "Planning documentation",
+    "translations": {
+      "pt-BR": "Vou escrever um guia de migração para os times que consomem nossa API.",
+      "es": "Escribiré una guía de migración para los equipos que consumen nuestra API.",
+      "fr": "Je vais écrire un guide de migration pour les équipes qui consomment notre API.",
+      "de": "Ich werde einen Migrationsleitfaden für die Teams schreiben, die unsere API nutzen.",
+      "it": "Scriverò una guida alla migrazione per i team che consumano la nostra API."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_194",
+    "english": "Just noticed the logging is missing timestamps, I'll add them.",
+    "context": "Identifying quick fix",
+    "translations": {
+      "pt-BR": "Acabei de notar que o logging está sem timestamps, vou adicioná-los.",
+      "es": "Acabo de notar que el logging no tiene timestamps, los agregaré.",
+      "fr": "Je viens de remarquer que le logging n'a pas de timestamps, je vais les ajouter.",
+      "de": "Mir ist gerade aufgefallen, dass im Logging die Timestamps fehlen, ich füge sie hinzu.",
+      "it": "Ho appena notato che il logging è senza timestamp, li aggiungerò."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_195",
+    "english": "Be careful with that table, it has over 10 million rows.",
+    "context": "Warning about data scale",
+    "translations": {
+      "pt-BR": "Cuidado com essa tabela, ela tem mais de 10 milhões de linhas.",
+      "es": "Ten cuidado con esa tabla, tiene más de 10 millones de filas.",
+      "fr": "Fais attention avec cette table, elle a plus de 10 millions de lignes.",
+      "de": "Vorsicht mit dieser Tabelle, sie hat über 10 Millionen Zeilen.",
+      "it": "Attenzione con quella tabella, ha più di 10 milioni di righe."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_196",
+    "english": "I'm going to create a shared module for the common components.",
+    "context": "Planning code organization",
+    "translations": {
+      "pt-BR": "Vou criar um módulo compartilhado para os componentes comuns.",
+      "es": "Voy a crear un módulo compartido para los componentes comunes.",
+      "fr": "Je vais créer un module partagé pour les composants communs.",
+      "de": "Ich werde ein gemeinsames Modul für die geteilten Komponenten erstellen.",
+      "it": "Creerò un modulo condiviso per i componenti comuni."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_197",
+    "english": "Thanks for staying late to fix the production issue, team.",
+    "context": "Appreciating team effort",
+    "translations": {
+      "pt-BR": "Obrigado por ficar até tarde para corrigir o problema de produção, time.",
+      "es": "Gracias por quedarse tarde para arreglar el problema de producción, equipo.",
+      "fr": "Merci d'être restés tard pour corriger le problème de production, équipe.",
+      "de": "Danke, dass ihr bis spät geblieben seid, um das Produktionsproblem zu beheben, Team.",
+      "it": "Grazie per essere rimasti fino a tardi per risolvere il problema di produzione, team."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_198",
+    "english": "I just wrapped up the migration — zero downtime!",
+    "context": "Celebrating success",
+    "translations": {
+      "pt-BR": "Acabei de concluir a migração — zero downtime!",
+      "es": "Acabo de terminar la migración — ¡cero downtime!",
+      "fr": "Je viens de terminer la migration — zéro downtime !",
+      "de": "Ich habe gerade die Migration abgeschlossen — null Downtime!",
+      "it": "Ho appena concluso la migrazione — zero downtime!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_199",
+    "english": "The webhook payload format changed, I'll update the parser.",
+    "context": "Identifying fix needed",
+    "translations": {
+      "pt-BR": "O formato do payload do webhook mudou, vou atualizar o parser.",
+      "es": "El formato del payload del webhook cambió, actualizaré el parser.",
+      "fr": "Le format du payload du webhook a changé, je vais mettre à jour le parser.",
+      "de": "Das Webhook-Payload-Format hat sich geändert, ich werde den Parser aktualisieren.",
+      "it": "Il formato del payload del webhook è cambiato, aggiornerò il parser."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_200",
+    "english": "I'll be late to the meeting, start without me.",
+    "context": "Communicating delay",
+    "translations": {
+      "pt-BR": "Vou me atrasar para a reunião, comecem sem mim.",
+      "es": "Llegaré tarde a la reunión, empiecen sin mí.",
+      "fr": "Je serai en retard à la réunion, commencez sans moi.",
+      "de": "Ich komme zu spät zum Meeting, fangt ohne mich an.",
+      "it": "Sarò in ritardo alla riunione, iniziate senza di me."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_201",
+    "english": "The response time improved from 800ms to 200ms after the optimization.",
+    "context": "Sharing metrics",
+    "translations": {
+      "pt-BR": "O tempo de resposta melhorou de 800ms para 200ms após a otimização.",
+      "es": "El tiempo de respuesta mejoró de 800ms a 200ms después de la optimización.",
+      "fr": "Le temps de réponse est passé de 800ms à 200ms après l'optimisation.",
+      "de": "Die Antwortzeit hat sich nach der Optimierung von 800ms auf 200ms verbessert.",
+      "it": "Il tempo di risposta è migliorato da 800ms a 200ms dopo l'ottimizzazione."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_202",
+    "english": "I'll take the on-call pager this weekend so you can take a break.",
+    "context": "Offering to cover on-call",
+    "translations": {
+      "pt-BR": "Fico com o pager de plantão esse fim de semana para você descansar.",
+      "es": "Yo tomaré el pager de guardia este fin de semana para que puedas descansar.",
+      "fr": "Je prends le pager d'astreinte ce week-end pour que tu puisses te reposer.",
+      "de": "Ich übernehme den Bereitschafts-Pager dieses Wochenende, damit du dich ausruhen kannst.",
+      "it": "Prenderò io il pager di turno questo weekend così tu puoi riposarti."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_203",
+    "english": "I reverted the commit that broke the login flow.",
+    "context": "Reporting a revert",
+    "translations": {
+      "pt-BR": "Reverti o commit que quebrou o fluxo de login.",
+      "es": "Revertí el commit que rompió el flujo de login.",
+      "fr": "J'ai revert le commit qui a cassé le flux de login.",
+      "de": "Ich habe den Commit revertiert, der den Login-Flow kaputt gemacht hat.",
+      "it": "Ho revertito il commit che ha rotto il flusso di login."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_204",
+    "english": "Can we set up a recurring meeting to discuss the migration progress?",
+    "context": "Proposing meeting",
+    "translations": {
+      "pt-BR": "Podemos agendar uma reunião recorrente para discutir o progresso da migração?",
+      "es": "¿Podemos programar una reunión recurrente para discutir el progreso de la migración?",
+      "fr": "On peut mettre en place une réunion récurrente pour discuter de l'avancement de la migration ?",
+      "de": "Können wir ein wiederkehrendes Meeting einrichten, um den Migrationsfortschritt zu besprechen?",
+      "it": "Possiamo impostare una riunione ricorrente per discutere i progressi della migrazione?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_205",
+    "english": "I updated the env file template with the new required variables.",
+    "context": "Sharing config update",
+    "translations": {
+      "pt-BR": "Atualizei o template do arquivo env com as novas variáveis obrigatórias.",
+      "es": "Actualicé la plantilla del archivo env con las nuevas variables requeridas.",
+      "fr": "J'ai mis à jour le template du fichier env avec les nouvelles variables requises.",
+      "de": "Ich habe das Env-Datei-Template mit den neuen erforderlichen Variablen aktualisiert.",
+      "it": "Ho aggiornato il template del file env con le nuove variabili richieste."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_206",
+    "english": "We're seeing a lot of 429 errors, the rate limiter might be too aggressive.",
+    "context": "Reporting API issue",
+    "translations": {
+      "pt-BR": "Estamos vendo muitos erros 429, o rate limiter pode estar muito agressivo.",
+      "es": "Estamos viendo muchos errores 429, el rate limiter podría ser muy agresivo.",
+      "fr": "On voit beaucoup d'erreurs 429, le rate limiter est peut-être trop agressif.",
+      "de": "Wir sehen viele 429-Fehler, der Rate Limiter könnte zu aggressiv sein.",
+      "it": "Stiamo vedendo molti errori 429, il rate limiter potrebbe essere troppo aggressivo."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_207",
+    "english": "I'm going to do a quick demo in the huddle, join if you're interested.",
+    "context": "Inviting to demo",
+    "translations": {
+      "pt-BR": "Vou fazer uma demo rápida no huddle, entre se tiver interesse.",
+      "es": "Voy a hacer una demo rápida en el huddle, únanse si están interesados.",
+      "fr": "Je vais faire une rapide démo dans le huddle, rejoignez si ça vous intéresse.",
+      "de": "Ich mache eine kurze Demo im Huddle, kommt dazu, wenn es euch interessiert.",
+      "it": "Farò una demo veloce nell'huddle, unitevi se siete interessati."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_208",
+    "english": "The staging environment is back up after the maintenance window.",
+    "context": "Sharing infrastructure status",
+    "translations": {
+      "pt-BR": "O ambiente de staging está de volta após a janela de manutenção.",
+      "es": "El entorno de staging está de vuelta después de la ventana de mantenimiento.",
+      "fr": "L'environnement de staging est de retour après la fenêtre de maintenance.",
+      "de": "Die Staging-Umgebung ist nach dem Wartungsfenster wieder verfügbar.",
+      "it": "L'ambiente di staging è tornato operativo dopo la finestra di manutenzione."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_209",
+    "english": "I noticed some inconsistencies in the API responses, I'll open a ticket.",
+    "context": "Identifying issue",
+    "translations": {
+      "pt-BR": "Percebi algumas inconsistências nas respostas da API, vou abrir um ticket.",
+      "es": "Noté algunas inconsistencias en las respuestas de la API, abriré un ticket.",
+      "fr": "J'ai remarqué des incohérences dans les réponses de l'API, je vais ouvrir un ticket.",
+      "de": "Mir sind Inkonsistenzen in den API-Antworten aufgefallen, ich erstelle ein Ticket.",
+      "it": "Ho notato delle inconsistenze nelle risposte dell'API, aprirò un ticket."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_210",
+    "english": "Don't worry about it, it's a common mistake.",
+    "context": "Being reassuring",
+    "translations": {
+      "pt-BR": "Não se preocupe com isso, é um erro comum.",
+      "es": "No te preocupes, es un error común.",
+      "fr": "T'inquiète pas, c'est une erreur courante.",
+      "de": "Mach dir keine Sorgen, das ist ein häufiger Fehler.",
+      "it": "Non preoccuparti, è un errore comune."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_211",
+    "english": "Let me loop in the security team on this thread.",
+    "context": "Including relevant people",
+    "translations": {
+      "pt-BR": "Deixa eu incluir o time de segurança nessa thread.",
+      "es": "Déjame incluir al equipo de seguridad en este hilo.",
+      "fr": "Laisse-moi inclure l'équipe sécurité dans ce fil.",
+      "de": "Lass mich das Sicherheitsteam in diesen Thread einbeziehen.",
+      "it": "Fammi includere il team di sicurezza in questo thread."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_212",
+    "english": "The integration test suite is taking too long, we should parallelize it.",
+    "context": "Suggesting improvement",
+    "translations": {
+      "pt-BR": "A suíte de testes de integração está demorando demais, devemos paralelizá-la.",
+      "es": "La suite de pruebas de integración está tardando mucho, deberíamos paralelizarla.",
+      "fr": "La suite de tests d'intégration prend trop de temps, on devrait la paralléliser.",
+      "de": "Die Integrationstestsuite dauert zu lange, wir sollten sie parallelisieren.",
+      "it": "La suite di test di integrazione sta impiegando troppo tempo, dovremmo parallelizzarla."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_213",
+    "english": "I've set up a webhook to post deployment status to this channel.",
+    "context": "Sharing automation",
+    "translations": {
+      "pt-BR": "Configurei um webhook para postar o status do deploy neste canal.",
+      "es": "Configuré un webhook para publicar el estado del despliegue en este canal.",
+      "fr": "J'ai configuré un webhook pour poster le statut de déploiement dans ce canal.",
+      "de": "Ich habe einen Webhook eingerichtet, um den Deployment-Status in diesem Kanal zu posten.",
+      "it": "Ho configurato un webhook per postare lo stato del deploy in questo canale."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_214",
+    "english": "The team retro is at 3 PM, please add topics to the Miro board.",
+    "context": "Reminding about meeting",
+    "translations": {
+      "pt-BR": "A retro do time é às 15h, por favor adicionem tópicos ao board do Miro.",
+      "es": "La retro del equipo es a las 3 PM, por favor agreguen temas al tablero de Miro.",
+      "fr": "La rétro d'équipe est à 15h, ajoutez vos sujets au board Miro.",
+      "de": "Die Team-Retro ist um 15 Uhr, bitte fügt Themen zum Miro-Board hinzu.",
+      "it": "La retro del team è alle 15, per favore aggiungete argomenti alla board Miro."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_215",
+    "english": "Great work on the release, everything went smoothly!",
+    "context": "Celebrating team success",
+    "translations": {
+      "pt-BR": "Ótimo trabalho no release, tudo correu tranquilamente!",
+      "es": "¡Buen trabajo en el release, todo salió bien!",
+      "fr": "Super boulot pour la release, tout s'est bien passé !",
+      "de": "Tolle Arbeit beim Release, alles lief reibungslos!",
+      "it": "Ottimo lavoro per il rilascio, tutto è andato liscio!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_216",
+    "english": "Let's avoid scheduling meetings during the focus time block.",
+    "context": "Setting boundaries",
+    "translations": {
+      "pt-BR": "Vamos evitar agendar reuniões durante o bloco de tempo de foco.",
+      "es": "Evitemos programar reuniones durante el bloque de tiempo de enfoque.",
+      "fr": "Évitons de planifier des réunions pendant le créneau de focus.",
+      "de": "Vermeiden wir es, Meetings während der Fokuszeit zu planen.",
+      "it": "Evitiamo di programmare riunioni durante il blocco di tempo di focus."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_217",
+    "english": "I found a workaround but it's not ideal, I'll file a proper bug fix.",
+    "context": "Describing temporary solution",
+    "translations": {
+      "pt-BR": "Encontrei um workaround mas não é ideal, vou registrar um fix adequado.",
+      "es": "Encontré un workaround pero no es ideal, registraré un fix apropiado.",
+      "fr": "J'ai trouvé un contournement mais ce n'est pas idéal, je vais créer un ticket pour un vrai correctif.",
+      "de": "Ich habe einen Workaround gefunden, aber er ist nicht ideal, ich erstelle einen richtigen Bugfix.",
+      "it": "Ho trovato un workaround ma non è ideale, aprirò un ticket per un fix appropriato."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_218",
+    "english": "Can someone from the data team verify the ETL pipeline is running?",
+    "context": "Cross-team request",
+    "translations": {
+      "pt-BR": "Alguém do time de dados pode verificar se o pipeline ETL está rodando?",
+      "es": "¿Alguien del equipo de datos puede verificar si el pipeline ETL está corriendo?",
+      "fr": "Quelqu'un de l'équipe data peut vérifier si le pipeline ETL tourne ?",
+      "de": "Kann jemand vom Data-Team prüfen, ob die ETL-Pipeline läuft?",
+      "it": "Qualcuno del team dati può verificare se la pipeline ETL sta girando?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_219",
+    "english": "I shared the post-mortem document in the channel above.",
+    "context": "Referencing shared document",
+    "translations": {
+      "pt-BR": "Compartilhei o documento de post-mortem no canal acima.",
+      "es": "Compartí el documento de post-mortem en el canal de arriba.",
+      "fr": "J'ai partagé le document de post-mortem dans le canal ci-dessus.",
+      "de": "Ich habe das Post-Mortem-Dokument im Kanal oben geteilt.",
+      "it": "Ho condiviso il documento di post-mortem nel canale sopra."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_220",
+    "english": "The client is asking for an ETA on the bug fix.",
+    "context": "Relaying client request",
+    "translations": {
+      "pt-BR": "O cliente está pedindo um ETA para a correção do bug.",
+      "es": "El cliente está pidiendo un ETA para la corrección del bug.",
+      "fr": "Le client demande un ETA pour le correctif du bug.",
+      "de": "Der Kunde fragt nach einer ETA für den Bugfix.",
+      "it": "Il cliente sta chiedendo un ETA per la correzione del bug."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_221",
+    "english": "Let's avoid this channel for non-engineering discussions, please.",
+    "context": "Moderating channel",
+    "translations": {
+      "pt-BR": "Vamos evitar discussões não técnicas neste canal, por favor.",
+      "es": "Evitemos discusiones no técnicas en este canal, por favor.",
+      "fr": "Évitons les discussions non techniques dans ce canal, s'il vous plaît.",
+      "de": "Bitte vermeidet nicht-technische Diskussionen in diesem Kanal.",
+      "it": "Evitiamo discussioni non tecniche in questo canale, per favore."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_222",
+    "english": "I'm running a load test now, response times might be affected.",
+    "context": "Warning about test impact",
+    "translations": {
+      "pt-BR": "Estou rodando um teste de carga agora, os tempos de resposta podem ser afetados.",
+      "es": "Estoy ejecutando una prueba de carga ahora, los tiempos de respuesta podrían verse afectados.",
+      "fr": "Je lance un test de charge maintenant, les temps de réponse pourraient être affectés.",
+      "de": "Ich führe gerade einen Lasttest durch, die Antwortzeiten könnten beeinträchtigt sein.",
+      "it": "Sto eseguendo un load test ora, i tempi di risposta potrebbero essere influenzati."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_223",
+    "english": "Can you check if the feature flag is enabled for this user segment?",
+    "context": "Debugging feature flag",
+    "translations": {
+      "pt-BR": "Pode verificar se a feature flag está habilitada para esse segmento de usuários?",
+      "es": "¿Puedes verificar si el feature flag está habilitado para este segmento de usuarios?",
+      "fr": "Tu peux vérifier si le feature flag est activé pour ce segment d'utilisateurs ?",
+      "de": "Kannst du prüfen, ob das Feature Flag für dieses Benutzersegment aktiviert ist?",
+      "it": "Puoi verificare se il feature flag è abilitato per questo segmento di utenti?"
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_224",
+    "english": "The tech blog post about our architecture is live, check it out!",
+    "context": "Sharing content",
+    "translations": {
+      "pt-BR": "O post do blog técnico sobre nossa arquitetura está no ar, confira!",
+      "es": "La publicación del blog técnico sobre nuestra arquitectura está en línea, ¡échale un vistazo!",
+      "fr": "L'article de blog technique sur notre architecture est en ligne, jetez-y un œil !",
+      "de": "Der Tech-Blog-Post über unsere Architektur ist live, schaut ihn euch an!",
+      "it": "Il post del blog tecnico sulla nostra architettura è online, dateci un'occhiata!"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_225",
+    "english": "I turned off the noisy alert until we fix the underlying issue.",
+    "context": "Describing alert management",
+    "translations": {
+      "pt-BR": "Desativei o alerta barulhento até corrigirmos o problema subjacente.",
+      "es": "Desactivé la alerta ruidosa hasta que arreglemos el problema subyacente.",
+      "fr": "J'ai désactivé l'alerte bruyante jusqu'à ce qu'on corrige le problème sous-jacent.",
+      "de": "Ich habe den lauten Alarm ausgeschaltet, bis wir das zugrunde liegende Problem beheben.",
+      "it": "Ho disattivato l'allarme rumoroso finché non risolviamo il problema sottostante."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_226",
+    "english": "The team velocity has improved since we started limiting WIP.",
+    "context": "Sharing positive trend",
+    "translations": {
+      "pt-BR": "A velocidade do time melhorou desde que começamos a limitar WIP.",
+      "es": "La velocidad del equipo ha mejorado desde que comenzamos a limitar el WIP.",
+      "fr": "La vélocité de l'équipe s'est améliorée depuis qu'on limite le WIP.",
+      "de": "Die Teamgeschwindigkeit hat sich verbessert, seit wir WIP begrenzen.",
+      "it": "La velocity del team è migliorata da quando abbiamo iniziato a limitare il WIP."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_227",
+    "english": "I'll create a runbook for handling this type of incident.",
+    "context": "Planning documentation",
+    "translations": {
+      "pt-BR": "Vou criar um runbook para lidar com esse tipo de incidente.",
+      "es": "Crearé un runbook para manejar este tipo de incidente.",
+      "fr": "Je vais créer un runbook pour gérer ce type d'incident.",
+      "de": "Ich werde ein Runbook für den Umgang mit dieser Art von Vorfall erstellen.",
+      "it": "Creerò un runbook per gestire questo tipo di incidente."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_228",
+    "english": "The database failover worked perfectly during the drill.",
+    "context": "Sharing DR test results",
+    "translations": {
+      "pt-BR": "O failover do banco de dados funcionou perfeitamente durante o drill.",
+      "es": "El failover de la base de datos funcionó perfectamente durante el simulacro.",
+      "fr": "Le basculement de la base de données a fonctionné parfaitement pendant l'exercice.",
+      "de": "Das Datenbank-Failover hat beim Drill perfekt funktioniert.",
+      "it": "Il failover del database ha funzionato perfettamente durante l'esercitazione."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_229",
+    "english": "Please review the access control changes before they go live.",
+    "context": "Requesting security review",
+    "translations": {
+      "pt-BR": "Por favor, revisem as mudanças de controle de acesso antes de irem para produção.",
+      "es": "Por favor, revisen los cambios de control de acceso antes de que se publiquen.",
+      "fr": "Veuillez revoir les changements de contrôle d'accès avant leur mise en production.",
+      "de": "Bitte überprüft die Zugangskontrolländerungen, bevor sie live gehen.",
+      "it": "Per favore, revisionate le modifiche al controllo degli accessi prima che vadano in produzione."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_230",
+    "english": "I automated the weekly report generation, no more manual work.",
+    "context": "Sharing automation win",
+    "translations": {
+      "pt-BR": "Automatizei a geração do relatório semanal, sem mais trabalho manual.",
+      "es": "Automaticé la generación del reporte semanal, no más trabajo manual.",
+      "fr": "J'ai automatisé la génération du rapport hebdomadaire, fini le travail manuel.",
+      "de": "Ich habe die wöchentliche Berichtserstellung automatisiert, keine manuelle Arbeit mehr.",
+      "it": "Ho automatizzato la generazione del report settimanale, niente più lavoro manuale."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_231",
+    "english": "The endpoint is deprecated, please migrate to v2 by end of quarter.",
+    "context": "Announcing deprecation",
+    "translations": {
+      "pt-BR": "O endpoint está depreciado, por favor migrem para v2 até o final do trimestre.",
+      "es": "El endpoint está deprecado, por favor migren a v2 antes del final del trimestre.",
+      "fr": "L'endpoint est déprécié, veuillez migrer vers la v2 d'ici la fin du trimestre.",
+      "de": "Der Endpoint ist veraltet, bitte migriert bis Ende des Quartals auf v2.",
+      "it": "L'endpoint è deprecato, per favore migrate alla v2 entro fine trimestre."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_232",
+    "english": "I just finished the spike on WebAssembly performance.",
+    "context": "Sharing research results",
+    "translations": {
+      "pt-BR": "Acabei de finalizar o spike sobre performance de WebAssembly.",
+      "es": "Acabo de terminar el spike sobre rendimiento de WebAssembly.",
+      "fr": "Je viens de finir le spike sur les performances de WebAssembly.",
+      "de": "Ich habe gerade den Spike zur WebAssembly-Performance abgeschlossen.",
+      "it": "Ho appena finito lo spike sulle performance di WebAssembly."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_233",
+    "english": "My internet is acting up today, I'll use my phone as a hotspot.",
+    "context": "Communicating connectivity issues",
+    "translations": {
+      "pt-BR": "Minha internet está instável hoje, vou usar meu celular como hotspot.",
+      "es": "Mi internet está fallando hoy, usaré mi teléfono como hotspot.",
+      "fr": "Mon internet est instable aujourd'hui, je vais utiliser mon téléphone comme hotspot.",
+      "de": "Mein Internet spinnt heute, ich werde mein Handy als Hotspot nutzen.",
+      "it": "La mia connessione internet è instabile oggi, userò il telefono come hotspot."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_234",
+    "english": "I proposed a new folder structure for the monorepo in the RFC.",
+    "context": "Sharing architectural proposal",
+    "translations": {
+      "pt-BR": "Propus uma nova estrutura de pastas para o monorepo na RFC.",
+      "es": "Propuse una nueva estructura de carpetas para el monorepo en la RFC.",
+      "fr": "J'ai proposé une nouvelle structure de dossiers pour le monorepo dans la RFC.",
+      "de": "Ich habe eine neue Ordnerstruktur für das Monorepo in der RFC vorgeschlagen.",
+      "it": "Ho proposto una nuova struttura di cartelle per il monorepo nella RFC."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_235",
+    "english": "The SLA breach notification triggered, someone needs to look into it.",
+    "context": "Escalating an issue",
+    "translations": {
+      "pt-BR": "A notificação de violação de SLA disparou, alguém precisa investigar.",
+      "es": "La notificación de violación de SLA se activó, alguien necesita investigar.",
+      "fr": "La notification de violation de SLA s'est déclenchée, quelqu'un doit s'en occuper.",
+      "de": "Die SLA-Verletzungsbenachrichtigung wurde ausgelöst, jemand muss sich darum kümmern.",
+      "it": "La notifica di violazione SLA è scattata, qualcuno deve indagare."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_236",
+    "english": "Can we get a consensus on the naming convention before we proceed?",
+    "context": "Seeking alignment",
+    "translations": {
+      "pt-BR": "Podemos chegar a um consenso sobre a convenção de nomes antes de prosseguir?",
+      "es": "¿Podemos llegar a un consenso sobre la convención de nombres antes de proceder?",
+      "fr": "On peut se mettre d'accord sur la convention de nommage avant de continuer ?",
+      "de": "Können wir uns auf die Namenskonvention einigen, bevor wir weitermachen?",
+      "it": "Possiamo raggiungere un consenso sulla convenzione di naming prima di procedere?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_237",
+    "english": "I'll be the scribe for today's planning session.",
+    "context": "Volunteering for a role",
+    "translations": {
+      "pt-BR": "Vou ser o escriba da sessão de planejamento de hoje.",
+      "es": "Seré el escriba de la sesión de planificación de hoy.",
+      "fr": "Je serai le scribe de la session de planification d'aujourd'hui.",
+      "de": "Ich werde heute das Protokoll der Planungssession führen.",
+      "it": "Sarò lo scriba della sessione di planning di oggi."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_238",
+    "english": "The container registry is almost at capacity, we should clean up old images.",
+    "context": "Flagging maintenance need",
+    "translations": {
+      "pt-BR": "O registro de containers está quase na capacidade, devemos limpar imagens antigas.",
+      "es": "El registro de contenedores está casi al límite, deberíamos limpiar imágenes antiguas.",
+      "fr": "Le registre de conteneurs est presque plein, on devrait nettoyer les anciennes images.",
+      "de": "Die Container-Registry ist fast voll, wir sollten alte Images aufräumen.",
+      "it": "Il container registry è quasi pieno, dovremmo ripulire le immagini vecchie."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_239",
+    "english": "I benchmarked both approaches and option B is 40% faster.",
+    "context": "Sharing performance comparison",
+    "translations": {
+      "pt-BR": "Fiz benchmark das duas abordagens e a opção B é 40% mais rápida.",
+      "es": "Hice benchmarks de ambos enfoques y la opción B es 40% más rápida.",
+      "fr": "J'ai benchmarké les deux approches et l'option B est 40% plus rapide.",
+      "de": "Ich habe beide Ansätze benchmarked und Option B ist 40% schneller.",
+      "it": "Ho fatto il benchmark di entrambi gli approcci e l'opzione B è il 40% più veloce."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_240",
+    "english": "Please update the status page once the issue is resolved.",
+    "context": "Requesting action",
+    "translations": {
+      "pt-BR": "Por favor, atualizem a página de status quando o problema for resolvido.",
+      "es": "Por favor, actualicen la página de estado una vez que el problema esté resuelto.",
+      "fr": "Mettez à jour la page de statut une fois le problème résolu, s'il vous plaît.",
+      "de": "Bitte aktualisiert die Statusseite, sobald das Problem behoben ist.",
+      "it": "Per favore, aggiornate la pagina di stato una volta che il problema è risolto."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_241",
+    "english": "I'll be reviewing PRs for the next hour if anyone needs feedback.",
+    "context": "Offering availability for reviews",
+    "translations": {
+      "pt-BR": "Vou estar revisando PRs na próxima hora se alguém precisar de feedback.",
+      "es": "Estaré revisando PRs durante la próxima hora si alguien necesita feedback.",
+      "fr": "Je vais revoir des PRs pendant la prochaine heure si quelqu'un a besoin de retours.",
+      "de": "Ich werde in der nächsten Stunde PRs reviewen, wenn jemand Feedback braucht.",
+      "it": "Revisionerò PR per la prossima ora se qualcuno ha bisogno di feedback."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_242",
+    "english": "That's a breaking change, we need to communicate it to all consumers.",
+    "context": "Flagging impact",
+    "translations": {
+      "pt-BR": "Essa é uma breaking change, precisamos comunicar a todos os consumidores.",
+      "es": "Ese es un cambio que rompe compatibilidad, necesitamos comunicarlo a todos los consumidores.",
+      "fr": "C'est un breaking change, on doit le communiquer à tous les consommateurs.",
+      "de": "Das ist ein Breaking Change, wir müssen es allen Konsumenten mitteilen.",
+      "it": "Questa è una breaking change, dobbiamo comunicarla a tutti i consumatori."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_243",
+    "english": "The PagerDuty alert woke me up at 3 AM, but it was a false positive.",
+    "context": "Sharing on-call experience",
+    "translations": {
+      "pt-BR": "O alerta do PagerDuty me acordou às 3 da manhã, mas era um falso positivo.",
+      "es": "La alerta de PagerDuty me despertó a las 3 AM, pero era un falso positivo.",
+      "fr": "L'alerte PagerDuty m'a réveillé à 3h du matin, mais c'était un faux positif.",
+      "de": "Der PagerDuty-Alarm hat mich um 3 Uhr morgens geweckt, aber es war ein Fehlalarm.",
+      "it": "L'allarme PagerDuty mi ha svegliato alle 3 di notte, ma era un falso positivo."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_244",
+    "english": "I created a GitHub issue to track the technical debt item.",
+    "context": "Organizing work",
+    "translations": {
+      "pt-BR": "Criei uma issue no GitHub para acompanhar o item de dívida técnica.",
+      "es": "Creé un issue en GitHub para rastrear el item de deuda técnica.",
+      "fr": "J'ai créé une issue GitHub pour suivre l'élément de dette technique.",
+      "de": "Ich habe ein GitHub Issue erstellt, um den technischen Schulden-Punkt zu verfolgen.",
+      "it": "Ho creato una issue su GitHub per tracciare l'item di debito tecnico."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_245",
+    "english": "The error only occurs in Safari, works fine in Chrome and Firefox.",
+    "context": "Describing browser-specific bug",
+    "translations": {
+      "pt-BR": "O erro só ocorre no Safari, funciona bem no Chrome e Firefox.",
+      "es": "El error solo ocurre en Safari, funciona bien en Chrome y Firefox.",
+      "fr": "L'erreur ne se produit que dans Safari, ça marche bien dans Chrome et Firefox.",
+      "de": "Der Fehler tritt nur in Safari auf, in Chrome und Firefox funktioniert es.",
+      "it": "L'errore si verifica solo in Safari, funziona bene su Chrome e Firefox."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_246",
+    "english": "I'll add the monitoring query to the shared Grafana folder.",
+    "context": "Sharing resources",
+    "translations": {
+      "pt-BR": "Vou adicionar a query de monitoramento na pasta compartilhada do Grafana.",
+      "es": "Agregaré la consulta de monitoreo a la carpeta compartida de Grafana.",
+      "fr": "Je vais ajouter la requête de monitoring dans le dossier partagé Grafana.",
+      "de": "Ich werde die Monitoring-Abfrage zum gemeinsamen Grafana-Ordner hinzufügen.",
+      "it": "Aggiungerò la query di monitoraggio nella cartella condivisa di Grafana."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_247",
+    "english": "The third-party service is experiencing an outage, nothing we can do right now.",
+    "context": "Reporting external dependency issue",
+    "translations": {
+      "pt-BR": "O serviço de terceiros está passando por uma indisponibilidade, não há nada que possamos fazer agora.",
+      "es": "El servicio de terceros está experimentando una interrupción, no hay nada que podamos hacer ahora.",
+      "fr": "Le service tiers connaît une panne, on ne peut rien faire pour le moment.",
+      "de": "Der Drittanbieter-Service hat gerade einen Ausfall, wir können im Moment nichts tun.",
+      "it": "Il servizio di terze parti sta subendo un'interruzione, non c'è niente che possiamo fare ora."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_248",
+    "english": "I put together a comparison table for the different database options.",
+    "context": "Sharing research",
+    "translations": {
+      "pt-BR": "Montei uma tabela comparativa para as diferentes opções de banco de dados.",
+      "es": "Armé una tabla comparativa para las diferentes opciones de base de datos.",
+      "fr": "J'ai préparé un tableau comparatif des différentes options de base de données.",
+      "de": "Ich habe eine Vergleichstabelle für die verschiedenen Datenbankoptionen zusammengestellt.",
+      "it": "Ho preparato una tabella comparativa per le diverse opzioni di database."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_249",
+    "english": "Heads up, I'm going to run the vacuum on the main database.",
+    "context": "Warning about maintenance",
+    "translations": {
+      "pt-BR": "Aviso, vou executar o vacuum no banco de dados principal.",
+      "es": "Aviso, voy a ejecutar el vacuum en la base de datos principal.",
+      "fr": "Attention, je vais lancer le vacuum sur la base de données principale.",
+      "de": "Achtung, ich werde den Vacuum auf der Hauptdatenbank ausführen.",
+      "it": "Attenzione, sto per eseguire il vacuum sul database principale."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_250",
+    "english": "I fixed the typo in the config that was causing the deployment to fail.",
+    "context": "Reporting a simple fix",
+    "translations": {
+      "pt-BR": "Corrigi o typo na configuração que estava causando falha no deploy.",
+      "es": "Arreglé el error tipográfico en la configuración que estaba causando el fallo del despliegue.",
+      "fr": "J'ai corrigé la faute de frappe dans la config qui faisait échouer le déploiement.",
+      "de": "Ich habe den Tippfehler in der Konfiguration behoben, der das Deployment zum Scheitern brachte.",
+      "it": "Ho corretto il typo nella configurazione che causava il fallimento del deploy."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_251",
+    "english": "The API documentation now includes example requests and responses.",
+    "context": "Sharing documentation update",
+    "translations": {
+      "pt-BR": "A documentação da API agora inclui exemplos de requisições e respostas.",
+      "es": "La documentación de la API ahora incluye ejemplos de solicitudes y respuestas.",
+      "fr": "La documentation de l'API inclut maintenant des exemples de requêtes et réponses.",
+      "de": "Die API-Dokumentation enthält jetzt Beispielanfragen und -antworten.",
+      "it": "La documentazione dell'API ora include esempi di richieste e risposte."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_252",
+    "english": "I'll open a PR for the linting rule changes and tag the team.",
+    "context": "Planning code quality work",
+    "translations": {
+      "pt-BR": "Vou abrir um PR para as mudanças nas regras de linting e marcar o time.",
+      "es": "Abriré un PR para los cambios en las reglas de linting y etiquetaré al equipo.",
+      "fr": "Je vais ouvrir une PR pour les changements de règles de linting et taguer l'équipe.",
+      "de": "Ich werde einen PR für die Linting-Regeländerungen öffnen und das Team taggen.",
+      "it": "Aprirò un PR per le modifiche alle regole di linting e taggherò il team."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_253",
+    "english": "The custom middleware is causing a 50ms overhead on every request.",
+    "context": "Reporting performance issue",
+    "translations": {
+      "pt-BR": "O middleware customizado está causando um overhead de 50ms em cada requisição.",
+      "es": "El middleware personalizado está causando un overhead de 50ms en cada solicitud.",
+      "fr": "Le middleware personnalisé cause un overhead de 50ms sur chaque requête.",
+      "de": "Die benutzerdefinierte Middleware verursacht einen 50ms-Overhead bei jeder Anfrage.",
+      "it": "Il middleware personalizzato sta causando un overhead di 50ms su ogni richiesta."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_254",
+    "english": "I'm going to mute notifications for the next hour to focus on deep work.",
+    "context": "Setting focus time",
+    "translations": {
+      "pt-BR": "Vou silenciar as notificações na próxima hora para focar em trabalho profundo.",
+      "es": "Voy a silenciar las notificaciones durante la próxima hora para enfocarme en trabajo profundo.",
+      "fr": "Je vais couper les notifications pendant la prochaine heure pour me concentrer.",
+      "de": "Ich werde die Benachrichtigungen für die nächste Stunde stumm schalten, um mich auf Deep Work zu konzentrieren.",
+      "it": "Metterò in mute le notifiche per la prossima ora per concentrarmi sul deep work."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_255",
+    "english": "We should pin the working agreements to the channel topic.",
+    "context": "Suggesting channel organization",
+    "translations": {
+      "pt-BR": "Devemos fixar os acordos de trabalho no tópico do canal.",
+      "es": "Deberíamos fijar los acuerdos de trabajo en el tema del canal.",
+      "fr": "On devrait épingler les accords de travail dans le sujet du canal.",
+      "de": "Wir sollten die Arbeitsvereinbarungen als Kanalthema anheften.",
+      "it": "Dovremmo fissare gli accordi di lavoro nell'argomento del canale."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_256",
+    "english": "Quick update: the migration is at 75% and should finish by tomorrow.",
+    "context": "Providing status update",
+    "translations": {
+      "pt-BR": "Atualização rápida: a migração está em 75% e deve terminar amanhã.",
+      "es": "Actualización rápida: la migración está al 75% y debería terminar mañana.",
+      "fr": "Mise à jour rapide : la migration est à 75% et devrait se terminer demain.",
+      "de": "Kurzes Update: Die Migration ist bei 75% und sollte morgen fertig sein.",
+      "it": "Aggiornamento veloce: la migrazione è al 75% e dovrebbe finire domani."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_257",
+    "english": "I'm escalating this to the platform team since it's related to infrastructure.",
+    "context": "Escalating appropriately",
+    "translations": {
+      "pt-BR": "Estou escalando isso para o time de plataforma já que está relacionado a infraestrutura.",
+      "es": "Estoy escalando esto al equipo de plataforma ya que está relacionado con la infraestructura.",
+      "fr": "J'escalade ça à l'équipe plateforme puisque c'est lié à l'infrastructure.",
+      "de": "Ich eskaliere das zum Plattform-Team, da es infrastrukturbezogen ist.",
+      "it": "Sto escalando questo al team piattaforma dato che è legato all'infrastruttura."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_258",
+    "english": "I just published the npm package with the security patch.",
+    "context": "Announcing release",
+    "translations": {
+      "pt-BR": "Acabei de publicar o pacote npm com o patch de segurança.",
+      "es": "Acabo de publicar el paquete npm con el parche de seguridad.",
+      "fr": "Je viens de publier le paquet npm avec le correctif de sécurité.",
+      "de": "Ich habe gerade das npm-Paket mit dem Sicherheitspatch veröffentlicht.",
+      "it": "Ho appena pubblicato il pacchetto npm con la patch di sicurezza."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_259",
+    "english": "The DNS propagation is complete, the new domain should work now.",
+    "context": "Sharing infrastructure update",
+    "translations": {
+      "pt-BR": "A propagação DNS está completa, o novo domínio deve funcionar agora.",
+      "es": "La propagación DNS está completa, el nuevo dominio debería funcionar ahora.",
+      "fr": "La propagation DNS est terminée, le nouveau domaine devrait fonctionner maintenant.",
+      "de": "Die DNS-Propagation ist abgeschlossen, die neue Domain sollte jetzt funktionieren.",
+      "it": "La propagazione DNS è completa, il nuovo dominio dovrebbe funzionare ora."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_260",
+    "english": "I added the pre-commit hook to enforce the commit message format.",
+    "context": "Sharing tooling update",
+    "translations": {
+      "pt-BR": "Adicionei o pre-commit hook para enforçar o formato da mensagem de commit.",
+      "es": "Agregué el pre-commit hook para enforcar el formato del mensaje de commit.",
+      "fr": "J'ai ajouté le hook de pre-commit pour imposer le format des messages de commit.",
+      "de": "Ich habe den Pre-Commit-Hook hinzugefügt, um das Commit-Nachrichtenformat durchzusetzen.",
+      "it": "Ho aggiunto il pre-commit hook per imporre il formato del messaggio di commit."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_261",
+    "english": "Is this still an issue or can we close the ticket?",
+    "context": "Following up on old issues",
+    "translations": {
+      "pt-BR": "Isso ainda é um problema ou podemos fechar o ticket?",
+      "es": "¿Esto sigue siendo un problema o podemos cerrar el ticket?",
+      "fr": "C'est encore un problème ou on peut fermer le ticket ?",
+      "de": "Ist das noch ein Problem oder können wir das Ticket schließen?",
+      "it": "È ancora un problema o possiamo chiudere il ticket?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_262",
+    "english": "I set up the development environment documentation for new joiners.",
+    "context": "Sharing onboarding resources",
+    "translations": {
+      "pt-BR": "Configurei a documentação do ambiente de desenvolvimento para novos membros.",
+      "es": "Configuré la documentación del entorno de desarrollo para los nuevos miembros.",
+      "fr": "J'ai préparé la documentation de l'environnement de développement pour les nouveaux arrivants.",
+      "de": "Ich habe die Entwicklungsumgebungs-Dokumentation für neue Teammitglieder eingerichtet.",
+      "it": "Ho preparato la documentazione dell'ambiente di sviluppo per i nuovi arrivati."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_263",
+    "english": "I need to upgrade the Terraform provider before we can use the new features.",
+    "context": "Identifying prerequisite",
+    "translations": {
+      "pt-BR": "Preciso atualizar o provider do Terraform antes de podermos usar as novas funcionalidades.",
+      "es": "Necesito actualizar el proveedor de Terraform antes de que podamos usar las nuevas funcionalidades.",
+      "fr": "Je dois mettre à jour le provider Terraform avant de pouvoir utiliser les nouvelles fonctionnalités.",
+      "de": "Ich muss den Terraform-Provider aktualisieren, bevor wir die neuen Features nutzen können.",
+      "it": "Devo aggiornare il provider Terraform prima di poter usare le nuove funzionalità."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_264",
+    "english": "The experiment showed no significant difference, let's go with the simpler approach.",
+    "context": "Sharing A/B test results",
+    "translations": {
+      "pt-BR": "O experimento não mostrou diferença significativa, vamos com a abordagem mais simples.",
+      "es": "El experimento no mostró diferencia significativa, vamos con el enfoque más simple.",
+      "fr": "L'expérience n'a montré aucune différence significative, allons-y avec l'approche la plus simple.",
+      "de": "Das Experiment zeigte keinen signifikanten Unterschied, nehmen wir den einfacheren Ansatz.",
+      "it": "L'esperimento non ha mostrato differenze significative, andiamo con l'approccio più semplice."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_265",
+    "english": "I saved the Slack canvas with the architecture decision records.",
+    "context": "Sharing documentation",
+    "translations": {
+      "pt-BR": "Salvei o canvas do Slack com os registros de decisão de arquitetura.",
+      "es": "Guardé el canvas de Slack con los registros de decisiones de arquitectura.",
+      "fr": "J'ai sauvegardé le canvas Slack avec les enregistrements de décisions d'architecture.",
+      "de": "Ich habe das Slack Canvas mit den Architecture Decision Records gespeichert.",
+      "it": "Ho salvato il canvas di Slack con i record delle decisioni architetturali."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_266",
+    "english": "The performance regression was caused by a missing database index.",
+    "context": "Explaining root cause",
+    "translations": {
+      "pt-BR": "A regressão de performance foi causada por um índice de banco de dados faltando.",
+      "es": "La regresión de rendimiento fue causada por un índice de base de datos faltante.",
+      "fr": "La régression de performance était causée par un index de base de données manquant.",
+      "de": "Die Performance-Regression wurde durch einen fehlenden Datenbankindex verursacht.",
+      "it": "La regressione di performance era causata da un indice di database mancante."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_267",
+    "english": "I'll send the API changelog to the partner teams.",
+    "context": "Planning communication",
+    "translations": {
+      "pt-BR": "Vou enviar o changelog da API para os times parceiros.",
+      "es": "Enviaré el changelog de la API a los equipos asociados.",
+      "fr": "J'enverrai le changelog de l'API aux équipes partenaires.",
+      "de": "Ich werde das API-Changelog an die Partner-Teams senden.",
+      "it": "Invierò il changelog dell'API ai team partner."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_268",
+    "english": "The feature is in beta, please report any bugs you find.",
+    "context": "Announcing beta release",
+    "translations": {
+      "pt-BR": "A funcionalidade está em beta, por favor reportem qualquer bug que encontrarem.",
+      "es": "La función está en beta, por favor reporten cualquier bug que encuentren.",
+      "fr": "La fonctionnalité est en bêta, signalez tout bug que vous trouvez.",
+      "de": "Das Feature ist in der Beta, bitte meldet alle Bugs, die ihr findet.",
+      "it": "La funzionalità è in beta, per favore segnalate qualsiasi bug troviate."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_269",
+    "english": "I noticed the tests are running in the wrong order, that might cause flakiness.",
+    "context": "Identifying test issue",
+    "translations": {
+      "pt-BR": "Percebi que os testes estão rodando na ordem errada, isso pode causar instabilidade.",
+      "es": "Noté que las pruebas se están ejecutando en el orden incorrecto, eso podría causar inestabilidad.",
+      "fr": "J'ai remarqué que les tests tournent dans le mauvais ordre, ça pourrait causer de l'instabilité.",
+      "de": "Mir ist aufgefallen, dass die Tests in der falschen Reihenfolge laufen, das könnte Instabilität verursachen.",
+      "it": "Ho notato che i test stanno girando nell'ordine sbagliato, questo potrebbe causare instabilità."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_270",
+    "english": "Sharing a link to the sprint dashboard for anyone who needs it.",
+    "context": "Sharing resources",
+    "translations": {
+      "pt-BR": "Compartilhando o link do dashboard do sprint para quem precisar.",
+      "es": "Compartiendo el enlace del dashboard del sprint para quien lo necesite.",
+      "fr": "Je partage le lien du tableau de bord du sprint pour ceux qui en ont besoin.",
+      "de": "Ich teile den Link zum Sprint-Dashboard für alle, die es brauchen.",
+      "it": "Condivido il link della dashboard dello sprint per chi ne ha bisogno."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_271",
+    "english": "The infrastructure cost went down 15% after the optimization.",
+    "context": "Sharing positive metrics",
+    "translations": {
+      "pt-BR": "O custo de infraestrutura caiu 15% após a otimização.",
+      "es": "El costo de infraestructura bajó un 15% después de la optimización.",
+      "fr": "Le coût d'infrastructure a baissé de 15% après l'optimisation.",
+      "de": "Die Infrastrukturkosten sind nach der Optimierung um 15% gesunken.",
+      "it": "Il costo dell'infrastruttura è sceso del 15% dopo l'ottimizzazione."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_272",
+    "english": "Can everyone update their availability in the team calendar?",
+    "context": "Requesting team action",
+    "translations": {
+      "pt-BR": "Todos podem atualizar sua disponibilidade no calendário do time?",
+      "es": "¿Pueden todos actualizar su disponibilidad en el calendario del equipo?",
+      "fr": "Tout le monde peut mettre à jour sa disponibilité dans le calendrier d'équipe ?",
+      "de": "Kann jeder seine Verfügbarkeit im Teamkalender aktualisieren?",
+      "it": "Tutti possono aggiornare la propria disponibilità nel calendario del team?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_273",
+    "english": "I shipped the fix behind a feature flag for safety.",
+    "context": "Describing safe deployment",
+    "translations": {
+      "pt-BR": "Enviei o fix atrás de uma feature flag por segurança.",
+      "es": "Lancé el fix detrás de un feature flag por seguridad.",
+      "fr": "J'ai livré le correctif derrière un feature flag par sécurité.",
+      "de": "Ich habe den Fix hinter einem Feature Flag deployed, zur Sicherheit.",
+      "it": "Ho rilasciato il fix dietro un feature flag per sicurezza."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_274",
+    "english": "I'll be on PTO next week, here's my handoff document.",
+    "context": "Planning absence",
+    "translations": {
+      "pt-BR": "Estarei de folga na próxima semana, aqui está meu documento de handoff.",
+      "es": "Estaré de vacaciones la próxima semana, aquí está mi documento de traspaso.",
+      "fr": "Je serai en congé la semaine prochaine, voici mon document de passation.",
+      "de": "Ich bin nächste Woche im Urlaub, hier ist mein Übergabedokument.",
+      "it": "Sarò in ferie la prossima settimana, ecco il mio documento di handoff."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_275",
+    "english": "Just noticed we have two channels for the same project, can we consolidate?",
+    "context": "Suggesting organization",
+    "translations": {
+      "pt-BR": "Acabei de perceber que temos dois canais para o mesmo projeto, podemos consolidar?",
+      "es": "Acabo de notar que tenemos dos canales para el mismo proyecto, ¿podemos consolidar?",
+      "fr": "Je viens de remarquer qu'on a deux canaux pour le même projet, on peut consolider ?",
+      "de": "Mir ist gerade aufgefallen, dass wir zwei Kanäle für dasselbe Projekt haben, können wir konsolidieren?",
+      "it": "Ho appena notato che abbiamo due canali per lo stesso progetto, possiamo consolidare?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_276",
+    "english": "I validated the fix locally, pushing to staging for further testing.",
+    "context": "Sharing progress",
+    "translations": {
+      "pt-BR": "Validei o fix localmente, fazendo push para staging para mais testes.",
+      "es": "Validé el fix localmente, haciendo push a staging para más pruebas.",
+      "fr": "J'ai validé le correctif en local, je pousse en staging pour des tests supplémentaires.",
+      "de": "Ich habe den Fix lokal validiert, pushe jetzt nach Staging für weitere Tests.",
+      "it": "Ho validato il fix in locale, sto pushando allo staging per ulteriori test."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_277",
+    "english": "The code coverage report is now auto-generated on every PR.",
+    "context": "Sharing automation",
+    "translations": {
+      "pt-BR": "O relatório de cobertura de código agora é gerado automaticamente em cada PR.",
+      "es": "El reporte de cobertura de código ahora se genera automáticamente en cada PR.",
+      "fr": "Le rapport de couverture de code est maintenant généré automatiquement sur chaque PR.",
+      "de": "Der Code-Coverage-Bericht wird jetzt automatisch bei jedem PR generiert.",
+      "it": "Il report di copertura del codice ora viene generato automaticamente ad ogni PR."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_278",
+    "english": "I need to add request tracing to debug the intermittent timeout.",
+    "context": "Describing debugging approach",
+    "translations": {
+      "pt-BR": "Preciso adicionar rastreamento de requisições para debugar o timeout intermitente.",
+      "es": "Necesito agregar rastreo de solicitudes para depurar el timeout intermitente.",
+      "fr": "Je dois ajouter du tracing de requêtes pour déboguer le timeout intermittent.",
+      "de": "Ich muss Request-Tracing hinzufügen, um den sporadischen Timeout zu debuggen.",
+      "it": "Devo aggiungere il tracing delle richieste per debuggare il timeout intermittente."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_279",
+    "english": "The sprint planning is overbooked, can we cut some items?",
+    "context": "Managing sprint scope",
+    "translations": {
+      "pt-BR": "O planejamento do sprint está cheio demais, podemos cortar alguns itens?",
+      "es": "La planificación del sprint está sobrecargada, ¿podemos recortar algunos ítems?",
+      "fr": "Le planning du sprint est surchargé, on peut couper certains éléments ?",
+      "de": "Das Sprint Planning ist überladen, können wir einige Punkte streichen?",
+      "it": "Il planning dello sprint è sovraccarico, possiamo tagliare alcuni item?"
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_280",
+    "english": "I moved the conversation to a thread to keep the channel clean.",
+    "context": "Organizing discussion",
+    "translations": {
+      "pt-BR": "Movi a conversa para uma thread para manter o canal limpo.",
+      "es": "Moví la conversación a un hilo para mantener el canal limpio.",
+      "fr": "J'ai déplacé la conversation dans un fil pour garder le canal propre.",
+      "de": "Ich habe die Unterhaltung in einen Thread verschoben, um den Kanal sauber zu halten.",
+      "it": "Ho spostato la conversazione in un thread per mantenere il canale pulito."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_281",
+    "english": "I'm collecting feedback on the developer experience survey, please fill it out.",
+    "context": "Requesting participation",
+    "translations": {
+      "pt-BR": "Estou coletando feedback na pesquisa de experiência do desenvolvedor, por favor preencham.",
+      "es": "Estoy recopilando feedback en la encuesta de experiencia del desarrollador, por favor completen.",
+      "fr": "Je recueille des retours sur l'enquête sur l'expérience développeur, veuillez la remplir.",
+      "de": "Ich sammle Feedback zur Developer-Experience-Umfrage, bitte füllt sie aus.",
+      "it": "Sto raccogliendo feedback sul sondaggio dell'esperienza sviluppatore, per favore compilatelo."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_282",
+    "english": "Let's do an async standup in the thread instead of a meeting today.",
+    "context": "Suggesting async communication",
+    "translations": {
+      "pt-BR": "Vamos fazer um standup assíncrono na thread ao invés de uma reunião hoje.",
+      "es": "Hagamos un standup asíncrono en el hilo en lugar de una reunión hoy.",
+      "fr": "Faisons un standup asynchrone dans le fil au lieu d'une réunion aujourd'hui.",
+      "de": "Machen wir heute ein asynchrones Standup im Thread statt eines Meetings.",
+      "it": "Facciamo uno standup asincrono nel thread invece di una riunione oggi."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_283",
+    "english": "I uploaded the architecture diagram to the shared drive.",
+    "context": "Sharing documentation",
+    "translations": {
+      "pt-BR": "Carreguei o diagrama de arquitetura no drive compartilhado.",
+      "es": "Subí el diagrama de arquitectura al drive compartido.",
+      "fr": "J'ai uploadé le diagramme d'architecture sur le drive partagé.",
+      "de": "Ich habe das Architekturdiagramm auf das gemeinsame Laufwerk hochgeladen.",
+      "it": "Ho caricato il diagramma dell'architettura sul drive condiviso."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_284",
+    "english": "The credentials in the vault are rotated, update your local env.",
+    "context": "Sharing security update",
+    "translations": {
+      "pt-BR": "As credenciais no vault foram rotacionadas, atualizem seu env local.",
+      "es": "Las credenciales en el vault han sido rotadas, actualicen su env local.",
+      "fr": "Les identifiants dans le vault ont été renouvelés, mettez à jour votre env local.",
+      "de": "Die Zugangsdaten im Vault wurden rotiert, aktualisiert eure lokale Umgebung.",
+      "it": "Le credenziali nel vault sono state ruotate, aggiornate il vostro env locale."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_285",
+    "english": "I'm pairing with the new developer to help them ramp up.",
+    "context": "Describing mentoring",
+    "translations": {
+      "pt-BR": "Estou pareando com o novo desenvolvedor para ajudá-lo a se ambientar.",
+      "es": "Estoy haciendo pair con el nuevo desarrollador para ayudarle a ponerse al día.",
+      "fr": "Je fais du pair avec le nouveau développeur pour l'aider à monter en compétence.",
+      "de": "Ich paire mit dem neuen Entwickler, um ihm beim Einstieg zu helfen.",
+      "it": "Sto facendo pair con il nuovo sviluppatore per aiutarlo ad ambientarsi."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_286",
+    "english": "The service mesh configuration needs updating after the cluster upgrade.",
+    "context": "Identifying maintenance task",
+    "translations": {
+      "pt-BR": "A configuração do service mesh precisa ser atualizada após o upgrade do cluster.",
+      "es": "La configuración del service mesh necesita actualizarse después de la actualización del cluster.",
+      "fr": "La configuration du service mesh doit être mise à jour après la mise à niveau du cluster.",
+      "de": "Die Service-Mesh-Konfiguration muss nach dem Cluster-Upgrade aktualisiert werden.",
+      "it": "La configurazione del service mesh deve essere aggiornata dopo l'upgrade del cluster."
+    },
+    "difficulty": "hard",
+    "category": "slack"
+  },
+  {
+    "id": "slack_287",
+    "english": "Would love some feedback on the RFC I posted yesterday.",
+    "context": "Requesting feedback",
+    "translations": {
+      "pt-BR": "Adoraria receber feedback na RFC que postei ontem.",
+      "es": "Me encantaría recibir feedback sobre la RFC que publiqué ayer.",
+      "fr": "J'aimerais avoir des retours sur la RFC que j'ai postée hier.",
+      "de": "Ich würde mich über Feedback zu der RFC freuen, die ich gestern gepostet habe.",
+      "it": "Mi piacerebbe ricevere feedback sulla RFC che ho postato ieri."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_288",
+    "english": "The build artifacts are now stored in the artifact registry.",
+    "context": "Sharing infrastructure change",
+    "translations": {
+      "pt-BR": "Os artefatos de build agora estão armazenados no registro de artefatos.",
+      "es": "Los artefactos de build ahora se almacenan en el registro de artefactos.",
+      "fr": "Les artefacts de build sont maintenant stockés dans le registre d'artefacts.",
+      "de": "Die Build-Artefakte werden jetzt im Artefakt-Registry gespeichert.",
+      "it": "Gli artefatti di build sono ora memorizzati nel registro degli artefatti."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_289",
+    "english": "I finished the proof of concept, scheduling a demo for tomorrow.",
+    "context": "Sharing progress",
+    "translations": {
+      "pt-BR": "Terminei a prova de conceito, agendando uma demo para amanhã.",
+      "es": "Terminé la prueba de concepto, programando una demo para mañana.",
+      "fr": "J'ai terminé la preuve de concept, je planifie une démo pour demain.",
+      "de": "Ich habe den Proof of Concept fertig, plane eine Demo für morgen.",
+      "it": "Ho finito la proof of concept, programmo una demo per domani."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_290",
+    "english": "The unit tests are taking five minutes to run, we should optimize them.",
+    "context": "Identifying performance issue",
+    "translations": {
+      "pt-BR": "Os testes unitários estão levando cinco minutos para rodar, devemos otimizá-los.",
+      "es": "Las pruebas unitarias están tardando cinco minutos, deberíamos optimizarlas.",
+      "fr": "Les tests unitaires prennent cinq minutes à tourner, on devrait les optimiser.",
+      "de": "Die Unit-Tests brauchen fünf Minuten, wir sollten sie optimieren.",
+      "it": "I test unitari stanno impiegando cinque minuti, dovremmo ottimizzarli."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_291",
+    "english": "I created a decision log to document why we chose this approach.",
+    "context": "Sharing documentation",
+    "translations": {
+      "pt-BR": "Criei um log de decisão para documentar por que escolhemos essa abordagem.",
+      "es": "Creé un log de decisión para documentar por qué elegimos este enfoque.",
+      "fr": "J'ai créé un journal de décisions pour documenter pourquoi nous avons choisi cette approche.",
+      "de": "Ich habe ein Entscheidungsprotokoll erstellt, um zu dokumentieren, warum wir diesen Ansatz gewählt haben.",
+      "it": "Ho creato un log delle decisioni per documentare perché abbiamo scelto questo approccio."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_292",
+    "english": "I'm going to update the error codes to follow the RFC standard.",
+    "context": "Describing standards work",
+    "translations": {
+      "pt-BR": "Vou atualizar os códigos de erro para seguir o padrão RFC.",
+      "es": "Voy a actualizar los códigos de error para seguir el estándar RFC.",
+      "fr": "Je vais mettre à jour les codes d'erreur pour suivre le standard RFC.",
+      "de": "Ich werde die Fehlercodes aktualisieren, um dem RFC-Standard zu folgen.",
+      "it": "Aggiornerò i codici di errore per seguire lo standard RFC."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_293",
+    "english": "Please add your questions to the shared doc before the Q&A session.",
+    "context": "Organizing meeting prep",
+    "translations": {
+      "pt-BR": "Por favor, adicionem suas perguntas ao doc compartilhado antes da sessão de Q&A.",
+      "es": "Por favor, agreguen sus preguntas al documento compartido antes de la sesión de Q&A.",
+      "fr": "Ajoutez vos questions au doc partagé avant la session Q&A, s'il vous plaît.",
+      "de": "Bitte fügt eure Fragen zum gemeinsamen Dokument vor der Q&A-Session hinzu.",
+      "it": "Per favore, aggiungete le vostre domande al doc condiviso prima della sessione Q&A."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_294",
+    "english": "I noticed the health check endpoint is not behind authentication.",
+    "context": "Reporting security finding",
+    "translations": {
+      "pt-BR": "Percebi que o endpoint de health check não está atrás de autenticação.",
+      "es": "Noté que el endpoint de health check no está detrás de autenticación.",
+      "fr": "J'ai remarqué que l'endpoint de health check n'est pas derrière l'authentification.",
+      "de": "Mir ist aufgefallen, dass der Health-Check-Endpoint nicht hinter der Authentifizierung liegt.",
+      "it": "Ho notato che l'endpoint di health check non è dietro l'autenticazione."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_295",
+    "english": "The commit hooks are set up, they'll run linting and formatting automatically.",
+    "context": "Sharing tooling setup",
+    "translations": {
+      "pt-BR": "Os hooks de commit estão configurados, vão rodar linting e formatação automaticamente.",
+      "es": "Los hooks de commit están configurados, ejecutarán linting y formateo automáticamente.",
+      "fr": "Les hooks de commit sont configurés, ils exécuteront le linting et le formatage automatiquement.",
+      "de": "Die Commit-Hooks sind eingerichtet, sie werden Linting und Formatierung automatisch ausführen.",
+      "it": "I commit hook sono configurati, eseguiranno linting e formattazione automaticamente."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_296",
+    "english": "I set up a Slack workflow for incident escalation.",
+    "context": "Describing process automation",
+    "translations": {
+      "pt-BR": "Configurei um workflow do Slack para escalação de incidentes.",
+      "es": "Configuré un workflow de Slack para la escalación de incidentes.",
+      "fr": "J'ai mis en place un workflow Slack pour l'escalade d'incidents.",
+      "de": "Ich habe einen Slack-Workflow für die Incident-Eskalation eingerichtet.",
+      "it": "Ho configurato un workflow Slack per l'escalation degli incidenti."
+    },
+    "difficulty": "medium",
+    "category": "slack"
+  },
+  {
+    "id": "slack_297",
+    "english": "I'll pair with the backend team on the data model changes.",
+    "context": "Planning collaboration",
+    "translations": {
+      "pt-BR": "Vou parear com o time de backend nas mudanças do modelo de dados.",
+      "es": "Haré pair con el equipo de backend en los cambios del modelo de datos.",
+      "fr": "Je vais pairer avec l'équipe backend sur les changements du modèle de données.",
+      "de": "Ich werde mit dem Backend-Team an den Datenmodelländerungen pairen.",
+      "it": "Farò pair con il team backend sulle modifiche al modello dati."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_298",
+    "english": "Wrapping up for today, will continue tomorrow morning.",
+    "context": "Signing off",
+    "translations": {
+      "pt-BR": "Encerrando por hoje, continuo amanhã de manhã.",
+      "es": "Terminando por hoy, continuaré mañana por la mañana.",
+      "fr": "Je termine pour aujourd'hui, je continuerai demain matin.",
+      "de": "Ich mache für heute Schluss, morgen früh geht es weiter.",
+      "it": "Chiudo per oggi, continuerò domani mattina."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_299",
+    "english": "Please test the new feature on both mobile and desktop before we release.",
+    "context": "Requesting cross-platform testing",
+    "translations": {
+      "pt-BR": "Por favor, testem a nova funcionalidade em mobile e desktop antes de lançarmos.",
+      "es": "Por favor, prueben la nueva función en móvil y escritorio antes de que lancemos.",
+      "fr": "Testez la nouvelle fonctionnalité sur mobile et desktop avant qu'on ne release.",
+      "de": "Bitte testet das neue Feature auf Mobile und Desktop, bevor wir releasen.",
+      "it": "Per favore, testate la nuova funzionalità su mobile e desktop prima del rilascio."
+    },
+    "difficulty": "easy",
+    "category": "slack"
+  },
+  {
+    "id": "slack_300",
+    "english": "The CI build time went from 15 minutes to 5 minutes after the cache optimization.",
+    "context": "Sharing improvement metrics",
+    "translations": {
+      "pt-BR": "O tempo de build do CI caiu de 15 minutos para 5 minutos após a otimização do cache.",
+      "es": "El tiempo de build del CI bajó de 15 minutos a 5 minutos después de la optimización del caché.",
+      "fr": "Le temps de build CI est passé de 15 minutes à 5 minutes après l'optimisation du cache.",
+      "de": "Die CI-Build-Zeit ging von 15 Minuten auf 5 Minuten nach der Cache-Optimierung.",
+      "it": "Il tempo di build del CI è passato da 15 minuti a 5 minuti dopo l'ottimizzazione della cache."
+    },
+    "difficulty": "medium",
+    "category": "slack"
   }
 ]

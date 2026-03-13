@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Browse all 12 phrase categories.
+/// Browse all 13 phrase categories.
 struct CategoriesView: View {
     // MARK: - Properties
 

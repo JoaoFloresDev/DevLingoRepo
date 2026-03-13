@@ -177,7 +177,7 @@
 		DD519582384C6ED80FEDA119 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
 		DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoApp.swift; sourceTree = "<group>"; };
 		E1B87A22B6EB3BB7FFA14CA1 /* DailyPhraseSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPhraseSet.swift; sourceTree = "<group>"; };
-		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F017AF78074B47556ECD8C42 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F2C3A4DA02184A963FBA7D22 /* ProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressService.swift; sourceTree = "<group>"; };
 		F9B57E2CAF43320B663133E5 /* phrases_email.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_email.json; sourceTree = "<group>"; };
@@ -648,18 +648,13 @@
 				en,
 				es,
 				fr,
-				hi,
 				it,
-				ja,
-				ko,
 				nb,
 				nl,
 				pl,
 				"pt-BR",
 				ro,
 				sv,
-				tr,
-				"zh-Hans",
 			);
 			mainGroup = BD63EB4D394F87AF181FC77A;
 			minimizedProjectReferenceProxies = 1;
@@ -814,7 +809,6 @@
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingoWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../../Frameworks",
@@ -824,10 +818,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo.widget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -917,17 +908,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingo/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -939,7 +927,6 @@
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingoWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../../Frameworks",
@@ -949,10 +936,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo.widget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1081,17 +1065,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingo/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DevLingo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};

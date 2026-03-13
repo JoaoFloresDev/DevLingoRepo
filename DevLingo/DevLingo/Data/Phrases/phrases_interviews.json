@@ -1818,5 +1818,2385 @@
     },
     "difficulty": "medium",
     "category": "interviews"
+  },
+  {
+    "english": "Tell me about a time you had to debug a production issue under pressure",
+    "context": "Behavioral question about incident response",
+    "translations": {
+      "pt-BR": "Me conte sobre uma vez que você teve que debugar um problema em produção sob pressão",
+      "es": "Cuéntame sobre una vez que tuviste que depurar un problema en producción bajo presión",
+      "fr": "Parle-moi d'une fois où tu as dû déboguer un problème en production sous pression",
+      "de": "Erzähl mir von einer Situation, in der du unter Druck ein Produktionsproblem debuggen musstest",
+      "it": "Raccontami di una volta in cui hai dovuto fare debug di un problema in produzione sotto pressione"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_131"
+  },
+  {
+    "english": "How would you design a URL shortening service?",
+    "context": "System design interview question",
+    "translations": {
+      "pt-BR": "Como você projetaria um serviço de encurtamento de URLs?",
+      "es": "¿Cómo diseñarías un servicio de acortamiento de URLs?",
+      "fr": "Comment concevrais-tu un service de raccourcissement d'URLs ?",
+      "de": "Wie würdest du einen URL-Verkürzungsdienst entwerfen?",
+      "it": "Come progetteresti un servizio di abbreviazione URL?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_132"
+  },
+  {
+    "english": "What's your approach to writing clean, maintainable code?",
+    "context": "Coding philosophy question",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para escrever código limpo e manutenível?",
+      "es": "¿Cuál es tu enfoque para escribir código limpio y mantenible?",
+      "fr": "Quelle est ton approche pour écrire du code propre et maintenable ?",
+      "de": "Was ist dein Ansatz für sauberen, wartbaren Code?",
+      "it": "Qual è il tuo approccio per scrivere codice pulito e manutenibile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_133"
+  },
+  {
+    "english": "Can you explain the difference between a stack and a queue?",
+    "context": "Data structure fundamentals",
+    "translations": {
+      "pt-BR": "Pode explicar a diferença entre uma pilha e uma fila?",
+      "es": "¿Puedes explicar la diferencia entre una pila y una cola?",
+      "fr": "Peux-tu expliquer la différence entre une pile et une file ?",
+      "de": "Kannst du den Unterschied zwischen einem Stack und einer Queue erklären?",
+      "it": "Puoi spiegare la differenza tra uno stack e una coda?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_134"
+  },
+  {
+    "english": "How do you stay current with new technologies and best practices?",
+    "context": "Professional development question",
+    "translations": {
+      "pt-BR": "Como você se mantém atualizado com novas tecnologias e melhores práticas?",
+      "es": "¿Cómo te mantienes actualizado con nuevas tecnologías y mejores prácticas?",
+      "fr": "Comment restes-tu à jour avec les nouvelles technologies et meilleures pratiques ?",
+      "de": "Wie bleibst du bei neuen Technologien und Best Practices auf dem Laufenden?",
+      "it": "Come ti mantieni aggiornato con le nuove tecnologie e le migliori pratiche?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_135"
+  },
+  {
+    "english": "Walk me through how you would optimize a slow database query",
+    "context": "Performance optimization question",
+    "translations": {
+      "pt-BR": "Me guie por como você otimizaria uma query lenta no banco de dados",
+      "es": "Guíame por cómo optimizarías una consulta lenta de base de datos",
+      "fr": "Explique-moi comment tu optimiserais une requête lente de base de données",
+      "de": "Erkläre mir, wie du eine langsame Datenbankabfrage optimieren würdest",
+      "it": "Guidami attraverso come ottimizzeresti una query lenta del database"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_136"
+  },
+  {
+    "english": "What's your experience with agile methodologies?",
+    "context": "Process and methodology question",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com metodologias ágeis?",
+      "es": "¿Cuál es tu experiencia con metodologías ágiles?",
+      "fr": "Quelle est ton expérience avec les méthodologies agiles ?",
+      "de": "Was ist deine Erfahrung mit agilen Methoden?",
+      "it": "Qual è la tua esperienza con le metodologie agili?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_137"
+  },
+  {
+    "english": "How would you handle a disagreement with a team member about a technical decision?",
+    "context": "Conflict resolution behavioral question",
+    "translations": {
+      "pt-BR": "Como você lidaria com um desacordo com um membro da equipe sobre uma decisão técnica?",
+      "es": "¿Cómo manejarías un desacuerdo con un miembro del equipo sobre una decisión técnica?",
+      "fr": "Comment gérerais-tu un désaccord avec un membre de l'équipe sur une décision technique ?",
+      "de": "Wie würdest du mit einer Meinungsverschiedenheit mit einem Teammitglied über eine technische Entscheidung umgehen?",
+      "it": "Come gestiresti un disaccordo con un membro del team su una decisione tecnica?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_138"
+  },
+  {
+    "english": "Can you explain what RESTful API design principles are?",
+    "context": "API design knowledge question",
+    "translations": {
+      "pt-BR": "Pode explicar quais são os princípios de design de API RESTful?",
+      "es": "¿Puedes explicar cuáles son los principios de diseño de API RESTful?",
+      "fr": "Peux-tu expliquer les principes de conception d'API RESTful ?",
+      "de": "Kannst du die RESTful-API-Designprinzipien erklären?",
+      "it": "Puoi spiegare quali sono i principi di progettazione delle API RESTful?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_139"
+  },
+  {
+    "english": "Describe a project where you had to learn a new technology quickly",
+    "context": "Adaptability behavioral question",
+    "translations": {
+      "pt-BR": "Descreva um projeto onde você teve que aprender uma nova tecnologia rapidamente",
+      "es": "Describe un proyecto donde tuviste que aprender una nueva tecnología rápidamente",
+      "fr": "Décris un projet où tu as dû apprendre une nouvelle technologie rapidement",
+      "de": "Beschreibe ein Projekt, bei dem du schnell eine neue Technologie lernen musstest",
+      "it": "Descrivi un progetto in cui hai dovuto imparare una nuova tecnologia rapidamente"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_140"
+  },
+  {
+    "english": "What's the time complexity of this algorithm?",
+    "context": "Algorithm analysis question",
+    "translations": {
+      "pt-BR": "Qual é a complexidade de tempo desse algoritmo?",
+      "es": "¿Cuál es la complejidad de tiempo de este algoritmo?",
+      "fr": "Quelle est la complexité temporelle de cet algorithme ?",
+      "de": "Was ist die Zeitkomplexität dieses Algorithmus?",
+      "it": "Qual è la complessità temporale di questo algoritmo?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_141"
+  },
+  {
+    "english": "How do you ensure code quality in your team?",
+    "context": "Quality assurance processes",
+    "translations": {
+      "pt-BR": "Como você garante a qualidade do código na sua equipe?",
+      "es": "¿Cómo aseguras la calidad del código en tu equipo?",
+      "fr": "Comment assures-tu la qualité du code dans ton équipe ?",
+      "de": "Wie stellst du die Codequalität in deinem Team sicher?",
+      "it": "Come assicuri la qualità del codice nel tuo team?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_142"
+  },
+  {
+    "english": "What would you do if you found a critical bug right before a release?",
+    "context": "Decision-making under pressure",
+    "translations": {
+      "pt-BR": "O que você faria se encontrasse um bug crítico logo antes de um lançamento?",
+      "es": "¿Qué harías si encontraras un bug crítico justo antes de un lanzamiento?",
+      "fr": "Que ferais-tu si tu trouvais un bug critique juste avant une release ?",
+      "de": "Was würdest du tun, wenn du kurz vor einem Release einen kritischen Bug finden würdest?",
+      "it": "Cosa faresti se trovassi un bug critico proprio prima di un rilascio?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_143"
+  },
+  {
+    "english": "Explain the concept of dependency injection and why it's useful",
+    "context": "Design pattern knowledge",
+    "translations": {
+      "pt-BR": "Explique o conceito de injeção de dependência e por que é útil",
+      "es": "Explica el concepto de inyección de dependencias y por qué es útil",
+      "fr": "Explique le concept d'injection de dépendances et pourquoi c'est utile",
+      "de": "Erkläre das Konzept der Dependency Injection und warum es nützlich ist",
+      "it": "Spiega il concetto di dependency injection e perché è utile"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_144"
+  },
+  {
+    "english": "How do you approach testing in your development workflow?",
+    "context": "Testing strategy question",
+    "translations": {
+      "pt-BR": "Como você aborda testes no seu fluxo de desenvolvimento?",
+      "es": "¿Cómo abordas las pruebas en tu flujo de desarrollo?",
+      "fr": "Comment abordes-tu les tests dans ton workflow de développement ?",
+      "de": "Wie gehst du mit Tests in deinem Entwicklungsworkflow um?",
+      "it": "Come approcci il testing nel tuo flusso di sviluppo?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_145"
+  },
+  {
+    "english": "What's the most challenging technical problem you've solved?",
+    "context": "Problem-solving experience",
+    "translations": {
+      "pt-BR": "Qual é o problema técnico mais desafiador que você já resolveu?",
+      "es": "¿Cuál es el problema técnico más desafiante que has resuelto?",
+      "fr": "Quel est le problème technique le plus difficile que tu as résolu ?",
+      "de": "Was ist das schwierigste technische Problem, das du gelöst hast?",
+      "it": "Qual è il problema tecnico più impegnativo che hai risolto?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_146"
+  },
+  {
+    "english": "How would you design a notification system that scales to millions of users?",
+    "context": "System design scalability",
+    "translations": {
+      "pt-BR": "Como você projetaria um sistema de notificações que escala para milhões de usuários?",
+      "es": "¿Cómo diseñarías un sistema de notificaciones que escale a millones de usuarios?",
+      "fr": "Comment concevrais-tu un système de notifications qui passe à l'échelle pour des millions d'utilisateurs ?",
+      "de": "Wie würdest du ein Benachrichtigungssystem entwerfen, das auf Millionen von Benutzern skaliert?",
+      "it": "Come progetteresti un sistema di notifiche che scala a milioni di utenti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_147"
+  },
+  {
+    "english": "Can you explain the SOLID principles with practical examples?",
+    "context": "Software design principles",
+    "translations": {
+      "pt-BR": "Pode explicar os princípios SOLID com exemplos práticos?",
+      "es": "¿Puedes explicar los principios SOLID con ejemplos prácticos?",
+      "fr": "Peux-tu expliquer les principes SOLID avec des exemples pratiques ?",
+      "de": "Kannst du die SOLID-Prinzipien mit praktischen Beispielen erklären?",
+      "it": "Puoi spiegare i principi SOLID con esempi pratici?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_148"
+  },
+  {
+    "english": "Tell me about a time when you had to mentor a junior developer",
+    "context": "Leadership and mentoring experience",
+    "translations": {
+      "pt-BR": "Me conte sobre uma vez que você teve que mentorar um desenvolvedor júnior",
+      "es": "Cuéntame sobre una vez que tuviste que mentorar a un desarrollador junior",
+      "fr": "Parle-moi d'une fois où tu as dû mentorer un développeur junior",
+      "de": "Erzähl mir von einer Situation, in der du einen Junior-Entwickler mentoren musstest",
+      "it": "Raccontami di una volta in cui hai dovuto fare mentoring a uno sviluppatore junior"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_149"
+  },
+  {
+    "english": "What strategies do you use to manage technical debt?",
+    "context": "Technical debt management",
+    "translations": {
+      "pt-BR": "Que estratégias você usa para gerenciar dívida técnica?",
+      "es": "¿Qué estrategias usas para gestionar la deuda técnica?",
+      "fr": "Quelles stratégies utilises-tu pour gérer la dette technique ?",
+      "de": "Welche Strategien verwendest du, um technische Schulden zu verwalten?",
+      "it": "Quali strategie usi per gestire il debito tecnico?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_150"
+  },
+  {
+    "english": "How do you handle tight deadlines while maintaining code quality?",
+    "context": "Time management and quality balance",
+    "translations": {
+      "pt-BR": "Como você lida com prazos apertados mantendo a qualidade do código?",
+      "es": "¿Cómo manejas plazos ajustados manteniendo la calidad del código?",
+      "fr": "Comment gères-tu les délais serrés tout en maintenant la qualité du code ?",
+      "de": "Wie gehst du mit engen Fristen um und hältst gleichzeitig die Codequalität aufrecht?",
+      "it": "Come gestisci le scadenze strette mantenendo la qualità del codice?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_151"
+  },
+  {
+    "english": "What's the difference between horizontal and vertical scaling?",
+    "context": "Infrastructure knowledge question",
+    "translations": {
+      "pt-BR": "Qual é a diferença entre escalabilidade horizontal e vertical?",
+      "es": "¿Cuál es la diferencia entre escalabilidad horizontal y vertical?",
+      "fr": "Quelle est la différence entre la mise à l'échelle horizontale et verticale ?",
+      "de": "Was ist der Unterschied zwischen horizontaler und vertikaler Skalierung?",
+      "it": "Qual è la differenza tra scalabilità orizzontale e verticale?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_152"
+  },
+  {
+    "english": "Describe your experience with continuous integration and deployment",
+    "context": "CI/CD experience question",
+    "translations": {
+      "pt-BR": "Descreva sua experiência com integração e deploy contínuos",
+      "es": "Describe tu experiencia con integración y despliegue continuos",
+      "fr": "Décris ton expérience avec l'intégration et le déploiement continus",
+      "de": "Beschreibe deine Erfahrung mit Continuous Integration und Deployment",
+      "it": "Descrivi la tua esperienza con l'integrazione e il deployment continuo"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_153"
+  },
+  {
+    "english": "How would you implement authentication and authorization in a microservices architecture?",
+    "context": "Security in distributed systems",
+    "translations": {
+      "pt-BR": "Como você implementaria autenticação e autorização em uma arquitetura de microserviços?",
+      "es": "¿Cómo implementarías autenticación y autorización en una arquitectura de microservicios?",
+      "fr": "Comment implémenterais-tu l'authentification et l'autorisation dans une architecture microservices ?",
+      "de": "Wie würdest du Authentifizierung und Autorisierung in einer Microservices-Architektur implementieren?",
+      "it": "Come implementeresti autenticazione e autorizzazione in un'architettura a microservizi?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_154"
+  },
+  {
+    "english": "What's your preferred approach for handling state management in mobile apps?",
+    "context": "Mobile development patterns",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem preferida para gerenciamento de estado em apps mobile?",
+      "es": "¿Cuál es tu enfoque preferido para el manejo de estado en apps móviles?",
+      "fr": "Quelle est ton approche préférée pour la gestion d'état dans les apps mobiles ?",
+      "de": "Was ist dein bevorzugter Ansatz für State Management in mobilen Apps?",
+      "it": "Qual è il tuo approccio preferito per la gestione dello stato nelle app mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_155"
+  },
+  {
+    "english": "Tell me about a feature you built that you're particularly proud of",
+    "context": "Achievement-based behavioral question",
+    "translations": {
+      "pt-BR": "Me conte sobre uma funcionalidade que você construiu da qual tem orgulho",
+      "es": "Cuéntame sobre una funcionalidad que construiste de la que estés particularmente orgulloso",
+      "fr": "Parle-moi d'une fonctionnalité que tu as construite dont tu es particulièrement fier",
+      "de": "Erzähl mir von einer Funktion, die du gebaut hast und auf die du besonders stolz bist",
+      "it": "Raccontami di una funzionalità che hai costruito di cui sei particolarmente orgoglioso"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_156"
+  },
+  {
+    "english": "How do you approach code reviews, both giving and receiving feedback?",
+    "context": "Code review practices",
+    "translations": {
+      "pt-BR": "Como você aborda revisões de código, tanto dando quanto recebendo feedback?",
+      "es": "¿Cómo abordas las revisiones de código, tanto dando como recibiendo feedback?",
+      "fr": "Comment abordes-tu les revues de code, tant en donnant qu'en recevant du feedback ?",
+      "de": "Wie gehst du an Code-Reviews heran, sowohl beim Geben als auch beim Erhalten von Feedback?",
+      "it": "Come approcci le code review, sia nel dare che nel ricevere feedback?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_157"
+  },
+  {
+    "english": "What factors do you consider when choosing between SQL and NoSQL databases?",
+    "context": "Database selection criteria",
+    "translations": {
+      "pt-BR": "Que fatores você considera ao escolher entre bancos de dados SQL e NoSQL?",
+      "es": "¿Qué factores consideras al elegir entre bases de datos SQL y NoSQL?",
+      "fr": "Quels facteurs considères-tu pour choisir entre bases de données SQL et NoSQL ?",
+      "de": "Welche Faktoren berücksichtigst du bei der Wahl zwischen SQL- und NoSQL-Datenbanken?",
+      "it": "Quali fattori consideri quando scegli tra database SQL e NoSQL?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_158"
+  },
+  {
+    "english": "How do you prioritize when you have multiple competing tasks?",
+    "context": "Time management and prioritization",
+    "translations": {
+      "pt-BR": "Como você prioriza quando tem múltiplas tarefas concorrentes?",
+      "es": "¿Cómo priorizas cuando tienes múltiples tareas compitiendo?",
+      "fr": "Comment priorises-tu quand tu as plusieurs tâches concurrentes ?",
+      "de": "Wie priorisierst du, wenn du mehrere konkurrierende Aufgaben hast?",
+      "it": "Come dai priorità quando hai più attività in competizione?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_159"
+  },
+  {
+    "english": "Explain how you would implement a rate limiter for an API",
+    "context": "System design implementation",
+    "translations": {
+      "pt-BR": "Explique como você implementaria um limitador de taxa para uma API",
+      "es": "Explica cómo implementarías un limitador de tasa para una API",
+      "fr": "Explique comment tu implémenterais un limiteur de taux pour une API",
+      "de": "Erkläre, wie du einen Rate Limiter für eine API implementieren würdest",
+      "it": "Spiega come implementeresti un rate limiter per un'API"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_160"
+  },
+  {
+    "english": "What's your experience with performance profiling and optimization?",
+    "context": "Performance engineering skills",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com profiling e otimização de performance?",
+      "es": "¿Cuál es tu experiencia con profiling y optimización de rendimiento?",
+      "fr": "Quelle est ton expérience avec le profilage et l'optimisation de performance ?",
+      "de": "Was ist deine Erfahrung mit Performance-Profiling und -Optimierung?",
+      "it": "Qual è la tua esperienza con il profiling e l'ottimizzazione delle prestazioni?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_161"
+  },
+  {
+    "english": "How would you explain a complex technical concept to a non-technical stakeholder?",
+    "context": "Communication skills question",
+    "translations": {
+      "pt-BR": "Como você explicaria um conceito técnico complexo para um stakeholder não técnico?",
+      "es": "¿Cómo explicarías un concepto técnico complejo a un stakeholder no técnico?",
+      "fr": "Comment expliquerais-tu un concept technique complexe à un stakeholder non technique ?",
+      "de": "Wie würdest du einem nicht-technischen Stakeholder ein komplexes technisches Konzept erklären?",
+      "it": "Come spiegheresti un concetto tecnico complesso a uno stakeholder non tecnico?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_162"
+  },
+  {
+    "english": "What's your understanding of eventual consistency in distributed systems?",
+    "context": "Distributed systems knowledge",
+    "translations": {
+      "pt-BR": "Qual é seu entendimento de consistência eventual em sistemas distribuídos?",
+      "es": "¿Cuál es tu entendimiento de la consistencia eventual en sistemas distribuidos?",
+      "fr": "Quelle est ta compréhension de la cohérence éventuelle dans les systèmes distribués ?",
+      "de": "Was verstehst du unter Eventual Consistency in verteilten Systemen?",
+      "it": "Qual è la tua comprensione della consistenza eventuale nei sistemi distribuiti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_163"
+  },
+  {
+    "english": "Describe a time when you had to make a difficult trade-off in a project",
+    "context": "Decision-making behavioral question",
+    "translations": {
+      "pt-BR": "Descreva uma vez em que você teve que fazer uma troca difícil em um projeto",
+      "es": "Describe una vez en que tuviste que hacer un compromiso difícil en un proyecto",
+      "fr": "Décris une fois où tu as dû faire un compromis difficile dans un projet",
+      "de": "Beschreibe eine Situation, in der du in einem Projekt einen schwierigen Kompromiss eingehen musstest",
+      "it": "Descrivi una volta in cui hai dovuto fare un compromesso difficile in un progetto"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_164"
+  },
+  {
+    "english": "How do you handle legacy code that has no tests?",
+    "context": "Working with legacy systems",
+    "translations": {
+      "pt-BR": "Como você lida com código legado que não tem testes?",
+      "es": "¿Cómo manejas código legado que no tiene pruebas?",
+      "fr": "Comment gères-tu du code legacy qui n'a pas de tests ?",
+      "de": "Wie gehst du mit Legacy-Code ohne Tests um?",
+      "it": "Come gestisci il codice legacy che non ha test?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_165"
+  },
+  {
+    "english": "What's the difference between concurrency and parallelism?",
+    "context": "Computer science fundamentals",
+    "translations": {
+      "pt-BR": "Qual é a diferença entre concorrência e paralelismo?",
+      "es": "¿Cuál es la diferencia entre concurrencia y paralelismo?",
+      "fr": "Quelle est la différence entre concurrence et parallélisme ?",
+      "de": "Was ist der Unterschied zwischen Nebenläufigkeit und Parallelismus?",
+      "it": "Qual è la differenza tra concorrenza e parallelismo?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_166"
+  },
+  {
+    "english": "How do you approach writing documentation for your code?",
+    "context": "Documentation practices",
+    "translations": {
+      "pt-BR": "Como você aborda a escrita de documentação para seu código?",
+      "es": "¿Cómo abordas la escritura de documentación para tu código?",
+      "fr": "Comment abordes-tu l'écriture de documentation pour ton code ?",
+      "de": "Wie gehst du das Schreiben von Dokumentation für deinen Code an?",
+      "it": "Come approcci la scrittura di documentazione per il tuo codice?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_167"
+  },
+  {
+    "english": "What monitoring and observability tools have you worked with?",
+    "context": "Operations experience",
+    "translations": {
+      "pt-BR": "Com quais ferramentas de monitoramento e observabilidade você já trabalhou?",
+      "es": "¿Con qué herramientas de monitoreo y observabilidad has trabajado?",
+      "fr": "Avec quels outils de monitoring et d'observabilité as-tu travaillé ?",
+      "de": "Mit welchen Monitoring- und Observability-Tools hast du gearbeitet?",
+      "it": "Con quali strumenti di monitoraggio e osservabilità hai lavorato?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_168"
+  },
+  {
+    "english": "How would you design a caching layer to improve application performance?",
+    "context": "Caching strategy design",
+    "translations": {
+      "pt-BR": "Como você projetaria uma camada de cache para melhorar a performance da aplicação?",
+      "es": "¿Cómo diseñarías una capa de caché para mejorar el rendimiento de la aplicación?",
+      "fr": "Comment concevrais-tu une couche de cache pour améliorer les performances de l'application ?",
+      "de": "Wie würdest du eine Caching-Schicht entwerfen, um die Anwendungsleistung zu verbessern?",
+      "it": "Come progetteresti un layer di cache per migliorare le prestazioni dell'applicazione?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_169"
+  },
+  {
+    "english": "Tell me about your experience working in cross-functional teams",
+    "context": "Teamwork and collaboration",
+    "translations": {
+      "pt-BR": "Me conte sobre sua experiência trabalhando em equipes multifuncionais",
+      "es": "Cuéntame sobre tu experiencia trabajando en equipos multifuncionales",
+      "fr": "Parle-moi de ton expérience de travail dans des équipes transversales",
+      "de": "Erzähl mir von deiner Erfahrung in crossfunktionalen Teams",
+      "it": "Raccontami della tua esperienza lavorando in team interfunzionali"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_170"
+  },
+  {
+    "english": "What's your approach to error handling and exception management?",
+    "context": "Error handling strategy",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para tratamento de erros e gerenciamento de exceções?",
+      "es": "¿Cuál es tu enfoque para el manejo de errores y gestión de excepciones?",
+      "fr": "Quelle est ton approche pour la gestion des erreurs et des exceptions ?",
+      "de": "Was ist dein Ansatz für Fehlerbehandlung und Ausnahmemanagement?",
+      "it": "Qual è il tuo approccio alla gestione degli errori e delle eccezioni?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_171"
+  },
+  {
+    "english": "How do you evaluate whether to build a feature in-house or use a third-party solution?",
+    "context": "Build vs buy decision",
+    "translations": {
+      "pt-BR": "Como você avalia se deve construir uma funcionalidade internamente ou usar uma solução de terceiros?",
+      "es": "¿Cómo evalúas si construir una funcionalidad internamente o usar una solución de terceros?",
+      "fr": "Comment évalues-tu s'il faut construire une fonctionnalité en interne ou utiliser une solution tierce ?",
+      "de": "Wie bewertest du, ob du eine Funktion intern bauen oder eine Drittanbieterlösung nutzen sollst?",
+      "it": "Come valuti se costruire una funzionalità internamente o usare una soluzione di terze parti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_172"
+  },
+  {
+    "english": "Can you walk me through your debugging process when facing an unknown issue?",
+    "context": "Problem-solving methodology",
+    "translations": {
+      "pt-BR": "Pode me guiar pelo seu processo de debugging ao enfrentar um problema desconhecido?",
+      "es": "¿Puedes guiarme por tu proceso de debugging al enfrentar un problema desconocido?",
+      "fr": "Peux-tu me guider à travers ton processus de débogage face à un problème inconnu ?",
+      "de": "Kannst du mir deinen Debugging-Prozess erklären, wenn du ein unbekanntes Problem hast?",
+      "it": "Puoi guidarmi attraverso il tuo processo di debugging quando affronti un problema sconosciuto?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_173"
+  },
+  {
+    "english": "What's your experience with mobile app architecture patterns?",
+    "context": "Mobile architecture knowledge",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com padrões de arquitetura de apps mobile?",
+      "es": "¿Cuál es tu experiencia con patrones de arquitectura de apps móviles?",
+      "fr": "Quelle est ton expérience avec les patterns d'architecture d'apps mobiles ?",
+      "de": "Was ist deine Erfahrung mit Mobile-App-Architekturmustern?",
+      "it": "Qual è la tua esperienza con i pattern di architettura per app mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_174"
+  },
+  {
+    "english": "How do you handle situations where requirements are ambiguous or incomplete?",
+    "context": "Dealing with uncertainty",
+    "translations": {
+      "pt-BR": "Como você lida com situações onde os requisitos são ambíguos ou incompletos?",
+      "es": "¿Cómo manejas situaciones donde los requisitos son ambiguos o incompletos?",
+      "fr": "Comment gères-tu les situations où les exigences sont ambiguës ou incomplètes ?",
+      "de": "Wie gehst du mit Situationen um, in denen die Anforderungen mehrdeutig oder unvollständig sind?",
+      "it": "Come gestisci situazioni in cui i requisiti sono ambigui o incompleti?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_175"
+  },
+  {
+    "english": "Explain the concept of event-driven architecture and when you'd use it",
+    "context": "Architecture pattern knowledge",
+    "translations": {
+      "pt-BR": "Explique o conceito de arquitetura orientada a eventos e quando você a usaria",
+      "es": "Explica el concepto de arquitectura orientada a eventos y cuándo la usarías",
+      "fr": "Explique le concept d'architecture événementielle et quand tu l'utiliserais",
+      "de": "Erkläre das Konzept der eventgetriebenen Architektur und wann du sie einsetzen würdest",
+      "it": "Spiega il concetto di architettura event-driven e quando la useresti"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_176"
+  },
+  {
+    "english": "What's your approach to accessibility in software development?",
+    "context": "Accessibility awareness",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para acessibilidade no desenvolvimento de software?",
+      "es": "¿Cuál es tu enfoque para accesibilidad en desarrollo de software?",
+      "fr": "Quelle est ton approche pour l'accessibilité dans le développement logiciel ?",
+      "de": "Was ist dein Ansatz für Barrierefreiheit in der Softwareentwicklung?",
+      "it": "Qual è il tuo approccio all'accessibilità nello sviluppo software?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_177"
+  },
+  {
+    "english": "How would you implement a search feature with autocomplete suggestions?",
+    "context": "Feature implementation design",
+    "translations": {
+      "pt-BR": "Como você implementaria uma funcionalidade de busca com sugestões de autocomplete?",
+      "es": "¿Cómo implementarías una funcionalidad de búsqueda con sugerencias de autocompletado?",
+      "fr": "Comment implémenterais-tu une fonctionnalité de recherche avec suggestions d'autocomplétion ?",
+      "de": "Wie würdest du eine Suchfunktion mit Autocomplete-Vorschlägen implementieren?",
+      "it": "Come implementeresti una funzionalità di ricerca con suggerimenti di autocompletamento?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_178"
+  },
+  {
+    "english": "Tell me about a time you improved the performance of an existing system",
+    "context": "Performance improvement experience",
+    "translations": {
+      "pt-BR": "Me conte sobre uma vez que você melhorou a performance de um sistema existente",
+      "es": "Cuéntame sobre una vez que mejoraste el rendimiento de un sistema existente",
+      "fr": "Parle-moi d'une fois où tu as amélioré les performances d'un système existant",
+      "de": "Erzähl mir von einer Situation, in der du die Leistung eines bestehenden Systems verbessert hast",
+      "it": "Raccontami di una volta in cui hai migliorato le prestazioni di un sistema esistente"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_179"
+  },
+  {
+    "english": "What design patterns have you found most useful in your career?",
+    "context": "Design pattern experience",
+    "translations": {
+      "pt-BR": "Quais design patterns você achou mais úteis na sua carreira?",
+      "es": "¿Qué patrones de diseño has encontrado más útiles en tu carrera?",
+      "fr": "Quels design patterns as-tu trouvés les plus utiles dans ta carrière ?",
+      "de": "Welche Entwurfsmuster hast du in deiner Karriere am nützlichsten gefunden?",
+      "it": "Quali design pattern hai trovato più utili nella tua carriera?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_180"
+  },
+  {
+    "english": "How do you balance feature development with technical maintenance?",
+    "context": "Balancing priorities",
+    "translations": {
+      "pt-BR": "Como você equilibra desenvolvimento de funcionalidades com manutenção técnica?",
+      "es": "¿Cómo equilibras el desarrollo de funcionalidades con el mantenimiento técnico?",
+      "fr": "Comment équilibres-tu le développement de fonctionnalités avec la maintenance technique ?",
+      "de": "Wie balancierst du Feature-Entwicklung mit technischer Wartung?",
+      "it": "Come bilanci lo sviluppo di funzionalità con la manutenzione tecnica?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_181"
+  },
+  {
+    "english": "What's your experience with version control branching strategies?",
+    "context": "Git workflow knowledge",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com estratégias de branching em controle de versão?",
+      "es": "¿Cuál es tu experiencia con estrategias de branching en control de versiones?",
+      "fr": "Quelle est ton expérience avec les stratégies de branches en gestion de versions ?",
+      "de": "Was ist deine Erfahrung mit Branching-Strategien in der Versionskontrolle?",
+      "it": "Qual è la tua esperienza con le strategie di branching nel controllo di versione?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_182"
+  },
+  {
+    "english": "How would you design a system to handle millions of concurrent users?",
+    "context": "High-scale system design",
+    "translations": {
+      "pt-BR": "Como você projetaria um sistema para lidar com milhões de usuários concorrentes?",
+      "es": "¿Cómo diseñarías un sistema para manejar millones de usuarios concurrentes?",
+      "fr": "Comment concevrais-tu un système pour gérer des millions d'utilisateurs simultanés ?",
+      "de": "Wie würdest du ein System entwerfen, das Millionen gleichzeitiger Benutzer verarbeiten kann?",
+      "it": "Come progetteresti un sistema per gestire milioni di utenti concorrenti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_183"
+  },
+  {
+    "english": "Describe how you would implement offline-first functionality in a mobile app",
+    "context": "Mobile offline capabilities",
+    "translations": {
+      "pt-BR": "Descreva como você implementaria funcionalidade offline-first em um app mobile",
+      "es": "Describe cómo implementarías funcionalidad offline-first en una app móvil",
+      "fr": "Décris comment tu implémenterais la fonctionnalité offline-first dans une app mobile",
+      "de": "Beschreibe, wie du Offline-First-Funktionalität in einer mobilen App implementieren würdest",
+      "it": "Descrivi come implementeresti la funzionalità offline-first in un'app mobile"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_184"
+  },
+  {
+    "english": "What's your approach to estimating the effort for a new feature?",
+    "context": "Project estimation skills",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para estimar o esforço de uma nova funcionalidade?",
+      "es": "¿Cuál es tu enfoque para estimar el esfuerzo de una nueva funcionalidad?",
+      "fr": "Quelle est ton approche pour estimer l'effort d'une nouvelle fonctionnalité ?",
+      "de": "Was ist dein Ansatz zur Aufwandsschätzung für ein neues Feature?",
+      "it": "Qual è il tuo approccio per stimare lo sforzo per una nuova funzionalità?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_185"
+  },
+  {
+    "english": "How do you ensure your applications are secure against common vulnerabilities?",
+    "context": "Security awareness",
+    "translations": {
+      "pt-BR": "Como você garante que suas aplicações são seguras contra vulnerabilidades comuns?",
+      "es": "¿Cómo aseguras que tus aplicaciones son seguras contra vulnerabilidades comunes?",
+      "fr": "Comment t'assures-tu que tes applications sont sécurisées contre les vulnérabilités courantes ?",
+      "de": "Wie stellst du sicher, dass deine Anwendungen gegen gängige Sicherheitslücken geschützt sind?",
+      "it": "Come assicuri che le tue applicazioni siano sicure contro le vulnerabilità comuni?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_186"
+  },
+  {
+    "english": "What's the most impactful code refactoring you've done?",
+    "context": "Refactoring experience",
+    "translations": {
+      "pt-BR": "Qual foi a refatoração de código mais impactante que você fez?",
+      "es": "¿Cuál fue la refactorización de código más impactante que has hecho?",
+      "fr": "Quelle a été la refactorisation de code la plus impactante que tu as faite ?",
+      "de": "Was war das wirkungsvollste Code-Refactoring, das du durchgeführt hast?",
+      "it": "Qual è stata la refactoring di codice più impattante che hai fatto?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_187"
+  },
+  {
+    "english": "How do you approach learning a new codebase when joining a team?",
+    "context": "Onboarding strategy",
+    "translations": {
+      "pt-BR": "Como você aborda o aprendizado de uma nova base de código ao entrar em uma equipe?",
+      "es": "¿Cómo abordas el aprendizaje de una nueva base de código al unirte a un equipo?",
+      "fr": "Comment abordes-tu l'apprentissage d'une nouvelle base de code en rejoignant une équipe ?",
+      "de": "Wie gehst du das Lernen einer neuen Codebasis an, wenn du einem Team beitrittst?",
+      "it": "Come approcci l'apprendimento di una nuova codebase quando entri in un team?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_188"
+  },
+  {
+    "english": "Explain the CAP theorem and its implications for system design",
+    "context": "Distributed systems theory",
+    "translations": {
+      "pt-BR": "Explique o teorema CAP e suas implicações para design de sistemas",
+      "es": "Explica el teorema CAP y sus implicaciones para el diseño de sistemas",
+      "fr": "Explique le théorème CAP et ses implications pour la conception de systèmes",
+      "de": "Erkläre das CAP-Theorem und seine Auswirkungen auf das Systemdesign",
+      "it": "Spiega il teorema CAP e le sue implicazioni per il design di sistemi"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_189"
+  },
+  {
+    "english": "What's your experience with containerization and orchestration tools?",
+    "context": "DevOps skills",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com ferramentas de containerização e orquestração?",
+      "es": "¿Cuál es tu experiencia con herramientas de containerización y orquestación?",
+      "fr": "Quelle est ton expérience avec les outils de conteneurisation et d'orchestration ?",
+      "de": "Was ist deine Erfahrung mit Containerisierungs- und Orchestrierungstools?",
+      "it": "Qual è la tua esperienza con strumenti di containerizzazione e orchestrazione?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_190"
+  },
+  {
+    "english": "How do you decide between using inheritance and composition?",
+    "context": "Object-oriented design decision",
+    "translations": {
+      "pt-BR": "Como você decide entre usar herança e composição?",
+      "es": "¿Cómo decides entre usar herencia y composición?",
+      "fr": "Comment décides-tu entre utiliser l'héritage et la composition ?",
+      "de": "Wie entscheidest du zwischen Vererbung und Komposition?",
+      "it": "Come decidi tra usare l'ereditarietà e la composizione?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_191"
+  },
+  {
+    "english": "Tell me about a time you had to work with a difficult API or third-party service",
+    "context": "Integration challenges",
+    "translations": {
+      "pt-BR": "Me conte sobre uma vez que você teve que trabalhar com uma API ou serviço de terceiros difícil",
+      "es": "Cuéntame sobre una vez que tuviste que trabajar con una API o servicio de terceros difícil",
+      "fr": "Parle-moi d'une fois où tu as dû travailler avec une API ou un service tiers difficile",
+      "de": "Erzähl mir von einer Situation, in der du mit einer schwierigen API oder einem Drittanbieter-Dienst arbeiten musstest",
+      "it": "Raccontami di una volta in cui hai dovuto lavorare con un'API o un servizio di terze parti difficile"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_192"
+  },
+  {
+    "english": "What's your approach to database migration in a live production environment?",
+    "context": "Production database management",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para migração de banco de dados em um ambiente de produção ao vivo?",
+      "es": "¿Cuál es tu enfoque para migración de base de datos en un entorno de producción en vivo?",
+      "fr": "Quelle est ton approche pour la migration de base de données dans un environnement de production en direct ?",
+      "de": "Was ist dein Ansatz für Datenbankmigrationen in einer Live-Produktionsumgebung?",
+      "it": "Qual è il tuo approccio alla migrazione del database in un ambiente di produzione live?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_193"
+  },
+  {
+    "english": "How do you measure the success of a feature after it's released?",
+    "context": "Feature impact measurement",
+    "translations": {
+      "pt-BR": "Como você mede o sucesso de uma funcionalidade depois que ela é lançada?",
+      "es": "¿Cómo mides el éxito de una funcionalidad después de que se lanza?",
+      "fr": "Comment mesures-tu le succès d'une fonctionnalité après sa sortie ?",
+      "de": "Wie misst du den Erfolg eines Features nach dem Release?",
+      "it": "Come misuri il successo di una funzionalità dopo il rilascio?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_194"
+  },
+  {
+    "english": "What's your experience with GraphQL versus REST APIs?",
+    "context": "API technology comparison",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com GraphQL versus APIs REST?",
+      "es": "¿Cuál es tu experiencia con GraphQL versus APIs REST?",
+      "fr": "Quelle est ton expérience avec GraphQL versus les APIs REST ?",
+      "de": "Was ist deine Erfahrung mit GraphQL im Vergleich zu REST-APIs?",
+      "it": "Qual è la tua esperienza con GraphQL rispetto alle API REST?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_195"
+  },
+  {
+    "english": "How would you implement a real-time chat feature in a mobile application?",
+    "context": "Real-time communication implementation",
+    "translations": {
+      "pt-BR": "Como você implementaria uma funcionalidade de chat em tempo real em uma aplicação mobile?",
+      "es": "¿Cómo implementarías una funcionalidad de chat en tiempo real en una aplicación móvil?",
+      "fr": "Comment implémenterais-tu une fonctionnalité de chat en temps réel dans une application mobile ?",
+      "de": "Wie würdest du eine Echtzeit-Chat-Funktion in einer mobilen Anwendung implementieren?",
+      "it": "Come implementeresti una funzionalità di chat in tempo reale in un'applicazione mobile?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_196"
+  },
+  {
+    "english": "Describe your experience with automated testing strategies",
+    "context": "Testing experience and approach",
+    "translations": {
+      "pt-BR": "Descreva sua experiência com estratégias de testes automatizados",
+      "es": "Describe tu experiencia con estrategias de pruebas automatizadas",
+      "fr": "Décris ton expérience avec les stratégies de tests automatisés",
+      "de": "Beschreibe deine Erfahrung mit automatisierten Teststrategien",
+      "it": "Descrivi la tua esperienza con strategie di testing automatizzato"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_197"
+  },
+  {
+    "english": "What do you consider when designing a public API for external consumers?",
+    "context": "Public API design considerations",
+    "translations": {
+      "pt-BR": "O que você considera ao projetar uma API pública para consumidores externos?",
+      "es": "¿Qué consideras al diseñar una API pública para consumidores externos?",
+      "fr": "Que considères-tu lors de la conception d'une API publique pour des consommateurs externes ?",
+      "de": "Was berücksichtigst du beim Design einer öffentlichen API für externe Konsumenten?",
+      "it": "Cosa consideri quando progetti un'API pubblica per consumatori esterni?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_198"
+  },
+  {
+    "english": "How do you deal with scope creep during a project?",
+    "context": "Project management skills",
+    "translations": {
+      "pt-BR": "Como você lida com aumento de escopo durante um projeto?",
+      "es": "¿Cómo lidias con el aumento de alcance durante un proyecto?",
+      "fr": "Comment gères-tu la dérive du périmètre pendant un projet ?",
+      "de": "Wie gehst du mit Scope Creep während eines Projekts um?",
+      "it": "Come gestisci il scope creep durante un progetto?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_199"
+  },
+  {
+    "english": "What's the difference between a monolith and microservices architecture?",
+    "context": "Architecture comparison",
+    "translations": {
+      "pt-BR": "Qual é a diferença entre arquitetura monolítica e microserviços?",
+      "es": "¿Cuál es la diferencia entre arquitectura monolítica y microservicios?",
+      "fr": "Quelle est la différence entre une architecture monolithique et microservices ?",
+      "de": "Was ist der Unterschied zwischen einer monolithischen und einer Microservices-Architektur?",
+      "it": "Qual è la differenza tra architettura monolitica e microservizi?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_200"
+  },
+  {
+    "english": "How do you keep your skills sharp outside of work?",
+    "context": "Continuous learning habits",
+    "translations": {
+      "pt-BR": "Como você mantém suas habilidades afiadas fora do trabalho?",
+      "es": "¿Cómo mantienes tus habilidades afiladas fuera del trabajo?",
+      "fr": "Comment maintiens-tu tes compétences en dehors du travail ?",
+      "de": "Wie hältst du deine Fähigkeiten außerhalb der Arbeit aktuell?",
+      "it": "Come mantieni le tue competenze aggiornate fuori dal lavoro?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_201"
+  },
+  {
+    "english": "Tell me about a project that failed and what you learned from it",
+    "context": "Learning from failure",
+    "translations": {
+      "pt-BR": "Me conte sobre um projeto que falhou e o que você aprendeu com isso",
+      "es": "Cuéntame sobre un proyecto que falló y qué aprendiste de ello",
+      "fr": "Parle-moi d'un projet qui a échoué et ce que tu en as appris",
+      "de": "Erzähl mir von einem Projekt, das gescheitert ist, und was du daraus gelernt hast",
+      "it": "Raccontami di un progetto che è fallito e cosa hai imparato da esso"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_202"
+  },
+  {
+    "english": "What's your experience with Swift concurrency and async/await?",
+    "context": "iOS-specific technical question",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com concorrência Swift e async/await?",
+      "es": "¿Cuál es tu experiencia con concurrencia Swift y async/await?",
+      "fr": "Quelle est ton expérience avec la concurrence Swift et async/await ?",
+      "de": "Was ist deine Erfahrung mit Swift Concurrency und async/await?",
+      "it": "Qual è la tua esperienza con la concorrenza Swift e async/await?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_203"
+  },
+  {
+    "english": "How do you approach internationalization in your applications?",
+    "context": "i18n experience",
+    "translations": {
+      "pt-BR": "Como você aborda internacionalização nas suas aplicações?",
+      "es": "¿Cómo abordas la internacionalización en tus aplicaciones?",
+      "fr": "Comment abordes-tu l'internationalisation dans tes applications ?",
+      "de": "Wie gehst du die Internationalisierung in deinen Anwendungen an?",
+      "it": "Come approcci l'internazionalizzazione nelle tue applicazioni?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_204"
+  },
+  {
+    "english": "Explain how you would implement a recommendation engine",
+    "context": "Algorithm design question",
+    "translations": {
+      "pt-BR": "Explique como você implementaria um motor de recomendação",
+      "es": "Explica cómo implementarías un motor de recomendación",
+      "fr": "Explique comment tu implémenterais un moteur de recommandation",
+      "de": "Erkläre, wie du eine Empfehlungs-Engine implementieren würdest",
+      "it": "Spiega come implementeresti un motore di raccomandazione"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_205"
+  },
+  {
+    "english": "What's your opinion on test-driven development?",
+    "context": "Development methodology preferences",
+    "translations": {
+      "pt-BR": "Qual é sua opinião sobre desenvolvimento orientado a testes?",
+      "es": "¿Cuál es tu opinión sobre el desarrollo orientado a pruebas?",
+      "fr": "Quelle est ton opinion sur le développement piloté par les tests ?",
+      "de": "Was ist deine Meinung zu testgetriebener Entwicklung?",
+      "it": "Qual è la tua opinione sullo sviluppo guidato dai test?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_206"
+  },
+  {
+    "english": "How do you handle backward compatibility when updating an API?",
+    "context": "API evolution strategy",
+    "translations": {
+      "pt-BR": "Como você lida com compatibilidade retroativa ao atualizar uma API?",
+      "es": "¿Cómo manejas la compatibilidad retroactiva al actualizar una API?",
+      "fr": "Comment gères-tu la rétrocompatibilité lors de la mise à jour d'une API ?",
+      "de": "Wie gehst du mit Rückwärtskompatibilität bei API-Updates um?",
+      "it": "Come gestisci la retrocompatibilità quando aggiorni un'API?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_207"
+  },
+  {
+    "english": "Describe a situation where you had to push back on a feature request",
+    "context": "Stakeholder management",
+    "translations": {
+      "pt-BR": "Descreva uma situação onde você teve que resistir a uma solicitação de funcionalidade",
+      "es": "Describe una situación donde tuviste que rechazar una solicitud de funcionalidad",
+      "fr": "Décris une situation où tu as dû repousser une demande de fonctionnalité",
+      "de": "Beschreibe eine Situation, in der du eine Feature-Anfrage ablehnen musstest",
+      "it": "Descrivi una situazione in cui hai dovuto respingere una richiesta di funzionalità"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_208"
+  },
+  {
+    "english": "What's the difference between unit tests, integration tests, and end-to-end tests?",
+    "context": "Testing pyramid knowledge",
+    "translations": {
+      "pt-BR": "Qual é a diferença entre testes unitários, de integração e end-to-end?",
+      "es": "¿Cuál es la diferencia entre pruebas unitarias, de integración y end-to-end?",
+      "fr": "Quelle est la différence entre tests unitaires, d'intégration et end-to-end ?",
+      "de": "Was ist der Unterschied zwischen Unit-Tests, Integrationstests und End-to-End-Tests?",
+      "it": "Qual è la differenza tra test unitari, di integrazione e end-to-end?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_209"
+  },
+  {
+    "english": "How would you architect a mobile app that needs to work offline?",
+    "context": "Offline architecture design",
+    "translations": {
+      "pt-BR": "Como você arquitetaria um app mobile que precisa funcionar offline?",
+      "es": "¿Cómo arquitecturarías una app móvil que necesita funcionar offline?",
+      "fr": "Comment architecturerais-tu une app mobile qui doit fonctionner hors ligne ?",
+      "de": "Wie würdest du eine mobile App architektonisch gestalten, die offline funktionieren muss?",
+      "it": "Come architetteresti un'app mobile che deve funzionare offline?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_210"
+  },
+  {
+    "english": "Tell me about your experience with memory management in mobile development",
+    "context": "Memory management knowledge",
+    "translations": {
+      "pt-BR": "Me conte sobre sua experiência com gerenciamento de memória em desenvolvimento mobile",
+      "es": "Cuéntame sobre tu experiencia con gestión de memoria en desarrollo móvil",
+      "fr": "Parle-moi de ton expérience avec la gestion mémoire en développement mobile",
+      "de": "Erzähl mir von deiner Erfahrung mit Speicherverwaltung in der Mobilentwicklung",
+      "it": "Raccontami della tua esperienza con la gestione della memoria nello sviluppo mobile"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_211"
+  },
+  {
+    "english": "What's your strategy for reducing app launch time?",
+    "context": "App performance optimization",
+    "translations": {
+      "pt-BR": "Qual é sua estratégia para reduzir o tempo de inicialização do app?",
+      "es": "¿Cuál es tu estrategia para reducir el tiempo de arranque de la app?",
+      "fr": "Quelle est ta stratégie pour réduire le temps de lancement de l'app ?",
+      "de": "Was ist deine Strategie, um die App-Startzeit zu reduzieren?",
+      "it": "Qual è la tua strategia per ridurre il tempo di avvio dell'app?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_212"
+  },
+  {
+    "english": "How do you handle feature flags in your development process?",
+    "context": "Feature management practices",
+    "translations": {
+      "pt-BR": "Como você lida com feature flags no seu processo de desenvolvimento?",
+      "es": "¿Cómo manejas feature flags en tu proceso de desarrollo?",
+      "fr": "Comment gères-tu les feature flags dans ton processus de développement ?",
+      "de": "Wie gehst du mit Feature-Flags in deinem Entwicklungsprozess um?",
+      "it": "Come gestisci le feature flag nel tuo processo di sviluppo?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_213"
+  },
+  {
+    "english": "Can you explain how garbage collection works?",
+    "context": "Memory management fundamentals",
+    "translations": {
+      "pt-BR": "Pode explicar como funciona a coleta de lixo?",
+      "es": "¿Puedes explicar cómo funciona la recolección de basura?",
+      "fr": "Peux-tu expliquer comment fonctionne le ramasse-miettes ?",
+      "de": "Kannst du erklären, wie die Garbage Collection funktioniert?",
+      "it": "Puoi spiegare come funziona il garbage collection?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_214"
+  },
+  {
+    "english": "What's your approach to data modeling for a new application?",
+    "context": "Data architecture skills",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para modelagem de dados para uma nova aplicação?",
+      "es": "¿Cuál es tu enfoque para modelado de datos para una nueva aplicación?",
+      "fr": "Quelle est ton approche pour la modélisation de données d'une nouvelle application ?",
+      "de": "Was ist dein Ansatz für die Datenmodellierung einer neuen Anwendung?",
+      "it": "Qual è il tuo approccio alla modellazione dei dati per una nuova applicazione?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_215"
+  },
+  {
+    "english": "How do you communicate progress and blockers to your manager?",
+    "context": "Communication skills",
+    "translations": {
+      "pt-BR": "Como você comunica progresso e impedimentos para seu gerente?",
+      "es": "¿Cómo comunicas progreso y bloqueos a tu gerente?",
+      "fr": "Comment communiques-tu les progrès et les blocages à ton manager ?",
+      "de": "Wie kommunizierst du Fortschritt und Blocker an deinen Manager?",
+      "it": "Come comunichi progressi e blocchi al tuo manager?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_216"
+  },
+  {
+    "english": "Explain the observer pattern and give a real-world example",
+    "context": "Design pattern application",
+    "translations": {
+      "pt-BR": "Explique o padrão observer e dê um exemplo do mundo real",
+      "es": "Explica el patrón observer y da un ejemplo del mundo real",
+      "fr": "Explique le pattern observer et donne un exemple concret",
+      "de": "Erkläre das Observer-Pattern und gib ein reales Beispiel",
+      "it": "Spiega il pattern observer e fai un esempio del mondo reale"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_217"
+  },
+  {
+    "english": "What security practices do you follow when storing user data?",
+    "context": "Data security knowledge",
+    "translations": {
+      "pt-BR": "Quais práticas de segurança você segue ao armazenar dados do usuário?",
+      "es": "¿Qué prácticas de seguridad sigues al almacenar datos del usuario?",
+      "fr": "Quelles pratiques de sécurité suis-tu lors du stockage des données utilisateur ?",
+      "de": "Welche Sicherheitspraktiken befolgst du beim Speichern von Benutzerdaten?",
+      "it": "Quali pratiche di sicurezza segui quando memorizzi i dati degli utenti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_218"
+  },
+  {
+    "english": "How would you implement push notifications in a mobile app?",
+    "context": "Mobile feature implementation",
+    "translations": {
+      "pt-BR": "Como você implementaria notificações push em um app mobile?",
+      "es": "¿Cómo implementarías notificaciones push en una app móvil?",
+      "fr": "Comment implémenterais-tu les notifications push dans une app mobile ?",
+      "de": "Wie würdest du Push-Benachrichtigungen in einer mobilen App implementieren?",
+      "it": "Come implementeresti le notifiche push in un'app mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_219"
+  },
+  {
+    "english": "Tell me about a time you improved the developer experience in your team",
+    "context": "Developer productivity improvement",
+    "translations": {
+      "pt-BR": "Me conte sobre uma vez que você melhorou a experiência do desenvolvedor na sua equipe",
+      "es": "Cuéntame sobre una vez que mejoraste la experiencia del desarrollador en tu equipo",
+      "fr": "Parle-moi d'une fois où tu as amélioré l'expérience développeur dans ton équipe",
+      "de": "Erzähl mir von einer Situation, in der du die Developer Experience in deinem Team verbessert hast",
+      "it": "Raccontami di una volta in cui hai migliorato la developer experience nel tuo team"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_220"
+  },
+  {
+    "english": "What considerations do you have for app store submission and review?",
+    "context": "App store knowledge",
+    "translations": {
+      "pt-BR": "Quais considerações você tem para submissão e revisão na app store?",
+      "es": "¿Qué consideraciones tienes para envío y revisión en la app store?",
+      "fr": "Quelles considérations as-tu pour la soumission et la revue sur l'app store ?",
+      "de": "Welche Überlegungen hast du für die App-Store-Einreichung und -Überprüfung?",
+      "it": "Quali considerazioni hai per la sottomissione e la revisione sull'app store?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_221"
+  },
+  {
+    "english": "How do you handle data synchronization between a client and server?",
+    "context": "Client-server synchronization",
+    "translations": {
+      "pt-BR": "Como você lida com sincronização de dados entre cliente e servidor?",
+      "es": "¿Cómo manejas la sincronización de datos entre cliente y servidor?",
+      "fr": "Comment gères-tu la synchronisation de données entre client et serveur ?",
+      "de": "Wie gehst du mit der Datensynchronisation zwischen Client und Server um?",
+      "it": "Come gestisci la sincronizzazione dei dati tra client e server?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_222"
+  },
+  {
+    "english": "What's your experience with SwiftUI versus UIKit?",
+    "context": "iOS framework comparison",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com SwiftUI versus UIKit?",
+      "es": "¿Cuál es tu experiencia con SwiftUI versus UIKit?",
+      "fr": "Quelle est ton expérience avec SwiftUI versus UIKit ?",
+      "de": "Was ist deine Erfahrung mit SwiftUI im Vergleich zu UIKit?",
+      "it": "Qual è la tua esperienza con SwiftUI rispetto a UIKit?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_223"
+  },
+  {
+    "english": "Describe how you would set up a CI/CD pipeline for a mobile app",
+    "context": "DevOps for mobile",
+    "translations": {
+      "pt-BR": "Descreva como você configuraria um pipeline de CI/CD para um app mobile",
+      "es": "Describe cómo configurarías un pipeline de CI/CD para una app móvil",
+      "fr": "Décris comment tu mettrais en place un pipeline CI/CD pour une app mobile",
+      "de": "Beschreibe, wie du eine CI/CD-Pipeline für eine mobile App einrichten würdest",
+      "it": "Descrivi come configureresti una pipeline CI/CD per un'app mobile"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_224"
+  },
+  {
+    "english": "What's your understanding of protocol-oriented programming in Swift?",
+    "context": "Swift paradigm knowledge",
+    "translations": {
+      "pt-BR": "Qual é seu entendimento de programação orientada a protocolos em Swift?",
+      "es": "¿Cuál es tu entendimiento de programación orientada a protocolos en Swift?",
+      "fr": "Quelle est ta compréhension de la programmation orientée protocoles en Swift ?",
+      "de": "Was verstehst du unter protokollorientierter Programmierung in Swift?",
+      "it": "Qual è la tua comprensione della programmazione orientata ai protocolli in Swift?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_225"
+  },
+  {
+    "english": "How do you handle crash reporting and analytics in production?",
+    "context": "Production monitoring",
+    "translations": {
+      "pt-BR": "Como você lida com relatórios de crash e analytics em produção?",
+      "es": "¿Cómo manejas reportes de crash y analytics en producción?",
+      "fr": "Comment gères-tu les rapports de crash et les analytics en production ?",
+      "de": "Wie gehst du mit Crash-Reporting und Analytics in der Produktion um?",
+      "it": "Come gestisci il crash reporting e le analytics in produzione?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_226"
+  },
+  {
+    "english": "What's the biggest technical risk you've managed in a project?",
+    "context": "Risk management experience",
+    "translations": {
+      "pt-BR": "Qual é o maior risco técnico que você gerenciou em um projeto?",
+      "es": "¿Cuál es el mayor riesgo técnico que has gestionado en un proyecto?",
+      "fr": "Quel est le plus grand risque technique que tu as géré dans un projet ?",
+      "de": "Was ist das größte technische Risiko, das du in einem Projekt gemanagt hast?",
+      "it": "Qual è il più grande rischio tecnico che hai gestito in un progetto?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_227"
+  },
+  {
+    "english": "How do you decide what to abstract and what to keep simple?",
+    "context": "Abstraction level decisions",
+    "translations": {
+      "pt-BR": "Como você decide o que abstrair e o que manter simples?",
+      "es": "¿Cómo decides qué abstraer y qué mantener simple?",
+      "fr": "Comment décides-tu quoi abstraire et quoi garder simple ?",
+      "de": "Wie entscheidest du, was du abstrahierst und was du einfach lässt?",
+      "it": "Come decidi cosa astrarre e cosa mantenere semplice?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_228"
+  },
+  {
+    "english": "Can you explain what a deadlock is and how to prevent it?",
+    "context": "Concurrency fundamentals",
+    "translations": {
+      "pt-BR": "Pode explicar o que é um deadlock e como preveni-lo?",
+      "es": "¿Puedes explicar qué es un deadlock y cómo prevenirlo?",
+      "fr": "Peux-tu expliquer ce qu'est un deadlock et comment le prévenir ?",
+      "de": "Kannst du erklären, was ein Deadlock ist und wie man ihn verhindert?",
+      "it": "Puoi spiegare cos'è un deadlock e come prevenirlo?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_229"
+  },
+  {
+    "english": "What's your experience with automated UI testing for mobile apps?",
+    "context": "Mobile UI testing experience",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com testes automatizados de UI para apps mobile?",
+      "es": "¿Cuál es tu experiencia con pruebas automatizadas de UI para apps móviles?",
+      "fr": "Quelle est ton expérience avec les tests automatisés d'UI pour les apps mobiles ?",
+      "de": "Was ist deine Erfahrung mit automatisierten UI-Tests für mobile Apps?",
+      "it": "Qual è la tua esperienza con i test automatizzati dell'UI per le app mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_230"
+  },
+  {
+    "english": "How do you ensure your code is accessible to users with disabilities?",
+    "context": "Accessibility implementation",
+    "translations": {
+      "pt-BR": "Como você garante que seu código é acessível a usuários com deficiências?",
+      "es": "¿Cómo aseguras que tu código es accesible a usuarios con discapacidades?",
+      "fr": "Comment t'assures-tu que ton code est accessible aux utilisateurs handicapés ?",
+      "de": "Wie stellst du sicher, dass dein Code für Benutzer mit Behinderungen zugänglich ist?",
+      "it": "Come assicuri che il tuo codice sia accessibile agli utenti con disabilità?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_231"
+  },
+  {
+    "english": "What's your approach to managing app size and reducing bundle size?",
+    "context": "App optimization",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para gerenciar tamanho do app e reduzir tamanho do bundle?",
+      "es": "¿Cuál es tu enfoque para gestionar el tamaño de la app y reducir el tamaño del bundle?",
+      "fr": "Quelle est ton approche pour gérer la taille de l'app et réduire la taille du bundle ?",
+      "de": "Was ist dein Ansatz zur Verwaltung der App-Größe und Reduzierung der Bundle-Größe?",
+      "it": "Qual è il tuo approccio alla gestione delle dimensioni dell'app e alla riduzione delle dimensioni del bundle?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_232"
+  },
+  {
+    "english": "Describe how you would implement an undo/redo feature",
+    "context": "Feature design question",
+    "translations": {
+      "pt-BR": "Descreva como você implementaria uma funcionalidade de desfazer/refazer",
+      "es": "Describe cómo implementarías una funcionalidad de deshacer/rehacer",
+      "fr": "Décris comment tu implémenterais une fonctionnalité annuler/rétablir",
+      "de": "Beschreibe, wie du eine Undo/Redo-Funktion implementieren würdest",
+      "it": "Descrivi come implementeresti una funzionalità di annulla/ripristina"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_233"
+  },
+  {
+    "english": "How do you keep your team aligned on coding standards?",
+    "context": "Team standards and practices",
+    "translations": {
+      "pt-BR": "Como você mantém sua equipe alinhada em padrões de código?",
+      "es": "¿Cómo mantienes a tu equipo alineado en estándares de código?",
+      "fr": "Comment maintiens-tu ton équipe alignée sur les standards de code ?",
+      "de": "Wie hältst du dein Team bei Coding-Standards auf einer Linie?",
+      "it": "Come mantieni il tuo team allineato sugli standard di codifica?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_234"
+  },
+  {
+    "english": "What's your experience with functional programming concepts?",
+    "context": "Programming paradigm knowledge",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com conceitos de programação funcional?",
+      "es": "¿Cuál es tu experiencia con conceptos de programación funcional?",
+      "fr": "Quelle est ton expérience avec les concepts de programmation fonctionnelle ?",
+      "de": "Was ist deine Erfahrung mit Konzepten der funktionalen Programmierung?",
+      "it": "Qual è la tua esperienza con i concetti di programmazione funzionale?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_235"
+  },
+  {
+    "english": "How would you handle a situation where a senior colleague disagrees with your approach?",
+    "context": "Interpersonal skills",
+    "translations": {
+      "pt-BR": "Como você lidaria com uma situação onde um colega sênior discorda da sua abordagem?",
+      "es": "¿Cómo manejarías una situación donde un colega senior no está de acuerdo con tu enfoque?",
+      "fr": "Comment gérerais-tu une situation où un collègue senior n'est pas d'accord avec ton approche ?",
+      "de": "Wie würdest du mit einer Situation umgehen, in der ein Senior-Kollege deinem Ansatz widerspricht?",
+      "it": "Come gestiresti una situazione in cui un collega senior non è d'accordo con il tuo approccio?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_236"
+  },
+  {
+    "english": "What's the most important quality of well-written code?",
+    "context": "Code quality philosophy",
+    "translations": {
+      "pt-BR": "Qual é a qualidade mais importante de código bem escrito?",
+      "es": "¿Cuál es la cualidad más importante del código bien escrito?",
+      "fr": "Quelle est la qualité la plus importante d'un code bien écrit ?",
+      "de": "Was ist die wichtigste Eigenschaft von gut geschriebenem Code?",
+      "it": "Qual è la qualità più importante di un codice ben scritto?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_237"
+  },
+  {
+    "english": "How do you stay productive when working on a large, complex codebase?",
+    "context": "Productivity in complex environments",
+    "translations": {
+      "pt-BR": "Como você mantém a produtividade ao trabalhar em uma base de código grande e complexa?",
+      "es": "¿Cómo te mantienes productivo al trabajar en una base de código grande y compleja?",
+      "fr": "Comment restes-tu productif en travaillant sur une base de code large et complexe ?",
+      "de": "Wie bleibst du produktiv, wenn du an einer großen, komplexen Codebasis arbeitest?",
+      "it": "Come mantieni la produttività quando lavori su una codebase grande e complessa?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_238"
+  },
+  {
+    "english": "Explain how you would implement a leaderboard system for a gaming app",
+    "context": "Game feature design",
+    "translations": {
+      "pt-BR": "Explique como você implementaria um sistema de ranking para um app de jogos",
+      "es": "Explica cómo implementarías un sistema de ranking para una app de juegos",
+      "fr": "Explique comment tu implémenterais un système de classement pour une app de jeux",
+      "de": "Erkläre, wie du ein Leaderboard-System für eine Gaming-App implementieren würdest",
+      "it": "Spiega come implementeresti un sistema di classifica per un'app di giochi"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_239"
+  },
+  {
+    "english": "What questions do you have about our team and company?",
+    "context": "Candidate asking interviewer",
+    "translations": {
+      "pt-BR": "Que perguntas você tem sobre nossa equipe e empresa?",
+      "es": "¿Qué preguntas tienes sobre nuestro equipo y empresa?",
+      "fr": "Quelles questions as-tu sur notre équipe et notre entreprise ?",
+      "de": "Welche Fragen hast du zu unserem Team und Unternehmen?",
+      "it": "Quali domande hai sul nostro team e la nostra azienda?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_240"
+  },
+  {
+    "english": "How do you approach database design for a new application?",
+    "context": "Database design skills",
+    "translations": {
+      "pt-BR": "Como você aborda o design de banco de dados para uma nova aplicação?",
+      "es": "¿Cómo abordas el diseño de base de datos para una nueva aplicación?",
+      "fr": "Comment abordes-tu la conception de base de données pour une nouvelle application ?",
+      "de": "Wie gehst du das Datenbankdesign für eine neue Anwendung an?",
+      "it": "Come approcci il design del database per una nuova applicazione?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_241"
+  },
+  {
+    "english": "What's your experience with reactive programming frameworks?",
+    "context": "Reactive programming knowledge",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com frameworks de programação reativa?",
+      "es": "¿Cuál es tu experiencia con frameworks de programación reactiva?",
+      "fr": "Quelle est ton expérience avec les frameworks de programmation réactive ?",
+      "de": "Was ist deine Erfahrung mit reaktiven Programmier-Frameworks?",
+      "it": "Qual è la tua esperienza con i framework di programmazione reattiva?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_242"
+  },
+  {
+    "english": "How do you handle conflicting priorities from different stakeholders?",
+    "context": "Stakeholder management skills",
+    "translations": {
+      "pt-BR": "Como você lida com prioridades conflitantes de diferentes stakeholders?",
+      "es": "¿Cómo manejas prioridades conflictivas de diferentes stakeholders?",
+      "fr": "Comment gères-tu les priorités conflictuelles de différents stakeholders ?",
+      "de": "Wie gehst du mit widersprüchlichen Prioritäten verschiedener Stakeholder um?",
+      "it": "Come gestisci le priorità contrastanti di diversi stakeholder?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_243"
+  },
+  {
+    "english": "Can you explain the publish-subscribe messaging pattern?",
+    "context": "Messaging pattern knowledge",
+    "translations": {
+      "pt-BR": "Pode explicar o padrão de mensageria publish-subscribe?",
+      "es": "¿Puedes explicar el patrón de mensajería publish-subscribe?",
+      "fr": "Peux-tu expliquer le pattern de messagerie publish-subscribe ?",
+      "de": "Kannst du das Publish-Subscribe-Messaging-Pattern erklären?",
+      "it": "Puoi spiegare il pattern di messaggistica publish-subscribe?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_244"
+  },
+  {
+    "english": "What's your approach to onboarding new team members effectively?",
+    "context": "Team building and mentoring",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para integrar novos membros da equipe de forma eficaz?",
+      "es": "¿Cuál es tu enfoque para integrar nuevos miembros del equipo de manera efectiva?",
+      "fr": "Quelle est ton approche pour intégrer efficacement les nouveaux membres de l'équipe ?",
+      "de": "Was ist dein Ansatz, um neue Teammitglieder effektiv einzuarbeiten?",
+      "it": "Qual è il tuo approccio per integrare efficacemente i nuovi membri del team?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_245"
+  },
+  {
+    "english": "How would you design a payment processing system?",
+    "context": "System design with financial requirements",
+    "translations": {
+      "pt-BR": "Como você projetaria um sistema de processamento de pagamentos?",
+      "es": "¿Cómo diseñarías un sistema de procesamiento de pagos?",
+      "fr": "Comment concevrais-tu un système de traitement des paiements ?",
+      "de": "Wie würdest du ein Zahlungsverarbeitungssystem entwerfen?",
+      "it": "Come progetteresti un sistema di elaborazione dei pagamenti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_246"
+  },
+  {
+    "english": "What role does code documentation play in your development process?",
+    "context": "Documentation philosophy",
+    "translations": {
+      "pt-BR": "Qual papel a documentação de código desempenha no seu processo de desenvolvimento?",
+      "es": "¿Qué papel juega la documentación de código en tu proceso de desarrollo?",
+      "fr": "Quel rôle joue la documentation de code dans ton processus de développement ?",
+      "de": "Welche Rolle spielt Code-Dokumentation in deinem Entwicklungsprozess?",
+      "it": "Che ruolo gioca la documentazione del codice nel tuo processo di sviluppo?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_247"
+  },
+  {
+    "english": "How do you optimize images and assets for mobile applications?",
+    "context": "Mobile asset optimization",
+    "translations": {
+      "pt-BR": "Como você otimiza imagens e assets para aplicações mobile?",
+      "es": "¿Cómo optimizas imágenes y assets para aplicaciones móviles?",
+      "fr": "Comment optimises-tu les images et assets pour les applications mobiles ?",
+      "de": "Wie optimierst du Bilder und Assets für mobile Anwendungen?",
+      "it": "Come ottimizzi immagini e asset per le applicazioni mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_248"
+  },
+  {
+    "english": "Tell me about a technical decision you made that you later regretted",
+    "context": "Self-awareness and learning",
+    "translations": {
+      "pt-BR": "Me conte sobre uma decisão técnica que você tomou e depois se arrependeu",
+      "es": "Cuéntame sobre una decisión técnica que tomaste y luego lamentaste",
+      "fr": "Parle-moi d'une décision technique que tu as prise et que tu as ensuite regrettée",
+      "de": "Erzähl mir von einer technischen Entscheidung, die du getroffen hast und später bereut hast",
+      "it": "Raccontami di una decisione tecnica che hai preso e di cui poi ti sei pentito"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_249"
+  },
+  {
+    "english": "How do you handle technical interviews when you don't know the answer?",
+    "context": "Interview meta-question",
+    "translations": {
+      "pt-BR": "Como você lida com entrevistas técnicas quando não sabe a resposta?",
+      "es": "¿Cómo manejas entrevistas técnicas cuando no sabes la respuesta?",
+      "fr": "Comment gères-tu les entretiens techniques quand tu ne connais pas la réponse ?",
+      "de": "Wie gehst du mit technischen Interviews um, wenn du die Antwort nicht weißt?",
+      "it": "Come gestisci le interviste tecniche quando non sai la risposta?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_250"
+  },
+  {
+    "english": "What's your experience leading technical projects from inception to delivery?",
+    "context": "Technical leadership",
+    "translations": {
+      "pt-BR": "Qual é sua experiência liderando projetos técnicos desde a concepção até a entrega?",
+      "es": "¿Cuál es tu experiencia liderando proyectos técnicos desde la concepción hasta la entrega?",
+      "fr": "Quelle est ton expérience pour diriger des projets techniques de la conception à la livraison ?",
+      "de": "Was ist deine Erfahrung mit der Leitung technischer Projekte von der Konzeption bis zur Auslieferung?",
+      "it": "Qual è la tua esperienza nel guidare progetti tecnici dall'ideazione alla consegna?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_251"
+  },
+  {
+    "english": "What motivates you as a software developer?",
+    "context": "Personal motivation question",
+    "translations": {
+      "pt-BR": "O que te motiva como desenvolvedor de software?",
+      "es": "¿Qué te motiva como desarrollador de software?",
+      "fr": "Qu'est-ce qui te motive en tant que développeur logiciel ?",
+      "de": "Was motiviert dich als Softwareentwickler?",
+      "it": "Cosa ti motiva come sviluppatore software?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_252"
+  },
+  {
+    "english": "How do you handle a situation where a deadline seems unrealistic?",
+    "context": "Deadline management",
+    "translations": {
+      "pt-BR": "Como você lida com uma situação onde um prazo parece irrealista?",
+      "es": "¿Cómo manejas una situación donde un plazo parece irreal?",
+      "fr": "Comment gères-tu une situation où une échéance semble irréaliste ?",
+      "de": "Wie gehst du mit einer Situation um, in der eine Deadline unrealistisch erscheint?",
+      "it": "Come gestisci una situazione in cui una scadenza sembra irrealistica?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_253"
+  },
+  {
+    "english": "Explain the concept of clean architecture and its benefits",
+    "context": "Architecture knowledge",
+    "translations": {
+      "pt-BR": "Explique o conceito de arquitetura limpa e seus benefícios",
+      "es": "Explica el concepto de arquitectura limpia y sus beneficios",
+      "fr": "Explique le concept d'architecture propre et ses avantages",
+      "de": "Erkläre das Konzept der Clean Architecture und ihre Vorteile",
+      "it": "Spiega il concetto di clean architecture e i suoi benefici"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_254"
+  },
+  {
+    "english": "What tools do you use for debugging in your daily workflow?",
+    "context": "Tooling preferences",
+    "translations": {
+      "pt-BR": "Que ferramentas você usa para debugging no seu fluxo de trabalho diário?",
+      "es": "¿Qué herramientas usas para debugging en tu flujo de trabajo diario?",
+      "fr": "Quels outils utilises-tu pour le débogage dans ton workflow quotidien ?",
+      "de": "Welche Tools verwendest du zum Debuggen in deinem täglichen Workflow?",
+      "it": "Quali strumenti usi per il debugging nel tuo flusso di lavoro quotidiano?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_255"
+  },
+  {
+    "english": "How would you design an image upload and processing pipeline?",
+    "context": "Media processing system design",
+    "translations": {
+      "pt-BR": "Como você projetaria um pipeline de upload e processamento de imagens?",
+      "es": "¿Cómo diseñarías un pipeline de carga y procesamiento de imágenes?",
+      "fr": "Comment concevrais-tu un pipeline de téléchargement et traitement d'images ?",
+      "de": "Wie würdest du eine Bild-Upload- und -Verarbeitungspipeline entwerfen?",
+      "it": "Come progetteresti una pipeline di upload e elaborazione di immagini?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_256"
+  },
+  {
+    "english": "What's your experience with distributed tracing?",
+    "context": "Observability skills",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com tracing distribuído?",
+      "es": "¿Cuál es tu experiencia con tracing distribuido?",
+      "fr": "Quelle est ton expérience avec le tracing distribué ?",
+      "de": "Was ist deine Erfahrung mit Distributed Tracing?",
+      "it": "Qual è la tua esperienza con il tracing distribuito?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_257"
+  },
+  {
+    "english": "How do you make sure your estimates are accurate?",
+    "context": "Estimation accuracy",
+    "translations": {
+      "pt-BR": "Como você garante que suas estimativas são precisas?",
+      "es": "¿Cómo te aseguras de que tus estimaciones son precisas?",
+      "fr": "Comment t'assures-tu que tes estimations sont précises ?",
+      "de": "Wie stellst du sicher, dass deine Schätzungen genau sind?",
+      "it": "Come ti assicuri che le tue stime siano accurate?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_258"
+  },
+  {
+    "english": "Tell me about your experience with code generation tools",
+    "context": "Tooling and automation",
+    "translations": {
+      "pt-BR": "Me conte sobre sua experiência com ferramentas de geração de código",
+      "es": "Cuéntame sobre tu experiencia con herramientas de generación de código",
+      "fr": "Parle-moi de ton expérience avec les outils de génération de code",
+      "de": "Erzähl mir von deiner Erfahrung mit Code-Generierungstools",
+      "it": "Raccontami della tua esperienza con gli strumenti di generazione del codice"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_259"
+  },
+  {
+    "english": "How do you ensure consistency across different parts of a large application?",
+    "context": "Large-scale development",
+    "translations": {
+      "pt-BR": "Como você garante consistência entre diferentes partes de uma aplicação grande?",
+      "es": "¿Cómo aseguras consistencia entre diferentes partes de una aplicación grande?",
+      "fr": "Comment assures-tu la cohérence entre les différentes parties d'une grande application ?",
+      "de": "Wie stellst du Konsistenz zwischen verschiedenen Teilen einer großen Anwendung sicher?",
+      "it": "Come assicuri la coerenza tra diverse parti di un'applicazione grande?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_260"
+  },
+  {
+    "english": "What's your approach to writing reusable components?",
+    "context": "Component design philosophy",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para escrever componentes reutilizáveis?",
+      "es": "¿Cuál es tu enfoque para escribir componentes reutilizables?",
+      "fr": "Quelle est ton approche pour écrire des composants réutilisables ?",
+      "de": "Was ist dein Ansatz für das Schreiben wiederverwendbarer Komponenten?",
+      "it": "Qual è il tuo approccio per scrivere componenti riutilizzabili?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_261"
+  },
+  {
+    "english": "How would you implement a content moderation system?",
+    "context": "Content safety system design",
+    "translations": {
+      "pt-BR": "Como você implementaria um sistema de moderação de conteúdo?",
+      "es": "¿Cómo implementarías un sistema de moderación de contenido?",
+      "fr": "Comment implémenterais-tu un système de modération de contenu ?",
+      "de": "Wie würdest du ein Inhaltsmoderierungssystem implementieren?",
+      "it": "Come implementeresti un sistema di moderazione dei contenuti?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_262"
+  },
+  {
+    "english": "What's your experience with A/B testing in mobile apps?",
+    "context": "Experimentation practices",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com testes A/B em apps mobile?",
+      "es": "¿Cuál es tu experiencia con pruebas A/B en apps móviles?",
+      "fr": "Quelle est ton expérience avec les tests A/B dans les apps mobiles ?",
+      "de": "Was ist deine Erfahrung mit A/B-Tests in mobilen Apps?",
+      "it": "Qual è la tua esperienza con l'A/B testing nelle app mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_263"
+  },
+  {
+    "english": "How do you approach writing APIs that are easy to use and understand?",
+    "context": "API usability design",
+    "translations": {
+      "pt-BR": "Como você aborda a escrita de APIs fáceis de usar e entender?",
+      "es": "¿Cómo abordas la escritura de APIs fáciles de usar y entender?",
+      "fr": "Comment abordes-tu l'écriture d'APIs faciles à utiliser et comprendre ?",
+      "de": "Wie gehst du das Schreiben von APIs an, die einfach zu benutzen und zu verstehen sind?",
+      "it": "Come approcci la scrittura di API facili da usare e capire?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_264"
+  },
+  {
+    "english": "Describe your ideal development environment and toolchain",
+    "context": "Tooling and workflow preferences",
+    "translations": {
+      "pt-BR": "Descreva seu ambiente de desenvolvimento ideal e toolchain",
+      "es": "Describe tu entorno de desarrollo ideal y toolchain",
+      "fr": "Décris ton environnement de développement idéal et ta chaîne d'outils",
+      "de": "Beschreibe deine ideale Entwicklungsumgebung und Toolchain",
+      "it": "Descrivi il tuo ambiente di sviluppo ideale e la toolchain"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_265"
+  },
+  {
+    "english": "How do you approach technical debt reduction in an ongoing project?",
+    "context": "Technical debt strategy",
+    "translations": {
+      "pt-BR": "Como você aborda a redução de dívida técnica em um projeto em andamento?",
+      "es": "¿Cómo abordas la reducción de deuda técnica en un proyecto en curso?",
+      "fr": "Comment abordes-tu la réduction de la dette technique dans un projet en cours ?",
+      "de": "Wie gehst du die Reduzierung technischer Schulden in einem laufenden Projekt an?",
+      "it": "Come approcci la riduzione del debito tecnico in un progetto in corso?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_266"
+  },
+  {
+    "english": "What's the difference between a process and a thread?",
+    "context": "Operating system fundamentals",
+    "translations": {
+      "pt-BR": "Qual é a diferença entre um processo e uma thread?",
+      "es": "¿Cuál es la diferencia entre un proceso y un hilo?",
+      "fr": "Quelle est la différence entre un processus et un thread ?",
+      "de": "Was ist der Unterschied zwischen einem Prozess und einem Thread?",
+      "it": "Qual è la differenza tra un processo e un thread?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_267"
+  },
+  {
+    "english": "How do you handle versioning for mobile app releases?",
+    "context": "Release management",
+    "translations": {
+      "pt-BR": "Como você lida com versionamento para lançamentos de apps mobile?",
+      "es": "¿Cómo manejas el versionamiento para lanzamientos de apps móviles?",
+      "fr": "Comment gères-tu le versionnement pour les releases d'apps mobiles ?",
+      "de": "Wie gehst du mit der Versionierung für Mobile-App-Releases um?",
+      "it": "Come gestisci il versionamento per i rilasci di app mobile?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_268"
+  },
+  {
+    "english": "Tell me about a time you advocated for a significant technical change",
+    "context": "Technical advocacy",
+    "translations": {
+      "pt-BR": "Me conte sobre uma vez que você advogou por uma mudança técnica significativa",
+      "es": "Cuéntame sobre una vez que abogaste por un cambio técnico significativo",
+      "fr": "Parle-moi d'une fois où tu as plaidé pour un changement technique significatif",
+      "de": "Erzähl mir von einer Situation, in der du dich für eine bedeutende technische Änderung eingesetzt hast",
+      "it": "Raccontami di una volta in cui hai sostenuto un cambiamento tecnico significativo"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_269"
+  },
+  {
+    "english": "What's your understanding of the benefits of immutable data structures?",
+    "context": "Data structure design",
+    "translations": {
+      "pt-BR": "Qual é seu entendimento dos benefícios de estruturas de dados imutáveis?",
+      "es": "¿Cuál es tu entendimiento de los beneficios de las estructuras de datos inmutables?",
+      "fr": "Quelle est ta compréhension des avantages des structures de données immuables ?",
+      "de": "Was verstehst du unter den Vorteilen unveränderlicher Datenstrukturen?",
+      "it": "Qual è la tua comprensione dei benefici delle strutture dati immutabili?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_270"
+  },
+  {
+    "english": "How would you design a multi-tenant SaaS application?",
+    "context": "SaaS architecture design",
+    "translations": {
+      "pt-BR": "Como você projetaria uma aplicação SaaS multi-tenant?",
+      "es": "¿Cómo diseñarías una aplicación SaaS multi-tenant?",
+      "fr": "Comment concevrais-tu une application SaaS multi-tenant ?",
+      "de": "Wie würdest du eine Multi-Tenant-SaaS-Anwendung entwerfen?",
+      "it": "Come progetteresti un'applicazione SaaS multi-tenant?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_271"
+  },
+  {
+    "english": "What's your experience with pair programming in a professional setting?",
+    "context": "Collaboration practices",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com programação em par em um ambiente profissional?",
+      "es": "¿Cuál es tu experiencia con programación en pares en un entorno profesional?",
+      "fr": "Quelle est ton expérience avec la programmation en binôme en milieu professionnel ?",
+      "de": "Was ist deine Erfahrung mit Pair Programming in einem professionellen Umfeld?",
+      "it": "Qual è la tua esperienza con il pair programming in un contesto professionale?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_272"
+  },
+  {
+    "english": "How do you evaluate the trade-offs between different technology choices?",
+    "context": "Technology evaluation skills",
+    "translations": {
+      "pt-BR": "Como você avalia as compensações entre diferentes escolhas tecnológicas?",
+      "es": "¿Cómo evalúas las compensaciones entre diferentes elecciones tecnológicas?",
+      "fr": "Comment évalues-tu les compromis entre différents choix technologiques ?",
+      "de": "Wie bewertest du die Trade-offs zwischen verschiedenen Technologieentscheidungen?",
+      "it": "Come valuti i compromessi tra diverse scelte tecnologiche?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_273"
+  },
+  {
+    "english": "Can you walk me through how HTTP works at a high level?",
+    "context": "Networking fundamentals",
+    "translations": {
+      "pt-BR": "Pode me guiar por como HTTP funciona em um alto nível?",
+      "es": "¿Puedes guiarme por cómo funciona HTTP a un alto nivel?",
+      "fr": "Peux-tu m'expliquer comment HTTP fonctionne à un haut niveau ?",
+      "de": "Kannst du mir auf hoher Ebene erklären, wie HTTP funktioniert?",
+      "it": "Puoi guidarmi attraverso come funziona HTTP ad alto livello?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_274"
+  },
+  {
+    "english": "What's your approach to managing configuration across different environments?",
+    "context": "Configuration management",
+    "translations": {
+      "pt-BR": "Qual é sua abordagem para gerenciar configuração entre diferentes ambientes?",
+      "es": "¿Cuál es tu enfoque para gestionar configuración entre diferentes entornos?",
+      "fr": "Quelle est ton approche pour gérer la configuration entre différents environnements ?",
+      "de": "Was ist dein Ansatz für das Konfigurationsmanagement über verschiedene Umgebungen hinweg?",
+      "it": "Qual è il tuo approccio alla gestione della configurazione tra diversi ambienti?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_275"
+  },
+  {
+    "english": "How would you implement a file synchronization service like Dropbox?",
+    "context": "Complex system design",
+    "translations": {
+      "pt-BR": "Como você implementaria um serviço de sincronização de arquivos como o Dropbox?",
+      "es": "¿Cómo implementarías un servicio de sincronización de archivos como Dropbox?",
+      "fr": "Comment implémenterais-tu un service de synchronisation de fichiers comme Dropbox ?",
+      "de": "Wie würdest du einen Dateisynchronisationsdienst wie Dropbox implementieren?",
+      "it": "Come implementeresti un servizio di sincronizzazione file come Dropbox?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_276"
+  },
+  {
+    "english": "What's your experience with designing and implementing design systems?",
+    "context": "Design system implementation",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com design e implementação de design systems?",
+      "es": "¿Cuál es tu experiencia con diseño e implementación de design systems?",
+      "fr": "Quelle est ton expérience avec la conception et l'implémentation de design systems ?",
+      "de": "Was ist deine Erfahrung mit dem Entwerfen und Implementieren von Design Systems?",
+      "it": "Qual è la tua esperienza con la progettazione e implementazione di design system?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_277"
+  },
+  {
+    "english": "How do you balance writing perfect code versus shipping features quickly?",
+    "context": "Pragmatism vs perfection",
+    "translations": {
+      "pt-BR": "Como você equilibra escrever código perfeito versus entregar funcionalidades rapidamente?",
+      "es": "¿Cómo equilibras escribir código perfecto versus entregar funcionalidades rápidamente?",
+      "fr": "Comment équilibres-tu écrire du code parfait versus livrer des fonctionnalités rapidement ?",
+      "de": "Wie balancierst du perfekten Code schreiben mit schnellem Feature-Shipping?",
+      "it": "Come bilanci scrivere codice perfetto rispetto a rilasciare funzionalità velocemente?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_278"
+  },
+  {
+    "english": "Describe a complex algorithm you implemented and explain your approach",
+    "context": "Algorithm implementation experience",
+    "translations": {
+      "pt-BR": "Descreva um algoritmo complexo que você implementou e explique sua abordagem",
+      "es": "Describe un algoritmo complejo que implementaste y explica tu enfoque",
+      "fr": "Décris un algorithme complexe que tu as implémenté et explique ton approche",
+      "de": "Beschreibe einen komplexen Algorithmus, den du implementiert hast, und erkläre deinen Ansatz",
+      "it": "Descrivi un algoritmo complesso che hai implementato e spiega il tuo approccio"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_279"
+  },
+  {
+    "english": "What would you improve about our product if you were hired?",
+    "context": "Product sense question",
+    "translations": {
+      "pt-BR": "O que você melhoraria no nosso produto se fosse contratado?",
+      "es": "¿Qué mejorarías en nuestro producto si fueras contratado?",
+      "fr": "Qu'améliorerais-tu dans notre produit si tu étais embauché ?",
+      "de": "Was würdest du an unserem Produkt verbessern, wenn du eingestellt würdest?",
+      "it": "Cosa miglioreresti del nostro prodotto se venissi assunto?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_280"
+  },
+  {
+    "english": "How do you prepare for technical interviews as a candidate?",
+    "context": "Interview preparation meta-question",
+    "translations": {
+      "pt-BR": "Como você se prepara para entrevistas técnicas como candidato?",
+      "es": "¿Cómo te preparas para entrevistas técnicas como candidato?",
+      "fr": "Comment te prépares-tu pour les entretiens techniques en tant que candidat ?",
+      "de": "Wie bereitest du dich als Kandidat auf technische Interviews vor?",
+      "it": "Come ti prepari per le interviste tecniche come candidato?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_281"
+  },
+  {
+    "english": "What architectural patterns do you consider when building a new feature?",
+    "context": "Architecture decision-making",
+    "translations": {
+      "pt-BR": "Quais padrões arquiteturais você considera ao construir uma nova funcionalidade?",
+      "es": "¿Qué patrones arquitecturales consideras al construir una nueva funcionalidad?",
+      "fr": "Quels patterns architecturaux considères-tu lors de la construction d'une nouvelle fonctionnalité ?",
+      "de": "Welche Architekturmuster berücksichtigst du beim Aufbau eines neuen Features?",
+      "it": "Quali pattern architetturali consideri quando costruisci una nuova funzionalità?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_282"
+  },
+  {
+    "english": "How do you promote knowledge sharing within your development team?",
+    "context": "Team culture and growth",
+    "translations": {
+      "pt-BR": "Como você promove compartilhamento de conhecimento dentro da sua equipe de desenvolvimento?",
+      "es": "¿Cómo promueves el compartir conocimiento dentro de tu equipo de desarrollo?",
+      "fr": "Comment promeus-tu le partage de connaissances au sein de ton équipe de développement ?",
+      "de": "Wie förderst du den Wissensaustausch in deinem Entwicklungsteam?",
+      "it": "Come promuovi la condivisione della conoscenza nel tuo team di sviluppo?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_283"
+  },
+  {
+    "english": "What's the most creative solution you've implemented to solve a technical problem?",
+    "context": "Creative problem solving",
+    "translations": {
+      "pt-BR": "Qual é a solução mais criativa que você implementou para resolver um problema técnico?",
+      "es": "¿Cuál es la solución más creativa que implementaste para resolver un problema técnico?",
+      "fr": "Quelle est la solution la plus créative que tu as implémentée pour résoudre un problème technique ?",
+      "de": "Was ist die kreativste Lösung, die du implementiert hast, um ein technisches Problem zu lösen?",
+      "it": "Qual è la soluzione più creativa che hai implementato per risolvere un problema tecnico?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_284"
+  },
+  {
+    "english": "How do you approach cross-platform development challenges?",
+    "context": "Multi-platform development",
+    "translations": {
+      "pt-BR": "Como você aborda desafios de desenvolvimento cross-platform?",
+      "es": "¿Cómo abordas los desafíos de desarrollo cross-platform?",
+      "fr": "Comment abordes-tu les défis du développement cross-platform ?",
+      "de": "Wie gehst du Herausforderungen der plattformübergreifenden Entwicklung an?",
+      "it": "Come approcci le sfide dello sviluppo cross-platform?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_285"
+  },
+  {
+    "english": "What's your understanding of the twelve-factor app methodology?",
+    "context": "Cloud-native development principles",
+    "translations": {
+      "pt-BR": "Qual é seu entendimento da metodologia twelve-factor app?",
+      "es": "¿Cuál es tu entendimiento de la metodología twelve-factor app?",
+      "fr": "Quelle est ta compréhension de la méthodologie twelve-factor app ?",
+      "de": "Was verstehst du unter der Twelve-Factor-App-Methodik?",
+      "it": "Qual è la tua comprensione della metodologia twelve-factor app?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_286"
+  },
+  {
+    "english": "How would you design a system to handle time zones correctly?",
+    "context": "Time zone handling design",
+    "translations": {
+      "pt-BR": "Como você projetaria um sistema para lidar com fusos horários corretamente?",
+      "es": "¿Cómo diseñarías un sistema para manejar zonas horarias correctamente?",
+      "fr": "Comment concevrais-tu un système pour gérer correctement les fuseaux horaires ?",
+      "de": "Wie würdest du ein System entwerfen, das Zeitzonen korrekt behandelt?",
+      "it": "Come progetteresti un sistema per gestire correttamente i fusi orari?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_287"
+  },
+  {
+    "english": "Tell me about your experience contributing to open source projects",
+    "context": "Open source experience",
+    "translations": {
+      "pt-BR": "Me conte sobre sua experiência contribuindo para projetos de código aberto",
+      "es": "Cuéntame sobre tu experiencia contribuyendo a proyectos de código abierto",
+      "fr": "Parle-moi de ton expérience de contribution à des projets open source",
+      "de": "Erzähl mir von deiner Erfahrung mit Beiträgen zu Open-Source-Projekten",
+      "it": "Raccontami della tua esperienza nel contribuire a progetti open source"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_288"
+  },
+  {
+    "english": "How do you approach API versioning and deprecation?",
+    "context": "API lifecycle management",
+    "translations": {
+      "pt-BR": "Como você aborda versionamento e depreciação de APIs?",
+      "es": "¿Cómo abordas el versionamiento y depreciación de APIs?",
+      "fr": "Comment abordes-tu le versionnement et la dépréciation des APIs ?",
+      "de": "Wie gehst du API-Versionierung und -Deprecation an?",
+      "it": "Come approcci il versionamento e la deprecazione delle API?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_289"
+  },
+  {
+    "english": "What's the most important lesson you've learned in your career so far?",
+    "context": "Career reflection",
+    "translations": {
+      "pt-BR": "Qual é a lição mais importante que você aprendeu na sua carreira até agora?",
+      "es": "¿Cuál es la lección más importante que has aprendido en tu carrera hasta ahora?",
+      "fr": "Quelle est la leçon la plus importante que tu as apprise dans ta carrière jusqu'à présent ?",
+      "de": "Was ist die wichtigste Lektion, die du in deiner bisherigen Karriere gelernt hast?",
+      "it": "Qual è la lezione più importante che hai imparato nella tua carriera finora?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_290"
+  },
+  {
+    "english": "How do you handle the pressure of on-call responsibilities?",
+    "context": "On-call experience",
+    "translations": {
+      "pt-BR": "Como você lida com a pressão de responsabilidades de plantão?",
+      "es": "¿Cómo manejas la presión de responsabilidades de guardia?",
+      "fr": "Comment gères-tu la pression des responsabilités d'astreinte ?",
+      "de": "Wie gehst du mit dem Druck von On-Call-Verantwortungen um?",
+      "it": "Come gestisci la pressione delle responsabilità di reperibilità?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_291"
+  },
+  {
+    "english": "Can you explain how SSL/TLS encryption works?",
+    "context": "Security fundamentals",
+    "translations": {
+      "pt-BR": "Pode explicar como funciona a criptografia SSL/TLS?",
+      "es": "¿Puedes explicar cómo funciona la encriptación SSL/TLS?",
+      "fr": "Peux-tu expliquer comment fonctionne le chiffrement SSL/TLS ?",
+      "de": "Kannst du erklären, wie SSL/TLS-Verschlüsselung funktioniert?",
+      "it": "Puoi spiegare come funziona la crittografia SSL/TLS?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_292"
+  },
+  {
+    "english": "What's your experience with building and maintaining SDKs?",
+    "context": "SDK development experience",
+    "translations": {
+      "pt-BR": "Qual é sua experiência com construção e manutenção de SDKs?",
+      "es": "¿Cuál es tu experiencia con construcción y mantenimiento de SDKs?",
+      "fr": "Quelle est ton expérience avec la construction et la maintenance de SDKs ?",
+      "de": "Was ist deine Erfahrung mit dem Aufbau und der Pflege von SDKs?",
+      "it": "Qual è la tua esperienza con la costruzione e la manutenzione di SDK?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_293"
+  },
+  {
+    "english": "How do you foster innovation within your engineering team?",
+    "context": "Innovation and culture",
+    "translations": {
+      "pt-BR": "Como você fomenta inovação dentro da sua equipe de engenharia?",
+      "es": "¿Cómo fomentas la innovación dentro de tu equipo de ingeniería?",
+      "fr": "Comment favorises-tu l'innovation au sein de ton équipe d'ingénierie ?",
+      "de": "Wie förderst du Innovation in deinem Engineering-Team?",
+      "it": "Come promuovi l'innovazione nel tuo team di ingegneria?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_294"
+  },
+  {
+    "english": "Describe your ideal work culture and team dynamics",
+    "context": "Culture fit question",
+    "translations": {
+      "pt-BR": "Descreva sua cultura de trabalho ideal e dinâmica de equipe",
+      "es": "Describe tu cultura de trabajo ideal y dinámica de equipo",
+      "fr": "Décris ta culture de travail idéale et la dynamique d'équipe",
+      "de": "Beschreibe deine ideale Arbeitskultur und Teamdynamik",
+      "it": "Descrivi la tua cultura di lavoro ideale e le dinamiche di team"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_295"
+  },
+  {
+    "english": "How do you validate that your solution meets the original requirements?",
+    "context": "Requirements verification",
+    "translations": {
+      "pt-BR": "Como você valida que sua solução atende aos requisitos originais?",
+      "es": "¿Cómo validas que tu solución cumple con los requisitos originales?",
+      "fr": "Comment valides-tu que ta solution répond aux exigences initiales ?",
+      "de": "Wie überprüfst du, dass deine Lösung die ursprünglichen Anforderungen erfüllt?",
+      "it": "Come validi che la tua soluzione soddisfa i requisiti originali?"
+    },
+    "difficulty": "medium",
+    "category": "interviews",
+    "id": "interviews_296"
+  },
+  {
+    "english": "What's your take on AI-assisted coding tools?",
+    "context": "Modern development tools discussion",
+    "translations": {
+      "pt-BR": "Qual é sua opinião sobre ferramentas de codificação assistidas por IA?",
+      "es": "¿Cuál es tu opinión sobre las herramientas de codificación asistidas por IA?",
+      "fr": "Quelle est ton opinion sur les outils de codage assistés par IA ?",
+      "de": "Was hältst du von KI-gestützten Coding-Tools?",
+      "it": "Qual è la tua opinione sugli strumenti di codifica assistiti dall'IA?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_297"
+  },
+  {
+    "english": "Where do you see yourself in five years in terms of technical growth?",
+    "context": "Career aspirations",
+    "translations": {
+      "pt-BR": "Onde você se vê em cinco anos em termos de crescimento técnico?",
+      "es": "¿Dónde te ves en cinco años en términos de crecimiento técnico?",
+      "fr": "Où te vois-tu dans cinq ans en termes de croissance technique ?",
+      "de": "Wo siehst du dich in fünf Jahren in Bezug auf technisches Wachstum?",
+      "it": "Dove ti vedi tra cinque anni in termini di crescita tecnica?"
+    },
+    "difficulty": "easy",
+    "category": "interviews",
+    "id": "interviews_298"
+  },
+  {
+    "english": "How would you implement a search system with fuzzy matching capabilities?",
+    "context": "Search system design",
+    "translations": {
+      "pt-BR": "Como você implementaria um sistema de busca com capacidade de correspondência fuzzy?",
+      "es": "¿Cómo implementarías un sistema de búsqueda con capacidad de coincidencia difusa?",
+      "fr": "Comment implémenterais-tu un système de recherche avec des capacités de correspondance floue ?",
+      "de": "Wie würdest du ein Suchsystem mit Fuzzy-Matching-Fähigkeiten implementieren?",
+      "it": "Come implementeresti un sistema di ricerca con capacità di corrispondenza fuzzy?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_299"
+  },
+  {
+    "english": "What metrics do you track to measure engineering team productivity?",
+    "context": "Engineering metrics and measurement",
+    "translations": {
+      "pt-BR": "Quais métricas você rastreia para medir produtividade da equipe de engenharia?",
+      "es": "¿Qué métricas rastreas para medir la productividad del equipo de ingeniería?",
+      "fr": "Quelles métriques suis-tu pour mesurer la productivité de l'équipe d'ingénierie ?",
+      "de": "Welche Metriken verfolgst du, um die Produktivität des Engineering-Teams zu messen?",
+      "it": "Quali metriche monitori per misurare la produttività del team di ingegneria?"
+    },
+    "difficulty": "hard",
+    "category": "interviews",
+    "id": "interviews_300"
   }
 ]

@@ -1818,5 +1818,2385 @@
     },
     "difficulty": "hard",
     "category": "documentation"
+  },
+  {
+    "english": "The README should include setup instructions for new developers",
+    "context": "Onboarding documentation",
+    "translations": {
+      "pt-BR": "O README deveria incluir instruções de configuração para novos desenvolvedores",
+      "es": "El README debería incluir instrucciones de configuración para nuevos desarrolladores",
+      "fr": "Le README devrait inclure les instructions de configuration pour les nouveaux développeurs",
+      "de": "Die README sollte Setup-Anleitungen für neue Entwickler enthalten",
+      "it": "Il README dovrebbe includere le istruzioni di configurazione per i nuovi sviluppatori"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_131"
+  },
+  {
+    "english": "Can you add a code example to this API reference?",
+    "context": "Enhancing API documentation",
+    "translations": {
+      "pt-BR": "Pode adicionar um exemplo de código nessa referência da API?",
+      "es": "¿Puedes agregar un ejemplo de código a esta referencia de API?",
+      "fr": "Peux-tu ajouter un exemple de code à cette référence API ?",
+      "de": "Kannst du ein Codebeispiel zu dieser API-Referenz hinzufügen?",
+      "it": "Puoi aggiungere un esempio di codice a questo riferimento API?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_132"
+  },
+  {
+    "english": "The changelog needs to be updated before the release",
+    "context": "Release documentation process",
+    "translations": {
+      "pt-BR": "O changelog precisa ser atualizado antes do lançamento",
+      "es": "El changelog necesita ser actualizado antes del lanzamiento",
+      "fr": "Le changelog doit être mis à jour avant la release",
+      "de": "Das Changelog muss vor dem Release aktualisiert werden",
+      "it": "Il changelog deve essere aggiornato prima del rilascio"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_133"
+  },
+  {
+    "english": "This function is missing its documentation comment",
+    "context": "Adding inline code documentation",
+    "translations": {
+      "pt-BR": "Essa função está sem o comentário de documentação",
+      "es": "Esta función le falta su comentario de documentación",
+      "fr": "Cette fonction n'a pas son commentaire de documentation",
+      "de": "Diese Funktion hat keinen Dokumentationskommentar",
+      "it": "Questa funzione manca del suo commento di documentazione"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_134"
+  },
+  {
+    "english": "We should document the error codes and their meanings",
+    "context": "Creating error reference documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar os códigos de erro e seus significados",
+      "es": "Deberíamos documentar los códigos de error y sus significados",
+      "fr": "On devrait documenter les codes d'erreur et leurs significations",
+      "de": "Wir sollten die Fehlercodes und ihre Bedeutungen dokumentieren",
+      "it": "Dovremmo documentare i codici di errore e i loro significati"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_135"
+  },
+  {
+    "english": "The architecture decision record explains why we chose this approach",
+    "context": "Referencing ADRs",
+    "translations": {
+      "pt-BR": "O registro de decisão de arquitetura explica por que escolhemos essa abordagem",
+      "es": "El registro de decisión de arquitectura explica por qué elegimos este enfoque",
+      "fr": "Le registre de décision d'architecture explique pourquoi on a choisi cette approche",
+      "de": "Das Architecture Decision Record erklärt, warum wir diesen Ansatz gewählt haben",
+      "it": "Il record di decisione architetturale spiega perché abbiamo scelto questo approccio"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_136"
+  },
+  {
+    "english": "Please add the return type description to the docstring",
+    "context": "Completing function documentation",
+    "translations": {
+      "pt-BR": "Por favor adicione a descrição do tipo de retorno na docstring",
+      "es": "Por favor agrega la descripción del tipo de retorno en la docstring",
+      "fr": "Ajoute s'il te plaît la description du type de retour dans la docstring",
+      "de": "Bitte füge die Rückgabetypbeschreibung zur Docstring hinzu",
+      "it": "Per favore aggiungi la descrizione del tipo di ritorno nella docstring"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_137"
+  },
+  {
+    "english": "The migration guide should cover breaking changes step by step",
+    "context": "Writing upgrade documentation",
+    "translations": {
+      "pt-BR": "O guia de migração deveria cobrir as mudanças que quebram passo a passo",
+      "es": "La guía de migración debería cubrir los cambios que rompen paso a paso",
+      "fr": "Le guide de migration devrait couvrir les changements cassants étape par étape",
+      "de": "Der Migrationsleitfaden sollte Breaking Changes Schritt für Schritt behandeln",
+      "it": "La guida alla migrazione dovrebbe coprire i breaking changes passo dopo passo"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_138"
+  },
+  {
+    "english": "I wrote a troubleshooting section for the most common issues",
+    "context": "Creating self-service support docs",
+    "translations": {
+      "pt-BR": "Escrevi uma seção de solução de problemas para os problemas mais comuns",
+      "es": "Escribí una sección de solución de problemas para los problemas más comunes",
+      "fr": "J'ai écrit une section de dépannage pour les problèmes les plus courants",
+      "de": "Ich habe einen Troubleshooting-Abschnitt für die häufigsten Probleme geschrieben",
+      "it": "Ho scritto una sezione di risoluzione dei problemi per i problemi più comuni"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_139"
+  },
+  {
+    "english": "The API endpoint documentation is outdated and needs a refresh",
+    "context": "Updating stale documentation",
+    "translations": {
+      "pt-BR": "A documentação do endpoint da API está desatualizada e precisa de uma atualização",
+      "es": "La documentación del endpoint de la API está desactualizada y necesita una actualización",
+      "fr": "La documentation de l'endpoint API est obsolète et a besoin d'une mise à jour",
+      "de": "Die API-Endpoint-Dokumentation ist veraltet und muss aktualisiert werden",
+      "it": "La documentazione dell'endpoint API è obsoleta e necessita di un aggiornamento"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_140"
+  },
+  {
+    "english": "Let's add a sequence diagram to explain this workflow",
+    "context": "Using visual diagrams in documentation",
+    "translations": {
+      "pt-BR": "Vamos adicionar um diagrama de sequência para explicar esse fluxo de trabalho",
+      "es": "Agreguemos un diagrama de secuencia para explicar este flujo de trabajo",
+      "fr": "Ajoutons un diagramme de séquence pour expliquer ce workflow",
+      "de": "Lass uns ein Sequenzdiagramm hinzufügen, um diesen Workflow zu erklären",
+      "it": "Aggiungiamo un diagramma di sequenza per spiegare questo workflow"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_141"
+  },
+  {
+    "english": "The configuration options should be documented with default values",
+    "context": "Documenting configurable settings",
+    "translations": {
+      "pt-BR": "As opções de configuração devem ser documentadas com valores padrão",
+      "es": "Las opciones de configuración deberían documentarse con valores predeterminados",
+      "fr": "Les options de configuration devraient être documentées avec les valeurs par défaut",
+      "de": "Die Konfigurationsoptionen sollten mit Standardwerten dokumentiert werden",
+      "it": "Le opzioni di configurazione dovrebbero essere documentate con i valori predefiniti"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_142"
+  },
+  {
+    "english": "We need to add deprecation notices to the old API methods",
+    "context": "Marking deprecated functionality",
+    "translations": {
+      "pt-BR": "Precisamos adicionar avisos de depreciação nos métodos antigos da API",
+      "es": "Necesitamos agregar avisos de depreciación a los métodos antiguos de la API",
+      "fr": "On doit ajouter des avis de dépréciation aux anciennes méthodes de l'API",
+      "de": "Wir müssen Deprecation-Hinweise zu den alten API-Methoden hinzufügen",
+      "it": "Dobbiamo aggiungere avvisi di deprecazione ai vecchi metodi dell'API"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_143"
+  },
+  {
+    "english": "The glossary helps new team members understand our terminology",
+    "context": "Creating a project glossary",
+    "translations": {
+      "pt-BR": "O glossário ajuda novos membros da equipe a entender nossa terminologia",
+      "es": "El glosario ayuda a los nuevos miembros del equipo a entender nuestra terminología",
+      "fr": "Le glossaire aide les nouveaux membres de l'équipe à comprendre notre terminologie",
+      "de": "Das Glossar hilft neuen Teammitgliedern, unsere Terminologie zu verstehen",
+      "it": "Il glossario aiuta i nuovi membri del team a capire la nostra terminologia"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_144"
+  },
+  {
+    "english": "Can you review the inline comments for accuracy?",
+    "context": "Reviewing code comments",
+    "translations": {
+      "pt-BR": "Pode revisar os comentários inline quanto à precisão?",
+      "es": "¿Puedes revisar los comentarios inline para verificar su precisión?",
+      "fr": "Peux-tu vérifier l'exactitude des commentaires inline ?",
+      "de": "Kannst du die Inline-Kommentare auf Richtigkeit überprüfen?",
+      "it": "Puoi revisionare i commenti inline per verificarne l'accuratezza?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_145"
+  },
+  {
+    "english": "The user guide needs screenshots of the latest interface",
+    "context": "Updating visual documentation",
+    "translations": {
+      "pt-BR": "O guia do usuário precisa de capturas de tela da interface mais recente",
+      "es": "La guía del usuario necesita capturas de pantalla de la interfaz más reciente",
+      "fr": "Le guide utilisateur a besoin de captures d'écran de la dernière interface",
+      "de": "Das Benutzerhandbuch braucht Screenshots der aktuellen Oberfläche",
+      "it": "La guida utente necessita di screenshot dell'interfaccia più recente"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_146"
+  },
+  {
+    "english": "I added a prerequisites section at the top of the guide",
+    "context": "Setting up documentation structure",
+    "translations": {
+      "pt-BR": "Adicionei uma seção de pré-requisitos no topo do guia",
+      "es": "Agregué una sección de prerrequisitos al inicio de la guía",
+      "fr": "J'ai ajouté une section prérequis en haut du guide",
+      "de": "Ich habe einen Voraussetzungen-Abschnitt oben im Leitfaden hinzugefügt",
+      "it": "Ho aggiunto una sezione prerequisiti in cima alla guida"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_147"
+  },
+  {
+    "english": "The documentation should be versioned alongside the code",
+    "context": "Documentation versioning strategy",
+    "translations": {
+      "pt-BR": "A documentação deveria ser versionada junto com o código",
+      "es": "La documentación debería versionarse junto con el código",
+      "fr": "La documentation devrait être versionnée avec le code",
+      "de": "Die Dokumentation sollte zusammen mit dem Code versioniert werden",
+      "it": "La documentazione dovrebbe essere versionata insieme al codice"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_148"
+  },
+  {
+    "english": "We should add type annotations to improve the documentation clarity",
+    "context": "Using type information for documentation",
+    "translations": {
+      "pt-BR": "Devemos adicionar anotações de tipo para melhorar a clareza da documentação",
+      "es": "Deberíamos agregar anotaciones de tipo para mejorar la claridad de la documentación",
+      "fr": "On devrait ajouter des annotations de type pour améliorer la clarté de la documentation",
+      "de": "Wir sollten Typannotationen hinzufügen, um die Dokumentationsklarheit zu verbessern",
+      "it": "Dovremmo aggiungere annotazioni di tipo per migliorare la chiarezza della documentazione"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_149"
+  },
+  {
+    "english": "The contributing guide outlines how to submit pull requests",
+    "context": "Open source contribution documentation",
+    "translations": {
+      "pt-BR": "O guia de contribuição descreve como enviar pull requests",
+      "es": "La guía de contribución describe cómo enviar pull requests",
+      "fr": "Le guide de contribution décrit comment soumettre des pull requests",
+      "de": "Der Contributing-Leitfaden beschreibt, wie Pull Requests eingereicht werden",
+      "it": "La guida alla contribuzione descrive come inviare pull request"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_150"
+  },
+  {
+    "english": "Let's create a FAQ section based on the most asked questions",
+    "context": "Building FAQ documentation",
+    "translations": {
+      "pt-BR": "Vamos criar uma seção de FAQ baseada nas perguntas mais frequentes",
+      "es": "Creemos una sección de FAQ basada en las preguntas más frecuentes",
+      "fr": "Créons une section FAQ basée sur les questions les plus posées",
+      "de": "Lass uns eine FAQ-Sektion basierend auf den häufigsten Fragen erstellen",
+      "it": "Creiamo una sezione FAQ basata sulle domande più frequenti"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_151"
+  },
+  {
+    "english": "This technical specification needs peer review before publishing",
+    "context": "Documentation review process",
+    "translations": {
+      "pt-BR": "Essa especificação técnica precisa de revisão por pares antes de publicar",
+      "es": "Esta especificación técnica necesita revisión por pares antes de publicar",
+      "fr": "Cette spécification technique a besoin d'une revue par les pairs avant publication",
+      "de": "Diese technische Spezifikation braucht ein Peer-Review vor der Veröffentlichung",
+      "it": "Questa specifica tecnica necessita di revisione tra pari prima della pubblicazione"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_152"
+  },
+  {
+    "english": "The runbook describes how to handle production incidents",
+    "context": "Operations documentation",
+    "translations": {
+      "pt-BR": "O runbook descreve como lidar com incidentes em produção",
+      "es": "El runbook describe cómo manejar incidentes en producción",
+      "fr": "Le runbook décrit comment gérer les incidents en production",
+      "de": "Das Runbook beschreibt, wie Produktionsvorfälle behandelt werden",
+      "it": "Il runbook descrive come gestire gli incidenti in produzione"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_153"
+  },
+  {
+    "english": "I documented the data model relationships in a diagram",
+    "context": "Creating data model documentation",
+    "translations": {
+      "pt-BR": "Documentei os relacionamentos do modelo de dados em um diagrama",
+      "es": "Documenté las relaciones del modelo de datos en un diagrama",
+      "fr": "J'ai documenté les relations du modèle de données dans un diagramme",
+      "de": "Ich habe die Datenmodellbeziehungen in einem Diagramm dokumentiert",
+      "it": "Ho documentato le relazioni del modello dati in un diagramma"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_154"
+  },
+  {
+    "english": "The style guide ensures consistency across the documentation",
+    "context": "Documentation standards",
+    "translations": {
+      "pt-BR": "O guia de estilo garante consistência em toda a documentação",
+      "es": "La guía de estilo asegura consistencia en toda la documentación",
+      "fr": "Le guide de style assure la cohérence dans toute la documentation",
+      "de": "Der Styleguide stellt Konsistenz in der gesamten Dokumentation sicher",
+      "it": "La guida di stile assicura coerenza in tutta la documentazione"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_155"
+  },
+  {
+    "english": "We need to document the authentication flow with examples",
+    "context": "Security documentation",
+    "translations": {
+      "pt-BR": "Precisamos documentar o fluxo de autenticação com exemplos",
+      "es": "Necesitamos documentar el flujo de autenticación con ejemplos",
+      "fr": "On doit documenter le flux d'authentification avec des exemples",
+      "de": "Wir müssen den Authentifizierungsablauf mit Beispielen dokumentieren",
+      "it": "Dobbiamo documentare il flusso di autenticazione con esempi"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_156"
+  },
+  {
+    "english": "The release notes should highlight new features and bug fixes",
+    "context": "Writing release documentation",
+    "translations": {
+      "pt-BR": "As notas de lançamento devem destacar novas funcionalidades e correções de bugs",
+      "es": "Las notas de lanzamiento deben resaltar nuevas funcionalidades y correcciones de bugs",
+      "fr": "Les notes de version devraient mettre en avant les nouvelles fonctionnalités et corrections de bugs",
+      "de": "Die Release Notes sollten neue Funktionen und Bugfixes hervorheben",
+      "it": "Le note di rilascio dovrebbero evidenziare le nuove funzionalità e le correzioni di bug"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_157"
+  },
+  {
+    "english": "Can you write a quick start guide for the SDK?",
+    "context": "Creating getting started documentation",
+    "translations": {
+      "pt-BR": "Pode escrever um guia de início rápido para o SDK?",
+      "es": "¿Puedes escribir una guía de inicio rápido para el SDK?",
+      "fr": "Peux-tu écrire un guide de démarrage rapide pour le SDK ?",
+      "de": "Kannst du eine Schnellstartanleitung für das SDK schreiben?",
+      "it": "Puoi scrivere una guida rapida per il SDK?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_158"
+  },
+  {
+    "english": "The parameter description is missing from the function header",
+    "context": "Completing function documentation",
+    "translations": {
+      "pt-BR": "A descrição do parâmetro está faltando no cabeçalho da função",
+      "es": "La descripción del parámetro falta en el encabezado de la función",
+      "fr": "La description du paramètre manque dans l'en-tête de la fonction",
+      "de": "Die Parameterbeschreibung fehlt im Funktionskopf",
+      "it": "La descrizione del parametro manca dall'header della funzione"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_159"
+  },
+  {
+    "english": "Let's use Swagger to generate the API documentation automatically",
+    "context": "Automated documentation tools",
+    "translations": {
+      "pt-BR": "Vamos usar Swagger para gerar a documentação da API automaticamente",
+      "es": "Usemos Swagger para generar la documentación de la API automáticamente",
+      "fr": "Utilisons Swagger pour générer la documentation API automatiquement",
+      "de": "Lass uns Swagger verwenden, um die API-Dokumentation automatisch zu generieren",
+      "it": "Usiamo Swagger per generare la documentazione API automaticamente"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_160"
+  },
+  {
+    "english": "The onboarding documentation should include common pitfalls",
+    "context": "Helping new team members avoid mistakes",
+    "translations": {
+      "pt-BR": "A documentação de onboarding deveria incluir armadilhas comuns",
+      "es": "La documentación de onboarding debería incluir errores comunes",
+      "fr": "La documentation d'intégration devrait inclure les pièges courants",
+      "de": "Die Onboarding-Dokumentation sollte häufige Fallstricke enthalten",
+      "it": "La documentazione di onboarding dovrebbe includere le insidie comuni"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_161"
+  },
+  {
+    "english": "I noticed the code samples in the docs don't compile anymore",
+    "context": "Maintaining documentation accuracy",
+    "translations": {
+      "pt-BR": "Notei que os exemplos de código nos docs não compilam mais",
+      "es": "Noté que los ejemplos de código en los docs ya no compilan",
+      "fr": "J'ai remarqué que les exemples de code dans la doc ne compilent plus",
+      "de": "Mir ist aufgefallen, dass die Codebeispiele in der Doku nicht mehr kompilieren",
+      "it": "Ho notato che gli esempi di codice nella documentazione non compilano più"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_162"
+  },
+  {
+    "english": "We should add a data dictionary for the database tables",
+    "context": "Database documentation",
+    "translations": {
+      "pt-BR": "Devemos adicionar um dicionário de dados para as tabelas do banco",
+      "es": "Deberíamos agregar un diccionario de datos para las tablas de la base de datos",
+      "fr": "On devrait ajouter un dictionnaire de données pour les tables de la base de données",
+      "de": "Wir sollten ein Datenwörterbuch für die Datenbanktabellen hinzufügen",
+      "it": "Dovremmo aggiungere un dizionario dei dati per le tabelle del database"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_163"
+  },
+  {
+    "english": "The README badges show the build status and test coverage",
+    "context": "Adding status badges to documentation",
+    "translations": {
+      "pt-BR": "Os badges do README mostram o status do build e cobertura de testes",
+      "es": "Los badges del README muestran el estado del build y cobertura de pruebas",
+      "fr": "Les badges du README montrent le statut du build et la couverture de tests",
+      "de": "Die README-Badges zeigen den Build-Status und die Testabdeckung",
+      "it": "I badge del README mostrano lo stato della build e la copertura dei test"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_164"
+  },
+  {
+    "english": "Let's document the environment variables required to run the app",
+    "context": "Configuration documentation",
+    "translations": {
+      "pt-BR": "Vamos documentar as variáveis de ambiente necessárias para rodar o app",
+      "es": "Documentemos las variables de entorno necesarias para ejecutar la app",
+      "fr": "Documentons les variables d'environnement nécessaires pour exécuter l'app",
+      "de": "Lass uns die Umgebungsvariablen dokumentieren, die zum Ausführen der App benötigt werden",
+      "it": "Documentiamo le variabili d'ambiente necessarie per eseguire l'app"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_165"
+  },
+  {
+    "english": "The API rate limits should be clearly documented for consumers",
+    "context": "Documenting API constraints",
+    "translations": {
+      "pt-BR": "Os limites de taxa da API devem ser claramente documentados para os consumidores",
+      "es": "Los límites de tasa de la API deberían documentarse claramente para los consumidores",
+      "fr": "Les limites de taux de l'API devraient être clairement documentées pour les consommateurs",
+      "de": "Die API-Rate-Limits sollten für Verbraucher klar dokumentiert sein",
+      "it": "I rate limit dell'API dovrebbero essere chiaramente documentati per i consumatori"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_166"
+  },
+  {
+    "english": "I created a decision log to track our architectural choices",
+    "context": "Recording project decisions",
+    "translations": {
+      "pt-BR": "Criei um log de decisões para rastrear nossas escolhas arquiteturais",
+      "es": "Creé un registro de decisiones para rastrear nuestras elecciones arquitecturales",
+      "fr": "J'ai créé un journal de décisions pour suivre nos choix architecturaux",
+      "de": "Ich habe ein Entscheidungsprotokoll erstellt, um unsere Architekturentscheidungen zu verfolgen",
+      "it": "Ho creato un registro delle decisioni per tracciare le nostre scelte architetturali"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_167"
+  },
+  {
+    "english": "The deployment guide covers all the steps from staging to production",
+    "context": "Deployment process documentation",
+    "translations": {
+      "pt-BR": "O guia de deploy cobre todos os passos do staging até a produção",
+      "es": "La guía de despliegue cubre todos los pasos desde staging hasta producción",
+      "fr": "Le guide de déploiement couvre toutes les étapes du staging à la production",
+      "de": "Der Deployment-Leitfaden deckt alle Schritte von Staging bis Produktion ab",
+      "it": "La guida al deployment copre tutti i passaggi dallo staging alla produzione"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_168"
+  },
+  {
+    "english": "We should document the retry policy for failed API calls",
+    "context": "Documenting resilience patterns",
+    "translations": {
+      "pt-BR": "Devemos documentar a política de retry para chamadas de API falhas",
+      "es": "Deberíamos documentar la política de reintento para llamadas de API fallidas",
+      "fr": "On devrait documenter la politique de retry pour les appels API échoués",
+      "de": "Wir sollten die Retry-Richtlinie für fehlgeschlagene API-Aufrufe dokumentieren",
+      "it": "Dovremmo documentare la politica di retry per le chiamate API fallite"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_169"
+  },
+  {
+    "english": "The class diagram needs to be updated after the refactoring",
+    "context": "Keeping diagrams in sync with code",
+    "translations": {
+      "pt-BR": "O diagrama de classes precisa ser atualizado após a refatoração",
+      "es": "El diagrama de clases necesita ser actualizado después de la refactorización",
+      "fr": "Le diagramme de classes doit être mis à jour après le refactoring",
+      "de": "Das Klassendiagramm muss nach dem Refactoring aktualisiert werden",
+      "it": "Il diagramma delle classi deve essere aggiornato dopo il refactoring"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_170"
+  },
+  {
+    "english": "Can you add usage examples for each public method?",
+    "context": "Creating comprehensive method documentation",
+    "translations": {
+      "pt-BR": "Pode adicionar exemplos de uso para cada método público?",
+      "es": "¿Puedes agregar ejemplos de uso para cada método público?",
+      "fr": "Peux-tu ajouter des exemples d'utilisation pour chaque méthode publique ?",
+      "de": "Kannst du Nutzungsbeispiele für jede öffentliche Methode hinzufügen?",
+      "it": "Puoi aggiungere esempi di utilizzo per ogni metodo pubblico?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_171"
+  },
+  {
+    "english": "The documentation should explain the rationale behind each design decision",
+    "context": "Documenting the why, not just the what",
+    "translations": {
+      "pt-BR": "A documentação deveria explicar a justificativa por trás de cada decisão de design",
+      "es": "La documentación debería explicar la justificación detrás de cada decisión de diseño",
+      "fr": "La documentation devrait expliquer la raison derrière chaque décision de design",
+      "de": "Die Dokumentation sollte die Begründung hinter jeder Designentscheidung erklären",
+      "it": "La documentazione dovrebbe spiegare la motivazione dietro ogni decisione di design"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_172"
+  },
+  {
+    "english": "I wrote a tutorial that walks through building a feature from scratch",
+    "context": "Creating tutorial documentation",
+    "translations": {
+      "pt-BR": "Escrevi um tutorial que guia pela construção de uma funcionalidade do zero",
+      "es": "Escribí un tutorial que guía a través de la construcción de una funcionalidad desde cero",
+      "fr": "J'ai écrit un tutoriel qui guide à travers la construction d'une fonctionnalité de zéro",
+      "de": "Ich habe ein Tutorial geschrieben, das durch den Aufbau eines Features von Grund auf führt",
+      "it": "Ho scritto un tutorial che guida attraverso la costruzione di una funzionalità da zero"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_173"
+  },
+  {
+    "english": "The API versioning strategy is explained in the developer guide",
+    "context": "Referencing versioning docs",
+    "translations": {
+      "pt-BR": "A estratégia de versionamento da API é explicada no guia do desenvolvedor",
+      "es": "La estrategia de versionamiento de la API se explica en la guía del desarrollador",
+      "fr": "La stratégie de versionnement de l'API est expliquée dans le guide développeur",
+      "de": "Die API-Versionierungsstrategie wird im Entwicklerhandbuch erklärt",
+      "it": "La strategia di versionamento dell'API è spiegata nella guida sviluppatore"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_174"
+  },
+  {
+    "english": "Let's add a table of contents to make the document easier to navigate",
+    "context": "Improving documentation navigation",
+    "translations": {
+      "pt-BR": "Vamos adicionar um sumário para facilitar a navegação no documento",
+      "es": "Agreguemos una tabla de contenidos para facilitar la navegación del documento",
+      "fr": "Ajoutons une table des matières pour faciliter la navigation du document",
+      "de": "Lass uns ein Inhaltsverzeichnis hinzufügen, um die Navigation im Dokument zu erleichtern",
+      "it": "Aggiungiamo un indice per facilitare la navigazione del documento"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_175"
+  },
+  {
+    "english": "The security documentation should cover threat models and mitigations",
+    "context": "Security-focused documentation",
+    "translations": {
+      "pt-BR": "A documentação de segurança deveria cobrir modelos de ameaças e mitigações",
+      "es": "La documentación de seguridad debería cubrir modelos de amenazas y mitigaciones",
+      "fr": "La documentation de sécurité devrait couvrir les modèles de menaces et les atténuations",
+      "de": "Die Sicherheitsdokumentation sollte Bedrohungsmodelle und Gegenmaßnahmen abdecken",
+      "it": "La documentazione di sicurezza dovrebbe coprire i modelli di minaccia e le mitigazioni"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_176"
+  },
+  {
+    "english": "Please update the installation instructions for the latest version",
+    "context": "Keeping setup docs current",
+    "translations": {
+      "pt-BR": "Por favor atualize as instruções de instalação para a versão mais recente",
+      "es": "Por favor actualiza las instrucciones de instalación para la última versión",
+      "fr": "Mets à jour les instructions d'installation pour la dernière version s'il te plaît",
+      "de": "Bitte aktualisiere die Installationsanleitung für die neueste Version",
+      "it": "Per favore aggiorna le istruzioni di installazione per l'ultima versione"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_177"
+  },
+  {
+    "english": "The testing strategy document outlines our quality assurance approach",
+    "context": "QA documentation",
+    "translations": {
+      "pt-BR": "O documento de estratégia de testes descreve nossa abordagem de garantia de qualidade",
+      "es": "El documento de estrategia de pruebas describe nuestro enfoque de aseguramiento de calidad",
+      "fr": "Le document de stratégie de test décrit notre approche d'assurance qualité",
+      "de": "Das Teststrategiedokument beschreibt unseren Qualitätssicherungsansatz",
+      "it": "Il documento di strategia di test descrive il nostro approccio di garanzia della qualità"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_178"
+  },
+  {
+    "english": "We should add cross-references between related documentation pages",
+    "context": "Linking documentation together",
+    "translations": {
+      "pt-BR": "Devemos adicionar referências cruzadas entre páginas de documentação relacionadas",
+      "es": "Deberíamos agregar referencias cruzadas entre páginas de documentación relacionadas",
+      "fr": "On devrait ajouter des références croisées entre les pages de documentation liées",
+      "de": "Wir sollten Querverweise zwischen verwandten Dokumentationsseiten hinzufügen",
+      "it": "Dovremmo aggiungere riferimenti incrociati tra le pagine di documentazione correlate"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_179"
+  },
+  {
+    "english": "The code review checklist should be part of the documentation",
+    "context": "Standardizing review processes",
+    "translations": {
+      "pt-BR": "O checklist de code review deveria fazer parte da documentação",
+      "es": "La lista de verificación de code review debería ser parte de la documentación",
+      "fr": "La checklist de revue de code devrait faire partie de la documentation",
+      "de": "Die Code-Review-Checkliste sollte Teil der Dokumentation sein",
+      "it": "La checklist di code review dovrebbe far parte della documentazione"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_180"
+  },
+  {
+    "english": "I added examples showing both success and error response formats",
+    "context": "Documenting API response formats",
+    "translations": {
+      "pt-BR": "Adicionei exemplos mostrando os formatos de resposta de sucesso e erro",
+      "es": "Agregué ejemplos mostrando los formatos de respuesta de éxito y error",
+      "fr": "J'ai ajouté des exemples montrant les formats de réponse de succès et d'erreur",
+      "de": "Ich habe Beispiele hinzugefügt, die sowohl Erfolgs- als auch Fehlerantwortformate zeigen",
+      "it": "Ho aggiunto esempi che mostrano i formati di risposta sia di successo che di errore"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_181"
+  },
+  {
+    "english": "The performance benchmarks should be documented for each release",
+    "context": "Tracking performance metrics in docs",
+    "translations": {
+      "pt-BR": "Os benchmarks de performance devem ser documentados para cada lançamento",
+      "es": "Los benchmarks de rendimiento deben documentarse para cada lanzamiento",
+      "fr": "Les benchmarks de performance devraient être documentés pour chaque release",
+      "de": "Die Performance-Benchmarks sollten für jedes Release dokumentiert werden",
+      "it": "I benchmark delle prestazioni dovrebbero essere documentati per ogni rilascio"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_182"
+  },
+  {
+    "english": "Let's keep the documentation language simple and avoid jargon",
+    "context": "Writing accessible documentation",
+    "translations": {
+      "pt-BR": "Vamos manter a linguagem da documentação simples e evitar jargão",
+      "es": "Mantengamos el lenguaje de la documentación simple y evitemos jerga",
+      "fr": "Gardons le langage de la documentation simple et évitons le jargon",
+      "de": "Lass uns die Dokumentationssprache einfach halten und Fachjargon vermeiden",
+      "it": "Manteniamo il linguaggio della documentazione semplice ed evitiamo il gergo"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_183"
+  },
+  {
+    "english": "The webhook documentation needs to include payload examples",
+    "context": "Documenting webhook integrations",
+    "translations": {
+      "pt-BR": "A documentação de webhooks precisa incluir exemplos de payload",
+      "es": "La documentación de webhooks necesita incluir ejemplos de payload",
+      "fr": "La documentation des webhooks doit inclure des exemples de payload",
+      "de": "Die Webhook-Dokumentation muss Payload-Beispiele enthalten",
+      "it": "La documentazione dei webhook deve includere esempi di payload"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_184"
+  },
+  {
+    "english": "We documented the design system with component specifications",
+    "context": "Design system documentation",
+    "translations": {
+      "pt-BR": "Documentamos o design system com especificações de componentes",
+      "es": "Documentamos el design system con especificaciones de componentes",
+      "fr": "Nous avons documenté le design system avec les spécifications des composants",
+      "de": "Wir haben das Design System mit Komponentenspezifikationen dokumentiert",
+      "it": "Abbiamo documentato il design system con le specifiche dei componenti"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_185"
+  },
+  {
+    "english": "The dependency list should include version requirements and licenses",
+    "context": "Documenting project dependencies",
+    "translations": {
+      "pt-BR": "A lista de dependências deveria incluir requisitos de versão e licenças",
+      "es": "La lista de dependencias debería incluir requisitos de versión y licencias",
+      "fr": "La liste des dépendances devrait inclure les exigences de version et les licences",
+      "de": "Die Abhängigkeitsliste sollte Versionsanforderungen und Lizenzen enthalten",
+      "it": "La lista delle dipendenze dovrebbe includere i requisiti di versione e le licenze"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_186"
+  },
+  {
+    "english": "I documented the caching strategy and invalidation rules",
+    "context": "Cache architecture documentation",
+    "translations": {
+      "pt-BR": "Documentei a estratégia de cache e as regras de invalidação",
+      "es": "Documenté la estrategia de caché y las reglas de invalidación",
+      "fr": "J'ai documenté la stratégie de cache et les règles d'invalidation",
+      "de": "Ich habe die Caching-Strategie und Invalidierungsregeln dokumentiert",
+      "it": "Ho documentato la strategia di caching e le regole di invalidazione"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_187"
+  },
+  {
+    "english": "The documentation should include accessibility guidelines for the UI",
+    "context": "Accessibility documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria incluir diretrizes de acessibilidade para a UI",
+      "es": "La documentación debería incluir directrices de accesibilidad para la UI",
+      "fr": "La documentation devrait inclure les directives d'accessibilité pour l'UI",
+      "de": "Die Dokumentation sollte Barrierefreiheitsrichtlinien für die UI enthalten",
+      "it": "La documentazione dovrebbe includere le linee guida sull'accessibilità per la UI"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_188"
+  },
+  {
+    "english": "Let's add a known issues section to the release notes",
+    "context": "Documenting known limitations",
+    "translations": {
+      "pt-BR": "Vamos adicionar uma seção de problemas conhecidos nas notas de lançamento",
+      "es": "Agreguemos una sección de problemas conocidos en las notas de lanzamiento",
+      "fr": "Ajoutons une section problèmes connus dans les notes de version",
+      "de": "Lass uns einen Abschnitt für bekannte Probleme zu den Release Notes hinzufügen",
+      "it": "Aggiungiamo una sezione problemi noti alle note di rilascio"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_189"
+  },
+  {
+    "english": "The monitoring and alerting setup is documented in the ops guide",
+    "context": "Operations documentation",
+    "translations": {
+      "pt-BR": "A configuração de monitoramento e alertas está documentada no guia de operações",
+      "es": "La configuración de monitoreo y alertas está documentada en la guía de operaciones",
+      "fr": "La configuration de monitoring et d'alertes est documentée dans le guide ops",
+      "de": "Das Monitoring- und Alerting-Setup ist im Ops-Guide dokumentiert",
+      "it": "La configurazione di monitoraggio e alerting è documentata nella guida operativa"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_190"
+  },
+  {
+    "english": "We need to update the architecture overview after adding the new service",
+    "context": "Maintaining system architecture docs",
+    "translations": {
+      "pt-BR": "Precisamos atualizar a visão geral da arquitetura após adicionar o novo serviço",
+      "es": "Necesitamos actualizar la vista general de la arquitectura después de agregar el nuevo servicio",
+      "fr": "On doit mettre à jour la vue d'ensemble de l'architecture après l'ajout du nouveau service",
+      "de": "Wir müssen die Architekturübersicht nach dem Hinzufügen des neuen Service aktualisieren",
+      "it": "Dobbiamo aggiornare la panoramica dell'architettura dopo aver aggiunto il nuovo servizio"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_191"
+  },
+  {
+    "english": "The API changelog tracks all breaking and non-breaking changes",
+    "context": "API change management documentation",
+    "translations": {
+      "pt-BR": "O changelog da API rastreia todas as mudanças que quebram e que não quebram",
+      "es": "El changelog de la API rastrea todos los cambios que rompen y que no rompen",
+      "fr": "Le changelog de l'API suit tous les changements cassants et non cassants",
+      "de": "Das API-Changelog verfolgt alle Breaking und Non-Breaking Changes",
+      "it": "Il changelog dell'API traccia tutti i cambiamenti breaking e non-breaking"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_192"
+  },
+  {
+    "english": "Can you proofread the documentation for grammar and spelling?",
+    "context": "Documentation quality review",
+    "translations": {
+      "pt-BR": "Pode revisar a documentação quanto à gramática e ortografia?",
+      "es": "¿Puedes revisar la documentación en cuanto a gramática y ortografía?",
+      "fr": "Peux-tu relire la documentation pour la grammaire et l'orthographe ?",
+      "de": "Kannst du die Dokumentation auf Grammatik und Rechtschreibung überprüfen?",
+      "it": "Puoi revisionare la documentazione per grammatica e ortografia?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_193"
+  },
+  {
+    "english": "The integration guide explains how to connect with third-party services",
+    "context": "Third-party integration documentation",
+    "translations": {
+      "pt-BR": "O guia de integração explica como conectar com serviços de terceiros",
+      "es": "La guía de integración explica cómo conectar con servicios de terceros",
+      "fr": "Le guide d'intégration explique comment se connecter aux services tiers",
+      "de": "Der Integrationsleitfaden erklärt, wie man sich mit Drittanbieter-Diensten verbindet",
+      "it": "La guida all'integrazione spiega come collegarsi con servizi di terze parti"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_194"
+  },
+  {
+    "english": "Let's document the feature flags and how they affect behavior",
+    "context": "Feature flag documentation",
+    "translations": {
+      "pt-BR": "Vamos documentar as feature flags e como elas afetam o comportamento",
+      "es": "Documentemos las feature flags y cómo afectan el comportamiento",
+      "fr": "Documentons les feature flags et comment ils affectent le comportement",
+      "de": "Lass uns die Feature-Flags und ihre Auswirkungen auf das Verhalten dokumentieren",
+      "it": "Documentiamo le feature flag e come influenzano il comportamento"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_195"
+  },
+  {
+    "english": "The SLA documentation specifies uptime and response time guarantees",
+    "context": "Service level agreement documentation",
+    "translations": {
+      "pt-BR": "A documentação de SLA especifica garantias de uptime e tempo de resposta",
+      "es": "La documentación de SLA especifica garantías de uptime y tiempo de respuesta",
+      "fr": "La documentation SLA spécifie les garanties de disponibilité et de temps de réponse",
+      "de": "Die SLA-Dokumentation spezifiziert Uptime- und Antwortzeitgarantien",
+      "it": "La documentazione SLA specifica le garanzie di uptime e tempo di risposta"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_196"
+  },
+  {
+    "english": "I added a section on how to run the project locally",
+    "context": "Local development documentation",
+    "translations": {
+      "pt-BR": "Adicionei uma seção sobre como rodar o projeto localmente",
+      "es": "Agregué una sección sobre cómo ejecutar el proyecto localmente",
+      "fr": "J'ai ajouté une section sur comment exécuter le projet localement",
+      "de": "Ich habe einen Abschnitt hinzugefügt, wie man das Projekt lokal ausführt",
+      "it": "Ho aggiunto una sezione su come eseguire il progetto localmente"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_197"
+  },
+  {
+    "english": "The data flow documentation shows how information moves through the system",
+    "context": "System data flow documentation",
+    "translations": {
+      "pt-BR": "A documentação de fluxo de dados mostra como a informação se move pelo sistema",
+      "es": "La documentación de flujo de datos muestra cómo la información se mueve por el sistema",
+      "fr": "La documentation du flux de données montre comment l'information circule dans le système",
+      "de": "Die Datenflussdokumentation zeigt, wie Informationen durch das System fließen",
+      "it": "La documentazione del flusso dati mostra come le informazioni si muovono attraverso il sistema"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_198"
+  },
+  {
+    "english": "We should document the backup and recovery procedures",
+    "context": "Disaster recovery documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar os procedimentos de backup e recuperação",
+      "es": "Deberíamos documentar los procedimientos de respaldo y recuperación",
+      "fr": "On devrait documenter les procédures de sauvegarde et de récupération",
+      "de": "Wir sollten die Backup- und Wiederherstellungsverfahren dokumentieren",
+      "it": "Dovremmo documentare le procedure di backup e ripristino"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_199"
+  },
+  {
+    "english": "The error handling guide documents how errors propagate through layers",
+    "context": "Error handling architecture documentation",
+    "translations": {
+      "pt-BR": "O guia de tratamento de erros documenta como os erros se propagam pelas camadas",
+      "es": "La guía de manejo de errores documenta cómo los errores se propagan por las capas",
+      "fr": "Le guide de gestion des erreurs documente comment les erreurs se propagent à travers les couches",
+      "de": "Der Fehlerbehandlungsleitfaden dokumentiert, wie Fehler durch die Schichten propagieren",
+      "it": "La guida alla gestione degli errori documenta come gli errori si propagano attraverso i layer"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_200"
+  },
+  {
+    "english": "Can you add a comparison table between the free and premium features?",
+    "context": "Feature comparison documentation",
+    "translations": {
+      "pt-BR": "Pode adicionar uma tabela comparativa entre as funcionalidades free e premium?",
+      "es": "¿Puedes agregar una tabla comparativa entre las funcionalidades free y premium?",
+      "fr": "Peux-tu ajouter un tableau comparatif entre les fonctionnalités gratuites et premium ?",
+      "de": "Kannst du eine Vergleichstabelle zwischen den kostenlosen und Premium-Funktionen hinzufügen?",
+      "it": "Puoi aggiungere una tabella comparativa tra le funzionalità free e premium?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_201"
+  },
+  {
+    "english": "The API documentation should include request and response headers",
+    "context": "Complete API documentation",
+    "translations": {
+      "pt-BR": "A documentação da API deveria incluir headers de requisição e resposta",
+      "es": "La documentación de la API debería incluir headers de solicitud y respuesta",
+      "fr": "La documentation API devrait inclure les en-têtes de requête et de réponse",
+      "de": "Die API-Dokumentation sollte Anfrage- und Antwort-Header enthalten",
+      "it": "La documentazione API dovrebbe includere gli header di richiesta e risposta"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_202"
+  },
+  {
+    "english": "Let's create a cheat sheet with the most common commands",
+    "context": "Quick reference documentation",
+    "translations": {
+      "pt-BR": "Vamos criar um cheat sheet com os comandos mais comuns",
+      "es": "Creemos una hoja de trucos con los comandos más comunes",
+      "fr": "Créons une aide-mémoire avec les commandes les plus courantes",
+      "de": "Lass uns ein Cheat Sheet mit den häufigsten Befehlen erstellen",
+      "it": "Creiamo un cheat sheet con i comandi più comuni"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_203"
+  },
+  {
+    "english": "The network layer documentation explains the request pipeline",
+    "context": "Documenting network architecture",
+    "translations": {
+      "pt-BR": "A documentação da camada de rede explica o pipeline de requisições",
+      "es": "La documentación de la capa de red explica el pipeline de solicitudes",
+      "fr": "La documentation de la couche réseau explique le pipeline de requêtes",
+      "de": "Die Netzwerkschicht-Dokumentation erklärt die Anfrage-Pipeline",
+      "it": "La documentazione del layer di rete spiega la pipeline delle richieste"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_204"
+  },
+  {
+    "english": "I documented the localization workflow for adding new languages",
+    "context": "Internationalization process documentation",
+    "translations": {
+      "pt-BR": "Documentei o fluxo de trabalho de localização para adicionar novos idiomas",
+      "es": "Documenté el flujo de trabajo de localización para agregar nuevos idiomas",
+      "fr": "J'ai documenté le workflow de localisation pour ajouter de nouvelles langues",
+      "de": "Ich habe den Lokalisierungsworkflow zum Hinzufügen neuer Sprachen dokumentiert",
+      "it": "Ho documentato il workflow di localizzazione per aggiungere nuove lingue"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_205"
+  },
+  {
+    "english": "The coding standards document should be the first thing new developers read",
+    "context": "Establishing coding conventions",
+    "translations": {
+      "pt-BR": "O documento de padrões de código deveria ser a primeira coisa que novos desenvolvedores leem",
+      "es": "El documento de estándares de código debería ser lo primero que lean los nuevos desarrolladores",
+      "fr": "Le document de standards de code devrait être la première chose que les nouveaux développeurs lisent",
+      "de": "Das Coding-Standards-Dokument sollte das Erste sein, was neue Entwickler lesen",
+      "it": "Il documento degli standard di codifica dovrebbe essere la prima cosa che i nuovi sviluppatori leggono"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_206"
+  },
+  {
+    "english": "We need inline documentation for the complex business logic",
+    "context": "Documenting domain-specific code",
+    "translations": {
+      "pt-BR": "Precisamos de documentação inline para a lógica de negócio complexa",
+      "es": "Necesitamos documentación inline para la lógica de negocio compleja",
+      "fr": "On a besoin de documentation inline pour la logique métier complexe",
+      "de": "Wir brauchen Inline-Dokumentation für die komplexe Geschäftslogik",
+      "it": "Abbiamo bisogno di documentazione inline per la logica di business complessa"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_207"
+  },
+  {
+    "english": "The infrastructure as code templates are documented in the DevOps guide",
+    "context": "Infrastructure documentation",
+    "translations": {
+      "pt-BR": "Os templates de infraestrutura como código são documentados no guia de DevOps",
+      "es": "Las plantillas de infraestructura como código están documentadas en la guía de DevOps",
+      "fr": "Les templates d'infrastructure as code sont documentés dans le guide DevOps",
+      "de": "Die Infrastructure-as-Code-Templates sind im DevOps-Guide dokumentiert",
+      "it": "I template di infrastructure as code sono documentati nella guida DevOps"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_208"
+  },
+  {
+    "english": "Can you update the entity relationship diagram with the new tables?",
+    "context": "Maintaining database diagrams",
+    "translations": {
+      "pt-BR": "Pode atualizar o diagrama de entidade-relacionamento com as novas tabelas?",
+      "es": "¿Puedes actualizar el diagrama de entidad-relación con las nuevas tablas?",
+      "fr": "Peux-tu mettre à jour le diagramme entité-relation avec les nouvelles tables ?",
+      "de": "Kannst du das Entity-Relationship-Diagramm mit den neuen Tabellen aktualisieren?",
+      "it": "Puoi aggiornare il diagramma entità-relazione con le nuove tabelle?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_209"
+  },
+  {
+    "english": "The documentation search needs to be indexed for better discoverability",
+    "context": "Improving documentation search",
+    "translations": {
+      "pt-BR": "A busca na documentação precisa ser indexada para melhor descoberta",
+      "es": "La búsqueda en la documentación necesita ser indexada para mejor descubrimiento",
+      "fr": "La recherche dans la documentation doit être indexée pour une meilleure découvrabilité",
+      "de": "Die Dokumentationssuche muss für bessere Auffindbarkeit indexiert werden",
+      "it": "La ricerca nella documentazione deve essere indicizzata per una migliore scopribilità"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_210"
+  },
+  {
+    "english": "Let's add a section about the development workflow and branching strategy",
+    "context": "Git workflow documentation",
+    "translations": {
+      "pt-BR": "Vamos adicionar uma seção sobre o fluxo de desenvolvimento e estratégia de branches",
+      "es": "Agreguemos una sección sobre el flujo de desarrollo y estrategia de ramas",
+      "fr": "Ajoutons une section sur le workflow de développement et la stratégie de branches",
+      "de": "Lass uns einen Abschnitt über den Entwicklungsworkflow und die Branching-Strategie hinzufügen",
+      "it": "Aggiungiamo una sezione sul workflow di sviluppo e la strategia di branching"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_211"
+  },
+  {
+    "english": "The compliance documentation tracks all regulatory requirements we meet",
+    "context": "Regulatory compliance docs",
+    "translations": {
+      "pt-BR": "A documentação de conformidade rastreia todos os requisitos regulatórios que atendemos",
+      "es": "La documentación de cumplimiento rastrea todos los requisitos regulatorios que cumplimos",
+      "fr": "La documentation de conformité suit toutes les exigences réglementaires que nous respectons",
+      "de": "Die Compliance-Dokumentation verfolgt alle regulatorischen Anforderungen, die wir erfüllen",
+      "it": "La documentazione di conformità traccia tutti i requisiti normativi che soddisfiamo"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_212"
+  },
+  {
+    "english": "We should keep a log of all the technical debt we identify",
+    "context": "Technical debt tracking docs",
+    "translations": {
+      "pt-BR": "Devemos manter um registro de toda a dívida técnica que identificamos",
+      "es": "Deberíamos mantener un registro de toda la deuda técnica que identificamos",
+      "fr": "On devrait tenir un journal de toute la dette technique qu'on identifie",
+      "de": "Wir sollten ein Protokoll über alle identifizierten technischen Schulden führen",
+      "it": "Dovremmo tenere un registro di tutto il debito tecnico che identifichiamo"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_213"
+  },
+  {
+    "english": "The load testing results should be attached to the documentation",
+    "context": "Performance test documentation",
+    "translations": {
+      "pt-BR": "Os resultados de testes de carga devem ser anexados à documentação",
+      "es": "Los resultados de pruebas de carga deben adjuntarse a la documentación",
+      "fr": "Les résultats des tests de charge devraient être joints à la documentation",
+      "de": "Die Lasttestergebnisse sollten der Dokumentation beigefügt werden",
+      "it": "I risultati dei test di carico dovrebbero essere allegati alla documentazione"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_214"
+  },
+  {
+    "english": "Can you document the data retention policy for user information?",
+    "context": "Privacy policy documentation",
+    "translations": {
+      "pt-BR": "Pode documentar a política de retenção de dados para informações do usuário?",
+      "es": "¿Puedes documentar la política de retención de datos para información del usuario?",
+      "fr": "Peux-tu documenter la politique de rétention des données pour les informations utilisateur ?",
+      "de": "Kannst du die Datenaufbewahrungsrichtlinie für Benutzerinformationen dokumentieren?",
+      "it": "Puoi documentare la politica di conservazione dei dati per le informazioni utente?"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_215"
+  },
+  {
+    "english": "The API sandbox documentation helps developers test without affecting production",
+    "context": "Sandbox environment docs",
+    "translations": {
+      "pt-BR": "A documentação do sandbox da API ajuda desenvolvedores a testar sem afetar produção",
+      "es": "La documentación del sandbox de la API ayuda a los desarrolladores a probar sin afectar producción",
+      "fr": "La documentation du sandbox API aide les développeurs à tester sans affecter la production",
+      "de": "Die API-Sandbox-Dokumentation hilft Entwicklern, ohne Auswirkungen auf die Produktion zu testen",
+      "it": "La documentazione della sandbox API aiuta gli sviluppatori a testare senza influenzare la produzione"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_216"
+  },
+  {
+    "english": "I created a decision matrix for the technology selection",
+    "context": "Technology evaluation documentation",
+    "translations": {
+      "pt-BR": "Criei uma matriz de decisão para a seleção de tecnologia",
+      "es": "Creé una matriz de decisión para la selección de tecnología",
+      "fr": "J'ai créé une matrice de décision pour la sélection technologique",
+      "de": "Ich habe eine Entscheidungsmatrix für die Technologieauswahl erstellt",
+      "it": "Ho creato una matrice decisionale per la selezione della tecnologia"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_217"
+  },
+  {
+    "english": "The auto-generated documentation needs manual review for accuracy",
+    "context": "Validating auto-generated docs",
+    "translations": {
+      "pt-BR": "A documentação gerada automaticamente precisa de revisão manual para precisão",
+      "es": "La documentación generada automáticamente necesita revisión manual para precisión",
+      "fr": "La documentation générée automatiquement a besoin d'une revue manuelle pour l'exactitude",
+      "de": "Die automatisch generierte Dokumentation braucht eine manuelle Überprüfung auf Richtigkeit",
+      "it": "La documentazione generata automaticamente necessita di revisione manuale per l'accuratezza"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_218"
+  },
+  {
+    "english": "Let's create a video walkthrough for the complex setup process",
+    "context": "Creating video documentation",
+    "translations": {
+      "pt-BR": "Vamos criar um vídeo tutorial para o processo de configuração complexo",
+      "es": "Creemos un video tutorial para el proceso de configuración complejo",
+      "fr": "Créons une vidéo explicative pour le processus de configuration complexe",
+      "de": "Lass uns ein Video-Walkthrough für den komplexen Setup-Prozess erstellen",
+      "it": "Creiamo un video tutorial per il processo di configurazione complesso"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_219"
+  },
+  {
+    "english": "The documentation template standardizes how we write new guides",
+    "context": "Documentation templates",
+    "translations": {
+      "pt-BR": "O template de documentação padroniza como escrevemos novos guias",
+      "es": "La plantilla de documentación estandariza cómo escribimos nuevas guías",
+      "fr": "Le template de documentation standardise comment on écrit les nouveaux guides",
+      "de": "Die Dokumentationsvorlage standardisiert, wie wir neue Leitfäden schreiben",
+      "it": "Il template di documentazione standardizza come scriviamo nuove guide"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_220"
+  },
+  {
+    "english": "We should include network topology diagrams in the infrastructure docs",
+    "context": "Network architecture documentation",
+    "translations": {
+      "pt-BR": "Devemos incluir diagramas de topologia de rede nos docs de infraestrutura",
+      "es": "Deberíamos incluir diagramas de topología de red en los docs de infraestructura",
+      "fr": "On devrait inclure des diagrammes de topologie réseau dans la doc d'infrastructure",
+      "de": "Wir sollten Netzwerktopologie-Diagramme in die Infrastruktur-Doku aufnehmen",
+      "it": "Dovremmo includere diagrammi di topologia di rete nella documentazione dell'infrastruttura"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_221"
+  },
+  {
+    "english": "The API pagination documentation should show cursor-based and offset examples",
+    "context": "Pagination documentation",
+    "translations": {
+      "pt-BR": "A documentação de paginação da API deveria mostrar exemplos baseados em cursor e offset",
+      "es": "La documentación de paginación de la API debería mostrar ejemplos basados en cursor y offset",
+      "fr": "La documentation de pagination de l'API devrait montrer des exemples basés sur curseur et offset",
+      "de": "Die API-Paginierungsdokumentation sollte Cursor-basierte und Offset-Beispiele zeigen",
+      "it": "La documentazione sulla paginazione dell'API dovrebbe mostrare esempi basati su cursor e offset"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_222"
+  },
+  {
+    "english": "Can you add sequence numbers to the API workflow steps?",
+    "context": "Ordering documentation steps",
+    "translations": {
+      "pt-BR": "Pode adicionar números de sequência nos passos do workflow da API?",
+      "es": "¿Puedes agregar números de secuencia a los pasos del workflow de la API?",
+      "fr": "Peux-tu ajouter des numéros de séquence aux étapes du workflow de l'API ?",
+      "de": "Kannst du Sequenznummern zu den API-Workflow-Schritten hinzufügen?",
+      "it": "Puoi aggiungere numeri di sequenza ai passaggi del workflow dell'API?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_223"
+  },
+  {
+    "english": "The incident postmortem should be documented with root cause analysis",
+    "context": "Post-incident documentation",
+    "translations": {
+      "pt-BR": "O postmortem do incidente deveria ser documentado com análise de causa raiz",
+      "es": "El postmortem del incidente debería documentarse con análisis de causa raíz",
+      "fr": "Le postmortem de l'incident devrait être documenté avec une analyse de cause racine",
+      "de": "Das Incident-Postmortem sollte mit einer Root-Cause-Analyse dokumentiert werden",
+      "it": "Il postmortem dell'incidente dovrebbe essere documentato con l'analisi della causa radice"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_224"
+  },
+  {
+    "english": "Let's add interactive code samples that readers can run directly",
+    "context": "Interactive documentation",
+    "translations": {
+      "pt-BR": "Vamos adicionar exemplos de código interativos que os leitores podem executar diretamente",
+      "es": "Agreguemos ejemplos de código interactivos que los lectores puedan ejecutar directamente",
+      "fr": "Ajoutons des exemples de code interactifs que les lecteurs peuvent exécuter directement",
+      "de": "Lass uns interaktive Codebeispiele hinzufügen, die Leser direkt ausführen können",
+      "it": "Aggiungiamo esempi di codice interattivi che i lettori possono eseguire direttamente"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_225"
+  },
+  {
+    "english": "The documentation should specify which platforms are supported",
+    "context": "Platform compatibility docs",
+    "translations": {
+      "pt-BR": "A documentação deveria especificar quais plataformas são suportadas",
+      "es": "La documentación debería especificar qué plataformas son soportadas",
+      "fr": "La documentation devrait spécifier quelles plateformes sont supportées",
+      "de": "Die Dokumentation sollte angeben, welche Plattformen unterstützt werden",
+      "it": "La documentazione dovrebbe specificare quali piattaforme sono supportate"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_226"
+  },
+  {
+    "english": "I documented the design tokens used across the component library",
+    "context": "Design token documentation",
+    "translations": {
+      "pt-BR": "Documentei os design tokens usados na biblioteca de componentes",
+      "es": "Documenté los design tokens usados en la biblioteca de componentes",
+      "fr": "J'ai documenté les design tokens utilisés dans la bibliothèque de composants",
+      "de": "Ich habe die Design-Tokens dokumentiert, die in der Komponentenbibliothek verwendet werden",
+      "it": "Ho documentato i design token usati nella libreria di componenti"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_227"
+  },
+  {
+    "english": "We need to document the data validation rules for each input field",
+    "context": "Input validation documentation",
+    "translations": {
+      "pt-BR": "Precisamos documentar as regras de validação de dados para cada campo de entrada",
+      "es": "Necesitamos documentar las reglas de validación de datos para cada campo de entrada",
+      "fr": "On doit documenter les règles de validation des données pour chaque champ de saisie",
+      "de": "Wir müssen die Datenvalidierungsregeln für jedes Eingabefeld dokumentieren",
+      "it": "Dobbiamo documentare le regole di validazione dei dati per ogni campo di input"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_228"
+  },
+  {
+    "english": "The event bus documentation should list all published and consumed events",
+    "context": "Event-driven architecture docs",
+    "translations": {
+      "pt-BR": "A documentação do event bus deveria listar todos os eventos publicados e consumidos",
+      "es": "La documentación del event bus debería listar todos los eventos publicados y consumidos",
+      "fr": "La documentation du bus d'événements devrait lister tous les événements publiés et consommés",
+      "de": "Die Event-Bus-Dokumentation sollte alle veröffentlichten und konsumierten Events auflisten",
+      "it": "La documentazione dell'event bus dovrebbe elencare tutti gli eventi pubblicati e consumati"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_229"
+  },
+  {
+    "english": "Can you write a brief summary at the top of each documentation page?",
+    "context": "Documentation readability improvement",
+    "translations": {
+      "pt-BR": "Pode escrever um breve resumo no topo de cada página de documentação?",
+      "es": "¿Puedes escribir un breve resumen al inicio de cada página de documentación?",
+      "fr": "Peux-tu écrire un bref résumé en haut de chaque page de documentation ?",
+      "de": "Kannst du eine kurze Zusammenfassung oben auf jeder Dokumentationsseite schreiben?",
+      "it": "Puoi scrivere un breve riassunto in cima a ogni pagina di documentazione?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_230"
+  },
+  {
+    "english": "The rollback procedure is documented in case we need to revert",
+    "context": "Rollback documentation",
+    "translations": {
+      "pt-BR": "O procedimento de rollback está documentado caso precisemos reverter",
+      "es": "El procedimiento de rollback está documentado en caso de que necesitemos revertir",
+      "fr": "La procédure de rollback est documentée au cas où on aurait besoin de revenir en arrière",
+      "de": "Das Rollback-Verfahren ist dokumentiert, falls wir zurückrollen müssen",
+      "it": "La procedura di rollback è documentata nel caso in cui dovessimo ripristinare"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_231"
+  },
+  {
+    "english": "Let's add a diagram showing the microservices communication patterns",
+    "context": "Microservices architecture docs",
+    "translations": {
+      "pt-BR": "Vamos adicionar um diagrama mostrando os padrões de comunicação dos microserviços",
+      "es": "Agreguemos un diagrama mostrando los patrones de comunicación de los microservicios",
+      "fr": "Ajoutons un diagramme montrant les patterns de communication des microservices",
+      "de": "Lass uns ein Diagramm hinzufügen, das die Kommunikationsmuster der Microservices zeigt",
+      "it": "Aggiungiamo un diagramma che mostra i pattern di comunicazione dei microservizi"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_232"
+  },
+  {
+    "english": "The documentation needs to be accessible to non-technical stakeholders",
+    "context": "Writing for mixed audiences",
+    "translations": {
+      "pt-BR": "A documentação precisa ser acessível para stakeholders não técnicos",
+      "es": "La documentación necesita ser accesible para stakeholders no técnicos",
+      "fr": "La documentation doit être accessible aux parties prenantes non techniques",
+      "de": "Die Dokumentation muss für nicht-technische Stakeholder zugänglich sein",
+      "it": "La documentazione deve essere accessibile agli stakeholder non tecnici"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_233"
+  },
+  {
+    "english": "I updated the API documentation to reflect the new response format",
+    "context": "Keeping API docs in sync",
+    "translations": {
+      "pt-BR": "Atualizei a documentação da API para refletir o novo formato de resposta",
+      "es": "Actualicé la documentación de la API para reflejar el nuevo formato de respuesta",
+      "fr": "J'ai mis à jour la documentation API pour refléter le nouveau format de réponse",
+      "de": "Ich habe die API-Dokumentation aktualisiert, um das neue Antwortformat widerzuspiegeln",
+      "it": "Ho aggiornato la documentazione dell'API per riflettere il nuovo formato di risposta"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_234"
+  },
+  {
+    "english": "The capacity planning document estimates resource needs for scaling",
+    "context": "Scaling documentation",
+    "translations": {
+      "pt-BR": "O documento de planejamento de capacidade estima necessidades de recursos para escalabilidade",
+      "es": "El documento de planificación de capacidad estima las necesidades de recursos para escalar",
+      "fr": "Le document de planification de capacité estime les besoins en ressources pour la mise à l'échelle",
+      "de": "Das Kapazitätsplanungsdokument schätzt den Ressourcenbedarf für die Skalierung",
+      "it": "Il documento di pianificazione della capacità stima le necessità di risorse per la scalabilità"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_235"
+  },
+  {
+    "english": "We should document how the cron jobs are scheduled and monitored",
+    "context": "Scheduled jobs documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar como os cron jobs são agendados e monitorados",
+      "es": "Deberíamos documentar cómo los cron jobs son programados y monitoreados",
+      "fr": "On devrait documenter comment les cron jobs sont planifiés et surveillés",
+      "de": "Wir sollten dokumentieren, wie die Cron-Jobs geplant und überwacht werden",
+      "it": "Dovremmo documentare come i cron job sono schedulati e monitorati"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_236"
+  },
+  {
+    "english": "The component storybook serves as living documentation for the UI",
+    "context": "UI component documentation",
+    "translations": {
+      "pt-BR": "O storybook de componentes serve como documentação viva para a UI",
+      "es": "El storybook de componentes sirve como documentación viva para la UI",
+      "fr": "Le storybook des composants sert de documentation vivante pour l'UI",
+      "de": "Das Komponenten-Storybook dient als lebende Dokumentation für die UI",
+      "it": "Lo storybook dei componenti serve come documentazione vivente per la UI"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_237"
+  },
+  {
+    "english": "Can you document the environment-specific configuration differences?",
+    "context": "Environment configuration docs",
+    "translations": {
+      "pt-BR": "Pode documentar as diferenças de configuração específicas por ambiente?",
+      "es": "¿Puedes documentar las diferencias de configuración específicas por entorno?",
+      "fr": "Peux-tu documenter les différences de configuration spécifiques à chaque environnement ?",
+      "de": "Kannst du die umgebungsspezifischen Konfigurationsunterschiede dokumentieren?",
+      "it": "Puoi documentare le differenze di configurazione specifiche per ambiente?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_238"
+  },
+  {
+    "english": "The documentation review is part of our definition of done",
+    "context": "Documentation as quality gate",
+    "translations": {
+      "pt-BR": "A revisão da documentação faz parte da nossa definição de pronto",
+      "es": "La revisión de la documentación es parte de nuestra definición de hecho",
+      "fr": "La revue de la documentation fait partie de notre définition de terminé",
+      "de": "Die Dokumentationsüberprüfung ist Teil unserer Definition of Done",
+      "it": "La revisione della documentazione fa parte della nostra definition of done"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_239"
+  },
+  {
+    "english": "I added a troubleshooting flowchart to help diagnose common problems",
+    "context": "Visual troubleshooting guides",
+    "translations": {
+      "pt-BR": "Adicionei um fluxograma de resolução de problemas para ajudar a diagnosticar problemas comuns",
+      "es": "Agregué un diagrama de flujo de resolución de problemas para ayudar a diagnosticar problemas comunes",
+      "fr": "J'ai ajouté un organigramme de dépannage pour aider à diagnostiquer les problèmes courants",
+      "de": "Ich habe ein Troubleshooting-Flussdiagramm hinzugefügt, um bei der Diagnose häufiger Probleme zu helfen",
+      "it": "Ho aggiunto un diagramma di flusso per la risoluzione dei problemi per aiutare a diagnosticare problemi comuni"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_240"
+  },
+  {
+    "english": "The documentation should clearly state the supported authentication methods",
+    "context": "Authentication documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria declarar claramente os métodos de autenticação suportados",
+      "es": "La documentación debería indicar claramente los métodos de autenticación soportados",
+      "fr": "La documentation devrait clairement indiquer les méthodes d'authentification supportées",
+      "de": "Die Dokumentation sollte die unterstützten Authentifizierungsmethoden klar angeben",
+      "it": "La documentazione dovrebbe indicare chiaramente i metodi di autenticazione supportati"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_241"
+  },
+  {
+    "english": "We need to keep the API mock server responses in sync with the documentation",
+    "context": "Mock server documentation consistency",
+    "translations": {
+      "pt-BR": "Precisamos manter as respostas do servidor mock da API sincronizadas com a documentação",
+      "es": "Necesitamos mantener las respuestas del servidor mock de la API sincronizadas con la documentación",
+      "fr": "On doit garder les réponses du serveur mock de l'API synchronisées avec la documentation",
+      "de": "Wir müssen die API-Mock-Server-Antworten mit der Dokumentation synchron halten",
+      "it": "Dobbiamo mantenere le risposte del mock server dell'API sincronizzate con la documentazione"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_242"
+  },
+  {
+    "english": "The documentation should explain the difference between each log level",
+    "context": "Logging documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria explicar a diferença entre cada nível de log",
+      "es": "La documentación debería explicar la diferencia entre cada nivel de log",
+      "fr": "La documentation devrait expliquer la différence entre chaque niveau de log",
+      "de": "Die Dokumentation sollte den Unterschied zwischen jedem Log-Level erklären",
+      "it": "La documentazione dovrebbe spiegare la differenza tra ogni livello di log"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_243"
+  },
+  {
+    "english": "Let's create a visual guide for the entire user journey",
+    "context": "User experience documentation",
+    "translations": {
+      "pt-BR": "Vamos criar um guia visual para toda a jornada do usuário",
+      "es": "Creemos una guía visual para todo el recorrido del usuario",
+      "fr": "Créons un guide visuel pour tout le parcours utilisateur",
+      "de": "Lass uns einen visuellen Leitfaden für die gesamte User Journey erstellen",
+      "it": "Creiamo una guida visuale per l'intero percorso dell'utente"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_244"
+  },
+  {
+    "english": "The documentation build system checks for broken links automatically",
+    "context": "Documentation CI/CD",
+    "translations": {
+      "pt-BR": "O sistema de build da documentação verifica links quebrados automaticamente",
+      "es": "El sistema de build de la documentación verifica enlaces rotos automáticamente",
+      "fr": "Le système de build de la documentation vérifie les liens cassés automatiquement",
+      "de": "Das Dokumentations-Build-System prüft automatisch auf defekte Links",
+      "it": "Il sistema di build della documentazione controlla automaticamente i link interrotti"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_245"
+  },
+  {
+    "english": "I documented the notification system with all trigger conditions",
+    "context": "Notification system documentation",
+    "translations": {
+      "pt-BR": "Documentei o sistema de notificações com todas as condições de disparo",
+      "es": "Documenté el sistema de notificaciones con todas las condiciones de disparo",
+      "fr": "J'ai documenté le système de notifications avec toutes les conditions de déclenchement",
+      "de": "Ich habe das Benachrichtigungssystem mit allen Auslösebedingungen dokumentiert",
+      "it": "Ho documentato il sistema di notifiche con tutte le condizioni di attivazione"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_246"
+  },
+  {
+    "english": "The schema migration documentation should explain how to rollback each step",
+    "context": "Database migration docs",
+    "translations": {
+      "pt-BR": "A documentação de migração de schema deveria explicar como reverter cada passo",
+      "es": "La documentación de migración de schema debería explicar cómo revertir cada paso",
+      "fr": "La documentation de migration de schéma devrait expliquer comment annuler chaque étape",
+      "de": "Die Schema-Migrationsdokumentation sollte erklären, wie jeder Schritt zurückgerollt wird",
+      "it": "La documentazione sulla migrazione dello schema dovrebbe spiegare come fare rollback di ogni passo"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_247"
+  },
+  {
+    "english": "Can you document the differences between the development and production builds?",
+    "context": "Build configuration documentation",
+    "translations": {
+      "pt-BR": "Pode documentar as diferenças entre os builds de desenvolvimento e produção?",
+      "es": "¿Puedes documentar las diferencias entre los builds de desarrollo y producción?",
+      "fr": "Peux-tu documenter les différences entre les builds de développement et de production ?",
+      "de": "Kannst du die Unterschiede zwischen den Entwicklungs- und Produktions-Builds dokumentieren?",
+      "it": "Puoi documentare le differenze tra i build di sviluppo e produzione?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_248"
+  },
+  {
+    "english": "The documentation should include a section on error recovery procedures",
+    "context": "Error recovery documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria incluir uma seção sobre procedimentos de recuperação de erros",
+      "es": "La documentación debería incluir una sección sobre procedimientos de recuperación de errores",
+      "fr": "La documentation devrait inclure une section sur les procédures de récupération d'erreurs",
+      "de": "Die Dokumentation sollte einen Abschnitt über Fehlerwiederherstellungsverfahren enthalten",
+      "it": "La documentazione dovrebbe includere una sezione sulle procedure di recupero dagli errori"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_249"
+  },
+  {
+    "english": "Let's consolidate the scattered documentation into a single source of truth",
+    "context": "Documentation centralization",
+    "translations": {
+      "pt-BR": "Vamos consolidar a documentação espalhada em uma única fonte de verdade",
+      "es": "Consolidemos la documentación dispersa en una única fuente de verdad",
+      "fr": "Consolidons la documentation dispersée en une seule source de vérité",
+      "de": "Lass uns die verstreute Dokumentation zu einer einzigen Wahrheitsquelle konsolidieren",
+      "it": "Consolidiamo la documentazione sparsa in un'unica fonte di verità"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_250"
+  },
+  {
+    "english": "The permission matrix shows which roles can access each feature",
+    "context": "Access control documentation",
+    "translations": {
+      "pt-BR": "A matriz de permissões mostra quais papéis podem acessar cada funcionalidade",
+      "es": "La matriz de permisos muestra qué roles pueden acceder a cada funcionalidad",
+      "fr": "La matrice de permissions montre quels rôles peuvent accéder à chaque fonctionnalité",
+      "de": "Die Berechtigungsmatrix zeigt, welche Rollen auf welche Funktionen zugreifen können",
+      "it": "La matrice dei permessi mostra quali ruoli possono accedere a ogni funzionalità"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_251"
+  },
+  {
+    "english": "I added a section on how to handle sensitive data according to our policy",
+    "context": "Data handling documentation",
+    "translations": {
+      "pt-BR": "Adicionei uma seção sobre como lidar com dados sensíveis de acordo com nossa política",
+      "es": "Agregué una sección sobre cómo manejar datos sensibles de acuerdo con nuestra política",
+      "fr": "J'ai ajouté une section sur comment gérer les données sensibles selon notre politique",
+      "de": "Ich habe einen Abschnitt darüber hinzugefügt, wie sensible Daten gemäß unserer Richtlinie zu behandeln sind",
+      "it": "Ho aggiunto una sezione su come gestire i dati sensibili secondo la nostra politica"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_252"
+  },
+  {
+    "english": "The documentation should link to the related Jira tickets for context",
+    "context": "Connecting docs to project management",
+    "translations": {
+      "pt-BR": "A documentação deveria linkar para os tickets do Jira relacionados para contexto",
+      "es": "La documentación debería enlazar a los tickets de Jira relacionados para contexto",
+      "fr": "La documentation devrait lier aux tickets Jira liés pour le contexte",
+      "de": "Die Dokumentation sollte für den Kontext auf die zugehörigen Jira-Tickets verlinken",
+      "it": "La documentazione dovrebbe linkare ai ticket Jira correlati per contesto"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_253"
+  },
+  {
+    "english": "We need a clear diagram of the state transitions in this workflow",
+    "context": "State machine documentation",
+    "translations": {
+      "pt-BR": "Precisamos de um diagrama claro das transições de estado nesse workflow",
+      "es": "Necesitamos un diagrama claro de las transiciones de estado en este workflow",
+      "fr": "On a besoin d'un diagramme clair des transitions d'état dans ce workflow",
+      "de": "Wir brauchen ein klares Diagramm der Zustandsübergänge in diesem Workflow",
+      "it": "Abbiamo bisogno di un diagramma chiaro delle transizioni di stato in questo workflow"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_254"
+  },
+  {
+    "english": "The documentation versioning follows semantic versioning alongside the codebase",
+    "context": "Version-aligned documentation",
+    "translations": {
+      "pt-BR": "O versionamento da documentação segue versionamento semântico junto com o código",
+      "es": "El versionamiento de la documentación sigue versionamiento semántico junto con el código",
+      "fr": "Le versionnement de la documentation suit le versionnement sémantique avec le code",
+      "de": "Die Dokumentationsversionierung folgt der semantischen Versionierung neben der Codebasis",
+      "it": "Il versionamento della documentazione segue il versionamento semantico insieme al codice"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_255"
+  },
+  {
+    "english": "Can you add a section explaining the conventions used throughout the docs?",
+    "context": "Documentation meta-information",
+    "translations": {
+      "pt-BR": "Pode adicionar uma seção explicando as convenções usadas em toda a documentação?",
+      "es": "¿Puedes agregar una sección explicando las convenciones usadas en toda la documentación?",
+      "fr": "Peux-tu ajouter une section expliquant les conventions utilisées dans toute la documentation ?",
+      "de": "Kannst du einen Abschnitt hinzufügen, der die in der gesamten Dokumentation verwendeten Konventionen erklärt?",
+      "it": "Puoi aggiungere una sezione che spiega le convenzioni usate in tutta la documentazione?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_256"
+  },
+  {
+    "english": "The observability documentation covers logging, metrics, and tracing",
+    "context": "Observability stack documentation",
+    "translations": {
+      "pt-BR": "A documentação de observabilidade cobre logging, métricas e tracing",
+      "es": "La documentación de observabilidad cubre logging, métricas y tracing",
+      "fr": "La documentation d'observabilité couvre le logging, les métriques et le tracing",
+      "de": "Die Observability-Dokumentation deckt Logging, Metriken und Tracing ab",
+      "it": "La documentazione di osservabilità copre logging, metriche e tracing"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_257"
+  },
+  {
+    "english": "I documented all the third-party service integrations and their SLAs",
+    "context": "Third-party service documentation",
+    "translations": {
+      "pt-BR": "Documentei todas as integrações com serviços de terceiros e seus SLAs",
+      "es": "Documenté todas las integraciones con servicios de terceros y sus SLAs",
+      "fr": "J'ai documenté toutes les intégrations de services tiers et leurs SLAs",
+      "de": "Ich habe alle Drittanbieter-Service-Integrationen und ihre SLAs dokumentiert",
+      "it": "Ho documentato tutte le integrazioni con servizi di terze parti e i loro SLA"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_258"
+  },
+  {
+    "english": "The documentation should include performance optimization tips for developers",
+    "context": "Performance best practices docs",
+    "translations": {
+      "pt-BR": "A documentação deveria incluir dicas de otimização de performance para desenvolvedores",
+      "es": "La documentación debería incluir consejos de optimización de rendimiento para desarrolladores",
+      "fr": "La documentation devrait inclure des conseils d'optimisation de performance pour les développeurs",
+      "de": "Die Dokumentation sollte Performance-Optimierungstipps für Entwickler enthalten",
+      "it": "La documentazione dovrebbe includere consigli di ottimizzazione delle prestazioni per gli sviluppatori"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_259"
+  },
+  {
+    "english": "Let's document the feature toggle naming conventions for consistency",
+    "context": "Feature flag naming documentation",
+    "translations": {
+      "pt-BR": "Vamos documentar as convenções de nomenclatura de feature toggle para consistência",
+      "es": "Documentemos las convenciones de nomenclatura de feature toggle para consistencia",
+      "fr": "Documentons les conventions de nommage des feature toggles pour la cohérence",
+      "de": "Lass uns die Feature-Toggle-Namenskonventionen für Konsistenz dokumentieren",
+      "it": "Documentiamo le convenzioni di denominazione dei feature toggle per coerenza"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_260"
+  },
+  {
+    "english": "The analytics event documentation maps each event to its business purpose",
+    "context": "Analytics tracking documentation",
+    "translations": {
+      "pt-BR": "A documentação de eventos de analytics mapeia cada evento ao seu propósito de negócio",
+      "es": "La documentación de eventos de analytics mapea cada evento a su propósito de negocio",
+      "fr": "La documentation des événements analytiques mappe chaque événement à son objectif métier",
+      "de": "Die Analytics-Event-Dokumentation ordnet jedes Event seinem Geschäftszweck zu",
+      "it": "La documentazione degli eventi di analytics mappa ogni evento al suo scopo di business"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_261"
+  },
+  {
+    "english": "We should document the CI pipeline stages and what each one validates",
+    "context": "CI/CD pipeline documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar os estágios do pipeline de CI e o que cada um valida",
+      "es": "Deberíamos documentar las etapas del pipeline de CI y lo que cada una valida",
+      "fr": "On devrait documenter les étapes du pipeline CI et ce que chacune valide",
+      "de": "Wir sollten die CI-Pipeline-Stufen und was jede validiert dokumentieren",
+      "it": "Dovremmo documentare le fasi della pipeline CI e cosa ognuna valida"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_262"
+  },
+  {
+    "english": "The API documentation clearly distinguishes between required and optional fields",
+    "context": "API field documentation",
+    "translations": {
+      "pt-BR": "A documentação da API distingue claramente entre campos obrigatórios e opcionais",
+      "es": "La documentación de la API distingue claramente entre campos obligatorios y opcionales",
+      "fr": "La documentation API distingue clairement les champs obligatoires et optionnels",
+      "de": "Die API-Dokumentation unterscheidet klar zwischen erforderlichen und optionalen Feldern",
+      "it": "La documentazione dell'API distingue chiaramente tra campi obbligatori e opzionali"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_263"
+  },
+  {
+    "english": "I created a documentation health dashboard to track coverage and freshness",
+    "context": "Documentation metrics",
+    "translations": {
+      "pt-BR": "Criei um dashboard de saúde da documentação para rastrear cobertura e atualidade",
+      "es": "Creé un dashboard de salud de la documentación para rastrear cobertura y frescura",
+      "fr": "J'ai créé un tableau de bord de santé de la documentation pour suivre la couverture et la fraîcheur",
+      "de": "Ich habe ein Dokumentations-Health-Dashboard erstellt, um Abdeckung und Aktualität zu verfolgen",
+      "it": "Ho creato una dashboard sulla salute della documentazione per tracciare copertura e freschezza"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_264"
+  },
+  {
+    "english": "The API documentation should include curl examples for quick testing",
+    "context": "Adding practical API examples",
+    "translations": {
+      "pt-BR": "A documentação da API deveria incluir exemplos com curl para teste rápido",
+      "es": "La documentación de la API debería incluir ejemplos con curl para prueba rápida",
+      "fr": "La documentation API devrait inclure des exemples curl pour des tests rapides",
+      "de": "Die API-Dokumentation sollte curl-Beispiele für schnelle Tests enthalten",
+      "it": "La documentazione dell'API dovrebbe includere esempi curl per test rapidi"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_265"
+  },
+  {
+    "english": "Let's document the error codes with actionable resolution steps",
+    "context": "Error resolution documentation",
+    "translations": {
+      "pt-BR": "Vamos documentar os códigos de erro com passos de resolução acionáveis",
+      "es": "Documentemos los códigos de error con pasos de resolución accionables",
+      "fr": "Documentons les codes d'erreur avec des étapes de résolution actionnables",
+      "de": "Lass uns die Fehlercodes mit umsetzbaren Lösungsschritten dokumentieren",
+      "it": "Documentiamo i codici di errore con passaggi di risoluzione attuabili"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_266"
+  },
+  {
+    "english": "The documentation portal should have a feedback mechanism for readers",
+    "context": "Documentation feedback loop",
+    "translations": {
+      "pt-BR": "O portal de documentação deveria ter um mecanismo de feedback para os leitores",
+      "es": "El portal de documentación debería tener un mecanismo de feedback para los lectores",
+      "fr": "Le portail de documentation devrait avoir un mécanisme de feedback pour les lecteurs",
+      "de": "Das Dokumentationsportal sollte einen Feedback-Mechanismus für Leser haben",
+      "it": "Il portale di documentazione dovrebbe avere un meccanismo di feedback per i lettori"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_267"
+  },
+  {
+    "english": "We documented the queue processing logic with throughput expectations",
+    "context": "Queue system documentation",
+    "translations": {
+      "pt-BR": "Documentamos a lógica de processamento de filas com expectativas de throughput",
+      "es": "Documentamos la lógica de procesamiento de colas con expectativas de throughput",
+      "fr": "Nous avons documenté la logique de traitement des files d'attente avec les attentes de débit",
+      "de": "Wir haben die Warteschlangenverarbeitungslogik mit Durchsatzerwartungen dokumentiert",
+      "it": "Abbiamo documentato la logica di elaborazione delle code con le aspettative di throughput"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_268"
+  },
+  {
+    "english": "The API documentation includes rate limit headers in the response examples",
+    "context": "Rate limit documentation details",
+    "translations": {
+      "pt-BR": "A documentação da API inclui headers de rate limit nos exemplos de resposta",
+      "es": "La documentación de la API incluye headers de rate limit en los ejemplos de respuesta",
+      "fr": "La documentation API inclut les en-têtes de limitation de taux dans les exemples de réponse",
+      "de": "Die API-Dokumentation enthält Rate-Limit-Header in den Antwortbeispielen",
+      "it": "La documentazione API include gli header di rate limit negli esempi di risposta"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_269"
+  },
+  {
+    "english": "We should document the database indexing strategy for query optimization",
+    "context": "Database optimization documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar a estratégia de indexação do banco de dados para otimização de queries",
+      "es": "Deberíamos documentar la estrategia de indexación de la base de datos para optimización de consultas",
+      "fr": "On devrait documenter la stratégie d'indexation de la base de données pour l'optimisation des requêtes",
+      "de": "Wir sollten die Datenbankindexierungsstrategie zur Abfrageoptimierung dokumentieren",
+      "it": "Dovremmo documentare la strategia di indicizzazione del database per l'ottimizzazione delle query"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_270"
+  },
+  {
+    "english": "The documentation should include a system requirements section",
+    "context": "System prerequisites documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria incluir uma seção de requisitos do sistema",
+      "es": "La documentación debería incluir una sección de requisitos del sistema",
+      "fr": "La documentation devrait inclure une section d'exigences système",
+      "de": "Die Dokumentation sollte einen Abschnitt mit Systemanforderungen enthalten",
+      "it": "La documentazione dovrebbe includere una sezione sui requisiti di sistema"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_271"
+  },
+  {
+    "english": "I documented the test data generation process and seed scripts",
+    "context": "Test data documentation",
+    "translations": {
+      "pt-BR": "Documentei o processo de geração de dados de teste e scripts de seed",
+      "es": "Documenté el proceso de generación de datos de prueba y scripts de semilla",
+      "fr": "J'ai documenté le processus de génération de données de test et les scripts de seed",
+      "de": "Ich habe den Testdatengenerierungsprozess und die Seed-Skripte dokumentiert",
+      "it": "Ho documentato il processo di generazione dei dati di test e gli script di seed"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_272"
+  },
+  {
+    "english": "Let's document the edge cases that the validation layer handles",
+    "context": "Validation logic documentation",
+    "translations": {
+      "pt-BR": "Vamos documentar os casos extremos que a camada de validação trata",
+      "es": "Documentemos los casos extremos que la capa de validación maneja",
+      "fr": "Documentons les cas limites que la couche de validation gère",
+      "de": "Lass uns die Edge Cases dokumentieren, die die Validierungsschicht behandelt",
+      "it": "Documentiamo i casi limite che il layer di validazione gestisce"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_273"
+  },
+  {
+    "english": "The documentation clearly explains how to extend the plugin system",
+    "context": "Plugin architecture documentation",
+    "translations": {
+      "pt-BR": "A documentação explica claramente como estender o sistema de plugins",
+      "es": "La documentación explica claramente cómo extender el sistema de plugins",
+      "fr": "La documentation explique clairement comment étendre le système de plugins",
+      "de": "Die Dokumentation erklärt klar, wie das Plugin-System erweitert wird",
+      "it": "La documentazione spiega chiaramente come estendere il sistema di plugin"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_274"
+  },
+  {
+    "english": "We should add a decision tree for choosing the right component",
+    "context": "Component selection guide",
+    "translations": {
+      "pt-BR": "Devemos adicionar uma árvore de decisão para escolher o componente certo",
+      "es": "Deberíamos agregar un árbol de decisión para elegir el componente correcto",
+      "fr": "On devrait ajouter un arbre de décision pour choisir le bon composant",
+      "de": "Wir sollten einen Entscheidungsbaum zur Auswahl der richtigen Komponente hinzufügen",
+      "it": "Dovremmo aggiungere un albero decisionale per scegliere il componente giusto"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_275"
+  },
+  {
+    "english": "The documentation should explain how the feature flag evaluation works",
+    "context": "Feature flag evaluation documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria explicar como funciona a avaliação de feature flag",
+      "es": "La documentación debería explicar cómo funciona la evaluación de feature flag",
+      "fr": "La documentation devrait expliquer comment fonctionne l'évaluation des feature flags",
+      "de": "Die Dokumentation sollte erklären, wie die Feature-Flag-Auswertung funktioniert",
+      "it": "La documentazione dovrebbe spiegare come funziona la valutazione delle feature flag"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_276"
+  },
+  {
+    "english": "Can you create a mapping between the old and new API endpoints?",
+    "context": "API migration mapping documentation",
+    "translations": {
+      "pt-BR": "Pode criar um mapeamento entre os endpoints antigos e novos da API?",
+      "es": "¿Puedes crear un mapeo entre los endpoints antiguos y nuevos de la API?",
+      "fr": "Peux-tu créer un mappage entre les anciens et nouveaux endpoints de l'API ?",
+      "de": "Kannst du eine Zuordnung zwischen den alten und neuen API-Endpoints erstellen?",
+      "it": "Puoi creare una mappatura tra i vecchi e i nuovi endpoint dell'API?"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_277"
+  },
+  {
+    "english": "The documentation should include a section on how to report security issues",
+    "context": "Security reporting documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria incluir uma seção sobre como reportar problemas de segurança",
+      "es": "La documentación debería incluir una sección sobre cómo reportar problemas de seguridad",
+      "fr": "La documentation devrait inclure une section sur comment signaler les problèmes de sécurité",
+      "de": "Die Dokumentation sollte einen Abschnitt darüber enthalten, wie Sicherheitsprobleme gemeldet werden",
+      "it": "La documentazione dovrebbe includere una sezione su come segnalare problemi di sicurezza"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_278"
+  },
+  {
+    "english": "I added annotations to the architecture diagram explaining each layer",
+    "context": "Annotated architecture diagrams",
+    "translations": {
+      "pt-BR": "Adicionei anotações ao diagrama de arquitetura explicando cada camada",
+      "es": "Agregué anotaciones al diagrama de arquitectura explicando cada capa",
+      "fr": "J'ai ajouté des annotations au diagramme d'architecture expliquant chaque couche",
+      "de": "Ich habe Anmerkungen zum Architekturdiagramm hinzugefügt, die jede Schicht erklären",
+      "it": "Ho aggiunto annotazioni al diagramma dell'architettura spiegando ogni layer"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_279"
+  },
+  {
+    "english": "The documentation portal has a dark mode toggle for better readability",
+    "context": "Documentation UX improvement",
+    "translations": {
+      "pt-BR": "O portal de documentação tem um toggle de modo escuro para melhor legibilidade",
+      "es": "El portal de documentación tiene un toggle de modo oscuro para mejor legibilidad",
+      "fr": "Le portail de documentation a un toggle mode sombre pour une meilleure lisibilité",
+      "de": "Das Dokumentationsportal hat einen Dark-Mode-Toggle für bessere Lesbarkeit",
+      "it": "Il portale di documentazione ha un toggle dark mode per una migliore leggibilità"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_280"
+  },
+  {
+    "english": "We should document the event sourcing patterns used in the system",
+    "context": "Event sourcing documentation",
+    "translations": {
+      "pt-BR": "Devemos documentar os padrões de event sourcing usados no sistema",
+      "es": "Deberíamos documentar los patrones de event sourcing usados en el sistema",
+      "fr": "On devrait documenter les patterns d'event sourcing utilisés dans le système",
+      "de": "Wir sollten die im System verwendeten Event-Sourcing-Muster dokumentieren",
+      "it": "Dovremmo documentare i pattern di event sourcing usati nel sistema"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_281"
+  },
+  {
+    "english": "The SDK documentation includes getting started guides for each platform",
+    "context": "Multi-platform SDK docs",
+    "translations": {
+      "pt-BR": "A documentação do SDK inclui guias de início rápido para cada plataforma",
+      "es": "La documentación del SDK incluye guías de inicio rápido para cada plataforma",
+      "fr": "La documentation du SDK inclut des guides de démarrage pour chaque plateforme",
+      "de": "Die SDK-Dokumentation enthält Einstiegsleitfäden für jede Plattform",
+      "it": "La documentazione dell'SDK include guide introduttive per ogni piattaforma"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_282"
+  },
+  {
+    "english": "Let's add a list of all the environment variables with their descriptions",
+    "context": "Environment variable reference",
+    "translations": {
+      "pt-BR": "Vamos adicionar uma lista de todas as variáveis de ambiente com suas descrições",
+      "es": "Agreguemos una lista de todas las variables de entorno con sus descripciones",
+      "fr": "Ajoutons une liste de toutes les variables d'environnement avec leurs descriptions",
+      "de": "Lass uns eine Liste aller Umgebungsvariablen mit ihren Beschreibungen hinzufügen",
+      "it": "Aggiungiamo una lista di tutte le variabili d'ambiente con le loro descrizioni"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_283"
+  },
+  {
+    "english": "The documentation should warn about known limitations of the current implementation",
+    "context": "Limitation documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria alertar sobre limitações conhecidas da implementação atual",
+      "es": "La documentación debería advertir sobre limitaciones conocidas de la implementación actual",
+      "fr": "La documentation devrait avertir des limitations connues de l'implémentation actuelle",
+      "de": "Die Dokumentation sollte vor bekannten Einschränkungen der aktuellen Implementierung warnen",
+      "it": "La documentazione dovrebbe avvertire sulle limitazioni note dell'implementazione attuale"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_284"
+  },
+  {
+    "english": "I documented the health check endpoints and their expected responses",
+    "context": "Health check endpoint documentation",
+    "translations": {
+      "pt-BR": "Documentei os endpoints de health check e suas respostas esperadas",
+      "es": "Documenté los endpoints de health check y sus respuestas esperadas",
+      "fr": "J'ai documenté les endpoints de health check et leurs réponses attendues",
+      "de": "Ich habe die Health-Check-Endpoints und ihre erwarteten Antworten dokumentiert",
+      "it": "Ho documentato gli endpoint di health check e le loro risposte attese"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_285"
+  },
+  {
+    "english": "The documentation uses consistent terminology throughout all sections",
+    "context": "Documentation consistency",
+    "translations": {
+      "pt-BR": "A documentação usa terminologia consistente em todas as seções",
+      "es": "La documentación usa terminología consistente en todas las secciones",
+      "fr": "La documentation utilise une terminologie cohérente dans toutes les sections",
+      "de": "Die Dokumentation verwendet konsistente Terminologie in allen Abschnitten",
+      "it": "La documentazione usa terminologia coerente in tutte le sezioni"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_286"
+  },
+  {
+    "english": "Can you document the message queue consumer retry behavior?",
+    "context": "Message queue documentation",
+    "translations": {
+      "pt-BR": "Pode documentar o comportamento de retry do consumidor da fila de mensagens?",
+      "es": "¿Puedes documentar el comportamiento de reintento del consumidor de la cola de mensajes?",
+      "fr": "Peux-tu documenter le comportement de retry du consommateur de la file de messages ?",
+      "de": "Kannst du das Retry-Verhalten des Message-Queue-Consumers dokumentieren?",
+      "it": "Puoi documentare il comportamento di retry del consumer della coda di messaggi?"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_287"
+  },
+  {
+    "english": "The documentation should explain the caching invalidation strategy we use",
+    "context": "Cache invalidation documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria explicar a estratégia de invalidação de cache que usamos",
+      "es": "La documentación debería explicar la estrategia de invalidación de caché que usamos",
+      "fr": "La documentation devrait expliquer la stratégie d'invalidation du cache que nous utilisons",
+      "de": "Die Dokumentation sollte die von uns verwendete Cache-Invalidierungsstrategie erklären",
+      "it": "La documentazione dovrebbe spiegare la strategia di invalidazione della cache che usiamo"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_288"
+  },
+  {
+    "english": "Let's create a glossary of abbreviations used in the codebase",
+    "context": "Abbreviation reference documentation",
+    "translations": {
+      "pt-BR": "Vamos criar um glossário de abreviações usadas no código",
+      "es": "Creemos un glosario de abreviaturas usadas en el código",
+      "fr": "Créons un glossaire des abréviations utilisées dans le code",
+      "de": "Lass uns ein Glossar der in der Codebasis verwendeten Abkürzungen erstellen",
+      "it": "Creiamo un glossario delle abbreviazioni usate nel codice"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_289"
+  },
+  {
+    "english": "The documentation includes a compatibility matrix for browser and OS support",
+    "context": "Compatibility documentation",
+    "translations": {
+      "pt-BR": "A documentação inclui uma matriz de compatibilidade para suporte de navegador e SO",
+      "es": "La documentación incluye una matriz de compatibilidad para soporte de navegador y SO",
+      "fr": "La documentation inclut une matrice de compatibilité pour le support navigateur et OS",
+      "de": "Die Dokumentation enthält eine Kompatibilitätsmatrix für Browser- und OS-Unterstützung",
+      "it": "La documentazione include una matrice di compatibilità per il supporto browser e OS"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_290"
+  },
+  {
+    "english": "We need to document the graceful shutdown procedure for the service",
+    "context": "Service lifecycle documentation",
+    "translations": {
+      "pt-BR": "Precisamos documentar o procedimento de desligamento gracioso do serviço",
+      "es": "Necesitamos documentar el procedimiento de apagado gracioso del servicio",
+      "fr": "On doit documenter la procédure d'arrêt gracieux du service",
+      "de": "Wir müssen das Graceful-Shutdown-Verfahren für den Service dokumentieren",
+      "it": "Dobbiamo documentare la procedura di shutdown graceful del servizio"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_291"
+  },
+  {
+    "english": "The API documentation should group endpoints by resource type",
+    "context": "API documentation organization",
+    "translations": {
+      "pt-BR": "A documentação da API deveria agrupar endpoints por tipo de recurso",
+      "es": "La documentación de la API debería agrupar endpoints por tipo de recurso",
+      "fr": "La documentation API devrait regrouper les endpoints par type de ressource",
+      "de": "Die API-Dokumentation sollte Endpoints nach Ressourcentyp gruppieren",
+      "it": "La documentazione API dovrebbe raggruppare gli endpoint per tipo di risorsa"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_292"
+  },
+  {
+    "english": "I created a reference card summarizing the most important configuration values",
+    "context": "Quick reference documentation",
+    "translations": {
+      "pt-BR": "Criei um cartão de referência resumindo os valores de configuração mais importantes",
+      "es": "Creé una tarjeta de referencia resumiendo los valores de configuración más importantes",
+      "fr": "J'ai créé une carte de référence résumant les valeurs de configuration les plus importantes",
+      "de": "Ich habe eine Referenzkarte erstellt, die die wichtigsten Konfigurationswerte zusammenfasst",
+      "it": "Ho creato una scheda di riferimento riassumendo i valori di configurazione più importanti"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_293"
+  },
+  {
+    "english": "The documentation should specify the maximum payload size for each endpoint",
+    "context": "API constraints documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria especificar o tamanho máximo de payload para cada endpoint",
+      "es": "La documentación debería especificar el tamaño máximo de payload para cada endpoint",
+      "fr": "La documentation devrait spécifier la taille maximale de payload pour chaque endpoint",
+      "de": "Die Dokumentation sollte die maximale Payload-Größe für jeden Endpoint angeben",
+      "it": "La documentazione dovrebbe specificare la dimensione massima del payload per ogni endpoint"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_294"
+  },
+  {
+    "english": "Let's add a section on how the feature was designed and why",
+    "context": "Design rationale documentation",
+    "translations": {
+      "pt-BR": "Vamos adicionar uma seção sobre como a funcionalidade foi projetada e por quê",
+      "es": "Agreguemos una sección sobre cómo se diseñó la funcionalidad y por qué",
+      "fr": "Ajoutons une section sur comment la fonctionnalité a été conçue et pourquoi",
+      "de": "Lass uns einen Abschnitt darüber hinzufügen, wie das Feature entworfen wurde und warum",
+      "it": "Aggiungiamo una sezione su come la funzionalità è stata progettata e perché"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_295"
+  },
+  {
+    "english": "The documentation maps each microservice to its owning team",
+    "context": "Service ownership documentation",
+    "translations": {
+      "pt-BR": "A documentação mapeia cada microserviço para sua equipe responsável",
+      "es": "La documentación mapea cada microservicio a su equipo responsable",
+      "fr": "La documentation mappe chaque microservice à son équipe propriétaire",
+      "de": "Die Dokumentation ordnet jeden Microservice seinem verantwortlichen Team zu",
+      "it": "La documentazione mappa ogni microservizio al suo team proprietario"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_296"
+  },
+  {
+    "english": "We documented the input sanitization rules to prevent injection attacks",
+    "context": "Security best practices documentation",
+    "translations": {
+      "pt-BR": "Documentamos as regras de sanitização de entrada para prevenir ataques de injeção",
+      "es": "Documentamos las reglas de sanitización de entrada para prevenir ataques de inyección",
+      "fr": "Nous avons documenté les règles de sanitisation des entrées pour prévenir les attaques par injection",
+      "de": "Wir haben die Eingabebereinigungsregeln zur Verhinderung von Injection-Angriffen dokumentiert",
+      "it": "Abbiamo documentato le regole di sanitizzazione dell'input per prevenire attacchi di injection"
+    },
+    "difficulty": "hard",
+    "category": "documentation",
+    "id": "documentation_297"
+  },
+  {
+    "english": "The documentation should include a dedicated section for mobile-specific behavior",
+    "context": "Platform-specific documentation",
+    "translations": {
+      "pt-BR": "A documentação deveria incluir uma seção dedicada para comportamento específico de mobile",
+      "es": "La documentación debería incluir una sección dedicada para comportamiento específico de mobile",
+      "fr": "La documentation devrait inclure une section dédiée au comportement spécifique mobile",
+      "de": "Die Dokumentation sollte einen eigenen Abschnitt für mobilspezifisches Verhalten enthalten",
+      "it": "La documentazione dovrebbe includere una sezione dedicata al comportamento specifico per mobile"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_298"
+  },
+  {
+    "english": "Can you add timestamps to the documentation pages to show when they were last updated?",
+    "context": "Documentation freshness tracking",
+    "translations": {
+      "pt-BR": "Pode adicionar timestamps nas páginas de documentação para mostrar quando foram atualizadas?",
+      "es": "¿Puedes agregar timestamps a las páginas de documentación para mostrar cuándo fueron actualizadas?",
+      "fr": "Peux-tu ajouter des horodatages aux pages de documentation pour montrer quand elles ont été mises à jour ?",
+      "de": "Kannst du Zeitstempel zu den Dokumentationsseiten hinzufügen, um zu zeigen, wann sie zuletzt aktualisiert wurden?",
+      "it": "Puoi aggiungere timestamp alle pagine di documentazione per mostrare quando sono state aggiornate l'ultima volta?"
+    },
+    "difficulty": "easy",
+    "category": "documentation",
+    "id": "documentation_299"
+  },
+  {
+    "english": "The documentation explains how to set up local development with Docker",
+    "context": "Docker setup documentation",
+    "translations": {
+      "pt-BR": "A documentação explica como configurar desenvolvimento local com Docker",
+      "es": "La documentación explica cómo configurar desarrollo local con Docker",
+      "fr": "La documentation explique comment configurer le développement local avec Docker",
+      "de": "Die Dokumentation erklärt, wie die lokale Entwicklung mit Docker eingerichtet wird",
+      "it": "La documentazione spiega come configurare lo sviluppo locale con Docker"
+    },
+    "difficulty": "medium",
+    "category": "documentation",
+    "id": "documentation_300"
   }
 ]

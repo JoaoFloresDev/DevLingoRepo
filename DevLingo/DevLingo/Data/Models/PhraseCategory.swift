@@ -14,6 +14,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
     case interviews
     case casual
     case documentation
+    case polite
 
     var id: String { rawValue }
 
@@ -33,6 +34,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
         case .interviews: return String(localized: "category.interviews")
         case .casual: return String(localized: "category.casual")
         case .documentation: return String(localized: "category.documentation")
+        case .polite: return String(localized: "category.polite")
         }
     }
 
@@ -50,6 +52,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
         case .interviews: return "briefcase.fill"
         case .casual: return "cup.and.saucer.fill"
         case .documentation: return "doc.text.fill"
+        case .polite: return "hand.wave.fill"
         }
     }
 
@@ -67,6 +70,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
         case .interviews: return AppColors.categoryInterviews
         case .casual: return AppColors.categoryCasual
         case .documentation: return AppColors.categoryDocumentation
+        case .polite: return AppColors.categoryPolite
         }
     }
 
