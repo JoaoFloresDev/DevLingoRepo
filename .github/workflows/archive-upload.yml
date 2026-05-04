@@ -2,6 +2,9 @@ name: Archive & Upload to App Store Connect
 
 on:
   workflow_dispatch:
+  push:
+    tags:
+      - 'release/*'
 
 jobs:
   archive-upload:
