@@ -16,8 +16,7 @@ jobs:
 
       - name: Select latest Xcode
         run: |
-          ls /Applications/ | grep Xcode
-          sudo xcode-select -s /Applications/Xcode_26.0.app || sudo xcode-select -s $(ls -d /Applications/Xcode*.app | sort -V | tail -1)
+          sudo xcode-select -s /Applications/Xcode_26.0.1.app || sudo xcode-select -s /Applications/Xcode_26.0.app || sudo xcode-select -s $(ls -d /Applications/Xcode*.app | sort -V | tail -1)
           xcodebuild -version
 
       - name: Install xcodegen
@@ -27,7 +26,9 @@ jobs:
         run: xcodegen generate
 
       - name: Write API Key
-        run: echo '${{ secrets.APP_STORE_CONNECT_PRIVATE_KEY }}' > $RUNNER_TEMP/AuthKey.p8
+        run: |
+          mkdir -p ~/private_keys
+          echo '${{ secrets.APP_STORE_CONNECT_PRIVATE_KEY }}' > ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8
 
       - name: Archive
         run: |
@@ -36,12 +37,11 @@ jobs:
             -scheme DevLingo \
             -archivePath $RUNNER_TEMP/DevLingo.xcarchive \
             -destination 'generic/platform=iOS' \
+            -allowProvisioningUpdates \
             -authenticationKeyIssuerID ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }} \
             -authenticationKeyID ${{ secrets.APP_STORE_CONNECT_KEY_ID }} \
-            -authenticationKeyPath $RUNNER_TEMP/AuthKey.p8 \
-            CODE_SIGN_STYLE=Automatic \
-            DEVELOPMENT_TEAM=NZC6LC8NWM \
-            CODE_SIGN_ALLOW_PROVISIONING_UPDATES=YES
+            -authenticationKeyPath ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8 \
+            DEVELOPMENT_TEAM=NZC6LC8NWM
 
       - name: Create ExportOptions.plist
         run: |
@@ -68,7 +68,7 @@ jobs:
             -archivePath $RUNNER_TEMP/DevLingo.xcarchive \
             -exportOptionsPlist $RUNNER_TEMP/ExportOptions.plist \
             -exportPath $RUNNER_TEMP/export \
+            -allowProvisioningUpdates \
             -authenticationKeyIssuerID ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }} \
             -authenticationKeyID ${{ secrets.APP_STORE_CONNECT_KEY_ID }} \
-            -authenticationKeyPath $RUNNER_TEMP/AuthKey.p8 \
-            -allowProvisioningUpdates
+            -authenticationKeyPath ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8
