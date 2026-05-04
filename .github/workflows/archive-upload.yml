@@ -1,0 +1,74 @@
+name: Archive & Upload to App Store Connect
+
+on:
+  workflow_dispatch:
+
+jobs:
+  archive-upload:
+    runs-on: macos-15
+    defaults:
+      run:
+        working-directory: DevLingo
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select latest Xcode
+        run: |
+          ls /Applications/ | grep Xcode
+          sudo xcode-select -s /Applications/Xcode_26.0.app || sudo xcode-select -s $(ls -d /Applications/Xcode*.app | sort -V | tail -1)
+          xcodebuild -version
+
+      - name: Install xcodegen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Write API Key
+        run: echo '${{ secrets.APP_STORE_CONNECT_PRIVATE_KEY }}' > $RUNNER_TEMP/AuthKey.p8
+
+      - name: Archive
+        run: |
+          xcodebuild archive \
+            -project DevLingo.xcodeproj \
+            -scheme DevLingo \
+            -archivePath $RUNNER_TEMP/DevLingo.xcarchive \
+            -destination 'generic/platform=iOS' \
+            -authenticationKeyIssuerID ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }} \
+            -authenticationKeyID ${{ secrets.APP_STORE_CONNECT_KEY_ID }} \
+            -authenticationKeyPath $RUNNER_TEMP/AuthKey.p8 \
+            CODE_SIGN_STYLE=Automatic \
+            DEVELOPMENT_TEAM=NZC6LC8NWM \
+            CODE_SIGN_ALLOW_PROVISIONING_UPDATES=YES
+
+      - name: Create ExportOptions.plist
+        run: |
+          cat > $RUNNER_TEMP/ExportOptions.plist << 'PLIST'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+              <key>method</key>
+              <string>app-store-connect</string>
+              <key>teamID</key>
+              <string>NZC6LC8NWM</string>
+              <key>destination</key>
+              <string>upload</string>
+              <key>signingStyle</key>
+              <string>automatic</string>
+          </dict>
+          </plist>
+          PLIST
+
+      - name: Upload to App Store Connect
+        run: |
+          xcodebuild -exportArchive \
+            -archivePath $RUNNER_TEMP/DevLingo.xcarchive \
+            -exportOptionsPlist $RUNNER_TEMP/ExportOptions.plist \
+            -exportPath $RUNNER_TEMP/export \
+            -authenticationKeyIssuerID ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }} \
+            -authenticationKeyID ${{ secrets.APP_STORE_CONNECT_KEY_ID }} \
+            -authenticationKeyPath $RUNNER_TEMP/AuthKey.p8 \
+            -allowProvisioningUpdates

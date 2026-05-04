@@ -74,6 +74,16 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
         }
     }
 
+    /// Whether this category requires premium access.
+    var isPremium: Bool {
+        switch self {
+        case .pairProgramming, .interviews, .documentation, .polite:
+            return true
+        default:
+            return false
+        }
+    }
+
     /// JSON file name for this category.
     var fileName: String {
         "phrases_\(rawValue)"

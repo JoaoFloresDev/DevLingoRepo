@@ -22,10 +22,15 @@ final class ReviewService {
         storage.setInt(count + 1, forKey: StorageKeys.appOpenCount)
     }
 
-    func requestReviewIfNeeded() {
-        let count = storage.getInt(forKey: StorageKeys.appOpenCount)
+    /// Returns the current app open count.
+    func launchCount() -> Int {
+        storage.getInt(forKey: StorageKeys.appOpenCount)
+    }
 
-        guard count >= AppConstants.reviewMinimumLaunches else { return }
+    /// Request review only between 5th and 10th app open. Called when user taps "learned".
+    func requestReviewIfEligible() {
+        let count = launchCount()
+        guard count >= 5 && count <= 10 else { return }
 
         // Check cooldown
         if let lastDate = storage.getDate(forKey: StorageKeys.lastReviewRequestDate) {
@@ -33,7 +38,6 @@ final class ReviewService {
             guard daysSince >= AppConstants.reviewCooldownDays else { return }
         }
 
-        // Request review (iOS 17 + 18 compatible)
         Task { @MainActor in
             if let scene = UIApplication.shared.connectedScenes
                 .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {

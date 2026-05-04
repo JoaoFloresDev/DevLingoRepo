@@ -3,7 +3,7 @@ import Foundation
 /// App-wide constants.
 enum AppConstants {
     // MARK: - App Info
-    static let appName = "DevLingo"
+    static let appName = "Devlingo"
     static let bundleID = "com.gambitstudio.devlingo"
     static let appGroupID = "group.com.gambitstudio.devlingo"
 
@@ -15,13 +15,17 @@ enum AppConstants {
     static let totalPhrases = 3900
     static let totalCategories = 13
 
-    // MARK: - StoreKit Product IDs (v2)
-    static let monthlyProductID = "devlingo.pro.monthly"
-    static let yearlyProductID = "devlingo.pro.yearly"
+    // MARK: - StoreKit Product IDs
+    static let monthlyProductID = "monthly.devlingo.pro"
+    static let yearlyProductID = "yearly.devlingo.pro"
 
     static var allProductIDs: [String] {
         [monthlyProductID, yearlyProductID]
     }
+
+    // MARK: - URLs
+    static let privacyPolicyURL = "https://drive.google.com/file/d/1fEHysu7rRdk9Hns4CCgK-4ty2_a57vR_/view?usp=sharing"
+    static let termsOfUseURL = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
 
     // MARK: - Defaults
     static let reviewMinimumLaunches = 5

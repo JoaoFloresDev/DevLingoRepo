@@ -7,10 +7,20 @@ options:
 
 settings:
   base:
-    MARKETING_VERSION: "1.0.0"
-    CURRENT_PROJECT_VERSION: "1"
+    MARKETING_VERSION: "1.3.0"
+    CURRENT_PROJECT_VERSION: "7"
     DEVELOPMENT_TEAM: NZC6LC8NWM
     SWIFT_VERSION: "5.9"
+
+schemes:
+  DevLingo:
+    build:
+      targets:
+        DevLingo: all
+    run:
+      config: Debug
+    archive:
+      config: Release
 
 targets:
   DevLingo:
@@ -29,7 +39,7 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         CODE_SIGN_STYLE: Automatic
-        TARGETED_DEVICE_FAMILY: "1,2"
+        TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: false
     entitlements:
       path: DevLingo/DevLingo.entitlements

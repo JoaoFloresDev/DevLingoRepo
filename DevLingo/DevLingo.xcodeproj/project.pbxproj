@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0496A91906A24EC7E188EB1D /* DailyPhraseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B87A22B6EB3BB7FFA14CA1 /* DailyPhraseSet.swift */; };
+		077F71F6E5277F7AD65A2CBD /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7147D9BF646D4A64A3887 /* PurchaseService.swift */; };
 		0D58BE2C2C5988560D63C77D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52120C89B81974B01228917C /* HomeView.swift */; };
 		1014F2B3882447731AF4F719 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017AF78074B47556ECD8C42 /* AppConstants.swift */; };
 		140E354D4F10D361D62339CD /* DifficultyBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7170A664AF0E34FE862D55 /* DifficultyBadge.swift */; };
 		143F4F4FAF665A7444CDEA6C /* DevLingoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0FB1BC5F83AE8602E0CB9 /* DevLingoWidget.swift */; };
 		1E207427BE01DDDF4ECD8EEF /* phrases_standup.json in Resources */ = {isa = PBXBuildFile; fileRef = 32CBC9A7BAB476BF19087D3B /* phrases_standup.json */; };
 		254711F5279CDA80DCD3F2E3 /* DevLingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */; };
+		25B8795114B985F82B3A596A /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C485ACCD634FA390AB3A0 /* PaywallView.swift */; };
 		2B0A52350E3BE0576E5C8188 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916F201CC08C87CDE38CF13 /* AppColors.swift */; };
 		33D5DF060F2B74DDA531FB73 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BAB69303026277CB0E5C93 /* SpeechManager.swift */; };
 		37E6517CDC0F59EDC8F2C991 /* PhraseDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F5BF040CC318B04F754D9 /* PhraseDifficulty.swift */; };
@@ -122,7 +124,7 @@
 		0942C10984C7F5655D809B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1488B68B9091517446D78C8A /* DevLingoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoWidgetBundle.swift; sourceTree = "<group>"; };
 		1A9F768CFE133B979270B710 /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
-		1B77D75E8682443E95727F20 /* DevLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B77D75E8682443E95727F20 /* DevLingo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DevLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD7663B93AA15B98F5C7F49 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		1CC5401E85C4B07CB833F0B5 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		23A1777D0BFF4188E61DC560 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		52120C89B81974B01228917C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5916F201CC08C87CDE38CF13 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		59220CEA29DA3B7BED5D7B51 /* PhraseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseCategory.swift; sourceTree = "<group>"; };
+		630C485ACCD634FA390AB3A0 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		65E1CFAAF95F9F899FEFE08A /* phrases_documentation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_documentation.json; sourceTree = "<group>"; };
 		6A0B5C00CB0147610309037F /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
 		6A7356707C1C959BF1457F12 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
@@ -177,7 +180,8 @@
 		DD519582384C6ED80FEDA119 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
 		DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoApp.swift; sourceTree = "<group>"; };
 		E1B87A22B6EB3BB7FFA14CA1 /* DailyPhraseSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPhraseSet.swift; sourceTree = "<group>"; };
-		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED7147D9BF646D4A64A3887 /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
 		F017AF78074B47556ECD8C42 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F2C3A4DA02184A963FBA7D22 /* ProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressService.swift; sourceTree = "<group>"; };
 		F9B57E2CAF43320B663133E5 /* phrases_email.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_email.json; sourceTree = "<group>"; };
@@ -260,6 +264,14 @@
 				3AB3AB1D9CB515693C63A546 /* ScreenshotTests.swift */,
 			);
 			path = DevLingoUITests;
+			sourceTree = "<group>";
+		};
+		45A164AE4D816C1813FEBF07 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				DC397EDA8D474E180D31CF2B /* Views */,
+			);
+			path = Paywall;
 			sourceTree = "<group>";
 		};
 		4682DAFE652E4047276CAE4A /* Data */ = {
@@ -397,6 +409,7 @@
 				493FB017D006CEDD5DD884DF /* NotificationService.swift */,
 				4575B8326B6251A810C86981 /* PhraseService.swift */,
 				F2C3A4DA02184A963FBA7D22 /* ProgressService.swift */,
+				EED7147D9BF646D4A64A3887 /* PurchaseService.swift */,
 				DB7DB56A1646C5F5C64591AA /* ReviewService.swift */,
 				74FFD332F5828F22786E2E52 /* StorageService.swift */,
 				DBA9C33A6F8761A8862D00AB /* WidgetService.swift */,
@@ -474,6 +487,7 @@
 				46FAE6C2380288F33388F88E /* History */,
 				2348C646CD43B2FD142D0A9A /* Home */,
 				D17B5E6C510261316163C395 /* Onboarding */,
+				45A164AE4D816C1813FEBF07 /* Paywall */,
 				CFE447634B2DBEF4580DEF2E /* Profile */,
 			);
 			path = Presentation;
@@ -515,6 +529,14 @@
 				CFD5612E18D63FBC541EEFC0 /* Views */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DC397EDA8D474E180D31CF2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				630C485ACCD634FA390AB3A0 /* PaywallView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EDD66F6AEC45FB539BF02B31 /* Constants */ = {
@@ -658,6 +680,7 @@
 			);
 			mainGroup = BD63EB4D394F87AF181FC77A;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -743,6 +766,7 @@
 				3DD2598DDBAFEA1EC35A72C5 /* NotificationSettingsSheet.swift in Sources */,
 				A30B7CF663764D5DF1DAB9C5 /* OnboardingView.swift in Sources */,
 				59B476325BF10596CFE49E1C /* OnboardingViewModel.swift in Sources */,
+				25B8795114B985F82B3A596A /* PaywallView.swift in Sources */,
 				C17E551482D5233EEF19DFDD /* Phrase.swift in Sources */,
 				518D92F9BFB442C6FC5E511F /* PhraseCardView.swift in Sources */,
 				4FEA1BE899A0BE3795742C54 /* PhraseCategory.swift in Sources */,
@@ -752,6 +776,7 @@
 				7FFC6BDA1118437270FE2F8C /* ProfileView.swift in Sources */,
 				7C02828AB396281648C5BABE /* ProfileViewModel.swift in Sources */,
 				FCDEC1F869E25850D15A144E /* ProgressService.swift in Sources */,
+				077F71F6E5277F7AD65A2CBD /* PurchaseService.swift in Sources */,
 				BC3BA5EE54D9C41BFC98716A /* ReviewService.swift in Sources */,
 				33D5DF060F2B74DDA531FB73 /* SpeechManager.swift in Sources */,
 				639187CF24AEC548567C7623 /* StorageKeys.swift in Sources */,
@@ -809,11 +834,7 @@
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingoWidget/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../../Frameworks",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks @executable_path/Frameworks";
 				MARKETING_VERSION = "$(MARKETING_VERSION)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo.widget;
 				SDKROOT = iphoneos;
@@ -856,7 +877,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -870,7 +891,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -908,14 +929,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingo/Resources/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -927,11 +947,7 @@
 				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingoWidget/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../../Frameworks",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks @executable_path/Frameworks";
 				MARKETING_VERSION = "$(MARKETING_VERSION)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo.widget;
 				SDKROOT = iphoneos;
@@ -974,7 +990,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -994,7 +1010,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.3.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1065,14 +1081,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DevLingo/Resources/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gambitstudio.devlingo;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};

@@ -10,6 +10,8 @@ struct ProfileView: View {
     @State private var showNotificationSettings = false
     @State private var showLearnedPhrases = false
     @State private var showSavedPhrases = false
+    @State private var showPaywall = false
+    @State private var isRestoringPurchases = false
 
     // MARK: - Body
 
@@ -20,6 +22,13 @@ struct ProfileView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: AppSpacing.lg) {
                     headerSection
+                    if FeatureFlags.premiumEnabled {
+                        if FeatureFlags.hasPremiumAccess() {
+                            premiumActiveBanner
+                        } else {
+                            proBanner
+                        }
+                    }
                     levelCard
                     statsSection
                     settingsSection
@@ -48,6 +57,9 @@ struct ProfileView: View {
                 language: viewModel.userLanguage
             )
         }
+        .fullScreenCover(isPresented: $showPaywall) {
+            PaywallView()
+        }
         .sheet(isPresented: $showSavedPhrases) {
             PhraseListSheet(
                 title: String(localized: "profile.saved"),
@@ -73,6 +85,104 @@ struct ProfileView: View {
             Spacer()
         }
         .padding(.top, AppSpacing.md)
+    }
+
+    // MARK: - Pro Banner
+
+    private var proBanner: some View {
+        Button {
+            showPaywall = true
+            HapticManager.mediumImpact()
+        } label: {
+            HStack(spacing: AppSpacing.md) {
+                Image(systemName: "crown.fill")
+                    .font(.system(size: 32))
+                    .foregroundStyle(AppColors.accent)
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(String(localized: "profile.pro_title"))
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(AppColors.textPrimary)
+
+                    Text(String(localized: "profile.pro_subtitle"))
+                        .font(.system(size: 14))
+                        .foregroundStyle(AppColors.textSecondary)
+                        .lineLimit(2)
+                }
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(AppColors.accent)
+            }
+            .padding(AppSpacing.lg)
+            .background(
+                LinearGradient(
+                    colors: [
+                        AppColors.accent.opacity(0.15),
+                        AppColors.accent.opacity(0.05)
+                    ],
+                    startPoint: .leading,
+                    endPoint: .trailing
+                )
+            )
+            .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
+            .overlay(
+                RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge)
+                    .strokeBorder(AppColors.accent.opacity(0.3), lineWidth: 1)
+            )
+        }
+        .pressAnimation()
+    }
+
+    // MARK: - Premium Active Banner
+
+    private var premiumActiveBanner: some View {
+        Button {
+            showPaywall = true
+            HapticManager.mediumImpact()
+        } label: {
+            HStack(spacing: AppSpacing.md) {
+                Image(systemName: "crown.fill")
+                    .font(.system(size: 32))
+                    .foregroundStyle(AppColors.secondary)
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(String(localized: "profile.premium_active_title"))
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(AppColors.textPrimary)
+
+                    Text(String(localized: "profile.premium_active_subtitle"))
+                        .font(.system(size: 14))
+                        .foregroundStyle(AppColors.textSecondary)
+                        .lineLimit(2)
+                }
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(AppColors.secondary)
+            }
+            .padding(AppSpacing.lg)
+            .background(
+                LinearGradient(
+                    colors: [
+                        AppColors.secondary.opacity(0.15),
+                        AppColors.secondary.opacity(0.05)
+                    ],
+                    startPoint: .leading,
+                    endPoint: .trailing
+                )
+            )
+            .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
+            .overlay(
+                RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge)
+                    .strokeBorder(AppColors.secondary.opacity(0.3), lineWidth: 1)
+            )
+        }
+        .pressAnimation()
     }
 
     // MARK: - Level Card
@@ -180,7 +290,6 @@ struct ProfileView: View {
                     value: "\(viewModel.savedCount)"
                 )
             }
-
         }
         .background(AppColors.surface)
         .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
@@ -236,10 +345,42 @@ struct ProfileView: View {
 
             ShareLink(
                 item: URL(string: "https://apps.apple.com/app/devlingo/id6759974641")!,
-                subject: Text("DevLingo"),
+                subject: Text("Devlingo"),
                 message: Text(String(localized: "profile.share_message"))
             ) {
                 settingsRow(icon: "square.and.arrow.up", title: String(localized: "profile.share_app"))
+            }
+
+            Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
+
+            Button {
+                if let url = URL(string: "https://drive.google.com/file/d/1fEHysu7rRdk9Hns4CCgK-4ty2_a57vR_/view?usp=sharing") {
+                    UIApplication.shared.open(url)
+                }
+            } label: {
+                settingsRow(icon: "hand.raised.fill", title: String(localized: "profile.privacy_policy"))
+            }
+
+            if FeatureFlags.premiumEnabled {
+                Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
+
+                Button {
+                    Task {
+                        isRestoringPurchases = true
+                        await PurchaseService.shared.restorePurchases()
+                        isRestoringPurchases = false
+                        HapticManager.success()
+                    }
+                } label: {
+                    HStack {
+                        settingsRow(icon: "arrow.clockwise", title: String(localized: "profile.restore_purchases"))
+                        if isRestoringPurchases {
+                            ProgressView()
+                                .tint(AppColors.textSecondary)
+                                .padding(.trailing, AppSpacing.lg)
+                        }
+                    }
+                }
             }
         }
         .background(AppColors.surface)

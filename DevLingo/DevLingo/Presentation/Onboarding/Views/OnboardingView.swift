@@ -64,11 +64,13 @@ struct OnboardingView: View {
                 .font(AppFonts.title)
                 .foregroundStyle(AppColors.textPrimary)
                 .multilineTextAlignment(.center)
+                .padding(.horizontal, AppSpacing.screenPadding)
 
             Text(String(localized: "onboarding.select_language_subtitle"))
                 .font(AppFonts.subheadline)
                 .foregroundStyle(AppColors.textSecondary)
                 .multilineTextAlignment(.center)
+                .padding(.horizontal, AppSpacing.screenPadding)
 
             // Language list
             ScrollView(.vertical, showsIndicators: false) {
@@ -134,6 +136,7 @@ struct OnboardingView: View {
                 .font(AppFonts.title)
                 .foregroundStyle(AppColors.textPrimary)
                 .multilineTextAlignment(.center)
+                .padding(.horizontal, AppSpacing.screenPadding)
 
             Text(String(localized: "onboarding.translation_subtitle"))
                 .font(AppFonts.subheadline)
@@ -186,6 +189,7 @@ struct OnboardingView: View {
                 .font(AppFonts.title)
                 .foregroundStyle(AppColors.textPrimary)
                 .multilineTextAlignment(.center)
+                .padding(.horizontal, AppSpacing.screenPadding)
 
             Text(String(localized: "onboarding.notifications_subtitle"))
                 .font(AppFonts.subheadline)

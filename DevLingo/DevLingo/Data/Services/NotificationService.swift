@@ -55,7 +55,7 @@ final class NotificationService {
                 phraseIndex += 1
 
                 let content = UNMutableNotificationContent()
-                content.title = "DevLingo"
+                content.title = "Devlingo"
                 content.body = phrase.english
                 content.sound = .default
 

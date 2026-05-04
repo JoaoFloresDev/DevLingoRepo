@@ -88,7 +88,7 @@ final class HomeViewModel: ObservableObject {
 
         if !hasTriggeredReviewThisSession {
             hasTriggeredReviewThisSession = true
-            ReviewService.shared.requestReviewIfNeeded()
+            ReviewService.shared.requestReviewIfEligible()
         }
     }
 

@@ -5,6 +5,7 @@ struct MainTabView: View {
     // MARK: - Properties
 
     @State private var selectedTab = 0
+    @State private var showPaywall = false
 
     // MARK: - Body
 
@@ -38,7 +39,22 @@ struct MainTabView: View {
         }
         .tint(AppColors.primary)
         .onAppear {
-            ReviewService.shared.requestReviewIfNeeded()
+            checkPaywallOnLaunch()
+        }
+        .fullScreenCover(isPresented: $showPaywall) {
+            PaywallView()
+        }
+    }
+
+    // MARK: - Private
+
+    private func checkPaywallOnLaunch() {
+        guard !FeatureFlags.hasPremiumAccess() else { return }
+        let count = ReviewService.shared.launchCount()
+        if count >= 15 {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                showPaywall = true
+            }
         }
     }
 }
