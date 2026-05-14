@@ -1,0 +1,23 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# OS
+.DS_Store
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Sensitive
+*.p8
+*.p12
+*.mobileprovision
