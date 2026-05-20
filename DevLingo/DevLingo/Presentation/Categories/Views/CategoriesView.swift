@@ -141,6 +141,15 @@ struct CategoryCard: View {
                     .background(AppColors.accent)
                     .clipShape(Capsule())
                     .padding(8)
+            } else if category.isFeatured {
+                Text(String(localized: "categories.new"))
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(category.color)
+                    .clipShape(Capsule())
+                    .padding(8)
             }
         }
     }

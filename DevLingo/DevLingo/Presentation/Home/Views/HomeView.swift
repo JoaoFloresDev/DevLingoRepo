@@ -5,6 +5,8 @@ struct HomeView: View {
     // MARK: - Properties
 
     @StateObject private var viewModel = HomeViewModel()
+    @StateObject private var router = AppRouter.shared
+    @State private var highlightedPhraseID: String?
 
     // MARK: - Body
 
@@ -13,19 +15,53 @@ struct HomeView: View {
             AppColors.background
                 .ignoresSafeArea()
 
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing: AppSpacing.lg) {
-                    headerSection
-                    streakAndProgress
-                    translationToggle
-                    phrasesSection
+            ScrollViewReader { proxy in
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: AppSpacing.lg) {
+                        headerSection
+                        streakAndProgress
+                        translationToggle
+                        phrasesSection
+                    }
+                    .padding(.horizontal, AppSpacing.screenPadding)
+                    .padding(.bottom, AppSpacing.xxl)
                 }
-                .padding(.horizontal, AppSpacing.screenPadding)
-                .padding(.bottom, AppSpacing.xxl)
+                .onChange(of: router.pendingPhraseID) { _, newValue in
+                    guard let id = newValue else { return }
+                    focusPhrase(id, proxy: proxy)
+                }
+                .onChange(of: viewModel.isLoading) { _, isLoading in
+                    if !isLoading, let id = router.pendingPhraseID {
+                        focusPhrase(id, proxy: proxy)
+                    }
+                }
             }
         }
         .onAppear {
             viewModel.loadData()
+        }
+    }
+
+    // MARK: - Deep Link
+
+    private func focusPhrase(_ id: String, proxy: ScrollViewProxy) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            withAnimation(.spring(response: 0.45, dampingFraction: 0.85)) {
+                proxy.scrollTo(id, anchor: .center)
+            }
+            withAnimation(.easeOut(duration: 0.2)) {
+                highlightedPhraseID = id
+            }
+            HapticManager.lightImpact()
+            router.clearPendingPhrase()
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.4) {
+                withAnimation(.easeOut(duration: 0.4)) {
+                    if highlightedPhraseID == id {
+                        highlightedPhraseID = nil
+                    }
+                }
+            }
         }
     }
 
@@ -166,6 +202,12 @@ struct HomeView: View {
                             onUncomplete: { viewModel.markUncompleted(phrase) },
                             onSave: { viewModel.toggleSaved(phrase) },
                             onSpeak: { viewModel.speak(phrase) }
+                        )
+                        .id(phrase.id)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge)
+                                .stroke(AppColors.primary, lineWidth: highlightedPhraseID == phrase.id ? 2 : 0)
+                                .animation(.easeOut(duration: 0.25), value: highlightedPhraseID)
                         )
                         .transition(.asymmetric(
                             insertion: .opacity.combined(with: .move(edge: .trailing)),

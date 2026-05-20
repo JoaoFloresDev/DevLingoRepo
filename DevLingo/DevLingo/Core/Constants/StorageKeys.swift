@@ -45,6 +45,7 @@ enum StorageKeys {
 
     // MARK: - Widget
     static let widgetPhrases = "widgetPhrases"
+    static let widgetCurrentIndex = "widgetCurrentIndex"
 
     // MARK: - Appearance
     static let preferredColorScheme = "preferredColorScheme"

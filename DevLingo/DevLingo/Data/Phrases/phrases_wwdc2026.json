@@ -1,0 +1,709 @@
+[
+  {
+    "id": "wwdc2026_001",
+    "english": "Did you watch the keynote yet?",
+    "context": "Asking a colleague about WWDC keynote on day one",
+    "translations": {
+      "pt-BR": "Você já assistiu ao keynote?",
+      "es": "¿Ya viste el keynote?",
+      "fr": "Tu as déjà regardé le keynote ?",
+      "de": "Hast du die Keynote schon gesehen?",
+      "it": "Hai già visto il keynote?"
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_002",
+    "english": "The Platforms State of the Union goes deeper into the new APIs.",
+    "context": "Pointing teammates to the developer-focused WWDC session",
+    "translations": {
+      "pt-BR": "O Platforms State of the Union aprofunda nas novas APIs.",
+      "es": "El Platforms State of the Union profundiza más en las nuevas APIs.",
+      "fr": "Le Platforms State of the Union approfondit les nouvelles API.",
+      "de": "Die Platforms State of the Union geht tiefer auf die neuen APIs ein.",
+      "it": "Il Platforms State of the Union approfondisce le nuove API."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_003",
+    "english": "I'll book a lab slot to ask the SwiftUI team directly.",
+    "context": "Planning to attend a developer lab session at WWDC",
+    "translations": {
+      "pt-BR": "Vou reservar um slot de lab pra perguntar direto pro time do SwiftUI.",
+      "es": "Voy a reservar un slot de lab para preguntarle directamente al equipo de SwiftUI.",
+      "fr": "Je vais réserver un créneau de lab pour interroger directement l'équipe SwiftUI.",
+      "de": "Ich buche einen Lab-Slot, um direkt das SwiftUI-Team zu fragen.",
+      "it": "Prenoto uno slot di lab per chiedere direttamente al team di SwiftUI."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_004",
+    "english": "This session is a must-watch if you ship SwiftUI apps.",
+    "context": "Recommending a WWDC session to your team",
+    "translations": {
+      "pt-BR": "Essa session é obrigatória se você publica apps em SwiftUI.",
+      "es": "Esta sesión es obligatoria si publicas apps en SwiftUI.",
+      "fr": "Cette session est incontournable si tu publies des apps SwiftUI.",
+      "de": "Diese Session ist ein Muss, wenn du SwiftUI-Apps veröffentlichst.",
+      "it": "Questa sessione è imperdibile se pubblichi app in SwiftUI."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_005",
+    "english": "Let's adopt the new APIs incrementally to keep iOS 17 support.",
+    "context": "Deciding how to roll out new OS features without breaking backward compatibility",
+    "translations": {
+      "pt-BR": "Vamos adotar as novas APIs de forma incremental pra manter o suporte ao iOS 17.",
+      "es": "Vamos a adoptar las nuevas APIs de forma incremental para mantener el soporte de iOS 17.",
+      "fr": "Adoptons les nouvelles API de manière incrémentale pour garder la compatibilité iOS 17.",
+      "de": "Lass uns die neuen APIs schrittweise einführen, um iOS-17-Unterstützung beizubehalten.",
+      "it": "Adottiamo le nuove API in modo incrementale per mantenere il supporto a iOS 17."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_006",
+    "english": "Replace ObservableObject with the @Observable macro.",
+    "context": "Modernizing SwiftUI state management",
+    "translations": {
+      "pt-BR": "Substitua ObservableObject pela macro @Observable.",
+      "es": "Reemplaza ObservableObject por el macro @Observable.",
+      "fr": "Remplace ObservableObject par le macro @Observable.",
+      "de": "Ersetze ObservableObject durch das @Observable-Macro.",
+      "it": "Sostituisci ObservableObject con il macro @Observable."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_007",
+    "english": "Wrap this view in a ScrollView with a scroll target behavior.",
+    "context": "Using new SwiftUI scroll APIs",
+    "translations": {
+      "pt-BR": "Envolva essa view num ScrollView com scroll target behavior.",
+      "es": "Envuelve esta vista en un ScrollView con un scroll target behavior.",
+      "fr": "Enveloppe cette vue dans un ScrollView avec un scroll target behavior.",
+      "de": "Wickle diese View in eine ScrollView mit Scroll Target Behavior.",
+      "it": "Avvolgi questa view in uno ScrollView con scroll target behavior."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_008",
+    "english": "Use the new TabView API with the sidebar adaptable style.",
+    "context": "Adopting modern multi-platform tab navigation in SwiftUI",
+    "translations": {
+      "pt-BR": "Use a nova API de TabView com o estilo adaptável de sidebar.",
+      "es": "Usa la nueva API de TabView con el estilo adaptable de sidebar.",
+      "fr": "Utilise la nouvelle API TabView avec le style adaptable sidebar.",
+      "de": "Nutze die neue TabView-API mit dem adaptiven Sidebar-Stil.",
+      "it": "Usa la nuova API TabView con lo stile sidebar adattabile."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_009",
+    "english": "Add a sensoryFeedback modifier to trigger haptics on state change.",
+    "context": "Replacing manual UIFeedbackGenerator with SwiftUI's declarative haptics",
+    "translations": {
+      "pt-BR": "Adicione um modifier sensoryFeedback pra disparar haptics quando o estado muda.",
+      "es": "Agrega un modifier sensoryFeedback para disparar haptics cuando cambie el estado.",
+      "fr": "Ajoute un modifier sensoryFeedback pour déclencher des haptics au changement d'état.",
+      "de": "Füge einen sensoryFeedback-Modifier hinzu, um Haptics bei Statusänderung auszulösen.",
+      "it": "Aggiungi un modifier sensoryFeedback per attivare l'haptic al cambio di stato."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_010",
+    "english": "The new MeshGradient lets us build organic backgrounds in pure SwiftUI.",
+    "context": "Discussing visual design using SwiftUI 2026 gradient API",
+    "translations": {
+      "pt-BR": "O novo MeshGradient permite criar backgrounds orgânicos em SwiftUI puro.",
+      "es": "El nuevo MeshGradient nos permite construir fondos orgánicos en SwiftUI puro.",
+      "fr": "Le nouveau MeshGradient permet de créer des arrière-plans organiques en pur SwiftUI.",
+      "de": "Mit dem neuen MeshGradient lassen sich organische Hintergründe in reinem SwiftUI bauen.",
+      "it": "Il nuovo MeshGradient ci permette di creare sfondi organici in SwiftUI puro."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_011",
+    "english": "Mark this function async so we can await the network call.",
+    "context": "Adopting Swift Concurrency for async I/O",
+    "translations": {
+      "pt-BR": "Marque essa função como async pra podermos dar await na chamada de rede.",
+      "es": "Marca esta función como async para poder hacer await en la llamada de red.",
+      "fr": "Marque cette fonction async pour pouvoir await l'appel réseau.",
+      "de": "Markiere diese Funktion als async, damit wir den Netzwerkaufruf awaiten können.",
+      "it": "Segna questa funzione come async per poter fare await sulla chiamata di rete."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_012",
+    "english": "Wrap mutable state inside an actor to make it Sendable.",
+    "context": "Resolving data race warnings with Swift 6 strict concurrency",
+    "translations": {
+      "pt-BR": "Envolva o estado mutável dentro de um actor pra torná-lo Sendable.",
+      "es": "Envuelve el estado mutable dentro de un actor para hacerlo Sendable.",
+      "fr": "Encapsule l'état mutable dans un actor pour le rendre Sendable.",
+      "de": "Kapsele veränderlichen Zustand in einem Actor, um ihn Sendable zu machen.",
+      "it": "Incapsula lo stato mutabile dentro un actor per renderlo Sendable."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_013",
+    "english": "Enable strict concurrency checking before migrating to Swift 6.",
+    "context": "Preparing a project for the Swift 6 language mode",
+    "translations": {
+      "pt-BR": "Ative strict concurrency checking antes de migrar pro Swift 6.",
+      "es": "Activa el strict concurrency checking antes de migrar a Swift 6.",
+      "fr": "Active la vérification stricte de concurrence avant de migrer vers Swift 6.",
+      "de": "Aktiviere Strict Concurrency Checking, bevor du auf Swift 6 migrierst.",
+      "it": "Attiva lo strict concurrency checking prima di migrare a Swift 6."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_014",
+    "english": "Run these requests concurrently with a TaskGroup.",
+    "context": "Parallelizing async work in Swift",
+    "translations": {
+      "pt-BR": "Rode essas requisições concorrentemente com um TaskGroup.",
+      "es": "Ejecuta estas solicitudes en paralelo con un TaskGroup.",
+      "fr": "Exécute ces requêtes en parallèle avec un TaskGroup.",
+      "de": "Führe diese Requests gleichzeitig mit einer TaskGroup aus.",
+      "it": "Esegui queste richieste in parallelo con un TaskGroup."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_015",
+    "english": "Mark this type Sendable so it can cross actor boundaries safely.",
+    "context": "Annotating types for Swift Concurrency safety",
+    "translations": {
+      "pt-BR": "Marque esse tipo como Sendable pra poder cruzar fronteiras de actor com segurança.",
+      "es": "Marca este tipo como Sendable para que pueda cruzar fronteras de actor de forma segura.",
+      "fr": "Marque ce type Sendable pour qu'il puisse traverser les frontières d'actor en sécurité.",
+      "de": "Markiere diesen Typ als Sendable, damit er Actor-Grenzen sicher überqueren kann.",
+      "it": "Segna questo tipo come Sendable per attraversare i confini degli actor in sicurezza."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_016",
+    "english": "Use @MainActor to guarantee this runs on the main thread.",
+    "context": "Annotating UI-bound code with the main actor",
+    "translations": {
+      "pt-BR": "Use @MainActor pra garantir que isso rode na main thread.",
+      "es": "Usa @MainActor para garantizar que esto se ejecute en el hilo principal.",
+      "fr": "Utilise @MainActor pour garantir que ça tourne sur le thread principal.",
+      "de": "Verwende @MainActor, um sicherzustellen, dass das auf dem Main Thread läuft.",
+      "it": "Usa @MainActor per garantire che venga eseguito sul main thread."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_017",
+    "english": "Cancel the task when the view disappears to avoid leaks.",
+    "context": "Lifecycle management for async tasks in SwiftUI",
+    "translations": {
+      "pt-BR": "Cancele a task quando a view desaparecer pra evitar leaks.",
+      "es": "Cancela la task cuando la vista desaparezca para evitar leaks.",
+      "fr": "Annule la tâche quand la vue disparaît pour éviter les leaks.",
+      "de": "Brich die Task ab, wenn die View verschwindet, um Leaks zu vermeiden.",
+      "it": "Annulla la task quando la view scompare per evitare memory leak."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_018",
+    "english": "AsyncSequence makes streaming data feel native to Swift.",
+    "context": "Praising the ergonomics of Swift's async iteration",
+    "translations": {
+      "pt-BR": "AsyncSequence faz com que streaming de dados pareça nativo do Swift.",
+      "es": "AsyncSequence hace que el streaming de datos se sienta nativo de Swift.",
+      "fr": "AsyncSequence rend le streaming de données vraiment natif en Swift.",
+      "de": "AsyncSequence lässt Daten-Streaming sich wie natives Swift anfühlen.",
+      "it": "AsyncSequence fa sembrare nativo lo streaming di dati in Swift."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_019",
+    "english": "Expose this feature as an App Intent so Siri can trigger it.",
+    "context": "Integrating an action with the App Intents framework",
+    "translations": {
+      "pt-BR": "Exponha essa funcionalidade como um App Intent pra Siri poder disparar.",
+      "es": "Expón esta funcionalidad como un App Intent para que Siri pueda activarla.",
+      "fr": "Expose cette fonctionnalité en tant qu'App Intent pour que Siri puisse la déclencher.",
+      "de": "Stelle dieses Feature als App Intent bereit, damit Siri es auslösen kann.",
+      "it": "Esponi questa funzionalità come App Intent così che Siri possa attivarla."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_020",
+    "english": "Define an AppShortcutsProvider to register your shortcuts at install time.",
+    "context": "Surfacing app actions in the Shortcuts app automatically",
+    "translations": {
+      "pt-BR": "Defina um AppShortcutsProvider pra registrar seus shortcuts no momento da instalação.",
+      "es": "Define un AppShortcutsProvider para registrar tus shortcuts al instalar.",
+      "fr": "Définis un AppShortcutsProvider pour enregistrer tes shortcuts dès l'installation.",
+      "de": "Definiere einen AppShortcutsProvider, um deine Shortcuts beim Installieren zu registrieren.",
+      "it": "Definisci un AppShortcutsProvider per registrare i tuoi shortcut all'installazione."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_021",
+    "english": "The intent parameter resolves through a dynamic options provider.",
+    "context": "Building dynamic Shortcuts that fetch options at runtime",
+    "translations": {
+      "pt-BR": "O parâmetro do intent é resolvido via um dynamic options provider.",
+      "es": "El parámetro del intent se resuelve mediante un dynamic options provider.",
+      "fr": "Le paramètre de l'intent se résout via un dynamic options provider.",
+      "de": "Der Intent-Parameter wird über einen Dynamic Options Provider aufgelöst.",
+      "it": "Il parametro dell'intent si risolve tramite un dynamic options provider."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_022",
+    "english": "Add interactive buttons to your widget with App Intents.",
+    "context": "Building interactive widgets without launching the host app",
+    "translations": {
+      "pt-BR": "Adicione botões interativos no seu widget usando App Intents.",
+      "es": "Agrega botones interactivos a tu widget usando App Intents.",
+      "fr": "Ajoute des boutons interactifs à ton widget grâce aux App Intents.",
+      "de": "Füge deinem Widget interaktive Buttons mit App Intents hinzu.",
+      "it": "Aggiungi pulsanti interattivi al tuo widget usando gli App Intent."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_023",
+    "english": "Use @Parameter to declare the inputs your intent expects.",
+    "context": "Wiring up parameters for an App Intent",
+    "translations": {
+      "pt-BR": "Use @Parameter pra declarar os inputs que seu intent espera.",
+      "es": "Usa @Parameter para declarar los inputs que tu intent espera.",
+      "fr": "Utilise @Parameter pour déclarer les entrées attendues par ton intent.",
+      "de": "Verwende @Parameter, um die Eingaben deines Intents zu deklarieren.",
+      "it": "Usa @Parameter per dichiarare gli input che il tuo intent si aspetta."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_024",
+    "english": "The donate API tells the system this action is worth suggesting.",
+    "context": "Improving Siri suggestions via intent donation",
+    "translations": {
+      "pt-BR": "A API de donate diz pro sistema que essa ação vale a pena ser sugerida.",
+      "es": "La API de donate le indica al sistema que esta acción vale la pena sugerirla.",
+      "fr": "L'API donate indique au système que cette action vaut la peine d'être suggérée.",
+      "de": "Die Donate-API teilt dem System mit, dass diese Aktion vorgeschlagen werden sollte.",
+      "it": "L'API donate dice al sistema che questa azione vale la pena di essere suggerita."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_025",
+    "english": "Localize your intent's display representation in all supported languages.",
+    "context": "Making intents discoverable across regions",
+    "translations": {
+      "pt-BR": "Localize o display representation do seu intent em todos os idiomas suportados.",
+      "es": "Localiza la display representation de tu intent en todos los idiomas soportados.",
+      "fr": "Localise la display representation de ton intent dans toutes les langues supportées.",
+      "de": "Lokalisiere die Display Representation deines Intents in allen unterstützten Sprachen.",
+      "it": "Localizza la display representation del tuo intent in tutte le lingue supportate."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_026",
+    "english": "We're prototyping a visionOS companion app.",
+    "context": "Announcing exploratory spatial-computing work",
+    "translations": {
+      "pt-BR": "A gente tá prototipando um app companion pra visionOS.",
+      "es": "Estamos prototipando una app compañera para visionOS.",
+      "fr": "On prototype une app compagnon pour visionOS.",
+      "de": "Wir prototypen eine Companion-App für visionOS.",
+      "it": "Stiamo prototipando un'app companion per visionOS."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_027",
+    "english": "Use a RealityView to embed 3D content alongside SwiftUI.",
+    "context": "Mixing 2D and 3D UI on Vision Pro",
+    "translations": {
+      "pt-BR": "Use uma RealityView pra embarcar conteúdo 3D junto com SwiftUI.",
+      "es": "Usa un RealityView para incrustar contenido 3D junto con SwiftUI.",
+      "fr": "Utilise une RealityView pour intégrer du contenu 3D aux côtés de SwiftUI.",
+      "de": "Verwende eine RealityView, um 3D-Inhalte neben SwiftUI einzubetten.",
+      "it": "Usa una RealityView per integrare contenuti 3D accanto a SwiftUI."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_028",
+    "english": "Open an immersive space to take over the user's environment.",
+    "context": "Transitioning a visionOS app to a fully immersive experience",
+    "translations": {
+      "pt-BR": "Abra um immersive space pra ocupar o ambiente do usuário.",
+      "es": "Abre un immersive space para tomar el control del entorno del usuario.",
+      "fr": "Ouvre un immersive space pour prendre le contrôle de l'environnement de l'utilisateur.",
+      "de": "Öffne einen Immersive Space, um die Umgebung des Nutzers einzunehmen.",
+      "it": "Apri un immersive space per prendere il controllo dell'ambiente dell'utente."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_029",
+    "english": "Anchor this entity to the user's hand using ARKit.",
+    "context": "Spatial anchoring on Vision Pro",
+    "translations": {
+      "pt-BR": "Ancore essa entity na mão do usuário usando ARKit.",
+      "es": "Ancla esta entity a la mano del usuario usando ARKit.",
+      "fr": "Ancre cette entity à la main de l'utilisateur via ARKit.",
+      "de": "Verankere diese Entity an der Hand des Nutzers mit ARKit.",
+      "it": "Ancora questa entity alla mano dell'utente usando ARKit."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_030",
+    "english": "Test the app in the Vision Pro simulator before requesting a dev kit.",
+    "context": "Planning visionOS development without physical hardware",
+    "translations": {
+      "pt-BR": "Teste o app no simulador do Vision Pro antes de pedir um dev kit.",
+      "es": "Prueba la app en el simulador del Vision Pro antes de pedir un dev kit.",
+      "fr": "Teste l'app dans le simulateur Vision Pro avant de demander un dev kit.",
+      "de": "Teste die App im Vision-Pro-Simulator, bevor du ein Dev Kit anforderst.",
+      "it": "Testa l'app nel simulatore di Vision Pro prima di richiedere un dev kit."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_031",
+    "english": "Use windowed and volumetric scenes side by side.",
+    "context": "Designing multi-scene visionOS apps",
+    "translations": {
+      "pt-BR": "Use scenes windowed e volumétricas lado a lado.",
+      "es": "Usa scenes windowed y volumétricas lado a lado.",
+      "fr": "Utilise des scenes windowed et volumétriques côte à côte.",
+      "de": "Verwende Windowed- und Volumetric-Scenes nebeneinander.",
+      "it": "Usa scene windowed e volumetriche fianco a fianco."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_032",
+    "english": "Gaze and pinch is the primary input model on Vision Pro.",
+    "context": "Explaining spatial interaction patterns",
+    "translations": {
+      "pt-BR": "Gaze e pinch é o modelo principal de input no Vision Pro.",
+      "es": "Gaze y pinch es el modelo principal de input en el Vision Pro.",
+      "fr": "Gaze et pinch sont le modèle d'input principal sur Vision Pro.",
+      "de": "Gaze und Pinch sind das primäre Input-Modell auf der Vision Pro.",
+      "it": "Gaze e pinch sono il modello di input principale su Vision Pro."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_033",
+    "english": "Apple Intelligence runs on-device whenever possible.",
+    "context": "Explaining the privacy posture of Apple's AI stack",
+    "translations": {
+      "pt-BR": "O Apple Intelligence roda on-device sempre que possível.",
+      "es": "Apple Intelligence se ejecuta on-device siempre que es posible.",
+      "fr": "Apple Intelligence s'exécute on-device chaque fois que c'est possible.",
+      "de": "Apple Intelligence läuft wenn möglich on-device.",
+      "it": "Apple Intelligence gira on-device ogni volta che è possibile."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_034",
+    "english": "Call the Foundation Models framework to access the on-device language model.",
+    "context": "Integrating Apple's local LLM into your app",
+    "translations": {
+      "pt-BR": "Chame o framework Foundation Models pra acessar o language model on-device.",
+      "es": "Llama al framework Foundation Models para acceder al language model on-device.",
+      "fr": "Appelle le framework Foundation Models pour accéder au language model on-device.",
+      "de": "Rufe das Foundation-Models-Framework auf, um auf das On-Device-Language-Model zuzugreifen.",
+      "it": "Chiama il framework Foundation Models per accedere al language model on-device."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_035",
+    "english": "Writing Tools work in any text view that adopts TextEditor.",
+    "context": "Explaining how Apple Intelligence text features integrate",
+    "translations": {
+      "pt-BR": "As Writing Tools funcionam em qualquer text view que adote TextEditor.",
+      "es": "Las Writing Tools funcionan en cualquier text view que adopte TextEditor.",
+      "fr": "Les Writing Tools fonctionnent dans n'importe quelle text view utilisant TextEditor.",
+      "de": "Writing Tools funktionieren in jeder Text View, die TextEditor verwendet.",
+      "it": "I Writing Tools funzionano in qualsiasi text view che adotti TextEditor."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_036",
+    "english": "Use Image Playground to let users generate custom images in your app.",
+    "context": "Adopting Apple's on-device image generation API",
+    "translations": {
+      "pt-BR": "Use Image Playground pra deixar os usuários gerarem imagens custom no seu app.",
+      "es": "Usa Image Playground para que los usuarios generen imágenes personalizadas en tu app.",
+      "fr": "Utilise Image Playground pour permettre aux utilisateurs de générer des images personnalisées.",
+      "de": "Nutze Image Playground, damit Nutzer eigene Bilder in deiner App generieren können.",
+      "it": "Usa Image Playground per permettere agli utenti di generare immagini personalizzate nella tua app."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_037",
+    "english": "Genmoji lets users create custom emoji on the fly.",
+    "context": "Describing a new Apple Intelligence consumer feature",
+    "translations": {
+      "pt-BR": "O Genmoji permite que usuários criem emojis customizados na hora.",
+      "es": "Genmoji permite a los usuarios crear emojis personalizados al momento.",
+      "fr": "Genmoji permet aux utilisateurs de créer des emojis personnalisés à la volée.",
+      "de": "Genmoji erlaubt Nutzern, eigene Emojis spontan zu erstellen.",
+      "it": "Genmoji permette agli utenti di creare emoji personalizzate al volo."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_038",
+    "english": "Private Cloud Compute extends the on-device model for heavier prompts.",
+    "context": "Discussing Apple's secure off-device compute layer",
+    "translations": {
+      "pt-BR": "O Private Cloud Compute estende o modelo on-device pra prompts mais pesados.",
+      "es": "Private Cloud Compute extiende el modelo on-device para prompts más pesados.",
+      "fr": "Private Cloud Compute étend le modèle on-device pour les prompts plus lourds.",
+      "de": "Private Cloud Compute erweitert das On-Device-Modell für anspruchsvollere Prompts.",
+      "it": "Private Cloud Compute estende il modello on-device per prompt più pesanti."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_039",
+    "english": "Use guided generation to constrain the model output to a Codable type.",
+    "context": "Getting structured output from the Foundation Models framework",
+    "translations": {
+      "pt-BR": "Use guided generation pra restringir o output do modelo a um tipo Codable.",
+      "es": "Usa guided generation para restringir el output del modelo a un tipo Codable.",
+      "fr": "Utilise guided generation pour contraindre la sortie du modèle à un type Codable.",
+      "de": "Nutze Guided Generation, um die Modellausgabe auf einen Codable-Typ zu beschränken.",
+      "it": "Usa guided generation per vincolare l'output del modello a un tipo Codable."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_040",
+    "english": "Always disclose that your feature uses AI in the App Store description.",
+    "context": "Following Apple's App Store guidelines for AI features",
+    "translations": {
+      "pt-BR": "Sempre informe que a sua feature usa IA na descrição da App Store.",
+      "es": "Siempre indica que tu feature usa IA en la descripción de la App Store.",
+      "fr": "Indique toujours que ta fonctionnalité utilise l'IA dans la description App Store.",
+      "de": "Gib in der App-Store-Beschreibung immer an, dass dein Feature KI verwendet.",
+      "it": "Dichiara sempre nella descrizione dell'App Store che la tua feature usa l'IA."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_041",
+    "english": "Use @Model to make your type SwiftData-managed.",
+    "context": "Adopting SwiftData for persistence",
+    "translations": {
+      "pt-BR": "Use @Model pra que seu tipo seja gerenciado pelo SwiftData.",
+      "es": "Usa @Model para que tu tipo sea gestionado por SwiftData.",
+      "fr": "Utilise @Model pour que ton type soit géré par SwiftData.",
+      "de": "Verwende @Model, damit dein Typ von SwiftData verwaltet wird.",
+      "it": "Usa @Model perché il tuo tipo sia gestito da SwiftData."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_042",
+    "english": "Expand the macro in Xcode to debug the generated code.",
+    "context": "Debugging Swift macros at compile time",
+    "translations": {
+      "pt-BR": "Expanda a macro no Xcode pra debugar o código gerado.",
+      "es": "Expande el macro en Xcode para depurar el código generado.",
+      "fr": "Étends le macro dans Xcode pour déboguer le code généré.",
+      "de": "Erweitere das Macro in Xcode, um den generierten Code zu debuggen.",
+      "it": "Espandi il macro in Xcode per fare debug del codice generato."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_043",
+    "english": "Typed throws let you specify exactly what errors a function can throw.",
+    "context": "Adopting Swift's typed throws feature",
+    "translations": {
+      "pt-BR": "Typed throws permite especificar exatamente quais erros uma função pode lançar.",
+      "es": "Los typed throws permiten especificar exactamente qué errores puede lanzar una función.",
+      "fr": "Les typed throws permettent de spécifier exactement quelles erreurs une fonction peut lancer.",
+      "de": "Mit Typed Throws gibst du exakt an, welche Fehler eine Funktion werfen kann.",
+      "it": "I typed throws permettono di specificare esattamente quali errori una funzione può lanciare."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_044",
+    "english": "Migrate this NSObject subclass to a pure Swift struct.",
+    "context": "Modernizing legacy Objective-C bridging code",
+    "translations": {
+      "pt-BR": "Migre essa subclasse de NSObject pra uma struct Swift pura.",
+      "es": "Migra esta subclase de NSObject a un struct Swift puro.",
+      "fr": "Migre cette sous-classe NSObject vers un struct Swift pur.",
+      "de": "Migriere diese NSObject-Subklasse zu einem reinen Swift-Struct.",
+      "it": "Migra questa sottoclasse di NSObject a uno struct Swift puro."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+
+  {
+    "id": "wwdc2026_045",
+    "english": "I'll catch up on sessions on the WWDC app during my commute.",
+    "context": "Planning post-keynote study time",
+    "translations": {
+      "pt-BR": "Vou pôr as sessions em dia no app do WWDC durante o trajeto.",
+      "es": "Voy a ponerme al día con las sessions en la app de WWDC durante el viaje.",
+      "fr": "Je vais rattraper les sessions sur l'app WWDC pendant les trajets.",
+      "de": "Ich hole die Sessions in der WWDC-App während meines Arbeitswegs nach.",
+      "it": "Recupererò le sessioni nell'app del WWDC durante il tragitto."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_046",
+    "english": "Let's open a watch party for the keynote in the office.",
+    "context": "Organizing a team viewing for the WWDC opening",
+    "translations": {
+      "pt-BR": "Bora abrir uma watch party do keynote aqui no escritório.",
+      "es": "Vamos a organizar una watch party del keynote en la oficina.",
+      "fr": "On organise une watch party du keynote au bureau.",
+      "de": "Lass uns eine Watch-Party für die Keynote im Büro veranstalten.",
+      "it": "Organizziamo un watch party del keynote in ufficio."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_047",
+    "english": "Apple released a beta of the new SDK right after the keynote.",
+    "context": "Tracking the developer beta release cycle",
+    "translations": {
+      "pt-BR": "A Apple lançou um beta do novo SDK logo após o keynote.",
+      "es": "Apple lanzó un beta del nuevo SDK justo después del keynote.",
+      "fr": "Apple a sorti une bêta du nouveau SDK juste après le keynote.",
+      "de": "Apple hat direkt nach der Keynote eine Beta des neuen SDK veröffentlicht.",
+      "it": "Apple ha rilasciato una beta del nuovo SDK subito dopo il keynote."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_048",
+    "english": "Filing radars during the beta cycle is how we shape the final API.",
+    "context": "Encouraging team to file Feedback Assistant reports",
+    "translations": {
+      "pt-BR": "Abrir radars durante o ciclo de beta é como a gente molda a API final.",
+      "es": "Abrir radars durante el ciclo de beta es cómo damos forma a la API final.",
+      "fr": "Ouvrir des radars pendant le cycle bêta, c'est comme ça qu'on façonne l'API finale.",
+      "de": "Radars während des Beta-Zyklus zu öffnen, ist wie wir die finale API mitgestalten.",
+      "it": "Aprire radar durante il ciclo di beta è il modo in cui modelliamo l'API finale."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_049",
+    "english": "Sample code projects ship the same day the sessions go live.",
+    "context": "Pointing teammates to Apple's sample code resources",
+    "translations": {
+      "pt-BR": "Os projetos de sample code são publicados no mesmo dia que as sessions ficam disponíveis.",
+      "es": "Los proyectos de sample code se publican el mismo día que se publican las sessions.",
+      "fr": "Les projets de sample code sortent le jour même de la publication des sessions.",
+      "de": "Sample-Code-Projekte erscheinen am selben Tag wie die Sessions.",
+      "it": "I progetti di sample code escono lo stesso giorno della pubblicazione delle sessioni."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_050",
+    "english": "We'll cherry-pick the most impactful APIs into our roadmap.",
+    "context": "Deciding which new SDK features to prioritize after WWDC",
+    "translations": {
+      "pt-BR": "Vamos selecionar as APIs mais impactantes pra colocar no nosso roadmap.",
+      "es": "Vamos a seleccionar las APIs más impactantes para nuestro roadmap.",
+      "fr": "On va cherry-picker les API les plus impactantes dans notre roadmap.",
+      "de": "Wir picken die wirkungsvollsten APIs für unsere Roadmap heraus.",
+      "it": "Selezioneremo le API più impattanti da inserire nella nostra roadmap."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  }
+]

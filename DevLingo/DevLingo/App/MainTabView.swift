@@ -4,13 +4,13 @@ import SwiftUI
 struct MainTabView: View {
     // MARK: - Properties
 
-    @State private var selectedTab = 0
+    @StateObject private var router = AppRouter.shared
     @State private var showPaywall = false
 
     // MARK: - Body
 
     var body: some View {
-        TabView(selection: $selectedTab) {
+        TabView(selection: $router.selectedTab) {
             HomeView()
                 .tabItem {
                     Label(String(localized: "tab.home"), systemImage: "house.fill")

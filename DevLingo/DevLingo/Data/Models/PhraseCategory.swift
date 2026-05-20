@@ -2,6 +2,7 @@ import SwiftUI
 
 /// Categories for developer English phrases.
 enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
+    case wwdc2026
     case standup
     case codeReview
     case slack
@@ -22,6 +23,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
 
     var label: String {
         switch self {
+        case .wwdc2026: return String(localized: "category.wwdc2026")
         case .standup: return String(localized: "category.standup")
         case .codeReview: return String(localized: "category.code_review")
         case .slack: return String(localized: "category.slack")
@@ -40,6 +42,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
 
     var icon: String {
         switch self {
+        case .wwdc2026: return "sparkles"
         case .standup: return "person.3.fill"
         case .codeReview: return "eye.fill"
         case .slack: return "bubble.left.and.bubble.right.fill"
@@ -58,6 +61,7 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
 
     var color: Color {
         switch self {
+        case .wwdc2026: return AppColors.categoryWwdc2026
         case .standup: return AppColors.categoryStandup
         case .codeReview: return AppColors.categoryCodeReview
         case .slack: return AppColors.categorySlack
@@ -82,6 +86,11 @@ enum PhraseCategory: String, Codable, CaseIterable, Identifiable {
         default:
             return false
         }
+    }
+
+    /// Featured/highlighted category — shown first with a special badge.
+    var isFeatured: Bool {
+        self == .wwdc2026
     }
 
     /// JSON file name for this category.

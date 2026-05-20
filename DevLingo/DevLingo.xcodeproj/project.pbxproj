@@ -53,6 +53,7 @@
 		93884691554839FE78DCB311 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AA31B10D2FA7060CBE388 /* View+Extensions.swift */; };
 		9729F9CA86339D8F022BF545 /* ScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3AB1D9CB515693C63A546 /* ScreenshotTests.swift */; };
 		9E4CA1AD0F06EC5B38333385 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD519582384C6ED80FEDA119 /* AppSpacing.swift */; };
+		A17ABBFF70865B84E0C95752 /* FlipPhraseIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B1B8897D1285ABCAEF5C4 /* FlipPhraseIntent.swift */; };
 		A2AD5E3AF2525040631B2BDF /* LanguagePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953B47AAE03174F894C8570 /* LanguagePickerSheet.swift */; };
 		A30B7CF663764D5DF1DAB9C5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB9BB1229EEF72C028FDA0 /* OnboardingView.swift */; };
 		ABCA6BA1C0553CB9CBBBF571 /* phrases_slack.json in Resources */ = {isa = PBXBuildFile; fileRef = A69957906E9887EEDBA62EA3 /* phrases_slack.json */; };
@@ -69,6 +70,7 @@
 		D8E595E522E1AB9006F6C945 /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB8033880CC2263AC90ED /* UserProgress.swift */; };
 		E1DF2CD7A32E64DFF2369669 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7698017204156BCDE7DC1B /* HomeViewModel.swift */; };
 		E64440F079B9E87DE5C3B5F3 /* phrases_pairProgramming.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E46033F08262DFF040B701B /* phrases_pairProgramming.json */; };
+		E85C09E68C4857B1F50F9268 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430200CA52C192D8530411D /* AppRouter.swift */; };
 		EBA47F2455456519ABDE62B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E8495E75F4805D5056F08 /* LaunchScreen.storyboard */; };
 		F16A66EB30B667EFCBAD0624 /* phrases_interviews.json in Resources */ = {isa = PBXBuildFile; fileRef = 03873D7599AE7840223C31F4 /* phrases_interviews.json */; };
 		F36F673C8B2D4957399110B5 /* WidgetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9C33A6F8761A8862D00AB /* WidgetService.swift */; };
@@ -159,7 +161,9 @@
 		7DC81017DD1D49149C5B1928 /* DevLingoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DevLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E46033F08262DFF040B701B /* phrases_pairProgramming.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_pairProgramming.json; sourceTree = "<group>"; };
 		83674E377AD46C484DBB3B61 /* NotificationSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsSheet.swift; sourceTree = "<group>"; };
+		8B6B1B8897D1285ABCAEF5C4 /* FlipPhraseIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipPhraseIntent.swift; sourceTree = "<group>"; };
 		917ACAB5FDA278330B468512 /* FeatureFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlags.swift; sourceTree = "<group>"; };
+		9430200CA52C192D8530411D /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		95BAB69303026277CB0E5C93 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 		9C7170A664AF0E34FE862D55 /* DifficultyBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyBadge.swift; sourceTree = "<group>"; };
 		9EB947E9FFCFFDD4D34D6DC9 /* phrases_technical.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_technical.json; sourceTree = "<group>"; };
@@ -341,6 +345,7 @@
 				0942C10984C7F5655D809B25 /* Assets.xcassets */,
 				7CF0FB1BC5F83AE8602E0CB9 /* DevLingoWidget.swift */,
 				1488B68B9091517446D78C8A /* DevLingoWidgetBundle.swift */,
+				8B6B1B8897D1285ABCAEF5C4 /* FlipPhraseIntent.swift */,
 				B01E06041BA77BFDEF1D9C6B /* Localizable.xcstrings */,
 			);
 			path = DevLingoWidget;
@@ -437,6 +442,7 @@
 		941CCF2F44A981109E56CE89 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				9430200CA52C192D8530411D /* AppRouter.swift */,
 				DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */,
 				4726F592577C629DE1849096 /* MainTabView.swift */,
 			);
@@ -744,6 +750,7 @@
 				2B0A52350E3BE0576E5C8188 /* AppColors.swift in Sources */,
 				1014F2B3882447731AF4F719 /* AppConstants.swift in Sources */,
 				D44A5B4B370F252BB05CC9E6 /* AppFonts.swift in Sources */,
+				E85C09E68C4857B1F50F9268 /* AppRouter.swift in Sources */,
 				9E4CA1AD0F06EC5B38333385 /* AppSpacing.swift in Sources */,
 				BF544886788C263FA9AA35FD /* CategoriesView.swift in Sources */,
 				6E9F6E93D8C9133A055B6867 /* CategoriesViewModel.swift in Sources */,
@@ -802,6 +809,7 @@
 			files = (
 				143F4F4FAF665A7444CDEA6C /* DevLingoWidget.swift in Sources */,
 				5C867430DE1BA3DD8DFC9A04 /* DevLingoWidgetBundle.swift in Sources */,
+				A17ABBFF70865B84E0C95752 /* FlipPhraseIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

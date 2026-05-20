@@ -19,6 +19,7 @@ enum AppColors {
     static let hard = Color(hex: "FF453A")            // Red
 
     // MARK: - Category Colors
+    static let categoryWwdc2026 = Color(hex: "0A84FF")    // Apple system blue — WWDC keynote
     static let categoryStandup = Color(hex: "5E5CE6")
     static let categoryCodeReview = Color(hex: "BF5AF2")
     static let categorySlack = Color(hex: "5AC8FA")

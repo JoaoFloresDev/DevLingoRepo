@@ -18,12 +18,16 @@ struct DevLingoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            if hasCompletedOnboarding {
-                MainTabView()
-                    .preferredColorScheme(.dark)
-            } else {
-                OnboardingView()
-                    .preferredColorScheme(.dark)
+            Group {
+                if hasCompletedOnboarding {
+                    MainTabView()
+                } else {
+                    OnboardingView()
+                }
+            }
+            .preferredColorScheme(.dark)
+            .onOpenURL { url in
+                AppRouter.shared.handle(url: url)
             }
         }
     }

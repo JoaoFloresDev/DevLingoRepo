@@ -1,21 +1,38 @@
 import WidgetKit
 import SwiftUI
+import AppIntents
 
 // MARK: - Timeline Entry
 
 struct PhraseEntry: TimelineEntry {
     let date: Date
-    let english: String
-    let translation: String
-    let secondEnglish: String?
-    let secondTranslation: String?
+    let currentIndex: Int
+    let total: Int
+    let phrase: WidgetPhrase
+    let nextPhrase: WidgetPhrase?
 
     static let placeholder = PhraseEntry(
         date: .now,
-        english: "Can you review my pull request?",
-        translation: "Você pode revisar meu pull request?",
-        secondEnglish: "Let's circle back on this",
-        secondTranslation: "Vamos retomar isso"
+        currentIndex: 0,
+        total: 2,
+        phrase: WidgetPhrase(
+            id: "placeholder_1",
+            english: "Can you review my pull request?",
+            context: "Code review",
+            translation: "Você pode revisar meu pull request?",
+            category: "Code Review",
+            categoryIcon: "checkmark.seal.fill",
+            difficulty: "medium"
+        ),
+        nextPhrase: WidgetPhrase(
+            id: "placeholder_2",
+            english: "Let's circle back on this",
+            context: "Meetings",
+            translation: "Vamos retomar isso",
+            category: "Meetings",
+            categoryIcon: "person.3.fill",
+            difficulty: "medium"
+        )
     )
 }
 
@@ -29,53 +46,33 @@ struct DevLingoTimelineProvider: TimelineProvider {
     }
 
     func getSnapshot(in context: Context, completion: @escaping (PhraseEntry) -> Void) {
-        let phrases = loadPhrases()
-        guard !phrases.isEmpty else {
-            completion(.placeholder)
-            return
-        }
-        let phrase = phrases[0]
-        let second = phrases.count > 1 ? phrases[1] : nil
-        completion(PhraseEntry(
-            date: .now,
-            english: phrase.english,
-            translation: phrase.translation,
-            secondEnglish: second?.english,
-            secondTranslation: second?.translation
-        ))
+        completion(makeEntry())
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<PhraseEntry>) -> Void) {
+        let entry = makeEntry()
+        let refreshDate = Calendar.current.date(byAdding: .hour, value: 1, to: .now) ?? .now
+        completion(Timeline(entries: [entry], policy: .after(refreshDate)))
+    }
+
+    private func makeEntry() -> PhraseEntry {
         let phrases = loadPhrases()
-
         guard !phrases.isEmpty else {
-            let entry = PhraseEntry.placeholder
-            let refreshDate = Calendar.current.date(byAdding: .hour, value: 1, to: .now) ?? .now
-            completion(Timeline(entries: [entry], policy: .after(refreshDate)))
-            return
+            return .placeholder
         }
 
-        var entries: [PhraseEntry] = []
-        let calendar = Calendar.current
-        let now = Date()
+        let total = phrases.count
+        let storedIndex = storage?.integer(forKey: "widgetCurrentIndex") ?? 0
+        let index = max(0, min(storedIndex, total - 1))
+        let next = total > 1 ? phrases[(index + 1) % total] : nil
 
-        for i in 0..<phrases.count {
-            let entryDate = calendar.date(byAdding: .hour, value: i * 2, to: now) ?? now
-            let phrase = phrases[i % phrases.count]
-            let secondIndex = (i + 1) % phrases.count
-            let second = phrases.count > 1 ? phrases[secondIndex] : nil
-
-            entries.append(PhraseEntry(
-                date: entryDate,
-                english: phrase.english,
-                translation: phrase.translation,
-                secondEnglish: second?.english,
-                secondTranslation: second?.translation
-            ))
-        }
-
-        let refreshDate = calendar.date(byAdding: .hour, value: phrases.count * 2, to: now) ?? now
-        completion(Timeline(entries: entries, policy: .after(refreshDate)))
+        return PhraseEntry(
+            date: .now,
+            currentIndex: index,
+            total: total,
+            phrase: phrases[index],
+            nextPhrase: next
+        )
     }
 
     private func loadPhrases() -> [WidgetPhrase] {
@@ -91,6 +88,7 @@ struct DevLingoTimelineProvider: TimelineProvider {
 // MARK: - Widget Phrase (shared model)
 
 struct WidgetPhrase: Codable {
+    let id: String
     let english: String
     let context: String
     let translation: String
@@ -111,6 +109,7 @@ struct DevLingoWidget: Widget {
         }
         .configurationDisplayName(String(localized: "widget.name"))
         .description(String(localized: "widget.description"))
+        .contentMarginsDisabled()
         .supportedFamilies([
             .systemSmall, .systemMedium, .systemLarge,
             .accessoryRectangular, .accessoryInline
@@ -127,6 +126,10 @@ struct DevLingoWidgetView: View {
 
     var body: some View {
         switch family {
+        case .systemSmall:
+            smallView
+        case .systemMedium:
+            mediumView
         case .systemLarge:
             largeView
         case .accessoryRectangular:
@@ -134,64 +137,125 @@ struct DevLingoWidgetView: View {
         case .accessoryInline:
             accessoryInlineView
         default:
-            standardView
+            mediumView
         }
     }
 
-    // MARK: - Standard View (Small / Medium)
+    // MARK: - Small View
 
-    private var standardView: some View {
+    private var smallView: some View {
         VStack(spacing: 0) {
-            Spacer()
+            Link(destination: phraseURL(entry.phrase.id)) {
+                VStack(spacing: 0) {
+                    Spacer(minLength: 0)
 
-            Text(entry.english)
-                .font(.system(size: fontSize, weight: .semibold))
-                .foregroundStyle(.white)
-                .multilineTextAlignment(.center)
-                .lineLimit(lineLimit)
+                    Text(entry.phrase.english)
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(.white)
+                        .multilineTextAlignment(.center)
+                        .minimumScaleFactor(0.85)
+                        .padding(.horizontal, 8)
+                        .padding(.top, 8)
 
-            Spacer()
+                    Spacer(minLength: 0)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+
+            paginationBar
         }
-        .padding(padding)
+    }
+
+    // MARK: - Medium View
+
+    private var mediumView: some View {
+        VStack(spacing: 0) {
+            Link(destination: phraseURL(entry.phrase.id)) {
+                VStack(spacing: 6) {
+                    Spacer(minLength: 0)
+
+                    HStack(spacing: 6) {
+                        Image(systemName: entry.phrase.categoryIcon)
+                            .font(.system(size: 11))
+                            .foregroundStyle(Color(hex: "5E5CE6"))
+
+                        Text(entry.phrase.category)
+                            .font(.system(size: 11, weight: .medium))
+                            .foregroundStyle(.white.opacity(0.6))
+                            .lineLimit(1)
+                    }
+
+                    Text(entry.phrase.english)
+                        .font(.system(size: 18, weight: .semibold))
+                        .foregroundStyle(.white)
+                        .multilineTextAlignment(.center)
+                        .minimumScaleFactor(0.85)
+                        .padding(.horizontal, 8)
+
+                    Spacer(minLength: 0)
+                }
+                .padding(.top, 8)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+
+            paginationBar
+        }
     }
 
     // MARK: - Large View (Two Phrases)
 
     private var largeView: some View {
         VStack(spacing: 0) {
-            phraseCard(english: entry.english)
+            phraseCardLarge(phrase: entry.phrase)
 
             Divider()
                 .background(Color.white.opacity(0.15))
                 .padding(.horizontal, 16)
 
-            if let second = entry.secondEnglish {
-                phraseCard(english: second)
+            if let next = entry.nextPhrase {
+                phraseCardLarge(phrase: next)
             } else {
-                phraseCard(english: entry.english)
+                phraseCardLarge(phrase: entry.phrase)
             }
+
+            paginationBar
         }
-        .padding(.vertical, 8)
     }
 
-    private func phraseCard(english: String) -> some View {
-        VStack(spacing: 6) {
-            Spacer()
+    private func phraseCardLarge(phrase: WidgetPhrase) -> some View {
+        Link(destination: phraseURL(phrase.id)) {
+            VStack(spacing: 6) {
+                Spacer(minLength: 0)
 
-            Image(systemName: "text.bubble.fill")
-                .font(.system(size: 14))
-                .foregroundStyle(Color(hex: "5E5CE6").opacity(0.7))
+                HStack(spacing: 6) {
+                    Image(systemName: phrase.categoryIcon)
+                        .font(.system(size: 12))
+                        .foregroundStyle(Color(hex: "5E5CE6"))
 
-            Text(english)
-                .font(.system(size: 19, weight: .semibold))
-                .foregroundStyle(.white)
-                .multilineTextAlignment(.center)
-                .lineLimit(3)
-                .padding(.horizontal, 16)
+                    Text(phrase.category)
+                        .font(.system(size: 12, weight: .medium))
+                        .foregroundStyle(.white.opacity(0.6))
+                        .lineLimit(1)
+                }
 
-            Spacer()
+                Text(phrase.english)
+                    .font(.system(size: 20, weight: .semibold))
+                    .foregroundStyle(.white)
+                    .multilineTextAlignment(.center)
+                    .minimumScaleFactor(0.85)
+                    .padding(.horizontal, 8)
+
+                Spacer(minLength: 0)
+            }
+            .padding(.top, 8)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .contentShape(Rectangle())
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .buttonStyle(.plain)
     }
 
     // MARK: - Accessory Views (Lock Screen)
@@ -202,43 +266,80 @@ struct DevLingoWidgetView: View {
                 .font(.system(size: 11, weight: .semibold))
                 .foregroundStyle(.secondary)
 
-            Text(entry.english)
+            Text(entry.phrase.english)
                 .font(.system(size: 13, weight: .medium))
                 .foregroundStyle(.primary)
                 .lineLimit(2)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
+        .widgetURL(phraseURL(entry.phrase.id))
     }
 
     private var accessoryInlineView: some View {
-        Label(entry.english, systemImage: "text.bubble.fill")
+        Label(entry.phrase.english, systemImage: "text.bubble.fill")
             .lineLimit(1)
+            .widgetURL(phraseURL(entry.phrase.id))
     }
 
-    // MARK: - Sizing
+    // MARK: - Pagination Bar
 
-    private var fontSize: CGFloat {
-        switch family {
-        case .systemSmall: return 15
-        case .systemMedium: return 17
-        default: return 17
+    @ViewBuilder
+    private var paginationBar: some View {
+        if entry.total > 1 {
+            ZStack {
+                // Tap zones — left half = previous, right half = next.
+                // Both halves overlap the indicator dots area.
+                HStack(spacing: 0) {
+                    Button(intent: FlipPhraseIntent(direction: .previous)) {
+                        Color.clear
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+
+                    Button(intent: FlipPhraseIntent(direction: .next)) {
+                        Color.clear
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+                }
+
+                // Visual overlay — chevrons + dots, not interactive.
+                HStack(spacing: 0) {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(.white.opacity(0.9))
+                        .frame(width: 44, height: 44)
+
+                    indicatorDots
+                        .frame(maxWidth: .infinity)
+
+                    Image(systemName: "chevron.right")
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(.white.opacity(0.9))
+                        .frame(width: 44, height: 44)
+                }
+                .allowsHitTesting(false)
+            }
+            .frame(height: 44)
         }
     }
 
-    private var lineLimit: Int {
-        switch family {
-        case .systemSmall: return 5
-        case .systemMedium: return 3
-        default: return 3
+    private var indicatorDots: some View {
+        HStack(spacing: 4) {
+            ForEach(0..<min(entry.total, 10), id: \.self) { i in
+                Circle()
+                    .fill(i == entry.currentIndex ? Color.white : Color.white.opacity(0.25))
+                    .frame(width: 4, height: 4)
+            }
         }
     }
 
-    private var padding: CGFloat {
-        switch family {
-        case .systemSmall: return 8
-        case .systemMedium: return 10
-        default: return 10
-        }
+    // MARK: - Helpers
+
+    private func phraseURL(_ id: String) -> URL {
+        URL(string: "devlingo://phrase/\(id)") ?? URL(string: "devlingo://home")!
     }
 }
 

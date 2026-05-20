@@ -22,6 +22,7 @@ final class WidgetService {
     func updateWidget(phrases: [Phrase], language: UserLanguage) {
         let widgetPhrases = phrases.map { phrase in
             WidgetPhraseData(
+                id: phrase.id,
                 english: phrase.english,
                 context: phrase.context,
                 translation: phrase.translation(for: language),
@@ -35,12 +36,18 @@ final class WidgetService {
             storage?.set(data, forKey: StorageKeys.widgetPhrases)
         }
 
+        let currentIndex = storage?.integer(forKey: StorageKeys.widgetCurrentIndex) ?? 0
+        if currentIndex >= widgetPhrases.count {
+            storage?.set(0, forKey: StorageKeys.widgetCurrentIndex)
+        }
+
         WidgetCenter.shared.reloadTimelines(ofKind: AppConstants.widgetKind)
     }
 }
 
 /// Codable model shared between app and widget.
 struct WidgetPhraseData: Codable {
+    let id: String
     let english: String
     let context: String
     let translation: String
