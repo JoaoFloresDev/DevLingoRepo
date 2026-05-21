@@ -33,6 +33,7 @@
 		5F448B1F3B1E8BFA475C1661 /* phrases_codeReview.json in Resources */ = {isa = PBXBuildFile; fileRef = 277A60C4192D14EC1DE81C9F /* phrases_codeReview.json */; };
 		60AF8F149BD52A6304524070 /* phrases_casual.json in Resources */ = {isa = PBXBuildFile; fileRef = 33250AFE61086005DBD981D2 /* phrases_casual.json */; };
 		62F81F64FB6D21208AC7717E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30729B881F2BEC9E298EE9C5 /* Date+Extensions.swift */; };
+		637E86A91226EFA945343A61 /* AppearancePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1D13875BB69E0106EF58A /* AppearancePickerSheet.swift */; };
 		639187CF24AEC548567C7623 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F768CFE133B979270B710 /* StorageKeys.swift */; };
 		66F636FB2B4DE550BD1D038F /* UserLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C35AEF5610AB54F5500787 /* UserLanguage.swift */; };
 		6E5C1B7A455C6F65B48FF84F /* PhraseListSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0230BF34E74528EAC37A1E18 /* PhraseListSheet.swift */; };
@@ -49,6 +50,7 @@
 		89FA8BC97D880BEB09796BC5 /* DevLingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7664F8E8D134E55E29676F /* DevLingoUITests.swift */; };
 		8C8DB33483FE2ABFE3858881 /* phrases_email.json in Resources */ = {isa = PBXBuildFile; fileRef = F9B57E2CAF43320B663133E5 /* phrases_email.json */; };
 		8CBE69B8FA7EE37C7E6D0328 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A945A9C2DA31A11017E35EFD /* Localizable.xcstrings */; };
+		8E941EAC1A9D7242B5FF8F6E /* AppearanceMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48BB7679FE7FF9212FE216 /* AppearanceMode.swift */; };
 		90508984F838123A9202394E /* DevLingoWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		93884691554839FE78DCB311 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AA31B10D2FA7060CBE388 /* View+Extensions.swift */; };
 		9729F9CA86339D8F022BF545 /* ScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3AB1D9CB515693C63A546 /* ScreenshotTests.swift */; };
@@ -132,6 +134,7 @@
 		1CC5401E85C4B07CB833F0B5 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		23A1777D0BFF4188E61DC560 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		277A60C4192D14EC1DE81C9F /* phrases_codeReview.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_codeReview.json; sourceTree = "<group>"; };
+		2E48BB7679FE7FF9212FE216 /* AppearanceMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceMode.swift; sourceTree = "<group>"; };
 		30729B881F2BEC9E298EE9C5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		30C35AEF5610AB54F5500787 /* UserLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLanguage.swift; sourceTree = "<group>"; };
 		32CBC9A7BAB476BF19087D3B /* phrases_standup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_standup.json; sourceTree = "<group>"; };
@@ -178,6 +181,7 @@
 		C623692E4629C6D6271A7EC5 /* phrases_meetings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_meetings.json; sourceTree = "<group>"; };
 		C7908277DF1CB9843BF3DDE2 /* phrases_bugReports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_bugReports.json; sourceTree = "<group>"; };
 		C8FC76234E027EE6AAB72CA3 /* DailyPhraseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPhraseService.swift; sourceTree = "<group>"; };
+		CAE1D13875BB69E0106EF58A /* AppearancePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearancePickerSheet.swift; sourceTree = "<group>"; };
 		CC7664F8E8D134E55E29676F /* DevLingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoUITests.swift; sourceTree = "<group>"; };
 		CE8E8495E75F4805D5056F08 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB7DB56A1646C5F5C64591AA /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
@@ -303,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				5916F201CC08C87CDE38CF13 /* AppColors.swift */,
+				2E48BB7679FE7FF9212FE216 /* AppearanceMode.swift */,
 				4662BA8201A43A3C0A031CBA /* AppFonts.swift */,
 				DD519582384C6ED80FEDA119 /* AppSpacing.swift */,
 			);
@@ -323,6 +328,7 @@
 		54143431FB1C2D6F4F255EB1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CAE1D13875BB69E0106EF58A /* AppearancePickerSheet.swift */,
 				4953B47AAE03174F894C8570 /* LanguagePickerSheet.swift */,
 				83674E377AD46C484DBB3B61 /* NotificationSettingsSheet.swift */,
 				0230BF34E74528EAC37A1E18 /* PhraseListSheet.swift */,
@@ -756,6 +762,8 @@
 				D44A5B4B370F252BB05CC9E6 /* AppFonts.swift in Sources */,
 				E85C09E68C4857B1F50F9268 /* AppRouter.swift in Sources */,
 				9E4CA1AD0F06EC5B38333385 /* AppSpacing.swift in Sources */,
+				8E941EAC1A9D7242B5FF8F6E /* AppearanceMode.swift in Sources */,
+				637E86A91226EFA945343A61 /* AppearancePickerSheet.swift in Sources */,
 				BF544886788C263FA9AA35FD /* CategoriesView.swift in Sources */,
 				6E9F6E93D8C9133A055B6867 /* CategoriesViewModel.swift in Sources */,
 				5C89D852F0C71817AD1AC22F /* CategoryDetailView.swift in Sources */,
@@ -889,7 +897,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -903,7 +911,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.4.0;
+				MARKETING_VERSION = 1.5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1002,7 +1010,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1022,7 +1030,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.4.0;
+				MARKETING_VERSION = 1.5.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

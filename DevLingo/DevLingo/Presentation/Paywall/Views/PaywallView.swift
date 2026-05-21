@@ -33,7 +33,6 @@ struct PaywallView: View {
                 .padding(.bottom, AppSpacing.xxxl)
             }
         }
-        .preferredColorScheme(.dark)
         .alert(String(localized: "paywall.error_title"), isPresented: $showError) {
             Button("OK") {}
         } message: {

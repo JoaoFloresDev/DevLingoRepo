@@ -8,10 +8,17 @@ struct ProfileView: View {
     @StateObject private var viewModel = ProfileViewModel()
     @State private var showLanguagePicker = false
     @State private var showNotificationSettings = false
+    @State private var showAppearancePicker = false
     @State private var showLearnedPhrases = false
     @State private var showSavedPhrases = false
     @State private var showPaywall = false
     @State private var isRestoringPurchases = false
+
+    @AppStorage(StorageKeys.preferredColorScheme) private var appearanceModeRaw: String = AppearanceMode.system.rawValue
+
+    private var appearanceMode: AppearanceMode {
+        AppearanceMode(rawValue: appearanceModeRaw) ?? .system
+    }
 
     // MARK: - Body
 
@@ -47,6 +54,11 @@ struct ProfileView: View {
         }
         .sheet(isPresented: $showNotificationSettings) {
             NotificationSettingsSheet()
+                .presentationDetents([.medium])
+                .presentationDragIndicator(.visible)
+        }
+        .sheet(isPresented: $showAppearancePicker) {
+            AppearancePickerSheet()
                 .presentationDetents([.medium])
                 .presentationDragIndicator(.visible)
         }
@@ -333,6 +345,13 @@ struct ProfileView: View {
 
             Button { showNotificationSettings = true } label: {
                 settingsRow(icon: "bell.fill", title: String(localized: "profile.notifications"))
+            }
+
+            Divider().background(AppColors.surfaceSecondary).padding(.horizontal)
+
+            Button { showAppearancePicker = true } label: {
+                settingsRow(icon: appearanceMode.icon, title: String(localized: "profile.appearance"),
+                            detail: appearanceMode.label)
             }
 
             Divider().background(AppColors.surfaceSecondary).padding(.horizontal)

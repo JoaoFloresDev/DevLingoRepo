@@ -3207,6 +3207,50 @@
         }
       }
     },
+    "appearance.system" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "System" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "System" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sistema" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Système" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sistema" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sistema" } }
+      }
+    },
+    "appearance.light" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Hell" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Light" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Claro" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Clair" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Chiaro" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Claro" } }
+      }
+    },
+    "appearance.dark" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dunkel" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Dark" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Oscuro" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Sombre" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scuro" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Escuro" } }
+      }
+    },
+    "profile.appearance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erscheinungsbild" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Appearance" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Apariencia" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Apparence" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Aspetto" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Aparência" } }
+      }
+    },
     "profile.language" : {
       "extractionState" : "manual",
       "localizations" : {

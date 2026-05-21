@@ -61,7 +61,6 @@ struct PhraseListSheet: View {
                 }
             }
         }
-        .preferredColorScheme(.dark)
     }
 
     // MARK: - Subviews
