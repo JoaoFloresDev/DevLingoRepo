@@ -68,6 +68,7 @@
 		D1DB885C722333137282880B /* phrases_meetings.json in Resources */ = {isa = PBXBuildFile; fileRef = C623692E4629C6D6271A7EC5 /* phrases_meetings.json */; };
 		D44A5B4B370F252BB05CC9E6 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662BA8201A43A3C0A031CBA /* AppFonts.swift */; };
 		D8E595E522E1AB9006F6C945 /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB8033880CC2263AC90ED /* UserProgress.swift */; };
+		DA412ACCC1F36FA60AD3965F /* phrases_wwdc2026.json in Resources */ = {isa = PBXBuildFile; fileRef = 55248A60AE1B495A763DA6AA /* phrases_wwdc2026.json */; };
 		E1DF2CD7A32E64DFF2369669 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7698017204156BCDE7DC1B /* HomeViewModel.swift */; };
 		E64440F079B9E87DE5C3B5F3 /* phrases_pairProgramming.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E46033F08262DFF040B701B /* phrases_pairProgramming.json */; };
 		E85C09E68C4857B1F50F9268 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430200CA52C192D8530411D /* AppRouter.swift */; };
@@ -146,6 +147,7 @@
 		4D2E99BE126E26EBE30482D7 /* Phrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
 		51AC2282673D497CA1C0A043 /* DevLingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoTests.swift; sourceTree = "<group>"; };
 		52120C89B81974B01228917C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		55248A60AE1B495A763DA6AA /* phrases_wwdc2026.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phrases_wwdc2026.json; sourceTree = "<group>"; };
 		5916F201CC08C87CDE38CF13 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		59220CEA29DA3B7BED5D7B51 /* PhraseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseCategory.swift; sourceTree = "<group>"; };
 		630C485ACCD634FA390AB3A0 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
@@ -481,6 +483,7 @@
 				A69957906E9887EEDBA62EA3 /* phrases_slack.json */,
 				32CBC9A7BAB476BF19087D3B /* phrases_standup.json */,
 				9EB947E9FFCFFDD4D34D6DC9 /* phrases_technical.json */,
+				55248A60AE1B495A763DA6AA /* phrases_wwdc2026.json */,
 			);
 			path = Phrases;
 			sourceTree = "<group>";
@@ -728,6 +731,7 @@
 				ABCA6BA1C0553CB9CBBBF571 /* phrases_slack.json in Resources */,
 				1E207427BE01DDDF4ECD8EEF /* phrases_standup.json in Resources */,
 				C8BE82B3A211FABA222E87AC /* phrases_technical.json in Resources */,
+				DA412ACCC1F36FA60AD3965F /* phrases_wwdc2026.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,7 +889,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -899,7 +903,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.4.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -998,7 +1002,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1018,7 +1022,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.4.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

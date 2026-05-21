@@ -144,89 +144,101 @@ struct DevLingoWidgetView: View {
     // MARK: - Small View
 
     private var smallView: some View {
-        VStack(spacing: 0) {
-            Link(destination: phraseURL(entry.phrase.id)) {
+        paginationBackground
+            .overlay {
                 VStack(spacing: 0) {
                     Spacer(minLength: 0)
 
-                    Text(entry.phrase.english)
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundStyle(.white)
-                        .multilineTextAlignment(.center)
-                        .minimumScaleFactor(0.85)
-                        .padding(.horizontal, 8)
-                        .padding(.top, 8)
+                    Link(destination: phraseURL(entry.phrase.id)) {
+                        Text(entry.phrase.english)
+                            .font(.system(size: 15, weight: .semibold))
+                            .foregroundStyle(.white)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 12)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
 
                     Spacer(minLength: 0)
-                }
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
 
-            paginationBar
-        }
+                    Spacer()
+                        .frame(height: 44)
+                        .allowsHitTesting(false)
+                }
+            }
+            .overlay(alignment: .bottom) { paginationOverlay }
     }
 
     // MARK: - Medium View
 
     private var mediumView: some View {
-        VStack(spacing: 0) {
-            Link(destination: phraseURL(entry.phrase.id)) {
-                VStack(spacing: 6) {
+        paginationBackground
+            .overlay {
+                VStack(spacing: 0) {
                     Spacer(minLength: 0)
 
-                    HStack(spacing: 6) {
-                        Image(systemName: entry.phrase.categoryIcon)
-                            .font(.system(size: 11))
-                            .foregroundStyle(Color(hex: "5E5CE6"))
+                    Link(destination: phraseURL(entry.phrase.id)) {
+                        VStack(spacing: 6) {
+                            HStack(spacing: 6) {
+                                Image(systemName: entry.phrase.categoryIcon)
+                                    .font(.system(size: 11))
+                                    .foregroundStyle(Color(hex: "5E5CE6"))
 
-                        Text(entry.phrase.category)
-                            .font(.system(size: 11, weight: .medium))
-                            .foregroundStyle(.white.opacity(0.6))
-                            .lineLimit(1)
+                                Text(entry.phrase.category)
+                                    .font(.system(size: 11, weight: .medium))
+                                    .foregroundStyle(.white.opacity(0.6))
+                                    .lineLimit(1)
+                            }
+
+                            Text(entry.phrase.english)
+                                .font(.system(size: 18, weight: .semibold))
+                                .foregroundStyle(.white)
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal, 12)
+                        }
+                        .padding(.vertical, 12)
+                        .contentShape(Rectangle())
                     }
-
-                    Text(entry.phrase.english)
-                        .font(.system(size: 18, weight: .semibold))
-                        .foregroundStyle(.white)
-                        .multilineTextAlignment(.center)
-                        .minimumScaleFactor(0.85)
-                        .padding(.horizontal, 8)
+                    .buttonStyle(.plain)
 
                     Spacer(minLength: 0)
-                }
-                .padding(.top, 8)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
 
-            paginationBar
-        }
+                    Spacer()
+                        .frame(height: 44)
+                        .allowsHitTesting(false)
+                }
+            }
+            .overlay(alignment: .bottom) { paginationOverlay }
     }
 
     // MARK: - Large View (Two Phrases)
 
     private var largeView: some View {
-        VStack(spacing: 0) {
-            phraseCardLarge(phrase: entry.phrase)
+        paginationBackground
+            .overlay {
+                VStack(spacing: 0) {
+                    phraseLinkLarge(phrase: entry.phrase)
 
-            Divider()
-                .background(Color.white.opacity(0.15))
-                .padding(.horizontal, 16)
+                    Divider()
+                        .background(Color.white.opacity(0.15))
+                        .padding(.horizontal, 16)
 
-            if let next = entry.nextPhrase {
-                phraseCardLarge(phrase: next)
-            } else {
-                phraseCardLarge(phrase: entry.phrase)
+                    if let next = entry.nextPhrase {
+                        phraseLinkLarge(phrase: next)
+                    } else {
+                        phraseLinkLarge(phrase: entry.phrase)
+                    }
+
+                    Spacer()
+                        .frame(height: 44)
+                        .allowsHitTesting(false)
+                }
             }
-
-            paginationBar
-        }
+            .overlay(alignment: .bottom) { paginationOverlay }
     }
 
-    private func phraseCardLarge(phrase: WidgetPhrase) -> some View {
+    private func phraseLinkLarge(phrase: WidgetPhrase) -> some View {
         Link(destination: phraseURL(phrase.id)) {
             VStack(spacing: 6) {
                 Spacer(minLength: 0)
@@ -246,12 +258,11 @@ struct DevLingoWidgetView: View {
                     .font(.system(size: 20, weight: .semibold))
                     .foregroundStyle(.white)
                     .multilineTextAlignment(.center)
-                    .minimumScaleFactor(0.85)
-                    .padding(.horizontal, 8)
+                    .padding(.horizontal, 12)
 
                 Spacer(minLength: 0)
             }
-            .padding(.top, 8)
+            .padding(.vertical, 12)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .contentShape(Rectangle())
         }
@@ -281,48 +292,52 @@ struct DevLingoWidgetView: View {
             .widgetURL(phraseURL(entry.phrase.id))
     }
 
-    // MARK: - Pagination Bar
+    // MARK: - Pagination
 
+    /// Full-widget tap surface: left half = previous, right half = next.
+    /// Used as the base layer so taps outside the phrase Link fall through to navigation.
     @ViewBuilder
-    private var paginationBar: some View {
+    private var paginationBackground: some View {
         if entry.total > 1 {
-            ZStack {
-                // Tap zones — left half = previous, right half = next.
-                // Both halves overlap the indicator dots area.
-                HStack(spacing: 0) {
-                    Button(intent: FlipPhraseIntent(direction: .previous)) {
-                        Color.clear
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-
-                    Button(intent: FlipPhraseIntent(direction: .next)) {
-                        Color.clear
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
+            HStack(spacing: 0) {
+                Button(intent: FlipPhraseIntent(direction: .previous)) {
+                    Color.clear
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .contentShape(Rectangle())
                 }
+                .buttonStyle(.plain)
 
-                // Visual overlay — chevrons + dots, not interactive.
-                HStack(spacing: 0) {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundStyle(.white.opacity(0.9))
-                        .frame(width: 44, height: 44)
-
-                    indicatorDots
-                        .frame(maxWidth: .infinity)
-
-                    Image(systemName: "chevron.right")
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundStyle(.white.opacity(0.9))
-                        .frame(width: 44, height: 44)
+                Button(intent: FlipPhraseIntent(direction: .next)) {
+                    Color.clear
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .contentShape(Rectangle())
                 }
-                .allowsHitTesting(false)
+                .buttonStyle(.plain)
             }
-            .frame(height: 44)
+        } else {
+            Color.clear
+        }
+    }
+
+    /// Visual chevrons + dots anchored to the bottom of the widget. Not interactive.
+    @ViewBuilder
+    private var paginationOverlay: some View {
+        if entry.total > 1 {
+            HStack(spacing: 0) {
+                Image(systemName: "chevron.left")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundStyle(.white.opacity(0.9))
+                    .frame(width: 44, height: 44)
+
+                indicatorDots
+                    .frame(maxWidth: .infinity)
+
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundStyle(.white.opacity(0.9))
+                    .frame(width: 44, height: 44)
+            }
+            .allowsHitTesting(false)
         }
     }
 

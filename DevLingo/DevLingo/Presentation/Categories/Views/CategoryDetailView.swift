@@ -9,6 +9,7 @@ struct CategoryDetailView: View {
     @State private var selectedDifficulty: PhraseDifficulty?
     @State private var showTranslations = false
     @State private var savedIDs: Set<String> = []
+    @State private var completedIDs: Set<String> = []
 
     private let phraseService = PhraseService.shared
     private let dailyService = DailyPhraseService.shared
@@ -49,6 +50,7 @@ struct CategoryDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             savedIDs = storage.getStringSet(forKey: StorageKeys.savedPhraseIDs)
+            completedIDs = storage.getStringSet(forKey: StorageKeys.completedPhraseIDs)
             showTranslations = storage.getBool(forKey: StorageKeys.showTranslations)
         }
     }
@@ -113,16 +115,18 @@ struct CategoryDetailView: View {
                     phrase: phrase,
                     language: userLanguage,
                     showTranslation: showTranslations,
-                    isCompleted: dailyService.isCompleted(phrase.id),
+                    isCompleted: completedIDs.contains(phrase.id),
                     isSaved: savedIDs.contains(phrase.id),
                     onComplete: {
                         dailyService.markCompleted(phrase.id)
                         ProgressService.shared.markPhraseCompleted(phrase)
+                        completedIDs.insert(phrase.id)
                         HapticManager.success()
                     },
                     onUncomplete: {
                         dailyService.markUncompleted(phrase.id)
                         ProgressService.shared.markPhraseUncompleted(phrase)
+                        completedIDs.remove(phrase.id)
                         HapticManager.lightImpact()
                     },
                     onSave: {

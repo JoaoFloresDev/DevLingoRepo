@@ -705,5 +705,705 @@
     },
     "difficulty": "medium",
     "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_051",
+    "english": "Swift Tasks are 200x lighter than threads — you can spawn millions concurrently on a single device.",
+    "context": "Curiosity about Swift Concurrency runtime cost",
+    "translations": {
+      "pt-BR": "Tasks do Swift são 200x mais leves que threads — dá pra criar milhões concorrentes num único device.",
+      "es": "Las Tasks de Swift son 200x más ligeras que los threads — puedes lanzar millones concurrentes en un solo dispositivo.",
+      "fr": "Les Tasks Swift sont 200 fois plus légères que les threads — tu peux en lancer des millions en parallèle sur un seul appareil.",
+      "de": "Swift Tasks sind 200-mal leichter als Threads — du kannst Millionen gleichzeitig auf einem Gerät starten.",
+      "it": "Le Task di Swift sono 200 volte più leggere dei thread — puoi crearne milioni in concorrenza su un singolo dispositivo."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_052",
+    "english": "An actor's mailbox processes one message at a time, which is how Swift eliminates data races inside its boundary.",
+    "context": "Explaining how actor isolation actually works under the hood",
+    "translations": {
+      "pt-BR": "A mailbox de um actor processa uma mensagem por vez — é assim que Swift elimina data races dentro da fronteira dele.",
+      "es": "La mailbox de un actor procesa un mensaje a la vez — así es como Swift elimina las data races dentro de su frontera.",
+      "fr": "La mailbox d'un actor traite un message à la fois — c'est ainsi que Swift élimine les data races à l'intérieur de sa frontière.",
+      "de": "Die Mailbox eines Actors verarbeitet eine Nachricht nach der anderen — so eliminiert Swift Data Races innerhalb seiner Grenze.",
+      "it": "La mailbox di un actor elabora un messaggio alla volta — è così che Swift elimina i data race dentro la sua frontiera."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_053",
+    "english": "async/await compiles to coroutines under the hood, not callbacks — the stack unwinds and resumes cleanly at each suspension point.",
+    "context": "How Swift's concurrency model is implemented",
+    "translations": {
+      "pt-BR": "async/await compila pra coroutines por baixo, não callbacks — a stack se desfaz e retoma limpa em cada ponto de suspensão.",
+      "es": "async/await compila a coroutines por debajo, no a callbacks — la pila se desenrolla y reanuda limpia en cada punto de suspensión.",
+      "fr": "async/await compile vers des coroutines en interne, pas des callbacks — la pile se déroule et reprend proprement à chaque point de suspension.",
+      "de": "async/await wird intern zu Coroutines kompiliert, nicht zu Callbacks — der Stack rollt sich ab und setzt an jedem Suspendierungspunkt sauber fort.",
+      "it": "async/await viene compilato in coroutine sotto il cofano, non in callback — lo stack si srotola e riprende pulito a ogni punto di sospensione."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_054",
+    "english": "MainActor is just a global actor — you can define your own with @globalActor for domain-specific isolation.",
+    "context": "Building custom actor isolation for a subsystem",
+    "translations": {
+      "pt-BR": "MainActor é só um global actor — você pode definir o seu próprio com @globalActor pra isolamento específico de domínio.",
+      "es": "MainActor es solo un global actor — puedes definir el tuyo con @globalActor para aislamiento específico de dominio.",
+      "fr": "MainActor n'est qu'un global actor — tu peux définir le tien avec @globalActor pour un isolement spécifique à un domaine.",
+      "de": "MainActor ist nur ein globaler Actor — du kannst eigene mit @globalActor für domänenspezifische Isolation definieren.",
+      "it": "MainActor è solo un global actor — puoi definirne uno tuo con @globalActor per un isolamento specifico del dominio."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_055",
+    "english": "Structured concurrency guarantees child tasks always finish before their parent — no orphans, no leaks.",
+    "context": "Key safety property of Swift's concurrency model",
+    "translations": {
+      "pt-BR": "Concorrência estruturada garante que tasks filhas sempre terminam antes da pai — sem órfãs, sem leaks.",
+      "es": "La concurrencia estructurada garantiza que las tasks hijas siempre terminan antes que su padre — sin huérfanas, sin leaks.",
+      "fr": "La concurrence structurée garantit que les tâches enfants terminent toujours avant leur parent — pas d'orphelines, pas de fuites.",
+      "de": "Strukturierte Concurrency garantiert, dass Child-Tasks immer vor ihrem Parent enden — keine Waisen, keine Leaks.",
+      "it": "La concorrenza strutturata garantisce che le task figlie finiscano sempre prima della loro madre — niente orfane, niente leak."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_056",
+    "english": "Sendable is a marker protocol with zero requirements — the compiler checks the entire property graph for thread safety automatically.",
+    "context": "How the Sendable contract is enforced",
+    "translations": {
+      "pt-BR": "Sendable é um marker protocol sem requisitos — o compilador verifica o grafo inteiro de propriedades por thread safety automaticamente.",
+      "es": "Sendable es un marker protocol sin requisitos — el compilador verifica todo el grafo de propiedades por thread safety automáticamente.",
+      "fr": "Sendable est un marker protocol sans exigences — le compilateur vérifie tout le graphe de propriétés pour la thread safety automatiquement.",
+      "de": "Sendable ist ein Marker-Protocol ohne Anforderungen — der Compiler prüft den gesamten Eigenschaftsgraphen automatisch auf Thread-Sicherheit.",
+      "it": "Sendable è un marker protocol senza requisiti — il compilatore verifica automaticamente l'intero grafo di proprietà per la thread safety."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_057",
+    "english": "TaskGroup automatically cancels remaining children if any throws — safer than DispatchGroup, which leaks on early exit.",
+    "context": "Why TaskGroup beats Grand Central Dispatch for parallel work",
+    "translations": {
+      "pt-BR": "TaskGroup cancela automaticamente as filhas restantes se alguma lança erro — mais seguro que DispatchGroup, que vaza em saída antecipada.",
+      "es": "TaskGroup cancela automáticamente las hijas restantes si alguna lanza error — más seguro que DispatchGroup, que filtra en salida temprana.",
+      "fr": "TaskGroup annule automatiquement les enfants restants si l'une lance — plus sûr que DispatchGroup, qui fuit en sortie précoce.",
+      "de": "TaskGroup bricht automatisch verbleibende Children ab, wenn eine wirft — sicherer als DispatchGroup, das bei vorzeitigem Beenden leakt.",
+      "it": "TaskGroup annulla automaticamente le figlie rimanenti se una lancia errore — più sicuro di DispatchGroup, che fa leak in uscita anticipata."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_058",
+    "english": "Swift Concurrency was introduced in Swift 5.5 in 2021 and became strict-by-default in Swift 6.",
+    "context": "Brief history of Swift's concurrency model",
+    "translations": {
+      "pt-BR": "Swift Concurrency foi introduzido no Swift 5.5 em 2021 e virou strict-by-default no Swift 6.",
+      "es": "Swift Concurrency se introdujo en Swift 5.5 en 2021 y pasó a ser strict-by-default en Swift 6.",
+      "fr": "Swift Concurrency a été introduit dans Swift 5.5 en 2021 et est devenu strict-by-default dans Swift 6.",
+      "de": "Swift Concurrency wurde in Swift 5.5 im Jahr 2021 eingeführt und in Swift 6 zum Standard mit strikter Prüfung.",
+      "it": "Swift Concurrency è stato introdotto in Swift 5.5 nel 2021 ed è diventato strict-by-default in Swift 6."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_059",
+    "english": "SwiftUI was announced at WWDC 2019 — its declarative model was inspired by React and Elm.",
+    "context": "Origin story of SwiftUI",
+    "translations": {
+      "pt-BR": "SwiftUI foi anunciado na WWDC 2019 — o modelo declarativo dele foi inspirado em React e Elm.",
+      "es": "SwiftUI se anunció en la WWDC 2019 — su modelo declarativo se inspiró en React y Elm.",
+      "fr": "SwiftUI a été annoncé à la WWDC 2019 — son modèle déclaratif s'inspire de React et Elm.",
+      "de": "SwiftUI wurde auf der WWDC 2019 vorgestellt — sein deklaratives Modell ist von React und Elm inspiriert.",
+      "it": "SwiftUI è stato annunciato al WWDC 2019 — il suo modello dichiarativo è ispirato a React ed Elm."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_060",
+    "english": "The @Observable macro replaces ObservableObject by tracking reads at the property level, eliminating unnecessary view re-renders.",
+    "context": "Why the new Observation framework is faster than Combine",
+    "translations": {
+      "pt-BR": "A macro @Observable substitui ObservableObject rastreando leituras no nível de propriedade, eliminando re-renders desnecessários da view.",
+      "es": "El macro @Observable reemplaza ObservableObject rastreando las lecturas a nivel de propiedad, eliminando re-renders innecesarios de la vista.",
+      "fr": "Le macro @Observable remplace ObservableObject en suivant les lectures au niveau de la propriété, éliminant les re-renders inutiles de la vue.",
+      "de": "Das @Observable-Macro ersetzt ObservableObject, indem es Reads auf Property-Ebene verfolgt und unnötige View-Re-Renders eliminiert.",
+      "it": "Il macro @Observable sostituisce ObservableObject tracciando le letture a livello di proprietà, eliminando i re-render inutili della view."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_061",
+    "english": "Macros run at compile time and produce Swift code — they're typesafe and visible in the build log unlike runtime reflection.",
+    "context": "Key distinction between macros and runtime metaprogramming",
+    "translations": {
+      "pt-BR": "Macros rodam em tempo de compilação e produzem código Swift — são typesafe e visíveis no build log, ao contrário de reflection em runtime.",
+      "es": "Los macros se ejecutan en tiempo de compilación y producen código Swift — son typesafe y visibles en el build log, a diferencia del reflection en runtime.",
+      "fr": "Les macros s'exécutent à la compilation et produisent du code Swift — typesafe et visibles dans le build log, contrairement à la réflexion runtime.",
+      "de": "Macros laufen zur Compile-Zeit und erzeugen Swift-Code — sie sind typsicher und im Build-Log sichtbar, im Gegensatz zu Runtime-Reflection.",
+      "it": "I macro vengono eseguiti a tempo di compilazione e producono codice Swift — sono typesafe e visibili nel build log, a differenza della reflection a runtime."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_062",
+    "english": "Swift macros are written in Swift itself — they manipulate the SwiftSyntax AST as plain values.",
+    "context": "What macro authoring looks like",
+    "translations": {
+      "pt-BR": "Macros do Swift são escritos no próprio Swift — eles manipulam a AST do SwiftSyntax como valores comuns.",
+      "es": "Los macros de Swift se escriben en el propio Swift — manipulan el AST de SwiftSyntax como valores normales.",
+      "fr": "Les macros Swift sont écrits en Swift même — ils manipulent l'AST de SwiftSyntax comme des valeurs ordinaires.",
+      "de": "Swift-Macros werden in Swift selbst geschrieben — sie manipulieren den SwiftSyntax-AST als gewöhnliche Werte.",
+      "it": "I macro di Swift sono scritti in Swift stesso — manipolano l'AST di SwiftSyntax come valori comuni."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_063",
+    "english": "Apple Intelligence runs a roughly 3-billion-parameter model on-device — small enough for iPhone 15 Pro and newer.",
+    "context": "Hardware requirements for on-device LLM features",
+    "translations": {
+      "pt-BR": "Apple Intelligence roda um modelo de cerca de 3 bilhões de parâmetros on-device — pequeno o bastante pro iPhone 15 Pro e mais novos.",
+      "es": "Apple Intelligence ejecuta un modelo de unos 3 mil millones de parámetros on-device — pequeño lo suficiente para iPhone 15 Pro y posteriores.",
+      "fr": "Apple Intelligence fait tourner un modèle d'environ 3 milliards de paramètres on-device — assez petit pour l'iPhone 15 Pro et plus récents.",
+      "de": "Apple Intelligence betreibt ein Modell mit rund 3 Milliarden Parametern on-device — klein genug für iPhone 15 Pro und neuer.",
+      "it": "Apple Intelligence esegue un modello da circa 3 miliardi di parametri on-device — abbastanza piccolo per iPhone 15 Pro e successivi."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_064",
+    "english": "Foundation Models uses an adapter system to specialize the on-device language model per task without loading a new model.",
+    "context": "How Apple keeps a single small model versatile",
+    "translations": {
+      "pt-BR": "Foundation Models usa um sistema de adapters pra especializar o modelo on-device por tarefa sem carregar um modelo novo.",
+      "es": "Foundation Models usa un sistema de adapters para especializar el modelo on-device por tarea sin cargar un modelo nuevo.",
+      "fr": "Foundation Models utilise un système d'adapters pour spécialiser le modèle on-device par tâche sans charger un nouveau modèle.",
+      "de": "Foundation Models verwendet ein Adapter-System, um das On-Device-Modell pro Aufgabe zu spezialisieren, ohne ein neues Modell zu laden.",
+      "it": "Foundation Models usa un sistema di adapter per specializzare il modello on-device per ogni task senza caricare un modello nuovo."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_065",
+    "english": "Guided generation is faster than free generation because it skips invalid tokens at decode time instead of retrying.",
+    "context": "Why structured LLM output is also a performance win",
+    "translations": {
+      "pt-BR": "Guided generation é mais rápida que geração livre porque pula tokens inválidos no decode em vez de tentar de novo.",
+      "es": "Guided generation es más rápida que la generación libre porque omite tokens inválidos al decodificar en lugar de reintentar.",
+      "fr": "Guided generation est plus rapide que la génération libre car elle saute les tokens invalides au décodage au lieu de réessayer.",
+      "de": "Guided Generation ist schneller als freie Generierung, weil sie ungültige Tokens beim Dekodieren überspringt statt erneut zu versuchen.",
+      "it": "Guided generation è più veloce della generazione libera perché salta i token non validi in fase di decodifica invece di riprovare."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_066",
+    "english": "Apple's Private Cloud Compute servers are independently auditable — security researchers can verify the full software stack.",
+    "context": "How Apple Intelligence keeps cloud-assisted prompts private",
+    "translations": {
+      "pt-BR": "Os servidores do Private Cloud Compute da Apple são auditáveis de forma independente — pesquisadores de segurança podem verificar a stack inteira.",
+      "es": "Los servidores Private Cloud Compute de Apple son auditables de forma independiente — los investigadores de seguridad pueden verificar toda la stack.",
+      "fr": "Les serveurs Private Cloud Compute d'Apple sont auditables de manière indépendante — les chercheurs en sécurité peuvent vérifier toute la stack logicielle.",
+      "de": "Apples Private-Cloud-Compute-Server sind unabhängig prüfbar — Sicherheitsforscher können den gesamten Software-Stack verifizieren.",
+      "it": "I server Private Cloud Compute di Apple sono verificabili in modo indipendente — i ricercatori di sicurezza possono ispezionare l'intero stack software."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_067",
+    "english": "The Vision Pro display packs 23 megapixels per eye — more pixels than a 4K television, inside each lens.",
+    "context": "Curiosity about Vision Pro hardware specs",
+    "translations": {
+      "pt-BR": "O display do Vision Pro tem 23 megapixels por olho — mais pixels que uma TV 4K, em cada lente.",
+      "es": "La pantalla del Vision Pro tiene 23 megapíxeles por ojo — más píxeles que una TV 4K, en cada lente.",
+      "fr": "L'écran du Vision Pro affiche 23 mégapixels par œil — plus de pixels qu'un téléviseur 4K, dans chaque lentille.",
+      "de": "Das Display der Vision Pro hat 23 Megapixel pro Auge — mehr Pixel als ein 4K-Fernseher, in jeder Linse.",
+      "it": "Il display del Vision Pro ha 23 megapixel per occhio — più pixel di una TV 4K, in ogni lente."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_068",
+    "english": "Eye tracking on Vision Pro samples at 90Hz so the cursor follows your gaze without any visible UI lag.",
+    "context": "How spatial input feels seamless",
+    "translations": {
+      "pt-BR": "Eye tracking no Vision Pro amostra a 90Hz, então o cursor segue seu olhar sem lag visível na UI.",
+      "es": "El eye tracking del Vision Pro muestrea a 90Hz, así que el cursor sigue tu mirada sin lag visible en la UI.",
+      "fr": "Le suivi oculaire du Vision Pro échantillonne à 90Hz, donc le curseur suit ton regard sans lag visible dans l'UI.",
+      "de": "Das Eye-Tracking der Vision Pro tastet mit 90 Hz ab, sodass der Cursor deinem Blick ohne sichtbaren UI-Lag folgt.",
+      "it": "L'eye tracking del Vision Pro campiona a 90Hz, così il cursore segue il tuo sguardo senza lag visibile nell'UI."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_069",
+    "english": "visionOS shares about 80% of its codebase with iOS — RealityKit, ARKit, and the spatial scene types are the new pieces.",
+    "context": "Why bringing an iOS app to Vision Pro is often quick",
+    "translations": {
+      "pt-BR": "visionOS compartilha cerca de 80% do codebase com iOS — RealityKit, ARKit e os spatial scene types são as peças novas.",
+      "es": "visionOS comparte cerca del 80% de su codebase con iOS — RealityKit, ARKit y los spatial scene types son las piezas nuevas.",
+      "fr": "visionOS partage environ 80% de sa base de code avec iOS — RealityKit, ARKit et les spatial scene types sont les nouveautés.",
+      "de": "visionOS teilt etwa 80 % seiner Codebasis mit iOS — RealityKit, ARKit und die Spatial-Scene-Typen sind die neuen Bausteine.",
+      "it": "visionOS condivide circa l'80% del suo codebase con iOS — RealityKit, ARKit e gli spatial scene type sono i pezzi nuovi."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_070",
+    "english": "RealityKit uses an Entity Component System architecture — the same pattern game engines like Unity have used for years.",
+    "context": "How RealityKit is structured under the hood",
+    "translations": {
+      "pt-BR": "RealityKit usa arquitetura Entity Component System — o mesmo padrão que game engines como Unity usam há anos.",
+      "es": "RealityKit usa una arquitectura Entity Component System — el mismo patrón que game engines como Unity llevan años usando.",
+      "fr": "RealityKit utilise une architecture Entity Component System — le même pattern que des game engines comme Unity utilisent depuis des années.",
+      "de": "RealityKit nutzt eine Entity-Component-System-Architektur — dasselbe Muster, das Game-Engines wie Unity seit Jahren verwenden.",
+      "it": "RealityKit usa un'architettura Entity Component System — lo stesso pattern usato da anni dai game engine come Unity."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_071",
+    "english": "WidgetKit caches a rendered snapshot of your widget — your code only runs on timeline updates, not on every home-screen render.",
+    "context": "Why widgets are cheap on battery",
+    "translations": {
+      "pt-BR": "WidgetKit faz cache de um snapshot renderizado do seu widget — seu código só roda em updates de timeline, não em cada render da home screen.",
+      "es": "WidgetKit cachea un snapshot renderizado de tu widget — tu código solo se ejecuta en updates de timeline, no en cada render de la pantalla de inicio.",
+      "fr": "WidgetKit met en cache un snapshot rendu de ton widget — ton code ne s'exécute que sur les updates de timeline, pas à chaque rendu de l'écran d'accueil.",
+      "de": "WidgetKit speichert einen gerenderten Snapshot deines Widgets im Cache — dein Code läuft nur bei Timeline-Updates, nicht bei jedem Home-Screen-Render.",
+      "it": "WidgetKit memorizza in cache uno snapshot renderizzato del tuo widget — il tuo codice gira solo sugli update della timeline, non a ogni render della home."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_072",
+    "english": "Live Activities update via ActivityKit push tokens — similar to remote notifications but with much lower latency for real-time UI.",
+    "context": "How Dynamic Island and lock-screen activities stay live",
+    "translations": {
+      "pt-BR": "Live Activities atualizam via push tokens do ActivityKit — parecido com remote notifications mas com latência bem menor pra UI em tempo real.",
+      "es": "Las Live Activities se actualizan vía push tokens de ActivityKit — similar a las remote notifications pero con mucha menos latencia para UI en tiempo real.",
+      "fr": "Les Live Activities s'actualisent via les push tokens d'ActivityKit — similaire aux remote notifications mais avec une latence bien plus faible pour une UI en temps réel.",
+      "de": "Live Activities aktualisieren sich über ActivityKit-Push-Tokens — ähnlich wie Remote Notifications, aber mit deutlich geringerer Latenz für Echtzeit-UI.",
+      "it": "Le Live Activity si aggiornano tramite push token di ActivityKit — simile alle remote notification ma con latenza molto più bassa per UI in tempo reale."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_073",
+    "english": "App Intents replaces SiriKit — Intent extensions are deprecated, and the same definition now powers Siri, Shortcuts, Spotlight, and widgets.",
+    "context": "Why migrating to App Intents is worth the effort",
+    "translations": {
+      "pt-BR": "App Intents substitui SiriKit — Intent extensions estão deprecated, e a mesma definição agora alimenta Siri, Shortcuts, Spotlight e widgets.",
+      "es": "App Intents reemplaza a SiriKit — las Intent extensions están deprecated, y la misma definición ahora alimenta Siri, Shortcuts, Spotlight y widgets.",
+      "fr": "App Intents remplace SiriKit — les Intent extensions sont dépréciées, et la même définition alimente désormais Siri, Shortcuts, Spotlight et les widgets.",
+      "de": "App Intents ersetzt SiriKit — Intent-Extensions sind veraltet, und dieselbe Definition versorgt jetzt Siri, Shortcuts, Spotlight und Widgets.",
+      "it": "App Intents sostituisce SiriKit — le Intent extension sono deprecate, e la stessa definizione ora alimenta Siri, Shortcuts, Spotlight e widget."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_074",
+    "english": "Swift evolved from LLVM — Chris Lattner started it in 2010, drawing ideas from Objective-C, Rust, Haskell, and Python.",
+    "context": "Origin story of the Swift language",
+    "translations": {
+      "pt-BR": "Swift evoluiu do LLVM — Chris Lattner começou em 2010, puxando ideias de Objective-C, Rust, Haskell e Python.",
+      "es": "Swift evolucionó del LLVM — Chris Lattner lo comenzó en 2010, tomando ideas de Objective-C, Rust, Haskell y Python.",
+      "fr": "Swift a évolué depuis LLVM — Chris Lattner l'a commencé en 2010, en puisant des idées dans Objective-C, Rust, Haskell et Python.",
+      "de": "Swift entstand aus LLVM — Chris Lattner begann 2010 mit der Sprache und ließ sich von Objective-C, Rust, Haskell und Python inspirieren.",
+      "it": "Swift è nato da LLVM — Chris Lattner l'ha iniziato nel 2010, prendendo idee da Objective-C, Rust, Haskell e Python."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_075",
+    "english": "Swift Evolution proposals are public and community-reviewed — SE-0235 introduced the Result type, born from open discussion.",
+    "context": "How language features actually ship in Swift",
+    "translations": {
+      "pt-BR": "Propostas do Swift Evolution são públicas e revisadas pela comunidade — a SE-0235 introduziu o tipo Result, nascida de discussão aberta.",
+      "es": "Las propuestas de Swift Evolution son públicas y revisadas por la comunidad — la SE-0235 introdujo el tipo Result, nacida de discusión abierta.",
+      "fr": "Les propositions Swift Evolution sont publiques et revues par la communauté — SE-0235 a introduit le type Result, née d'une discussion ouverte.",
+      "de": "Swift-Evolution-Proposals sind öffentlich und werden von der Community geprüft — SE-0235 führte den Result-Typ ein, geboren aus offener Diskussion.",
+      "it": "Le proposte Swift Evolution sono pubbliche e revisionate dalla community — la SE-0235 ha introdotto il tipo Result, nata da una discussione aperta."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_076",
+    "english": "Apple's Vision framework has shipped on-device OCR since iOS 13 — it now recognizes a printed page in roughly 50 ms on Apple Silicon.",
+    "context": "How long on-device AI has been quietly running on iPhone",
+    "translations": {
+      "pt-BR": "O framework Vision da Apple entrega OCR on-device desde o iOS 13 — hoje ele reconhece uma página impressa em cerca de 50 ms no Apple Silicon.",
+      "es": "El framework Vision de Apple ofrece OCR on-device desde iOS 13 — ahora reconoce una página impresa en unos 50 ms en Apple Silicon.",
+      "fr": "Le framework Vision d'Apple propose l'OCR on-device depuis iOS 13 — il reconnaît désormais une page imprimée en environ 50 ms sur Apple Silicon.",
+      "de": "Apples Vision-Framework bietet On-Device-OCR seit iOS 13 — heute erkennt es eine gedruckte Seite in etwa 50 ms auf Apple Silicon.",
+      "it": "Il framework Vision di Apple offre OCR on-device dall'iOS 13 — oggi riconosce una pagina stampata in circa 50 ms su Apple Silicon."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_077",
+    "english": "Apple has shipped on-device transformer models for autocorrect since iOS 17 — Apple Intelligence is the next leap in that direction.",
+    "context": "On-device ML has been quietly evolving for years",
+    "translations": {
+      "pt-BR": "A Apple já entrega transformers on-device pra autocorrect desde o iOS 17 — Apple Intelligence é o próximo salto nessa direção.",
+      "es": "Apple ya entrega transformers on-device para autocorrect desde iOS 17 — Apple Intelligence es el siguiente salto en esa dirección.",
+      "fr": "Apple livre déjà des transformeurs on-device pour la correction automatique depuis iOS 17 — Apple Intelligence est le prochain saut dans cette direction.",
+      "de": "Apple liefert seit iOS 17 On-Device-Transformer-Modelle für die Autokorrektur — Apple Intelligence ist der nächste Sprung in diese Richtung.",
+      "it": "Apple distribuisce modelli transformer on-device per l'autocorrezione fin da iOS 17 — Apple Intelligence è il prossimo salto in quella direzione."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_078",
+    "english": "Noncopyable types in Swift prevent accidental aliasing — important for resource handles, file descriptors, and one-shot tokens.",
+    "context": "A modern Swift language feature for ownership",
+    "translations": {
+      "pt-BR": "Tipos noncopyable em Swift previnem aliasing acidental — importante pra handles de recurso, file descriptors e tokens de uso único.",
+      "es": "Los tipos noncopyable en Swift previenen el aliasing accidental — importante para handles de recurso, file descriptors y tokens de un solo uso.",
+      "fr": "Les types noncopyable de Swift empêchent l'aliasing accidentel — important pour les handles de ressources, les file descriptors et les tokens à usage unique.",
+      "de": "Noncopyable-Typen in Swift verhindern versehentliches Aliasing — wichtig für Ressourcen-Handles, File Descriptors und Einmal-Tokens.",
+      "it": "I tipi noncopyable in Swift impediscono l'aliasing accidentale — importanti per handle di risorse, file descriptor e token monouso."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_079",
+    "english": "Xcode Cloud builds on Apple Silicon — average build times dropped about 50% compared to the old Intel Mac infrastructure.",
+    "context": "Why CI on Xcode Cloud feels noticeably faster",
+    "translations": {
+      "pt-BR": "Xcode Cloud roda em Apple Silicon — o tempo médio de build caiu cerca de 50% em relação à infraestrutura antiga em Mac Intel.",
+      "es": "Xcode Cloud compila en Apple Silicon — los tiempos medios de build cayeron cerca de un 50% frente a la antigua infraestructura en Mac Intel.",
+      "fr": "Xcode Cloud compile sur Apple Silicon — les temps de build moyens ont baissé d'environ 50% par rapport à l'ancienne infrastructure sur Mac Intel.",
+      "de": "Xcode Cloud baut auf Apple Silicon — die durchschnittlichen Build-Zeiten sind im Vergleich zur alten Intel-Mac-Infrastruktur um etwa 50 % gesunken.",
+      "it": "Xcode Cloud compila su Apple Silicon — i tempi medi di build sono scesi di circa il 50% rispetto alla vecchia infrastruttura su Mac Intel."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_080",
+    "english": "App Store Connect requires apps to disclose Apple Intelligence usage in privacy nutrition labels — reviewers reject builds that hide it.",
+    "context": "Compliance requirement for AI-powered apps",
+    "translations": {
+      "pt-BR": "App Store Connect exige que apps declarem o uso de Apple Intelligence nos privacy nutrition labels — reviewers rejeitam builds que escondem isso.",
+      "es": "App Store Connect exige que las apps declaren el uso de Apple Intelligence en los privacy nutrition labels — los revisores rechazan builds que lo ocultan.",
+      "fr": "App Store Connect exige que les apps déclarent l'usage d'Apple Intelligence dans les privacy nutrition labels — les reviewers rejettent les builds qui le cachent.",
+      "de": "App Store Connect verlangt, dass Apps die Nutzung von Apple Intelligence in den Privacy Nutrition Labels offenlegen — Reviewer lehnen Builds ab, die das verbergen.",
+      "it": "App Store Connect richiede alle app di dichiarare l'uso di Apple Intelligence nei privacy nutrition label — i reviewer rifiutano le build che lo nascondono."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_081",
+    "english": "WWDC sessions are recorded but the developer labs are not — bring your hardest questions to a lab while the engineers are still in the room.",
+    "context": "How to get the most out of WWDC week",
+    "translations": {
+      "pt-BR": "As sessions da WWDC são gravadas, mas os developer labs não — leva suas perguntas mais difíceis pra um lab enquanto os engenheiros ainda estão na sala.",
+      "es": "Las sessions de WWDC se graban, pero los developer labs no — lleva tus preguntas más difíciles a un lab mientras los ingenieros aún están en la sala.",
+      "fr": "Les sessions de la WWDC sont enregistrées, mais les developer labs ne le sont pas — apporte tes questions les plus difficiles à un lab tant que les ingénieurs sont encore présents.",
+      "de": "WWDC-Sessions werden aufgezeichnet, die Developer Labs jedoch nicht — bring deine schwierigsten Fragen in ein Lab, solange die Engineers noch im Raum sind.",
+      "it": "Le session del WWDC sono registrate, ma i developer lab no — porta le tue domande più difficili a un lab finché gli ingegneri sono ancora in sala."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_082",
+    "english": "Swift's compiler is fully open source — the toolchain lives on GitHub and accepts community pull requests.",
+    "context": "Curiosity about Swift's openness",
+    "translations": {
+      "pt-BR": "O compilador do Swift é totalmente open source — a toolchain mora no GitHub e aceita pull requests da comunidade.",
+      "es": "El compilador de Swift es totalmente open source — la toolchain vive en GitHub y acepta pull requests de la comunidad.",
+      "fr": "Le compilateur Swift est entièrement open source — la toolchain est sur GitHub et accepte les pull requests de la communauté.",
+      "de": "Der Swift-Compiler ist vollständig Open Source — die Toolchain liegt auf GitHub und akzeptiert Pull Requests aus der Community.",
+      "it": "Il compilatore di Swift è completamente open source — la toolchain vive su GitHub e accetta pull request dalla community."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_083",
+    "english": "URLSession supports HTTP/3 by default on iOS 17 and later — QUIC recovers from packet loss faster than HTTP/2.",
+    "context": "Performance win you get for free on modern iOS",
+    "translations": {
+      "pt-BR": "URLSession suporta HTTP/3 por padrão no iOS 17 e mais novos — o QUIC recupera de perda de pacote mais rápido que HTTP/2.",
+      "es": "URLSession soporta HTTP/3 por defecto en iOS 17 y posteriores — QUIC recupera la pérdida de paquetes más rápido que HTTP/2.",
+      "fr": "URLSession supporte HTTP/3 par défaut sur iOS 17 et plus — QUIC récupère plus vite des pertes de paquets que HTTP/2.",
+      "de": "URLSession unterstützt HTTP/3 standardmäßig ab iOS 17 — QUIC erholt sich schneller von Paketverlust als HTTP/2.",
+      "it": "URLSession supporta HTTP/3 di default da iOS 17 in poi — QUIC recupera dalla perdita di pacchetti più velocemente di HTTP/2."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_084",
+    "english": "StoreKit 2 returns purchases as Swift structs with verified signatures — no JSON receipt parsing or server-side validation required.",
+    "context": "Why StoreKit 2 is dramatically simpler than StoreKit 1",
+    "translations": {
+      "pt-BR": "StoreKit 2 devolve compras como structs Swift com assinaturas verificadas — sem parsing de JSON de recibo nem validação no servidor.",
+      "es": "StoreKit 2 devuelve compras como structs Swift con firmas verificadas — sin parsing de JSON de recibo ni validación en el servidor.",
+      "fr": "StoreKit 2 renvoie les achats sous forme de structs Swift avec signatures vérifiées — pas de parsing de JSON de reçu ni de validation côté serveur.",
+      "de": "StoreKit 2 liefert Käufe als Swift-Structs mit verifizierten Signaturen zurück — kein Receipt-JSON-Parsing oder Server-seitige Validierung nötig.",
+      "it": "StoreKit 2 restituisce gli acquisti come struct Swift con firme verificate — niente parsing JSON delle ricevute né validazione server-side."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_085",
+    "english": "Sign in with Apple is privacy-preserving by design — users can hide their real email behind a per-app relay address.",
+    "context": "How Apple's auth differs from third-party social login",
+    "translations": {
+      "pt-BR": "Sign in with Apple é privacy-preserving por design — usuários podem esconder o email real atrás de um endereço relay por app.",
+      "es": "Sign in with Apple es privacy-preserving por diseño — los usuarios pueden ocultar su email real detrás de una dirección relay por app.",
+      "fr": "Sign in with Apple est privacy-preserving par conception — les utilisateurs peuvent cacher leur vrai email derrière une adresse relay par app.",
+      "de": "Sign in with Apple ist von Design her datenschutzfreundlich — Nutzer können ihre echte E-Mail hinter einer Relay-Adresse pro App verstecken.",
+      "it": "Sign in with Apple è privacy-preserving by design — gli utenti possono nascondere la loro email reale dietro un indirizzo relay per app."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_086",
+    "english": "TestFlight supports up to 10,000 external testers per build — far more than most apps will ever need for beta validation.",
+    "context": "Scale of beta testing available on Apple platforms",
+    "translations": {
+      "pt-BR": "TestFlight suporta até 10.000 testers externos por build — bem mais do que a maioria dos apps vai precisar pra validar um beta.",
+      "es": "TestFlight soporta hasta 10.000 testers externos por build — mucho más de lo que la mayoría de apps necesitarán para validar un beta.",
+      "fr": "TestFlight prend en charge jusqu'à 10 000 testeurs externes par build — bien plus que ce dont la plupart des apps auront besoin pour valider une bêta.",
+      "de": "TestFlight unterstützt bis zu 10.000 externe Tester pro Build — weit mehr als die meisten Apps für ihre Beta-Validierung jemals brauchen.",
+      "it": "TestFlight supporta fino a 10.000 tester esterni per build — molto più di quanto la maggior parte delle app abbia bisogno per validare una beta."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_087",
+    "english": "App Review's median response time in 2024 was around 24 hours — a decade ago the same review took about a week.",
+    "context": "How dramatically App Review speed has improved",
+    "translations": {
+      "pt-BR": "O tempo médio de resposta do App Review em 2024 ficou em torno de 24 horas — uma década atrás a mesma revisão levava cerca de uma semana.",
+      "es": "El tiempo medio de respuesta del App Review en 2024 fue de unas 24 horas — hace una década la misma revisión tardaba cerca de una semana.",
+      "fr": "Le temps de réponse médian d'App Review en 2024 tournait autour de 24 heures — il y a dix ans, la même revue prenait environ une semaine.",
+      "de": "Die mediane Antwortzeit von App Review lag 2024 bei rund 24 Stunden — vor einem Jahrzehnt dauerte dieselbe Prüfung etwa eine Woche.",
+      "it": "Il tempo mediano di risposta dell'App Review nel 2024 si è attestato sulle 24 ore — un decennio fa la stessa revisione richiedeva circa una settimana."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_088",
+    "english": "Apple Watch Series 10 ships with the S10 SiP — the first Apple Watch chip capable of running Apple Intelligence models locally.",
+    "context": "Hardware milestone for on-device AI on the wrist",
+    "translations": {
+      "pt-BR": "O Apple Watch Series 10 vem com o S10 SiP — o primeiro chip de Apple Watch capaz de rodar modelos do Apple Intelligence localmente.",
+      "es": "El Apple Watch Series 10 viene con el S10 SiP — el primer chip de Apple Watch capaz de ejecutar modelos de Apple Intelligence localmente.",
+      "fr": "L'Apple Watch Series 10 embarque le S10 SiP — la première puce d'Apple Watch capable d'exécuter les modèles Apple Intelligence localement.",
+      "de": "Die Apple Watch Series 10 kommt mit dem S10 SiP — der erste Apple-Watch-Chip, der Apple-Intelligence-Modelle lokal ausführen kann.",
+      "it": "L'Apple Watch Series 10 arriva con l'S10 SiP — il primo chip per Apple Watch capace di eseguire localmente i modelli di Apple Intelligence."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_089",
+    "english": "Mac Catalyst lets a single iPad app target macOS — over 60% of new App Store apps now support it without writing Mac-specific code.",
+    "context": "Why bringing an iPad app to Mac is mostly free",
+    "translations": {
+      "pt-BR": "Mac Catalyst permite que um único app de iPad mire macOS — mais de 60% dos novos apps na App Store já suportam isso sem escrever código específico pra Mac.",
+      "es": "Mac Catalyst permite que una sola app de iPad apunte a macOS — más del 60% de las apps nuevas en App Store ya lo soportan sin escribir código específico para Mac.",
+      "fr": "Mac Catalyst permet à une app iPad unique de cibler macOS — plus de 60% des nouvelles apps de l'App Store le supportent désormais sans code spécifique au Mac.",
+      "de": "Mac Catalyst erlaubt es, eine einzige iPad-App auf macOS zu zielen — über 60 % der neuen App-Store-Apps unterstützen es ohne Mac-spezifischen Code.",
+      "it": "Mac Catalyst permette a una singola app iPad di puntare a macOS — oltre il 60% delle nuove app sull'App Store lo supporta senza scrivere codice specifico per Mac."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_090",
+    "english": "Combine is still first class, but for reactive streams new code should prefer AsyncSequence — it integrates natively with Swift Concurrency.",
+    "context": "Modern recommendation for reactive Swift code",
+    "translations": {
+      "pt-BR": "Combine continua first class, mas pra streams reativos código novo deveria preferir AsyncSequence — ele integra nativamente com Swift Concurrency.",
+      "es": "Combine sigue siendo first class, pero para streams reactivos el código nuevo debería preferir AsyncSequence — se integra nativamente con Swift Concurrency.",
+      "fr": "Combine reste first class, mais pour les flux réactifs le nouveau code devrait préférer AsyncSequence — il s'intègre nativement avec Swift Concurrency.",
+      "de": "Combine bleibt First Class, doch für reaktive Streams sollte neuer Code AsyncSequence bevorzugen — es integriert sich nativ mit Swift Concurrency.",
+      "it": "Combine resta first class, ma per gli stream reattivi il codice nuovo dovrebbe preferire AsyncSequence — si integra nativamente con Swift Concurrency."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_091",
+    "english": "iOS Live Text recognizes 17 languages including handwritten input — it runs on the Neural Engine in real time from the Camera app.",
+    "context": "Curiosity about on-device OCR scope on iPhone",
+    "translations": {
+      "pt-BR": "O Live Text do iOS reconhece 17 idiomas incluindo escrita à mão — roda na Neural Engine em tempo real direto da Camera app.",
+      "es": "El Live Text de iOS reconoce 17 idiomas, incluida la escritura a mano — se ejecuta en el Neural Engine en tiempo real desde la app Cámara.",
+      "fr": "Le Live Text d'iOS reconnaît 17 langues, y compris l'écriture manuscrite — il tourne sur le Neural Engine en temps réel depuis l'app Caméra.",
+      "de": "iOS Live Text erkennt 17 Sprachen einschließlich Handschrift — es läuft auf der Neural Engine in Echtzeit aus der Kamera-App.",
+      "it": "Il Live Text di iOS riconosce 17 lingue inclusa la scrittura a mano — gira sul Neural Engine in tempo reale dall'app Fotocamera."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_092",
+    "english": "Core ML models can be compiled with float16 weights — roughly half the file size with near-identical accuracy on most networks.",
+    "context": "Optimization trick for shipping ML models in apps",
+    "translations": {
+      "pt-BR": "Modelos Core ML podem ser compilados com pesos float16 — quase metade do tamanho do arquivo com acurácia praticamente idêntica na maioria das redes.",
+      "es": "Los modelos Core ML pueden compilarse con pesos float16 — aproximadamente la mitad del tamaño con precisión casi idéntica en la mayoría de las redes.",
+      "fr": "Les modèles Core ML peuvent être compilés en poids float16 — environ la moitié de la taille de fichier pour une précision quasi identique sur la plupart des réseaux.",
+      "de": "Core-ML-Modelle lassen sich mit float16-Gewichten kompilieren — etwa halbe Dateigröße bei nahezu identischer Genauigkeit auf den meisten Netzwerken.",
+      "it": "I modelli Core ML possono essere compilati con pesi float16 — circa metà della dimensione del file con accuratezza quasi identica sulla maggior parte delle reti."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_093",
+    "english": "Metal 3 introduced MetalFX upscaling — temporal upscaling that delivers 4K visuals from a 1080p source at a fraction of the GPU cost.",
+    "context": "Performance feature that game developers care about",
+    "translations": {
+      "pt-BR": "O Metal 3 trouxe o MetalFX upscaling — upscaling temporal que entrega visuais 4K a partir de fonte 1080p com uma fração do custo de GPU.",
+      "es": "Metal 3 introdujo MetalFX upscaling — un upscaling temporal que entrega visuales 4K desde una fuente 1080p con una fracción del coste de GPU.",
+      "fr": "Metal 3 a introduit MetalFX upscaling — un upscaling temporel qui fournit du visuel 4K à partir d'une source 1080p avec une fraction du coût GPU.",
+      "de": "Metal 3 brachte MetalFX-Upscaling — temporales Upscaling, das 4K-Grafik aus einer 1080p-Quelle bei einem Bruchteil der GPU-Kosten liefert.",
+      "it": "Metal 3 ha introdotto MetalFX upscaling — un upscaling temporale che offre visuali 4K da una sorgente 1080p a una frazione del costo GPU."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_094",
+    "english": "SwiftData uses CloudKit under the hood when you opt into iCloud sync — same backing store, far simpler API surface.",
+    "context": "How SwiftData and CloudKit relate",
+    "translations": {
+      "pt-BR": "SwiftData usa CloudKit por baixo quando você ativa o sync com iCloud — mesma backing store, API bem mais simples.",
+      "es": "SwiftData usa CloudKit por debajo cuando activas la sincronización con iCloud — el mismo backing store, una API mucho más simple.",
+      "fr": "SwiftData utilise CloudKit en interne quand tu actives la synchro iCloud — même backing store, une API bien plus simple.",
+      "de": "SwiftData nutzt im Hintergrund CloudKit, sobald du iCloud-Sync aktivierst — derselbe Backing Store, deutlich einfachere API.",
+      "it": "SwiftData usa CloudKit sotto il cofano quando attivi la sync con iCloud — stesso backing store, API molto più semplice."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_095",
+    "english": "Swift Charts ships an entire grammar-of-graphics framework in just a few hundred lines of public API — most charts take under 10 lines.",
+    "context": "Why Swift Charts is unusually concise",
+    "translations": {
+      "pt-BR": "Swift Charts entrega um framework inteiro de grammar of graphics em só algumas centenas de linhas de API pública — a maioria dos gráficos sai em menos de 10 linhas.",
+      "es": "Swift Charts ofrece un framework completo de grammar of graphics en solo unos cientos de líneas de API pública — la mayoría de los gráficos cabe en menos de 10 líneas.",
+      "fr": "Swift Charts livre un framework entier de grammar of graphics en quelques centaines de lignes d'API publique seulement — la plupart des graphiques tiennent en moins de 10 lignes.",
+      "de": "Swift Charts liefert ein komplettes Grammar-of-Graphics-Framework in nur einigen Hundert Zeilen öffentlicher API — die meisten Diagramme passen in unter 10 Zeilen.",
+      "it": "Swift Charts offre un intero framework grammar of graphics in poche centinaia di righe di API pubblica — la maggior parte dei grafici sta in meno di 10 righe."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_096",
+    "english": "ARKit's scene reconstruction now classifies furniture automatically — couches, desks, and shelves are tagged so apps can react contextually.",
+    "context": "Smarter spatial understanding for AR apps",
+    "translations": {
+      "pt-BR": "A reconstrução de cena do ARKit já classifica móveis automaticamente — sofás, mesas e prateleiras são marcados pra que apps reajam de forma contextual.",
+      "es": "La reconstrucción de escena de ARKit ya clasifica muebles automáticamente — sofás, escritorios y estantes se etiquetan para que las apps reaccionen contextualmente.",
+      "fr": "La reconstruction de scène d'ARKit classe désormais les meubles automatiquement — canapés, bureaux et étagères sont taggés pour que les apps réagissent contextuellement.",
+      "de": "Die Szenenrekonstruktion von ARKit klassifiziert Möbel jetzt automatisch — Sofas, Schreibtische und Regale werden markiert, damit Apps kontextuell reagieren können.",
+      "it": "La ricostruzione di scena di ARKit ora classifica i mobili automaticamente — divani, scrivanie e mensole vengono etichettati così le app possono reagire in modo contestuale."
+    },
+    "difficulty": "hard",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_097",
+    "english": "Background tasks on iOS have a hard wall-clock budget of about 30 seconds — design any background work to finish well inside that window.",
+    "context": "Critical constraint for designing background features",
+    "translations": {
+      "pt-BR": "Background tasks no iOS têm um budget de wall-clock de cerca de 30 segundos — desenha qualquer trabalho em background pra terminar bem dentro dessa janela.",
+      "es": "Las background tasks en iOS tienen un budget wall-clock de unos 30 segundos — diseña cualquier trabajo en background para terminar bien dentro de esa ventana.",
+      "fr": "Les background tasks d'iOS disposent d'un budget wall-clock d'environ 30 secondes — conçois tout travail en arrière-plan pour finir largement dans cette fenêtre.",
+      "de": "Background Tasks unter iOS haben ein hartes Wall-Clock-Budget von rund 30 Sekunden — plane jede Hintergrundarbeit so, dass sie deutlich innerhalb dieses Fensters fertig wird.",
+      "it": "Le background task su iOS hanno un budget wall-clock di circa 30 secondi — progetta qualsiasi lavoro in background per finire ben dentro quella finestra."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_098",
+    "english": "Swift Package Manager resolves a 10,000-package dependency graph in under two seconds — fast enough that you barely notice it on cold builds.",
+    "context": "How fast SPM has become at dependency resolution",
+    "translations": {
+      "pt-BR": "Swift Package Manager resolve um grafo de 10.000 pacotes em menos de dois segundos — rápido o suficiente pra você nem perceber em builds frios.",
+      "es": "Swift Package Manager resuelve un grafo de 10.000 paquetes en menos de dos segundos — lo bastante rápido para que apenas lo notes en builds en frío.",
+      "fr": "Swift Package Manager résout un graphe de 10 000 paquets en moins de deux secondes — assez rapide pour qu'on le remarque à peine sur des builds à froid.",
+      "de": "Swift Package Manager löst einen Abhängigkeitsgraphen mit 10.000 Paketen in unter zwei Sekunden auf — schnell genug, dass man es bei Cold Builds kaum bemerkt.",
+      "it": "Swift Package Manager risolve un grafo di 10.000 pacchetti in meno di due secondi — abbastanza veloce da non notarlo quasi sui build a freddo."
+    },
+    "difficulty": "medium",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_099",
+    "english": "Apple Wallet supports digital car keys with Ultra Wideband — the phone unlocks the car without leaving your pocket.",
+    "context": "Curiosity about Wallet and UWB integration",
+    "translations": {
+      "pt-BR": "Apple Wallet suporta chaves digitais de carro com Ultra Wideband — o celular destrava o carro sem sair do seu bolso.",
+      "es": "Apple Wallet soporta llaves digitales de coche con Ultra Wideband — el teléfono desbloquea el coche sin salir de tu bolsillo.",
+      "fr": "Apple Wallet prend en charge les clés de voiture numériques en Ultra Wideband — le téléphone déverrouille la voiture sans sortir de ta poche.",
+      "de": "Apple Wallet unterstützt digitale Autoschlüssel mit Ultra Wideband — das Handy entriegelt das Auto, ohne deine Tasche zu verlassen.",
+      "it": "Apple Wallet supporta le chiavi digitali per auto con Ultra Wideband — il telefono sblocca l'auto senza uscire dalla tua tasca."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
+  },
+  {
+    "id": "wwdc2026_100",
+    "english": "The WWDC tradition started in 1983 — Steve Jobs presented at the very first one, focused on Lisa and the original Macintosh.",
+    "context": "Origin story of WWDC itself",
+    "translations": {
+      "pt-BR": "A tradição da WWDC começou em 1983 — Steve Jobs apresentou na primeiríssima edição, focada no Lisa e no Macintosh original.",
+      "es": "La tradición de WWDC empezó en 1983 — Steve Jobs presentó en la primerísima edición, centrada en el Lisa y el Macintosh original.",
+      "fr": "La tradition de la WWDC a commencé en 1983 — Steve Jobs a présenté lors de la toute première édition, centrée sur le Lisa et le Macintosh original.",
+      "de": "Die WWDC-Tradition begann 1983 — Steve Jobs präsentierte auf der allerersten Ausgabe, im Mittelpunkt standen Lisa und der originale Macintosh.",
+      "it": "La tradizione del WWDC è iniziata nel 1983 — Steve Jobs presentò alla primissima edizione, incentrata su Lisa e sul Macintosh originale."
+    },
+    "difficulty": "easy",
+    "category": "wwdc2026"
   }
 ]

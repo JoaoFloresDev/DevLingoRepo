@@ -5,7 +5,6 @@ struct MainTabView: View {
     // MARK: - Properties
 
     @StateObject private var router = AppRouter.shared
-    @State private var showPaywall = false
 
     // MARK: - Body
 
@@ -38,23 +37,5 @@ struct MainTabView: View {
                 .tag(3)
         }
         .tint(AppColors.primary)
-        .onAppear {
-            checkPaywallOnLaunch()
-        }
-        .fullScreenCover(isPresented: $showPaywall) {
-            PaywallView()
-        }
-    }
-
-    // MARK: - Private
-
-    private func checkPaywallOnLaunch() {
-        guard !FeatureFlags.hasPremiumAccess() else { return }
-        let count = ReviewService.shared.launchCount()
-        if count >= 15 {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                showPaywall = true
-            }
-        }
     }
 }
