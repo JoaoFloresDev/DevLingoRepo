@@ -144,98 +144,67 @@ struct DevLingoWidgetView: View {
     // MARK: - Small View
 
     private var smallView: some View {
-        paginationBackground
-            .overlay {
-                VStack(spacing: 0) {
-                    Spacer(minLength: 0)
-
-                    Link(destination: phraseURL(entry.phrase.id)) {
-                        Text(entry.phrase.english)
-                            .font(.system(size: 15, weight: .semibold))
-                            .foregroundStyle(.white)
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 12)
-                            .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-
-                    Spacer(minLength: 0)
-
-                    Spacer()
-                        .frame(height: 44)
-                        .allowsHitTesting(false)
-                }
-            }
-            .overlay(alignment: .bottom) { paginationOverlay }
+        Link(destination: phraseURL(entry.phrase.id)) {
+            Text(entry.phrase.english)
+                .font(.system(size: 15, weight: .semibold))
+                .foregroundStyle(.white)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 12)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .overlay { bottomNavOverlay }
     }
 
     // MARK: - Medium View
 
     private var mediumView: some View {
-        paginationBackground
-            .overlay {
-                VStack(spacing: 0) {
-                    Spacer(minLength: 0)
+        Link(destination: phraseURL(entry.phrase.id)) {
+            VStack(spacing: 6) {
+                HStack(spacing: 6) {
+                    Image(systemName: entry.phrase.categoryIcon)
+                        .font(.system(size: 11))
+                        .foregroundStyle(Color(hex: "5E5CE6"))
 
-                    Link(destination: phraseURL(entry.phrase.id)) {
-                        VStack(spacing: 6) {
-                            HStack(spacing: 6) {
-                                Image(systemName: entry.phrase.categoryIcon)
-                                    .font(.system(size: 11))
-                                    .foregroundStyle(Color(hex: "5E5CE6"))
-
-                                Text(entry.phrase.category)
-                                    .font(.system(size: 11, weight: .medium))
-                                    .foregroundStyle(.white.opacity(0.6))
-                                    .lineLimit(1)
-                            }
-
-                            Text(entry.phrase.english)
-                                .font(.system(size: 18, weight: .semibold))
-                                .foregroundStyle(.white)
-                                .multilineTextAlignment(.center)
-                                .padding(.horizontal, 12)
-                        }
-                        .padding(.vertical, 12)
-                        .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-
-                    Spacer(minLength: 0)
-
-                    Spacer()
-                        .frame(height: 44)
-                        .allowsHitTesting(false)
+                    Text(entry.phrase.category)
+                        .font(.system(size: 11, weight: .medium))
+                        .foregroundStyle(.white.opacity(0.6))
+                        .lineLimit(1)
                 }
+
+                Text(entry.phrase.english)
+                    .font(.system(size: 18, weight: .semibold))
+                    .foregroundStyle(.white)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 12)
             }
-            .overlay(alignment: .bottom) { paginationOverlay }
+            .padding(.vertical, 12)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .overlay { bottomNavOverlay }
     }
 
     // MARK: - Large View (Two Phrases)
 
     private var largeView: some View {
-        paginationBackground
-            .overlay {
-                VStack(spacing: 0) {
-                    phraseLinkLarge(phrase: entry.phrase)
+        VStack(spacing: 0) {
+            phraseLinkLarge(phrase: entry.phrase)
 
-                    Divider()
-                        .background(Color.white.opacity(0.15))
-                        .padding(.horizontal, 16)
+            Divider()
+                .background(Color.white.opacity(0.15))
+                .padding(.horizontal, 16)
 
-                    if let next = entry.nextPhrase {
-                        phraseLinkLarge(phrase: next)
-                    } else {
-                        phraseLinkLarge(phrase: entry.phrase)
-                    }
-
-                    Spacer()
-                        .frame(height: 44)
-                        .allowsHitTesting(false)
-                }
+            if let next = entry.nextPhrase {
+                phraseLinkLarge(phrase: next)
+            } else {
+                phraseLinkLarge(phrase: entry.phrase)
             }
-            .overlay(alignment: .bottom) { paginationOverlay }
+        }
+        .overlay { bottomNavOverlay }
     }
 
     private func phraseLinkLarge(phrase: WidgetPhrase) -> some View {
@@ -282,7 +251,10 @@ struct DevLingoWidgetView: View {
                 .foregroundStyle(.primary)
                 .lineLimit(2)
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 4)
+        .background { AccessoryWidgetBackground() }
         .widgetURL(phraseURL(entry.phrase.id))
     }
 
@@ -294,59 +266,34 @@ struct DevLingoWidgetView: View {
 
     // MARK: - Pagination
 
-    /// Full-widget tap surface: left half = previous, right half = next.
-    /// Used as the base layer so taps outside the phrase Link fall through to navigation.
+    /// Bottom half of the widget is one large navigation zone:
+    /// left half = previous phrase, right half = next phrase.
+    /// Top half stays transparent so taps fall through to the phrase Link (open app).
+    /// No visible chevrons/dots — the whole bottom half is the action area.
     @ViewBuilder
-    private var paginationBackground: some View {
+    private var bottomNavOverlay: some View {
         if entry.total > 1 {
-            HStack(spacing: 0) {
-                Button(intent: FlipPhraseIntent(direction: .previous)) {
-                    Color.clear
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .contentShape(Rectangle())
+            VStack(spacing: 0) {
+                Color.clear
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .allowsHitTesting(false)
+
+                HStack(spacing: 0) {
+                    Button(intent: FlipPhraseIntent(direction: .previous)) {
+                        Color.clear
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+
+                    Button(intent: FlipPhraseIntent(direction: .next)) {
+                        Color.clear
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
                 }
-                .buttonStyle(.plain)
-
-                Button(intent: FlipPhraseIntent(direction: .next)) {
-                    Color.clear
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .contentShape(Rectangle())
-                }
-                .buttonStyle(.plain)
-            }
-        } else {
-            Color.clear
-        }
-    }
-
-    /// Visual chevrons + dots anchored to the bottom of the widget. Not interactive.
-    @ViewBuilder
-    private var paginationOverlay: some View {
-        if entry.total > 1 {
-            HStack(spacing: 0) {
-                Image(systemName: "chevron.left")
-                    .font(.system(size: 15, weight: .semibold))
-                    .foregroundStyle(.white.opacity(0.9))
-                    .frame(width: 44, height: 44)
-
-                indicatorDots
-                    .frame(maxWidth: .infinity)
-
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 15, weight: .semibold))
-                    .foregroundStyle(.white.opacity(0.9))
-                    .frame(width: 44, height: 44)
-            }
-            .allowsHitTesting(false)
-        }
-    }
-
-    private var indicatorDots: some View {
-        HStack(spacing: 4) {
-            ForEach(0..<min(entry.total, 10), id: \.self) { i in
-                Circle()
-                    .fill(i == entry.currentIndex ? Color.white : Color.white.opacity(0.25))
-                    .frame(width: 4, height: 4)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
     }
