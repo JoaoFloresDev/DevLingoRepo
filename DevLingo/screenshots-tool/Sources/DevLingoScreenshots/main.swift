@@ -175,6 +175,27 @@ func renderLocaleSet(
     }
 }
 
+// MARK: - Solid Background Theme
+//
+// Flat solid-color marketing panel (no procedural blobs / rays / vignette),
+// in DevLingo's brand purple. All blob colors equal the base and the rays,
+// glow and vignette are clear, so the panorama path renders a single solid color.
+let solidMarketingTheme = MarketingTheme(
+    baseColor:  Color(hex: "5B43E0"),
+    blobBright: Color(hex: "5B43E0"),
+    blobMid:    Color(hex: "5B43E0"),
+    blobDeep:   Color(hex: "5B43E0"),
+    rayLeft: .clear,
+    rayRight: .clear,
+    highlightGlow: .clear,
+    headlineTop: .white,
+    headlineBottom: .white,
+    headlineDepthShadow: Color.black.opacity(0.22),
+    blobBlendMode: .normal,
+    vignetteColor: .clear,
+    deviceContactShadow: Color.black.opacity(0.40)
+)
+
 // MARK: - Marketing Wrapper Helper
 
 @MainActor
@@ -193,6 +214,7 @@ func marketing<Content: View>(
         highlightWord: h.highlight,
         slotIndex: slot,
         totalSlots: totalSlots,
+        theme: solidMarketingTheme,
         content: content
     )
 }

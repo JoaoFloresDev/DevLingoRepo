@@ -7,6 +7,9 @@ struct DevLingoApp: App {
     @AppStorage(StorageKeys.hasCompletedOnboarding) private var hasCompletedOnboarding = false
     @AppStorage(StorageKeys.preferredColorScheme) private var appearanceModeRaw: String = AppearanceMode.system.rawValue
 
+    @StateObject private var purchaseService = PurchaseService.shared
+    @State private var showLaunchPaywall = false
+
     private var appearanceMode: AppearanceMode {
         AppearanceMode(rawValue: appearanceModeRaw) ?? .system
     }
@@ -34,6 +37,26 @@ struct DevLingoApp: App {
             .onOpenURL { url in
                 AppRouter.shared.handle(url: url)
             }
+            .fullScreenCover(isPresented: $showLaunchPaywall) {
+                PaywallView()
+            }
+            .onAppear(perform: evaluateLaunchPaywall)
+        }
+    }
+
+    // MARK: - Launch Paywall
+
+    /// From `launchPaywallThreshold` opens onward, non-pro users get the paywall on launch.
+    private func evaluateLaunchPaywall() {
+        guard FeatureFlags.premiumEnabled,
+              hasCompletedOnboarding,
+              ReviewService.shared.launchCount() >= AppConstants.launchPaywallThreshold else { return }
+
+        // Give StoreKit a beat to resolve entitlements before deciding (avoids flashing
+        // the paywall to a subscriber whose isPremium hasn't loaded yet on cold launch).
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+            guard !purchaseService.isPremium else { return }
+            showLaunchPaywall = true
         }
     }
 

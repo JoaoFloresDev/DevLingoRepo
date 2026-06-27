@@ -241,21 +241,12 @@ struct DevLingoWidgetView: View {
     // MARK: - Accessory Views (Lock Screen)
 
     private var accessoryRectangularView: some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Label("DevLingo", systemImage: "text.bubble.fill")
-                .font(.system(size: 11, weight: .semibold))
-                .foregroundStyle(.secondary)
-
-            Text(entry.phrase.english)
-                .font(.system(size: 13, weight: .medium))
-                .foregroundStyle(.primary)
-                .lineLimit(2)
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-        .padding(.horizontal, 8)
-        .padding(.vertical, 4)
-        .background { AccessoryWidgetBackground() }
-        .widgetURL(phraseURL(entry.phrase.id))
+        Text(entry.phrase.english)
+            .font(.system(size: 14, weight: .medium))
+            .foregroundStyle(.primary)
+            .lineLimit(3)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+            .widgetURL(phraseURL(entry.phrase.id))
     }
 
     private var accessoryInlineView: some View {

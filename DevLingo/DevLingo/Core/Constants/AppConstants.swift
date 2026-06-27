@@ -31,6 +31,9 @@ enum AppConstants {
     static let reviewMinimumLaunches = 5
     static let reviewCooldownDays = 60
 
+    /// From this app-open count onward, non-pro users see the paywall on launch.
+    static let launchPaywallThreshold = 10
+
     // MARK: - Widget
     static let widgetKind = "DevLingoWidget"
     static let widgetRefreshInterval: TimeInterval = 2 * 60 * 60 // 2 hours
