@@ -138,7 +138,10 @@ struct CategoryDetailView: View {
                         }
                         HapticManager.lightImpact()
                     },
-                    onSpeak: { SpeechManager.shared.speak(phrase.english) }
+                    onSpeak: {
+                        SpeechManager.shared.speak(phrase.english)
+                        AnalyticsService.phraseListened(category: phrase.category.rawValue)
+                    }
                 )
             }
         }

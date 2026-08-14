@@ -84,6 +84,7 @@ final class HomeViewModel: ObservableObject {
         dailyService.markCompleted(phrase.id)
         completedIDs.insert(phrase.id)
         progressService.markPhraseCompleted(phrase)
+        AnalyticsService.phraseLearned(category: phrase.category.rawValue, difficulty: phrase.difficulty.rawValue)
         HapticManager.success()
 
         if !hasTriggeredReviewThisSession {
@@ -125,6 +126,7 @@ final class HomeViewModel: ObservableObject {
 
     func speak(_ phrase: Phrase) {
         SpeechManager.shared.speak(phrase.english)
+        AnalyticsService.phraseListened(category: phrase.category.rawValue)
         HapticManager.lightImpact()
     }
 

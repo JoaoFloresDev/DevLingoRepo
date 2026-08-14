@@ -7,10 +7,15 @@ options:
 
 settings:
   base:
-    MARKETING_VERSION: "1.6.0"
-    CURRENT_PROJECT_VERSION: "11"
+    MARKETING_VERSION: "1.7.0"
+    CURRENT_PROJECT_VERSION: "12"
     DEVELOPMENT_TEAM: NZC6LC8NWM
     SWIFT_VERSION: "5.9"
+
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk.git
+    from: "11.0.0"
 
 schemes:
   DevLingo:
@@ -49,6 +54,8 @@ targets:
     dependencies:
       - target: DevLingoWidget
         embed: true
+      - package: Firebase
+        product: FirebaseAnalytics
 
   DevLingoWidget:
     type: app-extension

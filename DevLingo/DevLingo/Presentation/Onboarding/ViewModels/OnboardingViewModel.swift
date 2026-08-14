@@ -59,6 +59,12 @@ final class OnboardingViewModel: ObservableObject {
             }
         }
 
+        AnalyticsService.onboardingCompleted(
+            language: selectedLanguage.code,
+            notificationsEnabled: enableNotifications,
+            notificationCount: notificationCount
+        )
+
         HapticManager.success()
     }
 }

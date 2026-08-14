@@ -4,7 +4,7 @@ import SwiftUI
 struct AppearancePickerSheet: View {
     // MARK: - Properties
 
-    @AppStorage(StorageKeys.preferredColorScheme) private var appearanceModeRaw: String = AppearanceMode.system.rawValue
+    @AppStorage(StorageKeys.preferredColorScheme) private var appearanceModeRaw: String = AppearanceMode.dark.rawValue
     @Environment(\.dismiss) private var dismiss
 
     // MARK: - View Body

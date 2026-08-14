@@ -14,10 +14,10 @@ struct ProfileView: View {
     @State private var showPaywall = false
     @State private var isRestoringPurchases = false
 
-    @AppStorage(StorageKeys.preferredColorScheme) private var appearanceModeRaw: String = AppearanceMode.system.rawValue
+    @AppStorage(StorageKeys.preferredColorScheme) private var appearanceModeRaw: String = AppearanceMode.dark.rawValue
 
     private var appearanceMode: AppearanceMode {
-        AppearanceMode(rawValue: appearanceModeRaw) ?? .system
+        AppearanceMode(rawValue: appearanceModeRaw) ?? .dark
     }
 
     // MARK: - Body
@@ -70,7 +70,7 @@ struct ProfileView: View {
             )
         }
         .fullScreenCover(isPresented: $showPaywall) {
-            PaywallView()
+            PaywallView(source: "profile")
         }
         .sheet(isPresented: $showSavedPhrases) {
             PhraseListSheet(

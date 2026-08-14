@@ -26,6 +26,11 @@ enum PaywallTheme {
 /// pulsing crown header, benefit list, selectable plans (yearly / monthly with optional
 /// 3-day trial), gradient CTA, restore and legal links.
 struct PaywallView: View {
+    // MARK: - Properties
+
+    /// Where the paywall was opened from (analytics): post_onboarding / launch / category_locked / profile.
+    var source: String = "unknown"
+
     // MARK: - State
 
     @StateObject private var purchaseService = PurchaseService.shared
@@ -110,6 +115,9 @@ struct PaywallView: View {
         }
         .onAppear {
             startAnimations()
+            if !purchaseService.isPremium {
+                AnalyticsService.paywallShown(source: source)
+            }
             if purchaseService.products.isEmpty {
                 Task { await purchaseService.loadProducts() }
             }
@@ -121,6 +129,9 @@ struct PaywallView: View {
     private var closeButton: some View {
         Button {
             HapticManager.selection()
+            if !purchaseService.isPremium {
+                AnalyticsService.paywallDismissed(source: source)
+            }
             dismiss()
         } label: {
             Image(systemName: "xmark")
@@ -348,15 +359,24 @@ struct PaywallView: View {
         }
         errorMessage = nil
         isPurchasing = true
+        let plan = selectedPlan == .yearly ? "yearly" : "monthly"
+        AnalyticsService.purchaseStarted(product: plan, source: source)
         Task {
             do {
                 let success = try await purchaseService.purchase(product)
                 isPurchasing = false
-                if success { HapticManager.success(); dismiss() }
+                if success {
+                    AnalyticsService.purchaseSuccess(product: plan, source: source)
+                    HapticManager.success()
+                    dismiss()
+                } else {
+                    AnalyticsService.purchaseFailed(product: plan, source: source, reason: "cancelled")
+                }
             } catch {
                 isPurchasing = false
                 HapticManager.error()
                 errorMessage = error.localizedDescription
+                AnalyticsService.purchaseFailed(product: plan, source: source, reason: error.localizedDescription)
             }
         }
     }
@@ -365,6 +385,7 @@ struct PaywallView: View {
         isPurchasing = true
         await purchaseService.restorePurchases()
         isPurchasing = false
+        AnalyticsService.restoreCompleted(success: purchaseService.isPremium)
         if purchaseService.isPremium {
             HapticManager.success()
             dismiss()

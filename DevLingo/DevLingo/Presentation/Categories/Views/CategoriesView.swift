@@ -32,7 +32,7 @@ struct CategoriesView: View {
             viewModel.loadData()
         }
         .fullScreenCover(isPresented: $showPaywall) {
-            PaywallView()
+            PaywallView(source: "category_locked")
         }
     }
 
@@ -75,6 +75,7 @@ struct CategoriesView: View {
 
         if isLocked {
             Button {
+                AnalyticsService.categoryOpened(category: category.rawValue, locked: true)
                 showPaywall = true
                 HapticManager.mediumImpact()
             } label: {
@@ -91,6 +92,9 @@ struct CategoriesView: View {
                     phraseCount: viewModel.phraseCount(for: category)
                 )
             }
+            .simultaneousGesture(TapGesture().onEnded {
+                AnalyticsService.categoryOpened(category: category.rawValue, locked: false)
+            })
         }
     }
 }
