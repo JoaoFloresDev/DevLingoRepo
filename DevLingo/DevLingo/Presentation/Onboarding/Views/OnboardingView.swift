@@ -27,6 +27,10 @@ struct OnboardingView: View {
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
                 .animation(.spring(response: 0.35, dampingFraction: 0.85), value: viewModel.currentPage)
+                .onAppear { AnalyticsService.onboardingStepViewed(step: viewModel.currentPage + 1) }
+                .onChange(of: viewModel.currentPage) { _, page in
+                    AnalyticsService.onboardingStepViewed(step: page + 1)
+                }
 
                 // Bottom button
                 bottomButton

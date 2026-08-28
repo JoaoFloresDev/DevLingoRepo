@@ -48,19 +48,52 @@ enum AnalyticsService {
 
     // MARK: - Learning
 
-    /// User marked a phrase as learned.
+    /// User marked a phrase as learned — this is the app's value moment.
     static func phraseLearned(category: String, difficulty: String) {
         log("phrase_learned", ["category": category, "difficulty": difficulty])
+        coreAction("phrase_learned", ["category": category])
     }
 
     /// Text-to-speech pronunciation played.
     static func phraseListened(category: String) {
         log("phrase_listened", ["category": category])
+        feature("pronunciation", source: "phrase")
     }
 
     /// A category was opened from the grid. `locked` = premium-gated at tap time.
     static func categoryOpened(category: String, locked: Bool) {
         log("category_opened", ["category": category, "locked": locked ? "true" : "false"])
+    }
+
+    // MARK: - Canonical (GambitStudio taxonomy)
+
+    private static let coreActionKey = "analytics.didCoreAction"
+
+    /// Activation: the moment the app delivered its value. `first` marks the very first
+    /// time on this install, which is what predicts retention.
+    static func coreAction(_ kind: String, _ params: [String: Any] = [:]) {
+        let defaults = UserDefaults.standard
+        let first = !defaults.bool(forKey: coreActionKey)
+        if first { defaults.set(true, forKey: coreActionKey) }
+        var all = params
+        all["kind"] = kind
+        all["first"] = first ? "true" : "false"
+        log("core_action", all)
+    }
+
+    /// Feature adoption, comparable across every app in the lab.
+    static func feature(_ name: String, source: String) {
+        log("feature_used", ["name": name, "source": source])
+    }
+
+    static func screen(_ name: String) {
+        Analytics.logEvent(AnalyticsEventScreenView,
+                           parameters: [AnalyticsParameterScreenName: name])
+    }
+
+    /// Each onboarding page appeared — shows exactly where people drop out.
+    static func onboardingStepViewed(step: Int) {
+        log("onboarding_step_viewed", ["step": step])
     }
 
     // MARK: - Core
