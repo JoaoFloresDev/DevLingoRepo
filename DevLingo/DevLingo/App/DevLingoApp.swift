@@ -1,5 +1,6 @@
 import SwiftUI
 import FirebaseCore
+import GambitCoreKit
 
 @main
 struct DevLingoApp: App {
@@ -23,6 +24,28 @@ struct DevLingoApp: App {
         PhraseService.shared.loadPhrases()
         ReviewService.shared.incrementLaunchCount()
         configureAppearance()
+        configureRatingGate()
+    }
+
+    // MARK: - Rating Gate
+
+    /// Pre-gate before the native prompt: happy users go to the App Store, unhappy ones
+    /// stay in the app with a feedback form (1-2 star intent never leaks to the store).
+    private func configureRatingGate() {
+        let service = RatingGateService.shared
+        service.config = RatingGateConfig(
+            questionTitle: String(localized: "rating.gate.question.title"),
+            questionSubtitle: String(localized: "rating.gate.question.subtitle"),
+            yesButton: String(localized: "rating.gate.yes"),
+            noButton: String(localized: "rating.gate.no"),
+            feedbackTitle: String(localized: "rating.gate.feedback.title"),
+            feedbackPlaceholder: String(localized: "rating.gate.feedback.placeholder"),
+            feedbackSend: String(localized: "rating.gate.feedback.send"),
+            feedbackThanks: String(localized: "rating.gate.feedback.thanks")
+        )
+        service.onEvent = { event in
+            AnalyticsService.ratingGate(event.name, trigger: event.trigger.rawValue)
+        }
     }
 
     // MARK: - Body
@@ -37,6 +60,7 @@ struct DevLingoApp: App {
                 }
             }
             .preferredColorScheme(appearanceMode.colorScheme)
+            .ratingGate(accent: AppColors.primary)
             .onOpenURL { url in
                 AppRouter.shared.handle(url: url)
             }

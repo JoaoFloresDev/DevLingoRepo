@@ -1,5 +1,6 @@
 import Foundation
 import FirebaseAnalytics
+import GambitCoreKit
 
 /// Thin, typed wrapper over Firebase Analytics. Centralizes every custom event so the
 /// call sites stay declarative and the event/param names live in ONE place (Firebase
@@ -79,6 +80,16 @@ enum AnalyticsService {
         all["kind"] = kind
         all["first"] = first ? "true" : "false"
         log("core_action", all)
+        // The activation moment is also the rating gate's trigger — the service decides
+        // on its own whether this is the right time to ask.
+        Task { @MainActor in
+            RatingGateService.shared.recordPositiveEvent(trigger: .init(rawValue: kind))
+        }
+    }
+
+    /// Rating gate funnel (rating_gate_shown / _yes / _no / _dismissed / _feedback).
+    static func ratingGate(_ name: String, trigger: String) {
+        log(name, ["trigger": trigger])
     }
 
     /// Feature adoption, comparable across every app in the lab.
