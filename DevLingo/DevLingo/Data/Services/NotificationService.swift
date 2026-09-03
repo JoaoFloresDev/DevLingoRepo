@@ -15,6 +15,13 @@ final class NotificationService {
 
     private init() {}
 
+    /// Deterministic set of every identifier phrase scheduling can have produced
+    /// (7 days x up to 4 slots) — lets us cancel without an async fetch and without
+    /// ever touching other features' notifications (streak reminder).
+    private var allPhraseIdentifiers: [String] {
+        (0..<7).flatMap { day in (0..<4).map { "devlingo.phrase.\(day).\($0)" } }
+    }
+
     // MARK: - Permission
 
     func requestPermission() async -> Bool {
@@ -25,10 +32,14 @@ final class NotificationService {
         }
     }
 
+    func authorizationStatus() async -> UNAuthorizationStatus {
+        await center.notificationSettings().authorizationStatus
+    }
+
     // MARK: - Schedule Phrase Notifications
 
     func schedulePhraseNotifications(phrases: [Phrase], language: UserLanguage, count: Int) {
-        center.removeAllPendingNotificationRequests()
+        cancelPhraseNotifications()
 
         guard count > 0, !phrases.isEmpty else { return }
 
@@ -86,7 +97,9 @@ final class NotificationService {
 
     // MARK: - Cancel
 
-    func cancelAll() {
-        center.removeAllPendingNotificationRequests()
+    /// Removes only the phrase notifications — the streak reminder is owned by
+    /// StreakReminderService and must survive this.
+    func cancelPhraseNotifications() {
+        center.removePendingNotificationRequests(withIdentifiers: allPhraseIdentifiers)
     }
 }

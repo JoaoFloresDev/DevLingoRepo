@@ -25,6 +25,22 @@ struct DevLingoApp: App {
         ReviewService.shared.incrementLaunchCount()
         configureAppearance()
         configureRatingGate()
+        applyDebugLaunchArguments()
+    }
+
+    // MARK: - Debug Launch Arguments
+
+    /// QA hook: `-StreakShiftBack N` moves the recorded last practice day back N
+    /// days, so streak extension (N=1) and break (N>=2) can be validated in the
+    /// simulator without waiting real days. No-op in Release.
+    private func applyDebugLaunchArguments() {
+        #if DEBUG
+        let arguments = ProcessInfo.processInfo.arguments
+        guard let flagIndex = arguments.firstIndex(of: "-StreakShiftBack"),
+              flagIndex + 1 < arguments.count,
+              let days = Int(arguments[flagIndex + 1]) else { return }
+        ProgressService.shared.debugShiftLastPractice(byDays: days)
+        #endif
     }
 
     // MARK: - Rating Gate

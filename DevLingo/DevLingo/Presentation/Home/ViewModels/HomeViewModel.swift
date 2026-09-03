@@ -10,6 +10,8 @@ final class HomeViewModel: ObservableObject {
     @Published var savedIDs: Set<String> = []
     @Published var isLoading = true
     @Published var showTranslations: Bool
+    @Published var streakJustExtended = false
+    @Published var showReminderCard = false
 
     // MARK: - Properties
 
@@ -21,6 +23,11 @@ final class HomeViewModel: ObservableObject {
 
     var progress: UserProgress {
         progressService.getProgress()
+    }
+
+    /// Streak for the home counter — 0 once the chain is broken.
+    var streakDays: Int {
+        progressService.displayStreak
     }
 
     var completedCount: Int {
@@ -61,8 +68,12 @@ final class HomeViewModel: ObservableObject {
         todayPhrases = dailyService.getTodayPhrases()
         completedIDs = storage.getStringSet(forKey: StorageKeys.completedPhraseIDs)
         savedIDs = storage.getStringSet(forKey: StorageKeys.savedPhraseIDs)
-        progressService.updateStreak()
         dailyService.saveTodayToHistory()
+
+        // Keep the streak reminder in sync (drops today's if already practiced)
+        // and surface the opt-in card while the reminder is off.
+        StreakReminderService.shared.reschedule()
+        refreshReminderCard()
 
         // Schedule phrase notifications with today's phrases
         let notifCount = max(1, storage.getInt(forKey: StorageKeys.phraseNotificationsCount))
@@ -83,14 +94,53 @@ final class HomeViewModel: ObservableObject {
     func markCompleted(_ phrase: Phrase) {
         dailyService.markCompleted(phrase.id)
         completedIDs.insert(phrase.id)
-        progressService.markPhraseCompleted(phrase)
+        let streakUpdate = progressService.markPhraseCompleted(phrase)
         AnalyticsService.phraseLearned(category: phrase.category.rawValue, difficulty: phrase.difficulty.rawValue)
         HapticManager.success()
+
+        if streakUpdate.extended {
+            celebrateStreak(days: streakUpdate.days)
+        }
+
+        // First phrase of the day silences today's streak reminder.
+        StreakReminderService.shared.reschedule()
 
         if !hasTriggeredReviewThisSession {
             hasTriggeredReviewThisSession = true
             ReviewService.shared.requestReviewIfEligible()
         }
+    }
+
+    // MARK: - Streak
+
+    private func celebrateStreak(days: Int) {
+        AnalyticsService.streakExtended(days: days)
+        withAnimation(.spring(response: 0.35, dampingFraction: 0.6)) {
+            streakJustExtended = true
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+            HapticManager.mediumImpact()
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) { [weak self] in
+            withAnimation(.easeOut(duration: 0.3)) {
+                self?.streakJustExtended = false
+            }
+        }
+    }
+
+    // MARK: - Streak Reminder
+
+    func refreshReminderCard() {
+        let reminder = StreakReminderService.shared
+        showReminderCard = !reminder.isEnabled && !reminder.isCardDismissed
+    }
+
+    func dismissReminderCard() {
+        StreakReminderService.shared.dismissCard()
+        withAnimation(.easeOut(duration: 0.25)) {
+            showReminderCard = false
+        }
+        HapticManager.selection()
     }
 
     func markUncompleted(_ phrase: Phrase) {

@@ -173,6 +173,8 @@ struct PhraseCardView: View {
                     .clipShape(Capsule())
                 }
                 .pressAnimation()
+                .accessibilityIdentifier("phrase.unlearn")
+                .accessibilityLabel(String(localized: "phrase.undo_learned"))
             } else {
                 Button(action: onComplete) {
                     HStack(spacing: AppSpacing.sm) {
@@ -187,6 +189,8 @@ struct PhraseCardView: View {
                     .clipShape(Capsule())
                 }
                 .pressAnimation()
+                .accessibilityIdentifier("phrase.learn")
+                .accessibilityLabel(String(localized: "phrase.learned"))
             }
         }
     }

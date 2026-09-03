@@ -60,27 +60,43 @@ struct UserProgress: Codable {
         phrasesByDifficulty[diffKey] = max(0, (phrasesByDifficulty[diffKey] ?? 0) - 1)
     }
 
-    mutating func updateStreak() {
+    /// The streak as the user should see it RIGHT NOW — 0 when the chain is already
+    /// broken (last practice was before yesterday), even before the next practice
+    /// resets the stored counter.
+    var displayStreak: Int {
+        guard let last = lastActiveDate else { return 0 }
+        let days = Date().daysFrom(last)
+        return days <= 1 ? currentStreak : 0
+    }
+
+    /// Registers today as a practice day (date-only, device calendar/timezone).
+    /// Called when a phrase is learned — the streak is defined by practice days,
+    /// never by merely opening the app.
+    /// Returns `true` when this practice EXTENDED the streak (first phrase of a new day).
+    @discardableResult
+    mutating func registerPracticeDay() -> Bool {
         let today = Date().startOfDay
         guard let lastDate = lastActiveDate?.startOfDay else {
             currentStreak = 1
             longestStreak = max(longestStreak, 1)
             lastActiveDate = today
-            return
+            return true
         }
 
         let daysDiff = today.daysFrom(lastDate)
 
         if daysDiff == 0 {
-            // Same day, no change
-            return
-        } else if daysDiff == 1 {
-            currentStreak += 1
-        } else {
-            currentStreak = 1
+            // Already counted today.
+            return false
+        }
+        if daysDiff < 0 {
+            // Clock/timezone moved backwards — never punish the user for it.
+            return false
         }
 
+        currentStreak = daysDiff == 1 ? currentStreak + 1 : 1
         longestStreak = max(longestStreak, currentStreak)
         lastActiveDate = today
+        return true
     }
 }

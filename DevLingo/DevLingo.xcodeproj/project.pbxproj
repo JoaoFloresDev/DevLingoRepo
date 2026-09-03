@@ -15,6 +15,7 @@
 		140E354D4F10D361D62339CD /* DifficultyBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7170A664AF0E34FE862D55 /* DifficultyBadge.swift */; };
 		143F4F4FAF665A7444CDEA6C /* DevLingoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0FB1BC5F83AE8602E0CB9 /* DevLingoWidget.swift */; };
 		1E207427BE01DDDF4ECD8EEF /* phrases_standup.json in Resources */ = {isa = PBXBuildFile; fileRef = 32CBC9A7BAB476BF19087D3B /* phrases_standup.json */; };
+		22734947907DE28340C1978F /* StreakReminderPrimerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9EE973A514338D1AC8D06 /* StreakReminderPrimerSheet.swift */; };
 		2397052A730A189D9BF8B6E3 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0069757E7F24B820107B6B /* AnalyticsService.swift */; };
 		254711F5279CDA80DCD3F2E3 /* DevLingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */; };
 		25B8795114B985F82B3A596A /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C485ACCD634FA390AB3A0 /* PaywallView.swift */; };
@@ -32,6 +33,7 @@
 		5C867430DE1BA3DD8DFC9A04 /* DevLingoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488B68B9091517446D78C8A /* DevLingoWidgetBundle.swift */; };
 		5C89D852F0C71817AD1AC22F /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47765E69102DC559CEDCC72D /* CategoryDetailView.swift */; };
 		5E2A7A4A947A7852B99ADFA2 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFD332F5828F22786E2E52 /* StorageService.swift */; };
+		5E3AA621EF1E2D870F751A94 /* StreakReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2AFCA572C40DCD618CC87 /* StreakReminderService.swift */; };
 		5F448B1F3B1E8BFA475C1661 /* phrases_codeReview.json in Resources */ = {isa = PBXBuildFile; fileRef = 277A60C4192D14EC1DE81C9F /* phrases_codeReview.json */; };
 		60AF8F149BD52A6304524070 /* phrases_casual.json in Resources */ = {isa = PBXBuildFile; fileRef = 33250AFE61086005DBD981D2 /* phrases_casual.json */; };
 		62F81F64FB6D21208AC7717E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30729B881F2BEC9E298EE9C5 /* Date+Extensions.swift */; };
@@ -170,6 +172,7 @@
 		70365AD2EC09FDEE2A5D1EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		74FFD332F5828F22786E2E52 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		754CB8033880CC2263AC90ED /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		7AD9EE973A514338D1AC8D06 /* StreakReminderPrimerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakReminderPrimerSheet.swift; sourceTree = "<group>"; };
 		7B05778B62E12F9269890871 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		7CF0FB1BC5F83AE8602E0CB9 /* DevLingoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoWidget.swift; sourceTree = "<group>"; };
 		7DC81017DD1D49149C5B1928 /* DevLingoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DevLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +203,7 @@
 		DE8B8C61D25ED52F1C92F3A5 /* DevLingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevLingoApp.swift; sourceTree = "<group>"; };
 		E1B87A22B6EB3BB7FFA14CA1 /* DailyPhraseSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPhraseSet.swift; sourceTree = "<group>"; };
 		E7A87B329BE1E423E5181E37 /* DevLingoWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DevLingoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A2AFCA572C40DCD618CC87 /* StreakReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakReminderService.swift; sourceTree = "<group>"; };
 		EED7147D9BF646D4A64A3887 /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
 		F017AF78074B47556ECD8C42 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F2C3A4DA02184A963FBA7D22 /* ProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressService.swift; sourceTree = "<group>"; };
@@ -450,6 +454,7 @@
 				EED7147D9BF646D4A64A3887 /* PurchaseService.swift */,
 				DB7DB56A1646C5F5C64591AA /* ReviewService.swift */,
 				74FFD332F5828F22786E2E52 /* StorageService.swift */,
+				E8A2AFCA572C40DCD618CC87 /* StreakReminderService.swift */,
 				DBA9C33A6F8761A8862D00AB /* WidgetService.swift */,
 			);
 			path = Services;
@@ -486,6 +491,7 @@
 			isa = PBXGroup;
 			children = (
 				9C7170A664AF0E34FE862D55 /* DifficultyBadge.swift */,
+				7AD9EE973A514338D1AC8D06 /* StreakReminderPrimerSheet.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -837,6 +843,8 @@
 				33D5DF060F2B74DDA531FB73 /* SpeechManager.swift in Sources */,
 				639187CF24AEC548567C7623 /* StorageKeys.swift in Sources */,
 				5E2A7A4A947A7852B99ADFA2 /* StorageService.swift in Sources */,
+				22734947907DE28340C1978F /* StreakReminderPrimerSheet.swift in Sources */,
+				5E3AA621EF1E2D870F751A94 /* StreakReminderService.swift in Sources */,
 				66F636FB2B4DE550BD1D038F /* UserLanguage.swift in Sources */,
 				D8E595E522E1AB9006F6C945 /* UserProgress.swift in Sources */,
 				93884691554839FE78DCB311 /* View+Extensions.swift in Sources */,
@@ -934,7 +942,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -948,7 +956,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.8.0;
+				MARKETING_VERSION = 1.9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1047,7 +1055,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NZC6LC8NWM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1067,7 +1075,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.8.0;
+				MARKETING_VERSION = 1.9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

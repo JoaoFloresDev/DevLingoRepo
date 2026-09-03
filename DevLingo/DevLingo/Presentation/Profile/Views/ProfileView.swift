@@ -243,7 +243,7 @@ struct ProfileView: View {
                 statItem(
                     icon: "flame.fill",
                     color: AppColors.accent,
-                    value: "\(viewModel.progress.currentStreak)",
+                    value: "\(viewModel.progress.displayStreak)",
                     label: String(localized: "profile.current_streak")
                 )
 

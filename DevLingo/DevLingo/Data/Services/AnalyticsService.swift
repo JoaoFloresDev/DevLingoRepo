@@ -97,6 +97,17 @@ enum AnalyticsService {
         log("feature_used", ["name": name, "source": source])
     }
 
+    /// Streak grew by one day — at most once per day (guarded by ProgressService).
+    /// `value` carries the streak length so retention can be split by streak depth.
+    static func streakExtended(days: Int) {
+        log("feature_used", ["name": "streak_extended", "source": "home", "value": days])
+    }
+
+    /// Outcome of a system permission prompt (kind: notifications/...).
+    static func permissionResult(kind: String, granted: Bool) {
+        log("permission_result", ["kind": kind, "granted": granted ? "true" : "false"])
+    }
+
     static func screen(_ name: String) {
         Analytics.logEvent(AnalyticsEventScreenView,
                            parameters: [AnalyticsParameterScreenName: name])

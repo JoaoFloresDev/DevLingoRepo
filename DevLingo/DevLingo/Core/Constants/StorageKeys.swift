@@ -29,6 +29,11 @@ enum StorageKeys {
     static let notificationsEnabled = "notificationsEnabled"
     static let dailyReminderTime = "dailyReminderTime"
 
+    // MARK: - Streak Reminder
+    static let streakReminderEnabled = "streakReminderEnabled"
+    static let streakReminderTime = "streakReminderTime"
+    static let streakReminderCardDismissed = "streakReminderCardDismissed"
+
     // MARK: - Review
     static let appOpenCount = "appOpenCount"
     static let lastReviewRequestDate = "lastReviewRequestDate"

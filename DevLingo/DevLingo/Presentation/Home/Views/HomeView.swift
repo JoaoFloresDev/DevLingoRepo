@@ -7,6 +7,9 @@ struct HomeView: View {
     @StateObject private var viewModel = HomeViewModel()
     @StateObject private var router = AppRouter.shared
     @State private var highlightedPhraseID: String?
+    @State private var showReminderPrimer = false
+    @State private var showReminderDeniedAlert = false
+    @State private var isCheckingReminderPermission = false
 
     // MARK: - Body
 
@@ -20,6 +23,9 @@ struct HomeView: View {
                     VStack(spacing: AppSpacing.lg) {
                         headerSection
                         streakAndProgress
+                        if viewModel.showReminderCard {
+                            reminderCard
+                        }
                         translationToggle
                         phrasesSection
                     }
@@ -39,6 +45,51 @@ struct HomeView: View {
         }
         .onAppear {
             viewModel.loadData()
+        }
+        .sheet(isPresented: $showReminderPrimer) {
+            StreakReminderPrimerSheet(source: "home_card") { granted in
+                viewModel.refreshReminderCard()
+                if !granted {
+                    showReminderDeniedAlert = true
+                }
+            }
+            .presentationDetents([.medium])
+            .presentationDragIndicator(.visible)
+        }
+        .alert(String(localized: "reminder.denied.title"), isPresented: $showReminderDeniedAlert) {
+            Button(String(localized: "reminder.denied.settings")) {
+                if let url = URL(string: UIApplication.openSettingsURLString) {
+                    UIApplication.shared.open(url)
+                }
+            }
+            Button(String(localized: "reminder.denied.later"), role: .cancel) {}
+        } message: {
+            Text(String(localized: "reminder.denied.body"))
+        }
+    }
+
+    // MARK: - Reminder Opt-in
+
+    private func enableReminderTapped() {
+        guard !isCheckingReminderPermission else { return }
+        isCheckingReminderPermission = true
+        HapticManager.lightImpact()
+
+        Task {
+            let status = await NotificationService.shared.authorizationStatus()
+            isCheckingReminderPermission = false
+
+            switch status {
+            case .denied:
+                showReminderDeniedAlert = true
+            case .authorized, .provisional, .ephemeral:
+                StreakReminderService.shared.enable()
+                AnalyticsService.feature("reminder_enabled", source: "home_card")
+                HapticManager.success()
+                viewModel.refreshReminderCard()
+            default:
+                showReminderPrimer = true
+            }
         }
     }
 
@@ -91,10 +142,12 @@ struct HomeView: View {
                     Image(systemName: "flame.fill")
                         .foregroundStyle(AppColors.accent)
                         .font(.system(size: 20))
+                        .scaleEffect(viewModel.streakJustExtended ? 1.35 : 1.0)
 
-                    Text("\(viewModel.progress.currentStreak)")
+                    Text("\(viewModel.streakDays)")
                         .font(AppFonts.statNumber)
                         .foregroundStyle(AppColors.textPrimary)
+                        .contentTransition(.numericText())
                 }
 
                 Text(String(localized: "home.streak_days"))
@@ -105,6 +158,11 @@ struct HomeView: View {
             .padding(.vertical, AppSpacing.lg)
             .background(AppColors.surface)
             .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
+            .scaleEffect(viewModel.streakJustExtended ? 1.06 : 1.0)
+            .accessibilityElement(children: .combine)
+            .accessibilityIdentifier("streak.counter")
+            .accessibilityLabel(String(localized: "home.streak_days"))
+            .accessibilityValue("\(viewModel.streakDays)")
 
             // Progress card
             VStack(spacing: AppSpacing.xs) {
@@ -142,6 +200,68 @@ struct HomeView: View {
             .background(AppColors.surface)
             .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
         }
+    }
+
+    // MARK: - Reminder Card
+
+    private var reminderCard: some View {
+        VStack(alignment: .leading, spacing: AppSpacing.md) {
+            HStack(alignment: .top, spacing: AppSpacing.md) {
+                Image(systemName: "bell.badge.fill")
+                    .font(.system(size: 24))
+                    .foregroundStyle(AppColors.accent)
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(String(localized: "home.reminder.card.title"))
+                        .font(AppFonts.headline)
+                        .foregroundStyle(AppColors.textPrimary)
+
+                    Text(String(localized: "home.reminder.card.subtitle"))
+                        .font(AppFonts.footnote)
+                        .foregroundStyle(AppColors.textSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+
+                Spacer()
+
+                Button {
+                    viewModel.dismissReminderCard()
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 12, weight: .bold))
+                        .foregroundStyle(AppColors.textTertiary)
+                        .frame(minWidth: 44, minHeight: 44)
+                        .contentShape(Rectangle())
+                }
+                .accessibilityIdentifier("reminder.card.dismiss")
+                .accessibilityLabel(String(localized: "reminder.card.dismiss"))
+            }
+
+            Button {
+                enableReminderTapped()
+            } label: {
+                Group {
+                    if isCheckingReminderPermission {
+                        ProgressView()
+                            .tint(.white)
+                    } else {
+                        Text(String(localized: "home.reminder.card.cta"))
+                            .font(.system(size: 16, weight: .semibold))
+                    }
+                }
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity, minHeight: 48)
+                .background(AppColors.primary)
+                .clipShape(Capsule())
+            }
+            .disabled(isCheckingReminderPermission)
+            .accessibilityIdentifier("reminder.card.enable")
+            .accessibilityLabel(String(localized: "home.reminder.card.cta"))
+        }
+        .padding(AppSpacing.lg)
+        .background(AppColors.surface)
+        .clipShape(RoundedRectangle(cornerRadius: AppSpacing.cornerRadiusLarge))
+        .transition(.opacity.combined(with: .move(edge: .top)))
     }
 
     // MARK: - Translation Toggle
